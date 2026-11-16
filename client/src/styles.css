@@ -36,7 +36,8 @@ h1, h2, h3 { margin: 0; }
 .center-text { text-align: center; }
 .stack { display: flex; flex-direction: column; gap: 16px; }
 .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 12px; }
-.row.center { justify-content: center; }
+/* .center (màn hình tải) có min-height:100vh + grid — hàng nút căn giữa phải ghi đè, nếu không sẽ cao bằng cả màn hình */
+.row.center { display: flex; min-height: 0; justify-content: center; }
 .zh { font-family: var(--zh-font); }
 
 /* Layout */
@@ -149,6 +150,8 @@ input:focus, select:focus { outline: 2px solid var(--primary); outline-offset: 1
 /* Speak */
 .speak { display: flex; flex-direction: column; gap: 10px; align-items: center; }
 .mic { width: 88px; height: 88px; border-radius: 50%; border: 0; background: var(--primary); color: #fff; font-size: 2.2rem; cursor: pointer; margin-top: 8px; box-shadow: var(--shadow); }
+.speak-controls { display: flex; align-items: center; justify-content: center; gap: 16px; }
+.speak-controls .mic { margin-top: 0; }
 .mic.on { background: var(--danger); animation: pulse 1s infinite; }
 @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(224,86,91,.5); } 100% { box-shadow: 0 0 0 20px rgba(224,86,91,0); } }
 .score { font-size: 2.4rem; font-weight: 800; }
