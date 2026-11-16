@@ -150,8 +150,6 @@ input:focus, select:focus { outline: 2px solid var(--primary); outline-offset: 1
 /* Speak */
 .speak { display: flex; flex-direction: column; gap: 10px; align-items: center; }
 .mic { width: 88px; height: 88px; border-radius: 50%; border: 0; background: var(--primary); color: #fff; font-size: 2.2rem; cursor: pointer; margin-top: 8px; box-shadow: var(--shadow); }
-.speak-controls { display: flex; align-items: center; justify-content: center; gap: 16px; }
-.speak-controls .mic { margin-top: 0; }
 .mic.on { background: var(--danger); animation: pulse 1s infinite; }
 @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(224,86,91,.5); } 100% { box-shadow: 0 0 0 20px rgba(224,86,91,0); } }
 .score { font-size: 2.4rem; font-weight: 800; }
@@ -256,3 +254,23 @@ input:focus, select:focus { outline: 2px solid var(--primary); outline-offset: 1
 
 /* Settings */
 .settings .howto { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px; }
+
+/* Speak: cụm mic gọn ngay dưới từ, dính đáy màn hình trên điện thoại */
+.speak .speak-word { display: flex; flex-direction: column; gap: 6px; align-items: center; }
+.speak .listen-row { margin-top: 4px; }
+.speak-controls { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; width: 100%; max-width: 420px; margin: 4px auto 0; }
+.speak-controls .nav-btn:first-child { justify-self: end; }
+.speak-controls .nav-btn:last-of-type { justify-self: start; }
+.speak-controls .mic { margin-top: 0; width: 76px; height: 76px; font-size: 2rem; }
+.speak-controls .mic-hint { grid-column: 1 / -1; text-align: center; }
+@media (max-width: 640px) {
+  .speak-page .term { font-size: 2rem; }
+  .speak-page .term.zh { font-size: 2.6rem; }
+  .speak-page .term.sentence { font-size: 1.25rem; }
+  .speak-controls {
+    position: sticky; bottom: 0; z-index: 5; max-width: none;
+    background: var(--surface); border-top: 1px solid var(--border);
+    padding: 10px 8px calc(10px + env(safe-area-inset-bottom)); margin: 0 -18px -18px; width: calc(100% + 36px);
+    border-radius: 0 0 var(--radius) var(--radius);
+  }
+}

@@ -23,6 +23,7 @@ export default function Speak() {
 
   const cancelRecording = () => {
     sessionRef.current++;
+    recRef.current?.abort();
     recRef.current = null;
     stopListening();
     setRecording(false);
@@ -33,7 +34,8 @@ export default function Speak() {
     api(`/cards?lang=${lang}${deckQuery(deck, myLevel)}`).then((d) => { setCards(d.cards); setIdx(0); setResult(null); setError(''); });
   }, [lang, deck]);
 
-  useEffect(() => () => { sessionRef.current++; stopListening(); }, []);
+  // Rời trang: tắt mic
+  useEffect(() => () => { sessionRef.current++; recRef.current?.abort(); stopListening(); }, []);
 
   const card = cards[idx];
   const text = card ? (target === 'sentence' && card.example ? card.example : card.term) : '';
@@ -41,18 +43,18 @@ export default function Speak() {
   const record = async () => {
     // Đang nghe mà bấm lại → dừng và chấm phần đã nói
     if (recording) { recRef.current?.stop(); return; }
+    if (!card) return;
     const session = ++sessionRef.current;
     const cardNow = card, textNow = text;
     setError('');
     setResult(null);
     setRecording(true);
     try {
-      const r = await listen(lang);
-      if (session !== sessionRef.current) { r.abort(); return; }
+      const r = listen(lang);
       recRef.current = r;
       const { transcripts, aborted } = await r.promise;
       if (session !== sessionRef.current || aborted) return;
-      if (!transcripts.length) throw new Error('Không nghe thấy giọng nói, hãy thử lại');
+      if (!transcripts.length) throw new Error('Không nghe thấy giọng nói, hãy bấm mic và đọc lại.');
       const res = scorePronunciation(textNow, transcripts, lang);
       setResult(res);
       logActivity({ kind: 'speak', lang, cardId: cardNow.id, correct: res.score >= 80, score: res.score });
@@ -84,7 +86,7 @@ export default function Speak() {
   const verdict = (s) => (s >= 90 ? ['Tuyệt vời!', 'ok'] : s >= 70 ? ['Khá tốt, gần đúng rồi', 'warn'] : ['Chưa chuẩn, thử lại nhé', 'bad']);
 
   return (
-    <div className="stack">
+    <div className="stack speak-page">
       <div className="toolbar">
         <h2>Luyện phát âm</h2>
         <DeckPicker lang={lang} value={deck} onChange={setDeck} />
@@ -96,28 +98,33 @@ export default function Speak() {
 
       {card && (
         <div className="card speak center-text">
-          <div className="muted small">{idx + 1}/{cards.length}</div>
-          <div className={`term ${lang === 'zh' ? 'zh' : ''} ${target === 'sentence' ? 'sentence' : ''}`}>{text}</div>
-          {target === 'word' && <div className="phonetic">{card.phonetic}</div>}
-          <div className="muted">{target === 'sentence' ? card.example_vi : card.meaning_vi}</div>
-          <div className="row center">
-            <SpeakButton text={text} lang={lang} label="Nghe mẫu" />
-            <SpeakButton text={text} lang={lang} slow label="Chậm" />
+          <div className="speak-word">
+            <div className="muted small">{idx + 1}/{cards.length}</div>
+            <div className={`term ${lang === 'zh' ? 'zh' : ''} ${target === 'sentence' ? 'sentence' : ''}`}>{text}</div>
+            {target === 'word' && <div className="phonetic">{card.phonetic}</div>}
+            <div className="muted">{target === 'sentence' ? card.example_vi : card.meaning_vi}</div>
+            <div className="row center listen-row">
+              <SpeakButton text={text} lang={lang} label="Nghe mẫu" />
+              <SpeakButton text={text} lang={lang} slow label="Chậm" />
+            </div>
           </div>
+
+          {/* Cụm điều khiển: ngay dưới từ; trên điện thoại dính ở đáy màn hình */}
           <div className="speak-controls">
-            <button className="btn ghost" onClick={() => next(-1)} aria-label="Từ trước">‹ Trước</button>
+            <button className="btn ghost nav-btn" onClick={() => next(-1)} aria-label="Từ trước">‹ Trước</button>
             <button className={`mic ${recording ? 'on' : ''}`} onClick={record} aria-label={recording ? 'Bấm để dừng' : 'Bấm để nói'}>
               {recording ? '⏹' : '🎤'}
             </button>
-            <button className="btn ghost" onClick={() => next(1)} aria-label="Từ sau">Sau ›</button>
+            <button className="btn ghost nav-btn" onClick={() => next(1)} aria-label="Từ sau">Sau ›</button>
+            <div className="muted small mic-hint">{recording ? 'Đang nghe… đọc to và rõ (bấm lại để dừng)' : 'Bấm micro rồi đọc'}</div>
           </div>
-          <div className="muted small">{recording ? 'Đang nghe… đọc to và rõ (bấm lại để dừng)' : 'Bấm micro rồi đọc'}</div>
           {error && <div className="error">{error}</div>}
           {result && (
             <div className={`feedback ${verdict(result.score)[1]}`}>
               <div className="score">{result.score}<span className="small">/100</span></div>
               <div>{verdict(result.score)[0]}</div>
               <div className="small">Máy nghe được: “<span className={lang === 'zh' ? 'zh' : ''}>{result.heard}</span>”</div>
+              <button className="btn primary sm" onClick={() => next(1)}>Từ tiếp theo ›</button>
             </div>
           )}
         </div>
