@@ -3,7 +3,7 @@ import { api, logActivity } from '../lib/api.js';
 import { useLang } from '../lib/lang.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import { deckQuery } from '../lib/levels.js';
-import { listen, scorePronunciation, sttSupported } from '../lib/speech.js';
+import { listen, scorePronunciation, stopListening, sttSupported } from '../lib/speech.js';
 import DeckPicker from '../components/DeckPicker.jsx';
 import SpeakButton from '../components/SpeakButton.jsx';
 
@@ -18,36 +18,59 @@ export default function Speak() {
   const [result, setResult] = useState(null);
   const [error, setError] = useState('');
   const recRef = useRef(null);
+  // Mỗi lần bấm mic / đổi thẻ tăng số phiên; kết quả của phiên cũ bị bỏ qua
+  const sessionRef = useRef(0);
+
+  const cancelRecording = () => {
+    sessionRef.current++;
+    recRef.current = null;
+    stopListening();
+    setRecording(false);
+  };
 
   useEffect(() => {
-    api(`/cards?lang=${lang}${deckQuery(deck, myLevel)}`).then((d) => { setCards(d.cards); setIdx(0); setResult(null); });
+    cancelRecording();
+    api(`/cards?lang=${lang}${deckQuery(deck, myLevel)}`).then((d) => { setCards(d.cards); setIdx(0); setResult(null); setError(''); });
   }, [lang, deck]);
 
-  useEffect(() => () => recRef.current?.abort(), []);
+  useEffect(() => () => { sessionRef.current++; stopListening(); }, []);
 
   const card = cards[idx];
   const text = card ? (target === 'sentence' && card.example ? card.example : card.term) : '';
 
   const record = async () => {
+    // Đang nghe mà bấm lại → dừng và chấm phần đã nói
+    if (recording) { recRef.current?.stop(); return; }
+    const session = ++sessionRef.current;
+    const cardNow = card, textNow = text;
     setError('');
     setResult(null);
     setRecording(true);
     try {
-      const r = listen(lang);
+      const r = await listen(lang);
+      if (session !== sessionRef.current) { r.abort(); return; }
       recRef.current = r;
-      const { transcripts } = await r.promise;
+      const { transcripts, aborted } = await r.promise;
+      if (session !== sessionRef.current || aborted) return;
       if (!transcripts.length) throw new Error('Không nghe thấy giọng nói, hãy thử lại');
-      const res = scorePronunciation(text, transcripts, lang);
+      const res = scorePronunciation(textNow, transcripts, lang);
       setResult(res);
-      logActivity({ kind: 'speak', lang, cardId: card.id, correct: res.score >= 80, score: res.score });
+      logActivity({ kind: 'speak', lang, cardId: cardNow.id, correct: res.score >= 80, score: res.score });
     } catch (e) {
-      setError(e.message);
+      if (session === sessionRef.current) setError(e.message);
     } finally {
-      setRecording(false);
+      if (session === sessionRef.current) { recRef.current = null; setRecording(false); }
     }
   };
 
-  const next = (d) => { setIdx((i) => (i + d + cards.length) % cards.length); setResult(null); setError(''); };
+  const next = (d) => {
+    cancelRecording();
+    setIdx((i) => (i + d + cards.length) % cards.length);
+    setResult(null);
+    setError('');
+  };
+
+  const switchTarget = (t) => { cancelRecording(); setTarget(t); setResult(null); setError(''); };
 
   if (!sttSupported()) {
     return (
@@ -66,8 +89,8 @@ export default function Speak() {
         <h2>Luyện phát âm</h2>
         <DeckPicker lang={lang} value={deck} onChange={setDeck} />
         <div className="seg">
-          <button className={target === 'word' ? 'active' : ''} onClick={() => { setTarget('word'); setResult(null); }}>Từ</button>
-          <button className={target === 'sentence' ? 'active' : ''} onClick={() => { setTarget('sentence'); setResult(null); }}>Câu ví dụ</button>
+          <button className={target === 'word' ? 'active' : ''} onClick={() => switchTarget('word')}>Từ</button>
+          <button className={target === 'sentence' ? 'active' : ''} onClick={() => switchTarget('sentence')}>Câu ví dụ</button>
         </div>
       </div>
 
@@ -81,10 +104,14 @@ export default function Speak() {
             <SpeakButton text={text} lang={lang} label="Nghe mẫu" />
             <SpeakButton text={text} lang={lang} slow label="Chậm" />
           </div>
-          <button className={`mic ${recording ? 'on' : ''}`} onClick={record} disabled={recording} aria-label="Bấm để nói">
-            {recording ? '🎙️' : '🎤'}
-          </button>
-          <div className="muted small">{recording ? 'Đang nghe… hãy đọc to và rõ' : 'Bấm micro rồi đọc'}</div>
+          <div className="speak-controls">
+            <button className="btn ghost" onClick={() => next(-1)} aria-label="Từ trước">‹ Trước</button>
+            <button className={`mic ${recording ? 'on' : ''}`} onClick={record} aria-label={recording ? 'Bấm để dừng' : 'Bấm để nói'}>
+              {recording ? '⏹' : '🎤'}
+            </button>
+            <button className="btn ghost" onClick={() => next(1)} aria-label="Từ sau">Sau ›</button>
+          </div>
+          <div className="muted small">{recording ? 'Đang nghe… đọc to và rõ (bấm lại để dừng)' : 'Bấm micro rồi đọc'}</div>
           {error && <div className="error">{error}</div>}
           {result && (
             <div className={`feedback ${verdict(result.score)[1]}`}>
@@ -93,10 +120,6 @@ export default function Speak() {
               <div className="small">Máy nghe được: “<span className={lang === 'zh' ? 'zh' : ''}>{result.heard}</span>”</div>
             </div>
           )}
-          <div className="row center">
-            <button className="btn ghost" onClick={() => next(-1)}>‹ Trước</button>
-            <button className="btn ghost" onClick={() => next(1)}>Sau ›</button>
-          </div>
         </div>
       )}
     </div>

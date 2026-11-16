@@ -30,12 +30,36 @@ export function speak(text, lang, rate = 0.9) {
 const Recognition = typeof window !== 'undefined' && (window.SpeechRecognition || window.webkitSpeechRecognition);
 export const sttSupported = () => !!Recognition;
 
-// Trả về Promise<{ transcripts: string[] }>; hàm abort trả kèm để huỷ.
-export function listen(lang) {
+// Chrome chỉ cho một phiên nhận dạng chạy tại một thời điểm. Nếu phiên cũ chưa kết thúc hẳn
+// (vd. vừa bấm Sau/Trước khi đang nghe) mà đã start phiên mới thì phiên mới lỗi "aborted"
+// hoặc không nghe được gì — nên phải huỷ phiên cũ và chờ nó 'end' rồi mới bắt đầu.
+let active = null; // { rec, ended: Promise<void> }
+
+export function stopListening() {
+  if (!active) return Promise.resolve();
+  const { rec, ended } = active;
+  try { rec.abort(); } catch { /* đã dừng */ }
+  // Phòng khi trình duyệt không bắn 'end' sau abort
+  return Promise.race([ended, new Promise((r) => setTimeout(r, 600))]);
+}
+
+// Trả về { promise: Promise<{ transcripts: string[] }>, abort, stop }.
+// abort → promise resolve với { aborted: true } (không coi là lỗi).
+export async function listen(lang) {
+  await stopListening();
+  if (ttsSupported()) speechSynthesis.cancel(); // tránh mic thu lại giọng đọc mẫu
+
   const rec = new Recognition();
   rec.lang = LOCALE[lang] || lang;
   rec.interimResults = false;
+  rec.continuous = false;
   rec.maxAlternatives = 5;
+
+  let markEnded;
+  const ended = new Promise((r) => { markEnded = r; });
+  const entry = { rec, ended };
+  active = entry;
+
   const promise = new Promise((resolve, reject) => {
     let done = false;
     rec.onresult = (e) => {
@@ -43,11 +67,29 @@ export function listen(lang) {
       const alts = Array.from(e.results[0] || []).map((a) => a.transcript);
       resolve({ transcripts: alts });
     };
-    rec.onerror = (e) => { done = true; reject(new Error(e.error === 'not-allowed' ? 'Trình duyệt chưa cho phép dùng micro' : e.error === 'no-speech' ? 'Không nghe thấy giọng nói' : `Lỗi nhận dạng: ${e.error}`)); };
-    rec.onend = () => { if (!done) resolve({ transcripts: [] }); };
+    rec.onerror = (e) => {
+      done = true;
+      if (e.error === 'aborted') return resolve({ transcripts: [], aborted: true });
+      reject(new Error(e.error === 'not-allowed' || e.error === 'service-not-allowed' ? 'Trình duyệt chưa cho phép dùng micro'
+        : e.error === 'no-speech' ? 'Không nghe thấy giọng nói, hãy thử lại'
+        : e.error === 'audio-capture' ? 'Không tìm thấy micro'
+        : `Lỗi nhận dạng: ${e.error}`));
+    };
+    rec.onend = () => {
+      if (active === entry) active = null;
+      markEnded();
+      if (!done) resolve({ transcripts: [] });
+    };
   });
-  rec.start();
-  return { promise, abort: () => rec.abort() };
+
+  try {
+    rec.start();
+  } catch (err) {
+    if (active === entry) active = null;
+    markEnded();
+    throw new Error('Micro đang bận, hãy thử lại');
+  }
+  return { promise, abort: () => { try { rec.abort(); } catch { /* đã dừng */ } }, stop: () => { try { rec.stop(); } catch { /* đã dừng */ } } };
 }
 
 // Chuẩn hoá để so sánh: bỏ dấu câu, chữ thường
