@@ -1,0 +1,18 @@
+# Render Blueprint: Dashboard → New → Blueprint → chọn repo này
+services:
+  - type: web
+    name: linguaviet
+    runtime: docker
+    plan: starter            # cần gói trả phí: gói free không gắn được ổ đĩa và tự ngủ
+    healthCheckPath: /api/health
+    disk:
+      name: data
+      mountPath: /data       # DB + vapid.json (Dockerfile đặt DB_PATH=/data/langapp.db)
+      sizeGB: 1
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true  # Render tự tạo chuỗi ngẫu nhiên
+      - key: VAPID_SUBJECT
+        sync: false          # Render sẽ hỏi bạn nhập, vd mailto:email-cua-ban@example.com
