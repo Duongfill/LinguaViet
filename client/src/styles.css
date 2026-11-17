@@ -330,3 +330,75 @@ a.btn { display: inline-flex; align-items: center; gap: 4px; }
 .dict-answer .zh { font-size: 1.6rem; }
 .dict-ok { color: var(--ok); }
 .dict-miss { color: var(--danger); text-decoration: underline wavy; text-underline-offset: 4px; }
+
+/* ================= Điện thoại ================= */
+:root { --tabbar-h: 60px; }
+.show-mobile { display: none; }
+.tabbar { display: none; }
+button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+
+@media (max-width: 640px) {
+  .hide-mobile, .brand-text { display: none !important; }
+  .show-mobile { display: inline; }
+  h2 { font-size: 1.3rem; }
+  .card { padding: 14px; }
+  /* iOS tự phóng to khi chạm vào ô nhập chữ < 16px */
+  input:not([type=checkbox]), select, textarea { font-size: 16px; }
+
+  .app { padding: 0 12px calc(var(--tabbar-h) + 20px + env(safe-area-inset-bottom)); }
+  .stack { gap: 12px; }
+
+  /* Đầu trang: một dòng, dính trên cùng */
+  .topbar { position: sticky; top: 0; z-index: 20; background: var(--bg); flex-wrap: nowrap; gap: 8px;
+    padding: calc(8px + env(safe-area-inset-top)) 0 8px; margin: 0 -12px 10px; padding-left: 12px; padding-right: 12px;
+    border-bottom: 1px solid var(--border); }
+  .brand { font-size: 1.4rem; }
+  .lang-switch { order: 0; width: auto; margin: 0 auto; }
+  .lang-switch button { padding: 6px 12px; }
+  .level-btn { padding: 6px 10px; }
+
+  /* Thanh điều hướng trên → ẩn; dùng thanh đáy */
+  .nav { display: none; }
+  .tabbar { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; height: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
+    padding-bottom: env(safe-area-inset-bottom); background: var(--surface); border-top: 1px solid var(--border);
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, .08); }
+  .tabbar a, .tabbar button { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+    border: 0; background: none; color: var(--muted); font-size: .7rem; cursor: pointer; padding: 0; }
+  .tabbar .ico { font-size: 1.35rem; line-height: 1; }
+  .tabbar .active { color: var(--primary); font-weight: 700; }
+  .tabbar .active .ico { transform: translateY(-1px); }
+
+  /* Bảng "Thêm" nằm ngay trên thanh đáy để bấm "Thêm" lần nữa là đóng */
+  .sheet-backdrop { position: fixed; inset: 0; z-index: 25; background: rgba(0, 0, 0, .45); }
+  .sheet { position: fixed; left: 0; right: 0; bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom)); z-index: 28;
+    background: var(--surface); border-radius: 18px 18px 0 0; padding: 16px 14px 14px; border-top: 1px solid var(--border);
+    box-shadow: 0 -6px 24px rgba(0, 0, 0, .25); animation: sheet-up .18s ease-out; }
+  .sheet-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .sheet-grid a { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 14px 4px; border-radius: 14px;
+    background: var(--bg); border: 1px solid var(--border); font-size: .82rem; text-align: center; }
+  .sheet-grid a .ico { font-size: 1.5rem; }
+  .sheet-grid a.active { border-color: var(--primary); color: var(--primary); font-weight: 700; }
+  .sheet-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border); }
+
+  /* Thanh công cụ của từng trang: ô chọn phạm vi chiếm hết dòng */
+  .toolbar { gap: 8px; }
+  .toolbar h2 { flex: 1 1 100%; }
+  .toolbar > select { flex: 1 1 160px; min-width: 0; } /* không đủ chỗ thì nút chế độ xuống dòng dưới */
+  .deck-head > .small { white-space: nowrap; }
+
+  /* Ô số liệu 2 cột */
+  .grid.stats { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .grid.stats .card { padding: 12px; }
+  .stat-value { font-size: 1.35rem; }
+  .grid.actions { gap: 10px; }
+
+  /* Cụm mic trang Phát âm dính phía trên thanh đáy */
+  .speak-controls { bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom)); }
+
+  .flashcard { min-height: 280px; }
+  .lp-row { grid-template-columns: 52px 1fr auto; }
+  .lp-label .badge { display: none; }
+  .tile { min-height: 58px; font-size: .95rem; }
+}
+@keyframes sheet-up { from { transform: translateY(100%); } to { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .sheet { animation: none; } }

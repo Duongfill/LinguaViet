@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { NavLink, Navigate, Route, Routes } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { NavLink, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import LevelPicker from './components/LevelPicker.jsx';
 import { levelShort } from './lib/levels.js';
 import { useAuth } from './lib/auth.jsx';
@@ -48,14 +48,22 @@ function Shell() {
     ['/rank', 'Xếp hạng', '🏆'],
     ['/settings', 'Cài đặt', '⚙️'],
   ];
+  // Điện thoại: 4 mục chính ở thanh đáy, còn lại trong bảng "Thêm"
+  const TAB_PATHS = ['/', '/flashcards', '/decks', '/speak'];
+  const tabs = TAB_PATHS.map((p) => links.find((l) => l[0] === p));
+  const more = links.filter((l) => !TAB_PATHS.includes(l[0]));
+  const { pathname } = useLocation();
+  const [moreOpen, setMoreOpen] = useState(false);
+  useEffect(() => setMoreOpen(false), [pathname, lang]);
+  const inMore = more.some(([to]) => pathname === to);
   return (
     <div className="app">
       <header className="topbar">
-        <div className="brand">📚 LinguaViet</div>
+        <div className="brand">📚<span className="brand-text"> LinguaViet</span></div>
         <div className="lang-switch" role="tablist" aria-label="Chọn ngôn ngữ">
           {Object.entries(LANG_INFO).map(([k, v]) => (
             <button key={k} role="tab" aria-selected={lang === k} className={lang === k ? 'active' : ''} onClick={() => setLang(k)}>
-              {v.flag} {v.label}
+              {v.flag} <span className="hide-mobile">{v.label}</span><span className="show-mobile">{v.short}</span>
             </button>
           ))}
         </div>
@@ -65,8 +73,8 @@ function Shell() {
               🎯 {levelShort(myLevel)} ▾
             </button>
           )}
-          <span className="muted">{user.name}</span>
-          <button className="btn ghost sm" onClick={logout}>Đăng xuất</button>
+          <span className="muted hide-mobile">{user.name}</span>
+          <button className="btn ghost sm hide-mobile" onClick={logout}>Đăng xuất</button>
         </div>
       </header>
       {!myLevel || picking ? (
@@ -100,6 +108,35 @@ function Shell() {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </main>
+
+      <nav className="tabbar" aria-label="Điều hướng">
+        {tabs.map(([to, label, icon]) => (
+          <NavLink key={to} to={to} end={to === '/'}>
+            <span className="ico" aria-hidden>{icon}</span>{label}
+          </NavLink>
+        ))}
+        <button className={inMore || moreOpen ? 'active' : ''} onClick={() => setMoreOpen((o) => !o)} aria-expanded={moreOpen}>
+          <span className="ico" aria-hidden>☰</span>Thêm
+        </button>
+      </nav>
+      {moreOpen && (
+        <>
+          <div className="sheet-backdrop" onClick={() => setMoreOpen(false)} />
+          <div className="sheet" role="dialog" aria-label="Các mục khác">
+            <div className="sheet-grid">
+              {more.map(([to, label, icon]) => (
+                <NavLink key={to} to={to}>
+                  <span className="ico" aria-hidden>{icon}</span>{label}
+                </NavLink>
+              ))}
+            </div>
+            <div className="sheet-foot">
+              <span className="muted small">👤 {user.name}</span>
+              <button className="btn ghost sm" onClick={logout}>Đăng xuất</button>
+            </div>
+          </div>
+        </>
+      )}
       </>
       )}
     </div>
