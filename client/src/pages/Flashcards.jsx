@@ -4,6 +4,7 @@ import { useLang } from '../lib/lang.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import { deckQuery } from '../lib/levels.js';
 import { speak } from '../lib/speech.js';
+import { LEARNED_REPS, formatInterval, sm2Preview } from '../lib/srs.js';
 import DeckPicker from '../components/DeckPicker.jsx';
 import SpeakButton from '../components/SpeakButton.jsx';
 
@@ -40,8 +41,8 @@ export default function Flashcards() {
   const answer = useCallback(async (grade) => {
     if (!card) return;
     const rest = queue.slice(1);
-    // Thẻ bị "Quên" được đưa lại cuối hàng đợi để ôn lại trong phiên
-    setQueue(grade < 3 ? [...rest, card] : rest);
+    // Thẻ bị "Quên" được đưa lại cuối hàng đợi để ôn lại trong phiên (mang theo trạng thái mới để xem trước đúng)
+    setQueue(grade < 3 ? [...rest, { ...card, ...sm2Preview(card, grade) }] : rest);
     setFlipped(false);
     setDone((d) => ({ total: d.total + 1, ok: d.ok + (grade >= 3 ? 1 : 0) }));
     api('/review', { method: 'POST', body: { cardId: card.id, grade } }).catch(() => {});
@@ -99,13 +100,27 @@ export default function Flashcards() {
             </div>
           </div>
           {flipped ? (
-            <div className="grades">
-              {GRADES.map((g) => (
-                <button key={g.grade} className={`btn ${g.cls}`} onClick={() => answer(g.grade)}>
-                  {g.label} <span className="kbd">{g.key}</span>
-                </button>
-              ))}
-            </div>
+            <>
+              <div className="grades">
+                {GRADES.map((g) => {
+                  const next = sm2Preview(card, g.grade);
+                  return (
+                    <button key={g.grade} className={`btn ${g.cls} grade-btn`} onClick={() => answer(g.grade)}
+                      title={`Ôn lại sau ${formatInterval(next.interval)}`}>
+                      <span>{g.label} <span className="kbd">{g.key}</span></span>
+                      <span className="grade-when">{formatInterval(next.interval)}</span>
+                    </button>
+                  );
+                })}
+              </div>
+              <div className="muted small center-text">
+                {(card.repetitions || 0) >= LEARNED_REPS
+                  ? '✅ Từ này đã thuộc — chọn Quên sẽ phải học lại từ đầu.'
+                  : (card.repetitions || 0) === LEARNED_REPS - 1
+                    ? 'Chọn Khó / Nhớ / Dễ lần này → từ được tính là đã thuộc.'
+                    : 'Thời gian dưới mỗi nút là lúc thẻ quay lại để ôn. Nhớ 2 lần liên tiếp thì từ được tính là đã thuộc.'}
+              </div>
+            </>
           ) : (
             <button className="btn primary wide" onClick={() => setFlipped(true)}>Xem đáp án</button>
           )}

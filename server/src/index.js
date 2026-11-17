@@ -145,7 +145,7 @@ app.get('/api/review/due', requireAuth, wrap((req, res) => {
   const deckId = deck ? Number(deck) : null;
 
   const due = db.prepare(`
-    SELECT c.*, d.lang, r.repetitions, r.interval FROM reviews r
+    SELECT c.*, d.lang, r.repetitions, r.interval, r.ease FROM reviews r
     JOIN cards c ON c.id = r.card_id JOIN decks d ON d.id = c.deck_id
     WHERE r.user_id = ? AND d.lang = ? AND r.due_at <= ? AND (? IS NULL OR d.id = ?)
     ORDER BY r.due_at LIMIT ?`).all(req.user.id, lang, now, deckId, deckId, limit);
@@ -153,7 +153,7 @@ app.get('/api/review/due', requireAuth, wrap((req, res) => {
   // Thẻ mới: bắt đầu từ trình độ đã chọn (minLevel) trở lên, trình độ thấp trước
   const minLevel = validLevel(lang, req.query.minLevel);
   const newCards = db.prepare(`
-    SELECT c.*, d.lang, d.level, NULL AS repetitions, NULL AS interval FROM cards c
+    SELECT c.*, d.lang, d.level, NULL AS repetitions, NULL AS interval, NULL AS ease FROM cards c
     JOIN decks d ON d.id = c.deck_id
     LEFT JOIN reviews r ON r.card_id = c.id AND r.user_id = ?
     WHERE r.card_id IS NULL AND d.lang = ? AND (? IS NULL OR d.id = ?)

@@ -122,6 +122,8 @@ input:focus, select:focus { outline: 2px solid var(--primary); outline-offset: 1
 .meaning { font-size: 1.4rem; font-weight: 600; }
 .example { background: var(--bg); border-radius: 10px; padding: 10px 14px; font-size: .95rem; }
 .grades { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.grade-btn { display: flex; flex-direction: column; align-items: center; gap: 2px; line-height: 1.2; }
+.grade-when { font-size: .78rem; font-weight: 400; opacity: .85; }
 
 /* Quiz */
 .quiz { display: flex; flex-direction: column; gap: 16px; align-items: stretch; text-align: center; }
