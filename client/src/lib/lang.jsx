@@ -4,8 +4,8 @@ const KEY = 'langapp.lang';
 const LangCtx = createContext(null);
 
 export const LANG_INFO = {
-  en: { label: 'Tiếng Anh', flag: '🇬🇧', phonetic: 'IPA' },
-  zh: { label: 'Tiếng Trung', flag: '🇨🇳', phonetic: 'Pinyin' },
+  en: { label: 'Tiếng Anh', short: 'Anh', flag: '🇬🇧', phonetic: 'IPA' },
+  zh: { label: 'Tiếng Trung', short: 'Trung', flag: '🇨🇳', phonetic: 'Pinyin' },
 };
 
 export function LangProvider({ children }) {
