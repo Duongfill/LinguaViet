@@ -14,6 +14,9 @@ import Speak from './pages/Speak.jsx';
 import Journey from './pages/Journey.jsx';
 import Rank from './pages/Rank.jsx';
 import Settings from './pages/Settings.jsx';
+import Weak from './pages/Weak.jsx';
+import Match from './pages/Match.jsx';
+import Dictation from './pages/Dictation.jsx';
 
 export default function App() {
   const { user, loading } = useAuth();
@@ -36,7 +39,10 @@ function Shell() {
     ['/journey', 'Hành trình', '🗺️'],
     ['/decks', 'Bộ từ', '📚'],
     ['/flashcards', 'Flashcard', '🃏'],
+    ['/weak', 'Từ hay quên', '⚠️'],
     ['/quiz', 'Quiz', '❓'],
+    ['/match', 'Ghép thẻ', '🧩'],
+    ['/dictation', 'Chính tả', '🎧'],
     ['/speak', 'Phát âm', '🎤'],
     ...(lang === 'zh' ? [['/hanzi', 'Chữ Hán', '✍️']] : []),
     ['/rank', 'Xếp hạng', '🏆'],
@@ -87,6 +93,9 @@ function Shell() {
           <Route path="/flashcards" element={<Flashcards />} />
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/speak" element={<Speak />} />
+          <Route path="/weak" element={<Weak />} />
+          <Route path="/match" element={<Match />} />
+          <Route path="/dictation" element={<Dictation />} />
           <Route path="/hanzi" element={lang === 'zh' ? <Hanzi /> : <Navigate to="/" />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

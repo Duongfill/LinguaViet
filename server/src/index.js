@@ -11,6 +11,7 @@ import { seedIfEmpty } from './seed.js';
 import { RANK, validLevel } from './levels.js';
 import { computeStreak, gamifyRouter } from './gamify.js';
 import { pushRouter, startReminderScheduler } from './push.js';
+import { visibleDeck, weakCards, wordsRouter } from './words.js';
 
 seedIfEmpty();
 
@@ -79,7 +80,7 @@ app.put('/api/me/level', requireAuth, wrap((req, res) => {
 // Số từ mỗi trình độ (cho màn hình chọn trình độ)
 app.get('/api/levels', requireAuth, wrap((req, res) => {
   const rows = db.prepare(`SELECT d.lang, d.level, COUNT(c.id) AS total FROM decks d
-    JOIN cards c ON c.deck_id = d.id GROUP BY d.lang, d.level`).all();
+    JOIN cards c ON c.deck_id = d.id WHERE d.owner_id IS NULL GROUP BY d.lang, d.level`).all();
   res.json({ levels: rows });
 }));
 
@@ -97,24 +98,25 @@ app.patch('/api/me', requireAuth, wrap((req, res) => {
 }));
 
 app.use('/api', gamifyRouter);
+app.use('/api', wordsRouter);
 app.use('/api/push', pushRouter);
 
 // ---------- Decks & cards ----------
 app.get('/api/decks', requireAuth, wrap((req, res) => {
   const lang = req.query.lang;
   const rows = db.prepare(`
-    SELECT d.*, COUNT(c.id) AS card_count,
+    SELECT d.*, d.owner_id IS NOT NULL AS mine, COUNT(c.id) AS card_count,
       SUM(CASE WHEN r.repetitions >= 2 THEN 1 ELSE 0 END) AS learned_count
     FROM decks d
     LEFT JOIN cards c ON c.deck_id = d.id
     LEFT JOIN reviews r ON r.card_id = c.id AND r.user_id = ?
-    WHERE (? IS NULL OR d.lang = ?)
+    WHERE (? IS NULL OR d.lang = ?) AND ${visibleDeck(req.user.id)}
     GROUP BY d.id ORDER BY d.lang, d.sort_order`).all(req.user.id, lang ?? null, lang ?? null);
   res.json({ decks: rows });
 }));
 
 app.get('/api/decks/:id/cards', requireAuth, wrap((req, res) => {
-  const deck = db.prepare('SELECT * FROM decks WHERE id = ?').get(req.params.id);
+  const deck = db.prepare(`SELECT * FROM decks d WHERE d.id = ? AND ${visibleDeck(req.user.id)}`).get(req.params.id);
   if (!deck) return res.status(404).json({ error: 'Không tìm thấy bộ thẻ' });
   const cards = db.prepare(`
     SELECT c.*, d.lang, r.repetitions, r.due_at, r.interval
@@ -128,10 +130,11 @@ app.get('/api/decks/:id/cards', requireAuth, wrap((req, res) => {
 app.get('/api/cards', requireAuth, wrap((req, res) => {
   const { lang, deck } = req.query;
   if (!LANGS.has(lang)) return res.status(400).json({ error: 'lang phải là en hoặc zh' });
+  if (req.query.weak) return res.json({ cards: weakCards(req.user.id, lang) });
   const level = validLevel(lang, req.query.level);
   const cards = db.prepare(`
     SELECT c.*, d.lang, d.level FROM cards c JOIN decks d ON d.id = c.deck_id
-    WHERE d.lang = ? AND (? IS NULL OR d.id = ?) AND (? IS NULL OR d.level = ?)
+    WHERE d.lang = ? AND ${visibleDeck(req.user.id)} AND (? IS NULL OR d.id = ?) AND (? IS NULL OR d.level = ?)
     ORDER BY ${RANK('d.level')}, d.sort_order, c.id`).all(lang, deck ?? null, deck ?? null, level, level);
   res.json({ cards });
 }));
@@ -143,11 +146,13 @@ app.get('/api/review/due', requireAuth, wrap((req, res) => {
   const limit = Math.min(Number(req.query.limit) || 20, 100);
   const now = toSqlTime(new Date());
   const deckId = deck ? Number(deck) : null;
+  // Ôn "Từ hay quên": lấy thẳng danh sách đó, không cần đến hạn
+  if (req.query.weak) return res.json({ cards: weakCards(req.user.id, lang, limit) });
 
   const due = db.prepare(`
     SELECT c.*, d.lang, r.repetitions, r.interval, r.ease FROM reviews r
     JOIN cards c ON c.id = r.card_id JOIN decks d ON d.id = c.deck_id
-    WHERE r.user_id = ? AND d.lang = ? AND r.due_at <= ? AND (? IS NULL OR d.id = ?)
+    WHERE r.user_id = ? AND d.lang = ? AND ${visibleDeck(req.user.id)} AND r.due_at <= ? AND (? IS NULL OR d.id = ?)
     ORDER BY r.due_at LIMIT ?`).all(req.user.id, lang, now, deckId, deckId, limit);
 
   // Thẻ mới: bắt đầu từ trình độ đã chọn (minLevel) trở lên, trình độ thấp trước
@@ -156,7 +161,7 @@ app.get('/api/review/due', requireAuth, wrap((req, res) => {
     SELECT c.*, d.lang, d.level, NULL AS repetitions, NULL AS interval, NULL AS ease FROM cards c
     JOIN decks d ON d.id = c.deck_id
     LEFT JOIN reviews r ON r.card_id = c.id AND r.user_id = ?
-    WHERE r.card_id IS NULL AND d.lang = ? AND (? IS NULL OR d.id = ?)
+    WHERE r.card_id IS NULL AND d.lang = ? AND ${visibleDeck(req.user.id)} AND (? IS NULL OR d.id = ?)
       AND (? IS NULL OR ${RANK('d.level')} >= ${RANK('?')})
     ORDER BY ${RANK('d.level')}, d.sort_order, c.id LIMIT ?`)
     .all(req.user.id, lang, deckId, deckId, minLevel, minLevel, Math.max(limit - due.length, 0));
@@ -168,7 +173,7 @@ app.post('/api/review', requireAuth, wrap((req, res) => {
   const cardId = Number(req.body?.cardId);
   const grade = Number(req.body?.grade);
   if (!cardId || ![0, 3, 4, 5].includes(grade)) return res.status(400).json({ error: 'cardId/grade không hợp lệ' });
-  const card = db.prepare('SELECT c.id, d.lang FROM cards c JOIN decks d ON d.id = c.deck_id WHERE c.id = ?').get(cardId);
+  const card = db.prepare(`SELECT c.id, d.lang FROM cards c JOIN decks d ON d.id = c.deck_id WHERE c.id = ? AND ${visibleDeck(req.user.id)}`).get(cardId);
   if (!card) return res.status(404).json({ error: 'Không tìm thấy thẻ' });
 
   const prev = db.prepare('SELECT * FROM reviews WHERE user_id = ? AND card_id = ?').get(req.user.id, cardId);
@@ -213,7 +218,7 @@ app.get('/api/stats', requireAuth, wrap((req, res) => {
         SUM(CASE WHEN r.due_at <= ? THEN 1 ELSE 0 END) AS due
       FROM cards c JOIN decks d ON d.id = c.deck_id
       LEFT JOIN reviews r ON r.card_id = c.id AND r.user_id = ?
-      WHERE d.lang = ?`).get(now, uid, lang);
+      WHERE d.lang = ? AND ${visibleDeck(uid)}`).get(now, uid, lang);
     const acc = db.prepare(`
       SELECT kind, COUNT(*) AS n, AVG(correct) * 100 AS accuracy, AVG(score) AS avg_score
       FROM activity WHERE user_id = ? AND lang = ? GROUP BY kind`).all(uid, lang);
@@ -223,7 +228,7 @@ app.get('/api/stats', requireAuth, wrap((req, res) => {
         SUM(CASE WHEN r.card_id IS NOT NULL THEN 1 ELSE 0 END) AS seen
       FROM cards c JOIN decks d ON d.id = c.deck_id
       LEFT JOIN reviews r ON r.card_id = c.id AND r.user_id = ?
-      WHERE d.lang = ? GROUP BY d.level ORDER BY ${RANK('d.level')}`).all(uid, lang);
+      WHERE d.lang = ? AND d.owner_id IS NULL GROUP BY d.level ORDER BY ${RANK('d.level')}`).all(uid, lang);
     perLang[lang] = { ...totals, byLevel, activity: Object.fromEntries(acc.map((a) => [a.kind, a])) };
   }
 

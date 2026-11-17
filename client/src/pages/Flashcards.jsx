@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { api } from '../lib/api.js';
 import { useLang } from '../lib/lang.jsx';
 import { useAuth } from '../lib/auth.jsx';
@@ -18,7 +19,8 @@ const GRADES = [
 export default function Flashcards() {
   const { lang } = useLang();
   const myLevel = useAuth().user.levels?.[lang];
-  const [deck, setDeck] = useState('');
+  const [params] = useSearchParams();
+  const [deck, setDeck] = useState(params.get('deck') || ''); // ?deck=weak từ trang "Từ hay quên"
   const [queue, setQueue] = useState(null);
   const [flipped, setFlipped] = useState(false);
   const [done, setDone] = useState({ total: 0, ok: 0 });
@@ -72,7 +74,7 @@ export default function Flashcards() {
       {queue && !card && (
         <div className="card center-text">
           <h3>🎉 Hoàn thành!</h3>
-          <p>Bạn đã ôn {done.total} lượt, nhớ {done.ok} lượt. Không còn thẻ đến hạn.</p>
+          <p>Bạn đã ôn {done.total} lượt, nhớ {done.ok} lượt. {deck === 'weak' ? 'Không còn từ hay quên nào.' : 'Không còn thẻ đến hạn.'}</p>
           <button className="btn primary" onClick={load}>Tải thêm thẻ</button>
         </div>
       )}
