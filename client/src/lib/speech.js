@@ -39,7 +39,17 @@ const STT_ERRORS = {
   'language-not-supported': 'Thiết bị chưa hỗ trợ nhận dạng ngôn ngữ này.',
 };
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
-const MAX_LISTEN_MS = 12000; // tự dừng nếu nghe quá lâu
+const MAX_LISTEN_MS = 12000;    // tự dừng nếu nghe quá lâu
+const NO_SPEECH_MS = 7000;      // chưa nghe được gì sau chừng này thì dừng
+const SILENCE_AFTER_MS = 1300;  // đã có lời mà im lặng chừng này thì coi như đọc xong
+const FLICKER_MS = 1500;        // phiên kết thúc nhanh hơn mức này mà chưa có gì → mở lại 1 lần
+
+// iPhone/iPad (mọi trình duyệt trên iOS đều là WebKit) và Safari trên Mac:
+// thường không trả kết quả "chốt" khi interimResults=false và tự tắt rất sớm ở chế độ nghe 1 lần,
+// nên ở đó nghe liên tục + lấy cả kết quả tạm, tự dừng khi người dùng im lặng.
+const ua = typeof navigator !== 'undefined' ? navigator.userAgent : '';
+const isWebKit = /iP(hone|ad|od)/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)
+  || (/Safari\//.test(ua) && !/Chrome|Chromium|CriOS|Edg|Android/.test(ua));
 
 // Chrome chỉ cho một phiên nhận dạng chạy tại một thời điểm. Nếu phiên cũ chưa kết thúc hẳn
 // (vd. vừa bấm Sau/Trước khi đang nghe) mà đã start phiên mới thì phiên mới lỗi "aborted"
@@ -55,53 +65,84 @@ export function stopListening() {
 // - promise → { transcripts: string[], aborted?: boolean }; chỉ kết thúc khi trình duyệt đã nhả micro
 // - abort(): huỷ, promise trả { aborted: true } (không coi là lỗi)
 // - stop(): dừng nghe và chấm phần đã nói
+// Lưu ý: khi không có phiên cũ, rec.start() chạy đồng bộ ngay trong cú bấm (Safari iOS yêu cầu vậy).
 export function listen(lang) {
   let rec = null;
   let cancelled = false;
   let stopRequested = false;
-  const promise = (async () => {
-    // Chờ phiên cũ nhả micro; dừng giọng đọc mẫu để mic không thu lại tiếng máy
-    if (active) { const prev = active; stopListening(); await Promise.race([prev.ended, wait(1000)]); }
-    if (ttsSupported()) speechSynthesis.cancel();
-    if (cancelled) return { transcripts: [], aborted: true };
 
+  // Một lần mở micro; trả { transcripts, error, quick } khi phiên kết thúc
+  const once = () => new Promise((resolve) => {
     rec = new Recognition();
     rec.lang = LOCALE[lang] || lang;
-    rec.interimResults = false;
-    rec.continuous = false;
+    rec.interimResults = true;
+    rec.continuous = isWebKit;
     rec.maxAlternatives = 5;
     let markEnded;
     const me = { rec, ended: new Promise((r) => { markEnded = r; }) };
     active = me;
 
-    return new Promise((resolve, reject) => {
-      let result = null;
-      let error = null;
-      const finish = () => { markEnded(); if (active === me) active = null; };
-      const timer = setTimeout(() => { try { rec.stop(); } catch { /* bỏ qua */ } }, MAX_LISTEN_MS);
-      rec.onresult = (e) => {
-        result = Array.from(e.results[0] || []).map((a) => a.transcript);
-        try { rec.stop(); } catch { /* bỏ qua */ }
-      };
-      rec.onerror = (e) => { error = e.error; };
-      rec.onend = () => {
-        clearTimeout(timer);
-        finish();
-        if (result) resolve({ transcripts: result });
-        else if (cancelled || error === 'aborted') resolve({ transcripts: [], aborted: true });
-        else if (error) reject(new Error(STT_ERRORS[error] || `Lỗi nhận dạng giọng nói (${error}), hãy thử lại.`));
-        else resolve({ transcripts: [] });
-      };
-      try {
-        rec.start();
-        if (stopRequested) rec.stop();
-      } catch {
-        clearTimeout(timer);
-        finish();
-        reject(new Error('Micro đang bận, hãy bấm lại sau 1 giây.'));
+    const startedAt = Date.now();
+    let latest = [];
+    let error = null;
+    let silenceTimer = null;
+    const stopNow = () => { try { rec.stop(); } catch { /* bỏ qua */ } };
+    const maxTimer = setTimeout(stopNow, MAX_LISTEN_MS);
+    const noSpeechTimer = setTimeout(() => { if (!latest.length) stopNow(); }, NO_SPEECH_MS);
+
+    rec.onresult = (e) => {
+      const res = Array.from(e.results);
+      const joined = res.map((r) => r[0]?.transcript || '').join(' ').replace(/\s+/g, ' ').trim();
+      const alts = res.length === 1 ? Array.from(res[0]).map((a) => a.transcript.trim()) : [joined];
+      const found = alts.filter(Boolean);
+      if (found.length) latest = found;
+      if (!rec.continuous && res.every((r) => r.isFinal)) { stopNow(); return; }
+      // Nghe liên tục: đọc xong (im lặng một lúc) thì tự dừng
+      if (rec.continuous && latest.length) {
+        clearTimeout(silenceTimer);
+        silenceTimer = setTimeout(stopNow, SILENCE_AFTER_MS);
       }
-    });
+    };
+    rec.onerror = (e) => { error = e.error; };
+    rec.onend = () => {
+      clearTimeout(maxTimer); clearTimeout(noSpeechTimer); clearTimeout(silenceTimer);
+      markEnded();
+      if (active === me) active = null;
+      resolve({ transcripts: latest, error, quick: Date.now() - startedAt < FLICKER_MS });
+    };
+    try {
+      rec.start();
+      if (stopRequested) stopNow();
+    } catch {
+      clearTimeout(maxTimer); clearTimeout(noSpeechTimer);
+      markEnded();
+      if (active === me) active = null;
+      resolve({ transcripts: [], error: 'busy', quick: true });
+    }
+  });
+
+  const promise = (async () => {
+    // Chờ phiên cũ nhả micro; dừng giọng đọc mẫu để mic không thu lại tiếng máy
+    if (active) { const prev = active; stopListening(); await Promise.race([prev.ended, wait(1000)]); }
+    if (ttsSupported() && (speechSynthesis.speaking || speechSynthesis.pending)) speechSynthesis.cancel();
+    if (cancelled) return { transcripts: [], aborted: true };
+
+    let r = await once();
+    // Safari hay "nháy" (mở rồi tắt ngay, không lỗi, không chữ) — nhất là ngay sau khi phát giọng mẫu: mở lại 1 lần
+    if (!r.transcripts.length && r.quick && !cancelled && !stopRequested
+        && (!r.error || r.error === 'aborted' || r.error === 'busy' || r.error === 'audio-capture')) {
+      await wait(300);
+      if (cancelled) return { transcripts: [], aborted: true };
+      r = await once();
+    }
+
+    if (r.transcripts.length) return { transcripts: r.transcripts }; // có chữ thì chấm, kể cả khi kèm lỗi
+    if (cancelled || r.error === 'aborted') return { transcripts: [], aborted: true };
+    if (r.error === 'busy') throw new Error('Micro đang bận, hãy bấm lại sau 1 giây.');
+    if (r.error && r.error !== 'no-speech') throw new Error(STT_ERRORS[r.error] || `Lỗi nhận dạng giọng nói (${r.error}), hãy thử lại.`);
+    return { transcripts: [] };
   })();
+
   return {
     promise,
     abort: () => { cancelled = true; try { rec?.abort(); } catch { /* bỏ qua */ } },
