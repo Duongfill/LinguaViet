@@ -48,6 +48,23 @@ Muốn địa chỉ cố định: dùng *named tunnel* với tên miền của b
 
 ---
 
+## A2. Tailscale Funnel — link cố định, miễn phí (đang dùng)
+
+Link: **https://theduong.taild0b5c4.ts.net** (không đổi giữa các lần chạy, PWA và thông báo giữ nguyên).
+
+Cài đặt một lần (đã làm):
+```powershell
+winget install --id Tailscale.Tailscale     # rồi đăng nhập Tailscale
+tailscale funnel --bg 3201                  # lần đầu bật Funnel trên trang quản trị theo link nó in ra
+```
+Funnel tự chạy lại khi khởi động máy. Mỗi lần dùng chỉ cần chạy server:
+```powershell
+powershell -ExecutionPolicy Bypass -File H:\LangApp\scripts\start-server.ps1          # thêm -Build sau khi cập nhật code
+```
+Tắt link công khai: `tailscale funnel --https=443 off`. Máy tính phải bật thì link mới vào được.
+
+---
+
 ## B. VPS Ubuntu 22.04/24.04 + Nginx + Let's Encrypt
 
 **0. Chuẩn bị:** một VPS (Vultr, DigitalOcean, Viettel IDC…) và tên miền. Tạo bản ghi DNS **A** `hoc.example.com` → IP của VPS.
