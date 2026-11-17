@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { api } from '../lib/api.js';
 import { useAuth } from '../lib/auth.jsx';
+import VoiceSettings from '../components/VoiceSettings.jsx';
 import { currentSubscription, disablePush, enablePush, isIOS, isStandalone, pushSupport } from '../lib/push.js';
 
 export default function Settings() {
@@ -69,6 +70,11 @@ export default function Settings() {
   return (
     <div className="stack settings">
       <h2>⚙️ Cài đặt</h2>
+
+      <div className="card stack">
+        <h3>🔊 Giọng đọc</h3>
+        <VoiceSettings />
+      </div>
 
       <div className="card stack">
         <h3>📲 Cài app lên điện thoại</h3>

@@ -1,56 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { api, logActivity } from '../lib/api.js';
-import { useLang, INPUT_LANG, isCJK, scriptClass, toHiragana } from '../lib/lang.jsx';
+import { useLang, INPUT_LANG, isCJK } from '../lib/lang.jsx';
+import { Marked, diff, loose, shuffle, tokens } from '../lib/compare.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import { deckQuery } from '../lib/levels.js';
 import { speak } from '../lib/speech.js';
 import DeckPicker from '../components/DeckPicker.jsx';
-
-const shuffle = (a) => {
-  const r = [...a];
-  for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; }
-  return r;
-};
-// Bỏ dấu thanh pinyin / chữ thường / bỏ khoảng trắng (chấm từ tiếng Trung gõ bằng pinyin)
-const loose = (s) => toHiragana(s).normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ü/g, 'v').toLowerCase().replace(/[\s'’.,!?]/g, '');
-
-// Tách câu thành các đơn vị để chấm: tiếng Anh theo từ, tiếng Trung theo chữ
-function tokens(s, lang) {
-  if (isCJK(lang)) return [...toHiragana(s).replace(/[「」『』・]/g, '').replace(/[\s，。！？；：、“”‘’,.!?;:'"()（）…—-]/g, '')];
-  return s.toLowerCase().replace(/[’]/g, "'").replace(/[^\p{L}\p{N}'\s-]/gu, ' ').split(/\s+/).filter(Boolean);
-}
-
-// So khớp dãy chuẩn với dãy người gõ (LCS): đánh dấu đơn vị nào của câu chuẩn đã gõ đúng
-function diff(target, typed) {
-  const n = target.length, m = typed.length;
-  const dp = Array.from({ length: n + 1 }, () => new Array(m + 1).fill(0));
-  for (let i = n - 1; i >= 0; i--)
-    for (let j = m - 1; j >= 0; j--)
-      dp[i][j] = target[i] === typed[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
-  const hit = new Array(n).fill(false);
-  for (let i = 0, j = 0; i < n && j < m;) {
-    if (target[i] === typed[j]) { hit[i] = true; i++; j++; } else if (dp[i + 1][j] >= dp[i][j + 1]) i++; else j++;
-  }
-  const same = dp[0][0];
-  return { hit, score: Math.round((same / Math.max(n, m, 1)) * 100) };
-}
-
-// Hiển thị câu chuẩn: chữ gõ đúng màu xanh, gõ thiếu/sai màu đỏ (giữ nguyên dấu câu)
-function Marked({ text, lang, hit }) {
-  let k = 0;
-  if (isCJK(lang)) {
-    return <span className={scriptClass(lang)}>{[...text].map((ch, i) => (tokens(ch, lang).length
-      ? <span key={i} className={hit[k++] ? 'dict-ok' : 'dict-miss'}>{ch}</span> : <span key={i}>{ch}</span>))}</span>;
-  }
-  return <span>{text.split(/(\s+)/).map((part, i) => {
-    const n = tokens(part, lang).length;
-    if (!n) return <span key={i}>{part}</span>;
-    const ok = hit.slice(k, k + n).every(Boolean);
-    k += n;
-    return <span key={i} className={ok ? 'dict-ok' : 'dict-miss'}>{part}</span>;
-  })}</span>;
-}
 
 export default function Dictation() {
   const { lang } = useLang();

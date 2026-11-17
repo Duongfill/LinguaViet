@@ -414,3 +414,29 @@ button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation
   .term.ja, .speak-page .term.ja { font-size: 2.2rem; }
   .lang-switch button { padding: 6px 9px; }
 }
+
+/* Dịch câu */
+.tr-source { font-size: 1.3rem; line-height: 1.5; font-weight: 600; }
+.tr-source .zh { font-size: 1.6rem; font-weight: 500; }
+.tr-answer { min-height: 58px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 10px;
+  border: 2px dashed var(--border); border-radius: 12px; }
+.tr-answer.ok { border-style: solid; border-color: var(--ok); background: var(--ok-soft); }
+.tr-answer.bad { border-style: solid; border-color: var(--danger); background: var(--danger-soft); }
+.tr-bank { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.chip { border: 1px solid var(--border); background: var(--surface); border-radius: 10px; padding: 8px 12px; cursor: pointer;
+  font-size: 1rem; box-shadow: 0 2px 0 var(--border); transition: transform .08s; }
+.chip.zh { font-size: 1.2rem; }
+.chip:active:not(:disabled) { transform: translateY(1px); box-shadow: none; }
+.tr-bank .chip:disabled { opacity: .25; cursor: default; box-shadow: none; }
+.tr-answer .chip { background: var(--primary-soft); border-color: var(--primary); }
+.tr-type textarea { width: 100%; max-width: 640px; font-size: 1.1rem; resize: vertical; }
+.tr-type { flex-direction: column; align-items: center; }
+
+/* Giọng đọc (Cài đặt) */
+.voice-row { display: grid; grid-template-columns: 130px 1fr; gap: 10px; align-items: center; padding: 8px 0; border-top: 1px solid var(--border); }
+.voice-label { font-weight: 600; }
+.voice-controls { display: flex; gap: 8px; align-items: center; min-width: 0; }
+.voice-controls select { flex: 1; min-width: 0; }
+.voice-rate { display: flex; flex-direction: column; gap: 6px; padding-top: 10px; border-top: 1px solid var(--border); }
+.voice-rate input { width: 100%; max-width: 360px; }
+@media (max-width: 640px) { .voice-row { grid-template-columns: 1fr; gap: 6px; } }

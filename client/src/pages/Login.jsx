@@ -27,7 +27,7 @@ export default function Login() {
     <div className="auth-wrap">
       <form className="card auth" onSubmit={submit}>
         <h1>📚 LinguaViet</h1>
-        <p className="muted">Học tiếng Anh 🇬🇧 và tiếng Trung 🇨🇳 mỗi ngày</p>
+        <p className="muted">Học tiếng Anh 🇬🇧, tiếng Trung 🇨🇳 và tiếng Nhật 🇯🇵 mỗi ngày</p>
         <div className="tabs">
           <button type="button" className={mode === 'login' ? 'active' : ''} onClick={() => setMode('login')}>Đăng nhập</button>
           <button type="button" className={mode === 'register' ? 'active' : ''} onClick={() => setMode('register')}>Đăng ký</button>
