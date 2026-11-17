@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { api } from '../lib/api.js';
 import SpeakButton from './SpeakButton.jsx';
+import { scriptClass } from '../lib/lang.jsx';
 
 // Ô tìm từ trong toàn bộ kho (không cần gõ dấu): tiếng Anh / chữ Hán / pinyin / nghĩa tiếng Việt
 export default function WordSearch({ lang, onAdded }) {
@@ -36,7 +37,11 @@ export default function WordSearch({ lang, onAdded }) {
   return (
     <div className="card word-search">
       <input type="search" value={q} onChange={(e) => setQ(e.target.value)}
-        placeholder={lang === 'zh' ? '🔍 Tìm chữ Hán, pinyin (vd: nihao) hoặc nghĩa tiếng Việt…' : '🔍 Tìm từ tiếng Anh hoặc nghĩa tiếng Việt (gõ không dấu cũng được)…'}
+        placeholder={{
+          en: '🔍 Tìm từ tiếng Anh hoặc nghĩa tiếng Việt (gõ không dấu cũng được)…',
+          zh: '🔍 Tìm chữ Hán, pinyin (vd: nihao) hoặc nghĩa tiếng Việt…',
+          ja: '🔍 Tìm chữ Nhật, kana (vd: ありがとう) hoặc nghĩa tiếng Việt…',
+        }[lang]}
         aria-label="Tìm từ" />
       {results && (
         <div className="search-results">
@@ -44,7 +49,7 @@ export default function WordSearch({ lang, onAdded }) {
           {results.map((c) => (
             <div key={c.id} className="search-row">
               <div className="search-word">
-                <strong className={lang === 'zh' ? 'zh' : ''}>{c.term}</strong>
+                <strong className={scriptClass(lang)}>{c.term}</strong>
                 <span className="muted small"> {c.phonetic}</span>
                 <SpeakButton text={c.term} lang={lang} />
                 <div>{c.meaning_vi}</div>

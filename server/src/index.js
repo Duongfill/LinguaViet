@@ -8,7 +8,7 @@ import { db } from './db.js';
 import { signToken, requireAuth } from './auth.js';
 import { sm2, toSqlTime } from './srs.js';
 import { seedIfEmpty } from './seed.js';
-import { RANK, validLevel } from './levels.js';
+import { LANG_LIST, RANK, validLevel } from './levels.js';
 import { computeStreak, gamifyRouter } from './gamify.js';
 import { pushRouter, startReminderScheduler } from './push.js';
 import { visibleDeck, weakCards, wordsRouter } from './words.js';
@@ -19,9 +19,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const LANGS = new Set(['en', 'zh']);
+const LANGS = new Set(LANG_LIST);
 const getLevels = (uid) => {
-  const out = { en: null, zh: null };
+  const out = Object.fromEntries(LANG_LIST.map((l) => [l, null]));
   for (const r of db.prepare('SELECT lang, level FROM user_levels WHERE user_id = ?').all(uid)) out[r.lang] = r.level;
   return out;
 };
@@ -47,7 +47,7 @@ app.post('/api/auth/register', wrap((req, res) => {
   const hash = bcrypt.hashSync(String(password), 10);
   const info = db.prepare('INSERT INTO users (email, name, password_hash) VALUES (?, ?, ?)')
     .run(normEmail, String(name).trim(), hash);
-  const user = { id: info.lastInsertRowid, email: normEmail, name: String(name).trim(), daily_goal: 20, levels: { en: null, zh: null } };
+  const user = { id: info.lastInsertRowid, email: normEmail, name: String(name).trim(), daily_goal: 20, levels: Object.fromEntries(LANG_LIST.map((l) => [l, null])) };
   res.json({ token: signToken(user), user });
 }));
 
@@ -129,7 +129,7 @@ app.get('/api/decks/:id/cards', requireAuth, wrap((req, res) => {
 // Thẻ cho quiz / luyện viết / phát âm: lấy theo ngôn ngữ, tuỳ chọn theo bộ hoặc đúng một trình độ
 app.get('/api/cards', requireAuth, wrap((req, res) => {
   const { lang, deck } = req.query;
-  if (!LANGS.has(lang)) return res.status(400).json({ error: 'lang phải là en hoặc zh' });
+  if (!LANGS.has(lang)) return res.status(400).json({ error: 'lang phải là en, zh hoặc ja' });
   if (req.query.weak) return res.json({ cards: weakCards(req.user.id, lang) });
   const level = validLevel(lang, req.query.level);
   const cards = db.prepare(`
@@ -142,7 +142,7 @@ app.get('/api/cards', requireAuth, wrap((req, res) => {
 // ---------- Ôn tập (SRS) ----------
 app.get('/api/review/due', requireAuth, wrap((req, res) => {
   const { lang, deck } = req.query;
-  if (!LANGS.has(lang)) return res.status(400).json({ error: 'lang phải là en hoặc zh' });
+  if (!LANGS.has(lang)) return res.status(400).json({ error: 'lang phải là en, zh hoặc ja' });
   const limit = Math.min(Number(req.query.limit) || 20, 100);
   const now = toSqlTime(new Date());
   const deckId = deck ? Number(deck) : null;

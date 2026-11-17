@@ -1,7 +1,7 @@
 {
-  "name": "LinguaViet – Học tiếng Anh & tiếng Trung",
+  "name": "LinguaViet – Học tiếng Anh, Trung & Nhật",
   "short_name": "LinguaViet",
-  "description": "Học từ vựng tiếng Anh và tiếng Trung mỗi ngày",
+  "description": "Học từ vựng tiếng Anh, tiếng Trung và tiếng Nhật mỗi ngày",
   "lang": "vi",
   "start_url": "/",
   "scope": "/",

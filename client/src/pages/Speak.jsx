@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { api, logActivity } from '../lib/api.js';
-import { useLang } from '../lib/lang.jsx';
+import { useLang, scriptClass } from '../lib/lang.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import { deckQuery } from '../lib/levels.js';
 import { listen, scorePronunciation, stopListening, sttSupported } from '../lib/speech.js';
@@ -57,7 +57,9 @@ export default function Speak() {
       const { transcripts, aborted } = await r.promise;
       if (session !== sessionRef.current || aborted) return;
       if (!transcripts.length) throw new Error('Không nghe thấy giọng nói, hãy bấm mic và đọc lại.');
-      const res = scorePronunciation(textNow, transcripts, lang);
+      // Tiếng Nhật: máy có thể nghe ra chữ Hán hoặc kana → chấm theo cả cách viết lẫn cách đọc, lấy điểm cao hơn
+      const targets = lang === 'ja' && target === 'word' && cardNow.phonetic ? [textNow, cardNow.phonetic] : [textNow];
+      const res = targets.map((t) => scorePronunciation(t, transcripts, lang)).sort((a, b) => b.score - a.score)[0];
       setResult(res);
       logActivity({ kind: 'speak', lang, cardId: cardNow.id, correct: res.score >= 80, score: res.score });
     } catch (e) {
@@ -102,7 +104,7 @@ export default function Speak() {
         <div className="card speak center-text">
           <div className="speak-word">
             <div className="muted small">{idx + 1}/{cards.length}</div>
-            <div className={`term ${lang === 'zh' ? 'zh' : ''} ${target === 'sentence' ? 'sentence' : ''}`}>{text}</div>
+            <div className={`term ${scriptClass(lang)} ${target === 'sentence' ? 'sentence' : ''}`}>{text}</div>
             {target === 'word' && <div className="phonetic">{card.phonetic}</div>}
             <div className="muted">{target === 'sentence' ? card.example_vi : card.meaning_vi}</div>
             <div className="row center listen-row">
@@ -125,7 +127,7 @@ export default function Speak() {
             <div className={`feedback ${verdict(result.score)[1]}`}>
               <div className="score">{result.score}<span className="small">/100</span></div>
               <div>{verdict(result.score)[0]}</div>
-              <div className="small">Máy nghe được: “<span className={lang === 'zh' ? 'zh' : ''}>{result.heard}</span>”</div>
+              <div className="small">Máy nghe được: “<span className={scriptClass(lang)}>{result.heard}</span>”</div>
               <button className="btn primary sm" onClick={() => next(1)}>Từ tiếp theo ›</button>
             </div>
           )}

@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { api } from '../lib/api.js';
-import { useLang } from '../lib/lang.jsx';
+import { useLang, scriptClass } from '../lib/lang.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import { deckQuery } from '../lib/levels.js';
 import { speak } from '../lib/speech.js';
@@ -85,12 +85,12 @@ export default function Flashcards() {
           <div className={`flashcard ${flipped ? 'flipped' : ''}`} onClick={() => setFlipped((f) => !f)}
             role="button" tabIndex={0} aria-label="Lật thẻ">
             <div className="face front">
-              <div className={`term ${lang === 'zh' ? 'zh' : ''}`}>{card.term}</div>
+              <div className={`term ${scriptClass(lang)}`}>{card.term}</div>
               <SpeakButton text={card.term} lang={lang} />
               <div className="muted small hint">Bấm vào thẻ hoặc phím Space để lật</div>
             </div>
             <div className="face back">
-              <div className={`term sm ${lang === 'zh' ? 'zh' : ''}`}>{card.term}</div>
+              <div className={`term sm ${scriptClass(lang)}`}>{card.term}</div>
               <div className="phonetic">{card.phonetic}</div>
               <div className="meaning">{card.meaning_vi}</div>
               {card.example && (

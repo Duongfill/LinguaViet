@@ -163,7 +163,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 const here = path.dirname(fileURLToPath(import.meta.url));
-for (const lang of ['en', 'zh']) {
+for (const lang of ['en', 'zh', 'ja']) {
   const f = path.join(here, `generated-${lang}.json`);
   if (fs.existsSync(f)) decks.push(...JSON.parse(fs.readFileSync(f, 'utf8')));
 }

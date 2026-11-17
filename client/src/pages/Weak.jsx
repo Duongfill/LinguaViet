@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { api } from '../lib/api.js';
-import { useLang } from '../lib/lang.jsx';
+import { useLang, scriptClass } from '../lib/lang.jsx';
 import SpeakButton from '../components/SpeakButton.jsx';
 
 const KIND = { review: 'Flashcard', quiz: 'Quiz', speak: 'Phát âm', hanzi: 'Viết chữ' };
@@ -54,7 +54,7 @@ export default function Weak() {
                 {cards.map((c) => (
                   <tr key={c.id}>
                     <td>
-                      <strong className={lang === 'zh' ? 'zh' : ''}>{c.term}</strong> <SpeakButton text={c.term} lang={lang} />
+                      <strong className={scriptClass(lang)}>{c.term}</strong> <SpeakButton text={c.term} lang={lang} />
                       <div className="muted small">{c.phonetic}</div>
                     </td>
                     <td>{c.meaning_vi}<div className="muted small">{c.deck_title}</div></td>

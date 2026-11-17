@@ -1,5 +1,5 @@
 // Text-to-speech và nhận dạng giọng nói qua Web Speech API (Chrome/Edge hỗ trợ tốt nhất)
-export const LOCALE = { en: 'en-US', zh: 'zh-CN' };
+export const LOCALE = { en: 'en-US', zh: 'zh-CN', ja: 'ja-JP' };
 
 let voicesCache = [];
 function loadVoices() {
@@ -152,7 +152,9 @@ export function listen(lang) {
 
 // Chuẩn hoá để so sánh: bỏ dấu câu, chữ thường
 function normalize(s, lang) {
-  let t = s.toLowerCase().replace(/[.,!?;:'"，。！？；：、“”‘’\s]/g, lang === 'zh' ? '' : ' ');
+  let t = s.toLowerCase().replace(/[.,!?;:'"，。！？；：、“”‘’\s]/g, lang === 'en' ? ' ' : '');
+  // Tiếng Nhật: máy có thể trả katakana hoặc hiragana → coi như nhau
+  if (lang === 'ja') t = t.replace(/[\u30a1-\u30f6]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60)).replace(/[「」『』・]/g, '');
   return t.replace(/\s+/g, ' ').trim();
 }
 

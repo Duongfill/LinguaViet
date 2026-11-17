@@ -2,8 +2,9 @@
 import express from 'express';
 import { db } from './db.js';
 import { requireAuth } from './auth.js';
+import { LANG_LIST } from './levels.js';
 
-const LANGS = new Set(['en', 'zh']);
+const LANGS = new Set(LANG_LIST);
 
 // Bộ từ người dùng được thấy: bộ chung (owner_id NULL) + bộ của chính họ.
 // uid lấy từ JWT đã xác thực và ép kiểu số nên nhúng thẳng vào SQL an toàn.
@@ -11,7 +12,7 @@ export const visibleDeck = (uid, alias = 'd') => `(${alias}.owner_id IS NULL OR 
 
 // Chuẩn hoá để tìm không dấu: bỏ dấu tiếng Việt / dấu thanh pinyin, chữ thường, bỏ khoảng trắng & dấu câu
 export const fold = (s) => (s == null ? null : String(s).normalize('NFD').replace(/[̀-ͯ]/g, '')
-  .replace(/[đĐ]/g, 'd').toLowerCase().replace(/[\s'’.,!?;:()\-]/g, ''));
+  .replace(/[đĐ]/g, 'd').replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60)).toLowerCase().replace(/[\s'’.,!?;:()\-]/g, ''));
 db.function('fold', { deterministic: true }, fold);
 
 // ---------- Từ hay quên ----------
@@ -53,7 +54,7 @@ wordsRouter.use(requireAuth);
 
 wordsRouter.get('/weak', (req, res) => {
   const { lang } = req.query;
-  if (!LANGS.has(lang)) return res.status(400).json({ error: 'lang phải là en hoặc zh' });
+  if (!LANGS.has(lang)) return res.status(400).json({ error: 'lang phải là en, zh hoặc ja' });
   res.json({ cards: weakCards(req.user.id, lang, 200) });
 });
 
@@ -68,7 +69,7 @@ wordsRouter.post('/weak/:cardId/dismiss', (req, res) => {
 // ---------- Tìm từ ----------
 wordsRouter.get('/search', (req, res) => {
   const { lang } = req.query;
-  if (!LANGS.has(lang)) return res.status(400).json({ error: 'lang phải là en hoặc zh' });
+  if (!LANGS.has(lang)) return res.status(400).json({ error: 'lang phải là en, zh hoặc ja' });
   const q = fold(String(req.query.q || '').slice(0, 60));
   if (!q) return res.json({ cards: [] });
   const rows = db.prepare(`
@@ -102,7 +103,7 @@ const clean = (v, max) => (v == null ? null : String(v).trim().slice(0, max) || 
 
 wordsRouter.get('/my-cards', (req, res) => {
   const { lang } = req.query;
-  if (!LANGS.has(lang)) return res.status(400).json({ error: 'lang phải là en hoặc zh' });
+  if (!LANGS.has(lang)) return res.status(400).json({ error: 'lang phải là en, zh hoặc ja' });
   const deck = getMyDeck(req.user.id, lang);
   const cards = deck ? db.prepare(`SELECT c.*, r.repetitions FROM cards c
     LEFT JOIN reviews r ON r.user_id = ? AND r.card_id = c.id
@@ -126,7 +127,7 @@ wordsRouter.post('/my-cards', (req, res) => {
       meaning_vi: clean(body.meaning_vi, 200), example: clean(body.example, 300), example_vi: clean(body.example_vi, 300),
     };
   }
-  if (!LANGS.has(data.lang)) return res.status(400).json({ error: 'lang phải là en hoặc zh' });
+  if (!LANGS.has(data.lang)) return res.status(400).json({ error: 'lang phải là en, zh hoặc ja' });
   if (!data.term || !data.meaning_vi) return res.status(400).json({ error: 'Cần nhập từ và nghĩa tiếng Việt' });
   const deck = ensureMyDeck(uid, data.lang);
   if (db.prepare('SELECT 1 FROM cards WHERE deck_id = ? AND term = ?').get(deck.id, data.term)) {

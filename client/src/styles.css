@@ -15,6 +15,7 @@
   --radius: 14px;
   --shadow: 0 1px 3px rgba(20, 30, 60, .08), 0 4px 16px rgba(20, 30, 60, .05);
   --zh-font: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif;
+  --ja-font: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic UI", "Meiryo", sans-serif;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -402,3 +403,14 @@ button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation
 }
 @keyframes sheet-up { from { transform: translateY(100%); } to { transform: none; } }
 @media (prefers-reduced-motion: reduce) { .sheet { animation: none; } }
+
+/* ================= Tiếng Nhật ================= */
+/* Dùng chung cỡ chữ của .zh nhưng font Nhật (tránh hiển thị chữ Hán kiểu Trung Quốc) */
+.ja, .tile .ja, .hanzi-cell.ja { font-family: var(--ja-font); }
+/* Từ tiếng Nhật thường dài hơn (kana) → nhỏ hơn chữ Hán một chút, tự xuống dòng */
+.term.ja { font-size: 3rem; overflow-wrap: anywhere; }
+.term.sm.ja { font-size: 2.1rem; }
+@media (max-width: 640px) {
+  .term.ja, .speak-page .term.ja { font-size: 2.2rem; }
+  .lang-switch button { padding: 6px 9px; }
+}

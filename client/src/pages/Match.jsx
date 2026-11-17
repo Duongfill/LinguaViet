@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { api, logActivity } from '../lib/api.js';
-import { useLang } from '../lib/lang.jsx';
+import { useLang, scriptClass } from '../lib/lang.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import { deckQuery } from '../lib/levels.js';
 import { speak } from '../lib/speech.js';
@@ -135,7 +135,7 @@ export default function Match() {
             <div className="match-col">
               {round.left.map((c) => (
                 <button key={c.id} className={tileCls('left', c)} onClick={() => tap('left', c)} disabled={matched.has(c.id)}>
-                  <span className={lang === 'zh' ? 'zh' : ''}>{c.term}</span>
+                  <span className={scriptClass(lang)}>{c.term}</span>
                 </button>
               ))}
             </div>
