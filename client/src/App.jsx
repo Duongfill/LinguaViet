@@ -17,6 +17,7 @@ import Settings from './pages/Settings.jsx';
 import Weak from './pages/Weak.jsx';
 import Match from './pages/Match.jsx';
 import Dictation from './pages/Dictation.jsx';
+import Translate from './pages/Translate.jsx';
 
 export default function App() {
   const { user, loading } = useAuth();
@@ -43,6 +44,7 @@ function Shell() {
     ['/quiz', 'Quiz', '❓'],
     ['/match', 'Ghép thẻ', '🧩'],
     ['/dictation', 'Chính tả', '🎧'],
+    ['/translate', 'Dịch câu', '🔁'],
     ['/speak', 'Phát âm', '🎤'],
     ...(lang === 'zh' ? [['/hanzi', 'Chữ Hán', '✍️']] : []),
     ['/rank', 'Xếp hạng', '🏆'],
@@ -104,6 +106,7 @@ function Shell() {
           <Route path="/weak" element={<Weak />} />
           <Route path="/match" element={<Match />} />
           <Route path="/dictation" element={<Dictation />} />
+          <Route path="/translate" element={<Translate />} />
           <Route path="/hanzi" element={lang === 'zh' ? <Hanzi /> : <Navigate to="/" />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

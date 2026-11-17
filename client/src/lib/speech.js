@@ -2,28 +2,77 @@
 export const LOCALE = { en: 'en-US', zh: 'zh-CN', ja: 'ja-JP' };
 
 let voicesCache = [];
+const voiceListeners = new Set();
 function loadVoices() {
   if (typeof speechSynthesis === 'undefined') return [];
   voicesCache = speechSynthesis.getVoices();
+  voiceListeners.forEach((fn) => fn());
   return voicesCache;
 }
 if (typeof speechSynthesis !== 'undefined') {
   loadVoices();
-  speechSynthesis.onvoiceschanged = loadVoices;
+  if (speechSynthesis.addEventListener) speechSynthesis.addEventListener('voiceschanged', loadVoices);
+  else speechSynthesis.onvoiceschanged = loadVoices;
 }
+// Danh sách giọng của trình duyệt có thể tới muộn → trang Cài đặt đăng ký nghe để vẽ lại
+export function onVoicesChanged(fn) { voiceListeners.add(fn); return () => voiceListeners.delete(fn); }
 
 export const ttsSupported = () => typeof speechSynthesis !== 'undefined';
 
-export function speak(text, lang, rate = 0.9) {
+// ---------- Chọn giọng ----------
+// Giọng phổ biến (theo thứ tự ưu tiên) trên iPhone/Mac, Windows/Edge, Android/Chrome
+const POPULAR = {
+  en: [/Samantha/i, /Daniel/i, /Karen/i, /Aria/i, /Jenny/i, /Google US English/i, /Google UK English Female/i, /Guy/i, /Zira/i, /David/i, /Moira/i, /Alex/i],
+  zh: [/Ting-?Ting/i, /Xiaoxiao/i, /Google 普通话/i, /Mei-?Jia/i, /Yunxi/i, /Huihui/i, /Yaoyao/i, /Kangkang/i, /Li-?li/i],
+  ja: [/Kyoko/i, /Otoya/i, /Nanami/i, /Google 日本語/i, /Keita/i, /Hattori/i, /O-?ren/i, /Ayumi/i, /Haruka/i, /Ichiro/i],
+};
+// Giọng "vui" của Apple — không hợp để học
+const NOVELTY = /^(Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox)/i;
+const vLang = (v) => (v.lang || '').replace('_', '-');
+
+// Các giọng của một ngôn ngữ trên máy này, giọng phổ biến / tự nhiên lên đầu
+export function voicesFor(lang) {
+  // Đọc thẳng danh sách hiện tại (rẻ); không gọi loadVoices() vì nó báo cho trang Cài đặt vẽ lại → lặp vô hạn
+  const live = ttsSupported() ? speechSynthesis.getVoices() : [];
+  const voices = live.length ? live : voicesCache;
+  const prefix = (LOCALE[lang] || lang).slice(0, 2).toLowerCase();
+  const rank = (v) => {
+    const i = (POPULAR[lang] || []).findIndex((re) => re.test(v.name));
+    let r = i >= 0 ? i : 50;
+    if (/Natural|Neural|Premium|Enhanced|Nâng cao/i.test(v.name)) r -= 0.5; // giọng chất lượng cao
+    if (vLang(v) !== LOCALE[lang]) r += 0.25;                                 // khác vùng (vd en-GB, zh-TW)
+    return r;
+  };
+  return voices
+    .filter((v) => vLang(v).toLowerCase().startsWith(prefix) && !NOVELTY.test(v.name))
+    .filter((v) => lang !== 'zh' || !/HK|yue|Cantonese|粤|廣東/i.test(vLang(v) + v.name)) // bỏ tiếng Quảng Đông
+    .sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name));
+}
+
+const store = {
+  get: (k) => { try { return localStorage.getItem(k); } catch { return null; } },
+  set: (k, v) => { try { if (v == null || v === '') localStorage.removeItem(k); else localStorage.setItem(k, v); } catch { /* bỏ qua */ } },
+};
+// Giọng đã chọn lưu trên từng máy (mỗi máy có bộ giọng khác nhau); '' = tự động
+export const getVoiceChoice = (lang) => store.get(`langapp.voice.${lang}`) || '';
+export const setVoiceChoice = (lang, uri) => store.set(`langapp.voice.${lang}`, uri);
+export const getRateFactor = () => Number(store.get('langapp.voiceRate')) || 1;
+export const setRateFactor = (x) => store.set('langapp.voiceRate', x === 1 ? '' : String(x));
+
+export function pickVoice(lang) {
+  const list = voicesFor(lang);
+  const chosen = getVoiceChoice(lang);
+  return (chosen && list.find((v) => v.voiceURI === chosen)) || list[0] || null;
+}
+
+export function speak(text, lang, rate = 0.9, voice = null) {
   if (!ttsSupported() || !text) return;
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
-  u.lang = LOCALE[lang] || lang;
-  u.rate = rate;
-  const prefix = u.lang.slice(0, 2);
-  const voices = voicesCache.length ? voicesCache : loadVoices();
-  const voice = voices.find((v) => v.lang === u.lang) || voices.find((v) => v.lang?.startsWith(prefix));
-  if (voice) u.voice = voice;
+  const v = voice || pickVoice(lang);
+  u.lang = v ? vLang(v) : (LOCALE[lang] || lang);
+  if (v) u.voice = v;
+  u.rate = Math.min(2, Math.max(0.3, rate * getRateFactor()));
   speechSynthesis.speak(u);
 }
 
