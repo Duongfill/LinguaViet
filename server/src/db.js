@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS users (
 
 CREATE TABLE IF NOT EXISTS decks (
   id          INTEGER PRIMARY KEY AUTOINCREMENT,
-  lang        TEXT NOT NULL CHECK (lang IN ('en','zh')),
+  lang        TEXT NOT NULL CHECK (lang IN ('en','zh','ja')),
   slug        TEXT NOT NULL UNIQUE,
   title       TEXT NOT NULL,
   description TEXT,
@@ -70,7 +70,7 @@ CREATE TABLE IF NOT EXISTS activity (
 -- Trình độ người dùng tự chọn cho từng ngôn ngữ
 CREATE TABLE IF NOT EXISTS user_levels (
   user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
-  lang    TEXT    NOT NULL CHECK (lang IN ('en','zh')),
+  lang    TEXT    NOT NULL CHECK (lang IN ('en','zh','ja')),
   level   TEXT    NOT NULL,
   PRIMARY KEY (user_id, lang)
 );
@@ -78,7 +78,7 @@ CREATE TABLE IF NOT EXISTS user_levels (
 -- Mục tiêu (đích) của hành trình học cho từng ngôn ngữ
 CREATE TABLE IF NOT EXISTS user_goals (
   user_id      INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
-  lang         TEXT    NOT NULL CHECK (lang IN ('en','zh')),
+  lang         TEXT    NOT NULL CHECK (lang IN ('en','zh','ja')),
   target_level TEXT    NOT NULL,
   deadline     TEXT,             -- YYYY-MM-DD, tuỳ chọn
   created_at   TEXT    NOT NULL DEFAULT (datetime('now')),
@@ -128,3 +128,34 @@ CREATE TABLE IF NOT EXISTS weak_dismissed (
   PRIMARY KEY (user_id, card_id)
 );
 `);
+
+// ---------- Migration: cho phép tiếng Nhật ('ja') ở DB tạo trước khi có tiếng Nhật ----------
+// SQLite không sửa được CHECK bằng ALTER TABLE → dựng lại bảng theo quy trình chuẩn của SQLite:
+// tắt khoá ngoại, tạo bảng mới cùng cấu trúc (chỉ đổi CHECK), chép dữ liệu, xoá bảng cũ, đổi tên, kiểm tra khoá ngoại.
+function widenLangCheck() {
+  const OLD = "CHECK (lang IN ('en','zh'))";
+  const NEW = "CHECK (lang IN ('en','zh','ja'))";
+  const tables = ['decks', 'user_levels', 'user_goals']
+    .map((name) => ({ name, sql: db.prepare("SELECT sql FROM sqlite_master WHERE type = 'table' AND name = ?").get(name)?.sql }))
+    .filter((t) => t.sql && t.sql.includes(OLD));
+  if (!tables.length) return;
+  db.pragma('foreign_keys = OFF');
+  try {
+    db.transaction(() => {
+      for (const { name, sql } of tables) {
+        const tmp = `${name}__new`;
+        db.exec(sql.split(OLD).join(NEW).replace(/^CREATE TABLE\s+("?)\w+\1/, `CREATE TABLE ${tmp}`));
+        db.exec(`INSERT INTO ${tmp} SELECT * FROM ${name}`);
+        db.exec(`DROP TABLE ${name}`);
+        db.exec(`ALTER TABLE ${tmp} RENAME TO ${name}`);
+      }
+      const broken = db.pragma('foreign_key_check');
+      if (broken.length) throw new Error(`Migration tiếng Nhật: khoá ngoại hỏng (${broken.length})`);
+    })();
+  } finally {
+    db.pragma('foreign_keys = ON');
+  }
+  db.exec('CREATE INDEX IF NOT EXISTS idx_decks_owner ON decks(owner_id)'); // index bị xoá cùng bảng cũ
+  console.log(`[db] Đã mở rộng ${tables.map((t) => t.name).join(', ')} cho tiếng Nhật.`);
+}
+widenLangCheck();

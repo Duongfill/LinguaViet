@@ -1,6 +1,6 @@
-# LinguaViet – App học tiếng Anh & tiếng Trung
+# LinguaViet – App học tiếng Anh, tiếng Trung & tiếng Nhật
 
-Web app (React + Vite) + backend (Node/Express + SQLite) cho người Việt học tiếng Anh và tiếng Trung.
+Web app (React + Vite) + backend (Node/Express + SQLite) cho người Việt học tiếng Anh, tiếng Trung và tiếng Nhật.
 
 ## Tính năng
 - **Tài khoản**: đăng ký / đăng nhập (JWT), lưu tiến độ trên server.
@@ -20,7 +20,8 @@ npm run dev
 
 Tài khoản thử nghiệm đã tạo sẵn trong DB dev: `test@langapp.test` / `test123456` (xoá file `server/langapp.db` để làm lại từ đầu).
 
-Lần chạy đầu server tự tạo `server/langapp.db` và nạp dữ liệu (301 bộ, 10.015 từ: 4.997 tiếng Anh A1–B2, 5.018 tiếng Trung HSK 1–6). Nguồn và giấy phép: `DATA_LICENSES.md`; quy trình tạo: `tools/vocab-pipeline/`.
+Lần chạy đầu server tự tạo `server/langapp.db` và nạp dữ liệu (tiếng Anh A1–B2 ~5.000 từ, tiếng Trung HSK 1–6 ~5.000 từ, tiếng Nhật JLPT N5–N1 ~8.000 từ). Nguồn và giấy phép: `DATA_LICENSES.md`; quy trình tạo: `tools/vocab-pipeline/` (tiếng Nhật: `ja.mjs` + `INSTRUCTIONS-ja.md`).
+DB đã có dữ liệu thì sau khi cập nhật kho từ cần chạy `npm run seed` để nạp thêm.
 
 ## Production
 ```bash

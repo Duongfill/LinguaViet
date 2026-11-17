@@ -2,12 +2,14 @@
 export const LEVELS_BY_LANG = {
   en: ['A1', 'A2', 'B1', 'B2', 'C1'],
   zh: ['HSK1', 'HSK2', 'HSK3', 'HSK4', 'HSK5', 'HSK6'],
+  ja: ['N5', 'N4', 'N3', 'N2', 'N1'],
 };
-export const LEVEL_ORDER = [...LEVELS_BY_LANG.en, ...LEVELS_BY_LANG.zh];
+export const LEVEL_ORDER = Object.values(LEVELS_BY_LANG).flat();
 
 const LABELS = {
   A1: 'A1 – Sơ cấp', A2: 'A2 – Sơ cấp', B1: 'B1 – Trung cấp', B2: 'B2 – Trung cao cấp', C1: 'C1 – Cao cấp',
   HSK1: 'HSK 1', HSK2: 'HSK 2', HSK3: 'HSK 3', HSK4: 'HSK 4', HSK5: 'HSK 5', HSK6: 'HSK 6',
+  N5: 'N5 – Sơ cấp', N4: 'N4 – Sơ trung cấp', N3: 'N3 – Trung cấp', N2: 'N2 – Trung cao cấp', N1: 'N1 – Cao cấp',
 };
 export const MINE = 'MINE'; // nhóm "Từ của tôi"
 export const levelLabel = (l) => (l === MINE ? '⭐ Từ của tôi' : LABELS[l] || l || 'Khác');
@@ -26,6 +28,11 @@ export const LEVEL_DESC = {
   HSK4: '~1.200 từ: thảo luận nhiều chủ đề, nói chuyện khá trôi chảy với người bản xứ.',
   HSK5: '~2.500 từ: đọc báo, xem phim, phát biểu dài.',
   HSK6: '~5.000 từ: hiểu và diễn đạt thành thạo bằng lời nói lẫn văn viết.',
+  N5: 'Mới bắt đầu: ~700 từ, hiragana/katakana, chào hỏi, câu đơn giản hằng ngày.',
+  N4: '~1.400 từ: hội thoại cơ bản về sinh hoạt, mua sắm, đi lại.',
+  N3: '~3.500 từ: đọc hiểu đoạn văn đời thường, giao tiếp khá tự nhiên.',
+  N2: '~5.300 từ: đọc báo, làm việc văn phòng bằng tiếng Nhật.',
+  N1: '~8.000 từ: hiểu văn bản phức tạp, diễn đạt thành thạo.',
 };
 
 // Trả về [[level, decks[]], ...] theo thứ tự trình độ

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { api } from '../lib/api.js';
 import SpeakButton from './SpeakButton.jsx';
+import { INPUT_LANG, PHONETIC_LABEL, isCJK, scriptClass } from '../lib/lang.jsx';
 
 const EMPTY = { term: '', phonetic: '', meaning_vi: '', example: '', example_vi: '' };
 
@@ -69,8 +70,8 @@ export default function MyWords({ lang, version, onChange }) {
 
           <form className="my-word-form" onSubmit={submit}>
             <input value={form.term} onChange={set('term')} required maxLength={80}
-              placeholder={lang === 'zh' ? 'Chữ Hán *' : 'Từ tiếng Anh *'} lang={lang === 'zh' ? 'zh-CN' : 'en'} />
-            <input value={form.phonetic} onChange={set('phonetic')} maxLength={80} placeholder={lang === 'zh' ? 'Pinyin' : 'Phiên âm'} />
+              placeholder={{ en: 'Từ tiếng Anh *', zh: 'Chữ Hán *', ja: 'Từ tiếng Nhật *' }[lang]} lang={INPUT_LANG[lang]} />
+            <input value={form.phonetic} onChange={set('phonetic')} maxLength={80} placeholder={PHONETIC_LABEL[lang]} />
             <input value={form.meaning_vi} onChange={set('meaning_vi')} required maxLength={200} placeholder="Nghĩa tiếng Việt *" />
             <input value={form.example} onChange={set('example')} maxLength={300} placeholder="Câu ví dụ (không bắt buộc)" />
             <input value={form.example_vi} onChange={set('example_vi')} maxLength={300} placeholder="Dịch câu ví dụ" />
@@ -82,11 +83,11 @@ export default function MyWords({ lang, version, onChange }) {
             <div className="muted small">Chưa có từ nào. Thêm ở ô trên, hoặc tìm từ rồi bấm “＋ Của tôi”.</div>
           ) : (
             <table className="word-table">
-              <thead><tr><th>Từ</th><th>{lang === 'zh' ? 'Pinyin' : 'Phiên âm'}</th><th>Nghĩa</th><th>Ví dụ</th><th /></tr></thead>
+              <thead><tr><th>Từ</th><th>{PHONETIC_LABEL[lang]}</th><th>Nghĩa</th><th>Ví dụ</th><th /></tr></thead>
               <tbody>
                 {cards.map((c) => (
                   <tr key={c.id}>
-                    <td className={lang === 'zh' ? 'hanzi-cell' : ''}>
+                    <td className={isCJK(lang) ? `hanzi-cell ${scriptClass(lang)}` : ''}>
                       <strong>{c.term}</strong> {c.repetitions >= 2 && <span title="Đã thuộc">✅</span>}
                     </td>
                     <td className="muted">{c.phonetic}</td>

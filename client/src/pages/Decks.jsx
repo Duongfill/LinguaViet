@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { api } from '../lib/api.js';
-import { useLang } from '../lib/lang.jsx';
+import { useLang, PHONETIC_LABEL, isCJK, scriptClass } from '../lib/lang.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import SpeakButton from '../components/SpeakButton.jsx';
 import { MINE, groupByLevel, levelLabel } from '../lib/levels.js';
@@ -68,11 +68,11 @@ export default function Decks() {
           </button>
           {open === d.id && (
             <table className="word-table">
-              <thead><tr><th>Từ</th><th>{lang === 'zh' ? 'Pinyin' : 'Phiên âm'}</th><th>Nghĩa</th><th>Ví dụ</th><th /></tr></thead>
+              <thead><tr><th>Từ</th><th>{PHONETIC_LABEL[lang]}</th><th>Nghĩa</th><th>Ví dụ</th><th /></tr></thead>
               <tbody>
                 {cards.map((c) => (
                   <tr key={c.id}>
-                    <td className={lang === 'zh' ? 'hanzi-cell' : ''}><strong>{c.term}</strong></td>
+                    <td className={isCJK(lang) ? `hanzi-cell ${scriptClass(lang)}` : ''}><strong>{c.term}</strong></td>
                     <td className="muted">{c.phonetic}</td>
                     <td>{c.meaning_vi}</td>
                     <td className="small">{c.example}<div className="muted">{c.example_vi}</div></td>

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { api, logActivity } from '../lib/api.js';
-import { useLang } from '../lib/lang.jsx';
+import { useLang, INPUT_LANG, isCJK, scriptClass, toHiragana } from '../lib/lang.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import { deckQuery } from '../lib/levels.js';
 import { speak } from '../lib/speech.js';
@@ -13,11 +13,11 @@ const shuffle = (a) => {
   return r;
 };
 // Bỏ dấu thanh pinyin / chữ thường / bỏ khoảng trắng (chấm từ tiếng Trung gõ bằng pinyin)
-const loose = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ü/g, 'v').toLowerCase().replace(/[\s'’.,!?]/g, '');
+const loose = (s) => toHiragana(s).normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ü/g, 'v').toLowerCase().replace(/[\s'’.,!?]/g, '');
 
 // Tách câu thành các đơn vị để chấm: tiếng Anh theo từ, tiếng Trung theo chữ
 function tokens(s, lang) {
-  if (lang === 'zh') return [...s.replace(/[\s，。！？；：、“”‘’,.!?;:'"()（）…—-]/g, '')];
+  if (isCJK(lang)) return [...toHiragana(s).replace(/[「」『』・]/g, '').replace(/[\s，。！？；：、“”‘’,.!?;:'"()（）…—-]/g, '')];
   return s.toLowerCase().replace(/[’]/g, "'").replace(/[^\p{L}\p{N}'\s-]/gu, ' ').split(/\s+/).filter(Boolean);
 }
 
@@ -39,8 +39,8 @@ function diff(target, typed) {
 // Hiển thị câu chuẩn: chữ gõ đúng màu xanh, gõ thiếu/sai màu đỏ (giữ nguyên dấu câu)
 function Marked({ text, lang, hit }) {
   let k = 0;
-  if (lang === 'zh') {
-    return <span className="zh">{[...text].map((ch, i) => (tokens(ch, lang).length
+  if (isCJK(lang)) {
+    return <span className={scriptClass(lang)}>{[...text].map((ch, i) => (tokens(ch, lang).length
       ? <span key={i} className={hit[k++] ? 'dict-ok' : 'dict-miss'}>{ch}</span> : <span key={i}>{ch}</span>))}</span>;
   }
   return <span>{text.split(/(\s+)/).map((part, i) => {
@@ -92,7 +92,7 @@ export default function Dictation() {
     if (result || !typed.trim()) return;
     let res = diff(tokens(text, lang), tokens(typed, lang));
     // Từ tiếng Trung: chấp nhận gõ pinyin không dấu
-    if (lang === 'zh' && target === 'word' && card.phonetic && loose(typed) === loose(card.phonetic)) {
+    if (isCJK(lang) && target === 'word' && card.phonetic && loose(typed) === loose(card.phonetic)) {
       res = { hit: tokens(text, lang).map(() => true), score: 100 };
     }
     setResult(res);
@@ -137,10 +137,10 @@ export default function Dictation() {
             {target === 'sentence' ? (
               <textarea ref={inputRef} rows={2} value={typed} onChange={(e) => setTyped(e.target.value)} disabled={!!result}
                 onKeyDown={(e) => { if (e.key === 'Enter' && !e.shiftKey) check(e); }}
-                placeholder={lang === 'zh' ? 'Gõ lại câu bằng chữ Hán…' : 'Gõ lại câu bạn nghe được…'} lang={lang === 'zh' ? 'zh-CN' : 'en'} />
+                placeholder={{ en: 'Gõ lại câu bạn nghe được…', zh: 'Gõ lại câu bằng chữ Hán…', ja: 'Gõ lại câu bằng tiếng Nhật…' }[lang]} lang={INPUT_LANG[lang]} />
             ) : (
               <input ref={inputRef} value={typed} onChange={(e) => setTyped(e.target.value)} disabled={!!result}
-                placeholder={lang === 'zh' ? 'Gõ chữ Hán hoặc pinyin…' : 'Gõ từ bạn nghe được…'} lang={lang === 'zh' ? 'zh-CN' : 'en'} />
+                placeholder={{ en: 'Gõ từ bạn nghe được…', zh: 'Gõ chữ Hán hoặc pinyin…', ja: 'Gõ chữ Nhật hoặc kana…' }[lang]} lang={INPUT_LANG[lang]} />
             )}
             {!result && <button className="btn primary">Kiểm tra</button>}
           </form>

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { api, logActivity } from '../lib/api.js';
-import { useLang } from '../lib/lang.jsx';
+import { useLang, INPUT_LANG, isCJK, scriptClass, toHiragana } from '../lib/lang.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import { deckQuery } from '../lib/levels.js';
 import { speak } from '../lib/speech.js';
@@ -22,7 +22,7 @@ const shuffle = (a) => {
   return r;
 };
 // Bỏ dấu thanh pinyin / chữ thường / bỏ khoảng trắng để chấm câu gõ
-const loose = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ü/g, 'v').toLowerCase().replace(/[\s'’.,!?]/g, '');
+const loose = (s) => toHiragana(s).normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ü/g, 'v').toLowerCase().replace(/[\s'’.,!?]/g, '');
 
 function buildQuiz(cards) {
   return shuffle(cards).slice(0, QUESTIONS).map((card) => {
@@ -71,7 +71,7 @@ export default function Quiz() {
   const submitTyped = (e) => {
     e.preventDefault();
     if (picked || !typed.trim()) return;
-    const answers = [q.card.term, ...(lang === 'zh' ? [q.card.phonetic] : [])];
+    const answers = [q.card.term, ...(isCJK(lang) && q.card.phonetic ? [q.card.phonetic] : [])];
     const correct = answers.some((a) => loose(a) === loose(typed));
     setPicked({ id: correct ? q.card.id : -1, correct });
     if (correct) setScore((s) => s + 1);
@@ -83,7 +83,7 @@ export default function Quiz() {
 
   const prompt = useMemo(() => {
     if (!q) return null;
-    if (mode === 'meaning') return <div className={`term ${lang === 'zh' ? 'zh' : ''}`}>{q.card.term}</div>;
+    if (mode === 'meaning') return <div className={`term ${scriptClass(lang)}`}>{q.card.term}</div>;
     if (mode === 'listen') return <div className="term"><button className="btn big" onClick={() => speak(q.card.term, lang)}>🔊 Nghe lại</button></div>;
     return <div className="term meaning-prompt">{q.card.meaning_vi}</div>;
   }, [q, mode, lang]);
@@ -102,6 +102,7 @@ export default function Quiz() {
         <div className="card center-text">
           <p>{MODES[mode]} — {Math.min(QUESTIONS, cards.length)} câu hỏi</p>
           {mode === 'type' && lang === 'zh' && <p className="muted small">Có thể gõ chữ Hán hoặc pinyin (không cần dấu thanh), vd: nihao</p>}
+          {mode === 'type' && lang === 'ja' && <p className="muted small">Có thể gõ chữ Nhật hoặc cách đọc bằng hiragana/katakana, vd: ありがとう</p>}
           <button className="btn primary" onClick={start} disabled={cards.length < 4}>Bắt đầu</button>
           {cards.length < 4 && <p className="muted small">Cần ít nhất 4 từ trong phạm vi này để làm quiz.</p>}
         </div>
@@ -122,7 +123,7 @@ export default function Quiz() {
           {mode === 'type' ? (
             <form onSubmit={submitTyped} className="type-form">
               <input ref={inputRef} value={typed} onChange={(e) => setTyped(e.target.value)} disabled={!!picked}
-                placeholder={lang === 'zh' ? 'Gõ chữ Hán hoặc pinyin…' : 'Gõ từ tiếng Anh…'} lang={lang === 'zh' ? 'zh-CN' : 'en'} />
+                placeholder={{ en: 'Gõ từ tiếng Anh…', zh: 'Gõ chữ Hán hoặc pinyin…', ja: 'Gõ chữ Nhật hoặc kana…' }[lang]} lang={INPUT_LANG[lang]} />
               {!picked && <button className="btn primary">Kiểm tra</button>}
             </form>
           ) : (
@@ -132,7 +133,7 @@ export default function Quiz() {
                 if (picked) cls = o.id === q.card.id ? 'right' : o.id === picked.id ? 'wrong' : 'dim';
                 return (
                   <button key={o.id} className={`option ${cls}`} onClick={() => choose(o)}>
-                    {mode === 'meaning' ? o.meaning_vi : <span className={lang === 'zh' ? 'zh' : ''}>{o.term}</span>}
+                    {mode === 'meaning' ? o.meaning_vi : <span className={scriptClass(lang)}>{o.term}</span>}
                   </button>
                 );
               })}
@@ -141,7 +142,7 @@ export default function Quiz() {
           {picked && (
             <div className={`feedback ${picked.correct ? 'ok' : 'bad'}`}>
               {picked.correct ? '✅ Chính xác!' : '❌ Chưa đúng.'}{' '}
-              <strong className={lang === 'zh' ? 'zh' : ''}>{q.card.term}</strong> <span className="muted">{q.card.phonetic}</span> — {q.card.meaning_vi}
+              <strong className={scriptClass(lang)}>{q.card.term}</strong> <span className="muted">{q.card.phonetic}</span> — {q.card.meaning_vi}
               <SpeakButton text={q.card.term} lang={lang} />
               <div><button className="btn primary" onClick={next} autoFocus>Tiếp ›</button></div>
             </div>

@@ -1,6 +1,11 @@
 // Trình độ và các tiện ích so sánh trình độ trong SQL
-export const LEVELS = { en: ['A1', 'A2', 'B1', 'B2', 'C1'], zh: ['HSK1', 'HSK2', 'HSK3', 'HSK4', 'HSK5', 'HSK6'] };
-const LEVEL_ORDER = '|' + [...LEVELS.en, ...LEVELS.zh].join('|') + '|';
+export const LEVELS = {
+  en: ['A1', 'A2', 'B1', 'B2', 'C1'],
+  zh: ['HSK1', 'HSK2', 'HSK3', 'HSK4', 'HSK5', 'HSK6'],
+  ja: ['N5', 'N4', 'N3', 'N2', 'N1'],
+};
+export const LANG_LIST = Object.keys(LEVELS);
+const LEVEL_ORDER = '|' + Object.values(LEVELS).flat().join('|') + '|';
 
 // Biểu thức SQL trả về thứ hạng của một cột trình độ (dùng instr trên chuỗi thứ tự)
 export const RANK = (col) => `instr('${LEVEL_ORDER}', '|' || ${col} || '|')`;

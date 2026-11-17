@@ -126,7 +126,7 @@ gamifyRouter.put('/goal', (req, res) => {
 // ---------- Hành trình ----------
 gamifyRouter.get('/journey', (req, res) => {
   const lang = req.query.lang;
-  if (!LEVELS[lang]) return res.status(400).json({ error: 'lang phải là en hoặc zh' });
+  if (!LEVELS[lang]) return res.status(400).json({ error: 'lang phải là en, zh hoặc ja' });
   const uid = req.user.id;
   const goal = getGoal(uid, lang);
   const scope = levelsBetween(lang, goal.start, goal.target);
