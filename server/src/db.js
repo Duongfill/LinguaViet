@@ -114,3 +114,17 @@ addColumn('users', 'tz', "TEXT NOT NULL DEFAULT 'Asia/Ho_Chi_Minh'");
 addColumn('users', 'last_reminded', 'TEXT');
 addColumn('users', 'show_on_leaderboard', 'INTEGER NOT NULL DEFAULT 1');
 db.exec('CREATE INDEX IF NOT EXISTS idx_reviews_learned ON reviews(user_id, first_learned_at)');
+
+// Bộ từ riêng của người dùng ("Từ của tôi"): owner_id NULL = bộ chung
+addColumn('decks', 'owner_id', 'INTEGER REFERENCES users(id) ON DELETE CASCADE');
+db.exec(`
+CREATE INDEX IF NOT EXISTS idx_decks_owner ON decks(owner_id);
+CREATE INDEX IF NOT EXISTS idx_activity_card ON activity(user_id, lang, card_id, created_at);
+-- Từ hay quên mà người dùng bấm "Đã nhớ": ẩn cho tới khi sai lại sau thời điểm này
+CREATE TABLE IF NOT EXISTS weak_dismissed (
+  user_id      INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  card_id      INTEGER NOT NULL REFERENCES cards(id) ON DELETE CASCADE,
+  dismissed_at TEXT    NOT NULL,
+  PRIMARY KEY (user_id, card_id)
+);
+`);

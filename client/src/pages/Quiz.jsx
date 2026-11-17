@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { api, logActivity } from '../lib/api.js';
 import { useLang } from '../lib/lang.jsx';
 import { useAuth } from '../lib/auth.jsx';
@@ -33,7 +34,8 @@ function buildQuiz(cards) {
 export default function Quiz() {
   const { lang } = useLang();
   const myLevel = useAuth().user.levels?.[lang];
-  const [deck, setDeck] = useState('');
+  const [params] = useSearchParams();
+  const [deck, setDeck] = useState(params.get('deck') || ''); // ?deck=weak từ trang "Từ hay quên"
   const [mode, setMode] = useState('meaning');
   const [cards, setCards] = useState([]);
   const [quiz, setQuiz] = useState(null);
@@ -101,6 +103,7 @@ export default function Quiz() {
           <p>{MODES[mode]} — {Math.min(QUESTIONS, cards.length)} câu hỏi</p>
           {mode === 'type' && lang === 'zh' && <p className="muted small">Có thể gõ chữ Hán hoặc pinyin (không cần dấu thanh), vd: nihao</p>}
           <button className="btn primary" onClick={start} disabled={cards.length < 4}>Bắt đầu</button>
+          {cards.length < 4 && <p className="muted small">Cần ít nhất 4 từ trong phạm vi này để làm quiz.</p>}
         </div>
       )}
 

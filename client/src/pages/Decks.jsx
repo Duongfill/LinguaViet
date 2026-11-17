@@ -3,7 +3,9 @@ import { api } from '../lib/api.js';
 import { useLang } from '../lib/lang.jsx';
 import { useAuth } from '../lib/auth.jsx';
 import SpeakButton from '../components/SpeakButton.jsx';
-import { groupByLevel, levelLabel } from '../lib/levels.js';
+import { MINE, groupByLevel, levelLabel } from '../lib/levels.js';
+import WordSearch from '../components/WordSearch.jsx';
+import MyWords from '../components/MyWords.jsx';
 
 export default function Decks() {
   const { lang } = useLang();
@@ -12,12 +14,13 @@ export default function Decks() {
   const [level, setLevel] = useState('');
   const [open, setOpen] = useState(null);
   const [cards, setCards] = useState([]);
+  const [myVersion, setMyVersion] = useState(0); // tăng khi "Từ của tôi" thay đổi để tải lại
 
+  const loadDecks = () => api(`/decks?lang=${lang}`).then((d) => { setDecks(d.decks); return d.decks; });
   useEffect(() => {
     setOpen(null);
-    api(`/decks?lang=${lang}`).then((d) => {
-      setDecks(d.decks);
-      const groups = groupByLevel(d.decks);
+    loadDecks().then((list) => {
+      const groups = groupByLevel(list).filter(([l]) => l !== MINE);
       // Mặc định mở trình độ người dùng đã chọn
       setLevel(groups.some(([l]) => l === myLevel) ? myLevel : groups[0]?.[0] || '');
     });
@@ -31,13 +34,17 @@ export default function Decks() {
     setCards(d.cards);
   };
 
-  const groups = groupByLevel(decks);
+  const groups = groupByLevel(decks).filter(([l]) => l !== MINE);
+  const myChanged = () => { setMyVersion((v) => v + 1); loadDecks(); };
   const shown = level ? groups.filter(([l]) => l === level) : groups;
 
   return (
     <div className="stack">
+      <h2 style={{ margin: 0 }}>Bộ từ vựng</h2>
+      <WordSearch lang={lang} onAdded={myChanged} />
+      <MyWords lang={lang} version={myVersion} onChange={myChanged} />
       <div className="toolbar">
-        <h2>Bộ từ vựng</h2>
+        <h3 style={{ margin: 0 }}>Kho từ theo trình độ</h3>
         <div className="chips" role="tablist" aria-label="Lọc theo trình độ">
           <button className={!level ? 'active' : ''} onClick={() => setLevel('')}>Tất cả</button>
           {groups.map(([l, list]) => (

@@ -9,7 +9,8 @@ const LABELS = {
   A1: 'A1 – Sơ cấp', A2: 'A2 – Sơ cấp', B1: 'B1 – Trung cấp', B2: 'B2 – Trung cao cấp', C1: 'C1 – Cao cấp',
   HSK1: 'HSK 1', HSK2: 'HSK 2', HSK3: 'HSK 3', HSK4: 'HSK 4', HSK5: 'HSK 5', HSK6: 'HSK 6',
 };
-export const levelLabel = (l) => LABELS[l] || l || 'Khác';
+export const MINE = 'MINE'; // nhóm "Từ của tôi"
+export const levelLabel = (l) => (l === MINE ? '⭐ Từ của tôi' : LABELS[l] || l || 'Khác');
 export const levelShort = (l) => (l || '').replace('HSK', 'HSK ');
 
 // Mô tả giúp người học tự đánh giá
@@ -31,18 +32,20 @@ export const LEVEL_DESC = {
 export function groupByLevel(decks) {
   const map = new Map();
   for (const d of decks) {
-    if (!map.has(d.level)) map.set(d.level, []);
-    map.get(d.level).push(d);
+    const key = d.mine ? MINE : d.level;
+    if (!map.has(key)) map.set(key, []);
+    map.get(key).push(d);
   }
-  const rank = (l) => (LEVEL_ORDER.indexOf(l) + 1) || 99;
+  const rank = (l) => (l === MINE ? 0 : (LEVEL_ORDER.indexOf(l) + 1) || 99);
   return [...map.entries()].sort((a, b) => rank(a[0]) - rank(b[0]));
 }
 
 // Tham số truy vấn theo lựa chọn ở DeckPicker:
-//  ''    -> trình độ của tôi;  'all' -> tất cả;  số -> một bộ cụ thể
+//  ''    -> trình độ của tôi;  'all' -> tất cả;  'weak' -> từ hay quên;  số -> một bộ cụ thể
 // mode 'exact' (quiz, phát âm, chữ Hán) lấy đúng trình độ; 'min' (flashcard) lấy từ trình độ đó trở lên
 export function deckQuery(deck, myLevel, mode = 'exact') {
   if (deck === 'all') return '';
+  if (deck === 'weak') return '&weak=1';
   if (deck) return `&deck=${deck}`;
   if (!myLevel) return '';
   return mode === 'min' ? `&minLevel=${myLevel}` : `&level=${myLevel}`;

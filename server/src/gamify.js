@@ -130,7 +130,7 @@ gamifyRouter.get('/journey', (req, res) => {
   const uid = req.user.id;
   const goal = getGoal(uid, lang);
   const scope = levelsBetween(lang, goal.start, goal.target);
-  const inScope = `d.lang = ? AND d.level IN (${scope.map(() => '?').join(',')})`;
+  const inScope = `d.owner_id IS NULL AND d.lang = ? AND d.level IN (${scope.map(() => '?').join(',')})`;
 
   // Số từ theo từng trình độ trong phạm vi (để đặt cột mốc "hoàn thành trình độ")
   const perLevel = db.prepare(`SELECT d.level, COUNT(c.id) AS total FROM cards c JOIN decks d ON d.id = c.deck_id

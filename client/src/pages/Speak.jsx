@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { api, logActivity } from '../lib/api.js';
 import { useLang } from '../lib/lang.jsx';
 import { useAuth } from '../lib/auth.jsx';
@@ -10,7 +11,8 @@ import SpeakButton from '../components/SpeakButton.jsx';
 export default function Speak() {
   const { lang } = useLang();
   const myLevel = useAuth().user.levels?.[lang];
-  const [deck, setDeck] = useState('');
+  const [params] = useSearchParams();
+  const [deck, setDeck] = useState(params.get('deck') || ''); // ?deck=weak từ trang "Từ hay quên"
   const [cards, setCards] = useState([]);
   const [idx, setIdx] = useState(0);
   const [target, setTarget] = useState('word'); // word | sentence
