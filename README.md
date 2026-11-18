@@ -8,6 +8,7 @@ Web app (React + Vite) + backend (Node/Express + SQLite) cho người Việt h�
 - **Quiz**: từ→nghĩa, nghĩa→từ, nghe→chọn từ, gõ từ (tiếng Trung gõ được chữ Hán hoặc pinyin không dấu).
 - **Luyện chữ Hán**: xem thứ tự nét và tự viết có chấm (thư viện hanzi-writer).
 - **Luyện phát âm**: nghe mẫu (TTS), đọc vào micro, chấm điểm độ giống (Web Speech API).
+- **Luyện đề TOEIC / IELTS** (tiếng Anh): Listening (giọng máy nhiều người nói) + Reading chấm tự động, quy đổi điểm/band ước lượng, giải thích tiếng Việt; IELTS Writing (biểu đồ) + Speaking có bài mẫu để tự chấm. Thêm đề: xem `tools/exams/EXAM-SPEC.md`.
 - **Thống kê**: chuỗi ngày học, mục tiêu ngày, số từ đã thuộc, biểu đồ 7 ngày.
 
 ## Chạy thử

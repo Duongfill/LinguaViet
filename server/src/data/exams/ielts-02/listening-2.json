@@ -1,0 +1,104 @@
+{
+  "title": "Section 2",
+  "context": "A coordinator is giving an induction talk to new volunteers at a maritime museum.",
+  "audio": [
+    { "s": "N", "t": "You will hear a museum coordinator giving a talk to new volunteers at the Harbourside Maritime Museum." },
+    { "s": "W", "t": "Good morning, everyone, and welcome to the Harbourside Maritime Museum. I'm Karen, and I coordinate our volunteer team." },
+    { "s": "W", "t": "First, let me explain how much time we ask from you. We used to ask for one shift every week, but that was too much for many people." },
+    { "s": "W", "t": "So now the minimum is two shifts a month, and each shift lasts four hours. Most of you will find that easy to fit around work or study." },
+    { "s": "W", "t": "Before your first shift, you'll need your volunteer badge. You'd normally collect it from the main reception, but there is building work there this month." },
+    { "s": "W", "t": "I thought we'd moved it to the security office, but sorry, I was wrong. You'll find your badge in the volunteer office on the first floor, next to the library." },
+    { "s": "W", "t": "Safety comes first here. If a visitor feels unwell, please don't try to treat them yourself." },
+    { "s": "W", "t": "Stay with the person and use your radio to call one of our first-aiders. The security desk deals with lost property and building problems, not medical issues." },
+    { "s": "W", "t": "Now, what do you get in return? Everyone receives a discount in our gift shop from the very first day." },
+    { "s": "W", "t": "Once you've completed fifty hours, you'll receive free annual membership of the museum. And at one hundred hours, you also get a certificate." },
+    { "s": "W", "t": "Our next training session is on Tuesday. I originally planned to cover first aid, but the trainer is unavailable, so we'll postpone that until next month." },
+    { "s": "W", "t": "Instead, Tuesday's session will teach you how to help visitors with accessibility needs, such as wheelchair users or people with hearing difficulties." },
+    { "s": "W", "t": "Now let me take you through the museum and tell you what you'll be doing in each area. We'll start with the Navigation Gallery on the ground floor." },
+    { "s": "W", "t": "This gallery is full of old compasses, maps and sextants. Volunteers here show visitors how those instruments were used at sea." },
+    { "s": "W", "t": "Next door is the Children's Discovery Room, which is always busy at weekends. Your job there is to help families with the craft activities, like making paper boats." },
+    { "s": "W", "t": "Upstairs we have the Temporary Exhibition space, which is currently showing historic paintings of the harbour. It's a quiet area, and you only need to remind visitors that flash photography isn't allowed." },
+    { "s": "W", "t": "Next to it is the Archive Room. It holds thousands of donated photographs, and volunteers there sort them and write labels so they can be catalogued." },
+    { "s": "W", "t": "Please remember that the photographs are delicate, so you must wear gloves at all times in that room." },
+    { "s": "W", "t": "The last area is the Shipbuilding Hall, where we're restoring a wooden fishing boat. Volunteers here wear a hard hat and lead short tours explaining how the boat is being repaired." },
+    { "s": "W", "t": "You may also have noticed the Café Terrace. We employ our own staff there, so volunteers aren't needed, but you're welcome to use it during your breaks." },
+    { "s": "W", "t": "Right, does anyone have any questions before we start our walk round the museum?" }
+  ],
+  "blocks": [
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "q": "What is the minimum commitment for volunteers?",
+          "options": ["one shift every week", "two shifts every month", "one full day every month", "four hours every week"],
+          "answer": 1,
+          "explain": "Trước đây là mỗi tuần một ca, nhưng giờ: \"the minimum is two shifts a month, and each shift lasts four hours\"."
+        },
+        {
+          "q": "Where should volunteers collect their badges?",
+          "options": ["at the main reception", "at the security office", "in the volunteer office", "in the staff café"],
+          "answer": 2,
+          "explain": "Reception đang sửa chữa, rồi người nói tự sửa lỗi về văn phòng bảo vệ: \"I was wrong. You'll find your badge in the volunteer office on the first floor\"."
+        },
+        {
+          "q": "If a visitor feels unwell, volunteers should",
+          "options": ["call a first-aider by radio", "take the visitor to the café", "phone the security desk", "treat the visitor themselves"],
+          "answer": 0,
+          "explain": "\"Stay with the person and use your radio to call one of our first-aiders\". Bảo vệ không xử lý vấn đề y tế."
+        },
+        {
+          "q": "What will volunteers receive after fifty hours?",
+          "options": ["a shop discount", "a certificate", "a free lunch voucher", "free annual membership"],
+          "answer": 3,
+          "explain": "\"Once you've completed fifty hours, you'll receive free annual membership\". Giảm giá cửa hàng có ngay từ đầu, chứng chỉ ở mốc 100 giờ."
+        },
+        {
+          "q": "What will Tuesday's training session be about?",
+          "options": ["first aid", "handling objects", "helping visitors with accessibility needs", "using the radio system"],
+          "answer": 2,
+          "explain": "Buổi sơ cứu bị hoãn sang tháng sau: \"Tuesday's session will teach you how to help visitors with accessibility needs\"."
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "What will volunteers do in each area of the museum? Choose FIVE answers from the list below and write the correct letter, A–F, next to Questions 16–20.",
+      "options": [
+        "A  Navigation Gallery",
+        "B  Shipbuilding Hall",
+        "C  Children's Discovery Room",
+        "D  Archive Room",
+        "E  Café Terrace",
+        "F  Temporary Exhibition"
+      ],
+      "questions": [
+        {
+          "q": "Show visitors how old instruments were used",
+          "answer": 0,
+          "explain": "\"Volunteers here show visitors how those instruments were used at sea\" nói về Navigation Gallery."
+        },
+        {
+          "q": "Help families with craft activities",
+          "answer": 2,
+          "explain": "\"Children's Discovery Room ... Your job there is to help families with the craft activities\"."
+        },
+        {
+          "q": "Remind visitors not to use flash photography",
+          "answer": 5,
+          "explain": "Khu triển lãm tạm thời: \"you only need to remind visitors that flash photography isn't allowed\"."
+        },
+        {
+          "q": "Sort and label donated photographs",
+          "answer": 3,
+          "explain": "\"Archive Room ... volunteers there sort them and write labels\"."
+        },
+        {
+          "q": "Wear a hard hat and lead tours",
+          "answer": 1,
+          "explain": "\"Shipbuilding Hall ... Volunteers here wear a hard hat and lead short tours\". Café Terrace là đáp án gây nhiễu vì không cần tình nguyện viên."
+        }
+      ]
+    }
+  ]
+}

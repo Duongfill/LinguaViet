@@ -12,6 +12,7 @@ import { LANG_LIST, RANK, validLevel } from './levels.js';
 import { computeStreak, gamifyRouter } from './gamify.js';
 import { pushRouter, startReminderScheduler } from './push.js';
 import { visibleDeck, weakCards, wordsRouter } from './words.js';
+import { examsRouter } from './exams.js';
 
 seedIfEmpty();
 
@@ -99,6 +100,7 @@ app.patch('/api/me', requireAuth, wrap((req, res) => {
 
 app.use('/api', gamifyRouter);
 app.use('/api', wordsRouter);
+app.use('/api', examsRouter);
 app.use('/api/push', pushRouter);
 
 // ---------- Decks & cards ----------

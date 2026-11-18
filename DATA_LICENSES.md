@@ -12,3 +12,7 @@ Danh sách từ, trình độ, phiên âm lấy từ nguồn; nghĩa tiếng Vi�
 | Phiên âm IPA tiếng Anh (en_US) | [open-dict-data/ipa-dict](https://github.com/open-dict-data/ipa-dict) | MIT |
 
 Do có dữ liệu CC BY-SA 4.0, nếu phân phối lại `generated-en.json` cần giữ ghi công và cùng giấy phép CC BY-SA 4.0.
+
+## Đề luyện TOEIC / IELTS
+
+Các đề trong `server/src/data/exams/` là **nội dung tự soạn bằng AI theo dạng thức** TOEIC Listening & Reading và IELTS Academic — không sao chép đề thật hay sách luyện thi có bản quyền (ETS, British Council, IDP, Cambridge). Tên người, công ty, số liệu trong đề là hư cấu. Đặc tả: `tools/exams/EXAM-SPEC.md`; kiểm tra: `node tools/exams/check.mjs <thư mục đề>`. Điểm quy đổi TOEIC / band IELTS trong app chỉ là ước lượng.

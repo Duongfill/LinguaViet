@@ -1,0 +1,153 @@
+{
+  "title": "Growing Up with Two Languages",
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "For much of the twentieth century, bilingualism was regarded as a problem to be managed rather than a gift to be encouraged. Teachers and doctors routinely advised immigrant parents to speak only the majority language at home, on the grounds that a second language would confuse a child and slow intellectual development. Such advice seems extraordinary today, when roughly half the world's children grow up with two or more languages. The early studies on which it rested compared bilingual children with monolingual ones using tests given in the majority language, which the bilingual children had often not yet mastered. Unsurprisingly, they scored lower. These were poorly designed experiments, and their conclusions say far more about the researchers' assumptions than about the children."
+    },
+    {
+      "label": "B",
+      "text": "Modern research begins from a different question: what is actually going on in a young child's mind? Professor Elena Marković, who studies infants, has shown that babies are sensitive to the rhythm and sounds of their languages almost from birth, and that bilingual babies can tell their two languages apart within a few months. She argues that the child does not learn one language and then bolt a second on to it; from the very beginning, the brain builds two separate systems. Bilingual children also reach the main milestones, such as first words and the first two-word phrases, at much the same age as monolingual children. Where they appear to lag is in vocabulary, but only if each language is counted on its own. When words from both languages are added together, the total is usually equal to, or larger than, that of a monolingual child, and it seems more sensible to measure vocabulary in this way, since the child draws on both languages to communicate."
+    },
+    {
+      "label": "C",
+      "text": "Parents are often most anxious about code-switching, the habit of moving between languages within a single conversation or even a single sentence. To many listeners it sounds like evidence that the child cannot keep the languages apart. Dr Samuel Okafor rejects this interpretation. In his recordings of children at home and at nursery, switching occurred almost exclusively when the listener was known to understand both languages, and the children respected the grammatical rules of each language as they moved between them. He concludes that code-switching is not a failure of control but a sophisticated skill, comparable to a musician moving between keys. The evidence is persuasive, although few studies have followed such children beyond the age of seven."
+    },
+    {
+      "label": "D",
+      "text": "A third area of debate concerns thinking skills. In the early 2000s, a number of experiments suggested that bilinguals were better at ignoring distractions and switching attention between tasks, presumably because they were constantly managing two languages. Professor Mei-Ling Tsai was among the first to report such an advantage, and the finding was quickly taken up by newspapers and advertisers. Larger studies conducted later, however, often failed to reproduce it. Tsai herself now takes a more cautious position. In her view, any benefit appears only in people who switch between languages frequently in their daily lives, and not in those who simply know a second language that they seldom use. Whatever the final verdict, it would be unwise to promote bilingualism to parents mainly as a way of making their children cleverer. The case for it rests on firmer ground: the children's ability to talk to their grandparents, to read in two languages and to move between two cultures."
+    },
+    {
+      "label": "E",
+      "text": "If growing up with two languages is not difficult in itself, why do so many children end up speaking only one? The answer lies largely in exposure. Dr Rafael Duarte has calculated that a child needs to hear a language for at least about a third of their waking hours in order to become fluent in it, and that conversation with real people is far more effective than television or educational applications. Once children start school, the majority language tends to take over. Many parents have tried to prevent this by following the \"one parent, one language\" rule, in which each adult speaks only their own language to the child. Duarte does not think this is necessary. What matters, he says, is the richness of interaction, and a family that mixes languages naturally but talks to its children a great deal will usually do better than one that follows a strict rule in near silence. Parents who have not managed to keep to a rule should therefore not feel guilty."
+    },
+    {
+      "label": "F",
+      "text": "Language is also bound up with identity. Children who speak a heritage language often feel a stronger connection to relatives and to the place where their family comes from, and they are less likely to experience their family's culture as something to be ashamed of at school. Yet schools too often treat a child's home language as an obstacle, discouraging its use in the classroom or ignoring it altogether. This seems to be a missed opportunity. Teachers who let pupils discuss new ideas in their strongest language before moving on to the language of instruction report that the children understand concepts more quickly and take part more confidently."
+    },
+    {
+      "label": "G",
+      "text": "None of this means that bilingualism is easy. Fluency in two languages demands years of sustained input, and it will not appear simply because the parents want it. But the research suggests that the main obstacle is not the children's capacity to learn. It is the expectations of the adults around them. Perhaps the most useful lesson for parents and teachers is that a bilingual child should be judged against other bilingual children, and not against the norms for those who speak a single language."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "ynng",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3? Write YES if the statement agrees with the claims of the writer, NO if the statement contradicts the claims of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "questions": [
+        {
+          "q": "The advice once given to immigrant parents was based on carefully designed research.",
+          "answer": "NO",
+          "explain": "Đoạn A: tác giả gọi các nghiên cứu ban đầu là \"poorly designed experiments\" (thiết kế kém), vì kiểm tra trẻ bằng ngôn ngữ mà các em chưa thành thạo, nên câu này mâu thuẫn với quan điểm tác giả."
+        },
+        {
+          "q": "It makes more sense to count a bilingual child's vocabulary across both languages than in each language separately.",
+          "answer": "YES",
+          "explain": "Đoạn B: tác giả viết \"it seems more sensible to measure vocabulary in this way\" (cộng từ vựng của cả hai ngôn ngữ), vì trẻ dùng cả hai ngôn ngữ để giao tiếp."
+        },
+        {
+          "q": "Children who switch between languages tend to be more popular with other children.",
+          "answer": "NOT GIVEN",
+          "explain": "Đoạn C bàn về việc trẻ chuyển ngữ như một kỹ năng, nhưng không hề nói gì về mức độ được bạn bè yêu thích."
+        },
+        {
+          "q": "Parents who are unable to follow the \"one parent, one language\" rule have no reason to feel guilty.",
+          "answer": "YES",
+          "explain": "Đoạn E: tác giả kết luận rằng cha mẹ không giữ được quy tắc này \"should therefore not feel guilty\", vì điều quan trọng là sự phong phú của tương tác."
+        },
+        {
+          "q": "Bilingualism should be promoted to parents chiefly as a way of raising their children's intelligence.",
+          "answer": "NO",
+          "explain": "Đoạn D: tác giả nói \"it would be unwise to promote bilingualism to parents mainly as a way of making their children cleverer\" (không khôn ngoan), nên đáp án là NO."
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "Look at the following statements and the list of researchers below. Match each statement with the correct researcher, A–D. You may use any letter more than once.",
+      "options": [
+        "A  Professor Elena Marković",
+        "B  Dr Samuel Okafor",
+        "C  Professor Mei-Ling Tsai",
+        "D  Dr Rafael Duarte"
+      ],
+      "questions": [
+        {
+          "q": "Bilingual infants build two separate language systems from the start.",
+          "answer": 0,
+          "explain": "Đoạn B: Marković lập luận rằng \"from the very beginning, the brain builds two separate systems\"."
+        },
+        {
+          "q": "Moving from one language to another in a sentence shows a high level of skill.",
+          "answer": 1,
+          "explain": "Đoạn C: Okafor kết luận chuyển ngữ là \"a sophisticated skill\", không phải thất bại trong kiểm soát ngôn ngữ."
+        },
+        {
+          "q": "Any cognitive advantage of bilingualism depends on how often a person switches languages in everyday life.",
+          "answer": 2,
+          "explain": "Đoạn D: Tsai hiện cho rằng lợi ích chỉ xuất hiện ở người \"switch between languages frequently in their daily lives\"."
+        },
+        {
+          "q": "The family's overall style of interaction is more important than a strict language rule.",
+          "answer": 3,
+          "explain": "Đoạn E: Duarte nói điều quan trọng là \"the richness of interaction\", không cần quy tắc \"one parent, one language\" chặt chẽ."
+        },
+        {
+          "q": "Bilingual children reach early language milestones at about the same age as other children.",
+          "answer": 0,
+          "explain": "Đoạn B: trong phần trình bày nghiên cứu của Marković, trẻ song ngữ đạt các mốc như từ đầu tiên, cụm hai từ vào độ tuổi \"much the same\" với trẻ đơn ngữ."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "q": "Why does the writer consider the early studies of bilingual children unreliable?",
+          "options": [
+            "The children who took part were too young to be tested.",
+            "The tests were given in a language the children had not mastered.",
+            "The researchers disagreed with one another about the results.",
+            "The monolingual children in the studies had received extra teaching."
+          ],
+          "answer": 1,
+          "explain": "Đoạn A: các bài kiểm tra dùng ngôn ngữ đa số mà trẻ song ngữ \"had often not yet mastered\", nên điểm thấp là điều dễ hiểu."
+        },
+        {
+          "q": "What does the writer say about the claim that bilinguals have better attention skills?",
+          "options": [
+            "It was first made by newspapers and advertisers.",
+            "It has been confirmed by every large study.",
+            "It has been proved to apply only to young children.",
+            "It was not consistently supported by later, larger studies."
+          ],
+          "answer": 3,
+          "explain": "Đoạn D: các nghiên cứu lớn hơn sau đó \"often failed to reproduce it\". Báo chí chỉ \"took up\" phát hiện này chứ không phải là người đầu tiên đưa ra."
+        },
+        {
+          "q": "What does the writer suggest about the \"one parent, one language\" rule?",
+          "options": [
+            "It is the only reliable way of keeping a minority language alive.",
+            "It tends to make children less confident in the majority language.",
+            "It is popular among parents but is not essential for success.",
+            "It works best when families speak very little at home."
+          ],
+          "answer": 2,
+          "explain": "Đoạn E: nhiều phụ huynh áp dụng quy tắc này nhưng Duarte (và tác giả) cho rằng không cần thiết; gia đình nói chuyện nhiều và phong phú còn hiệu quả hơn."
+        },
+        {
+          "q": "What is the main message of the final paragraph?",
+          "options": [
+            "Parents should stop trying to raise bilingual children.",
+            "Bilingual children should be assessed against other bilingual children.",
+            "Schools should teach all subjects in the children's home language.",
+            "Children learn two languages more easily than adults do."
+          ],
+          "answer": 1,
+          "explain": "Đoạn G: bài học hữu ích nhất là trẻ song ngữ nên được đánh giá \"against other bilingual children\", không theo chuẩn của trẻ đơn ngữ."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Section 4",
+  "context": "A marine biology lecturer is giving a talk about how damaged coral reefs can be restored.",
+  "audio": [
+    { "s": "N", "t": "Section 4. You will hear a lecturer talking to a group of students about the restoration of coral reefs." },
+    { "s": "M", "t": "Good morning, everyone. Today I'd like to talk about something hopeful for a change: how we can help damaged coral reefs recover." },
+    { "s": "M", "t": "Let's start with why reefs matter so much. If you look at my first slide, you'll see that reefs cover less than ten per cent of the ocean floor." },
+    { "s": "M", "t": "Sorry, that's a mistake on the slide. The correct figure is less than one per cent. I'll fix it before I upload the slides." },
+    { "s": "M", "t": "Even so, that tiny area supports about a quarter of all marine species, which is an extraordinary proportion." },
+    { "s": "M", "t": "The best known threat is coral bleaching. It happens when the water becomes too warm, and the coral loses the colourful algae living inside it." },
+    { "s": "M", "t": "A bleached reef isn't necessarily dead, but it's weak, and repeated bleaching can destroy it. That's where restoration comes in." },
+    { "s": "M", "t": "The first technique is called coral gardening. Small fragments of healthy coral are collected, often pieces that have broken off naturally in storms." },
+    { "s": "M", "t": "These fragments are then hung on frames in underwater nurseries, where they can grow in calm, protected conditions." },
+    { "s": "M", "t": "When the fragments are ready, divers attach them to the damaged reef. Early projects used a strong glue called epoxy for this." },
+    { "s": "M", "t": "However, most teams have now switched to marine cement. It's cheaper, and it doesn't release chemicals into the water." },
+    { "s": "M", "t": "The species most often used is staghorn coral, because it grows so quickly. Older studies suggested it grew about ten centimetres a year." },
+    { "s": "M", "t": "But recent measurements show that in good conditions it can reach as much as fifteen centimetres a year." },
+    { "s": "M", "t": "How long do the fragments stay in the nursery? In the first trials it was only about four months, but that proved too short." },
+    { "s": "M", "t": "Most projects now wait around six months, so the pieces are big enough to survive when they're moved." },
+    { "s": "M", "t": "And what about survival? You'll sometimes read that ninety per cent of transplanted fragments survive. That's true in a few sheltered bays." },
+    { "s": "M", "t": "Across all the projects I've reviewed, though, the average is about seventy per cent, which is still very encouraging." },
+    { "s": "M", "t": "The second approach looks to the future. Scientists are selecting and breeding corals that can tolerate higher temperatures." },
+    { "s": "M", "t": "They find colonies that survived a hot summer without bleaching and use them as parents. Their offspring then seem to cope better with warm water." },
+    { "s": "M", "t": "Some researchers call this assisted evolution, and it's still at an early stage, but the first results are promising." },
+    { "s": "M", "t": "The third method uses artificial structures. One well known design is called Biorock. It's a steel frame placed on the sea bed." },
+    { "s": "M", "t": "A weak electric current passes through the frame, and minerals from the seawater gradually build up on the steel. Coral fragments attached to it tend to grow much faster." },
+    { "s": "M", "t": "Of course, none of this works without the people who live near the reef." },
+    { "s": "M", "t": "In several countries, local fishermen have been trained to monitor the reefs and report any damage. They know the area better than anyone." },
+    { "s": "M", "t": "They are also paid for the work, which gives them a good reason to protect the reef rather than fish in it unsustainably." },
+    { "s": "M", "t": "To sum up, restoration can't replace the protection of healthy reefs, and it can't stop the oceans warming." },
+    { "s": "M", "t": "But it does buy precious time, and it shows that people can repair some of the damage we have caused. Thank you, and now I'll take your questions." }
+  ],
+  "blocks": [
+    {
+      "type": "gap",
+      "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+        { "q": "Coral reefs cover less than ______% of the ocean floor.", "answer": ["1", "one"], "explain": "Slide ghi 10% nhưng giảng viên sửa ngay: \"The correct figure is less than one per cent.\"" },
+        { "q": "They support about a quarter of all marine ______.", "answer": ["species"], "explain": "\"That tiny area supports about a quarter of all marine species.\"" },
+        { "q": "Coral gardening: fragments are grown in underwater ______.", "answer": ["nurseries", "nursery"], "explain": "\"These fragments are then hung on frames in underwater nurseries.\"" },
+        { "q": "Fragments are now attached to the reef using marine ______.", "answer": ["cement"], "explain": "Dự án đầu dùng keo epoxy, nhưng \"most teams have now switched to marine cement\" vì rẻ hơn và không thải hóa chất." },
+        { "q": "Staghorn coral can grow up to ______ cm a year.", "answer": ["15", "fifteen"], "explain": "Nghiên cứu cũ nói 10 cm, nhưng số đo mới cho thấy \"as much as fifteen centimetres a year\"." },
+        { "q": "Fragments now stay in the nursery for about ______ months.", "answer": ["6", "six"], "explain": "Thử nghiệm đầu chỉ 4 tháng nhưng quá ngắn; nay \"Most projects now wait around six months\"." },
+        { "q": "The average survival rate of transplanted fragments is about ______%.", "answer": ["70", "seventy"], "explain": "90% chỉ đúng ở vài vịnh kín gió; \"the average is about seventy per cent\"." },
+        { "q": "Scientists are breeding corals that can tolerate higher ______.", "answer": ["temperatures", "temperature"], "explain": "\"Selecting and breeding corals that can tolerate higher temperatures.\"" },
+        { "q": "Biorock structures are steel frames with a weak ______ current passing through them.", "answer": ["electric", "electrical"], "explain": "\"A weak electric current passes through the frame\" giúp khoáng chất bám vào thép." },
+        { "q": "Local ______ are trained to monitor the reefs.", "answer": ["fishermen", "fishers", "fisherman"], "explain": "\"Local fishermen have been trained to monitor the reefs and report any damage.\"" }
+      ]
+    }
+  ]
+}

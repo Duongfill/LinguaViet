@@ -1,0 +1,117 @@
+{
+  "title": "Section 3",
+  "context": "A student, Mia, is discussing her dissertation on renewable energy with her supervisor, Dr Patel.",
+  "audio": [
+    { "s": "N", "t": "You will hear a student called Mia talking to her supervisor, Dr Patel, about her dissertation on renewable energy." },
+    { "s": "M", "t": "Come in, Mia. Let's see how your dissertation is coming along." },
+    { "s": "W", "t": "Thanks, Dr Patel. I've done a lot since our last meeting, but I'd like your advice on a few things." },
+    { "s": "M", "t": "Of course. Before we start, remind me how you came to choose renewable energy. Was it the documentary you mentioned in the first term?" },
+    { "s": "W", "t": "The documentary made me curious, yes, but what really decided it was my work placement at an energy company last summer." },
+    { "s": "W", "t": "I saw how difficult it is to persuade local people to accept new projects, and I wanted to understand that better." },
+    { "s": "M", "t": "That's a good reason. Now, last time you were planning to study household solar panels. Is that still your focus?" },
+    { "s": "W", "t": "No, I changed my mind. You said it was too broad, so I've narrowed it down to community-owned wind projects in rural areas." },
+    { "s": "M", "t": "Excellent, that's far more manageable. So what has been the hardest part so far?" },
+    { "s": "W", "t": "I thought finding published research would be a problem, but there's plenty available. The real difficulty has been getting people to answer my questionnaire." },
+    { "s": "W", "t": "I've sent it to two hundred households, and only thirty-five have replied." },
+    { "s": "M", "t": "That's quite common, I'm afraid. How many responses do you think you need?" },
+    { "s": "W", "t": "I was hoping for eighty, to make the statistics more reliable." },
+    { "s": "M", "t": "Eighty would be ideal, but it isn't realistic with your deadline. I'd say fifty is enough for a project of this size." },
+    { "s": "W", "t": "That's a relief. I'll send a reminder to the households that haven't replied yet." },
+    { "s": "M", "t": "Good. Have you completed the ethics form for the questionnaire?" },
+    { "s": "W", "t": "Yes, that was approved two weeks ago." },
+    { "s": "M", "t": "Then the next step is to book an appointment with the statistics adviser, so she can check your analysis plan before you start." },
+    { "s": "W", "t": "OK, I'll do that this week. Could we look at the chapters now? I've written a first draft of all of them." },
+    { "s": "M", "t": "Certainly. Let's begin with the introduction. It runs to nearly two thousand words, which is much too long." },
+    { "s": "W", "t": "I wanted to give plenty of background on climate policy." },
+    { "s": "M", "t": "I understand, but you could cut it by half. The reader needs your research question quickly." },
+    { "s": "W", "t": "All right. And what about the literature review?" },
+    { "s": "M", "t": "It's well organised, but most of your sources are from before 2015. This field changes fast, so you should add some more recent studies." },
+    { "s": "W", "t": "I'll look for papers from the last three years, then. What about the methodology chapter?" },
+    { "s": "M", "t": "The description is clear, but the full questionnaire takes up three pages in the middle of the chapter. I'd move it to an appendix." },
+    { "s": "W", "t": "Would it help to add some interviews with local residents as well?" },
+    { "s": "M", "t": "It would be interesting, but you simply don't have time. Please concentrate on the questionnaire data." },
+    { "s": "W", "t": "Fine. In the results chapter, I've described all the figures in paragraphs. Is that a problem?" },
+    { "s": "M", "t": "It's hard to follow. I'd present the main figures in a chart, which will make the patterns clearer." },
+    { "s": "W", "t": "Good idea. And finally, the conclusion?" },
+    { "s": "M", "t": "That's where I had most difficulty. It's a good summary, but your own argument isn't clear, so make it clearer what you are claiming." },
+    { "s": "W", "t": "I see. I'll rewrite it once I've finished the other chapters. Thank you so much, Dr Patel." },
+    { "s": "M", "t": "You're welcome, Mia. Email me the revised draft when it's ready, and good luck with the questionnaires." }
+  ],
+  "blocks": [
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "q": "What finally made Mia choose renewable energy as her topic?",
+          "options": ["a lecture by Dr Patel", "a television documentary", "a work placement", "a family project"],
+          "answer": 2,
+          "explain": "Phim tài liệu chỉ khiến cô tò mò: \"what really decided it was my work placement at an energy company last summer\"."
+        },
+        {
+          "q": "What is the focus of Mia's dissertation now?",
+          "options": ["household solar panels", "government subsidies", "energy storage technology", "community-owned wind projects"],
+          "answer": 3,
+          "explain": "Cô đổi ý, bỏ pin mặt trời hộ gia đình: \"I've narrowed it down to community-owned wind projects in rural areas\"."
+        },
+        {
+          "q": "What has been Mia's main difficulty so far?",
+          "options": ["getting people to answer her questionnaire", "finding published research", "using statistics software", "organising her time"],
+          "answer": 0,
+          "explain": "Cô nghĩ tìm tài liệu sẽ khó nhưng \"there's plenty available. The real difficulty has been getting people to answer my questionnaire\"."
+        },
+        {
+          "q": "How many questionnaire responses does Dr Patel consider enough?",
+          "options": ["35", "50", "80", "200"],
+          "answer": 1,
+          "explain": "80 là lý tưởng nhưng không thực tế: \"I'd say fifty is enough for a project of this size\". 35 là số đã nhận, 200 là số gửi đi."
+        },
+        {
+          "q": "What does Dr Patel tell Mia to do next?",
+          "options": ["complete an ethics form", "see the statistics adviser", "attend a referencing workshop", "send him a draft by Friday"],
+          "answer": 1,
+          "explain": "Mia đã làm xong form đạo đức rồi, nên thầy nói: \"the next step is to book an appointment with the statistics adviser\"."
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "What advice does Dr Patel give about each part of the dissertation? Choose FIVE answers from the list below and write the correct letter, A–F, next to Questions 26–30.",
+      "options": [
+        "A  Reduce the length",
+        "B  Add more recent sources",
+        "C  Include interview data",
+        "D  Present the data in a chart",
+        "E  Move to an appendix",
+        "F  Make the argument clearer"
+      ],
+      "questions": [
+        {
+          "q": "Introduction",
+          "answer": 0,
+          "explain": "\"It runs to nearly two thousand words, which is much too long ... you could cut it by half\"."
+        },
+        {
+          "q": "Literature review",
+          "answer": 1,
+          "explain": "\"most of your sources are from before 2015 ... you should add some more recent studies\"."
+        },
+        {
+          "q": "Methodology",
+          "answer": 4,
+          "explain": "Bảng câu hỏi dài 3 trang: \"I'd move it to an appendix\". Phỏng vấn (C) bị thầy từ chối vì không đủ thời gian."
+        },
+        {
+          "q": "Results",
+          "answer": 3,
+          "explain": "\"I'd present the main figures in a chart, which will make the patterns clearer\"."
+        },
+        {
+          "q": "Conclusion",
+          "answer": 5,
+          "explain": "\"your own argument isn't clear, so make it clearer what you are claiming\"."
+        }
+      ]
+    }
+  ]
+}

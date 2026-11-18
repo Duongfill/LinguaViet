@@ -1,0 +1,128 @@
+{
+  "title": "From Dandy Horse to Safety Bicycle",
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "The story of the bicycle is often told as a tale of steady progress, but its early history was marked by false starts. In 1817 a German forest official, Karl von Drais, built a wooden machine with two wheels in line and a steerable front wheel. The rider sat astride a padded beam and pushed against the ground with his feet. Drais hoped that his \"running machine\" would allow him to cover his rounds more quickly, and he did indeed travel several kilometres in a fraction of the time it took to walk. The machine became fashionable in Paris and London for a few summers and was nicknamed the draisine, or dandy horse. However, the craze faded quickly. Roads of the period were rutted and muddy, and several towns banned the machines from pavements after pedestrians complained of collisions. By the early 1820s most owners had put theirs away."
+    },
+    {
+      "label": "B",
+      "text": "For almost forty years the design barely changed. Then, in the early 1860s, workshops in Paris began fitting cranks and pedals directly to the front wheel. Exactly who first thought of this is still disputed. One coachbuilder, Pierre Michaux, and his employees are often given the credit, while an inventor named Pierre Lallement claimed that the improvement was his and later patented it in the United States. Whatever the truth, the new velocipede allowed riders to keep their feet off the ground and travel faster than before. Its iron-rimmed wooden wheels and rigid frame, however, gave such a punishing ride on cobbled streets that it was nicknamed the \"boneshaker\". Even so, demand was strong, and by 1869 riding schools had opened in several European and American cities."
+    },
+    {
+      "label": "C",
+      "text": "Because one turn of the pedals moved the machine only as far as one turn of the front wheel, makers soon realised that a larger wheel meant a higher speed. During the 1870s, front wheels grew to as much as 1.5 metres in diameter, while the rear wheel shrank to a small support. The resulting \"high-wheeler\", later called the penny-farthing after two British coins of very different sizes, was light, thanks to hollow steel tubing and wire-spoked wheels, and it was fast. It was also dangerous. The rider sat high above the ground, almost directly over the front axle, and a sudden stop could throw him headlong over the handlebars, an accident known as \"taking a header\". High-wheelers were therefore the preserve of young, athletic and usually wealthy men, who formed clubs and raced one another. Women in long skirts, and older people, largely stayed away."
+    },
+    {
+      "label": "D",
+      "text": "The breakthrough that opened cycling to almost everyone came in the 1880s. Instead of enlarging the front wheel, designers in England experimented with gearing, using a chain to connect the pedals to the rear wheel. A model launched in 1885 by John Kemp Starley and marketed as the \"Safety\" placed two wheels of equal size on a diamond-shaped frame, with the rider seated low and between them. Because the chain could turn the rear wheel several times for each turn of the pedals, speed no longer depended on wheel size. The new machine was stable, easy to mount, and far less likely to throw its rider forward. Within a decade the high-wheeler had virtually disappeared from the roads."
+    },
+    {
+      "label": "E",
+      "text": "One problem remained: comfort. Solid rubber tyres absorbed little of the vibration from uneven surfaces. In 1888 a Scottish veterinary surgeon, John Boyd Dunlop, wrapped an inflatable rubber tube around the wheels of his young son's tricycle in the hope of giving the boy a smoother ride. The pneumatic tyre not only cushioned the rider but also reduced rolling resistance, and racing cyclists who used it won so many events that their rivals were forced to copy them. Within a few years, the combination of chain drive, equal-sized wheels and air-filled tyres had produced a bicycle that looks essentially like the one we use today."
+    },
+    {
+      "label": "F",
+      "text": "The 1890s are sometimes called the golden age of cycling. Mass production brought prices down, and a busy second-hand market allowed office clerks and shop workers to buy machines. For the first time, ordinary people could travel beyond walking distance without the expense of keeping a horse. Women in particular benefited. Cycling encouraged more practical clothing, and campaigners for women's rights came to see the bicycle as a symbol of independence. Cyclists also pressed governments to improve roads, which many did, and this work later helped motorists. Ironically, the car eventually took over much of the market that the bicycle had created, and in many wealthy countries cycling declined for several decades."
+    },
+    {
+      "label": "G",
+      "text": "Today the bicycle is enjoying a revival. Concerns about traffic congestion, air quality and public health have encouraged cities to build cycle lanes and bike-sharing schemes, and in some places electric motors have been added to help riders on hills or long journeys. Yet the principles of the \"safety\" design, worked out well over a century ago, remain unchanged, which makes the bicycle, in the view of many engineers, one of the most successful pieces of technology ever invented."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tfng",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1? Write TRUE, FALSE or NOT GIVEN.",
+      "questions": [
+        {
+          "q": "Drais designed his machine partly to help him with his work.",
+          "answer": "TRUE",
+          "explain": "Đoạn A: Drais hy vọng chiếc máy giúp ông \"cover his rounds more quickly\" (đi tuần nhanh hơn), tức là phục vụ công việc kiểm lâm của ông."
+        },
+        {
+          "q": "Drais became wealthy as a result of selling his invention.",
+          "answer": "NOT GIVEN",
+          "explain": "Đoạn A nói máy trở thành mốt ở Paris và London nhưng không hề nhắc đến chuyện Drais kiếm được tiền hay giàu lên."
+        },
+        {
+          "q": "It is now certain who first fitted pedals to a bicycle.",
+          "answer": "FALSE",
+          "explain": "Đoạn B: người đầu tiên nghĩ ra bàn đạp \"is still disputed\" (vẫn còn tranh cãi), nên không thể nói là chắc chắn."
+        },
+        {
+          "q": "High-wheelers were mostly ridden by young men with money.",
+          "answer": "TRUE",
+          "explain": "Đoạn C: xe bánh cao là \"the preserve of young, athletic and usually wealthy men\", phụ nữ và người lớn tuổi hầu như tránh xa."
+        }
+      ]
+    },
+    {
+      "type": "headings",
+      "instructions": "Reading Passage 1 has seven paragraphs, A–G. Choose the correct heading for paragraphs B–F from the list of headings below.",
+      "options": [
+        "i  A machine that was fast but hazardous",
+        "ii  The invention that put the bicycle within everyone's reach",
+        "iii  Pedals arrive, and with them a bumpy ride",
+        "iv  A solution to the problem of comfort",
+        "v  How the bicycle changed everyday life",
+        "vi  Early bans on bicycles in towns",
+        "vii  The first machine to be driven by an engine",
+        "viii  Racing clubs and their rivalry"
+      ],
+      "questions": [
+        {
+          "q": "Paragraph B",
+          "answer": 2,
+          "explain": "Đoạn B nói về việc gắn bàn đạp vào bánh trước và chiếc xe cứng, xóc nảy đến mức bị gọi là \"boneshaker\" nên chọn iii. Việc cấm xe (vi) thuộc đoạn A."
+        },
+        {
+          "q": "Paragraph C",
+          "answer": 0,
+          "explain": "Đoạn C: bánh trước càng lớn thì càng nhanh, nhưng người lái dễ bị hất qua tay lái (\"It was also dangerous\"), phù hợp với i."
+        },
+        {
+          "q": "Paragraph D",
+          "answer": 1,
+          "explain": "Đoạn D mô tả mẫu \"Safety\" dùng xích, ổn định, dễ lên xuống, mở ra việc đi xe đạp cho hầu hết mọi người, khớp với ii."
+        },
+        {
+          "q": "Paragraph E",
+          "answer": 3,
+          "explain": "Đoạn E bắt đầu bằng \"One problem remained: comfort\" và giải thích lốp hơi của Dunlop giúp xe êm hơn, tức là iv."
+        },
+        {
+          "q": "Paragraph F",
+          "answer": 4,
+          "explain": "Đoạn F bàn về giá rẻ, phụ nữ được tự do hơn, đường sá được cải thiện, tức là tác động của xe đạp lên đời sống (v)."
+        }
+      ]
+    },
+    {
+      "type": "gap",
+      "instructions": "Complete the notes below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        {
+          "q": "The rider of the draisine sat astride a padded ______ and pushed with his feet.",
+          "answer": ["beam"],
+          "explain": "Đoạn A: \"The rider sat astride a padded beam\"."
+        },
+        {
+          "q": "The rough ride of the velocipede on cobbled streets earned it the nickname \"______\".",
+          "answer": ["boneshaker"],
+          "explain": "Đoạn B: bánh gỗ bọc sắt và khung cứng khiến xe có biệt danh \"boneshaker\"."
+        },
+        {
+          "q": "High-wheelers were light because they were built with hollow ______ and wire-spoked wheels.",
+          "answer": ["steel tubing"],
+          "explain": "Đoạn C: \"thanks to hollow steel tubing and wire-spoked wheels\"."
+        },
+        {
+          "q": "In the Safety model, a ______ linked the pedals to the rear wheel.",
+          "answer": ["chain"],
+          "explain": "Đoạn D: các nhà thiết kế dùng \"a chain to connect the pedals to the rear wheel\"."
+        }
+      ]
+    }
+  ]
+}

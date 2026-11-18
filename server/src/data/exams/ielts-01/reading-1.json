@@ -1,0 +1,76 @@
+{
+  "title": "The Long Road to the Public Park",
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Today a city park seems so ordinary that it is easy to assume such places have always existed. In reality, the idea of a green space set aside for the whole population is fairly recent. For most of history, the large open areas close to cities belonged to monarchs and aristocrats, who kept them for private recreation and hunting. Ordinary townspeople had access to little more than common land, where they grazed animals and gathered firewood, and to the occasional market square. These were working places rather than places of leisure, and nobody would have described them as parks."
+    },
+    {
+      "label": "B",
+      "text": "The first change came slowly. From the seventeenth century, a number of European rulers began to admit visitors to their formal gardens and hunting estates, partly to display their wealth and partly to win public approval. Walking in such grounds became a fashionable habit among the educated and prosperous. However, the welcome was conditional. Gatekeepers often turned away anyone who was poorly dressed, carried a bundle or appeared to have come to work, which in practice excluded most of the labouring population. The royal parks were therefore open in law but exclusive in spirit, and they remained luxuries for a minority."
+    },
+    {
+      "label": "C",
+      "text": "The Industrial Revolution made the question urgent. As factories drew families from the countryside, cities expanded faster than their housing, drains or water supplies could cope. Overcrowded districts suffered repeated outbreaks of disease, and doctors and social reformers began to argue that residents needed clean air and space to exercise. Parks, they claimed, were the 'lungs' of the city. Their campaigning persuaded some town councils in Britain to act, and during the 1840s several parks were created with public money rather than aristocratic gifts. Supporters hoped that a pleasant walk on a Sunday afternoon would also draw workers away from taverns and improve their behaviour."
+    },
+    {
+      "label": "D",
+      "text": "The most influential example came from the United States. In 1858, a competition to design a vast park in the centre of New York was won by Frederick Law Olmsted and Calvert Vaux. Olmsted believed that crowded city life exhausted people mentally, and that contact with natural scenery could restore them. Their plan therefore reproduced pastoral landscapes of meadows, woodland and lakes, carefully shaped to hide the surrounding buildings. Sunken roads carried traffic beneath the park so that carriages and pedestrians never met. The design was widely admired, and designers in many other countries borrowed its ideas for decades."
+    },
+    {
+      "label": "E",
+      "text": "By the end of the nineteenth century, attitudes to parks were shifting from quiet contemplation to active use. Social reformers noted that children in crowded districts played in streets and alleys, where they risked injury and sometimes ended up in trouble with the police. The 'playground movement' that grew from these concerns argued that young people needed safe, supervised areas for games. Parks began to include sandpits, sports pitches, gymnasiums and public swimming pools, and trained staff were employed to organise activities. Parks were no longer simply for looking at; they were places to be used."
+    },
+    {
+      "label": "F",
+      "text": "After the Second World War, many parks entered a long decline. Local governments facing tight budgets cut spending on gardeners, repairs and lighting, and prosperous families increasingly moved to the suburbs, where they had private gardens and a car for weekend trips. Parks acquired a reputation for litter, vandalism and crime, which discouraged the very visitors who might have made them safer. In some cities, park land was sold for housing or road building. By the 1970s, many Victorian parks that had once been the pride of their towns were overgrown, with broken fountains and padlocked buildings."
+    },
+    {
+      "label": "G",
+      "text": "Since the 1980s, however, the picture has begun to change. Local residents formed volunteer groups to clean, plant and campaign, and heritage funding paid for the restoration of historic bandstands and glasshouses. Studies linking green space with mental health have persuaded councils that parks save money by reducing the demands on health services. Modern parks are also expected to do more than earlier ones: they absorb floodwater, cool the air in summer and provide a refuge for wildlife. Yet the revival is uneven. Wealthier neighbourhoods often have the best-maintained spaces, and the challenge now is to ensure that every resident, not only the fortunate, has a park within easy reach."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "headings",
+      "instructions": "Reading Passage 1 has seven paragraphs, A–G. Choose the correct heading for paragraphs B–F from the list of headings below.",
+      "options": [
+        "i  Fences, dress codes and a limited welcome",
+        "ii  A designer's vision of nature in the city",
+        "iii  Crowded cities and a new belief in fresh air",
+        "iv  Why children needed spaces of their own",
+        "v  Volunteers and new funding bring parks back",
+        "vi  Years of neglect after the war",
+        "vii  Parks that pay for themselves",
+        "viii  The spread of parks across the colonies"
+      ],
+      "questions": [
+        { "q": "Paragraph B", "answer": 0, "explain": "Đoạn B nói vua chúa mở vườn nhưng chỉ đón người ăn mặc chỉnh tề, người lao động bị gác cổng từ chối: 'open in law but exclusive in spirit' nên khớp heading i." },
+        { "q": "Paragraph C", "answer": 2, "explain": "Đoạn C nói đô thị đông đúc, dịch bệnh, các nhà cải cách coi công viên là 'lá phổi' của thành phố nên khớp heading iii." },
+        { "q": "Paragraph D", "answer": 1, "explain": "Đoạn D tập trung vào Olmsted và Vaux cùng quan điểm rằng cảnh thiên nhiên giúp con người hồi phục tinh thần, nên khớp heading ii." },
+        { "q": "Paragraph E", "answer": 3, "explain": "Đoạn E bàn về trẻ em chơi ngoài đường và phong trào sân chơi cần khu vực an toàn có người giám sát nên khớp heading iv." },
+        { "q": "Paragraph F", "answer": 5, "explain": "Đoạn F mô tả công viên xuống cấp sau Thế chiến II vì cắt giảm ngân sách, rác thải và tội phạm nên khớp heading vi. Heading v thuộc về đoạn G, không được hỏi ở đây." }
+      ]
+    },
+    {
+      "type": "tfng",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1? Write TRUE, FALSE or NOT GIVEN.",
+      "questions": [
+        { "q": "Ordinary people in early cities had no access to any open land.", "answer": "FALSE", "explain": "Đoạn A nói người dân thường vẫn có 'common land' (đất công) để chăn thả gia súc và nhặt củi, nên phát biểu sai." },
+        { "q": "Some parks in Britain during the 1840s were paid for with public money.", "answer": "TRUE", "explain": "Đoạn C: 'during the 1840s several parks were created with public money'." },
+        { "q": "Olmsted and Vaux had designed parks in Europe before 1858.", "answer": "NOT GIVEN", "explain": "Đoạn D chỉ nói họ thắng cuộc thi năm 1858, không đề cập họ từng thiết kế công viên ở châu Âu trước đó." },
+        { "q": "By the 1970s most Victorian parks had been sold for building land.", "answer": "FALSE", "explain": "Đoạn F chỉ nói 'in some cities' đất công viên bị bán; còn nhiều công viên thời Victoria chỉ bị bỏ hoang, không phải phần lớn bị bán." }
+      ]
+    },
+    {
+      "type": "gap",
+      "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        { "q": "Large open areas near cities were once kept by monarchs and aristocrats for private recreation and ______.", "answer": ["hunting"], "explain": "Đoạn A: 'kept them for private recreation and hunting'." },
+        { "q": "Reformers called parks the ______ of the city.", "answer": ["lungs"], "explain": "Đoạn C: Parks 'were the \"lungs\" of the city'." },
+        { "q": "Olmsted and Vaux used ______ landscapes of meadows, woodland and lakes in their design.", "answer": ["pastoral"], "explain": "Đoạn D: 'reproduced pastoral landscapes of meadows, woodland and lakes'." },
+        { "q": "Councils have been persuaded to invest in parks by studies linking green space with ______.", "answer": ["mental health"], "explain": "Đoạn G: 'Studies linking green space with mental health have persuaded councils...'." }
+      ]
+    }
+  ]
+}

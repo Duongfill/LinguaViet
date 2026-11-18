@@ -1,0 +1,56 @@
+{
+  "part1": {
+    "topic": "Work and study",
+    "questions": [
+      "Do you work or are you a student?",
+      "Why did you choose that job or subject?",
+      "What do you enjoy most about it?",
+      "Is there anything about it that you find difficult?",
+      "Would you like to change your job or subject in the future?"
+    ],
+    "samples": [
+      "I'm currently working as a marketing executive at a small software company, though I also take evening classes in design. So my days are pretty full, but I quite like being busy.",
+      "To be honest, it was partly by accident. I studied business at university and did an internship in marketing, and I discovered that I enjoy being creative and working with data at the same time. That convinced me to stay in the field.",
+      "I'd say it's the variety. One day I'm brainstorming slogans with my team, and the next I'm analysing how customers reacted to a campaign. I also really like seeing something I helped create actually go live and get people talking.",
+      "Meeting tight deadlines can be stressful, especially when several projects overlap. I've learnt to deal with it by planning my week carefully and being honest with my manager about what's realistic, but it's still a challenge at times.",
+      "Not completely, but I'd like to move into a more strategic role in a few years. I might also start my own small agency one day, because I'd enjoy having more control over the projects I work on."
+    ]
+  },
+  "part2": {
+    "cue": "Describe a teacher who has had a strong influence on you.",
+    "bullets": [
+      "who this person is",
+      "how you know them",
+      "what they taught you or did for you",
+      "and explain why they influenced you so much"
+    ],
+    "sample": "I'd like to talk about my English teacher from high school, Mrs. Lan, who had a huge influence on the way I see learning. She taught me for three years, from the age of fifteen to eighteen, and she was probably the most inspiring person I met during my school years.\n\nShe was in her forties at the time, quite small, with short hair and a voice that could silence the whole classroom without her ever shouting. What made her special was that she treated us as individuals. She remembered what each student was interested in and often built her lessons around those interests. For example, I was obsessed with football back then, so she suggested I read match reports in English and then summarise them for the class. That small idea changed my attitude completely, because suddenly English wasn't just a subject for exams, it was a tool for exploring something I loved.\n\nBeyond language, she taught me how to learn. She encouraged us to make mistakes, because she believed that's how people improve, and she never made anyone feel embarrassed when they got an answer wrong. I remember one occasion when I was too shy to present in front of the class, and she stayed behind with me after school for a week to practise until I felt confident enough.\n\nI think she influenced me so deeply for two reasons. Firstly, she showed real patience and kindness, which gave me the courage to try things I would otherwise have avoided. Secondly, her enthusiasm was contagious. Because of her, I decided to study abroad, and I still use many of her techniques when I learn something new. We're still in touch, and every time I visit my old school, I make a point of dropping by to say thank you.",
+    "sampleBand": 7.5
+  },
+  "part3": {
+    "questions": [
+      "What qualities do you think make a good teacher?",
+      "How has technology changed the role of teachers?",
+      "Do you think students learn better in a classroom or online?",
+      "Do people nowadays tend to stay in the same job for a long time?",
+      "How can employers motivate their staff to work well?"
+    ],
+    "samples": [
+      "I think patience and passion are the most important. A teacher who truly cares about the subject can make even difficult topics interesting. They also need good communication skills so they can explain ideas clearly, and enough empathy to understand that students learn at different speeds.",
+      "Teachers are no longer the only source of information, since students can look up almost anything online. So their role is shifting towards guiding learners, helping them think critically and judge which sources to trust, rather than just delivering facts.",
+      "It really depends on the person and the subject. Online courses are flexible and convenient, which suits self-disciplined learners. However, for younger students, a classroom offers face-to-face interaction and immediate feedback, which is hard to replicate through a screen.",
+      "Not as much as in the past. Younger generations tend to change jobs every few years in search of better pay, new challenges or a healthier work-life balance. Loyalty to one company is far less common now, though some people still prefer stability.",
+      "Money is important, but it's not everything. Employees stay motivated when they feel valued, so recognition, opportunities for promotion and flexible working hours can make a big difference. A supportive team culture also matters, because people work harder when they enjoy going to the office."
+    ]
+  },
+  "vocab_vi": [
+    { "en": "a source of inspiration", "vi": "nguồn cảm hứng" },
+    { "en": "treat someone as an individual", "vi": "đối xử với ai như một cá nhân riêng biệt" },
+    { "en": "contagious enthusiasm", "vi": "sự nhiệt huyết lan tỏa" },
+    { "en": "meet tight deadlines", "vi": "kịp những hạn chót gấp rút" },
+    { "en": "work-life balance", "vi": "cân bằng giữa công việc và cuộc sống" },
+    { "en": "think critically", "vi": "tư duy phản biện" },
+    { "en": "feel valued", "vi": "cảm thấy được trân trọng" },
+    { "en": "make a point of doing something", "vi": "cố ý, nhất định làm việc gì" }
+  ]
+}

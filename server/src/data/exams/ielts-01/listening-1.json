@@ -1,0 +1,66 @@
+{
+  "title": "Section 1",
+  "context": "A man is phoning a community centre to enrol on an evening sports course.",
+  "audio": [
+    { "s": "N", "t": "Section 1. You will hear a man phoning a community centre to enrol on an evening sports course." },
+    { "s": "W", "t": "Good afternoon, Riverside Community Centre, Hana speaking. How can I help you?" },
+    { "s": "M", "t": "Oh, hello. I saw your poster for the evening courses, and I'd like to sign up for the beginners' tennis class, please." },
+    { "s": "W", "t": "Certainly. Let me just open the registration form. Could I take your family name first?" },
+    { "s": "M", "t": "Yes, it's Hargreaves." },
+    { "s": "W", "t": "Could you spell that for me, please?" },
+    { "s": "M", "t": "Sure. H-A-R-G-R-E-A-V-E-S." },
+    { "s": "W", "t": "Thank you, Mr Hargreaves. And what's the best number to reach you on?" },
+    { "s": "M", "t": "My mobile is 07700 413 962." },
+    { "s": "W", "t": "07700 413 962. Is that right?" },
+    { "s": "M", "t": "Yes, that's right." },
+    { "s": "W", "t": "Lovely. And your address?" },
+    { "s": "M", "t": "It's 22 Pelham Road." },
+    { "s": "W", "t": "Sorry, could you spell Pelham?" },
+    { "s": "M", "t": "P-E-L-H-A-M. It's in the Westfield area." },
+    { "s": "W", "t": "Got it. And the postcode?" },
+    { "s": "M", "t": "RH4 7QN." },
+    { "s": "W", "t": "R-H-4, 7-Q-N. Thanks. Now, I'm afraid I have some bad news about the tennis. The beginners' class is completely full this term." },
+    { "s": "M", "t": "Oh, that's a shame. I was really looking forward to it." },
+    { "s": "W", "t": "Well, there's a beginners' badminton class on the same evening, and it still has a few places. A lot of people who miss out on tennis choose that one." },
+    { "s": "M", "t": "I've never played badminton, but why not? Yes, put me down for that instead." },
+    { "s": "W", "t": "Great. The first session is on Tuesday the 7th of October." },
+    { "s": "M", "t": "Oh, good. I thought it would start later than that." },
+    { "s": "W", "t": "Hold on, sorry. The sports hall is closed that week while they repair the floor. So the first class will actually be on the 14th of October." },
+    { "s": "M", "t": "The 14th is fine. That gives me a bit more time to get ready." },
+    { "s": "W", "t": "Now, the poster says the class is at half past seven, but that's the intermediate group. The beginners start earlier, at 6.45, and finish at 7.45." },
+    { "s": "M", "t": "That's even better for me. I'll be coming straight from work." },
+    { "s": "W", "t": "The course is eight weeks. The standard fee is 55 pounds, but members get a discount, so it's only 48 pounds." },
+    { "s": "M", "t": "I joined the centre last year, so I should be a member. Is 48 pounds all I need to pay?" },
+    { "s": "W", "t": "Yes, that covers everything. We provide the rackets and the shuttlecocks. You just need to bring suitable footwear. Most people wear trainers, as long as they have non-marking soles. Please don't wear boots." },
+    { "s": "M", "t": "No problem. I've got a clean pair I only use indoors." },
+    { "s": "W", "t": "Perfect. Your booking reference is B-D-4-0-2-8." },
+    { "s": "M", "t": "B-D-4-0-2-8. Let me write that down." },
+    { "s": "W", "t": "Oh, I'm so sorry, I read that wrong. It's 4-0-2-6, not 2-8. So B-D-4-0-2-6." },
+    { "s": "M", "t": "OK, B-D-4-0-2-6. Thanks very much for your help." },
+    { "s": "W", "t": "You're welcome, Mr Hargreaves. We'll see you on the 14th. Goodbye." }
+  ],
+  "blocks": [
+    {
+      "type": "gap",
+      "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+        { "q": "Family name: ______", "answer": ["Hargreaves"], "explain": "Người nói đánh vần \"H-A-R-G-R-E-A-V-E-S\" nên đáp án là Hargreaves." },
+        { "q": "Mobile number: ______", "answer": ["07700 413 962", "07700413962", "07700 413962"], "explain": "\"My mobile is 07700 413 962.\" Người nghe nhắc lại số và người gọi xác nhận đúng." },
+        { "q": "Address: 22 ______ Road", "answer": ["Pelham"], "explain": "\"It's 22 Pelham Road\" rồi đánh vần P-E-L-H-A-M." },
+        { "q": "Postcode: ______", "answer": ["RH4 7QN", "RH47QN"], "explain": "\"RH4 7QN\" — nhân viên nhắc lại từng ký tự R-H-4, 7-Q-N để xác nhận." },
+        { "q": "Course: beginners' ______", "answer": ["badminton"], "explain": "Lớp quần vợt đã đầy (\"completely full\"), nên anh ấy chọn lớp cầu lông: \"put me down for that instead\". Tennis là bẫy." }
+      ]
+    },
+    {
+      "type": "gap",
+      "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+        { "q": "First class on Tuesday ______ (date)", "answer": ["14 October", "14th October", "October 14", "October 14th", "14"], "explain": "Ban đầu nói ngày 7 tháng 10 nhưng nhân viên sửa: \"the first class will actually be on the 14th of October\" vì sàn nhà thi đấu đang sửa." },
+        { "q": "Beginners' class starts at: ______ pm", "answer": ["6.45", "6:45", "6.45 pm", "6:45 pm", "6.45pm"], "explain": "Áp phích ghi 7.30 nhưng đó là nhóm trung cấp; \"The beginners start earlier, at 6.45\"." },
+        { "q": "Course fee for members: £______", "answer": ["48", "£48"], "explain": "Giá chuẩn 55 bảng nhưng thành viên được giảm: \"it's only 48 pounds\"; anh ấy đã là thành viên từ năm ngoái." },
+        { "q": "Participants should bring clean ______ with non-marking soles", "answer": ["trainers"], "explain": "\"Most people wear trainers, as long as they have non-marking soles. Please don't wear boots.\" Vợt và cầu được trung tâm cung cấp." },
+        { "q": "Booking reference: ______", "answer": ["BD4026", "BD 4026", "BD-4026"], "explain": "Nhân viên đọc nhầm \"B-D-4-0-2-8\" rồi sửa lại: \"It's 4-0-2-6, not 2-8\", nên mã đúng là BD4026." }
+      ]
+    }
+  ]
+}

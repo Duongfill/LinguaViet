@@ -18,6 +18,8 @@ import Weak from './pages/Weak.jsx';
 import Match from './pages/Match.jsx';
 import Dictation from './pages/Dictation.jsx';
 import Translate from './pages/Translate.jsx';
+import Exams from './pages/Exams.jsx';
+import ExamRun from './pages/ExamRun.jsx';
 
 export default function App() {
   const { user, loading } = useAuth();
@@ -46,6 +48,7 @@ function Shell() {
     ['/dictation', 'Chính tả', '🎧'],
     ['/translate', 'Dịch câu', '🔁'],
     ['/speak', 'Phát âm', '🎤'],
+    ...(lang === 'en' ? [['/exams', 'Luyện đề TOEIC/IELTS', '📝']] : []),
     ...(lang === 'zh' ? [['/hanzi', 'Chữ Hán', '✍️']] : []),
     ['/rank', 'Xếp hạng', '🏆'],
     ['/settings', 'Cài đặt', '⚙️'],
@@ -61,7 +64,7 @@ function Shell() {
   // Máy tính: thanh bên trái chia nhóm
   const NAV_GROUPS = [
     ['Học', ['/', '/journey', '/flashcards', '/weak']],
-    ['Luyện tập', ['/quiz', '/match', '/dictation', '/translate', '/speak', '/hanzi']],
+    ['Luyện tập', ['/exams', '/quiz', '/match', '/dictation', '/translate', '/speak', '/hanzi']],
     ['Từ vựng', ['/decks']],
     ['Khác', ['/rank', '/settings']],
   ];
@@ -150,6 +153,8 @@ function Shell() {
           <Route path="/match" element={<Match />} />
           <Route path="/dictation" element={<Dictation />} />
           <Route path="/translate" element={<Translate />} />
+          <Route path="/exams" element={lang === 'en' ? <Exams /> : <Navigate to="/" />} />
+          <Route path="/exams/:id/:section" element={lang === 'en' ? <ExamRun /> : <Navigate to="/" />} />
           <Route path="/hanzi" element={lang === 'zh' ? <Hanzi /> : <Navigate to="/" />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

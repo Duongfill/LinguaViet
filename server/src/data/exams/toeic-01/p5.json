@@ -1,0 +1,335 @@
+{
+  "part": 5,
+  "groups": [
+    {
+      "kind": "word-form",
+      "questions": [
+        {
+          "q": "The marketing team reviewed the proposal ______ before sending it to the director.",
+          "options": ["careful", "carefully", "carefulness", "more careful"],
+          "answer": 1,
+          "explain": "Chỗ trống đứng sau động từ \"reviewed\" và tân ngữ, cần trạng từ bổ nghĩa cho động từ: carefully. \"careful\" là tính từ nên không bổ nghĩa được cho động từ."
+        }
+      ]
+    },
+    {
+      "kind": "word-form",
+      "questions": [
+        {
+          "q": "Ms. Tanaka's ______ to the merger negotiations was praised by the board.",
+          "options": ["contribute", "contributed", "contribution", "contributory"],
+          "answer": 2,
+          "explain": "Sau sở hữu cách \"Ms. Tanaka's\" cần một danh từ làm chủ ngữ, và \"to the merger negotiations\" đi kèm danh từ: contribution (sự đóng góp). Các từ còn lại là động từ hoặc tính từ."
+        }
+      ]
+    },
+    {
+      "kind": "word-form",
+      "questions": [
+        {
+          "q": "Employees must attend a ______ safety briefing before using the new machinery.",
+          "options": ["mandatory", "mandate", "mandatorily", "mandating"],
+          "answer": 0,
+          "explain": "Giữa mạo từ \"a\" và cụm danh từ \"safety briefing\" cần một tính từ: mandatory (bắt buộc). \"mandate\" là danh từ/động từ, \"mandatorily\" là trạng từ."
+        }
+      ]
+    },
+    {
+      "kind": "word-form",
+      "questions": [
+        {
+          "q": "Mr. Okafor was ______ about the delay in the shipment, so he called the supplier.",
+          "options": ["concern", "concerning", "concerns", "concerned"],
+          "answer": 3,
+          "explain": "Cấu trúc bị động/tính từ \"be concerned about\" (lo lắng về) với chủ ngữ là người, nên dùng quá khứ phân từ concerned. \"concerning\" mang nghĩa \"liên quan đến\" và không đi với chủ ngữ chỉ người theo nghĩa này."
+        }
+      ]
+    },
+    {
+      "kind": "word-form",
+      "questions": [
+        {
+          "q": "The restaurant's ______ for fresh, local ingredients has attracted many food critics.",
+          "options": ["reputable", "reputation", "reputedly", "reputed"],
+          "answer": 1,
+          "explain": "Sau sở hữu cách \"The restaurant's\" và trước \"for ... ingredients\" cần danh từ làm chủ ngữ của \"has attracted\": reputation (danh tiếng)."
+        }
+      ]
+    },
+    {
+      "kind": "word-form",
+      "questions": [
+        {
+          "q": "Only applicants who are ______ qualified will be invited for an interview.",
+          "options": ["high", "higher", "highness", "highly"],
+          "answer": 3,
+          "explain": "Chỗ trống đứng trước tính từ \"qualified\" nên cần trạng từ bổ nghĩa: highly (rất, ở mức cao). \"high\" là tính từ nên không đứng trước tính từ khác để nhấn mạnh."
+        }
+      ]
+    },
+    {
+      "kind": "word-form",
+      "questions": [
+        {
+          "q": "The company's ______ expansion into overseas markets has increased its annual revenue.",
+          "options": ["rapid", "rapidly", "rapidity", "rapids"],
+          "answer": 0,
+          "explain": "Trước danh từ \"expansion\" (sau sở hữu cách) cần tính từ: rapid (nhanh chóng). \"rapidly\" là trạng từ, \"rapidity\" và \"rapids\" là danh từ nên không đứng ở vị trí này."
+        }
+      ]
+    },
+    {
+      "kind": "word-form",
+      "questions": [
+        {
+          "q": "The ______ of the new parking policy will begin on the first of March.",
+          "options": ["implement", "implemented", "implementation", "implementing"],
+          "answer": 2,
+          "explain": "Sau mạo từ \"The\" và trước \"of\" cần danh từ làm chủ ngữ của \"will begin\": implementation (việc thực hiện). Các dạng còn lại là động từ."
+        }
+      ]
+    },
+    {
+      "kind": "verb-tense",
+      "questions": [
+        {
+          "q": "By the time the CEO arrives, the technicians ______ the projector in the conference room.",
+          "options": ["install", "are installing", "will have installed", "had installed"],
+          "answer": 2,
+          "explain": "Mệnh đề \"By the time the CEO arrives\" (hiện tại đơn chỉ tương lai) đi với tương lai hoàn thành: will have installed. \"had installed\" là quá khứ hoàn thành nên không hợp với mốc thời gian tương lai."
+        }
+      ]
+    },
+    {
+      "kind": "verb-tense",
+      "questions": [
+        {
+          "q": "All visitors ______ to sign in at the front desk upon arrival.",
+          "options": ["are asked", "ask", "asking", "to ask"],
+          "answer": 0,
+          "explain": "Chủ ngữ \"visitors\" là người bị yêu cầu, và theo sau là \"to sign in\" nên cần thể bị động: are asked to do. \"ask\" (chủ động) sai nghĩa; \"asking\" và \"to ask\" không đủ làm động từ chính."
+        }
+      ]
+    },
+    {
+      "kind": "verb-tense",
+      "questions": [
+        {
+          "q": "Ms. Alvarez ______ the accounting department since she joined the company in 2015.",
+          "options": ["leads", "led", "will lead", "has led"],
+          "answer": 3,
+          "explain": "Dấu hiệu \"since she joined ... in 2015\" cho biết hành động kéo dài từ quá khứ đến hiện tại, dùng hiện tại hoàn thành: has led. Quá khứ đơn \"led\" hoặc hiện tại đơn không diễn tả được khoảng thời gian này."
+        }
+      ]
+    },
+    {
+      "kind": "verb-tense",
+      "questions": [
+        {
+          "q": "If the shipment ______ by Friday, we will cancel the order.",
+          "options": ["will not arrive", "does not arrive", "did not arrive", "would not arrive"],
+          "answer": 1,
+          "explain": "Câu điều kiện loại 1: mệnh đề \"If\" dùng hiện tại đơn, mệnh đề chính dùng \"will + V\" (we will cancel). Vì vậy chọn does not arrive; không dùng \"will\" trong mệnh đề if."
+        }
+      ]
+    },
+    {
+      "kind": "verb-tense",
+      "questions": [
+        {
+          "q": "The maintenance crew ______ the elevator when a power outage occurred.",
+          "options": ["repairs", "will repair", "was repairing", "has repaired"],
+          "answer": 2,
+          "explain": "Hành động đang diễn ra tại một thời điểm trong quá khứ thì có hành động khác xen vào (\"occurred\" ở quá khứ đơn), dùng quá khứ tiếp diễn: was repairing."
+        }
+      ]
+    },
+    {
+      "kind": "verb-form",
+      "questions": [
+        {
+          "q": "Ms. Han is considering ______ her office to the second floor.",
+          "options": ["to move", "moving", "move", "moved"],
+          "answer": 1,
+          "explain": "Động từ \"consider\" theo sau bởi V-ing (gerund): considering moving. Không dùng to-V hay động từ nguyên mẫu sau consider."
+        }
+      ]
+    },
+    {
+      "kind": "preposition",
+      "questions": [
+        {
+          "q": "______ the heavy rain, the outdoor concert went ahead as scheduled.",
+          "options": ["Despite", "Although", "However", "Because"],
+          "answer": 0,
+          "explain": "Sau chỗ trống là cụm danh từ \"the heavy rain\" nên cần giới từ chỉ sự nhượng bộ: Despite. \"Although\" và \"Because\" là liên từ đòi hỏi một mệnh đề; \"However\" là trạng từ."
+        }
+      ]
+    },
+    {
+      "kind": "preposition",
+      "questions": [
+        {
+          "q": "The conference registration deadline has been extended ______ April 30.",
+          "options": ["for", "at", "during", "until"],
+          "answer": 3,
+          "explain": "\"Extended until April 30\" diễn tả thời hạn được kéo dài đến một mốc ngày cụ thể. \"for\" và \"during\" dùng cho khoảng thời gian, \"at\" dùng cho giờ giấc cụ thể."
+        }
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "questions": [
+        {
+          "q": "The manager will review the schedule ______ the staff meeting ends.",
+          "options": ["during", "because", "despite", "once"],
+          "answer": 3,
+          "explain": "Sau chỗ trống là một mệnh đề \"the staff meeting ends\", và ý nghĩa là \"khi/ngay sau khi\": once. \"during\" và \"despite\" là giới từ (đi với danh từ), \"because\" sai nghĩa."
+        }
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "questions": [
+        {
+          "q": "Ms. Rivera was promoted ______ she exceeded her sales targets for three consecutive quarters.",
+          "options": ["so that", "in spite of", "because", "unless"],
+          "answer": 2,
+          "explain": "Mệnh đề sau chỗ trống nêu nguyên nhân của việc thăng chức, nên dùng liên từ chỉ lý do: because. \"in spite of\" là giới từ, \"unless\" (trừ khi) và \"so that\" (để mà) không hợp nghĩa."
+        }
+      ]
+    },
+    {
+      "kind": "preposition",
+      "questions": [
+        {
+          "q": "The new branch is located ______ the post office and the public library.",
+          "options": ["between", "among", "within", "along"],
+          "answer": 0,
+          "explain": "Cấu trúc \"between A and B\" chỉ vị trí ở giữa hai địa điểm. \"among\" dùng cho từ ba đối tượng trở lên và không đi với \"and\" theo cách này."
+        }
+      ]
+    },
+    {
+      "kind": "conjunction",
+      "questions": [
+        {
+          "q": "Neither the director ______ the assistant was aware of the schedule change.",
+          "options": ["or", "nor", "and", "but"],
+          "answer": 1,
+          "explain": "Cặp liên từ tương quan \"neither ... nor\" (không ... cũng không). Dấu hiệu là \"Neither\" ở đầu câu nên chỗ trống phải là nor."
+        }
+      ]
+    },
+    {
+      "kind": "pronoun",
+      "questions": [
+        {
+          "q": "Each of the new employees must complete ______ training by the end of the week.",
+          "options": ["they", "their", "them", "theirs"],
+          "answer": 1,
+          "explain": "Trước danh từ \"training\" cần tính từ sở hữu: their (chỉ nhóm nhân viên mới). \"they\" là chủ ngữ, \"them\" là tân ngữ, \"theirs\" là đại từ sở hữu không đứng trước danh từ."
+        }
+      ]
+    },
+    {
+      "kind": "pronoun",
+      "questions": [
+        {
+          "q": "Mr. Davis reviewed the contract ______ before signing it.",
+          "options": ["he", "his", "him", "himself"],
+          "answer": 3,
+          "explain": "Chủ ngữ \"Mr. Davis\" đã xuất hiện nên có thể dùng đại từ phản thân himself để nhấn mạnh việc tự mình xem xét (reviewed ... himself). Các dạng \"he, his, him\" không đứng được ở vị trí này."
+        }
+      ]
+    },
+    {
+      "kind": "determiner",
+      "questions": [
+        {
+          "q": "Please sign up soon, because only ______ places remain in the workshop.",
+          "options": ["little", "much", "a few", "every"],
+          "answer": 2,
+          "explain": "\"places\" là danh từ đếm được số nhiều nên dùng \"a few\" (một vài). \"little\" và \"much\" đi với danh từ không đếm được, \"every\" đi với danh từ số ít."
+        }
+      ]
+    },
+    {
+      "kind": "vocabulary",
+      "questions": [
+        {
+          "q": "The hotel offers a ______ breakfast to all guests staying in the executive suites.",
+          "options": ["complimentary", "competent", "complicated", "comparable"],
+          "answer": 0,
+          "explain": "\"complimentary breakfast\" nghĩa là bữa sáng miễn phí tặng kèm cho khách. Các từ còn lại (có năng lực, phức tạp, tương đương) không đi với \"breakfast\"."
+        }
+      ]
+    },
+    {
+      "kind": "vocabulary",
+      "questions": [
+        {
+          "q": "Mr. Lim was asked to ______ the budget proposal before the board meeting.",
+          "options": ["attend", "expire", "revise", "depart"],
+          "answer": 2,
+          "explain": "Chỉ có \"revise\" (chỉnh sửa, xem lại) đi được với tân ngữ \"the budget proposal\". \"attend\" dùng với sự kiện, \"expire\" và \"depart\" là nội động từ, không có tân ngữ."
+        }
+      ]
+    },
+    {
+      "kind": "vocabulary",
+      "questions": [
+        {
+          "q": "Because of a supply shortage, the company was forced to ______ the launch of its new product.",
+          "options": ["postpone", "predict", "persuade", "prevent"],
+          "answer": 0,
+          "explain": "Do thiếu nguồn cung nên công ty buộc phải hoãn lại ngày ra mắt: postpone the launch. \"predict\" (dự đoán), \"persuade\" (thuyết phục) và \"prevent\" (ngăn chặn) không hợp nghĩa hoặc cấu trúc."
+        }
+      ]
+    },
+    {
+      "kind": "vocabulary",
+      "questions": [
+        {
+          "q": "All employees are ______ for submitting their timesheets by Friday noon.",
+          "options": ["eligible", "available", "accessible", "responsible"],
+          "answer": 3,
+          "explain": "Cấu trúc \"be responsible for + V-ing\" nghĩa là chịu trách nhiệm làm gì. \"eligible\" đi với \"to do\" hoặc \"for + danh từ\" (đủ điều kiện), còn \"available\" và \"accessible\" không đi với \"for submitting\" theo nghĩa này."
+        }
+      ]
+    },
+    {
+      "kind": "vocabulary",
+      "questions": [
+        {
+          "q": "The consultant gave a ______ presentation that clearly explained the benefits of the new system.",
+          "options": ["tentative", "persuasive", "reluctant", "absent"],
+          "answer": 1,
+          "explain": "Bài thuyết trình giải thích rõ lợi ích nên có sức thuyết phục: persuasive. \"tentative\" (dự kiến, chưa chắc chắn), \"reluctant\" (miễn cưỡng) và \"absent\" (vắng mặt) không hợp nghĩa."
+        }
+      ]
+    },
+    {
+      "kind": "vocabulary",
+      "questions": [
+        {
+          "q": "Please keep the receipt as ______ of purchase in case you need to return the item.",
+          "options": ["instruction", "exchange", "proof", "source"],
+          "answer": 2,
+          "explain": "\"proof of purchase\" là cụm cố định nghĩa là bằng chứng đã mua hàng, và \"in case you need to return the item\" xác nhận ý này. Các từ còn lại không tạo thành cụm hợp lý."
+        }
+      ]
+    },
+    {
+      "kind": "vocabulary",
+      "questions": [
+        {
+          "q": "The airline apologized for the ______ caused by the cancellation of the morning flight.",
+          "options": ["reservation", "destination", "admission", "inconvenience"],
+          "answer": 3,
+          "explain": "Hãng bay xin lỗi vì sự bất tiện do chuyến bay bị hủy gây ra: inconvenience. \"apologize for the inconvenience caused by\" là cụm thường gặp; các danh từ còn lại không hợp ngữ cảnh."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "part1": {
+    "topic": "Hometown",
+    "questions": [
+      "Where is your hometown, and what is it like?",
+      "What do you like most about your hometown?",
+      "Has your hometown changed much since you were a child?",
+      "Is it a good place for young people to live?",
+      "Would you like to live there in the future?"
+    ],
+    "samples": [
+      "I come from a medium-sized coastal city in central Vietnam. It's a lively place with lots of seafood restaurants, a long sandy beach and a laid-back atmosphere, so it's quite different from the big, crowded cities in the north and south.",
+      "Probably the food and the people. The local dishes are fresh and full of flavour, and everyone is really friendly, so you never feel like a stranger. I also love the sea breeze in the evenings, which makes walking along the beach very relaxing.",
+      "Oh, definitely. When I was little, there were only a few small shops and narrow streets, but now there are shopping malls, wide roads and a new bridge across the river. On the whole it's more convenient, though I do miss the quiet charm it used to have.",
+      "In some ways, yes. There are plenty of cafes, sports facilities and parks, which is great for socialising. However, the choice of high-paying jobs is limited, so many young people end up moving to bigger cities once they finish university.",
+      "I'd love to, eventually. I think it would be a wonderful place to raise a family, with clean air and a strong sense of community. For now, though, I'd like to gain experience elsewhere first and then come back when I'm more settled."
+    ]
+  },
+  "part2": {
+    "cue": "Describe a place in your hometown that you enjoy visiting.",
+    "bullets": [
+      "where the place is",
+      "how often you go there",
+      "what you usually do there",
+      "and explain why you enjoy visiting it"
+    ],
+    "sample": "I'd like to talk about a small park beside the river in my hometown, which locals call the Riverside Garden. It's about ten minutes by bike from my family's house, right next to the old market, so it's easy to get to.\n\nI go there quite regularly, usually two or three times a week, especially at the weekend or after a long day at work. Early in the morning is my favourite time, because the air is cool and the path is almost empty apart from a few elderly people doing their tai chi.\n\nWhen I'm there, I do a variety of things. Sometimes I jog around the lake, which takes about twenty minutes, and then I buy a cold coconut juice from a little stall near the entrance. On other days I just sit on a bench with a book or chat with friends who happen to live nearby. In the evenings there's often live music, with students playing guitar or singing folk songs, and that creates a really warm atmosphere.\n\nThere are several reasons why I enjoy it so much. First of all, it's a green oasis in a city that has become noisy and crowded, so it helps me switch off and recharge. Secondly, it holds a lot of personal memories. I used to fly kites there with my grandfather when I was a child, and every time I walk past the big banyan tree, I remember how he taught me to let the string out slowly. Finally, the park brings people together. You see families having picnics, couples taking photos and children running around, and it reminds me what a close-knit community I come from.\n\nSo, in short, it's the one place that always makes me feel at home, and whenever I come back from abroad, it's the first place I visit.",
+    "sampleBand": 7.5
+  },
+  "part3": {
+    "questions": [
+      "Why are public spaces such as parks important in cities?",
+      "How have the ways people spend their leisure time in public places changed in recent years?",
+      "Who should be responsible for maintaining public spaces, the government or private companies?",
+      "Do you think people feel less connected to their local area than they did in the past?",
+      "How can tourism affect the character of a place?"
+    ],
+    "samples": [
+      "I think they're essential because they give city dwellers a place to relax and stay active. Without them, people would spend nearly all their time in cramped apartments or offices. Parks also bring different groups together, which strengthens the sense of community.",
+      "Nowadays, many people are glued to their phones even when they're outdoors, taking photos or scrolling through social media. On the other hand, there's been a rise in organised activities like outdoor yoga classes and weekend markets, so public places are still very much in use, just in different ways.",
+      "Ideally, a combination of both. Local authorities should take overall responsibility since public spaces belong to everyone, but private companies can contribute funding or expertise, perhaps in exchange for advertising. What matters is that the spaces remain free and accessible to all residents.",
+      "To some extent, yes. People move for work more often than they used to, so they don't always put down roots. Also, online communities can replace face-to-face contact with neighbours. That said, local festivals and neighbourhood groups show that the desire to belong is still very strong.",
+      "It can be a double-edged sword. On the positive side, tourism creates jobs and encourages people to preserve traditional crafts and buildings. But if there are too many visitors, prices rise, local shops are replaced by souvenir stands, and residents can feel that the place no longer belongs to them."
+    ]
+  },
+  "vocab_vi": [
+    { "en": "a laid-back atmosphere", "vi": "không khí thoải mái, thư thái" },
+    { "en": "a green oasis", "vi": "một ốc đảo xanh giữa phố thị" },
+    { "en": "switch off and recharge", "vi": "thư giãn và nạp lại năng lượng" },
+    { "en": "a close-knit community", "vi": "cộng đồng gắn bó khăng khít" },
+    { "en": "put down roots", "vi": "ổn định, gắn bó lâu dài với một nơi" },
+    { "en": "a double-edged sword", "vi": "con dao hai lưỡi" },
+    { "en": "bustling and crowded", "vi": "nhộn nhịp và đông đúc" },
+    { "en": "a sense of belonging", "vi": "cảm giác thuộc về" }
+  ]
+}

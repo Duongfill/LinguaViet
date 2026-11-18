@@ -1,0 +1,101 @@
+{
+  "title": "Section 3",
+  "context": "Two students, Maya and Tom, are discussing the draft of their marketing project with their tutor, Dr Evans.",
+  "audio": [
+    { "s": "N", "t": "Section 3. You will hear two students, Maya and Tom, talking to their tutor, Dr Evans, about a marketing project." },
+    { "s": "W", "t": "Hello, Dr Evans. Thanks for making time to see us. Tom and I wanted to go through the draft of our marketing plan." },
+    { "s": "M2", "t": "Of course, come in and sit down. I read it last night, but first remind me what you finally decided to promote, because you were still choosing last time." },
+    { "s": "M", "t": "Well, my idea was a fitness app. You may remember that." },
+    { "s": "M2", "t": "I do, and as I said then, that market is extremely crowded. It would be hard to say anything new." },
+    { "s": "W", "t": "Yes, that's why we changed our minds. We're now promoting a reusable coffee cup aimed at students on campus." },
+    { "s": "M2", "t": "I think that's a much better choice. It's local, and it gives you a real audience to survey." },
+    { "s": "M", "t": "Exactly. Maya went to the campus café to start the research." },
+    { "s": "W", "t": "Yes. I asked the manager how many disposable cups they give out on an average day." },
+    { "s": "M2", "t": "Interesting. Was that because you wanted the café to sponsor the project?" },
+    { "s": "W", "t": "We did think about sponsorship, but it would have taken too long to arrange. In the end the cup numbers were more useful, because they show the size of the problem." },
+    { "s": "M2", "t": "I agree. Now, tell me about your questionnaire. How many students took part?" },
+    { "s": "M", "t": "Our target was 200, but we only got 134 responses online." },
+    { "s": "W", "t": "And we collected another nine on paper outside the library, so that's 143 altogether." },
+    { "s": "M2", "t": "That's perfectly adequate for a project of this size. Don't worry that you missed the target." },
+    { "s": "M", "t": "That's a relief. We were a bit nervous about it." },
+    { "s": "M2", "t": "Right, let me give you my comments on the draft, section by section. Starting with the introduction, it's clear and interesting, but it's far too long. You spend two pages on the history of coffee cups." },
+    { "s": "W", "t": "Oh, I got a bit carried away there. I could cut that down to half a page." },
+    { "s": "M2", "t": "Please do. Next, your target market section. You say that seventy per cent of students buy a hot drink every day, but you don't say where that figure comes from." },
+    { "s": "M", "t": "It was from an article I read online. I'm not sure I kept the link." },
+    { "s": "M2", "t": "Well, find it, or use your own survey results. At the moment there's nothing to back that statement up." },
+    { "s": "M2", "t": "Then the competitor analysis. You've done a lot of work there, but the information about the main rival brand is from 2019. The company has changed its prices since then, and it now sells online." },
+    { "s": "W", "t": "I didn't realise it was so old. I'll check their website again." },
+    { "s": "M", "t": "I was worried the budget section was confusing, to be honest. All those tables." },
+    { "s": "M2", "t": "No, not at all. In fact it's the best part of the whole report. The headings are logical and it's very easy to follow." },
+    { "s": "M", "t": "Oh, that's good to hear. Thanks." },
+    { "s": "M2", "t": "Finally, the conclusion. It's only three sentences, and it just repeats what you said earlier. I'd like to see some specific recommendations and more detail about the next steps." },
+    { "s": "W", "t": "OK, so we need to expand it. Could we add a short timeline?" },
+    { "s": "M2", "t": "That would be ideal." },
+    { "s": "W", "t": "Dr Evans, we've also been planning a social media campaign to go with the plan. Tom's going to look after that." },
+    { "s": "M2", "t": "Good. Do you have any concerns about it, Tom?" },
+    { "s": "M", "t": "Cost isn't a problem because it's all free, and we've got enough time to run it. I suppose what bothers me most is that people might post negative comments about the cups." },
+    { "s": "M2", "t": "That's a fair worry, but it's quite normal. Reply politely and quickly, and it can even help your image. Markers like to see that you've thought about it." },
+    { "s": "W", "t": "Now, for the presentation, should we add a short video?" },
+    { "s": "M2", "t": "You could, but it's not necessary. The important thing is to rehearse with a timer. You have fifteen minutes, and most groups run over." },
+    { "s": "M", "t": "OK, we'll practise a few times this week." },
+    { "s": "M2", "t": "Good. Send me the revised draft by Friday, and I'll give you a final check before you submit." },
+    { "s": "W", "t": "Thank you so much, Dr Evans. That's really helpful." }
+  ],
+  "blocks": [
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "q": "What product are the students now promoting?",
+          "options": ["a fitness app", "a reusable coffee cup", "a student travel card", "a recycled notebook"],
+          "answer": 1,
+          "explain": "Tom ban đầu muốn làm ứng dụng thể dục nhưng thị trường quá đông; Maya nói: \"We're now promoting a reusable coffee cup aimed at students on campus.\""
+        },
+        {
+          "q": "Why did Maya go to the campus café?",
+          "options": ["to borrow some equipment", "to test a prototype", "to ask for sponsorship", "to find out how many disposable cups it uses"],
+          "answer": 3,
+          "explain": "Maya: \"I asked the manager how many disposable cups they give out on an average day.\" Tài trợ chỉ được cân nhắc rồi bỏ vì mất thời gian."
+        },
+        {
+          "q": "How many students completed the questionnaire altogether?",
+          "options": ["143", "134", "200", "164"],
+          "answer": 0,
+          "explain": "134 phiếu trực tuyến cộng thêm 9 phiếu giấy: \"that's 143 altogether\". 200 là mục tiêu ban đầu, còn 134 chỉ là số phiếu online."
+        },
+        {
+          "q": "What is Tom's main concern about the social media campaign?",
+          "options": ["the cost of advertising", "not having enough time to run it", "attracting enough followers", "negative comments from the public"],
+          "answer": 3,
+          "explain": "Tom nói chi phí và thời gian không phải vấn đề; điều anh lo nhất là \"people might post negative comments about the cups\"."
+        },
+        {
+          "q": "What does Dr Evans advise about the presentation?",
+          "options": ["include a short video", "put less text on each slide", "rehearse with a timer", "send the slides in advance"],
+          "answer": 2,
+          "explain": "Thầy cho rằng video không cần thiết và nhấn mạnh: \"The important thing is to rehearse with a timer\" vì nhiều nhóm nói quá giờ."
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "What comment does Dr Evans make about each section of the draft? Choose FIVE answers from the box and write the correct letter, A–F, next to Questions 26–30.",
+      "options": [
+        "A  needs more detail",
+        "B  is too long",
+        "C  has no supporting evidence",
+        "D  is very well organised",
+        "E  is unclear",
+        "F  contains out-of-date information"
+      ],
+      "questions": [
+        { "q": "Introduction", "answer": 1, "explain": "\"It's clear and interesting, but it's far too long\" — hai trang về lịch sử cốc cà phê (B)." },
+        { "q": "Target market", "answer": 2, "explain": "Con số 70% không có nguồn: \"there's nothing to back that statement up\" (C)." },
+        { "q": "Competitor analysis", "answer": 5, "explain": "Thông tin về đối thủ chính \"is from 2019\" và giá cả đã thay đổi (F)." },
+        { "q": "Budget", "answer": 3, "explain": "Tom lo phần này khó hiểu nhưng thầy bác bỏ: \"it's the best part of the whole report ... very easy to follow\" (D), không phải E." },
+        { "q": "Conclusion", "answer": 0, "explain": "Chỉ ba câu và lặp lại ý cũ; thầy muốn \"specific recommendations and more detail about the next steps\" (A)." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "part": 2,
+  "groups": [
+    {
+      "kind": "question",
+      "audio": [{ "s": "M", "t": "Where should I leave the patient's insurance form?" }],
+      "questions": [{ "options": ["He's feeling much better today.", "At the front desk, please.", "Yes, it's covered until June."], "answer": 1, "explain": "Câu hỏi 'Where' (để ở đâu) → 'At the front desk' trả lời đúng chỗ. (A) lặp từ 'patient' nhưng nói về sức khỏe; (C) trả lời kiểu Yes/No cho câu hỏi Wh." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "W", "t": "Has the new conveyor belt been installed yet?" }],
+      "questions": [{ "options": ["Yes, the technicians finished this morning.", "A belt and a pair of shoes.", "I'll install the software tomorrow."], "answer": 0, "explain": "Câu Yes/No về việc lắp băng chuyền → 'Yes, the technicians finished this morning'. (B) lặp từ 'belt' gây nhầm; (C) lặp 'install' nhưng nói về phần mềm." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "M2", "t": "Who's in charge of the inventory count at the supermarket?" }],
+      "questions": [{ "options": ["About two thousand items.", "It's on aisle seven.", "Ms. Okafor's team usually handles it."], "answer": 2, "explain": "'Who' hỏi người phụ trách → 'Ms. Okafor's team'. (A) trả lời cho 'How many'; (B) trả lời cho 'Where'." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "W", "t": "Why was my debit card declined this morning?" }],
+      "questions": [{ "options": ["Cards are available in blue or silver.", "The bank may have placed a temporary hold on it.", "Yes, I declined the invitation."], "answer": 1, "explain": "'Why' hỏi lý do thẻ bị từ chối → ngân hàng có thể đã tạm khóa thẻ. (A) lặp 'card' nhưng nói về màu thẻ; (C) lặp 'declined' với nghĩa khác (từ chối lời mời)." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "M", "t": "Is the 9:15 train to Hanover running on time?" }],
+      "questions": [{ "options": ["Two tickets, please.", "I haven't been to Hanover for years.", "There's a ten-minute delay, according to the board."], "answer": 2, "explain": "Hỏi tàu có đúng giờ không → 'ten-minute delay' (trễ 10 phút) trả lời gián tiếp là không. (A) nói chuyện mua vé; (B) lặp 'Hanover' nhưng lạc đề." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "W2", "t": "When is the library book sale?" }],
+      "questions": [{ "options": ["It starts on the first Saturday of May.", "Yes, I borrowed three novels.", "In the reading room upstairs."], "answer": 0, "explain": "'When' hỏi thời gian → 'first Saturday of May'. (B) trả lời Yes/No và nói chuyện mượn sách; (C) trả lời cho 'Where'." }]
+    },
+    {
+      "kind": "request",
+      "audio": [{ "s": "M", "t": "Could you review the advertising proposal before the client meeting?" }],
+      "questions": [{ "options": ["The client is from Seoul.", "Sure, just send it to me this afternoon.", "A billboard on Main Street."], "answer": 1, "explain": "Lời nhờ 'Could you review…' → 'Sure, just send it to me' đồng ý và hẹn nhận. (A) lặp 'client' nhưng không đáp lại lời nhờ; (C) lặp chủ đề quảng cáo." }]
+    },
+    {
+      "kind": "negative question",
+      "audio": [{ "s": "W", "t": "Don't you need to fast before the blood test?" }],
+      "questions": [{ "options": ["The lab is on the second floor.", "Yes, I tested it twice.", "Right, nothing after midnight."], "answer": 2, "explain": "Câu hỏi phủ định, 'Right, nothing after midnight' xác nhận phải nhịn ăn từ nửa đêm. (A) nói vị trí phòng xét nghiệm; (B) lặp 'test' (tested) với nghĩa khác." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "M2", "t": "How often do you inspect the packaging machines?" }],
+      "questions": [{ "options": ["Once every shift.", "At the packaging plant in Dayton.", "Yes, they're very efficient."], "answer": 0, "explain": "'How often' hỏi tần suất → 'Once every shift' (mỗi ca một lần). (B) lặp 'packaging' nhưng trả lời cho 'Where'; (C) Yes/No không hợp với câu Wh." }]
+    },
+    {
+      "kind": "choice question",
+      "audio": [{ "s": "W", "t": "Would you like a paper bag or a plastic one?" }],
+      "questions": [{ "options": ["No, I don't have a receipt.", "A little over five dollars.", "I brought my own, thanks."], "answer": 2, "explain": "Câu hỏi lựa chọn, người trả lời né cả hai bằng 'I brought my own' (tôi tự mang túi). (A) nói về hóa đơn; (B) trả lời cho 'How much'." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "M", "t": "What time does the pharmacy close on weekends?" }],
+      "questions": [{ "options": ["I'll take the weekend shift.", "At six o'clock, I believe.", "A prescription for allergies."], "answer": 1, "explain": "'What time' hỏi giờ → 'At six o'clock'. (A) lặp 'weekend' nhưng nói chuyện nhận ca; (C) liên quan hiệu thuốc nhưng không trả lời về giờ." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "W2", "t": "Which counter handles foreign currency exchange?" }],
+      "questions": [{ "options": ["The one next to the loan desk.", "The exchange rate was higher yesterday.", "Mostly euros and yen."], "answer": 0, "explain": "'Which counter' hỏi quầy nào → 'The one next to the loan desk'. (B) lặp 'exchange' nhưng nói tỷ giá; (C) nói loại tiền, không chỉ quầy." }]
+    },
+    {
+      "kind": "statement",
+      "audio": [{ "s": "M", "t": "I'd like to renew my library card." }],
+      "questions": [{ "options": ["The new releases are on display.", "Cards are accepted here.", "May I see your photo ID, please?"], "answer": 2, "explain": "Người nói muốn gia hạn thẻ thư viện → nhân viên yêu cầu xem giấy tờ tùy thân, phản hồi hợp lý. (A) lặp ý 'new/renew' gây nhầm; (B) lặp 'cards' nhưng nói về thanh toán." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "W", "t": "Why has the number 12 bus been rerouted?" }],
+      "questions": [{ "options": ["It leaves from the central station.", "Because of road construction downtown.", "Twelve passengers, I think."], "answer": 1, "explain": "'Why' hỏi lý do đổi tuyến → 'road construction downtown' (thi công đường). (A) nói điểm khởi hành; (C) lặp 'twelve' để đánh lừa, trả lời cho 'How many'." }]
+    },
+    {
+      "kind": "suggestion",
+      "audio": [{ "s": "M2", "t": "Let's put the campaign slogan on the back of the brochure, shall we?" }],
+      "questions": [{ "options": ["I'd rather have it on the cover.", "He's a very good salesman.", "The brochures are printed in color."], "answer": 0, "explain": "Câu đề nghị 'shall we?' → người kia phản đối nhẹ, muốn đặt ở bìa trước. (B) 'salesman' gần nghĩa 'campaign' nhưng không liên quan; (C) lặp 'brochures' nhưng không đáp lại đề nghị." }]
+    },
+    {
+      "kind": "negative question",
+      "audio": [{ "s": "W", "t": "You've worked the night shift at the plant before, haven't you?" }],
+      "questions": [{ "options": ["Our shifts are eight hours long.", "She's the new plant manager.", "Only for a few weeks last year."], "answer": 2, "explain": "Câu hỏi đuôi về kinh nghiệm làm ca đêm → 'Only for a few weeks last year' xác nhận ngầm là có. (A) lặp 'shifts' nhưng nói độ dài ca; (B) lặp 'plant' nhưng nói về người khác." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "M", "t": "Do you have this jacket in a larger size?" }],
+      "questions": [{ "options": ["Let me check in the stockroom.", "It's made of leather.", "The sale ends on Sunday."], "answer": 0, "explain": "Hỏi còn size lớn hơn không → 'Let me check in the stockroom' (để tôi kiểm tra trong kho) là trả lời gián tiếp hợp lý. (B) nói chất liệu; (C) nói thời hạn giảm giá." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "W2", "t": "Who will present the quarterly results to the board?" }],
+      "questions": [{ "options": ["In the main conference room.", "Mr. Delgado, I think.", "Interest rates are rising."], "answer": 1, "explain": "'Who' hỏi người trình bày → 'Mr. Delgado'. (A) trả lời cho 'Where'; (C) liên quan ngân hàng nhưng không nêu người." }]
+    },
+    {
+      "kind": "request",
+      "audio": [{ "s": "M2", "t": "Is it okay if I reschedule my appointment to Thursday?" }],
+      "questions": [{ "options": ["Yes, the schedule is posted online.", "I'll take the Thursday train.", "Let me see if Dr. Patel has an opening."], "answer": 2, "explain": "Xin dời lịch hẹn → 'Let me see if Dr. Patel has an opening' (xem bác sĩ có chỗ trống không). (A) lặp 'schedule' nhưng không đáp ứng yêu cầu; (B) lặp 'Thursday' nhưng nói đi tàu." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "W", "t": "How many copies of the audit report should I print?" }],
+      "questions": [{ "options": ["At the copy shop across the street.", "Just one for each department head.", "Yes, it's a long report."], "answer": 1, "explain": "'How many copies' hỏi số lượng → 'one for each department head'. (A) lặp 'copy' nhưng trả lời cho 'Where'; (C) Yes/No không hợp với câu Wh." }]
+    },
+    {
+      "kind": "request",
+      "audio": [{ "s": "M", "t": "Could you help me find books about urban gardening?" }],
+      "questions": [{ "options": ["They're in the 635 section, past the periodicals.", "Yes, the garden is lovely this time of year.", "The library closes at nine."], "answer": 0, "explain": "Nhờ tìm sách → thủ thư chỉ khu 635 (mục sách làm vườn). (B) lặp 'garden' nhưng lạc đề; (C) nói giờ đóng cửa, không giúp tìm sách." }]
+    },
+    {
+      "kind": "suggestion",
+      "audio": [{ "s": "W", "t": "Why don't we take the express bus instead of the local one?" }],
+      "questions": [{ "options": ["The bus stop is across the street.", "I've never met the driver.", "Good idea—it'll save us twenty minutes."], "answer": 2, "explain": "Câu gợi ý 'Why don't we…' → đồng ý và nêu lợi ích 'save us twenty minutes'. (A), (B) lặp 'bus' nhưng không phản hồi gợi ý." }]
+    },
+    {
+      "kind": "statement",
+      "audio": [{ "s": "M2", "t": "Our new ad campaign got more attention than we expected." }],
+      "questions": [{ "options": ["I'll attend the convention.", "Yes, social media shares have doubled.", "Please turn off the television."], "answer": 1, "explain": "Nhận xét chiến dịch quảng cáo được chú ý → 'social media shares have doubled' đồng tình và dẫn chứng. (A) 'attend' gần âm 'attention'; (C) liên quan quảng cáo trên TV nhưng không phản hồi." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "W2", "t": "Should the visitors wear protective gear on the factory floor?" }],
+      "questions": [{ "options": ["Yes, helmets and goggles are by the entrance.", "The floor was just repainted.", "I'll give them a ride to the station."], "answer": 0, "explain": "Hỏi khách có cần đồ bảo hộ → 'Yes, helmets and goggles are by the entrance'. (B) lặp 'floor' nhưng nói chuyện sơn sàn; (C) nói chuyện đưa khách đi ga." }]
+    },
+    {
+      "kind": "question",
+      "audio": [{ "s": "M", "t": "Are these oranges organically grown?" }],
+      "questions": [{ "options": ["They're two dollars a pound.", "The orange juice is in aisle four.", "The label on the crate says so."], "answer": 2, "explain": "Hỏi cam có phải hữu cơ không → 'The label on the crate says so' (nhãn trên thùng ghi vậy). (A) nói giá, không trả lời; (B) lặp 'orange' nhưng nói về nước cam." }]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "task1": {
+    "prompt": "The table below gives information about working conditions in five countries in 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "table",
+      "title": "Working conditions in five countries, 2023",
+      "unit": "",
+      "categories": ["Average weekly hours worked", "Paid holiday (days per year)", "Employees working from home (%)"],
+      "series": [
+        { "name": "Germany", "values": [34, 30, 25] },
+        { "name": "Japan", "values": [37, 18, 12] },
+        { "name": "Australia", "values": [33, 28, 30] },
+        { "name": "Mexico", "values": [41, 12, 8] },
+        { "name": "Sweden", "values": [36, 32, 35] }
+      ]
+    },
+    "sample": "The table compares five countries in terms of average weekly working hours, annual paid holiday and the percentage of employees who worked from home in 2023.\n\nOverall, Mexico stands out as the country with the longest hours and the least favourable conditions, whereas Sweden and Germany offer the most generous holiday entitlement. Remote working was most widespread in the Scandinavian country and least common in Mexico.\n\nLooking first at working hours, Mexican employees worked an average of 41 hours a week, which was considerably more than in any other country. Japan came next with 37 hours, followed by Sweden on 36. Germans and Australians put in the shortest weeks, at 34 and 33 hours respectively.\n\nPaid holiday followed a broadly opposite pattern. Swedish workers enjoyed the most time off, at 32 days a year, closely followed by Germans (30) and Australians (28). By contrast, Japan allowed only 18 days, and Mexico just 12, less than half the Swedish figure.\n\nAs for home working, 35% of Swedish employees and 30% of Australians did so, compared with a quarter in Germany. Only 12% of Japanese and 8% of Mexican workers worked remotely.",
+    "sampleBand": 7.5,
+    "notes_vi": "Bảng số liệu: không liệt kê hết ô; nhóm theo tiêu chí và chọn điểm cao nhất/thấp nhất. Dàn ý: Mở bài paraphrase (nêu 3 tiêu chí); Overview (Mexico nổi bật với giờ làm dài, ngày phép ít; Thụy Điển/Đức tốt nhất về ngày phép; làm việc từ xa phổ biến nhất ở Thụy Điển); Thân bài 1: giờ làm việc; Thân bài 2: ngày phép và làm việc tại nhà. Lỗi hay gặp: đi theo từng quốc gia thay vì theo tiêu chí nên bài thành danh sách; không có Overview; nhầm 'hours a week' với 'hours a day'; quên đơn vị % hoặc 'days'; chỉ dùng 'higher/lower' lặp lại — nên đa dạng: considerably more than, closely followed by, less than half."
+  },
+  "task2": {
+    "prompt": "More and more people are choosing to work from home rather than in an office. Do the advantages of this development outweigh the disadvantages?",
+    "sample": "Advances in communication technology have made it possible for millions of employees to work from their living rooms rather than commuting to an office. Although this trend has certain drawbacks, I believe that its benefits for both workers and employers are greater.\n\nThe most obvious advantage of remote work is flexibility. Employees save the time and money they would otherwise spend on travelling, and they can arrange their day around family commitments, which often leads to a better work-life balance. For instance, a parent who can start work early and finish in time to collect children from school is likely to feel less stressed and therefore more productive. Companies benefit too, since they can reduce the cost of renting large offices and recruit talented staff from any city or even any country, rather than being limited to local candidates.\n\nNevertheless, working from home is not without problems. Some people find it isolating, because they miss the casual conversations and teamwork that happen naturally in a shared workplace. Younger employees in particular may struggle to learn from experienced colleagues without face-to-face contact. In addition, the boundary between work and personal life can become blurred, leading some individuals to work excessively long hours or to be distracted by household chores.\n\nIn my opinion, however, these disadvantages can largely be managed. Firms can organise regular video meetings and occasional office days to maintain team spirit, while workers can establish a fixed routine and a dedicated workspace to protect their free time. Such measures preserve the benefits of flexibility without sacrificing collaboration.\n\nIn conclusion, although remote working can cause isolation and make it harder to switch off, I believe the savings in time and money, together with greater freedom, mean that the advantages outweigh the disadvantages.",
+    "sampleBand": 7.5,
+    "notes_vi": "Dạng Advantages–Disadvantages có câu hỏi 'outweigh': PHẢI đưa ra phán đoán cuối cùng (ưu điểm lớn hơn hay nhược điểm lớn hơn). Dàn ý: Mở bài (paraphrase + quan điểm) — Thân bài 1: ưu điểm (2 ý + ví dụ) — Thân bài 2: nhược điểm (2 ý) — Thân bài 3 ngắn hoặc kết bài: so sánh và giải thích vì sao bên nào nặng ký hơn — Kết bài. Lỗi hay gặp: chỉ liệt kê ưu nhược mà không kết luận bên nào hơn; dùng 'advantage/disadvantage' lặp (hãy thay bằng benefit, drawback, downside); nhầm 'work from home' với 'work at home' trong văn phong trang trọng; ý ưu và nhược không cân đối; thiếu ví dụ cụ thể."
+  }
+}

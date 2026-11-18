@@ -1,0 +1,58 @@
+{
+  "part1": {
+    "topic": "Technology and mobile phones",
+    "questions": [
+      "How often do you use your mobile phone?",
+      "What do you mainly use your phone for?",
+      "Do you think you spend too much time on your phone?",
+      "Have you ever had problems with technology?",
+      "Do you prefer to read on paper or on a screen?"
+    ],
+    "samples": [
+      "Honestly, pretty much all day. It's the first thing I check in the morning and the last thing I look at before bed. I'd say I'm on it for about five or six hours in total, though a lot of that is for work.",
+      "Mainly for messaging, navigating around the city and listening to podcasts on my commute. I also use it for mobile banking and online shopping, so it has really replaced a lot of things I used to do separately.",
+      "Sometimes, yes. I catch myself picking it up out of habit even when there are no new notifications. Recently I started turning on the screen-time limit for social media apps, and it's helped me cut down a little.",
+      "Oh, plenty of times! Once my laptop crashed just an hour before I had to submit an important report, and I hadn't backed anything up. I managed to recover most of it, but it was a nightmare, and now I save everything to the cloud.",
+      "For long texts like novels, I definitely prefer paper, because it's easier on the eyes and I can concentrate better. But for news and short articles, I like using my phone since it's quicker and I can carry hundreds of books in my pocket."
+    ]
+  },
+  "part2": {
+    "cue": "Describe a piece of technology or an app that you use every day.",
+    "bullets": [
+      "what it is",
+      "when and why you started using it",
+      "what you use it for",
+      "and explain how it has made your life easier"
+    ],
+    "sample": "I'd like to talk about a language-learning app that I use every single day, which is a bit like a game and has a little green owl as its mascot. I'm sure many people have heard of it, and I'd say it's the piece of technology that has changed my daily routine the most over the last two years.\n\nI started using it about two years ago, when I decided to improve my English before applying for a master's programme abroad. A colleague had recommended it, and I thought I'd give it a go for a week to see whether it was worth my time. To my surprise, I got completely hooked. The lessons are short, usually five to ten minutes, and there's a streak counter that shows how many days in a row you've studied. Not wanting to break my streak has been a huge motivator.\n\nNowadays I use it mainly on the bus on my way to work, and again for a few minutes before I go to sleep. It covers vocabulary, grammar and listening, and it also has speaking exercises where the app evaluates my pronunciation. Whenever I come across a word I don't know in a film or a book, I add it to my list and practise it there.\n\nThe app has made my life easier in several ways. Firstly, it has turned dead time, like waiting in queues or commuting, into productive learning time. Secondly, it's incredibly flexible, so I don't need to book a class or travel anywhere. And thirdly, it has given me confidence, because I can see clear progress. I recently had a conversation with a foreign client for twenty minutes without any hesitation, and that was a really proud moment.\n\nSo, all in all, it's a simple tool, but it's genuinely helped me move closer to my goal of studying overseas.",
+    "sampleBand": 7.5
+  },
+  "part3": {
+    "questions": [
+      "How has technology changed the way people learn new skills?",
+      "Do you think older people find it more difficult to use modern technology?",
+      "Some people say artificial intelligence will replace many jobs. What is your view?",
+      "Should parents limit the amount of time children spend on screens?",
+      "What do you think everyday technology will look like in twenty years?"
+    ],
+    "samples": [
+      "It's made learning far more accessible. Anyone with an internet connection can watch lectures from top universities or follow a tutorial for almost any skill, often for free. The downside is that there's so much information that learners can get overwhelmed, or they may struggle to stay disciplined without a teacher.",
+      "Generally, yes, although it's not true for everyone. Many older people didn't grow up with digital devices, so they can find interfaces confusing and worry about online scams. But if they receive patient support from younger relatives, they often adapt quickly and enjoy video calls with their grandchildren.",
+      "I think some routine jobs, such as data entry or basic customer service, will probably be automated. At the same time, new roles will emerge, such as those who train and supervise AI systems. So rather than mass unemployment, I expect a shift in the skills people need, which means workers will have to keep retraining.",
+      "Yes, I think so, especially for younger children. Too much screen time can affect sleep, concentration and physical health. However, a total ban isn't realistic, so parents should set clear rules, like no phones at mealtimes, and encourage a balance between online and offline activities.",
+      "I imagine devices will be more seamlessly integrated into our daily lives, perhaps through smart glasses or voice assistants that handle most tasks. Healthcare might become more personalised, with wearable gadgets monitoring our health constantly. I just hope privacy will be protected as all this develops."
+    ]
+  },
+  "vocab_vi": [
+    { "en": "give it a go", "vi": "thử một lần xem sao" },
+    { "en": "get completely hooked", "vi": "hoàn toàn bị cuốn hút, nghiện" },
+    { "en": "a huge motivator", "vi": "động lực rất lớn" },
+    { "en": "turn dead time into productive time", "vi": "biến thời gian chết thành thời gian hữu ích" },
+    { "en": "cut down on", "vi": "cắt giảm" },
+    { "en": "back up files to the cloud", "vi": "sao lưu tệp lên đám mây" },
+    { "en": "easier on the eyes", "vi": "dễ chịu cho mắt hơn" },
+    { "en": "be automated", "vi": "bị tự động hóa" },
+    { "en": "seamlessly integrated", "vi": "tích hợp liền mạch" },
+    { "en": "get overwhelmed", "vi": "bị choáng ngợp, quá tải" }
+  ]
+}

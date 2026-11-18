@@ -1,0 +1,87 @@
+{
+  "title": "Section 2",
+  "context": "A guide is welcoming a group of visitors at a recycling plant and explaining the tour.",
+  "audio": [
+    { "s": "N", "t": "Section 2. You will hear a guide giving a talk to visitors at a recycling plant." },
+    { "s": "W", "t": "Good morning, everyone, and welcome to the Greenfield Recycling Plant. My name's Priya, and I'll be your guide today." },
+    { "s": "W", "t": "First, a quick word about where we are meeting. I can see a few of you came to the reception building, but the tours actually start from the main gatehouse, where you'll collect your safety equipment." },
+    { "s": "W", "t": "So if you'd like to follow me over there, we'll get started. Please don't worry, it's only a two-minute walk." },
+    { "s": "W", "t": "Now, a little background about the plant. We handle waste from all over the region, about two thousand tonnes every week." },
+    { "s": "W", "t": "I used to tell visitors that around two thirds of it comes from households. However, the latest figures show that's no longer true. It's now 58 per cent, and the rest comes from businesses and building sites." },
+    { "s": "W", "t": "Next, timing. If you read our brochure, you'll have seen that the tour lasts two hours. We've actually shortened it this year, so you'll be back at the gatehouse after an hour and a half." },
+    { "s": "W", "t": "That leaves time for a drink in the visitor centre afterwards, if you'd like one." },
+    { "s": "W", "t": "On a normal day we visit four areas: the sorting hall, the glass crushing area, the plastics wash plant and the control room." },
+    { "s": "W", "t": "Unfortunately, the plastics wash plant is closed for maintenance today, so we won't be able to go in there. I'll explain what happens in that part of the process as we walk." },
+    { "s": "W", "t": "Everything else is running as usual, and you'll be able to look down on the sorting line from the walkway. It's quite noisy, so please stay close to me so you can hear." },
+    { "s": "W", "t": "Everyone in the group will receive a small gift at the end. I know our school groups get a certificate, but for adults we give out a reusable shopping bag, which is made from recycled plastic bottles." },
+    { "s": "W", "t": "Right, before we go, I'd like to tell you what happens to the main materials we collect. You'll see samples of the finished products in the display room." },
+    { "s": "W", "t": "Let's start with glass. You might expect most of it to become new bottles, and a small amount does. But the majority of the glass we crush is sold to road builders, who mix it into the surface of new roads." },
+    { "s": "W", "t": "Next, plastic bottles. These are washed, shredded and melted down into tiny pellets. The pellets are then spun into thread. Many of you may be wearing a jacket made from it, because it's used for fleece clothing." },
+    { "s": "W", "t": "I should mention that we also make park benches, but those come from mixed hard plastic, such as crates and buckets, not from bottles." },
+    { "s": "W", "t": "Now, cardboard. It's soaked in water to make a soft pulp, then pressed and dried. The result is strong new packaging, so the next box you receive in the post may well have come from us." },
+    { "s": "W", "t": "What about old newspapers? You'd think they would simply become new newspapers, wouldn't you? In fact, they're shredded and treated with a safe chemical, and the final product is insulation for the roofs and walls of houses." },
+    { "s": "W", "t": "Last of all, aluminium cans. This one is my favourite, because the recycling is so fast. A can you put in the bin today can be melted down and back on a supermarket shelf as a brand-new drinks can in about sixty days." },
+    { "s": "W", "t": "Recycling aluminium uses only five per cent of the energy needed to make it from raw materials, which is why we're so keen on it." },
+    { "s": "W", "t": "A few practical points before we leave. Please keep your hard hat and jacket on at all times, and don't touch any of the machinery or the conveyor belts." },
+    { "s": "W", "t": "You're welcome to take photographs, but please don't use flash near the control room windows." },
+    { "s": "W", "t": "There are toilets in the gatehouse, but none on the route, so please use them before we set off." },
+    { "s": "W", "t": "If you have any questions, please ask me as we go. Now, if everyone could make their way to the gatehouse, we'll collect the equipment and begin." }
+  ],
+  "blocks": [
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter.",
+      "questions": [
+        {
+          "q": "Where does the tour start?",
+          "options": ["at the main gatehouse", "at the reception building", "in the visitor car park"],
+          "answer": 0,
+          "explain": "Hướng dẫn viên nói: \"the tours actually start from the main gatehouse\". Reception là bẫy vì một số khách đã đến nhầm đó."
+        },
+        {
+          "q": "What proportion of the waste now comes from households?",
+          "options": ["66%", "75%", "42%", "58%"],
+          "answer": 3,
+          "explain": "Cô từng nói khoảng hai phần ba, nhưng số liệu mới: \"It's now 58 per cent\". 42% là phần còn lại từ doanh nghiệp và công trình xây dựng."
+        },
+        {
+          "q": "How long will the tour last?",
+          "options": ["1 hour", "90 minutes", "2 hours", "3 hours"],
+          "answer": 1,
+          "explain": "Brochure ghi 2 giờ nhưng \"We've actually shortened it this year, so you'll be back ... after an hour and a half\" tức 90 phút."
+        },
+        {
+          "q": "Which area will the group NOT visit today?",
+          "options": ["the plastics wash plant", "the sorting hall", "the glass crushing area", "the control room"],
+          "answer": 0,
+          "explain": "\"The plastics wash plant is closed for maintenance today, so we won't be able to go in there.\" Các khu còn lại vẫn hoạt động bình thường."
+        },
+        {
+          "q": "What will each adult visitor receive at the end of the tour?",
+          "options": ["a certificate", "a café voucher", "a reusable bag", "a booklet"],
+          "answer": 2,
+          "explain": "\"Our school groups get a certificate, but for adults we give out a reusable shopping bag.\" Chứng chỉ chỉ dành cho nhóm học sinh."
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "What is each material turned into? Choose FIVE answers from the box and write the correct letter, A–F, next to Questions 16–20.",
+      "options": [
+        "A  new drinks cans",
+        "B  park benches",
+        "C  new packaging boxes",
+        "D  house insulation",
+        "E  fleece clothing",
+        "F  road surfacing"
+      ],
+      "questions": [
+        { "q": "Glass", "answer": 5, "explain": "\"The majority of the glass we crush is sold to road builders\" — dùng làm mặt đường (F), dù một ít làm chai mới." },
+        { "q": "Plastic bottles", "answer": 4, "explain": "Chai nhựa được kéo thành sợi: \"it's used for fleece clothing\" (E). Ghế công viên làm từ nhựa cứng hỗn hợp, không phải từ chai." },
+        { "q": "Cardboard", "answer": 2, "explain": "Bìa các-tông được nghiền thành bột giấy rồi \"strong new packaging\" (C)." },
+        { "q": "Old newspapers", "answer": 3, "explain": "Không thành báo mới mà \"the final product is insulation for the roofs and walls of houses\" (D)." },
+        { "q": "Aluminium cans", "answer": 0, "explain": "Lon nhôm quay lại kệ siêu thị \"as a brand-new drinks can in about sixty days\" (A)." }
+      ]
+    }
+  ]
+}
