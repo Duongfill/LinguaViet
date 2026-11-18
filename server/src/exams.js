@@ -89,6 +89,17 @@ function buildExam(id) {
       } };
     }
     if (speaking) exam.sections.speaking = { minutes: TIME.ielts.speaking, data: speaking };
+  } else {
+    // TOEIC Writing: 8 câu (5 câu tả tranh, 2 email, 1 bài luận) — gửi đề không kèm bài mẫu
+    const w = readJson(path.join(dir, 'writing.json'));
+    if (w) {
+      exam.toeicWritingKey = w;
+      exam.sections.writing = { kind: 'toeic', minutes: 60, total: 8, items: {
+        q1_5: (w.q1_5 || []).map((q) => ({ scene: q.scene, words: q.words })),
+        q6_7: (w.q6_7 || []).map((q) => ({ email: q.email, task: q.task })),
+        q8: { prompt: w.q8?.prompt },
+      } };
+    }
   }
   return exam;
 }
@@ -198,12 +209,25 @@ examsRouter.post('/exams/:id/writing', (req, res) => {
   res.json({ attemptId: info.lastInsertRowid, sample: k.sample, sampleBand: k.sampleBand, notes_vi: k.notes_vi });
 });
 
-// Lưu điểm tự chấm sau khi xem bài mẫu (Writing / Speaking)
+// TOEIC Writing: nộp cả 8 câu, nhận bài mẫu + mô tả tranh để tự chấm
+examsRouter.post('/exams/:id/toeic-writing', (req, res) => {
+  const e = exams().get(req.params.id);
+  if (!e?.toeicWritingKey) return res.status(404).json({ error: 'Đề không có Writing' });
+  const answers = req.body?.answers || {};
+  const info = db.prepare(`INSERT INTO exam_attempts (user_id, exam_id, section, parts, total, detail, duration_sec)
+    VALUES (?, ?, 'writing', NULL, 8, ?, ?)`).run(req.user.id, e.id, JSON.stringify(answers).slice(0, 20000), Number(req.body?.durationSec) || null);
+  res.json({ attemptId: info.lastInsertRowid, key: e.toeicWritingKey });
+});
+
+// Lưu điểm tự chấm sau khi xem bài mẫu (Writing / Speaking): IELTS band 0–9, TOEIC Writing 0–200
 examsRouter.patch('/exams/attempts/:aid', (req, res) => {
-  const band = Math.min(9, Math.max(0, Number(req.body?.selfBand)));
-  if (!Number.isFinite(band)) return res.status(400).json({ error: 'Band không hợp lệ' });
-  const r = db.prepare(`UPDATE exam_attempts SET score = ? WHERE id = ? AND user_id = ? AND section IN ('writing', 'speaking')`)
-    .run(band, Number(req.params.aid), req.user.id);
+  const row = db.prepare(`SELECT exam_id FROM exam_attempts WHERE id = ? AND user_id = ? AND section IN ('writing', 'speaking')`)
+    .get(Number(req.params.aid), req.user.id);
+  if (!row) return res.status(404).json({ error: 'Không tìm thấy bài làm' });
+  const max = row.exam_id.startsWith('toeic') ? 200 : 9;
+  const band = Math.min(max, Math.max(0, Number(req.body?.selfBand)));
+  if (!Number.isFinite(band)) return res.status(400).json({ error: 'Điểm không hợp lệ' });
+  const r = db.prepare('UPDATE exam_attempts SET score = ? WHERE id = ? AND user_id = ?').run(band, Number(req.params.aid), req.user.id);
   if (!r.changes) return res.status(404).json({ error: 'Không tìm thấy bài làm' });
   res.json({ ok: true });
 });

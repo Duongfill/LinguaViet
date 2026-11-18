@@ -10,14 +10,14 @@ const CRITERIA = [
   ['gra', 'Grammatical Range & Accuracy', 'Dùng cả câu đơn và câu phức; phần lớn câu không lỗi ngữ pháp.'],
 ];
 const BANDS = [4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9];
-const countWords = (s) => (s.match(/[A-Za-z0-9'’-]+/g) || []).length;
+export const countWords = (s) => (s.match(/[A-Za-z0-9'’-]+/g) || []).length;
 const fmtClock = (s) => `${Math.floor(s / 60)}:${String(Math.max(0, s) % 60).padStart(2, '0')}`;
-const draftKey = (id, t) => `langapp.writing.${id}.${t}`;
 const readDraft = (k) => { try { return localStorage.getItem(k) || ''; } catch { return ''; } };
 
-// IELTS Writing: viết bài, xem bài mẫu, tự chấm theo 4 tiêu chí
+// IELTS Writing trong đề thi
 export default function ExamWriting({ exam, sec }) {
   const [task, setTask] = useState('task1');
+  const t = sec.tasks[task];
   return (
     <div className="stack page-narrow exam-run">
       <div className="exam-bar">
@@ -28,14 +28,18 @@ export default function ExamWriting({ exam, sec }) {
           <button className={task === 'task2' ? 'active' : ''} onClick={() => setTask('task2')}>Task 2</button>
         </div>
       </div>
-      <Task key={task} exam={exam} task={task} t={sec.tasks[task]} />
+      <WritingTask key={task} task={task === 'task1' ? 1 : 2} prompt={t.prompt} chart={t.chart} minWords={t.minWords}
+        draftKey={`langapp.writing.${exam.id}.${task}`}
+        onSubmit={(text, durationSec) => api(`/exams/${exam.id}/writing`, { method: 'POST', body: { task, text, durationSec } })}
+        onSaveBand={(r, band) => api(`/exams/attempts/${r.attemptId}`, { method: 'PATCH', body: { selfBand: band } })} />
     </div>
   );
 }
 
-function Task({ exam, task, t }) {
-  const minutes = task === 'task1' ? 20 : 40;
-  const [text, setText] = useState(() => readDraft(draftKey(exam.id, task)));
+// Khung viết một bài IELTS Writing: đề + biểu đồ, viết, đếm từ, giờ, bài mẫu, tự chấm 4 tiêu chí
+export function WritingTask({ task, prompt, chart, minWords, draftKey, onSubmit, onSaveBand }) {
+  const minutes = task === 1 ? 20 : 40;
+  const [text, setText] = useState(() => readDraft(draftKey));
   const [startedAt, setStartedAt] = useState(null);
   const [now, setNow] = useState(Date.now());
   const [result, setResult] = useState(null);
@@ -44,7 +48,7 @@ function Task({ exam, task, t }) {
   const [busy, setBusy] = useState(false);
   const words = countWords(text);
 
-  useEffect(() => { try { localStorage.setItem(draftKey(exam.id, task), text); } catch { /* bỏ qua */ } }, [text]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => { try { localStorage.setItem(draftKey, text); } catch { /* bỏ qua */ } }, [text]); // eslint-disable-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (!startedAt || result) return undefined;
     const i = setInterval(() => setNow(Date.now()), 1000);
@@ -55,24 +59,19 @@ function Task({ exam, task, t }) {
   const submit = async () => {
     if (words < 20 && !window.confirm('Bài viết còn rất ngắn. Vẫn xem bài mẫu?')) return;
     setBusy(true);
-    try {
-      const r = await api(`/exams/${exam.id}/writing`, { method: 'POST', body: { task, text, durationSec: startedAt ? Math.round((Date.now() - startedAt) / 1000) : null } });
-      setResult(r);
-    } catch (e) { alert(e.message); } finally { setBusy(false); }
+    try { setResult(await onSubmit(text, startedAt ? Math.round((Date.now() - startedAt) / 1000) : null)); }
+    catch (e) { alert(e.message); } finally { setBusy(false); }
   };
   const avg = CRITERIA.every(([k]) => marks[k] != null)
     ? Math.round((CRITERIA.reduce((s, [k]) => s + marks[k], 0) / 4) * 2) / 2 : null;
-  const saveBand = async () => {
-    await api(`/exams/attempts/${result.attemptId}`, { method: 'PATCH', body: { selfBand: avg } }).catch((e) => alert(e.message));
-    setSaved(true);
-  };
+  const saveBand = async () => { await onSaveBand(result, avg).catch((e) => alert(e.message)); setSaved(true); };
 
   return (
     <>
       <div className="card stack">
-        <div className="muted small">{task === 'task1' ? 'Task 1 · nên dành 20 phút · tối thiểu 150 từ' : 'Task 2 · nên dành 40 phút · tối thiểu 250 từ'}</div>
-        <div className="w-prompt">{t.prompt}</div>
-        {t.chart && <ExamChart chart={t.chart} />}
+        <div className="muted small">{task === 1 ? 'Task 1 · nên dành 20 phút · tối thiểu 150 từ' : 'Task 2 · nên dành 40 phút · tối thiểu 250 từ'}</div>
+        <div className="w-prompt">{prompt}</div>
+        {chart && <ExamChart chart={chart} />}
       </div>
 
       <div className="card stack">
@@ -80,7 +79,7 @@ function Task({ exam, task, t }) {
           onChange={(e) => { setText(e.target.value); if (!startedAt) setStartedAt(Date.now()); }}
           placeholder="Viết bài của bạn ở đây (bài nháp tự lưu trên máy này)…" />
         <div className="w-meta">
-          <span className={words >= t.minWords ? 'ok-text' : 'muted'}>{words} / {t.minWords} từ</span>
+          <span className={words >= minWords ? 'ok-text' : 'muted'}>{words} / {minWords} từ</span>
           {startedAt && !result && <span className={left < 120 ? 'error-text' : 'muted'}>⏱ {left > 0 ? fmtClock(left) : 'Hết giờ'}</span>}
           {!result && <button className="btn primary" onClick={submit} disabled={busy || !text.trim()}>Nộp & xem bài mẫu</button>}
           {result && <button className="btn sm" onClick={() => { setResult(null); setMarks({}); setSaved(false); setStartedAt(null); }}>Viết lại</button>}

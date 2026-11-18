@@ -1,0 +1,802 @@
+[
+  {
+    "id": "en-01",
+    "level": "A1",
+    "topic_vi": "Giới thiệu bản thân",
+    "prompt": "Introduce yourself. Say your name, your age, where you are from and what you like.",
+    "prompt_vi": "Hãy giới thiệu bản thân: tên, tuổi, bạn đến từ đâu và bạn thích gì.",
+    "min": 30,
+    "useful": [
+      {
+        "term": "My name is ...",
+        "meaning_vi": "Tên tôi là ..."
+      },
+      {
+        "term": "I am ... years old",
+        "meaning_vi": "Tôi ... tuổi"
+      },
+      {
+        "term": "I am from ...",
+        "meaning_vi": "Tôi đến từ ..."
+      },
+      {
+        "term": "I live with ...",
+        "meaning_vi": "Tôi sống cùng ..."
+      },
+      {
+        "term": "I like + V-ing",
+        "meaning_vi": "Tôi thích làm gì"
+      },
+      {
+        "term": "Nice to meet you",
+        "meaning_vi": "Rất vui được gặp bạn"
+      }
+    ],
+    "sample": "Hello! My name is Linh. I am twelve years old. I am from Hanoi, Vietnam. I live with my mother, my father and my little brother. I am a student. I like music and I like playing badminton. My best friend is Mai. She is very kind. I am happy to meet you.",
+    "sample_vi": "Xin chào! Tên mình là Linh. Mình mười hai tuổi. Mình đến từ Hà Nội, Việt Nam. Mình sống cùng mẹ, bố và em trai nhỏ. Mình là học sinh. Mình thích âm nhạc và thích chơi cầu lông. Bạn thân nhất của mình là Mai. Bạn ấy rất tốt bụng. Mình rất vui được gặp bạn."
+  },
+  {
+    "id": "en-02",
+    "level": "A1",
+    "topic_vi": "Gia đình của bạn",
+    "prompt": "Write about your family. Who is in your family? What do they do?",
+    "prompt_vi": "Viết về gia đình bạn. Trong nhà có những ai? Họ làm nghề gì?",
+    "min": 30,
+    "useful": [
+      {
+        "term": "There are five people in my family",
+        "meaning_vi": "Gia đình tôi có năm người"
+      },
+      {
+        "term": "my grandmother",
+        "meaning_vi": "bà của tôi"
+      },
+      {
+        "term": "my parents",
+        "meaning_vi": "bố mẹ tôi"
+      },
+      {
+        "term": "He/She is a nurse",
+        "meaning_vi": "Ông/Bà ấy là y tá"
+      },
+      {
+        "term": "cook dinner",
+        "meaning_vi": "nấu bữa tối"
+      },
+      {
+        "term": "on Sunday",
+        "meaning_vi": "vào Chủ nhật"
+      }
+    ],
+    "sample": "There are five people in my family: my grandmother, my parents, my sister and me. My grandmother is seventy years old. She cooks very well. My father is a driver and my mother is a nurse. My sister is eight. She likes drawing. On Sunday we eat dinner together. I love my family.",
+    "sample_vi": "Gia đình mình có năm người: bà, bố mẹ, em gái và mình. Bà mình bảy mươi tuổi. Bà nấu ăn rất giỏi. Bố mình là tài xế còn mẹ mình là y tá. Em gái mình tám tuổi. Em thích vẽ. Vào Chủ nhật, cả nhà ăn tối cùng nhau. Mình yêu gia đình mình."
+  },
+  {
+    "id": "en-03",
+    "level": "A1",
+    "topic_vi": "Món ăn yêu thích",
+    "prompt": "What is your favourite food? Write about what you like and do not like to eat and drink.",
+    "prompt_vi": "Món ăn yêu thích của bạn là gì? Viết về những thứ bạn thích và không thích ăn, uống.",
+    "min": 30,
+    "useful": [
+      {
+        "term": "My favourite food is ...",
+        "meaning_vi": "Món ăn yêu thích của tôi là ..."
+      },
+      {
+        "term": "for breakfast",
+        "meaning_vi": "vào bữa sáng"
+      },
+      {
+        "term": "delicious",
+        "meaning_vi": "ngon"
+      },
+      {
+        "term": "I do not like ...",
+        "meaning_vi": "Tôi không thích ..."
+      },
+      {
+        "term": "noodle soup",
+        "meaning_vi": "món phở / bún nước"
+      },
+      {
+        "term": "every day",
+        "meaning_vi": "mỗi ngày"
+      }
+    ],
+    "sample": "My favourite food is noodle soup. I eat it for breakfast every day. It has beef, onions and green vegetables. It is hot and delicious. I also like fruit. I like mangoes and bananas. I do not like fish. I drink water and milk. I do not drink coffee.",
+    "sample_vi": "Món ăn yêu thích của mình là phở. Mình ăn nó vào bữa sáng mỗi ngày. Trong phở có thịt bò, hành và rau xanh. Phở nóng và rất ngon. Mình cũng thích trái cây. Mình thích xoài và chuối. Mình không thích cá. Mình uống nước và sữa. Mình không uống cà phê."
+  },
+  {
+    "id": "en-04",
+    "level": "A1",
+    "topic_vi": "Một ngày của bạn",
+    "prompt": "Describe your normal day. What do you do in the morning, afternoon and evening?",
+    "prompt_vi": "Mô tả một ngày bình thường của bạn. Bạn làm gì vào buổi sáng, buổi chiều và buổi tối?",
+    "min": 30,
+    "useful": [
+      {
+        "term": "get up",
+        "meaning_vi": "thức dậy"
+      },
+      {
+        "term": "have breakfast",
+        "meaning_vi": "ăn sáng"
+      },
+      {
+        "term": "go to school by bike",
+        "meaning_vi": "đi học bằng xe đạp"
+      },
+      {
+        "term": "do my homework",
+        "meaning_vi": "làm bài tập về nhà"
+      },
+      {
+        "term": "watch TV",
+        "meaning_vi": "xem tivi"
+      },
+      {
+        "term": "go to bed",
+        "meaning_vi": "đi ngủ"
+      }
+    ],
+    "sample": "I get up at six o'clock every morning. I wash my face and have breakfast. Then I go to school by bike. School starts at seven. In the afternoon I do my homework. In the evening I watch TV with my family. I go to bed at ten o'clock.",
+    "sample_vi": "Mình thức dậy lúc sáu giờ mỗi sáng. Mình rửa mặt và ăn sáng. Sau đó mình đi học bằng xe đạp. Giờ học bắt đầu lúc bảy giờ. Buổi chiều mình làm bài tập về nhà. Buổi tối mình xem tivi cùng gia đình. Mình đi ngủ lúc mười giờ."
+  },
+  {
+    "id": "en-05",
+    "level": "A2",
+    "topic_vi": "Cuối tuần của bạn",
+    "prompt": "Write about what you did last weekend. Where did you go and who did you see?",
+    "prompt_vi": "Viết về những gì bạn đã làm cuối tuần trước. Bạn đã đi đâu và gặp ai?",
+    "min": 50,
+    "useful": [
+      {
+        "term": "last weekend",
+        "meaning_vi": "cuối tuần trước"
+      },
+      {
+        "term": "get up late",
+        "meaning_vi": "dậy muộn"
+      },
+      {
+        "term": "meet my friends",
+        "meaning_vi": "gặp bạn bè"
+      },
+      {
+        "term": "visit my grandparents",
+        "meaning_vi": "thăm ông bà"
+      },
+      {
+        "term": "help her wash the dishes",
+        "meaning_vi": "giúp bà rửa bát"
+      },
+      {
+        "term": "tired but happy",
+        "meaning_vi": "mệt nhưng vui"
+      }
+    ],
+    "sample": "Last weekend was very relaxing. On Saturday morning I got up late and cleaned my room. In the afternoon I met my friends at the park. We played football and then we drank orange juice. On Sunday I visited my grandparents. My grandmother cooked a big lunch and I helped her wash the dishes. In the evening I watched a film at home. I was tired but happy.",
+    "sample_vi": "Cuối tuần trước rất thư giãn. Sáng thứ Bảy mình dậy muộn và dọn phòng. Buổi chiều mình gặp bạn bè ở công viên. Bọn mình chơi bóng đá rồi uống nước cam. Chủ nhật mình đến thăm ông bà. Bà nấu một bữa trưa thịnh soạn và mình giúp bà rửa bát. Buổi tối mình xem phim ở nhà. Mình mệt nhưng rất vui."
+  },
+  {
+    "id": "en-06",
+    "level": "A2",
+    "topic_vi": "Nơi bạn sống",
+    "prompt": "Describe the place where you live. What is it like? What do you like and not like about it?",
+    "prompt_vi": "Mô tả nơi bạn đang sống. Nơi đó như thế nào? Bạn thích và không thích điều gì ở đó?",
+    "min": 50,
+    "useful": [
+      {
+        "term": "a small flat",
+        "meaning_vi": "một căn hộ nhỏ"
+      },
+      {
+        "term": "in the centre of",
+        "meaning_vi": "ở trung tâm của"
+      },
+      {
+        "term": "comfortable sofa",
+        "meaning_vi": "ghế sofa thoải mái"
+      },
+      {
+        "term": "near my building",
+        "meaning_vi": "gần tòa nhà của tôi"
+      },
+      {
+        "term": "friendly neighbours",
+        "meaning_vi": "hàng xóm thân thiện"
+      },
+      {
+        "term": "I would like to ...",
+        "meaning_vi": "Tôi muốn ..."
+      }
+    ],
+    "sample": "I live in a small flat in the centre of Da Nang. It has two bedrooms, a living room and a kitchen. My favourite room is the living room because it has a big window and a comfortable sofa. There is a supermarket near my building and a park behind it. The neighbours are friendly, but the street is noisy in the evening. I would like to have a garden one day.",
+    "sample_vi": "Mình sống trong một căn hộ nhỏ ở trung tâm Đà Nẵng. Căn hộ có hai phòng ngủ, một phòng khách và một bếp. Phòng mình thích nhất là phòng khách vì có cửa sổ lớn và một chiếc sofa thoải mái. Gần tòa nhà có một siêu thị và phía sau là công viên. Hàng xóm rất thân thiện, nhưng buổi tối đường phố khá ồn. Một ngày nào đó mình muốn có một khu vườn."
+  },
+  {
+    "id": "en-07",
+    "level": "A2",
+    "topic_vi": "Chuyến đi gần đây",
+    "prompt": "Write about a trip you took. Where did you go? How did you travel? What did you do there?",
+    "prompt_vi": "Viết về một chuyến đi của bạn. Bạn đã đi đâu, đi bằng gì và làm gì ở đó?",
+    "min": 50,
+    "useful": [
+      {
+        "term": "go to ... for four days",
+        "meaning_vi": "đi ... trong bốn ngày"
+      },
+      {
+        "term": "take a train",
+        "meaning_vi": "đi tàu hỏa"
+      },
+      {
+        "term": "stay in a hotel",
+        "meaning_vi": "ở khách sạn"
+      },
+      {
+        "term": "take photos",
+        "meaning_vi": "chụp ảnh"
+      },
+      {
+        "term": "especially",
+        "meaning_vi": "đặc biệt là"
+      },
+      {
+        "term": "go back",
+        "meaning_vi": "quay lại"
+      }
+    ],
+    "sample": "Last summer my family went to Hue for four days. We took a train from Hanoi and it was a long journey. We stayed in a small hotel near the river. We visited the old royal city and we took many photos. The food was cheap and delicious, especially the spicy noodle soup. The weather was hot, so we drank a lot of water. I want to go back there next year.",
+    "sample_vi": "Mùa hè năm ngoái, gia đình mình đi Huế bốn ngày. Bọn mình đi tàu từ Hà Nội và đó là một chuyến đi dài. Bọn mình ở một khách sạn nhỏ gần sông. Bọn mình tham quan kinh thành cổ và chụp rất nhiều ảnh. Đồ ăn rẻ và ngon, đặc biệt là món bún bò cay. Trời nóng nên bọn mình uống rất nhiều nước. Mình muốn quay lại đó vào năm sau."
+  },
+  {
+    "id": "en-08",
+    "level": "A2",
+    "topic_vi": "Kế hoạch cho kỳ nghỉ sắp tới",
+    "prompt": "Write about your plans for your next holiday. Where are you going to go and what are you going to do?",
+    "prompt_vi": "Viết về kế hoạch cho kỳ nghỉ sắp tới. Bạn sẽ đi đâu và định làm gì?",
+    "min": 50,
+    "useful": [
+      {
+        "term": "I am going to ...",
+        "meaning_vi": "Tôi định / sẽ ..."
+      },
+      {
+        "term": "travel by plane",
+        "meaning_vi": "đi máy bay"
+      },
+      {
+        "term": "faster than",
+        "meaning_vi": "nhanh hơn"
+      },
+      {
+        "term": "stay in her house",
+        "meaning_vi": "ở nhà cô ấy"
+      },
+      {
+        "term": "try new street food",
+        "meaning_vi": "thử món ăn đường phố mới"
+      },
+      {
+        "term": "I hope the weather will be nice",
+        "meaning_vi": "Tôi hy vọng thời tiết đẹp"
+      }
+    ],
+    "sample": "Next month I am going to visit my cousin in Ho Chi Minh City. I am going to travel by plane because it is faster than the bus. We are going to stay in her house for a week. She says we can go to the beach and visit some museums. I am also going to try new street food. I hope the weather will be nice. I will bring a camera and take lots of pictures.",
+    "sample_vi": "Tháng sau mình sẽ đến thăm chị họ ở Thành phố Hồ Chí Minh. Mình định đi máy bay vì nhanh hơn xe buýt. Bọn mình sẽ ở nhà chị một tuần. Chị nói bọn mình có thể đi biển và tham quan vài bảo tàng. Mình cũng sẽ thử những món ăn đường phố mới. Mình hy vọng thời tiết sẽ đẹp. Mình sẽ mang theo máy ảnh và chụp thật nhiều ảnh."
+  },
+  {
+    "id": "en-09",
+    "level": "B1",
+    "topic_vi": "Công việc mơ ước",
+    "prompt": "What job would you like to do in the future? Explain why you chose it and what you need to do to get it.",
+    "prompt_vi": "Bạn muốn làm nghề gì trong tương lai? Giải thích lý do chọn và bạn cần làm gì để đạt được.",
+    "min": 90,
+    "useful": [
+      {
+        "term": "I would like to work as ...",
+        "meaning_vi": "Tôi muốn làm nghề ..."
+      },
+      {
+        "term": "combine A with B",
+        "meaning_vi": "kết hợp A với B"
+      },
+      {
+        "term": "at the moment",
+        "meaning_vi": "hiện tại, lúc này"
+      },
+      {
+        "term": "improve my English",
+        "meaning_vi": "cải thiện tiếng Anh của tôi"
+      },
+      {
+        "term": "build a portfolio",
+        "meaning_vi": "xây dựng hồ sơ năng lực"
+      },
+      {
+        "term": "tight deadlines",
+        "meaning_vi": "hạn chót gấp gáp"
+      },
+      {
+        "term": "Although ...",
+        "meaning_vi": "Mặc dù ..."
+      }
+    ],
+    "sample": "In the future, I would like to work as a graphic designer. I have always enjoyed drawing, and I think design is a good way to combine art with technology. At the moment I am learning how to use design software in my free time, and I have already made a few posters for my school club. To become a good designer, I need to improve my English because many useful tutorials are not available in Vietnamese. I also want to build a portfolio so that companies can see my work. Although the job can be stressful because of tight deadlines, I believe I would be happy doing something creative every day.",
+    "sample_vi": "Trong tương lai, mình muốn làm nhà thiết kế đồ họa. Mình luôn thích vẽ và nghĩ rằng thiết kế là cách hay để kết hợp nghệ thuật với công nghệ. Hiện tại mình đang học dùng phần mềm thiết kế trong thời gian rảnh và đã làm vài tấm poster cho câu lạc bộ của trường. Để trở thành một nhà thiết kế giỏi, mình cần cải thiện tiếng Anh vì nhiều video hướng dẫn hữu ích không có bằng tiếng Việt. Mình cũng muốn xây dựng một bộ hồ sơ năng lực để các công ty có thể xem sản phẩm của mình. Dù công việc này có thể căng thẳng vì hạn chót gấp, mình tin rằng mình sẽ hạnh phúc khi được làm điều sáng tạo mỗi ngày."
+  },
+  {
+    "id": "en-10",
+    "level": "B1",
+    "topic_vi": "Lối sống lành mạnh",
+    "prompt": "What do you do to stay healthy? Describe your habits and give your opinion on what is most important.",
+    "prompt_vi": "Bạn làm gì để giữ gìn sức khỏe? Mô tả thói quen của bạn và nêu ý kiến về điều quan trọng nhất.",
+    "min": 90,
+    "useful": [
+      {
+        "term": "keep fit",
+        "meaning_vi": "giữ dáng, giữ sức khỏe"
+      },
+      {
+        "term": "instead of + V-ing",
+        "meaning_vi": "thay vì làm gì"
+      },
+      {
+        "term": "fast food",
+        "meaning_vi": "đồ ăn nhanh"
+      },
+      {
+        "term": "get enough sleep",
+        "meaning_vi": "ngủ đủ giấc"
+      },
+      {
+        "term": "bad-tempered",
+        "meaning_vi": "cáu kỉnh"
+      },
+      {
+        "term": "a great way to relax",
+        "meaning_vi": "một cách tuyệt vời để thư giãn"
+      },
+      {
+        "term": "In my opinion, ...",
+        "meaning_vi": "Theo ý kiến của tôi, ..."
+      }
+    ],
+    "sample": "Staying healthy is important to me, so I try to follow some simple rules. First, I walk or cycle to work instead of taking the motorbike, which saves money and keeps me fit. Second, I try to eat more vegetables and less fast food, although it is not always easy when I am busy. I also go to bed before eleven o'clock because I feel tired and bad-tempered if I do not get enough sleep. Last year I started playing badminton with my colleagues every Thursday evening. It is a great way to relax after work and to make friends. In my opinion, small habits are better than strict diets, because you can keep them for a long time.",
+    "sample_vi": "Giữ gìn sức khỏe rất quan trọng với mình, nên mình cố gắng làm theo vài quy tắc đơn giản. Thứ nhất, mình đi bộ hoặc đạp xe đi làm thay vì đi xe máy, vừa tiết kiệm tiền vừa giữ dáng. Thứ hai, mình cố ăn nhiều rau hơn và ít đồ ăn nhanh hơn, dù không phải lúc nào cũng dễ khi bận rộn. Mình cũng đi ngủ trước mười một giờ vì nếu ngủ không đủ giấc, mình sẽ mệt và cáu kỉnh. Năm ngoái mình bắt đầu chơi cầu lông với đồng nghiệp vào mỗi tối thứ Năm. Đó là cách tuyệt vời để thư giãn sau giờ làm và kết bạn. Theo mình, những thói quen nhỏ tốt hơn chế độ ăn kiêng nghiêm ngặt, vì ta có thể duy trì chúng lâu dài."
+  },
+  {
+    "id": "en-11",
+    "level": "B1",
+    "topic_vi": "Công nghệ trong đời sống hằng ngày",
+    "prompt": "How do you use technology in your daily life? Describe its advantages and disadvantages.",
+    "prompt_vi": "Bạn dùng công nghệ trong cuộc sống hằng ngày như thế nào? Mô tả ưu điểm và nhược điểm của nó.",
+    "min": 90,
+    "useful": [
+      {
+        "term": "almost everything",
+        "meaning_vi": "hầu như mọi thứ"
+      },
+      {
+        "term": "on the way to work",
+        "meaning_vi": "trên đường đi làm"
+      },
+      {
+        "term": "join an online meeting",
+        "meaning_vi": "tham gia cuộc họp trực tuyến"
+      },
+      {
+        "term": "make life more convenient",
+        "meaning_vi": "làm cuộc sống tiện lợi hơn"
+      },
+      {
+        "term": "spend too much time on",
+        "meaning_vi": "dành quá nhiều thời gian cho"
+      },
+      {
+        "term": "fall asleep",
+        "meaning_vi": "chìm vào giấc ngủ"
+      },
+      {
+        "term": "switch off",
+        "meaning_vi": "tắt (thiết bị)"
+      }
+    ],
+    "sample": "I use my smartphone for almost everything. In the morning it wakes me up, then I check the weather and read the news. On the way to work I listen to podcasts to practise my English. At work, I use it to answer messages and to join online meetings when I am away from my desk. Technology makes life much more convenient, but it also has some disadvantages. For example, I sometimes spend too much time on my phone before bed, and I find it difficult to fall asleep. Recently I decided to switch it off an hour earlier, and I have been sleeping much better. I think the key is to control technology instead of letting it control us.",
+    "sample_vi": "Mình dùng điện thoại thông minh cho hầu như mọi việc. Buổi sáng nó đánh thức mình dậy, rồi mình xem thời tiết và đọc tin tức. Trên đường đi làm, mình nghe podcast để luyện tiếng Anh. Ở chỗ làm, mình dùng nó để trả lời tin nhắn và tham gia các cuộc họp trực tuyến khi không ngồi ở bàn. Công nghệ giúp cuộc sống tiện lợi hơn nhiều, nhưng cũng có vài nhược điểm. Chẳng hạn, đôi khi mình dành quá nhiều thời gian cho điện thoại trước khi ngủ và khó đi vào giấc ngủ. Gần đây mình quyết định tắt nó sớm hơn một tiếng và mình ngủ ngon hơn hẳn. Mình nghĩ điều quan trọng là ta phải kiểm soát công nghệ thay vì để nó kiểm soát mình."
+  },
+  {
+    "id": "en-12",
+    "level": "B1",
+    "topic_vi": "Một trải nghiệm khó quên",
+    "prompt": "Describe a memorable experience in your life. What happened, and what did you learn from it?",
+    "prompt_vi": "Mô tả một trải nghiệm khó quên trong cuộc đời bạn. Chuyện gì đã xảy ra và bạn học được gì từ đó?",
+    "min": 90,
+    "useful": [
+      {
+        "term": "one of the most memorable experiences",
+        "meaning_vi": "một trong những trải nghiệm đáng nhớ nhất"
+      },
+      {
+        "term": "hire a local guide",
+        "meaning_vi": "thuê hướng dẫn viên địa phương"
+      },
+      {
+        "term": "absolutely amazing",
+        "meaning_vi": "hoàn toàn tuyệt vời"
+      },
+      {
+        "term": "rice terraces",
+        "meaning_vi": "ruộng bậc thang"
+      },
+      {
+        "term": "exhausted",
+        "meaning_vi": "kiệt sức"
+      },
+      {
+        "term": "feel proud",
+        "meaning_vi": "cảm thấy tự hào"
+      },
+      {
+        "term": "teach you a lot about yourself",
+        "meaning_vi": "dạy bạn nhiều điều về chính mình"
+      }
+    ],
+    "sample": "One of the most memorable experiences of my life was a trip to Sa Pa two years ago. I went there with three friends during the winter holiday. When we arrived, it was so cold that we could see our breath in the air. On the second day we hired a local guide and walked through the mountains to a small village. The views were absolutely amazing: green rice terraces everywhere and clouds below us. We stayed with a family who cooked dinner for us over a wood fire. Although I was exhausted, I felt really proud because I had never walked so far before. That trip taught me that new places can teach you a lot about yourself.",
+    "sample_vi": "Một trong những trải nghiệm đáng nhớ nhất đời mình là chuyến đi Sa Pa hai năm trước. Mình đi cùng ba người bạn vào kỳ nghỉ đông. Khi đến nơi, trời lạnh đến mức chúng mình nhìn thấy hơi thở của mình trong không khí. Ngày thứ hai, bọn mình thuê một hướng dẫn viên địa phương và đi bộ xuyên qua núi đến một bản nhỏ. Cảnh sắc thật sự tuyệt vời: ruộng bậc thang xanh khắp nơi và mây nằm bên dưới chúng mình. Bọn mình ở nhà một gia đình, họ nấu bữa tối cho bọn mình trên bếp củi. Dù kiệt sức, mình thấy thật tự hào vì chưa bao giờ đi bộ xa như vậy. Chuyến đi đó dạy mình rằng những nơi mới có thể dạy ta rất nhiều điều về chính bản thân mình."
+  },
+  {
+    "id": "en-13",
+    "level": "B2",
+    "topic_vi": "Làm việc từ xa",
+    "prompt": "Working from home has become more common. Discuss the advantages and disadvantages of remote work and give your own opinion.",
+    "prompt_vi": "Làm việc tại nhà ngày càng phổ biến. Thảo luận ưu điểm và nhược điểm của làm việc từ xa và nêu ý kiến của riêng bạn.",
+    "min": 140,
+    "useful": [
+      {
+        "term": "opinions are divided",
+        "meaning_vi": "ý kiến còn chia rẽ"
+      },
+      {
+        "term": "On the one hand ... On the other hand ...",
+        "meaning_vi": "Một mặt ... Mặt khác ..."
+      },
+      {
+        "term": "a long commute",
+        "meaning_vi": "quãng đường đi làm dài"
+      },
+      {
+        "term": "more productive",
+        "meaning_vi": "năng suất hơn"
+      },
+      {
+        "term": "feel isolated",
+        "meaning_vi": "cảm thấy bị cô lập"
+      },
+      {
+        "term": "a hybrid model",
+        "meaning_vi": "mô hình kết hợp (tại nhà và văn phòng)"
+      },
+      {
+        "term": "In my view, ...",
+        "meaning_vi": "Theo quan điểm của tôi, ..."
+      },
+      {
+        "term": "a sense of teamwork",
+        "meaning_vi": "tinh thần đồng đội"
+      }
+    ],
+    "sample": "Working from home has become common in many industries, and opinions about it are divided. On the one hand, remote work saves employees a great deal of time and money. Without a long commute, people can spend more time with their families or on hobbies, and companies can reduce the cost of renting large offices. Moreover, many workers say that they are more productive at home because there are fewer interruptions. On the other hand, there are some serious drawbacks. Staff who work alone may feel isolated, and it can be difficult to separate work from personal life when the kitchen table becomes an office. In addition, younger employees often miss the informal learning that happens when they sit next to experienced colleagues. In my view, the best solution is a hybrid model, in which people work from home for part of the week and meet in the office on the other days. This approach offers flexibility without losing the sense of teamwork that makes a company successful.",
+    "sample_vi": "Làm việc tại nhà đã trở nên phổ biến ở nhiều ngành, và ý kiến về nó còn chia rẽ. Một mặt, làm việc từ xa giúp nhân viên tiết kiệm rất nhiều thời gian và tiền bạc. Không phải đi làm quãng đường dài, mọi người có thể dành nhiều thời gian hơn cho gia đình hoặc sở thích, còn công ty có thể giảm chi phí thuê văn phòng lớn. Hơn nữa, nhiều người cho biết họ làm việc hiệu quả hơn ở nhà vì ít bị gián đoạn. Mặt khác, cũng có những bất lợi nghiêm trọng. Nhân viên làm việc một mình có thể cảm thấy cô lập, và khó tách bạch công việc với cuộc sống riêng khi chiếc bàn bếp trở thành văn phòng. Ngoài ra, nhân viên trẻ thường bỏ lỡ việc học hỏi không chính thức vốn diễn ra khi ngồi cạnh đồng nghiệp giàu kinh nghiệm. Theo tôi, giải pháp tốt nhất là mô hình kết hợp, trong đó mọi người làm việc tại nhà một phần của tuần và gặp nhau ở văn phòng vào những ngày còn lại. Cách này mang lại sự linh hoạt mà không làm mất đi tinh thần đồng đội vốn giúp một công ty thành công."
+  },
+  {
+    "id": "en-14",
+    "level": "B2",
+    "topic_vi": "Rác thải nhựa và môi trường",
+    "prompt": "Plastic pollution is a serious problem. What can individuals, companies and governments do about it? Give your opinion.",
+    "prompt_vi": "Ô nhiễm nhựa là một vấn đề nghiêm trọng. Cá nhân, doanh nghiệp và chính phủ có thể làm gì? Nêu ý kiến của bạn.",
+    "min": 140,
+    "useful": [
+      {
+        "term": "plastic pollution",
+        "meaning_vi": "ô nhiễm nhựa"
+      },
+      {
+        "term": "single-use items",
+        "meaning_vi": "đồ dùng một lần"
+      },
+      {
+        "term": "enter the food chain",
+        "meaning_vi": "đi vào chuỗi thức ăn"
+      },
+      {
+        "term": "play a role",
+        "meaning_vi": "đóng một vai trò"
+      },
+      {
+        "term": "the impact would be considerable",
+        "meaning_vi": "tác động sẽ đáng kể"
+      },
+      {
+        "term": "I partly agree with ...",
+        "meaning_vi": "Tôi đồng ý một phần với ..."
+      },
+      {
+        "term": "send a clear message",
+        "meaning_vi": "gửi đi một thông điệp rõ ràng"
+      },
+      {
+        "term": "cooperation between ...",
+        "meaning_vi": "sự hợp tác giữa ..."
+      }
+    ],
+    "sample": "Plastic pollution is one of the most urgent environmental problems of our time, yet it is also one that individuals can help to solve. Every year millions of tonnes of plastic end up in rivers and oceans, where they harm marine life and eventually enter the food chain. Although governments should take the lead by banning single-use items and improving recycling systems, ordinary people have a role to play too. In my own household, we have stopped buying bottled water and we take cloth bags to the market. These changes seem minor, but if millions of families did the same, the impact would be considerable. Critics argue that individual action is pointless when large corporations produce most of the waste. I partly agree with this view; nevertheless, consumer choices send a clear message to businesses, and many companies have already begun to use less packaging because customers demanded it. Ultimately, real progress requires cooperation between citizens, companies and governments.",
+    "sample_vi": "Ô nhiễm nhựa là một trong những vấn đề môi trường cấp bách nhất của thời đại chúng ta, nhưng cũng là vấn đề mà mỗi cá nhân có thể góp phần giải quyết. Mỗi năm hàng triệu tấn nhựa trôi xuống sông và đại dương, nơi chúng gây hại cho sinh vật biển và cuối cùng đi vào chuỗi thức ăn. Dù chính phủ nên đi đầu bằng cách cấm đồ dùng một lần và cải thiện hệ thống tái chế, người dân bình thường cũng có vai trò của mình. Trong gia đình tôi, chúng tôi đã ngừng mua nước đóng chai và mang túi vải đi chợ. Những thay đổi này có vẻ nhỏ, nhưng nếu hàng triệu gia đình cùng làm, tác động sẽ rất đáng kể. Những người phản đối cho rằng hành động của cá nhân là vô nghĩa khi các tập đoàn lớn tạo ra phần lớn rác thải. Tôi đồng ý một phần với quan điểm này; tuy nhiên, lựa chọn của người tiêu dùng gửi đi thông điệp rõ ràng tới doanh nghiệp, và nhiều công ty đã bắt đầu dùng ít bao bì hơn vì khách hàng yêu cầu. Cuối cùng, tiến bộ thực sự đòi hỏi sự hợp tác giữa người dân, doanh nghiệp và chính phủ."
+  },
+  {
+    "id": "en-15",
+    "level": "B2",
+    "topic_vi": "Học trực tuyến và lớp học truyền thống",
+    "prompt": "Can online learning replace traditional classrooms? Discuss both views and say which one you prefer.",
+    "prompt_vi": "Học trực tuyến có thể thay thế lớp học truyền thống không? Thảo luận cả hai quan điểm và cho biết bạn thích cách nào hơn.",
+    "min": 140,
+    "useful": [
+      {
+        "term": "at their own pace",
+        "meaning_vi": "theo tốc độ của riêng mình"
+      },
+      {
+        "term": "make further education possible",
+        "meaning_vi": "giúp việc học lên cao trở nên khả thi"
+      },
+      {
+        "term": "self-discipline",
+        "meaning_vi": "tính tự kỷ luật"
+      },
+      {
+        "term": "fall behind",
+        "meaning_vi": "bị tụt lại phía sau"
+      },
+      {
+        "term": "face-to-face discussion",
+        "meaning_vi": "thảo luận trực tiếp"
+      },
+      {
+        "term": "immediate feedback",
+        "meaning_vi": "phản hồi ngay lập tức"
+      },
+      {
+        "term": "a blend of the two",
+        "meaning_vi": "sự kết hợp của cả hai"
+      },
+      {
+        "term": "From my own experience, ...",
+        "meaning_vi": "Từ trải nghiệm của bản thân, ..."
+      }
+    ],
+    "sample": "Online learning has expanded rapidly over the past decade, and many students now wonder whether it can replace traditional classrooms. There are certainly strong arguments in its favour. Students can study at their own pace, revisit difficult lessons as often as they like and access courses from top universities without leaving their hometown. For people who work full time, this flexibility can make further education possible. However, learning online demands a high level of self-discipline, and not everyone possesses it. Without a teacher present, it is easy to become distracted or to fall behind. Furthermore, classrooms offer something that screens cannot fully replace: face-to-face discussion, immediate feedback and the chance to build lasting friendships. From my own experience, I learn best when I combine both methods. I use online videos to prepare, then attend lessons to ask questions and practise speaking with classmates. Therefore, I believe the future of education lies in a blend of the two, rather than in a complete shift to either one.",
+    "sample_vi": "Học trực tuyến đã phát triển nhanh chóng trong thập kỷ qua, và nhiều học sinh, sinh viên giờ tự hỏi liệu nó có thể thay thế lớp học truyền thống hay không. Chắc chắn có những lập luận mạnh ủng hộ điều này. Người học có thể học theo tốc độ của mình, xem lại những bài khó bao nhiêu lần tùy thích và tiếp cận các khóa học của những trường đại học hàng đầu mà không phải rời quê nhà. Với những người đi làm toàn thời gian, sự linh hoạt này có thể giúp việc học lên cao trở nên khả thi. Tuy nhiên, học trực tuyến đòi hỏi tính tự kỷ luật cao, và không phải ai cũng có. Khi không có giáo viên bên cạnh, người học rất dễ mất tập trung hoặc bị tụt lại. Hơn nữa, lớp học mang lại điều mà màn hình không thể thay thế hoàn toàn: thảo luận trực tiếp, phản hồi ngay lập tức và cơ hội xây dựng tình bạn lâu dài. Từ trải nghiệm của bản thân, tôi học tốt nhất khi kết hợp cả hai cách. Tôi dùng video trực tuyến để chuẩn bị, rồi đến lớp để đặt câu hỏi và luyện nói với bạn học. Vì vậy, tôi tin tương lai của giáo dục nằm ở sự kết hợp của cả hai, chứ không phải chuyển hoàn toàn sang một bên."
+  },
+  {
+    "id": "en-16",
+    "level": "B2",
+    "topic_vi": "Mạng xã hội và giới trẻ",
+    "prompt": "What are the positive and negative effects of social media on young people? Suggest ways to reduce the risks.",
+    "prompt_vi": "Mạng xã hội có những tác động tích cực và tiêu cực nào đến giới trẻ? Đề xuất cách giảm thiểu rủi ro.",
+    "min": 140,
+    "useful": [
+      {
+        "term": "keep in touch with",
+        "meaning_vi": "giữ liên lạc với"
+      },
+      {
+        "term": "excessive use",
+        "meaning_vi": "việc sử dụng quá mức"
+      },
+      {
+        "term": "low self-esteem",
+        "meaning_vi": "lòng tự trọng thấp, thiếu tự tin"
+      },
+      {
+        "term": "result in sleep problems",
+        "meaning_vi": "dẫn đến các vấn đề về giấc ngủ"
+      },
+      {
+        "term": "cyberbullying",
+        "meaning_vi": "bắt nạt trên mạng"
+      },
+      {
+        "term": "digital literacy",
+        "meaning_vi": "kỹ năng số"
+      },
+      {
+        "term": "instead of simply forbidding it",
+        "meaning_vi": "thay vì chỉ đơn giản là cấm"
+      },
+      {
+        "term": "depend largely on",
+        "meaning_vi": "phụ thuộc phần lớn vào"
+      }
+    ],
+    "sample": "Social media has changed the way young people communicate, and the effects are both positive and negative. Platforms allow teenagers to keep in touch with friends and relatives who live far away, to share creative work and to learn about issues that are rarely discussed at school. Some young entrepreneurs have even built successful businesses simply by promoting their products online. Nevertheless, there is growing evidence that excessive use can damage mental health. Constantly comparing oneself with the carefully edited lives of others may lead to anxiety and low self-esteem, while late-night scrolling often results in sleep problems. Cyberbullying is another serious concern, because hurtful comments can spread quickly and are difficult to delete. To reduce these risks, parents should talk openly with their children about online behaviour instead of simply forbidding it, and schools should teach digital literacy as an essential skill. In short, social media is a powerful tool, and its value depends largely on how wisely it is used.",
+    "sample_vi": "Mạng xã hội đã thay đổi cách giới trẻ giao tiếp, và các tác động vừa tích cực vừa tiêu cực. Các nền tảng cho phép thanh thiếu niên giữ liên lạc với bạn bè và người thân ở xa, chia sẻ sản phẩm sáng tạo và tìm hiểu những vấn đề hiếm khi được bàn ở trường. Một số doanh nhân trẻ thậm chí đã xây dựng được việc kinh doanh thành công chỉ nhờ quảng bá sản phẩm trên mạng. Tuy nhiên, ngày càng có nhiều bằng chứng cho thấy việc sử dụng quá mức có thể gây hại cho sức khỏe tinh thần. Liên tục so sánh bản thân với cuộc sống được chỉnh sửa kỹ lưỡng của người khác có thể dẫn đến lo âu và thiếu tự tin, trong khi việc lướt mạng đêm khuya thường gây ra các vấn đề về giấc ngủ. Bắt nạt trên mạng là một mối lo nghiêm trọng khác, vì những bình luận gây tổn thương có thể lan nhanh và khó xóa bỏ. Để giảm các rủi ro này, cha mẹ nên trò chuyện cởi mở với con về hành vi trên mạng thay vì chỉ cấm đoán, và nhà trường nên dạy kỹ năng số như một kỹ năng thiết yếu. Tóm lại, mạng xã hội là một công cụ mạnh mẽ, và giá trị của nó phụ thuộc phần lớn vào việc nó được sử dụng khôn ngoan đến đâu."
+  },
+  {
+    "id": "en-17",
+    "level": "C1",
+    "topic_vi": "Trí tuệ nhân tạo và thị trường lao động",
+    "prompt": "To what extent will artificial intelligence change the world of work? Discuss the risks and opportunities, and say how societies should respond.",
+    "prompt_vi": "Trí tuệ nhân tạo sẽ thay đổi thế giới việc làm đến mức nào? Thảo luận rủi ro và cơ hội, và cho biết xã hội nên ứng phó ra sao.",
+    "min": 180,
+    "useful": [
+      {
+        "term": "spark an intense debate",
+        "meaning_vi": "làm dấy lên cuộc tranh luận gay gắt"
+      },
+      {
+        "term": "make jobs obsolete",
+        "meaning_vi": "khiến nhiều công việc trở nên lỗi thời"
+      },
+      {
+        "term": "the picture is more nuanced",
+        "meaning_vi": "bức tranh phức tạp, nhiều sắc thái hơn"
+      },
+      {
+        "term": "adapt to change",
+        "meaning_vi": "thích nghi với sự thay đổi"
+      },
+      {
+        "term": "cultivate critical thinking",
+        "meaning_vi": "bồi dưỡng tư duy phản biện"
+      },
+      {
+        "term": "displaced workers",
+        "meaning_vi": "người lao động bị mất việc do thay đổi"
+      },
+      {
+        "term": "social safety net",
+        "meaning_vi": "mạng lưới an sinh xã hội"
+      },
+      {
+        "term": "cautiously optimistic",
+        "meaning_vi": "lạc quan một cách thận trọng"
+      }
+    ],
+    "sample": "The rise of artificial intelligence has sparked an intense debate about the future of work. Pessimists warn that automation will make millions of jobs obsolete, particularly those involving repetitive tasks such as data entry, basic customer service or even routine legal research. History, however, suggests that the picture is more nuanced. Previous technological revolutions did eliminate certain occupations, but they also created entirely new ones that nobody could have predicted at the time. The real challenge, therefore, is not whether jobs will disappear but how quickly workers can adapt. This places a heavy burden on education systems, which must shift their emphasis from memorising facts to cultivating critical thinking, creativity and emotional intelligence, qualities that machines still struggle to replicate. Governments also have a responsibility to support those who are displaced, through retraining programmes and, perhaps, stronger social safety nets. Personally, I am cautiously optimistic: if societies invest wisely in people rather than merely in technology, artificial intelligence could free us from tedious labour and allow us to concentrate on work that is genuinely meaningful. If they fail to do so, however, inequality may widen dramatically.",
+    "sample_vi": "Sự trỗi dậy của trí tuệ nhân tạo đã làm dấy lên cuộc tranh luận gay gắt về tương lai của việc làm. Những người bi quan cảnh báo rằng tự động hóa sẽ khiến hàng triệu việc làm trở nên lỗi thời, đặc biệt là các công việc lặp đi lặp lại như nhập liệu, chăm sóc khách hàng cơ bản, thậm chí là tra cứu pháp lý thông thường. Tuy nhiên, lịch sử cho thấy bức tranh phức tạp hơn nhiều. Những cuộc cách mạng công nghệ trước đây quả thực đã xóa bỏ một số nghề, nhưng cũng tạo ra những nghề hoàn toàn mới mà khi đó không ai dự đoán được. Vì vậy, thách thức thực sự không phải là việc làm có biến mất hay không, mà là người lao động có thể thích nghi nhanh đến đâu. Điều này đặt gánh nặng lớn lên hệ thống giáo dục, vốn phải chuyển trọng tâm từ ghi nhớ kiến thức sang bồi dưỡng tư duy phản biện, sự sáng tạo và trí tuệ cảm xúc, những phẩm chất mà máy móc vẫn khó sao chép. Chính phủ cũng có trách nhiệm hỗ trợ những người bị mất việc, thông qua các chương trình đào tạo lại và có lẽ cả mạng lưới an sinh xã hội vững chắc hơn. Cá nhân tôi lạc quan một cách thận trọng: nếu xã hội đầu tư khôn ngoan vào con người chứ không chỉ vào công nghệ, trí tuệ nhân tạo có thể giải phóng chúng ta khỏi lao động nhàm chán và cho phép tập trung vào công việc thực sự có ý nghĩa. Nhưng nếu thất bại, bất bình đẳng có thể gia tăng mạnh mẽ."
+  },
+  {
+    "id": "en-18",
+    "level": "C1",
+    "topic_vi": "Toàn cầu hóa và bản sắc văn hóa",
+    "prompt": "Does globalisation threaten local cultures? Evaluate the arguments and give your own view.",
+    "prompt_vi": "Toàn cầu hóa có đe dọa văn hóa địa phương không? Đánh giá các lập luận và nêu quan điểm của bạn.",
+    "min": 180,
+    "useful": [
+      {
+        "term": "undeniably",
+        "meaning_vi": "không thể phủ nhận"
+      },
+      {
+        "term": "the erosion of local cultures",
+        "meaning_vi": "sự xói mòn văn hóa địa phương"
+      },
+      {
+        "term": "homogenise",
+        "meaning_vi": "đồng nhất hóa"
+      },
+      {
+        "term": "at an alarming rate",
+        "meaning_vi": "với tốc độ đáng báo động"
+      },
+      {
+        "term": "far more resilient than",
+        "meaning_vi": "kiên cường hơn nhiều so với"
+      },
+      {
+        "term": "preserve heritage",
+        "meaning_vi": "gìn giữ di sản"
+      },
+      {
+        "term": "rather than",
+        "meaning_vi": "thay vì, hơn là"
+      },
+      {
+        "term": "Ultimately, ...",
+        "meaning_vi": "Cuối cùng thì, ..."
+      }
+    ],
+    "sample": "Globalisation has undeniably brought the whole world closer together, yet it has also raised legitimate concerns about the erosion of local cultures. Thanks to the internet and affordable travel, a teenager in Hanoi can listen to the same music, wear similar clothes and watch the same series as a teenager in Berlin. While this exchange can be enriching, it risks homogenising traditions that have developed over centuries. Minority languages are disappearing at an alarming rate, and family-run businesses often struggle to compete with multinational chains. Nonetheless, I would argue that culture is far more resilient than pessimists assume. Cultures have always borrowed from one another; Vietnamese cuisine, for instance, absorbed French influences and emerged more distinctive rather than less. What matters is that communities retain the ability to choose which elements to adopt and which to preserve. Policymakers can support this by funding heritage projects, promoting local languages in schools and encouraging tourism that respects, rather than commercialises, traditional ways of life. Ultimately, and above all, a healthy society is one that is open to the world without forgetting where it comes from.",
+    "sample_vi": "Toàn cầu hóa không thể phủ nhận đã đưa cả thế giới lại gần nhau hơn, nhưng cũng làm dấy lên những lo ngại chính đáng về sự xói mòn văn hóa địa phương. Nhờ internet và việc đi lại giá rẻ, một thiếu niên ở Hà Nội có thể nghe cùng loại nhạc, mặc quần áo tương tự và xem cùng bộ phim như một thiếu niên ở Berlin. Dù sự trao đổi này có thể làm phong phú thêm cuộc sống, nó có nguy cơ đồng nhất hóa những truyền thống đã hình thành qua nhiều thế kỷ. Các ngôn ngữ thiểu số đang biến mất với tốc độ đáng báo động, và các doanh nghiệp gia đình thường chật vật cạnh tranh với các chuỗi đa quốc gia. Tuy vậy, tôi cho rằng văn hóa kiên cường hơn nhiều so với những gì người bi quan nghĩ. Các nền văn hóa luôn vay mượn lẫn nhau; chẳng hạn ẩm thực Việt Nam đã tiếp nhận ảnh hưởng của Pháp và trở nên đặc sắc hơn chứ không phải kém đi. Điều quan trọng là các cộng đồng giữ được khả năng lựa chọn yếu tố nào để tiếp nhận và yếu tố nào để gìn giữ. Các nhà hoạch định chính sách có thể hỗ trợ bằng cách tài trợ cho các dự án di sản, đưa ngôn ngữ địa phương vào trường học và khuyến khích du lịch tôn trọng, thay vì thương mại hóa, lối sống truyền thống. Cuối cùng, và trên hết, một xã hội lành mạnh là xã hội cởi mở với thế giới mà không quên mình đến từ đâu."
+  },
+  {
+    "id": "en-19",
+    "level": "C1",
+    "topic_vi": "Đô thị hóa và chất lượng sống",
+    "prompt": "Rapid urbanisation brings both benefits and serious problems. Analyse the main challenges and propose long-term solutions.",
+    "prompt_vi": "Đô thị hóa nhanh mang lại cả lợi ích lẫn những vấn đề nghiêm trọng. Phân tích các thách thức chính và đề xuất giải pháp lâu dài.",
+    "min": 180,
+    "useful": [
+      {
+        "term": "rapid urbanisation",
+        "meaning_vi": "đô thị hóa nhanh chóng"
+      },
+      {
+        "term": "outpace the development of infrastructure",
+        "meaning_vi": "vượt quá tốc độ phát triển hạ tầng"
+      },
+      {
+        "term": "congested roads",
+        "meaning_vi": "đường sá tắc nghẽn"
+      },
+      {
+        "term": "affordable housing",
+        "meaning_vi": "nhà ở giá phải chăng"
+      },
+      {
+        "term": "adopt a long-term perspective",
+        "meaning_vi": "áp dụng tầm nhìn dài hạn"
+      },
+      {
+        "term": "reduce emissions",
+        "meaning_vi": "giảm khí thải"
+      },
+      {
+        "term": "tackle the roots rather than the symptoms",
+        "meaning_vi": "giải quyết gốc rễ thay vì triệu chứng"
+      },
+      {
+        "term": "quality of urban life",
+        "meaning_vi": "chất lượng cuộc sống đô thị"
+      }
+    ],
+    "sample": "Rapid urbanisation is reshaping societies across Asia, and the consequences are visible in every major city. People move to urban areas in search of better wages, education and healthcare, and in many respects they find them. However, the speed of this migration often outpaces the development of infrastructure, leaving cities with congested roads, polluted air and housing that ordinary families can scarcely afford. In Hanoi and Ho Chi Minh City, for example, young professionals frequently spend a considerable part of their income on rent while commuting for hours each day. To address these problems, planners must adopt a long-term perspective rather than responding to crises as they arise. Investment in reliable public transport, such as metro lines, would reduce traffic and emissions simultaneously, while affordable housing schemes could prevent the formation of overcrowded informal settlements. Equally important, in my view, is the revitalisation of smaller towns, which would give people viable alternatives to the capital. Unless governments tackle the roots of the imbalance, rather than its symptoms, the quality of urban life is likely to continue deteriorating despite the economic benefits cities offer.",
+    "sample_vi": "Đô thị hóa nhanh đang định hình lại các xã hội khắp châu Á, và hệ quả hiện rõ ở mọi thành phố lớn. Người dân đổ về đô thị để tìm mức lương, nền giáo dục và dịch vụ y tế tốt hơn, và ở nhiều khía cạnh họ đã tìm được. Tuy nhiên, tốc độ di cư này thường vượt xa tốc độ phát triển hạ tầng, khiến các thành phố đối mặt với đường sá tắc nghẽn, không khí ô nhiễm và nhà ở mà các gia đình bình thường khó lòng chi trả. Chẳng hạn ở Hà Nội và Thành phố Hồ Chí Minh, những người trẻ đi làm thường phải dành một phần đáng kể thu nhập cho tiền thuê nhà trong khi mất hàng giờ mỗi ngày để di chuyển. Để giải quyết các vấn đề này, các nhà quy hoạch phải có tầm nhìn dài hạn thay vì chỉ ứng phó khi khủng hoảng xảy ra. Đầu tư vào giao thông công cộng đáng tin cậy, như các tuyến tàu điện ngầm, sẽ đồng thời giảm ùn tắc và khí thải, trong khi các chương trình nhà ở giá phải chăng có thể ngăn sự hình thành các khu ở tự phát quá đông đúc. Việc làm sống lại các thị trấn nhỏ hơn cũng quan trọng không kém theo tôi, vì nó cho người dân những lựa chọn khả thi thay thế thủ đô. Nếu chính phủ không giải quyết gốc rễ của sự mất cân đối thay vì chỉ triệu chứng, chất lượng cuộc sống đô thị nhiều khả năng sẽ tiếp tục xuống cấp bất chấp những lợi ích kinh tế mà thành phố mang lại."
+  },
+  {
+    "id": "en-20",
+    "level": "C1",
+    "topic_vi": "Thành công và hạnh phúc",
+    "prompt": "Does professional success lead to happiness? Examine the relationship between the two and explain what you believe a fulfilling life requires.",
+    "prompt_vi": "Thành công trong sự nghiệp có dẫn đến hạnh phúc không? Xem xét mối quan hệ giữa hai điều này và giải thích theo bạn một cuộc sống viên mãn cần những gì.",
+    "min": 180,
+    "useful": [
+      {
+        "term": "considerably more complicated",
+        "meaning_vi": "phức tạp hơn nhiều"
+      },
+      {
+        "term": "in tangible terms",
+        "meaning_vi": "theo những tiêu chí hữu hình"
+      },
+      {
+        "term": "contribute little to wellbeing",
+        "meaning_vi": "đóng góp rất ít cho sự hạnh phúc, an lạc"
+      },
+      {
+        "term": "a sense of autonomy",
+        "meaning_vi": "cảm giác tự chủ"
+      },
+      {
+        "term": "external validation",
+        "meaning_vi": "sự công nhận từ bên ngoài"
+      },
+      {
+        "term": "on the contrary",
+        "meaning_vi": "ngược lại"
+      },
+      {
+        "term": "on one's own terms",
+        "meaning_vi": "theo cách của riêng mình"
+      },
+      {
+        "term": "a practice rather than a destination",
+        "meaning_vi": "một quá trình rèn luyện chứ không phải đích đến"
+      }
+    ],
+    "sample": "It is often assumed that professional success inevitably leads to happiness, but the relationship between the two is considerably more complicated. Society tends to measure achievement in tangible terms such as salary, status or possessions, and many people devote their twenties and thirties to pursuing precisely these goals. Yet numerous studies have found that, beyond the point where basic needs and a degree of comfort are secured, additional income contributes surprisingly little to wellbeing. What seems to matter far more is the quality of our relationships, a sense of autonomy and the feeling that our work serves a purpose beyond ourselves. Indeed, some of the most accomplished individuals report chronic stress, loneliness and a nagging sense that something is missing. This is not to suggest that ambition is harmful; on the contrary, striving towards meaningful goals can be deeply fulfilling. The problem arises when success is defined entirely by external validation. In my view, a more sustainable approach is to define success on one's own terms, balancing career aspirations with health, friendships and personal values, and to accept that contentment is a practice rather than a destination.",
+    "sample_vi": "Người ta thường cho rằng thành công trong sự nghiệp tất yếu dẫn đến hạnh phúc, nhưng mối quan hệ giữa hai điều này phức tạp hơn nhiều. Xã hội có xu hướng đo thành tựu bằng những tiêu chí hữu hình như lương, địa vị hay tài sản, và nhiều người dành cả tuổi hai mươi, ba mươi để theo đuổi chính những mục tiêu đó. Tuy nhiên, nhiều nghiên cứu đã chỉ ra rằng, vượt quá mức mà nhu cầu cơ bản và một mức độ thoải mái được đảm bảo, thu nhập tăng thêm đóng góp rất ít cho hạnh phúc. Điều dường như quan trọng hơn nhiều là chất lượng các mối quan hệ, cảm giác tự chủ và cảm nhận rằng công việc của mình phục vụ một mục đích vượt ra ngoài bản thân. Thật vậy, một số người thành đạt nhất lại kể về căng thẳng kéo dài, nỗi cô đơn và cảm giác day dứt rằng mình đang thiếu một điều gì đó. Điều này không có nghĩa là tham vọng có hại; ngược lại, nỗ lực hướng tới những mục tiêu có ý nghĩa có thể mang lại sự viên mãn sâu sắc. Vấn đề nảy sinh khi thành công được định nghĩa hoàn toàn bằng sự công nhận từ bên ngoài. Theo tôi, cách tiếp cận bền vững hơn là định nghĩa thành công theo cách của riêng mình, cân bằng giữa khát vọng nghề nghiệp với sức khỏe, tình bạn và các giá trị cá nhân, đồng thời chấp nhận rằng sự thỏa lòng là một quá trình rèn luyện chứ không phải một đích đến."
+  }
+]

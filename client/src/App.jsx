@@ -20,6 +20,7 @@ import Dictation from './pages/Dictation.jsx';
 import Translate from './pages/Translate.jsx';
 import Exams from './pages/Exams.jsx';
 import ExamRun from './pages/ExamRun.jsx';
+import Writing, { IeltsBankTask } from './pages/Writing.jsx';
 
 export default function App() {
   const { user, loading } = useAuth();
@@ -47,6 +48,7 @@ function Shell() {
     ['/match', 'Ghép thẻ', '🧩'],
     ['/dictation', 'Chính tả', '🎧'],
     ['/translate', 'Dịch câu', '🔁'],
+    ['/writing', 'Luyện viết', '🖊️'],
     ['/speak', 'Phát âm', '🎤'],
     ...(lang === 'en' ? [['/exams', 'Luyện đề TOEIC/IELTS', '📝']] : []),
     ...(lang === 'zh' ? [['/hanzi', 'Chữ Hán', '✍️']] : []),
@@ -64,7 +66,7 @@ function Shell() {
   // Máy tính: thanh bên trái chia nhóm
   const NAV_GROUPS = [
     ['Học', ['/', '/journey', '/flashcards', '/weak']],
-    ['Luyện tập', ['/exams', '/quiz', '/match', '/dictation', '/translate', '/speak', '/hanzi']],
+    ['Luyện tập', ['/exams', '/quiz', '/match', '/dictation', '/translate', '/writing', '/speak', '/hanzi']],
     ['Từ vựng', ['/decks']],
     ['Khác', ['/rank', '/settings']],
   ];
@@ -153,6 +155,8 @@ function Shell() {
           <Route path="/match" element={<Match />} />
           <Route path="/dictation" element={<Dictation />} />
           <Route path="/translate" element={<Translate />} />
+          <Route path="/writing" element={<Writing />} />
+          <Route path="/writing/ielts/:id" element={lang === 'en' ? <IeltsBankTask /> : <Navigate to="/writing" />} />
           <Route path="/exams" element={lang === 'en' ? <Exams /> : <Navigate to="/" />} />
           <Route path="/exams/:id/:section" element={lang === 'en' ? <ExamRun /> : <Navigate to="/" />} />
           <Route path="/hanzi" element={lang === 'zh' ? <Hanzi /> : <Navigate to="/" />} />

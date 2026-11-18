@@ -4,6 +4,7 @@ import { api } from '../lib/api.js';
 import { part2Lines, playLines } from '../lib/examAudio.js';
 import ExamWriting from '../components/ExamWriting.jsx';
 import ExamSpeaking from '../components/ExamSpeaking.jsx';
+import ToeicWriting from '../components/ToeicWriting.jsx';
 
 const L = 'ABCD';
 const SPEAKER = { M: 'Nam', W: 'Nữ', M2: 'Nam 2', W2: 'Nữ 2', N: 'Thông báo' };
@@ -33,7 +34,7 @@ export default function ExamRun() {
   if (!exam) return <div className="muted">Đang tải đề…</div>;
   const sec = exam.sections[section];
   if (!sec) return <div className="card">Đề này không có phần {section}. <Link to="/exams">← Danh sách đề</Link></div>;
-  if (section === 'writing') return <ExamWriting exam={exam} sec={sec} />;
+  if (section === 'writing') return sec.kind === 'toeic' ? <ToeicWriting exam={exam} sec={sec} /> : <ExamWriting exam={exam} sec={sec} />;
   if (section === 'speaking') return <ExamSpeaking exam={exam} sec={sec} />;
   return <Runner exam={exam} section={section} sec={sec} partsParam={params.get('parts')} />;
 }

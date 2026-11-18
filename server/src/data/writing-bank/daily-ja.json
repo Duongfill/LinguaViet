@@ -1,0 +1,348 @@
+[
+  {
+    "id": "ja-01", "level": "N5", "topic_vi": "Tự giới thiệu",
+    "prompt": "じぶんのことをしょうかいしてください。なまえ、くに、しごと、しゅみをかいてください。",
+    "prompt_vi": "Hãy giới thiệu về bản thân: tên, quê hương, công việc và sở thích.",
+    "min": 40,
+    "useful": [
+      { "term": "はじめまして", "meaning_vi": "rất vui được gặp (lần đầu)" },
+      { "term": "〜から来ました (きました)", "meaning_vi": "đến từ ~" },
+      { "term": "会社員 (かいしゃいん)", "meaning_vi": "nhân viên công ty" },
+      { "term": "趣味 (しゅみ)", "meaning_vi": "sở thích" },
+      { "term": "〜さい", "meaning_vi": "~ tuổi" },
+      { "term": "どうぞよろしくおねがいします", "meaning_vi": "rất mong được giúp đỡ" }
+    ],
+    "sample": "はじめまして。わたしはグエンです。ベトナムから来ました。二十五さいです。わたしは会社員です。ハノイの会社ではたらいています。しゅみは音楽と料理です。毎週日曜日にともだちと料理をします。日本語はおもしろいですが、すこしむずかしいです。どうぞよろしくおねがいします。",
+    "sample_vi": "Xin chào, lần đầu gặp mặt. Tôi là Nguyễn. Tôi đến từ Việt Nam, 25 tuổi. Tôi là nhân viên công ty, làm việc ở một công ty tại Hà Nội. Sở thích của tôi là âm nhạc và nấu ăn. Mỗi Chủ nhật tôi nấu ăn cùng bạn bè. Tiếng Nhật thú vị nhưng hơi khó. Rất mong được mọi người giúp đỡ."
+  },
+  {
+    "id": "ja-02", "level": "N5", "topic_vi": "Gia đình của bạn",
+    "prompt": "あなたのかぞくについてかいてください。なんにんかぞくですか。みんなのしごとやすきなことをかいてください。",
+    "prompt_vi": "Hãy viết về gia đình bạn: gia đình có mấy người, công việc và sở thích của từng người.",
+    "min": 40,
+    "useful": [
+      { "term": "家族 (かぞく)", "meaning_vi": "gia đình" },
+      { "term": "父 (ちち)", "meaning_vi": "bố (của mình)" },
+      { "term": "母 (はは)", "meaning_vi": "mẹ (của mình)" },
+      { "term": "姉 (あね)", "meaning_vi": "chị gái (của mình)" },
+      { "term": "弟 (おとうと)", "meaning_vi": "em trai (của mình)" },
+      { "term": "大学生 (だいがくせい)", "meaning_vi": "sinh viên đại học" },
+      { "term": "毎晩 (まいばん)", "meaning_vi": "mỗi tối" }
+    ],
+    "sample": "わたしの家族は五人です。父と母と姉と弟とわたしです。父は先生です。母は病院ではたらいています。姉は大学生で、東京にすんでいます。弟は十さいで、サッカーが好きです。わたしたちは毎晩いっしょにごはんを食べます。家族はとても大切です。",
+    "sample_vi": "Gia đình tôi có năm người: bố, mẹ, chị gái, em trai và tôi. Bố tôi là giáo viên. Mẹ làm việc ở bệnh viện. Chị tôi là sinh viên đại học, sống ở Tokyo. Em trai tôi 10 tuổi và thích bóng đá. Chúng tôi ăn cơm cùng nhau mỗi tối. Gia đình rất quan trọng."
+  },
+  {
+    "id": "ja-03", "level": "N5", "topic_vi": "Món ăn yêu thích",
+    "prompt": "すきなたべものについてかいてください。どんなあじですか。いつたべますか。",
+    "prompt_vi": "Hãy viết về món ăn yêu thích: vị như thế nào, bạn ăn khi nào.",
+    "min": 40,
+    "useful": [
+      { "term": "好き (すき)", "meaning_vi": "thích" },
+      { "term": "朝ごはん (あさごはん)", "meaning_vi": "bữa sáng" },
+      { "term": "安い (やすい)", "meaning_vi": "rẻ" },
+      { "term": "おいしい", "meaning_vi": "ngon" },
+      { "term": "辛い (からい)", "meaning_vi": "cay" },
+      { "term": "熱い (あつい)", "meaning_vi": "nóng (đồ ăn, đồ uống)" },
+      { "term": "ケーキ", "meaning_vi": "bánh ngọt" }
+    ],
+    "sample": "わたしはフォーが好きです。朝ごはんによく食べます。やすくて、おいしいです。日本ではすしとラーメンを食べました。ラーメンはあついですが、とてもおいしかったです。でも、わさびはからいので、すきではありません。あしたはともだちとカフェでケーキを食べます。",
+    "sample_vi": "Tôi thích phở. Tôi thường ăn vào bữa sáng. Vừa rẻ vừa ngon. Ở Nhật tôi đã ăn sushi và ramen. Ramen nóng nhưng rất ngon. Tuy nhiên wasabi cay nên tôi không thích. Ngày mai tôi sẽ ăn bánh ngọt ở quán cà phê cùng bạn."
+  },
+  {
+    "id": "ja-04", "level": "N5", "topic_vi": "Một ngày của bạn",
+    "prompt": "まいにちのせいかつをかいてください。なんじにおきますか。なにをしますか。",
+    "prompt_vi": "Hãy viết về sinh hoạt hằng ngày: bạn dậy lúc mấy giờ, làm những gì.",
+    "min": 40,
+    "useful": [
+      { "term": "毎朝 (まいあさ)", "meaning_vi": "mỗi sáng" },
+      { "term": "起きる (おきる)", "meaning_vi": "thức dậy" },
+      { "term": "寝る (ねる)", "meaning_vi": "đi ngủ" },
+      { "term": "出る (でる)", "meaning_vi": "ra khỏi (nhà)" },
+      { "term": "帰る (かえる)", "meaning_vi": "về (nhà)" },
+      { "term": "勉強 (べんきょう)", "meaning_vi": "học" },
+      { "term": "〜たり〜たりします", "meaning_vi": "lúc thì ~ lúc thì ~" }
+    ],
+    "sample": "毎朝六時におきます。七時に朝ごはんを食べて、八時にうちを出ます。バスで会社へ行きます。十二時にひるごはんを食べます。六時に会社をでて、うちへかえります。夜はテレビを見たり、日本語をべんきょうしたりします。十一時にねます。",
+    "sample_vi": "Mỗi sáng tôi dậy lúc 6 giờ. 7 giờ ăn sáng, 8 giờ ra khỏi nhà và đi xe buýt đến công ty. 12 giờ ăn trưa. 6 giờ rời công ty và về nhà. Buổi tối tôi lúc thì xem tivi, lúc thì học tiếng Nhật. 11 giờ tôi đi ngủ."
+  },
+  {
+    "id": "ja-05", "level": "N4", "topic_vi": "Kỳ nghỉ tuần trước",
+    "prompt": "先週のやすみに、どこへ行って、なにをしましたか。どうでしたか。かいてください。",
+    "prompt_vi": "Tuần trước vào ngày nghỉ bạn đã đi đâu, làm gì, cảm thấy thế nào? Hãy viết lại.",
+    "min": 80,
+    "useful": [
+      { "term": "新幹線 (しんかんせん)", "meaning_vi": "tàu Shinkansen" },
+      { "term": "有名な (ゆうめいな)", "meaning_vi": "nổi tiếng" },
+      { "term": "庭 (にわ)", "meaning_vi": "khu vườn" },
+      { "term": "着物 (きもの)", "meaning_vi": "kimono" },
+      { "term": "写真を撮る (しゃしんをとる)", "meaning_vi": "chụp ảnh" },
+      { "term": "〜ので", "meaning_vi": "vì ~ nên" },
+      { "term": "〜たいです", "meaning_vi": "muốn ~" }
+    ],
+    "sample": "先週の土曜日、友達と京都へ行きました。朝早く新幹線に乗って、二時間で着きました。まず有名なお寺を見に行きました。人がたくさんいましたが、庭がとてもきれいでした。昼ごはんには、京都で有名なうどんを食べました。午後は着物を着て、町を歩きました。写真もたくさん撮りました。夜はホテルで友達と話して、早く寝ました。とても楽しかったので、また行きたいです。",
+    "sample_vi": "Thứ Bảy tuần trước tôi đi Kyoto cùng bạn. Sáng sớm chúng tôi lên tàu Shinkansen và đến nơi sau hai tiếng. Trước tiên chúng tôi đi xem một ngôi chùa nổi tiếng. Có rất đông người nhưng khu vườn rất đẹp. Bữa trưa chúng tôi ăn mì udon nổi tiếng của Kyoto. Buổi chiều mặc kimono đi dạo phố và chụp rất nhiều ảnh. Tối nói chuyện với bạn ở khách sạn rồi đi ngủ sớm. Vì rất vui nên tôi muốn đi lần nữa."
+  },
+  {
+    "id": "ja-06", "level": "N4", "topic_vi": "Thị trấn nơi bạn sống",
+    "prompt": "あなたがすんでいる町をしょうかいしてください。いいところとふべんなところをかいてください。",
+    "prompt_vi": "Hãy giới thiệu nơi bạn đang sống: điểm tốt và điểm bất tiện.",
+    "min": 80,
+    "useful": [
+      { "term": "静か (しずか)", "meaning_vi": "yên tĩnh" },
+      { "term": "空気 (くうき)", "meaning_vi": "không khí" },
+      { "term": "市場 (いちば)", "meaning_vi": "chợ" },
+      { "term": "散歩 (さんぽ)", "meaning_vi": "đi dạo" },
+      { "term": "不便 (ふべん)", "meaning_vi": "bất tiện" },
+      { "term": "本数 (ほんすう)", "meaning_vi": "số chuyến (tàu, xe)" },
+      { "term": "〜と思っています (おもっています)", "meaning_vi": "tôi nghĩ rằng ~" }
+    ],
+    "sample": "わたしが住んでいる町は、海の近くにある小さい町です。人は少ないですが、静かで空気もきれいです。駅の前に市場があって、新しい魚や野菜が安く買えます。週末には、家族と海を散歩するのが好きです。ただ、電車の本数が少ないので、大きい町へ行くときは少し不便です。でも、わたしはこの町が大好きで、ずっと住みたいと思っています。",
+    "sample_vi": "Thị trấn tôi sống là một thị trấn nhỏ gần biển. Ít người nhưng yên tĩnh, không khí cũng trong lành. Trước nhà ga có chợ, mua được cá và rau tươi với giá rẻ. Cuối tuần tôi thích đi dạo bên bờ biển cùng gia đình. Tuy nhiên vì ít chuyến tàu nên khi đi lên thành phố lớn hơi bất tiện. Dù vậy tôi rất yêu thị trấn này và muốn sống ở đây mãi."
+  },
+  {
+    "id": "ja-07", "level": "N4", "topic_vi": "Thư mời bạn đến tiệc",
+    "prompt": "ともだちをパーティーにしょうたいする手紙をかいてください。いつ、どこで、なにをするか、かいてください。",
+    "prompt_vi": "Hãy viết thư mời bạn đến dự tiệc: nói rõ khi nào, ở đâu, sẽ làm gì.",
+    "min": 80,
+    "useful": [
+      { "term": "誕生日 (たんじょうび)", "meaning_vi": "sinh nhật" },
+      { "term": "〜つもりです", "meaning_vi": "định ~" },
+      { "term": "ぜひ", "meaning_vi": "nhất định, rất mong" },
+      { "term": "迎えに行く (むかえにいく)", "meaning_vi": "đến đón" },
+      { "term": "〜てください", "meaning_vi": "hãy ~ giúp tôi" },
+      { "term": "楽しみにしています (たのしみにしています)", "meaning_vi": "tôi rất mong chờ" }
+    ],
+    "sample": "田中さんへ。お元気ですか。来月の十日は、わたしの誕生日です。うちで小さいパーティーをするつもりです。田中さんにもぜひ来てほしいです。時間は午後五時からです。わたしが料理を作りますから、何も持って来なくてもいいです。もし来られるなら、今週中に教えてください。駅までむかえに行きます。会えるのを楽しみにしています。グエンより。",
+    "sample_vi": "Gửi anh Tanaka. Anh khỏe không? Ngày 10 tháng sau là sinh nhật của tôi. Tôi định tổ chức một bữa tiệc nhỏ ở nhà. Tôi rất mong anh cũng đến. Bữa tiệc bắt đầu từ 5 giờ chiều. Tôi sẽ nấu ăn nên anh không cần mang gì cả. Nếu đến được, xin cho tôi biết trong tuần này. Tôi sẽ ra ga đón anh. Rất mong được gặp anh. Nguyễn."
+  },
+  {
+    "id": "ja-08", "level": "N4", "topic_vi": "Kế hoạch du lịch",
+    "prompt": "りょこうのけいかくをかいてください。だれと、どこへ行って、なにをするつもりですか。",
+    "prompt_vi": "Hãy viết về kế hoạch du lịch: đi với ai, đến đâu, định làm gì.",
+    "min": 80,
+    "useful": [
+      { "term": "夏休み (なつやすみ)", "meaning_vi": "kỳ nghỉ hè" },
+      { "term": "泊まる (とまる)", "meaning_vi": "ở lại, trọ" },
+      { "term": "台風 (たいふう)", "meaning_vi": "bão" },
+      { "term": "天気予報 (てんきよほう)", "meaning_vi": "dự báo thời tiết" },
+      { "term": "水族館 (すいぞくかん)", "meaning_vi": "thủy cung" },
+      { "term": "〜かもしれません", "meaning_vi": "có lẽ ~" },
+      { "term": "待ち遠しい (まちどおしい)", "meaning_vi": "mong chờ sốt ruột" }
+    ],
+    "sample": "夏休みに、家族と沖縄へ旅行に行くつもりです。飛行機で行って、三日間ホテルにとまります。海でおよいだり、おいしい料理を食べたりしたいです。弟はダイビングをやってみたいと言っています。でも、八月は台風が来るかもしれないので、天気予報をよく見るつもりです。もし雨が降ったら、水族館へ行くことにしました。今から出発の日が待ち遠しいです。",
+    "sample_vi": "Kỳ nghỉ hè tôi định đi du lịch Okinawa cùng gia đình. Chúng tôi đi máy bay và ở khách sạn ba ngày. Tôi muốn bơi ở biển và ăn những món ngon. Em trai nói muốn thử lặn biển. Nhưng tháng 8 có thể có bão nên tôi định xem dự báo thời tiết kỹ. Nếu trời mưa thì chúng tôi quyết định đi thủy cung. Từ bây giờ tôi đã sốt ruột chờ ngày khởi hành."
+  },
+  {
+    "id": "ja-09", "level": "N3", "topic_vi": "Công việc làm thêm",
+    "prompt": "あなたの仕事（またはアルバイト）について書いてください。大変なこと、学んだこと、これからの目標を入れてください。",
+    "prompt_vi": "Hãy viết về công việc (hoặc việc làm thêm) của bạn, gồm điều vất vả, điều học được và mục tiêu sắp tới.",
+    "min": 150,
+    "useful": [
+      { "term": "注文 (ちゅうもん)", "meaning_vi": "gọi món, đơn đặt hàng" },
+      { "term": "先輩 (せんぱい)", "meaning_vi": "đàn anh, đàn chị" },
+      { "term": "〜おかげで", "meaning_vi": "nhờ có ~" },
+      { "term": "〜を通して (をとおして)", "meaning_vi": "thông qua ~" },
+      { "term": "挑戦 (ちょうせん)", "meaning_vi": "thử thách" },
+      { "term": "役に立つ (やくにたつ)", "meaning_vi": "có ích" },
+      { "term": "経験 (けいけん)", "meaning_vi": "kinh nghiệm" }
+    ],
+    "sample": "わたしは去年から、駅の近くのカフェでアルバイトをしています。最初は注文を覚えるのが大変で、よく間違えてしまいました。しかし、先輩が親切に教えてくれたおかげで、今ではお客さんと日本語で話せるようになりました。この仕事を通して、ただ言葉を使うだけでなく、相手の気持ちを考えて話すことの大切さを学びました。忙しい日は疲れますが、お客さんに「ありがとう」と言われると、うれしくなります。将来は、日本の会社で働いてみたいので、今の経験はきっと役に立つと思います。これからも、できるだけ多くのことに挑戦したいです。",
+    "sample_vi": "Từ năm ngoái tôi làm thêm ở một quán cà phê gần ga. Lúc đầu việc nhớ món khách gọi rất vất vả và tôi hay nhầm. Nhưng nhờ các anh chị đi trước tận tình chỉ dạy, giờ tôi đã có thể nói chuyện với khách bằng tiếng Nhật. Qua công việc này tôi học được tầm quan trọng của việc không chỉ dùng từ ngữ mà còn phải nghĩ đến cảm xúc của người đối diện khi nói. Những ngày bận thì mệt, nhưng khi khách nói cảm ơn tôi thấy rất vui. Sau này tôi muốn làm việc ở công ty Nhật nên tôi nghĩ kinh nghiệm hiện tại chắc chắn sẽ có ích. Từ nay tôi cũng muốn thử thách thật nhiều điều có thể."
+  },
+  {
+    "id": "ja-10", "level": "N3", "topic_vi": "Văn hóa Nhật Bản mà bạn quan tâm",
+    "prompt": "日本の文化の中で、あなたが興味を持っているものについて書いてください。きっかけや感想も入れてください。",
+    "prompt_vi": "Hãy viết về một nét văn hóa Nhật Bản mà bạn quan tâm, kèm theo lý do bắt đầu và cảm nhận.",
+    "min": 150,
+    "useful": [
+      { "term": "茶道 (さどう)", "meaning_vi": "trà đạo" },
+      { "term": "体験 (たいけん)", "meaning_vi": "trải nghiệm" },
+      { "term": "丁寧 (ていねい)", "meaning_vi": "cẩn thận, lịch sự" },
+      { "term": "もてなす", "meaning_vi": "tiếp đãi" },
+      { "term": "作法 (さほう)", "meaning_vi": "phép tắc, nghi thức" },
+      { "term": "〜によると〜そうだ", "meaning_vi": "theo ~ thì nghe nói ~" },
+      { "term": "見直す (みなおす)", "meaning_vi": "nhìn nhận lại" }
+    ],
+    "sample": "日本の文化の中で、わたしが一番興味を持っているのは茶道です。初めて茶道を体験したのは、大学の交流会でした。静かな部屋で、決まった動作を丁寧に繰り返す姿を見て、とても驚きました。先生によると、茶道はただお茶を飲むことではなく、お客さんをもてなす心を表すものだそうです。ベトナムにもお茶を楽しむ習慣がありますが、作法はずいぶん違います。違いを知ることで、自分の国の文化を見直すこともできました。いつか日本に留学して、本格的に茶道を習ってみたいと思っています。",
+    "sample_vi": "Trong văn hóa Nhật Bản, điều tôi quan tâm nhất là trà đạo. Lần đầu tôi trải nghiệm trà đạo là ở một buổi giao lưu của trường đại học. Nhìn người ta lặp lại những động tác cố định một cách cẩn thận trong căn phòng yên tĩnh, tôi rất ngạc nhiên. Theo lời cô giáo, trà đạo không chỉ là uống trà mà còn thể hiện tấm lòng tiếp đãi khách. Ở Việt Nam cũng có thói quen thưởng trà nhưng cách thức khác khá nhiều. Nhờ biết sự khác biệt đó mà tôi còn nhìn nhận lại được văn hóa của chính nước mình. Một ngày nào đó tôi muốn du học Nhật và học trà đạo một cách bài bản."
+  },
+  {
+    "id": "ja-11", "level": "N3", "topic_vi": "Sống lành mạnh",
+    "prompt": "健康のために気をつけていること、またはこれから始めたいことについて書いてください。",
+    "prompt_vi": "Hãy viết về những điều bạn chú ý để giữ sức khỏe, hoặc điều muốn bắt đầu từ bây giờ.",
+    "min": 150,
+    "useful": [
+      { "term": "運動不足 (うんどうぶそく)", "meaning_vi": "thiếu vận động" },
+      { "term": "息が切れる (いきがきれる)", "meaning_vi": "hụt hơi" },
+      { "term": "生活を見直す (せいかつをみなおす)", "meaning_vi": "xem lại lối sống" },
+      { "term": "習慣 (しゅうかん)", "meaning_vi": "thói quen" },
+      { "term": "〜ように心がける (こころがける)", "meaning_vi": "chú ý để ~" },
+      { "term": "調子 (ちょうし)", "meaning_vi": "tình trạng, thể trạng" },
+      { "term": "無理をする (むりをする)", "meaning_vi": "cố quá sức" }
+    ],
+    "sample": "最近、運動不足のせいか、階段を上るだけで息が切れるようになりました。そこで、健康のために生活を見直すことにしました。まず、夜遅くまでスマホを見るのをやめて、十一時までに寝るようにしています。また、毎朝三十分ほど散歩をして、野菜を多く食べるように心がけています。始めたばかりのころは続けるのが難しかったですが、一か月たった今では、朝早く起きても眠くなくなりました。体の調子がよくなっただけでなく、気持ちも前より明るくなった気がします。これからも無理せず、少しずつこの習慣を続けていきたいです。",
+    "sample_vi": "Dạo này, có lẽ do thiếu vận động mà chỉ leo cầu thang thôi tôi cũng bị hụt hơi. Vì vậy tôi quyết định xem lại lối sống vì sức khỏe. Trước hết, tôi bỏ việc xem điện thoại đến khuya và cố gắng đi ngủ trước 11 giờ. Ngoài ra, mỗi sáng tôi đi dạo khoảng 30 phút và chú ý ăn nhiều rau. Lúc mới bắt đầu thì khó duy trì, nhưng một tháng sau, giờ dậy sớm tôi cũng không còn buồn ngủ. Không chỉ thể trạng tốt lên mà tinh thần cũng cảm thấy tươi sáng hơn trước. Từ nay tôi cũng muốn không cố quá sức, tiếp tục thói quen này từng chút một."
+  },
+  {
+    "id": "ja-12", "level": "N3", "topic_vi": "Điện thoại thông minh và mạng xã hội",
+    "prompt": "スマートフォンやSNSの便利な点と問題点について、あなたの考えを書いてください。",
+    "prompt_vi": "Hãy viết suy nghĩ của bạn về mặt tiện lợi và mặt vấn đề của điện thoại thông minh và mạng xã hội.",
+    "min": 150,
+    "useful": [
+      { "term": "欠かせない (かかせない)", "meaning_vi": "không thể thiếu" },
+      { "term": "〜反面 (はんめん)", "meaning_vi": "mặt khác ~" },
+      { "term": "連絡を取る (れんらくをとる)", "meaning_vi": "liên lạc" },
+      { "term": "落ち込む (おちこむ)", "meaning_vi": "chán nản" },
+      { "term": "使用時間 (しようじかん)", "meaning_vi": "thời gian sử dụng" },
+      { "term": "振り回される (ふりまわされる)", "meaning_vi": "bị chi phối, xoay như chong chóng" },
+      { "term": "付き合う (つきあう)", "meaning_vi": "giao thiệp, ứng xử với" }
+    ],
+    "sample": "今の時代、スマホは生活に欠かせないものになりました。わたしも、地図を見たり、買い物をしたり、友達と連絡を取ったりと、一日に何度も使っています。便利である反面、使いすぎると問題も出てきます。例えば、食事中や友達と会っている時でも、つい画面を見てしまう人が多いです。また、SNSで他の人の生活を見て、自分と比べて落ち込んでしまうこともあります。わたしは、一日の使用時間を決めて、夜は電源を切るようにしています。スマホはあくまで道具なので、振り回されないように上手に付き合っていくことが大切だと思います。",
+    "sample_vi": "Thời nay, điện thoại thông minh đã trở thành thứ không thể thiếu trong cuộc sống. Tôi cũng dùng nó nhiều lần mỗi ngày để xem bản đồ, mua sắm, liên lạc với bạn bè. Tiện lợi là vậy nhưng dùng quá nhiều thì cũng nảy sinh vấn đề. Chẳng hạn, nhiều người dù đang ăn hay đang gặp bạn vẫn vô thức nhìn vào màn hình. Ngoài ra, có khi xem cuộc sống của người khác trên mạng xã hội rồi so sánh với mình mà chán nản. Tôi đặt giới hạn thời gian sử dụng mỗi ngày và tắt máy vào ban đêm. Điện thoại suy cho cùng chỉ là công cụ nên tôi nghĩ quan trọng là biết cách ứng xử khéo để không bị nó chi phối."
+  },
+  {
+    "id": "ja-13", "level": "N2", "topic_vi": "Rác thải nhựa và môi trường",
+    "prompt": "環境問題（例えばプラスチックごみ）について、原因・対策・あなた自身の意見を書いてください。",
+    "prompt_vi": "Hãy viết về một vấn đề môi trường (ví dụ rác thải nhựa): nguyên nhân, đối sách và ý kiến của bản thân.",
+    "min": 250,
+    "useful": [
+      { "term": "相次ぐ (あいつぐ)", "meaning_vi": "xảy ra liên tiếp" },
+      { "term": "〜恐れがある (おそれがある)", "meaning_vi": "có nguy cơ ~" },
+      { "term": "使い捨て (つかいすて)", "meaning_vi": "dùng một lần" },
+      { "term": "〜と言えるだろう", "meaning_vi": "có thể nói rằng ~" },
+      { "term": "〜とは言い難い (いいがたい)", "meaning_vi": "khó mà nói là ~" },
+      { "term": "身近 (みぢか)", "meaning_vi": "gần gũi, thiết thực" },
+      { "term": "責任 (せきにん)", "meaning_vi": "trách nhiệm" },
+      { "term": "素材 (そざい)", "meaning_vi": "vật liệu" }
+    ],
+    "sample": "近年、海に流れ込むプラスチックごみが世界的な問題となっている。海洋生物が誤って飲み込んだり、網に絡まったりする被害が相次いでおり、最終的には人間の健康にも影響を及ぼす恐れがあると指摘されている。この問題の原因は、便利さを優先して使い捨ての製品を大量に消費してきた私たちの生活にあると言えるだろう。対策として、多くの国でレジ袋の有料化やストローの廃止が進められているが、それだけで十分とは言い難い。企業は再利用できる素材の開発に力を入れるべきであり、同時に私たち一人一人もマイバッグやマイボトルを持ち歩くなど、身近なところから行動を変える必要がある。小さな努力であっても、多くの人が続ければ大きな変化につながるはずだ。環境を守ることは、未来の世代に対する私たちの責任である。",
+    "sample_vi": "Những năm gần đây, rác thải nhựa đổ ra biển đã trở thành vấn đề toàn cầu. Sinh vật biển nuốt nhầm hoặc bị mắc vào lưới liên tiếp xảy ra, và người ta chỉ ra rằng cuối cùng nó còn có nguy cơ ảnh hưởng đến sức khỏe con người. Có thể nói nguyên nhân của vấn đề nằm ở lối sống của chúng ta, vốn ưu tiên sự tiện lợi và tiêu thụ hàng loạt sản phẩm dùng một lần. Để đối phó, nhiều nước đang thúc đẩy thu phí túi nilon và bỏ ống hút, nhưng khó nói chỉ như vậy là đủ. Doanh nghiệp nên dốc sức phát triển vật liệu có thể tái sử dụng, đồng thời mỗi người chúng ta cũng cần thay đổi hành động từ những việc gần gũi như mang theo túi và bình nước cá nhân. Dù chỉ là nỗ lực nhỏ, nếu nhiều người cùng duy trì thì sẽ dẫn đến thay đổi lớn. Bảo vệ môi trường là trách nhiệm của chúng ta đối với thế hệ tương lai."
+  },
+  {
+    "id": "ja-14", "level": "N2", "topic_vi": "Làm việc từ xa",
+    "prompt": "リモートワーク（在宅勤務）の利点と課題を挙げ、あなたはどのような働き方が理想だと思うか書いてください。",
+    "prompt_vi": "Hãy nêu lợi ích và thách thức của làm việc từ xa, và cho biết cách làm việc lý tưởng theo bạn.",
+    "min": 250,
+    "useful": [
+      { "term": "在宅勤務 (ざいたくきんむ)", "meaning_vi": "làm việc tại nhà" },
+      { "term": "〜をきっかけに", "meaning_vi": "nhân dịp, từ khi ~" },
+      { "term": "導入 (どうにゅう)", "meaning_vi": "đưa vào áp dụng" },
+      { "term": "課題 (かだい)", "meaning_vi": "vấn đề cần giải quyết" },
+      { "term": "使い分ける (つかいわける)", "meaning_vi": "dùng linh hoạt tùy trường hợp" },
+      { "term": "柔軟 (じゅうなん)", "meaning_vi": "linh hoạt" },
+      { "term": "自己管理 (じこかんり)", "meaning_vi": "tự quản lý bản thân" },
+      { "term": "〜ではないだろうか", "meaning_vi": "chẳng phải là ~ sao" }
+    ],
+    "sample": "コロナ禍をきっかけに、在宅勤務を導入する企業が急速に増えた。通勤時間がなくなることで、家族と過ごす時間や自分の趣味に使える時間が増えたという声は多い。一方で、同僚と顔を合わせる機会が減り、気軽に相談できない、仕事とプライベートの区別がつきにくいといった課題も明らかになってきた。私自身は、集中して作業したいときは自宅、新しい企画を話し合うときは出社というように、状況に応じて使い分けるのが理想だと考えている。ただし、そのためには会社が柔軟な制度を整えるだけでなく、社員の側も自己管理の力を身につけなければならない。働き方の選択肢が広がった今こそ、効率だけでなく、人と人とのつながりをどう保つかが問われているのではないだろうか。",
+    "sample_vi": "Từ sau đại dịch, số doanh nghiệp áp dụng làm việc tại nhà tăng nhanh. Nhiều ý kiến cho rằng không mất thời gian đi lại nên có thêm thời gian cho gia đình và sở thích. Mặt khác, những vấn đề như ít cơ hội gặp đồng nghiệp nên khó trao đổi thoải mái, khó phân biệt công việc và đời tư cũng đã lộ rõ. Bản thân tôi cho rằng lý tưởng là dùng linh hoạt tùy tình huống: ở nhà khi muốn tập trung làm việc, đến công ty khi bàn bạc kế hoạch mới. Tuy nhiên, để làm được vậy, không chỉ công ty phải xây dựng chế độ linh hoạt mà bản thân nhân viên cũng phải rèn năng lực tự quản lý. Chính lúc lựa chọn cách làm việc đã mở rộng này, điều được đặt ra chẳng phải không chỉ là hiệu suất mà còn là cách giữ gìn sự kết nối giữa người với người hay sao?"
+  },
+  {
+    "id": "ja-15", "level": "N2", "topic_vi": "Ý nghĩa của việc học ngoại ngữ",
+    "prompt": "外国語を学ぶ意味について、あなたの経験を交えながら意見を書いてください。",
+    "prompt_vi": "Hãy viết ý kiến về ý nghĩa của việc học ngoại ngữ, kèm theo trải nghiệm của bản thân.",
+    "min": 250,
+    "useful": [
+      { "term": "〜にとどまらない", "meaning_vi": "không chỉ dừng ở ~" },
+      { "term": "直訳 (ちょくやく)", "meaning_vi": "dịch nghĩa đen" },
+      { "term": "価値観 (かちかん)", "meaning_vi": "quan điểm giá trị" },
+      { "term": "微妙な (びみょうな)", "meaning_vi": "tinh tế, vi diệu" },
+      { "term": "〜ほかない", "meaning_vi": "chỉ còn cách ~" },
+      { "term": "習得 (しゅうとく)", "meaning_vi": "thành thạo, tiếp thu" },
+      { "term": "視野が広がる (しやがひろがる)", "meaning_vi": "mở rộng tầm nhìn" },
+      { "term": "根気 (こんき)", "meaning_vi": "tính kiên nhẫn" }
+    ],
+    "sample": "グローバル化が進む現代において、外国語を学ぶ意味は単に仕事に役立つということだけにとどまらない。言葉を学ぶことは、その国の歴史や考え方を理解することでもある。私が日本語を勉強して一番驚いたのは、「よろしくお願いします」のように、直訳できない表現が数多くあることだった。そうした表現の背景には、相手との関係を大切にする日本人の価値観が隠れているように思う。翻訳ソフトの性能が上がり、言葉の壁が低くなったと言われる一方で、機械では伝えきれない微妙なニュアンスや気持ちは、やはり自分の言葉で伝えるほかない。外国語の習得には時間と根気が必要だが、それによって視野が広がり、自分とは異なる意見にも耳を傾けられるようになる。その意味で、語学学習は人間的な成長にもつながる貴重な経験だと考える。",
+    "sample_vi": "Trong thời đại toàn cầu hóa, ý nghĩa của việc học ngoại ngữ không chỉ dừng ở việc có ích cho công việc. Học một ngôn ngữ cũng là hiểu lịch sử và cách suy nghĩ của đất nước đó. Điều khiến tôi ngạc nhiên nhất khi học tiếng Nhật là có rất nhiều cách diễn đạt không thể dịch nghĩa đen, như 「よろしくお願いします」. Tôi nghĩ phía sau những cách nói đó ẩn chứa quan điểm giá trị của người Nhật là coi trọng mối quan hệ với đối phương. Dù người ta nói phần mềm dịch ngày càng tốt và rào cản ngôn ngữ đã thấp đi, nhưng những sắc thái và cảm xúc tinh tế mà máy móc không truyền đạt hết thì rốt cuộc vẫn chỉ có thể truyền đạt bằng lời của chính mình. Học ngoại ngữ cần thời gian và sự kiên nhẫn, nhưng nhờ đó tầm nhìn được mở rộng và ta cũng biết lắng nghe những ý kiến khác mình. Theo nghĩa đó, tôi cho rằng học ngoại ngữ là trải nghiệm quý giá góp phần giúp con người trưởng thành."
+  },
+  {
+    "id": "ja-16", "level": "N2", "topic_vi": "Xã hội già hóa",
+    "prompt": "高齢化社会がもたらす問題と、その解決に向けてどんな取り組みが必要か、あなたの意見を書いてください。",
+    "prompt_vi": "Hãy viết ý kiến của bạn về các vấn đề do xã hội già hóa mang lại và những nỗ lực cần thiết để giải quyết.",
+    "min": 250,
+    "useful": [
+      { "term": "高齢化 (こうれいか)", "meaning_vi": "già hóa dân số" },
+      { "term": "〜に伴い (ともない)", "meaning_vi": "cùng với ~" },
+      { "term": "年金 (ねんきん)", "meaning_vi": "lương hưu" },
+      { "term": "〜は否めない (いなめない)", "meaning_vi": "không thể phủ nhận ~" },
+      { "term": "労働力 (ろうどうりょく)", "meaning_vi": "lực lượng lao động" },
+      { "term": "生きがい", "meaning_vi": "lẽ sống, niềm vui sống" },
+      { "term": "孤立 (こりつ)", "meaning_vi": "cô lập" },
+      { "term": "前向き (まえむき)", "meaning_vi": "tích cực" }
+    ],
+    "sample": "日本をはじめ、多くの国で高齢化が急速に進んでいる。それに伴い、年金や医療費の負担が増え、若い世代の将来への不安が高まっていることは否めない。しかし、高齢者を「支えられる存在」としてだけ捉えるのは適切ではないだろう。実際には、豊富な経験や知識を生かして、地域の活動や仕事で活躍している高齢者も少なくない。定年を迎えた後も働き続けられる環境を整えれば、社会全体の労働力不足を補うことができ、本人にとっても生きがいにつながる。また、世代間の交流を増やすことで、お互いへの理解が深まり、孤立の防止にも役立つと思われる。高齢化を単なる問題として恐れるのではなく、新しい社会の形を考えるきっかけとして前向きに受け止めることが重要である。",
+    "sample_vi": "Không chỉ Nhật Bản mà nhiều nước đang già hóa nhanh chóng. Cùng với đó, gánh nặng lương hưu và chi phí y tế tăng lên, và không thể phủ nhận nỗi lo về tương lai của thế hệ trẻ đang gia tăng. Tuy nhiên, chỉ coi người cao tuổi là đối tượng cần được hỗ trợ thì không thích hợp. Thực tế không ít người cao tuổi đang phát huy kinh nghiệm, kiến thức phong phú để hoạt động trong cộng đồng và công việc. Nếu tạo môi trường để họ tiếp tục làm việc sau khi nghỉ hưu, có thể bù đắp tình trạng thiếu lao động của toàn xã hội và cũng mang lại niềm vui sống cho chính họ. Ngoài ra, tăng giao lưu giữa các thế hệ sẽ làm sâu sắc sự thấu hiểu lẫn nhau và có ích cho việc phòng ngừa cô lập. Quan trọng là đừng chỉ sợ hãi già hóa như một vấn đề, mà hãy đón nhận tích cực như cơ hội để suy nghĩ về hình thái xã hội mới."
+  },
+  {
+    "id": "ja-17", "level": "N1", "topic_vi": "Trí tuệ nhân tạo và xã hội",
+    "prompt": "人工知能の発展が社会や人間の働き方に与える影響について、利点と懸念の両面から論じ、あなたの考えを述べてください。",
+    "prompt_vi": "Hãy bàn về ảnh hưởng của sự phát triển trí tuệ nhân tạo đối với xã hội và cách làm việc của con người, từ cả mặt lợi ích lẫn mối lo ngại, và nêu quan điểm của bạn.",
+    "min": 350,
+    "useful": [
+      { "term": "根底から (こんていから)", "meaning_vi": "từ gốc rễ" },
+      { "term": "飛躍的 (ひやくてき)", "meaning_vi": "mang tính đột phá, vượt bậc" },
+      { "term": "懸念 (けねん)", "meaning_vi": "mối lo ngại" },
+      { "term": "〜を踏まえる (ふまえる)", "meaning_vi": "dựa trên ~, xét đến ~" },
+      { "term": "無批判に (むひはんに)", "meaning_vi": "không phản biện" },
+      { "term": "鵜呑みにする (うのみにする)", "meaning_vi": "tin răm rắp, nuốt chửng" },
+      { "term": "多角的 (たかくてき)", "meaning_vi": "đa chiều" },
+      { "term": "〜に違いない (ちがいない)", "meaning_vi": "chắc chắn là ~" }
+    ],
+    "sample": "人工知能の急速な発展は、私たちの生活や働き方を根底から変えつつある。文章の作成や翻訳、画像の生成に至るまで、かつては人間にしかできないとされてきた領域に機械が進出し、業務の効率は飛躍的に高まった。その反面、単純作業を中心に仕事が奪われるのではないかという懸念や、誤った情報が瞬く間に拡散される危険性も指摘されている。こうした状況を踏まえると、技術の進歩を無批判に受け入れるのではなく、その利点と限界を冷静に見極める姿勢が不可欠であろう。とりわけ重要なのは、人工知能が出した答えをそのまま鵜呑みにせず、最終的な判断は人間が責任を持って下すという原則である。また、教育の現場においても、知識を暗記する能力よりも、問いを立て、多角的に考える力を育むことが一層求められるに違いない。人工知能は人間の代わりではなく、人間の可能性を広げるための道具として位置づけられるべきであり、そのための社会的な合意と制度作りを急ぐ必要がある。",
+    "sample_vi": "Sự phát triển nhanh chóng của trí tuệ nhân tạo đang thay đổi từ gốc rễ cuộc sống và cách làm việc của chúng ta. Từ soạn văn bản, dịch thuật đến tạo hình ảnh, máy móc đã tiến vào những lĩnh vực từng được cho là chỉ con người làm được, khiến hiệu suất công việc tăng vượt bậc. Mặt khác, người ta cũng chỉ ra mối lo công việc, nhất là công việc đơn giản, sẽ bị cướp mất, cũng như nguy cơ thông tin sai lệch lan truyền chớp nhoáng. Xét tình hình này, điều không thể thiếu là thái độ bình tĩnh nhận định ưu điểm và giới hạn của công nghệ thay vì chấp nhận nó một cách thiếu phản biện. Đặc biệt quan trọng là nguyên tắc không tin răm rắp vào câu trả lời của AI mà con người phải chịu trách nhiệm đưa ra phán đoán cuối cùng. Trong giáo dục cũng vậy, chắc chắn sẽ ngày càng cần bồi dưỡng năng lực đặt câu hỏi và suy nghĩ đa chiều hơn là khả năng học thuộc kiến thức. AI nên được định vị không phải là vật thay thế con người mà là công cụ mở rộng khả năng của con người, và cần khẩn trương xây dựng sự đồng thuận xã hội cùng thể chế cho điều đó."
+  },
+  {
+    "id": "ja-18", "level": "N1", "topic_vi": "Truyền thống và đổi mới",
+    "prompt": "「伝統を守ること」と「革新を追い求めること」の関係について、具体例を挙げながらあなたの考えを述べてください。",
+    "prompt_vi": "Hãy nêu quan điểm về mối quan hệ giữa việc giữ gìn truyền thống và theo đuổi đổi mới, kèm ví dụ cụ thể.",
+    "min": 350,
+    "useful": [
+      { "term": "相反する (あいはんする)", "meaning_vi": "trái ngược nhau" },
+      { "term": "老舗 (しにせ)", "meaning_vi": "cửa hiệu lâu đời" },
+      { "term": "継承 (けいしょう)", "meaning_vi": "kế thừa" },
+      { "term": "頑なに (かたくなに)", "meaning_vi": "một cách cứng nhắc, cố chấp" },
+      { "term": "廃れる (すたれる)", "meaning_vi": "lụi tàn, lỗi thời" },
+      { "term": "本末転倒 (ほんまつてんとう)", "meaning_vi": "bỏ gốc lấy ngọn, đảo lộn thứ tự ưu tiên" },
+      { "term": "見極める (みきわめる)", "meaning_vi": "nhìn thấu, xác định rõ" },
+      { "term": "核心 (かくしん)", "meaning_vi": "cốt lõi" }
+    ],
+    "sample": "伝統を守ることと革新を追い求めることは、一見すると相反するように思われがちである。しかし、長い歴史を持つ伝統産業を振り返ってみると、時代の変化に合わせて技術や表現を絶えず更新してきたからこそ、今日まで存続し得たという事実が浮かび上がる。例えば、ある老舗の和紙工房では、従来の職人技を継承しつつ、現代のインテリアや電子機器の部品として使える新素材の開発に成功し、海外からも注目を集めている。もし形式だけを頑なに守り続けていたならば、需要が減る中で廃れていたに違いない。ここから分かるのは、真の伝統とは過去の姿をそのまま保存することではなく、その根底にある精神や価値観を受け継ぎながら、新たな形で表現し続けることだということである。ただし、効率や利益を優先するあまり、本来の良さが損なわれてしまっては本末転倒である。守るべき核心と変えてよい部分を見極める眼力こそが、伝統を未来へつなぐ鍵になると考える。",
+    "sample_vi": "Giữ gìn truyền thống và theo đuổi đổi mới thoạt nhìn dễ bị cho là trái ngược nhau. Tuy nhiên, nhìn lại các ngành nghề truyền thống có lịch sử lâu dài, ta thấy chính vì không ngừng cập nhật kỹ thuật và cách thể hiện theo thời đại mà chúng mới tồn tại được đến ngày nay. Chẳng hạn, một xưởng giấy washi lâu đời đã kế thừa tay nghề thủ công xưa đồng thời thành công trong việc phát triển vật liệu mới dùng được làm nội thất hiện đại và linh kiện thiết bị điện tử, nhờ đó được nước ngoài chú ý. Nếu cứ cố chấp giữ hình thức thì chắc chắn đã lụi tàn khi nhu cầu giảm. Từ đó có thể thấy truyền thống đích thực không phải là bảo tồn nguyên vẹn hình dáng quá khứ mà là kế thừa tinh thần và giá trị nằm ở gốc rễ rồi tiếp tục thể hiện dưới hình thức mới. Tuy nhiên, nếu vì ưu tiên hiệu suất và lợi nhuận mà làm mất đi cái hay vốn có thì là bỏ gốc lấy ngọn. Tôi cho rằng con mắt nhận ra đâu là cốt lõi cần giữ và đâu là phần có thể thay đổi chính là chìa khóa để nối truyền thống đến tương lai."
+  },
+  {
+    "id": "ja-19", "level": "N1", "topic_vi": "Bất bình đẳng giáo dục",
+    "prompt": "教育格差という問題について、原因と解決策を論じ、あなたの意見を述べてください。",
+    "prompt_vi": "Hãy bàn về vấn đề bất bình đẳng giáo dục: nguyên nhân, giải pháp và nêu ý kiến của bạn.",
+    "min": 350,
+    "useful": [
+      { "term": "格差 (かくさ)", "meaning_vi": "khoảng cách, chênh lệch" },
+      { "term": "連鎖 (れんさ)", "meaning_vi": "chuỗi nối tiếp, vòng luẩn quẩn" },
+      { "term": "〜かねない", "meaning_vi": "có thể dẫn đến ~ (điều xấu)" },
+      { "term": "拡充 (かくじゅう)", "meaning_vi": "mở rộng, bổ sung" },
+      { "term": "根本的 (こんぽんてき)", "meaning_vi": "căn bản" },
+      { "term": "自己肯定感 (じここうていかん)", "meaning_vi": "lòng tự trọng, cảm giác tự khẳng định" },
+      { "term": "寄り添う (よりそう)", "meaning_vi": "ở bên đồng hành" },
+      { "term": "基盤 (きばん)", "meaning_vi": "nền tảng" }
+    ],
+    "sample": "家庭の経済状況によって子どもの学力や進学の機会に差が生じる、いわゆる教育格差が深刻な社会問題となっている。塾や習い事に十分な費用をかけられる家庭がある一方で、基本的な学習環境さえ整えられない家庭が存在するのが現実である。このような格差を放置すれば、貧困が世代を超えて連鎖し、社会全体の活力が失われかねない。もちろん、学校教育の無償化や奨学金制度の拡充といった経済的支援は欠かせないが、それだけでは根本的な解決にはならないだろう。なぜなら、子どもの意欲や自己肯定感は、周囲の大人が寄り添い、可能性を信じて励ますことによって育まれる面が大きいからである。地域のボランティアが運営する無料の学習支援は、まさにその役割を担っており、今後さらに広げていく価値がある。教育は個人の問題ではなく、社会全体で投資すべき未来への基盤であるという認識を、私たちは共有しなければならない。",
+    "sample_vi": "Cái gọi là bất bình đẳng giáo dục, tức học lực và cơ hội học lên của trẻ chênh lệch tùy hoàn cảnh kinh tế gia đình, đã trở thành vấn đề xã hội nghiêm trọng. Thực tế là có những gia đình đủ khả năng chi trả cho lớp học thêm và các hoạt động ngoại khóa, trong khi có gia đình thậm chí không thể đảm bảo môi trường học tập cơ bản. Nếu bỏ mặc chênh lệch này, nghèo đói sẽ nối tiếp qua các thế hệ và sức sống của toàn xã hội có thể bị mất đi. Tất nhiên, các hỗ trợ kinh tế như miễn học phí và mở rộng chế độ học bổng là không thể thiếu, nhưng chỉ vậy thì chưa phải là giải pháp căn bản. Bởi động lực và lòng tự tin của trẻ phần lớn được nuôi dưỡng nhờ người lớn xung quanh ở bên, tin vào tiềm năng và động viên. Các lớp hỗ trợ học tập miễn phí do tình nguyện viên địa phương điều hành chính là đang đảm nhận vai trò đó và đáng được nhân rộng hơn nữa. Chúng ta phải cùng chia sẻ nhận thức rằng giáo dục không phải vấn đề cá nhân mà là nền tảng cho tương lai mà toàn xã hội cần đầu tư."
+  },
+  {
+    "id": "ja-20", "level": "N1", "topic_vi": "Hạnh phúc là gì",
+    "prompt": "「幸福とは何か」について、現代社会の状況を踏まえてあなたの考えを論じてください。",
+    "prompt_vi": "Hãy bàn về câu hỏi hạnh phúc là gì, dựa trên bối cảnh xã hội hiện đại và quan điểm của bạn.",
+    "min": 350,
+    "useful": [
+      { "term": "指標 (しひょう)", "meaning_vi": "chỉ số, tiêu chí" },
+      { "term": "〜にもかかわらず", "meaning_vi": "mặc dù ~" },
+      { "term": "物語る (ものがたる)", "meaning_vi": "nói lên, chứng tỏ" },
+      { "term": "提唱 (ていしょう)", "meaning_vi": "đề xướng" },
+      { "term": "他愛のない (たあいのない)", "meaning_vi": "vu vơ, chuyện vặt" },
+      { "term": "充足感 (じゅうそくかん)", "meaning_vi": "cảm giác thỏa mãn, đủ đầy" },
+      { "term": "慎む (つつしむ)", "meaning_vi": "tránh, thận trọng" },
+      { "term": "内省 (ないせい)", "meaning_vi": "tự vấn, suy ngẫm nội tâm" }
+    ],
+    "sample": "豊かさの指標として、これまで国内総生産のような経済的な数値が重視されてきた。しかし、物質的に恵まれているにもかかわらず、孤独や不安を抱える人が少なくないという現実は、お金だけでは幸福を測れないことを物語っている。近年、ブータンが提唱した「国民総幸福量」のように、心の満足度や人間関係、自然環境との調和を含めて社会を評価しようとする動きが広がりつつある。私自身、忙しい日々の中で、友人と他愛のない話をしたり、季節の移り変わりを感じたりする瞬間にこそ、深い充足感を覚える。とはいえ、幸福の形は人によって異なり、他人の価値観を押し付けることは慎むべきである。大切なのは、世間の評価や周囲との比較に流されることなく、自分にとって何が本当に大切なのかを問い続ける姿勢ではないだろうか。そのような内省を通じて初めて、変化の激しい時代にあっても揺らぐことのない、確かな幸せを手にすることができるのだと思う。",
+    "sample_vi": "Là thước đo của sự giàu có, từ trước đến nay người ta coi trọng các con số kinh tế như tổng sản phẩm quốc nội. Tuy nhiên, thực tế là không ít người dù đầy đủ vật chất vẫn mang trong lòng sự cô đơn và bất an, điều đó cho thấy chỉ tiền bạc thì không đo được hạnh phúc. Những năm gần đây, xu hướng đánh giá xã hội bao gồm cả mức độ hài lòng của tâm hồn, quan hệ giữa người với người và sự hài hòa với môi trường tự nhiên đang lan rộng, như khái niệm Tổng hạnh phúc quốc gia do Bhutan đề xướng. Bản thân tôi, giữa những ngày bận rộn, chính trong những khoảnh khắc trò chuyện vu vơ với bạn bè hay cảm nhận sự chuyển mùa mới thấy cảm giác đủ đầy sâu sắc. Tuy vậy, hình hài hạnh phúc mỗi người một khác và cần tránh áp đặt giá trị của mình lên người khác. Điều quan trọng là thái độ không bị cuốn theo đánh giá của thiên hạ hay so sánh với xung quanh mà luôn tự hỏi điều gì thực sự quan trọng với bản thân. Tôi nghĩ chỉ qua sự tự vấn như vậy ta mới có thể nắm được hạnh phúc vững chắc, không lung lay ngay cả trong thời đại biến động mạnh."
+  }
+]

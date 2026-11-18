@@ -20,7 +20,7 @@ export default function Exams() {
   const list = (exams || []).filter((e) => e.type === tab);
   const fmtMine = (type, k, m) => {
     if (!m) return null;
-    if (m.best != null) return type === 'toeic' ? `Cao nhất ${m.best}/495` : `Band cao nhất ${m.best}`;
+    if (m.best != null) return type === 'toeic' ? `Cao nhất ${m.best}/${k === 'writing' ? 200 : 495}` : `Band cao nhất ${m.best}`;
     if (m.best_pct != null) return `Đúng ${Math.round(m.best_pct * 100)}%`;
     return `Đã làm ${m.n} lần`;
   };
@@ -36,7 +36,7 @@ export default function Exams() {
       </div>
       <p className="muted small" style={{ margin: 0 }}>
         {tab === 'toeic'
-          ? 'Đề luyện tự soạn theo dạng thức TOEIC Listening & Reading (Part 2–7; Part 1 tả tranh chưa có). Bài nghe đọc bằng giọng máy, nhiều giọng. Điểm quy đổi chỉ là ước lượng.'
+          ? 'Đề luyện tự soạn theo dạng thức TOEIC Listening & Reading (Part 2–7; Part 1 tả tranh chưa có) và TOEIC Writing (tả tranh, email, bài luận — tự chấm theo bài mẫu). Bài nghe đọc bằng giọng máy, nhiều giọng. Điểm quy đổi chỉ là ước lượng.'
           : 'Đề luyện tự soạn theo dạng thức IELTS Academic. Listening/Reading chấm tự động, quy đổi band ước lượng; Writing/Speaking có bài mẫu và tiêu chí để tự chấm.'}
       </p>
       {exams === null && <div className="muted">Đang tải…</div>}

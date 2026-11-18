@@ -1,0 +1,78 @@
+{
+  "q1_5": [
+    {
+      "scene": "✈️🛫🌅",
+      "alt": "An airplane is taking off from the runway at sunrise.",
+      "words": ["airplane", "runway"],
+      "samples": [
+        "An airplane is taking off from the runway.",
+        "The airplane is leaving the runway at sunrise."
+      ]
+    },
+    {
+      "scene": "👩📚📚",
+      "alt": "A woman is holding a stack of books.",
+      "words": ["stack", "books"],
+      "samples": [
+        "A woman is holding a stack of books.",
+        "The woman is carrying a tall stack of new books."
+      ]
+    },
+    {
+      "scene": "🧑‍🌾🚜🌾",
+      "alt": "A farmer is driving a tractor across a field.",
+      "words": ["farmer", "tractor"],
+      "samples": [
+        "A farmer is driving a tractor across a field.",
+        "The farmer is sitting on a tractor in the wheat field."
+      ]
+    },
+    {
+      "scene": "👩🛒📺",
+      "alt": "A woman is looking at a television while pushing a shopping cart.",
+      "words": ["while", "television"],
+      "samples": [
+        "A woman is looking at a television while she pushes a shopping cart.",
+        "While the customer is shopping, she is checking a large television."
+      ]
+    },
+    {
+      "scene": "🏊☀️🌴",
+      "alt": "A man is swimming in the resort pool because the weather is hot.",
+      "words": ["because", "pool"],
+      "samples": [
+        "A man is swimming in the resort pool because the weather is hot.",
+        "Because it is sunny, a guest is enjoying the pool."
+      ]
+    }
+  ],
+  "q6_7": [
+    {
+      "email": {
+        "from": "Peter Nguyen <peter.nguyen@mailbox.example.com>",
+        "to": "SkyLine Airways Customer Service <service@skyline.example.com>",
+        "subject": "Missing suitcase on flight SK212",
+        "text": "Dear Customer Service,\n\nI flew from Hanoi to Singapore on flight SK212 yesterday, but my suitcase did not arrive at the airport. It is a blue bag with a yellow ribbon on the handle. I need my clothes and documents for a conference that begins on Thursday. Could you tell me what you are doing to find it, and when it will be delivered to my hotel?\n\nRegards,\nPeter Nguyen"
+      },
+      "task": "Respond to the e-mail as an airline customer service agent. In your e-mail, give TWO pieces of information and make ONE request.",
+      "sample": "Dear Mr. Nguyen,\n\nI am very sorry that your suitcase did not arrive with you. We have contacted the baggage team in Hanoi, and our system shows that your bag was sent to Bangkok by mistake. It is now on the next flight to Singapore, which lands tomorrow morning at 9 a.m. We will deliver it directly to your hotel before noon, so you will have your clothes before the conference starts on Thursday.\n\nTo make the delivery smooth, could you please send me the name and address of your hotel, together with your room number? In addition, please keep your baggage receipt in case our driver needs to check it.\n\nThank you for your patience, and we apologize again for the inconvenience.\n\nSincerely,\nAnna Reyes\nCustomer Service, SkyLine Airways",
+      "notes_vi": "Khi trả lời khiếu nại, hãy bắt đầu bằng lời xin lỗi (I am very sorry that ...). Đề yêu cầu 2 thông tin (vị trí hành lý hiện tại và thời gian giao) và 1 yêu cầu (gửi địa chỉ khách sạn). Lỗi hay gặp: hứa hẹn mơ hồ như 'soon' mà không nêu thời gian cụ thể, dùng 'request' như một câu hỏi, và quên trả lời đúng hai câu hỏi trong email gốc. Mẫu câu hữu ích: 'Our system shows that ...', 'could you please send me ...', 'we apologize again for the inconvenience'."
+    },
+    {
+      "email": {
+        "from": "Mai Lan <mai.lan@orion-textiles.example.com>",
+        "to": "Seaview Resort Events Team <events@seaviewresort.example.com>",
+        "subject": "Team retreat enquiry for March",
+        "text": "Dear Events Team,\n\nOur company would like to hold a two-day team retreat at your resort in March. About forty employees will attend. Do you have a meeting room that can hold forty people and provide a projector? We would also like to know whether there is a discount for groups staying more than one night. Please reply as soon as possible, because we must submit the budget by Friday.\n\nBest regards,\nMai Lan\nHR Manager, Orion Textiles"
+      },
+      "task": "Respond to the e-mail as the resort's events coordinator. In your e-mail, answer TWO questions and give ONE suggestion.",
+      "sample": "Dear Ms. Lan,\n\nThank you for considering Seaview Resort for your team retreat. Yes, our Palm Room can hold up to fifty people, and it comes with a projector, a screen, and free wireless internet. We also offer a group discount: if you stay two nights or more, you will receive 15 percent off the room rate for every guest.\n\nI would suggest that you book the second week of March, because it is our quiet season and the weather is usually pleasant. You could use the mornings for meetings and spend the afternoons on team activities at the beach, which we can organize for you at a low cost.\n\nI will send a written quotation by Thursday so that you can meet your Friday deadline.\n\nKind regards,\nDavid Park\nEvents Coordinator, Seaview Resort",
+      "notes_vi": "Đề yêu cầu trả lời 2 câu hỏi (phòng họp có đủ chỗ và máy chiếu không; có giảm giá nhóm không) và đưa ra 1 gợi ý (suggestion). Lỗi hay gặp: không nêu con số cụ thể (sức chứa, phần trăm giảm giá), nhầm cấu trúc gợi ý ('I suggest you to book' là sai, đúng là 'I suggest that you book' hoặc 'I would suggest booking'), và quên nhắc tới hạn chót thứ Sáu của người viết. Có thể kết bằng lời hứa gửi báo giá để email đầy đủ và chuyên nghiệp."
+    }
+  ],
+  "q8": {
+    "prompt": "Some people prefer to buy electronic products, such as phones and computers, in a physical store. Others prefer to buy them online. Which do you prefer, and why? Give reasons and examples to support your answer.",
+    "sample": "Personally, I prefer to buy electronic products in a physical store rather than online. Although online shopping is convenient, I believe a shop gives me several important advantages, which I explain below.\n\nThe first reason is that I can see and test the product before paying. A phone may look perfect in photographs, but the screen, the weight, and the sound quality can feel very different in my hand. When I bought my headphones last year, I tried four models in the store and discovered that the cheapest one was the most comfortable. This would have been impossible on a website, where I could only read descriptions and reviews written by strangers.\n\nThe second reason is professional advice. Sales staff in an electronics store usually know their products well. They can compare different models, explain technical terms in simple language, and recommend a device that fits my budget and my needs. If I have a question, I get an answer immediately instead of waiting for an email. For people who are not familiar with technology, such as my parents, this support is extremely valuable.\n\nThe third reason is after-sales service. If something goes wrong with a product bought in a store, I can return to the same counter, show my receipt, and ask for a repair or an exchange. With online orders, I must pack the item, find a delivery company, and wait several days for a reply. The risk of receiving a damaged or fake product is also higher online.\n\nOn the other hand, I admit that online stores often offer lower prices and a wider choice. They also deliver to my door, which saves time when I am busy. For this reason, I sometimes use websites to compare prices before I go to the shop. If a store is willing to match the lower price, I buy it there immediately.\n\nIn conclusion, buying in person gives me confidence, expert help, and reliable service. The online price may be slightly lower, but I think peace of mind is worth a small extra cost.",
+    "notes_vi": "Câu hỏi dạng chọn phương án (which do you prefer): hãy chọn một bên rõ ràng ngay ở câu đầu, sau đó đưa 3 lý do kèm ví dụ cá nhân, rồi thừa nhận ngắn gọn ưu điểm của phương án còn lại (On the other hand) và kết bài. Lỗi hay gặp: nói 'both are good' mà không chọn bên nào, viết quá ngắn, dùng 'buy in the store online' lẫn lộn, thiếu từ nối và chia sai thì. Từ vựng hữu ích: after-sales service, compare prices, expert advice, return/exchange, peace of mind. Hãy luyện viết đủ khoảng 300 từ trong 30 phút."
+  }
+}

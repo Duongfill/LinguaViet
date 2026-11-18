@@ -1,0 +1,78 @@
+{
+  "q1_5": [
+    {
+      "scene": "👩‍⚕️💉🏥",
+      "alt": "A nurse is giving an injection to a patient in a hospital.",
+      "words": ["nurse", "patient"],
+      "samples": [
+        "A nurse is giving an injection to a patient.",
+        "The nurse is taking care of a patient in the hospital."
+      ]
+    },
+    {
+      "scene": "🧑🛒🥬🍎",
+      "alt": "A man is pushing a cart through a supermarket.",
+      "words": ["cart", "supermarket"],
+      "samples": [
+        "A man is pushing a cart through a supermarket.",
+        "The shopper is putting fruit and vegetables into his cart in the supermarket."
+      ]
+    },
+    {
+      "scene": "🏦💳🧑‍💼",
+      "alt": "A clerk is handing a card to a customer at the bank.",
+      "words": ["card", "customer"],
+      "samples": [
+        "A clerk is handing a card to a customer.",
+        "The customer is receiving a new card at the bank."
+      ]
+    },
+    {
+      "scene": "📚📖🧑‍🎓🤫",
+      "alt": "A student is reading a book in the library while others study quietly.",
+      "words": ["library", "while"],
+      "samples": [
+        "A student is reading a book in the library while others study quietly.",
+        "While the students are studying, one of them is choosing a book in the library."
+      ]
+    },
+    {
+      "scene": "🚑🏥👨‍⚕️🚨",
+      "alt": "An ambulance is parked in front of the hospital before the doctors take the patient inside.",
+      "words": ["ambulance", "before"],
+      "samples": [
+        "An ambulance is parked at the hospital entrance before the doctors arrive.",
+        "Before the patient goes inside, the ambulance stops in front of the hospital."
+      ]
+    }
+  ],
+  "q6_7": [
+    {
+      "email": {
+        "from": "maria.santos@mailbox.example",
+        "to": "info@eastsidelibrary.example",
+        "subject": "Renewing books and booking a study room",
+        "text": "Dear Librarian,\n\nI am a university student and I have four books that are due this Friday. I am still using them for my research project, so I would like to keep them for another two weeks. I tried to renew them on your website, but the system showed an error message.\n\nI also need a quiet place to study with my classmates next week. Does the library have group study rooms, and is there a fee for using them?\n\nThank you for your help.\n\nMaria Santos"
+      },
+      "task": "Respond to the e-mail as a librarian. In your e-mail, give TWO pieces of information and ask ONE question.",
+      "sample": "Dear Ms. Santos,\n\nThank you for contacting the Eastside Library. I am sorry that the website did not work when you tried to renew your books. I have extended all four loans for two more weeks, so the new due date is the 28th. In addition, our library has six group study rooms on the second floor, and they are free for members. Each room holds up to eight people and can be reserved for a maximum of three hours.\n\nWhich day and time would your group like to use a room? If you tell me, I can book it for you today.\n\nBest regards,\nHelen Parker\nEastside Library",
+      "notes_vi": "Hai thông tin cần có: (1) sách đã được gia hạn đến ngày nào, (2) thư viện có phòng học nhóm miễn phí/tính phí ra sao. Câu hỏi cuối nên liên quan trực tiếp (hỏi ngày giờ muốn đặt phòng). Nhớ xin lỗi ngắn gọn về lỗi website. Lỗi hay gặp: chỉ trả lời một trong hai thắc mắc của khách, dùng 'I want' thay vì 'I would like to', quên chào đầu và ký tên cuối thư."
+    },
+    {
+      "email": {
+        "from": "robert.nguyen@mailbox.example",
+        "to": "service@citytrustbank.example",
+        "subject": "Unexpected fee on my account",
+        "text": "To Customer Service,\n\nWhen I checked my monthly statement yesterday, I noticed a fee of $15 labeled as an account maintenance charge. I was told when I opened my savings account last year that there would be no monthly fees as long as I kept a balance above $1,000, and my balance has never been lower than that. I also received a new debit card last week, but it still does not work at the ATM.\n\nPlease explain these two problems and tell me how to fix them.\n\nRobert Nguyen"
+      },
+      "task": "Respond to the e-mail as a bank customer service representative. In your e-mail, apologize for the problem, give TWO pieces of information, and ask ONE question.",
+      "sample": "Dear Mr. Nguyen,\n\nI apologize for the problems you have had with your account. After checking your records, I can confirm that the $15 fee was charged by mistake, and it will be returned to your account within three business days. Your new debit card also needs to be activated before you can use it. You can do this by calling the number on the back of the card or by visiting any of our branches.\n\nCould you please tell me which branch is the most convenient for you? If you prefer, I can arrange for a replacement card to be sent to your home address.\n\nThank you for your patience.\n\nSincerely,\nKaren Wells\nCustomer Service, City Trust Bank",
+      "notes_vi": "Đề có 3 yêu cầu: xin lỗi, 2 thông tin (phí được hoàn lại khi nào, cách kích hoạt thẻ), 1 câu hỏi. Mở đầu bằng 'I apologize for...' hoặc 'I am sorry that...'. Dùng giọng lịch sự, trang trọng của dịch vụ khách hàng. Lỗi hay gặp: quên xin lỗi, đưa thông tin không rõ ràng (thiếu thời hạn hoàn tiền), dùng câu hỏi quá nhiều thay vì đúng một câu hỏi."
+    }
+  ],
+  "q8": {
+    "prompt": "Some people prefer to shop online, while others prefer to shop in physical stores. Which do you prefer, and why? Give reasons and examples to support your opinion.",
+    "sample": "I prefer shopping in a physical store for most things, although I understand why many people enjoy buying online. For me, the advantages of seeing and touching a product are more important than the convenience of a website.\n\nThe main reason is that I can check the quality of an item before I pay for it. When I buy clothes or shoes online, the size is often wrong, and the color in the photo can look different in real life. Sending the item back takes time, and sometimes I have to pay for the delivery. In a store, I can try things on, ask the staff for advice, and take the product home immediately. This is especially important for fresh food. I would never want to choose vegetables, fruit, or meat from a picture, because I cannot be sure that they are fresh.\n\nAnother reason is that shopping in person can be a pleasant experience. I often go to the market or the mall with my family on weekends. We walk around, have a snack, and sometimes find interesting things that we were not looking for. Online shopping is quiet and lonely by comparison. In addition, buying from local stores helps the community, because the money stays in the neighborhood and the shop owners can keep their employees.\n\nOf course, online shopping has real benefits. It is available twenty-four hours a day, and prices are often lower because websites can compare offers easily. For heavy items, such as a washing machine or a large bag of rice, home delivery saves a lot of effort. For example, last month I ordered a new desk online and it arrived at my door two days later. I also use websites to read reviews before I decide what to buy.\n\nFor this reason, I think the best method is to combine both. I read reviews and compare prices online, and then I visit a store to see the product myself. In conclusion, I prefer physical stores because they let me check quality, get help, and enjoy the experience, but I will keep using websites when they are clearly more practical.",
+    "notes_vi": "Đề yêu cầu chọn một phương án (Which do you prefer?) nên phải nêu lựa chọn ngay đoạn đầu và giữ nhất quán. Mỗi lý do cần ví dụ cụ thể. Có thể nhượng bộ ngắn cho phương án còn lại (Of course, ... has benefits) rồi quay về ý chính. Dùng từ nối: The main reason, Another reason, In addition, However, In conclusion. Lỗi hay gặp: liệt kê ưu điểm chung chung không có ví dụ, nhầm 'prefer A to B' / 'prefer doing A', và viết dưới 300 từ."
+  }
+}

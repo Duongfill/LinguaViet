@@ -1,0 +1,78 @@
+{
+  "q1_5": [
+    {
+      "scene": "👩‍💻💻🏢",
+      "alt": "A woman is typing on a laptop in an office.",
+      "words": ["laptop", "office"],
+      "samples": [
+        "A woman is typing on a laptop in an office.",
+        "The woman is working on her laptop at her desk in the office."
+      ]
+    },
+    {
+      "scene": "🚶‍♂️🧳🏨",
+      "alt": "A man is carrying a suitcase into a hotel.",
+      "words": ["suitcase", "hotel"],
+      "samples": [
+        "A man is carrying a suitcase into a hotel.",
+        "The traveler is pulling his suitcase toward the entrance of the hotel."
+      ]
+    },
+    {
+      "scene": "🤵🍝🍽️",
+      "alt": "A waiter is carrying plates of pasta to a table.",
+      "words": ["waiter", "plates"],
+      "samples": [
+        "A waiter is carrying two plates of pasta to the customers.",
+        "The waiter is serving the plates to a family in the restaurant."
+      ]
+    },
+    {
+      "scene": "🧍‍♀️🧳✈️🕒",
+      "alt": "A passenger is waiting at the airport while checking the time before her flight.",
+      "words": ["passenger", "while"],
+      "samples": [
+        "A passenger is checking her watch while she waits at the airport.",
+        "While the passenger is waiting for her flight, she is holding her luggage."
+      ]
+    },
+    {
+      "scene": "👩‍💻👨‍💻🖥️📅",
+      "alt": "Two colleagues are discussing a project because the deadline is coming soon.",
+      "words": ["colleagues", "because"],
+      "samples": [
+        "The colleagues are looking at a computer screen because the project deadline is near.",
+        "Two colleagues are talking about their schedule because they need to finish the work soon."
+      ]
+    }
+  ],
+  "q6_7": [
+    {
+      "email": {
+        "from": "daniel.brooks@harborsoft.example",
+        "to": "helpdesk@harborsoft.example",
+        "subject": "Laptop problem before client presentation",
+        "text": "Dear IT Support Team,\n\nMy laptop has been running very slowly since Monday, and it shut down twice during a video call this morning. I have an important presentation for a client on Friday at 2:00 p.m., and I cannot risk another problem. I have already restarted the computer and removed some old files, but nothing has changed.\n\nCould you please tell me when someone can look at it and whether I can borrow a temporary laptop? I will be at my desk on the third floor all week.\n\nBest regards,\nDaniel Brooks\nSales Department"
+      },
+      "task": "Respond to the e-mail as an IT support technician. In your e-mail, give TWO pieces of information and ask ONE question.",
+      "sample": "Dear Mr. Brooks,\n\nThank you for letting us know about your laptop. I am sorry for the trouble it has caused during your video calls. A technician can visit your desk tomorrow at 10:00 a.m. to check the computer, and the repair should take about one hour. If the problem is serious, we can also lend you a temporary laptop with all the programs you need for your presentation.\n\nBefore the visit, could you please tell me whether you have saved your presentation files in the cloud? If you have not, please copy them to the shared drive today so that nothing is lost.\n\nPlease contact me at extension 245 if you have any questions.\n\nBest regards,\nLisa Moreno\nIT Support Team",
+      "notes_vi": "Đề yêu cầu đúng 3 ý: 2 thông tin + 1 câu hỏi. Ở đây 2 thông tin là (1) kỹ thuật viên đến lúc 10:00 sáng mai và (2) có thể cho mượn laptop tạm; câu hỏi là về việc đã lưu file chưa. Mở bằng lời cảm ơn/xin lỗi ngắn, kết bằng một câu lịch sự. Lỗi hay gặp: quên câu hỏi (phải có dấu ?), viết thiếu 'could you please + động từ nguyên mẫu', hoặc viết quá dài lan man ngoài yêu cầu."
+    },
+    {
+      "email": {
+        "from": "emily.carter@mailbox.example",
+        "to": "reservations@lakeviewhotel.example",
+        "subject": "Questions about my reservation",
+        "text": "Dear Lakeview Hotel,\n\nI have booked a double room for three nights beginning on June 12. My flight arrives at the city airport at 9:30 p.m., so I would like to know whether the hotel offers a shuttle service at that time. I would also like to know if breakfast is included in the room price, because I could not find this information on your website.\n\nIn addition, I am attending a conference during my stay, and I would be grateful for a quiet room away from the elevator.\n\nSincerely,\nEmily Carter"
+      },
+      "task": "Respond to the e-mail as the hotel manager. In your e-mail, answer TWO questions and make ONE request.",
+      "sample": "Dear Ms. Carter,\n\nThank you for choosing the Lakeview Hotel. I am pleased to answer your questions. Our free shuttle runs between the airport and the hotel every thirty minutes until 11:00 p.m., so you will be able to take it after your flight lands. Breakfast is included in your room price, and it is served in the restaurant on the first floor from 6:30 to 10:00 a.m.\n\nWe have noted your request for a quiet room, and we will place you on the fifth floor, far from the elevator. To make the shuttle arrangement easier, please send us your flight number by e-mail at least one day before you arrive.\n\nWe look forward to welcoming you.\n\nSincerely,\nAndrew Collins\nGeneral Manager",
+      "notes_vi": "Phải trả lời ĐÚNG hai câu hỏi trong email (xe đưa đón sân bay, bữa sáng) rồi mới đưa ra MỘT đề nghị với khách (gửi số hiệu chuyến bay). Đừng quên xác nhận yêu cầu phòng yên tĩnh cho lịch sự. Dùng cấu trúc 'please + động từ' hoặc 'Could you please...' cho đề nghị. Lỗi hay gặp: trả lời mơ hồ ('maybe', 'I think'), thiếu giờ giấc cụ thể, hoặc nhầm vai (viết như khách thay vì quản lý khách sạn)."
+    }
+  ],
+  "q8": {
+    "prompt": "Some companies allow employees to work from home several days a week. Do you agree or disagree that this is a good policy? Give reasons and examples to support your opinion.",
+    "sample": "I agree that letting employees work from home several days a week is a good policy, although it works best when a company sets clear rules. In my opinion, the benefits for both workers and employers are greater than the problems.\n\nFirst, working from home saves a great deal of time and money. In a big city, many people spend more than two hours a day on buses or in traffic. If they work at home, they can use that time to rest, exercise, or start their tasks earlier. They also spend less on fuel, public transport, and lunch. As a result, employees feel less tired and more satisfied with their jobs, and satisfied employees usually stay with a company for longer. This reduces the cost of hiring and training new staff.\n\nSecond, many people concentrate better at home. An open office can be noisy, and colleagues often stop by to ask quick questions. When I need to write a long report or solve a difficult problem, a quiet room helps me finish the work faster and with fewer mistakes. For example, one of my friends who works as a software developer says that he completes his most complicated tasks on the days he stays at home, and he saves the office days for meetings and teamwork.\n\nHowever, I understand that remote work has some disadvantages. Some employees feel lonely, and new workers may find it harder to learn from experienced people. Communication can also become slow if team members are in different places. For these reasons, I believe companies should not allow full-time remote work for everyone. A balanced plan, such as three days at home and two days in the office, solves most of these problems. Managers can hold important meetings on office days, and staff can still build friendships with their coworkers.\n\nIn conclusion, working from home a few days each week saves time, improves focus, and makes employees happier. If companies combine it with regular office days and good communication tools, the policy can benefit everyone. For these reasons, I strongly support it.",
+    "notes_vi": "Cấu trúc 4 đoạn: (1) nêu quan điểm rõ ràng, (2) lý do 1 + ví dụ, (3) lý do 2 + ví dụ, (4) nhượng bộ ngắn rồi kết luận. Dùng từ nối: First, Second, However, As a result, In conclusion. Cần ít nhất 300 từ, mỗi lý do phải có ví dụ cụ thể (bản thân, bạn bè, công ty). Lỗi hay gặp: nêu ý kiến nhưng không giải thích, đổi quan điểm giữa bài, lặp lại cùng một từ như 'good' quá nhiều, và thiếu đoạn kết."
+  }
+}
