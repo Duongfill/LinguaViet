@@ -55,10 +55,10 @@ export default function Decks() {
         </div>
       </div>
       {shown.map(([l, list]) => (
-        <section key={l} className="stack level-group">
+        <section key={l} className="level-group">
           <h3 className="level-title">{levelLabel(l)} <span className="muted small">· {list.length} bộ · {list.reduce((s, d) => s + d.card_count, 0)} từ</span></h3>
       {list.map((d) => (
-        <div key={d.id} className="card">
+        <div key={d.id} className={`card deck-card ${open === d.id ? 'open' : ''}`}>
           <button className="deck-head" onClick={() => toggle(d)} aria-expanded={open === d.id}>
             <div>
               <strong>{d.title}</strong> <span className="badge">{d.level}</span>

@@ -81,6 +81,21 @@ export default function Quiz() {
 
   const next = () => { setIdx((i) => i + 1); setPicked(null); setTyped(''); };
 
+  // Phím tắt trên máy tính: 1–4 chọn đáp án, Enter sang câu tiếp
+  useEffect(() => {
+    const onKey = (e) => {
+      if (!q || e.ctrlKey || e.metaKey || e.altKey) return;
+      const typing = ['INPUT', 'TEXTAREA', 'SELECT'].includes(e.target.tagName);
+      if (picked && e.key === 'Enter' && e.target.tagName !== 'BUTTON') { e.preventDefault(); next(); return; }
+      if (!picked && !typing && mode !== 'type' && /^[1-4]$/.test(e.key)) {
+        const opt = q.options[Number(e.key) - 1];
+        if (opt) choose(opt);
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  });
+
   const prompt = useMemo(() => {
     if (!q) return null;
     if (mode === 'meaning') return <div className={`term ${scriptClass(lang)}`}>{q.card.term}</div>;
@@ -89,7 +104,7 @@ export default function Quiz() {
   }, [q, mode, lang]);
 
   return (
-    <div className="stack">
+    <div className="stack page-narrow">
       <div className="toolbar">
         <h2>Quiz</h2>
         <DeckPicker lang={lang} value={deck} onChange={setDeck} />
@@ -128,11 +143,12 @@ export default function Quiz() {
             </form>
           ) : (
             <div className="options">
-              {q.options.map((o) => {
+              {q.options.map((o, i) => {
                 let cls = '';
                 if (picked) cls = o.id === q.card.id ? 'right' : o.id === picked.id ? 'wrong' : 'dim';
                 return (
                   <button key={o.id} className={`option ${cls}`} onClick={() => choose(o)}>
+                    <span className="kbd-hint">{i + 1}</span>
                     {mode === 'meaning' ? o.meaning_vi : <span className={scriptClass(lang)}>{o.term}</span>}
                   </button>
                 );

@@ -84,7 +84,7 @@ export default function Translate() {
   const label = LANG_INFO[lang].short;
 
   return (
-    <div className="stack">
+    <div className="stack page-narrow">
       <div className="toolbar">
         <h2>🔁 Dịch câu</h2>
         <DeckPicker lang={lang} value={deck} onChange={setDeck} />

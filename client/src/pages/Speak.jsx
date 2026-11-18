@@ -90,7 +90,7 @@ export default function Speak() {
   const verdict = (s) => (s >= 90 ? ['Tuyệt vời!', 'ok'] : s >= 70 ? ['Khá tốt, gần đúng rồi', 'warn'] : ['Chưa chuẩn, thử lại nhé', 'bad']);
 
   return (
-    <div className="stack speak-page">
+    <div className="stack speak-page page-narrow">
       <div className="toolbar">
         <h2>Luyện phát âm</h2>
         <DeckPicker lang={lang} value={deck} onChange={setDeck} />

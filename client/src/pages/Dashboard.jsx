@@ -42,6 +42,7 @@ export default function Dashboard() {
         )}
       </div>
 
+      <div className="dash-split">
       <div className="card">
         <h3>Tiến độ theo trình độ</h3>
         <div className="level-progress">
@@ -62,6 +63,7 @@ export default function Dashboard() {
       <div className="card">
         <h3>7 ngày gần đây</h3>
         <WeekChart data={stats.last7} />
+      </div>
       </div>
     </div>
   );

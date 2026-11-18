@@ -62,7 +62,7 @@ export default function Flashcards() {
   }, [answer, flipped]);
 
   return (
-    <div className="stack">
+    <div className="stack page-narrow">
       <div className="toolbar">
         <h2>Flashcard</h2>
         <DeckPicker lang={lang} value={deck} onChange={setDeck} myLabel="Từ trình độ của tôi trở lên" />
