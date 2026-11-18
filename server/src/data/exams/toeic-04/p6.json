@@ -1,0 +1,153 @@
+{
+  "part": 6,
+  "groups": [
+    {
+      "kind": "email",
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Email",
+          "text": "To: Tran Kim Anh <kimanh.tran@mailbox.example>\nFrom: Customer Relations <relations@skyvaleairways.example>\nSubject: Update on Your Delayed Baggage (Claim #SV-20417)\n\nDear Ms. Tran,\n\nThank you for contacting Skyvale Airways about your missing suitcase. We [1] your bag at the Singapore transfer point yesterday afternoon, and it is now being [2] to your home address in Hue. [3] You should receive it within two business days.\n\nIf the bag arrives with any damage, please [4] us at the number below within seven days so that we can open a compensation request on your behalf.\n\nWe sincerely apologize for the trouble and thank you for flying with us.\n\nSincerely,\nPeter Alvarez\nCustomer Relations, Skyvale Airways"
+        }
+      ],
+      "questions": [
+        {
+          "options": ["have located", "located", "locating", "will locate"],
+          "answer": 1,
+          "explain": "Có mốc thời gian quá khứ \"yesterday afternoon\" nên dùng quá khứ đơn: located. Hiện tại hoàn thành \"have located\" không đi với mốc thời gian đã qua; \"will locate\" là tương lai."
+        },
+        {
+          "options": ["deliver", "delivery", "delivering", "delivered"],
+          "answer": 3,
+          "explain": "Cấu trúc bị động tiếp diễn \"is now being + V3\": is being delivered (đang được giao). Hành lý là vật được giao nên cần phân từ quá khứ."
+        },
+        {
+          "options": [
+            "Our courier will call you before arriving to confirm that someone is home.",
+            "Skyvale Airways has recently added several new flights to Singapore.",
+            "Your frequent-flyer points will expire at the end of the year.",
+            "Please remember to arrive at the airport two hours before departure."
+          ],
+          "answer": 0,
+          "explain": "Câu trước nói hành lý đang được giao đến nhà, câu sau nói \"You should receive it within two business days\"; câu A về việc nhân viên giao hàng gọi điện báo trước nối mạch hợp lý. Các câu B, C, D không liên quan đến việc giao hành lý."
+        },
+        {
+          "options": ["contacting", "contacted", "contact", "contacts"],
+          "answer": 2,
+          "explain": "Sau \"please\" trong câu mệnh lệnh cần động từ nguyên mẫu: please contact us (vui lòng liên hệ chúng tôi). Các dạng V-ing, quá khứ hoặc thêm -s không đúng cấu trúc."
+        }
+      ]
+    },
+    {
+      "kind": "notice",
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Notice to Customers",
+          "text": "NOTICE TO CUSTOMERS\nScheduled Water Service Interruption\n\nGreenfield Water Utility will [1] maintenance on the main pipeline along Riverside Avenue on Saturday, June 8, from 9:00 A.M. to 3:00 P.M. [2] this time, water service will be unavailable to homes and businesses between Elm Street and Harbor Road. [3]\n\nCustomers are advised to store enough water for drinking and cooking before the work begins. Service is expected to [4] to normal by early evening, although water may appear cloudy for a short period. If this happens, simply run your taps for a few minutes until the water is clear.\n\nFor updates, please call our service line at 555-0142 or visit our website. We appreciate your understanding."
+        }
+      ],
+      "questions": [
+        {
+          "options": ["performs", "performed", "perform", "performing"],
+          "answer": 2,
+          "explain": "Sau trợ động từ khiếm khuyết \"will\" cần động từ nguyên mẫu: will perform maintenance (sẽ tiến hành bảo trì). Các dạng còn lại không đứng sau will."
+        },
+        {
+          "options": ["During", "While", "Since", "Until"],
+          "answer": 0,
+          "explain": "Sau chỗ trống là cụm danh từ \"this time\" (khoảng thời gian bảo trì), nên dùng giới từ: During this time. \"While\" cần mệnh đề, \"Since\" và \"Until\" sai nghĩa."
+        },
+        {
+          "options": [
+            "The utility's headquarters will move to a new building next year.",
+            "Water rates will increase by three percent beginning in July.",
+            "We recommend that you replace any old faucets in your home.",
+            "Emergency water tanks will be available at the Riverside Community Center."
+          ],
+          "answer": 3,
+          "explain": "Đoạn đang nói về việc cúp nước nên câu D, cung cấp nguồn nước khẩn cấp cho khách, là thông tin liên quan và nối tiếp lời khuyên tích trữ nước ở đoạn sau. Các câu A, B, C nói về chủ đề khác."
+        },
+        {
+          "options": ["returned", "return", "returning", "returns"],
+          "answer": 1,
+          "explain": "Cấu trúc \"be expected to + động từ nguyên mẫu\": expected to return to normal (dự kiến trở lại bình thường). Không dùng dạng chia thì sau \"to\"."
+        }
+      ]
+    },
+    {
+      "kind": "memo",
+      "passages": [
+        {
+          "kind": "memo",
+          "title": "Staff Newsletter",
+          "text": "HARBOR ELECTRONICS STAFF UPDATE\nOctober Edition\n\nWelcome to our new colleagues! This month, the Human Resources department [1] six new associates to the Harbor Electronics family. Three of them will work at our downtown store, while the others [2] to the Westgate branch. [3]\n\nAll new employees will take part in a two-day orientation, [4] they will learn about our product range, store policies, and customer service standards. After the orientation, each associate will be paired with an experienced mentor for the first month.\n\nIf you would like to volunteer as a mentor for the next hiring round, please contact Ms. Reyes in Human Resources by October 25."
+        }
+      ],
+      "questions": [
+        {
+          "options": ["has welcomed", "welcoming", "to welcome", "welcome"],
+          "answer": 0,
+          "explain": "Chủ ngữ \"the Human Resources department\" số ít và có \"This month\" (khoảng thời gian chưa kết thúc) nên dùng hiện tại hoàn thành: has welcomed. \"welcome\" sai hòa hợp chủ vị, các dạng còn lại không phải động từ chính."
+        },
+        {
+          "options": ["assign", "will assign", "will be assigned", "are assigning"],
+          "answer": 2,
+          "explain": "\"the others\" là người được phân công đến chi nhánh và sau chỗ trống không có tân ngữ, nên cần thể bị động tương lai: will be assigned. Các dạng chủ động sẽ cần một tân ngữ."
+        },
+        {
+          "options": [
+            "The Westgate branch was originally opened in 2015.",
+            "Please join us in giving them a warm welcome when you meet them on the sales floor.",
+            "The cafeteria menu will change at the start of next month.",
+            "Last quarter's sales figures exceeded all of our targets."
+          ],
+          "answer": 1,
+          "explain": "Đoạn đang giới thiệu nhân viên mới, nên lời kêu gọi chào đón họ (câu B) là phù hợp nhất. Các câu A, C, D nói về chi nhánh, căng tin và doanh số, không liên quan."
+        },
+        {
+          "options": ["who", "what", "which", "where"],
+          "answer": 3,
+          "explain": "Mệnh đề sau dấu phẩy bổ nghĩa cho \"a two-day orientation\" (một địa điểm/sự kiện nơi họ sẽ học), có đủ chủ ngữ và động từ \"they will learn\", nên dùng trạng từ quan hệ \"where\". \"which\" thiếu giới từ \"during\", \"who\" chỉ người."
+        }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Event Advertisement",
+          "text": "THE 12TH ANNUAL VALLEY HARVEST FESTIVAL\nSaturday, October 19 | 10:00 A.M. to 6:00 P.M. | Millbrook Farm\n\nJoin us for a day of food, music, and family fun! Visitors can [1] fresh vegetables, honey, and homemade cheese directly from local growers. [2] The festival also features live music, cooking demonstrations, and games for children.\n\nAdmission is free, [3] parking costs five dollars per vehicle. Early registration for the pie-baking contest is [4] until October 10 at the information booth or on our website.\n\nCome hungry, bring your family, and enjoy the best of the season!"
+        }
+      ],
+      "questions": [
+        {
+          "options": ["purchasing", "purchased", "purchases", "purchase"],
+          "answer": 3,
+          "explain": "Sau động từ khiếm khuyết \"can\" cần động từ nguyên mẫu: Visitors can purchase (khách có thể mua). Các dạng V-ing, quá khứ hoặc thêm -s không đứng sau can."
+        },
+        {
+          "options": [
+            "Tickets for the winter concert series are now sold out.",
+            "Many of the growers will offer free samples so you can taste before you buy.",
+            "The farm's tractor was damaged in a storm last spring.",
+            "Please submit your quarterly expense report by Friday."
+          ],
+          "answer": 1,
+          "explain": "Câu trước nói khách có thể mua nông sản từ người trồng, nên câu B về việc cho nếm thử trước khi mua nối tiếp tự nhiên. Các câu A, C, D không liên quan đến lễ hội thu hoạch."
+        },
+        {
+          "options": ["so", "or", "but", "because"],
+          "answer": 2,
+          "explain": "Hai vế đối lập: vào cửa miễn phí nhưng phải trả tiền đỗ xe, nên dùng liên từ tương phản \"but\". \"so\", \"or\" và \"because\" làm sai nghĩa."
+        },
+        {
+          "options": ["available", "availability", "avail", "availably"],
+          "answer": 0,
+          "explain": "Sau động từ \"is\" cần tính từ làm vị ngữ: registration is available until October 10 (có thể đăng ký đến ngày 10/10). \"availability\" là danh từ, \"avail\" là động từ, \"availably\" không tồn tại."
+        }
+      ]
+    }
+  ]
+}

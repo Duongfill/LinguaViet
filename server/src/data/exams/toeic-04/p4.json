@@ -1,0 +1,164 @@
+{
+  "part": 4,
+  "groups": [
+    {
+      "kind": "airport announcement",
+      "audio": [
+        { "s": "N", "t": "May I have your attention, passengers on Horizon Airways flight 62 to Seoul." },
+        { "s": "N", "t": "Because of heavy fog at the destination, our departure has been postponed by approximately two hours." },
+        { "s": "N", "t": "Please keep your boarding pass, as the gate may change if the delay continues." },
+        { "s": "N", "t": "Passengers with connecting flights should see the transfer desk, where agents will reserve new seats for you." },
+        { "s": "N", "t": "Meal vouchers worth fifteen dollars will be available at the information counter starting in thirty minutes." },
+        { "s": "N", "t": "We appreciate your understanding." }
+      ],
+      "questions": [
+        { "q": "Why is the flight delayed?", "options": ["A staff shortage", "Foggy weather at the destination", "The late arrival of the aircraft", "Runway repairs"], "answer": 1, "explain": "Thông báo nói 'Because of heavy fog at the destination'." },
+        { "q": "What are passengers with connecting flights asked to do?", "options": ["Go to the transfer desk", "Check their luggage again", "Wait in the lounge", "Print a new ticket"], "answer": 0, "explain": "Họ được yêu cầu 'see the transfer desk' để được giữ chỗ mới." },
+        { "q": "What will be available in thirty minutes?", "options": ["Hotel rooms", "Free Wi-Fi codes", "Meal vouchers", "Seat upgrades"], "answer": 2, "explain": "Câu 'Meal vouchers ... will be available ... starting in thirty minutes'." }
+      ]
+    },
+    {
+      "kind": "media briefing",
+      "audio": [
+        { "s": "W", "t": "Good morning, this is the Daily Ledger's weekly briefing for our readers." },
+        { "s": "W", "t": "This Sunday, we're launching a redesigned digital edition that you can read on your phone or tablet." },
+        { "s": "W", "t": "Current print subscribers will receive free access for six months." },
+        { "s": "W", "t": "To activate your account, simply visit our Web site and enter the subscriber number printed on your mailing label." },
+        { "s": "W", "t": "Also, our travel section will now include readers' photographs, so please submit your best vacation pictures by the end of the month." },
+        { "s": "W", "t": "The winner will be featured on the cover of our August supplement." }
+      ],
+      "questions": [
+        { "q": "What is being launched on Sunday?", "options": ["A radio program", "A travel section", "A photography contest", "A redesigned digital edition"], "answer": 3, "explain": "Người nói nói 'we're launching a redesigned digital edition'." },
+        { "q": "How can listeners activate their accounts?", "options": ["By calling customer service", "By visiting a store", "By entering a subscriber number online", "By e-mailing a photo"], "answer": 2, "explain": "Họ cần 'visit our Web site and enter the subscriber number'." },
+        { "q": "What will the contest winner receive?", "options": ["A free trip", "A cover feature", "A digital tablet", "A cash prize"], "answer": 1, "explain": "Người thắng cuộc sẽ 'be featured on the cover' của số phụ trương tháng Tám. Không nhắc tới giải thưởng khác." }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "audio": [
+        { "s": "M", "t": "Looking for fresh, healthy food for your family? Visit Green Valley Farm this weekend." },
+        { "s": "M", "t": "Our annual harvest festival runs Saturday and Sunday from nine until five." },
+        { "s": "M", "t": "You can pick your own apples and pumpkins, and every visitor under twelve gets a free cup of hot cider." },
+        { "s": "M", "t": "We'll also have live music, a petting zoo, and cooking demonstrations using our own organic vegetables." },
+        { "s": "M", "t": "Admission is free, but parking costs five dollars per vehicle." },
+        { "s": "M", "t": "For a ten percent discount on any purchase, mention this advertisement at the entrance." }
+      ],
+      "questions": [
+        { "q": "What event is being advertised?", "options": ["A harvest festival", "A cooking competition", "A farmers' conference", "A store opening"], "answer": 0, "explain": "Câu 'Our annual harvest festival runs Saturday and Sunday'." },
+        { "q": "What is offered to visitors under twelve?", "options": ["Free parking", "A petting zoo ticket", "A pumpkin", "A free cup of cider"], "answer": 3, "explain": "'every visitor under twelve gets a free cup of hot cider'. Vào cổng miễn phí cho mọi người nên (A) không đặc biệt cho trẻ em." },
+        { "q": "How can listeners get a discount?", "options": ["By arriving before noon", "By carpooling", "By mentioning the advertisement", "By joining a membership"], "answer": 2, "explain": "Người nói nói 'mention this advertisement at the entrance' để được giảm 10%." }
+      ]
+    },
+    {
+      "kind": "voicemail",
+      "audio": [
+        { "s": "W", "t": "Hello, this is Carla Mendes from Northfield Electric calling for Mr. Ibrahim." },
+        { "s": "W", "t": "We're scheduled to replace the electricity meter at your property this Thursday between one and three p.m." },
+        { "s": "W", "t": "The work should take about thirty minutes, and power will be off during that time, so please unplug sensitive equipment such as computers." },
+        { "s": "W", "t": "Someone over eighteen needs to be at home to let our technician in." },
+        { "s": "W", "t": "If that time doesn't work, please call us back at 555-0147 before Wednesday noon so we can reschedule." },
+        { "s": "W", "t": "Thank you." }
+      ],
+      "questions": [
+        { "q": "What will be done on Thursday?", "options": ["A bill will be delivered.", "A line will be repaired.", "A new account will be created.", "A meter will be replaced."], "answer": 3, "explain": "Người nói nói 'We're scheduled to replace the electricity meter ... this Thursday'." },
+        { "q": "What does the speaker ask the listener to do before the work?", "options": ["Pay a deposit", "Unplug electronic equipment", "Move his vehicle", "Turn off the water"], "answer": 1, "explain": "Câu 'please unplug sensitive equipment such as computers'." },
+        { "q": "Why might the listener call back?", "options": ["To change the appointment time", "To request a refund", "To report an outage", "To verify a payment"], "answer": 0, "explain": "'If that time doesn't work, please call us back ... so we can reschedule' tức là gọi lại để đổi lịch hẹn." }
+      ]
+    },
+    {
+      "kind": "store announcement",
+      "audio": [
+        { "s": "M", "t": "Attention, shoppers. Welcome to Bright Circuit's anniversary weekend sale." },
+        { "s": "M", "t": "For the next two hours, all laptops and tablets are marked down by up to thirty percent." },
+        { "s": "M", "t": "In addition, customers who spend more than two hundred dollars will receive a wireless mouse at no extra cost." },
+        { "s": "M", "t": "If you'd like help comparing models, our staff members in blue shirts are ready to assist you." },
+        { "s": "M", "t": "Please note that the sale does not apply to the digital cameras in aisle nine, which are already discounted." },
+        { "s": "M", "t": "The sale ends at four o'clock, so don't miss out." }
+      ],
+      "questions": [
+        { "q": "What is being promoted?", "options": ["A closing sale", "A new product line", "A store opening", "An anniversary sale"], "answer": 3, "explain": "Mở đầu: 'Welcome to Bright Circuit's anniversary weekend sale'." },
+        { "q": "What will customers who spend over two hundred dollars receive?", "options": ["A gift card", "A free battery", "A wireless mouse", "An extended warranty"], "answer": 2, "explain": "'will receive a wireless mouse at no extra cost'." },
+        { "q": "What does the speaker say about the cameras?", "options": ["They are out of stock.", "They are not included in the sale.", "They are reduced by thirty percent.", "They are sold only online."], "answer": 1, "explain": "'the sale does not apply to the digital cameras in aisle nine'." }
+      ]
+    },
+    {
+      "kind": "welcome talk",
+      "audio": [
+        { "s": "W", "t": "Good evening, everyone, and welcome to Coral Bay Resort." },
+        { "s": "W", "t": "I'm Mina, your activities coordinator, and I'd like to go over a few things for this week." },
+        { "s": "W", "t": "Tomorrow morning at seven thirty, we'll offer a sunrise yoga session on the east terrace, followed by a healthy breakfast." },
+        { "s": "W", "t": "On Wednesday, a boat tour of the nearby islands departs from the main dock at ten. Spaces are limited, so please sign up at the front desk by tomorrow evening." },
+        { "s": "W", "t": "And a quick reminder that the swimming pool will be closed for cleaning on Thursday between noon and three." },
+        { "s": "W", "t": "If you need anything, just dial zero from your room phone." }
+      ],
+      "questions": [
+        { "q": "Who is the speaker?", "options": ["An activities coordinator", "A chef", "A boat captain", "A front desk clerk"], "answer": 0, "explain": "Cô tự giới thiệu 'I'm Mina, your activities coordinator'." },
+        { "q": "What are listeners asked to do by tomorrow evening?", "options": ["Return their room keys", "Choose a breakfast menu", "Sign up for a boat tour", "Fill out a survey"], "answer": 2, "explain": "'Spaces are limited, so please sign up at the front desk by tomorrow evening' (chuyến đi thuyền)." },
+        { "q": "What will happen on Thursday?", "options": ["The terrace will close.", "The dock will be repaired.", "The yoga session will move.", "The pool will be closed for a while."], "answer": 3, "explain": "'the swimming pool will be closed for cleaning on Thursday between noon and three'." }
+      ]
+    },
+    {
+      "kind": "staff announcement",
+      "audio": [
+        { "s": "M", "t": "Good afternoon, everyone. This is Greg from the human resources department with a few updates." },
+        { "s": "M", "t": "First, the annual performance reviews will begin on the first of next month. Each of you will receive a self-evaluation form by e-mail this Friday, and it must be returned to your supervisor within one week." },
+        { "s": "M", "t": "Second, we're introducing a flexible schedule pilot program. Staff in the accounting and design teams may now start work anytime between seven and ten a.m." },
+        { "s": "M", "t": "If this goes well, we may expand it to other departments after the summer." },
+        { "s": "M", "t": "Lastly, the company health screening will take place in the main lobby on the fifteenth. Appointments can be made on the staff portal." }
+      ],
+      "questions": [
+        { "q": "What will employees receive on Friday?", "options": ["A new work schedule", "A self-evaluation form", "A health insurance card", "A pay raise notice"], "answer": 1, "explain": "'Each of you will receive a self-evaluation form by e-mail this Friday'." },
+        { "q": "Which teams are included in the pilot program?", "options": ["Accounting and design", "Sales and marketing", "IT and legal", "Every department"], "answer": 0, "explain": "'Staff in the accounting and design teams may now start work anytime between seven and ten'. Các phòng khác chỉ có thể được mở rộng sau." },
+        { "q": "How can employees schedule a health screening?", "options": ["By calling HR", "By e-mailing a supervisor", "By visiting the lobby", "By using the staff portal"], "answer": 3, "explain": "'Appointments can be made on the staff portal'. Sảnh chính chỉ là nơi diễn ra buổi khám." }
+      ]
+    },
+    {
+      "kind": "tour introduction",
+      "audio": [
+        { "s": "W", "t": "Welcome to the Old Town walking tour, everyone. My name is Helena, and I'll be your guide today." },
+        { "s": "W", "t": "We'll begin at the cathedral, which dates back to the twelfth century, and then walk to the central market." },
+        { "s": "W", "t": "Please note that photography is not allowed inside the cathedral, but you'll have plenty of chances to take pictures at the market." },
+        { "s": "W", "t": "We'll make a short stop at a bakery, where you can sample local pastries. Anyone with allergies should let me know now." },
+        { "s": "W", "t": "The tour lasts about two hours, and we'll finish at the riverside park. Please stay close, as the streets are crowded." },
+        { "s": "W", "t": "Now, if you're ready, let's get started." }
+      ],
+      "questions": [
+        { "q": "Where will the tour begin?", "options": ["At a bakery", "At the central market", "At a cathedral", "At a riverside park"], "answer": 2, "explain": "'We'll begin at the cathedral'. Chợ là điểm kế tiếp, công viên là điểm kết thúc." },
+        { "q": "What are listeners told they cannot do?", "options": ["Buy souvenirs", "Take photographs inside a building", "Taste some pastries", "Walk in a park"], "answer": 1, "explain": "'photography is not allowed inside the cathedral'." },
+        { "q": "What are people with allergies asked to do?", "options": ["Wear a badge", "Bring their own food", "Notify the guide", "Stay on the bus"], "answer": 2, "explain": "'Anyone with allergies should let me know now', tức là báo cho hướng dẫn viên." }
+      ]
+    },
+    {
+      "kind": "instructions",
+      "audio": [
+        { "s": "M", "t": "Thank you for purchasing the Aura smart thermostat, which can help reduce your energy use by up to fifteen percent." },
+        { "s": "M", "t": "Before you begin installation, please turn off the power to your heating system at the main circuit breaker." },
+        { "s": "M", "t": "Remove the old thermostat and label each wire using the stickers included in the box." },
+        { "s": "M", "t": "Next, connect the wires to the matching terminals on the back plate and attach the new display." },
+        { "s": "M", "t": "Once the power is turned back on, download the Aura app and follow the instructions to connect the device to your home Wi-Fi." },
+        { "s": "M", "t": "If you run into trouble, our support team is available twenty-four hours a day at the number on the back of the manual." }
+      ],
+      "questions": [
+        { "q": "What is a benefit of the product?", "options": ["It can lower energy use.", "It heats a room faster.", "It purifies the air.", "It is solar powered."], "answer": 0, "explain": "'can help reduce your energy use by up to fifteen percent'." },
+        { "q": "What should listeners do before installation?", "options": ["Download an app", "Turn off the electricity", "Buy new wires", "Contact support"], "answer": 1, "explain": "'Before you begin installation, please turn off the power ... at the main circuit breaker'. Tải ứng dụng làm sau khi bật điện lại." },
+        { "q": "What does the speaker say is available around the clock?", "options": ["Software updates", "Home delivery", "Customer support", "Repair visits"], "answer": 2, "explain": "'our support team is available twenty-four hours a day'." }
+      ]
+    },
+    {
+      "kind": "news report",
+      "audio": [
+        { "s": "W", "t": "In local news, Millbrook's city council has approved a plan to upgrade the town's water treatment plant." },
+        { "s": "W", "t": "The project, which will cost twelve million dollars, is expected to begin in March and take about eighteen months." },
+        { "s": "W", "t": "Officials say the upgrade will improve water quality and reduce the risk of service interruptions during the summer." },
+        { "s": "W", "t": "To help pay for it, the average household will see a monthly increase of three dollars on their water bill starting next year." },
+        { "s": "W", "t": "A public meeting will be held next Tuesday at seven p.m. at the library, where residents can ask questions." },
+        { "s": "W", "t": "Now, on to the weather." }
+      ],
+      "questions": [
+        { "q": "What did the city council approve?", "options": ["A new reservoir", "A tax cut", "A road project", "A water plant upgrade"], "answer": 3, "explain": "'approved a plan to upgrade the town's water treatment plant'." },
+        { "q": "According to the speaker, what will happen next year?", "options": ["Residents will vote on a tax.", "The project will be finished.", "Water bills will go up.", "A new plant manager will start."], "answer": 2, "explain": "'the average household will see a monthly increase of three dollars on their water bill starting next year'." },
+        { "q": "Where will a public meeting be held?", "options": ["At city hall", "At a library", "At the plant", "At a school"], "answer": 1, "explain": "'A public meeting will be held next Tuesday ... at the library'." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,819 @@
+{
+  "part": 7,
+  "groups": [
+    {
+      "kind": "email",
+      "passages": [
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: Carla Mendes <cmendes@sunrisebakery.example>\nFrom: Raymond Ito <rito@itovance.example>\nDate: October 14\nSubject: Documents needed for your lease review\n\nDear Ms. Mendes,\n\nThank you for choosing Ito & Vance to review the lease for your new bakery location on Harlow Street. Attorney Vance has begun reading the agreement and has noted several clauses she would like to discuss with you, especially those on rent increases and early termination.\n\nTo complete our review, we still need three items: a copy of your business license, the floor plan of the premises, and the landlord's proof of insurance. You may send them as attachments to this e-mail or drop them off at our office, which is open weekdays from 8:30 A.M. to 5:00 P.M.\n\nBecause the landlord has asked for a signed lease by October 28, we would like to receive the documents by Friday, October 18. Attorney Vance has openings for a meeting on October 21 or 22.\n\nSincerely,\nRaymond Ito\nParalegal, Ito & Vance LLP"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the main purpose of the e-mail?",
+          "options": [
+            "To confirm payment of legal fees",
+            "To announce a change in office hours",
+            "To request documents needed for a legal review",
+            "To invite Ms. Mendes to sign a lease"
+          ],
+          "answer": 2,
+          "explain": "Đoạn 2 nêu \"we still need three items\" (giấy phép kinh doanh, sơ đồ mặt bằng, bảo hiểm của chủ nhà) để hoàn tất việc xem xét hợp đồng thuê, nên mục đích là yêu cầu giấy tờ."
+        },
+        {
+          "q": "By what date does the landlord want the lease to be signed?",
+          "options": [
+            "October 28",
+            "October 18",
+            "October 21",
+            "October 22"
+          ],
+          "answer": 0,
+          "explain": "Email nói \"the landlord has asked for a signed lease by October 28\". Các ngày 18 (hạn nộp giấy tờ), 21 và 22 (ngày có thể họp) là bẫy."
+        }
+      ]
+    },
+    {
+      "kind": "notice",
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Notice",
+          "text": "NOTICE TO ALL TENANTS\nWestbrook Commerce Center\nJune 3\n\nElevator Modernization Project\n\nBeginning Monday, June 17, Elevators 3 and 4 in the north tower will be closed for modernization work by Kestrel Lift Services. The project is expected to last six weeks. Elevators 1 and 2 will remain in service, but tenants should expect longer waits during the morning and lunch hours.\n\nTenants on floors 2 through 5 are encouraged to use the stairwells, which have been repainted and fitted with new lighting. Deliveries of large items must be scheduled with the front desk at least 48 hours in advance so that the service elevator can be reserved.\n\nAnyone with mobility concerns should call Ms. Odette Lamar at 555-0142 to arrange assistance. We apologize for the inconvenience and thank you for your patience.\n\nBuilding Management"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What are tenants on the lower floors encouraged to do?",
+          "options": [
+            "Work from home",
+            "Avoid the north tower",
+            "Call Kestrel Lift Services",
+            "Use the stairs"
+          ],
+          "answer": 3,
+          "explain": "Đoạn 2: \"Tenants on floors 2 through 5 are encouraged to use the stairwells\" - stairwells chính là cầu thang bộ."
+        },
+        {
+          "q": "According to the notice, what must tenants do to have large items delivered?",
+          "options": [
+            "Wait until the project ends",
+            "Notify the front desk two days ahead",
+            "Pay an additional fee",
+            "Contact Ms. Lamar"
+          ],
+          "answer": 1,
+          "explain": "\"at least 48 hours in advance\" = trước ít nhất hai ngày, và phải báo cho front desk. Ms. Lamar chỉ hỗ trợ người gặp khó khăn về di chuyển."
+        }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Advertisement",
+          "text": "IRONLEAF FITNESS\nGrand Opening in Dalton Plaza!\n\nJoin before March 31 and pay NO enrollment fee (normally $60).\n\nBasic - $29 per month\nUse of the gym floor, open 6:00 A.M. to 10:00 P.M. daily.\n\nPlus - $45 per month\nEverything in Basic, plus unlimited group classes such as yoga, spin, and boxing.\n\nPremium - $62 per month\nEverything in Plus, plus sauna access, towel service, and one personal-training session each month. Premium members may enter the club at any hour with their key card.\n\nNot sure yet? Pick up a free 7-day trial pass at the front desk (photo ID required). Refer a friend and receive one month free. This offer cannot be combined with the student discount."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What are new members offered if they join before March 31?",
+          "options": [
+            "A waived enrollment fee",
+            "A free personal-training session",
+            "A discount on monthly dues",
+            "A free month of group classes"
+          ],
+          "answer": 0,
+          "explain": "\"pay NO enrollment fee (normally $60)\" = được miễn phí ghi danh. Tháng miễn phí chỉ dành cho việc giới thiệu bạn bè."
+        },
+        {
+          "q": "What is true about the Premium membership?",
+          "options": [
+            "It costs $29 per month",
+            "It does not include group classes",
+            "It allows entry at any time of day",
+            "It must be purchased with a student discount"
+          ],
+          "answer": 2,
+          "explain": "Premium \"may enter the club at any hour with their key card\". Premium bao gồm mọi thứ của Plus nên có lớp nhóm; giá $62, không liên quan học sinh."
+        }
+      ]
+    },
+    {
+      "kind": "article",
+      "passages": [
+        {
+          "kind": "article",
+          "title": "News article",
+          "text": "Harborline Freight Opens Inland Distribution Hub\nBy staff reporter | August 9\n\nFERNDALE - Harborline Freight, a regional logistics provider, opened a 40,000-square-meter distribution hub in Ferndale on Thursday, a move the company says will cut delivery times to inland customers by up to two days. The facility, located near the junction of Highway 12 and the rail line, can handle 3,000 pallets per day and was built to receive shipments by both truck and train.\n\n\"Until now, goods arriving at our port terminal had to be trucked 200 kilometers before being sorted,\" said operations director Priya Raman. \"Here, we can sort and dispatch goods the same day they arrive by rail.\"\n\nThe hub has created 220 jobs, and the company plans to hire 80 more by year-end, mostly warehouse operators and drivers. Harborline also said that the building's solar roof will supply about 40 percent of its electricity.\n\nMayor Tom Aldous, who attended the opening ceremony, praised the project for \"bringing steady employment to our community.\" Analysts, however, noted that the company must still prove its new system can cope with the holiday-season rush."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the article mainly about?",
+          "options": [
+            "A change in port regulations",
+            "The opening of a new shipping facility",
+            "The retirement of a company executive",
+            "A recruitment fair for drivers"
+          ],
+          "answer": 1,
+          "explain": "Bài báo mở đầu bằng việc Harborline \"opened a 40,000-square-meter distribution hub\", rồi mô tả công suất, việc làm, năng lượng - nội dung chính là khai trương trung tâm phân phối."
+        },
+        {
+          "q": "According to Ms. Raman, what advantage does the new hub offer?",
+          "options": [
+            "It reduces the number of employees needed",
+            "It lowers the cost of electricity",
+            "It is closer to the port terminal",
+            "It is no longer necessary to truck goods to another site first"
+          ],
+          "answer": 3,
+          "explain": "Bà Raman nói trước đây hàng phải chở 200 km mới được phân loại, còn nay \"sort and dispatch ... the same day they arrive by rail\". Phương án đúng diễn đạt lại ý đó."
+        },
+        {
+          "q": "The word \"handle\" in paragraph 1 is closest in meaning to",
+          "options": [
+            "process",
+            "touch",
+            "control",
+            "discuss"
+          ],
+          "answer": 0,
+          "explain": "\"can handle 3,000 pallets per day\" nghĩa là có thể xử lý/tiếp nhận 3.000 pallet mỗi ngày, gần nghĩa nhất với \"process\"."
+        }
+      ]
+    },
+    {
+      "kind": "chat",
+      "passages": [
+        {
+          "kind": "chat",
+          "title": "Online chat discussion",
+          "text": "Hana Ruiz [9:41 A.M.]: Good morning, both. Did the invoice-export fix go out in last night's release?\n\nMarcus Bell [9:43 A.M.]: It was supposed to, but QA found a rounding error in the tax column, so I pulled it from the release.\n\nJoel Park [9:44 A.M.]: Right. I can fix that today, but I'll need the sample file from the Bridgeway account.\n\nHana Ruiz [9:46 A.M.]: I'll ask their accountant. They've been waiting since the 5th, and I told them to expect it by Friday.\n\nMarcus Bell [9:47 A.M.]: Then let's aim for a patch tomorrow at noon. Joel, can you code the fix while I run the tests?\n\nJoel Park [9:49 A.M.]: Sure thing. Hana, please make sure the file really has several tax rates in it. The last one didn't.\n\nHana Ruiz [9:50 A.M.]: Will do. I'll also tell Bridgeway to hold off on their quarterly filing until the patch is installed.\n\nMarcus Bell [9:52 A.M.]: Good idea."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why was the invoice-export fix left out of the release?",
+          "options": [
+            "Mr. Park was not available",
+            "The customer asked for a delay",
+            "A problem was found during testing",
+            "The tax rates had changed"
+          ],
+          "answer": 2,
+          "explain": "Marcus nói \"QA found a rounding error in the tax column, so I pulled it from the release\" - lỗi được phát hiện khi kiểm thử nên bản sửa bị rút khỏi bản phát hành."
+        },
+        {
+          "q": "What will Ms. Ruiz most likely do next?",
+          "options": [
+            "Write new code",
+            "Contact a customer's accountant",
+            "Run the quality tests",
+            "Install the patch"
+          ],
+          "answer": 1,
+          "explain": "Hana nói \"I'll ask their accountant\" để lấy file mẫu cho Joel. Viết mã là việc của Joel, chạy kiểm thử là của Marcus."
+        },
+        {
+          "q": "At 9:49 A.M., what does Mr. Park mean when he writes, \"Sure thing\"?",
+          "options": [
+            "He is certain the file is correct",
+            "He has already finished the work",
+            "He wants to change the deadline",
+            "He agrees to write the fix"
+          ],
+          "answer": 3,
+          "explain": "Marcus hỏi \"Joel, can you code the fix...?\" và Joel đáp \"Sure thing\" - tức là đồng ý nhận việc viết bản sửa."
+        }
+      ]
+    },
+    {
+      "kind": "invoice",
+      "passages": [
+        {
+          "kind": "invoice",
+          "title": "Invoice",
+          "text": "SAFFRON & SAGE CATERING\nInvoice #20417 | Date: November 2\n\nBill to: Brightwell Accounting Partners\nEvent: Client appreciation lunch, October 29 (60 guests)\n\nDescription                              Amount\nBuffet lunch (60 guests x $18.50)        $1,110.00\nDessert platters (4 x $35.00)              $140.00\nBeverage service (60 guests x $3.25)       $195.00\nDelivery and setup                          $85.00\n\nSubtotal                                 $1,530.00\nRepeat-client discount (10%)              -$153.00\nSales tax (7%)                              $96.39\nTotal                                    $1,473.39\nDeposit received (October 10)             -$500.00\nBALANCE DUE                                $973.39\n\nPayment is due within 14 days, by November 16. Balances paid after that date are subject to a late fee of 1.5% per month. Checks may be made payable to Saffron & Sage Catering."
+        }
+      ],
+      "questions": [
+        {
+          "q": "How much does Brightwell Accounting Partners still owe?",
+          "options": [
+            "$973.39",
+            "$1,473.39",
+            "$1,377.00",
+            "$500.00"
+          ],
+          "answer": 0,
+          "explain": "Dòng \"BALANCE DUE $973.39\" là số tiền còn nợ sau khi đã trừ khoản đặt cọc $500. $1,473.39 là tổng tiền trước khi trừ cọc."
+        },
+        {
+          "q": "What is suggested about Brightwell Accounting Partners?",
+          "options": [
+            "It paid the full amount in advance",
+            "It hosted a lunch for 14 guests",
+            "It has used the caterer before",
+            "It was charged a late fee"
+          ],
+          "answer": 2,
+          "explain": "Hóa đơn có \"Repeat-client discount (10%)\" - chiết khấu cho khách quen, nghĩa là công ty đã dùng dịch vụ trước đó."
+        },
+        {
+          "q": "What will happen if the balance is paid after November 16?",
+          "options": [
+            "The event will be canceled",
+            "An additional charge will be applied",
+            "The deposit will be returned",
+            "A discount will be removed from the next order"
+          ],
+          "answer": 1,
+          "explain": "\"Balances paid after that date are subject to a late fee of 1.5% per month\" - trả muộn sẽ bị tính thêm phí."
+        }
+      ]
+    },
+    {
+      "kind": "webpage",
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "Web page",
+          "text": "LedgerLoop | Cloud accounting built for small firms\n\nWhat you can do with LedgerLoop\n- Import transactions automatically from more than 400 banks\n- Create invoices in 25 currencies\n- Prepare tax-season reports in a single click\n- Give your accountant read-only access at no extra cost\n\nPlans and pricing\nStarter - $12 per month: 1 user, up to 50 invoices per month\nGrowth - $30 per month: up to 5 users, unlimited invoices\nFirm - $75 per month: unlimited users, client portal\n\nAll plans include a 30-day free trial with no credit card required. You may upgrade, downgrade, or cancel at any time. Your data is encrypted and backed up daily.\n\nSupport: Phone support is available on weekdays for Growth and Firm subscribers. Starter subscribers receive support by e-mail only."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is NOT true about LedgerLoop?",
+          "options": [
+            "It can create invoices in several currencies.",
+            "Accountants can view a firm's records without paying more.",
+            "Customers can cancel whenever they like.",
+            "A credit card is needed to start the free trial."
+          ],
+          "answer": 3,
+          "explain": "Trang web ghi \"30-day free trial with no credit card required\", nên việc cần thẻ tín dụng là không đúng. Ba ý còn lại đều có trong bài."
+        },
+        {
+          "q": "Who can receive telephone support?",
+          "options": [
+            "Only subscribers to the Starter plan",
+            "Anyone using the free trial",
+            "Subscribers to the Growth and Firm plans",
+            "Only accountants with read-only access"
+          ],
+          "answer": 2,
+          "explain": "\"Phone support is available on weekdays for Growth and Firm subscribers\"; Starter chỉ hỗ trợ qua e-mail."
+        },
+        {
+          "q": "Why might a company with eight employees choose the Firm plan?",
+          "options": [
+            "It is the cheapest option.",
+            "It is the only plan that allows more than five users.",
+            "It limits the number of invoices.",
+            "It includes a longer free trial."
+          ],
+          "answer": 1,
+          "explain": "Growth chỉ cho tối đa 5 người dùng, còn Firm \"unlimited users\" - công ty 8 nhân viên cần Firm. Thời gian dùng thử giống nhau ở mọi gói."
+        }
+      ]
+    },
+    {
+      "kind": "schedule",
+      "passages": [
+        {
+          "kind": "schedule",
+          "title": "Schedule",
+          "text": "RIVERSIDE BUSINESS SKILLS SEMINAR\n\"Managing Projects with Confidence\"\nFriday, September 20 | Hillcrest Hotel, Conference Room B\n\n8:30 - 9:00    Registration and coffee\n9:00 - 10:15   Opening session: Setting Realistic Timelines (Dr. Imani Okoro)\n10:15 - 10:30  Break\n10:30 - 12:00  Workshop: Budget Tracking for Teams (Walter Nystrom)\n12:00 - 1:00   Lunch (provided; please request vegetarian meals when you register)\n1:00 - 2:30    Panel: Handling Difficult Stakeholders (Dr. Okoro, Mr. Nystrom, and Lena Marsh)\n2:30 - 2:45    Break\n2:45 - 4:00    Questions and certificate distribution\n\nNotes: The 10:30 workshop requires a laptop with spreadsheet software; wireless Internet is available in the room. Participants who attend all sessions will receive a certificate. Presentation slides will be e-mailed within one week."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What should participants bring to the 10:30 workshop?",
+          "options": [
+            "A laptop computer",
+            "A printed budget",
+            "Their own lunch",
+            "A copy of the slides"
+          ],
+          "answer": 0,
+          "explain": "Phần Notes ghi \"The 10:30 workshop requires a laptop with spreadsheet software\". Slides sẽ được gửi sau qua e-mail."
+        },
+        {
+          "q": "Which session will take place right after lunch?",
+          "options": [
+            "A hands-on workshop",
+            "The opening session",
+            "The certificate ceremony",
+            "A panel discussion"
+          ],
+          "answer": 3,
+          "explain": "Sau bữa trưa (12:00 - 1:00) là mục 1:00 - 2:30 \"Panel: Handling Difficult Stakeholders\" - phiên thảo luận nhóm."
+        },
+        {
+          "q": "What is indicated about lunch?",
+          "options": [
+            "It must be purchased separately.",
+            "It is served in Conference Room B.",
+            "Vegetarian meals are available on request.",
+            "It lasts for ninety minutes."
+          ],
+          "answer": 2,
+          "explain": "\"Lunch (provided; please request vegetarian meals when you register)\" - bữa trưa được cung cấp và có suất chay nếu đăng ký yêu cầu. Bữa trưa chỉ kéo dài một giờ."
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "passages": [
+        {
+          "kind": "review",
+          "title": "Customer review",
+          "text": "Great equipment, crowded evenings (4 out of 5 stars)\nPosted by Dana K. | March 22 | Pulse Athletic Club\n\nI joined Pulse Athletic Club six months ago after my previous gym closed, and overall I am pleased. The equipment is modern and well maintained, and staff members wipe down the machines every hour. The free-weights area is larger than at most clubs I have tried, and the Tuesday-morning spin class led by Coach Tomas is worth the trip alone.\n\nHowever, between 5:30 and 7:30 P.M. the cardio floor gets so busy that you may wait twenty minutes for a treadmill. The club told me it plans to add 15 machines after a renovation in June, which I hope will solve the problem. I also wish the locker rooms had more showers; there are only four.\n\nResponse from management (March 24): Thank you for your feedback, Dana. We are sorry about the evening waits. As a gesture of appreciation, we have added a free guest pass to your account. You may also find the cardio floor much quieter after 8:00 P.M."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is NOT mentioned as a strength of Pulse Athletic Club?",
+          "options": [
+            "Modern equipment",
+            "Low membership prices",
+            "A spacious free-weights area",
+            "A popular spin class"
+          ],
+          "answer": 1,
+          "explain": "Dana khen thiết bị hiện đại, khu tạ tự do rộng và lớp spin, nhưng không hề nhắc đến giá hội viên thấp."
+        },
+        {
+          "q": "What does the club plan to do in June?",
+          "options": [
+            "Install more machines after renovating",
+            "Open a second location",
+            "Hire additional trainers",
+            "Build more locker rooms"
+          ],
+          "answer": 0,
+          "explain": "\"it plans to add 15 machines after a renovation in June\" - thêm máy tập sau khi cải tạo. Dana chỉ mong có thêm vòi sen, không nói là sẽ xây."
+        },
+        {
+          "q": "What did the management give Dana?",
+          "options": [
+            "A month of free membership",
+            "A refund of her fees",
+            "A personal-training session",
+            "A free pass for a visitor"
+          ],
+          "answer": 3,
+          "explain": "Phần phản hồi: \"we have added a free guest pass to your account\" - vé miễn phí cho khách đi cùng."
+        },
+        {
+          "q": "The word \"pleased\" in paragraph 1 is closest in meaning to",
+          "options": [
+            "relieved",
+            "surprised",
+            "satisfied",
+            "polite"
+          ],
+          "answer": 2,
+          "explain": "\"overall I am pleased\" nghĩa là nhìn chung tôi hài lòng, tương đương \"satisfied\"."
+        }
+      ]
+    },
+    {
+      "kind": "form",
+      "passages": [
+        {
+          "kind": "form",
+          "title": "Maintenance request form",
+          "text": "OAKMONT RESIDENCES - MAINTENANCE REQUEST\n\nTenant: Lucia Ferreira          Unit: 4C\nDate submitted: April 9         Phone: 555-0188 (best after 5:00 P.M.)\n\nDescription of problem:\nWater is leaking from the kitchen ceiling. A brown stain about one meter wide has appeared since Sunday, and it drips whenever the upstairs tenant uses the shower.\n\nPriority:  [ ] Routine   [ ] Urgent   [X] Emergency\nPermission to enter if tenant is not at home:  [X] Yes   [ ] No\n\n--- FOR OFFICE USE ONLY ---\nReceived by: Bruno Hale, April 9, 8:15 A.M.\nAssigned to: Delmar Pipe Services (plumber)\nScheduled visit: April 10, 9:00 A.M. to 12:00 noon\nNotes: Contact tenant in Unit 5C. Ceiling repair to be done by in-house painter after the leak is fixed; estimated 3 working days."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Where is the water most likely coming from?",
+          "options": [
+            "A broken kitchen faucet",
+            "A damaged roof",
+            "A bathroom in the apartment above",
+            "A pipe in the basement"
+          ],
+          "answer": 2,
+          "explain": "Mẫu ghi nước nhỏ giọt \"whenever the upstairs tenant uses the shower\", và ghi chú nhắc liên hệ Unit 5C - căn ngay phía trên 4C."
+        },
+        {
+          "q": "What is indicated about Ms. Ferreira?",
+          "options": [
+            "She works at Delmar Pipe Services.",
+            "She allows staff to enter her unit in her absence.",
+            "She prefers to be called in the morning.",
+            "She has rented the unit for six months."
+          ],
+          "answer": 1,
+          "explain": "Ô \"Permission to enter if tenant is not at home\" được đánh dấu Yes. Giờ gọi tốt nhất là sau 5 giờ chiều, không phải buổi sáng."
+        },
+        {
+          "q": "Who will fix the ceiling once the leak has been stopped?",
+          "options": [
+            "A plumber from Delmar Pipe Services",
+            "The upstairs tenant",
+            "Mr. Hale",
+            "A painter who works for the building"
+          ],
+          "answer": 3,
+          "explain": "Ghi chú: \"Ceiling repair to be done by in-house painter after the leak is fixed\" - thợ sơn của chính tòa nhà. Thợ ống nước chỉ sửa chỗ rò."
+        },
+        {
+          "q": "What will happen on April 10?",
+          "options": [
+            "A plumber will visit the unit in the morning.",
+            "The ceiling will be repainted.",
+            "The tenant in 5C will move out.",
+            "Mr. Hale will call Ms. Ferreira."
+          ],
+          "answer": 0,
+          "explain": "\"Scheduled visit: April 10, 9:00 A.M. to 12:00 noon\" của Delmar Pipe Services (thợ ống nước) - tức sáng ngày 10/4 thợ sẽ đến."
+        }
+      ]
+    },
+    {
+      "kind": "webpage",
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "Web page",
+          "text": "SEABRIDGE FREIGHT SERVICES\nDomestic Shipping Options\n\nStandard Ground - delivery in 5 to 7 business days - $0.80 per kilogram\nExpress Ground - delivery in 2 to 3 business days - $1.40 per kilogram\nAir Priority - delivery by the next business day - $3.10 per kilogram (parcels under 25 kg only)\n\nAll services include online tracking and insurance coverage up to $500. Additional coverage is available for 1.5% of the declared value.\n\nPickup: Collection from your business address is free for orders over $200 and $15 for smaller orders. Orders confirmed before 2:00 P.M. are collected the same day.\n\nFor shipments over 500 kg, please contact your account manager for pallet pricing."
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: customerservice@seabridgefreight.example\nFrom: Nadia Petrov <npetrov@hartwellgarden.example>\nDate: May 12, 11:30 A.M.\nSubject: Delayed shipment (order SB-55120) and a new request\n\nDear Seabridge team,\n\nOn May 6 we shipped 18 clay planters, 120 kg in total, to our Oakdale store using your cheapest service. Tracking still shows the shipment at the Redford sorting center, although it was due on May 13. Our spring sale starts on May 17, so the planters must be on our shelves by May 15 at the latest. Please let me know how you can help.\n\nWe also have 20 kg of seed packets ready at our warehouse that must reach our Lakeside store tomorrow morning. Could you collect them today and tell me the cost?\n\nThank you,\nNadia Petrov\nPurchasing Manager, Hartwell Garden Supply"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why did Ms. Petrov write to Seabridge?",
+          "options": [
+            "To dispute an insurance charge",
+            "To ask about a late delivery and order another one",
+            "To apply for a job as a driver",
+            "To cancel a pickup"
+          ],
+          "answer": 1,
+          "explain": "Bà Petrov báo lô hàng chậu bị trễ (\"still shows the shipment at the Redford sorting center\") và nhờ gửi thêm lô hạt giống, nên mục đích là hỏi về hàng trễ và đặt thêm một lô."
+        },
+        {
+          "q": "How much did Hartwell Garden Supply most likely pay to ship the planters?",
+          "options": [
+            "$14.40",
+            "$168.00",
+            "$372.00",
+            "$96.00"
+          ],
+          "answer": 3,
+          "explain": "\"your cheapest service\" là Standard Ground ($0.80/kg); 120 kg x $0.80 = $96,00. $168 là giá Express Ground, $372 là Air Priority."
+        },
+        {
+          "q": "Which service should Ms. Petrov choose for the seed packets?",
+          "options": [
+            "Standard Ground",
+            "Express Ground",
+            "Air Priority",
+            "Pallet service"
+          ],
+          "answer": 2,
+          "explain": "Hạt giống nặng 20 kg (dưới 25 kg) và cần đến nơi \"tomorrow morning\". Chỉ Air Priority giao trong ngày làm việc kế tiếp; Express mất 2-3 ngày."
+        },
+        {
+          "q": "What is suggested about the pickup of the seed packets?",
+          "options": [
+            "It can be done today if the order is confirmed before 2:00 P.M.",
+            "It will cost $15 more than usual.",
+            "It is possible only on weekends.",
+            "It requires an account manager."
+          ],
+          "answer": 0,
+          "explain": "Email gửi lúc 11:30 A.M.; trang web ghi \"Orders confirmed before 2:00 P.M. are collected the same day\". Phí $15 chỉ áp dụng cho đơn dưới $200 và không nói là cao hơn bình thường."
+        },
+        {
+          "q": "The word \"due\" in the e-mail is closest in meaning to",
+          "options": [
+            "owed",
+            "scheduled",
+            "required",
+            "unpaid"
+          ],
+          "answer": 1,
+          "explain": "\"it was due on May 13\" nghĩa là lô hàng được dự kiến/lên lịch đến vào ngày 13/5, gần nghĩa với \"scheduled\" (không phải \"owed\" - nợ)."
+        }
+      ]
+    },
+    {
+      "kind": "notice",
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Notice",
+          "text": "CORVANE LEARNING\nWorkshop Series: Spreadsheet Skills for Accountants\n\nDelancey Business College, Room 210 | 1:00 P.M. to 4:00 P.M.\nSession 1 - Beginner: March 4\nSession 2 - Intermediate: March 11\nSession 3 - Advanced: March 18\n\nFee: $120 per session, or $300 for the full series. Register by February 20 and save $10 per session (early-bird rate).\n\nEach session earns participants 3 hours of continuing professional education credit. Enrollment is limited to 20 participants per session.\n\nCancellation policy: Full refund if canceled by February 28. After that date, 50% of the fee will be refunded. To register, e-mail enroll@corvanelearning.example."
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: enroll@corvanelearning.example\nFrom: Gareth Soto <gsoto@brandtlevy.example>\nDate: February 25\nSubject: Registration questions\n\nHello,\n\nLast week I registered for the Intermediate and Advanced sessions and paid the early-bird rate for both. My colleague Tess Lindqvist would like to attend the entire series. Is there still room for her?\n\nWe both need 9 hours of credit to renew our professional licenses this year. Unfortunately, a client audit has just been scheduled for March 18, so I may not be able to attend the last session. I will let you know by the end of the month if I need to cancel.\n\nThank you,\nGareth Soto"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why did Mr. Soto write the e-mail?",
+          "options": [
+            "To ask about enrollment for a colleague and his own schedule",
+            "To complain about a fee",
+            "To request a different location",
+            "To offer to lead a session"
+          ],
+          "answer": 0,
+          "explain": "Ông Soto hỏi còn chỗ cho đồng nghiệp Tess không và nói có thể không dự được buổi 18/3 - tức hỏi về đăng ký cho đồng nghiệp và lịch của chính mình."
+        },
+        {
+          "q": "How much did Mr. Soto pay for his registration?",
+          "options": [
+            "$300",
+            "$240",
+            "$220",
+            "$110"
+          ],
+          "answer": 2,
+          "explain": "Ông đăng ký hai buổi với giá ưu đãi: 2 x ($120 - $10) = $220. $300 là giá cả khóa, $240 là hai buổi không ưu đãi."
+        },
+        {
+          "q": "What is implied about Mr. Soto?",
+          "options": [
+            "He has already completed the series.",
+            "He is eligible for a full refund.",
+            "He teaches at Delancey Business College.",
+            "He needs to attend another session to earn enough credit."
+          ],
+          "answer": 3,
+          "explain": "Ông cần 9 giờ tín chỉ nhưng chỉ đăng ký 2 buổi (2 x 3 = 6 giờ), nên còn thiếu 3 giờ - phải học thêm một buổi, ví dụ buổi Beginner."
+        },
+        {
+          "q": "How much of a refund will Mr. Soto most likely receive if he cancels the March 18 session on March 1?",
+          "options": [
+            "$110",
+            "$55",
+            "$60",
+            "$0"
+          ],
+          "answer": 1,
+          "explain": "Sau ngày 28/2 chỉ hoàn 50%. Ông đã trả $110 cho buổi Advanced, nên nhận lại $55."
+        },
+        {
+          "q": "What is NOT indicated about the workshop series?",
+          "options": [
+            "It offers credit toward professional requirements.",
+            "The number of participants is limited.",
+            "Refunds are never given once a person has registered.",
+            "The sessions are held once a week."
+          ],
+          "answer": 2,
+          "explain": "Chính sách hủy cho phép hoàn tiền đầy đủ hoặc 50%, nên \"không bao giờ hoàn tiền\" là sai. Các ý còn lại (tín chỉ, giới hạn 20 người, họp hằng tuần vào 4/3, 11/3, 18/3) đều đúng."
+        }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Advertisement",
+          "text": "WHITCOMBE & SATO LLP\nSmall Business Legal Services - Flat Fees\n\nBusiness formation (LLC or partnership) ..... $850\nContract review (up to 10 pages) ........... $300\n   Each additional page ..................... $20\nTrademark search ............................ $200\n\nComplete Start-Up Package (all three services) ..... $1,200\n\nYour first 30-minute consultation is free. Fees for packages are due at signing.\nClients referred by Moran Accounting receive 10% off any service or package. Our attorneys have helped more than 300 local businesses get started with confidence, and every service includes one follow-up call. Office hours are Monday to Friday, 9:00 A.M. to 5:00 P.M. Call 555-0176 to book."
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: Felix Adeyemi\nFrom: Erin Moran, Moran Accounting\nDate: November 20\nSubject: Your new studio\n\nDear Felix,\n\nCongratulations on deciding to open your pottery studio! Before the end of the year, you should set up your business as a legal entity, because it will make your tax filing much simpler. I recommend Whitcombe & Sato; I have sent several clients there, and they have always been pleased with the service. Please mention my name so you get your discount.\n\nWhen we meet on December 3 for tax planning, please bring receipts for the kilns and other equipment you have bought so far.\n\nBest regards,\nErin Moran"
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: info@whitcombesato.example\nFrom: Felix Adeyemi\nDate: November 22\nSubject: Consultation request\n\nHello,\n\nErin Moran of Moran Accounting suggested that I contact you. I would like help forming an LLC for my studio, and I need someone to review my 14-page studio lease. I already hold a trademark for the studio's name, so I do not need a search.\n\nMy lease begins on January 1, so I would like everything finished before the holidays. I am free on Tuesday and Wednesday afternoons. Could I book the free consultation for next week?\n\nFelix Adeyemi"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why did Ms. Moran write to Mr. Adeyemi?",
+          "options": [
+            "To request payment for services",
+            "To ask for equipment receipts only",
+            "To announce a new tax law",
+            "To recommend a law firm"
+          ],
+          "answer": 3,
+          "explain": "Bà Moran viết \"I recommend Whitcombe & Sato\" - gợi ý một công ty luật; việc mang hóa đơn thiết bị chỉ là một lời nhắc phụ cho buổi họp 3/12."
+        },
+        {
+          "q": "What does the advertisement say about consultations?",
+          "options": [
+            "The first one does not cost anything.",
+            "They are held only on weekends.",
+            "They take one hour.",
+            "They are for existing clients only."
+          ],
+          "answer": 0,
+          "explain": "Quảng cáo ghi \"Your first 30-minute consultation is free\" - buổi tư vấn đầu tiên miễn phí và kéo dài 30 phút."
+        },
+        {
+          "q": "How much will Mr. Adeyemi most likely pay for the services he requested?",
+          "options": [
+            "$1,080",
+            "$1,107",
+            "$1,230",
+            "$1,350"
+          ],
+          "answer": 1,
+          "explain": "Thành lập công ty $850 + xem xét hợp đồng 14 trang = $300 + 4 x $20 = $380; tổng $1,230. Được giảm 10% nhờ giới thiệu từ Moran Accounting, còn $1,107. Gói trọn $1,200 gồm cả dịch vụ ông không cần."
+        },
+        {
+          "q": "Which service did Mr. Adeyemi decline?",
+          "options": [
+            "A business formation",
+            "A lease review",
+            "A trademark search",
+            "A free consultation"
+          ],
+          "answer": 2,
+          "explain": "Ông viết \"I already hold a trademark ... so I do not need a search\" - nên không yêu cầu tra cứu nhãn hiệu."
+        },
+        {
+          "q": "What will Mr. Adeyemi most likely do on December 3?",
+          "options": [
+            "Meet with Ms. Moran to plan his taxes",
+            "Sign a lease with Whitcombe & Sato",
+            "Register a trademark",
+            "Pay for the Start-Up Package"
+          ],
+          "answer": 0,
+          "explain": "Email của bà Moran: \"When we meet on December 3 for tax planning, please bring receipts...\" - ông sẽ gặp bà để lập kế hoạch thuế."
+        }
+      ]
+    },
+    {
+      "kind": "memo",
+      "passages": [
+        {
+          "kind": "memo",
+          "title": "Memo",
+          "text": "MEMO\nTo: All tenants, Parkview Office Building\nFrom: Rosa Delgado, Facilities Manager\nDate: September 18\nSubject: Roof repair\n\nAs many of you know, the roof has leaked in several places during recent storms. After receiving three bids from qualified contractors, the building's owner has selected Summit Roofing to replace the roof membrane. Work is scheduled to begin on Monday, October 7.\n\nDuring the project, Section C of the parking lot will be closed so that equipment can be delivered. Tenants who normally park there may use the garage on Elm Street at no charge; please show your building ID to the attendant. Some noise should be expected on weekdays from 7:30 A.M. to 4:00 P.M.\n\nThank you for your understanding."
+        },
+        {
+          "kind": "invoice",
+          "title": "Estimate",
+          "text": "SUMMIT ROOFING - ESTIMATE #3318\nProject: Parkview Office Building\n\nRemoval of old roof membrane ................. $6,400\nInstallation of new roof membrane ........... $14,200\nReplacement of roof drains ................... $1,800\nTotal ....................................... $22,400\n\nOptional: Resealing of skylights ............... $950\n\nTerms: A deposit of 30% of the final price is due at signing. Work takes approximately 10 working days, weather permitting. The membrane carries a 10-year warranty; labor is guaranteed for 2 years. Prices include all materials and the disposal of old roofing. This estimate is valid for 60 days from the date of issue, and building permits are the responsibility of the owner."
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: All tenants, Parkview Office Building\nFrom: Rosa Delgado\nDate: October 2\nSubject: Update on roof repair\n\nDear tenants,\n\nBecause heavy rain is forecast for next week, Summit Roofing has asked to postpone the start of work by one week. The new start date is Monday, October 14. The owner has also approved the optional skylight resealing, since the roof will already be open. Our deposit payment will be based on the revised total.\n\nThe parking arrangements described in my earlier memo will not change.\n\nRosa Delgado"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the purpose of the memo?",
+          "options": [
+            "To ask tenants to vote on a contractor",
+            "To inform tenants about upcoming work on the building",
+            "To announce a rent increase",
+            "To request bids from roofing companies"
+          ],
+          "answer": 1,
+          "explain": "Memo thông báo cho người thuê rằng Summit Roofing sẽ thay mái nhà từ 7/10 và nêu ảnh hưởng (bãi đỗ xe, tiếng ồn). Việc chọn nhà thầu đã xong, không phải lấy ý kiến."
+        },
+        {
+          "q": "The word \"bids\" in paragraph 1 of the memo is closest in meaning to",
+          "options": [
+            "offers",
+            "orders",
+            "warnings",
+            "payments"
+          ],
+          "answer": 0,
+          "explain": "\"three bids from qualified contractors\" là ba bản chào giá/đề xuất của các nhà thầu, gần nghĩa nhất với \"offers\"."
+        },
+        {
+          "q": "What change is announced in the e-mail?",
+          "options": [
+            "The parking lot will stay open.",
+            "The contractor has been replaced.",
+            "The work will be done at night.",
+            "The project will begin a week later than planned."
+          ],
+          "answer": 3,
+          "explain": "Email nói Summit đề nghị \"postpone the start of work by one week\" - từ 7/10 lùi sang 14/10 vì dự báo mưa to."
+        },
+        {
+          "q": "How much will the deposit most likely be?",
+          "options": [
+            "$6,720",
+            "$23,350",
+            "$7,005",
+            "$2,835"
+          ],
+          "answer": 2,
+          "explain": "Chủ nhà đã duyệt thêm việc trám khe giếng trời nên tổng mới là $22,400 + $950 = $23,350; cọc 30% = $7,005. $6,720 là 30% của giá chưa gồm phần tùy chọn."
+        },
+        {
+          "q": "When is the work expected to be finished if there are no weather delays?",
+          "options": [
+            "October 18",
+            "October 21",
+            "November 1",
+            "October 25"
+          ],
+          "answer": 3,
+          "explain": "Bắt đầu thứ Hai 14/10 và cần khoảng 10 ngày làm việc (theo báo giá), nên xong vào thứ Sáu 25/10."
+        }
+      ]
+    },
+    {
+      "kind": "webpage",
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "Web page",
+          "text": "TASKBRIDGE 5.0 IS HERE\n\nWhat is new\n- Timeline view: see every task and deadline on one visual calendar\n- Offline mode: keep working on your phone without a connection; changes sync when you reconnect\n- Integration with CalendarSync\n\nPricing: $8 per user per month when billed annually, or $10 per user per month when billed monthly. Existing customers upgrade free of charge.\n\nSpecial offer: Customers who upgrade to version 5.0 by November 30 receive three months of Priority Support at no cost.\n\nSystem requirements for the desktop app: Windows 10 or later; macOS 12 or later. The web version works with any current browser."
+        },
+        {
+          "kind": "review",
+          "title": "Customer review",
+          "text": "Timeline view is a winner, but offline mode needs work (3 out of 5 stars)\nPosted by Kaito Ishii | November 12\n\nI manage a team of 14 at a packaging company, and we upgraded to version 5.0 last week. The timeline view is excellent; it has saved me at least two hours of planning every Monday. The mobile app is fast, too.\n\nUnfortunately, offline mode lost several of my edits when I reconnected after a flight. Also, most of our office computers still run an older version of macOS, so we cannot install the desktop app and have to use the browser. It works, but I would prefer a proper app."
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: Kaito Ishii\nFrom: Lucia Ferrer, TaskBridge Customer Care\nDate: November 14\nSubject: Your recent review\n\nDear Mr. Ishii,\n\nThank you for taking the time to share your experience. We are sorry that you lost your work. The synchronization problem you describe is known to our engineers, and a correction will be included in version 5.0.2, which we will release on November 20. Until then, please avoid editing the same task on two devices while offline.\n\nRegarding the desktop app, support for older systems is not planned, but the web version contains every feature. As an apology, we have credited your account with one free month.\n\nSincerely,\nLucia Ferrer"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What problem did Mr. Ishii experience?",
+          "options": [
+            "Some changes disappeared after he went back online.",
+            "The mobile app was too slow.",
+            "He could not log in to the web version.",
+            "The timeline view displayed the wrong dates."
+          ],
+          "answer": 0,
+          "explain": "Trong bài đánh giá: \"offline mode lost several of my edits when I reconnected\" - một số chỉnh sửa bị mất khi kết nối lại. Ông khen ứng dụng di động nhanh."
+        },
+        {
+          "q": "What is suggested about the computers in Mr. Ishii's office?",
+          "options": [
+            "They are all new.",
+            "They use Windows 10.",
+            "They cannot run the desktop app.",
+            "They cannot connect to the Internet."
+          ],
+          "answer": 2,
+          "explain": "Ông viết máy văn phòng chạy macOS cũ nên không cài được app; trang web yêu cầu macOS 12 trở lên, vậy máy của ông không đáp ứng yêu cầu hệ thống."
+        },
+        {
+          "q": "When will the problem be corrected?",
+          "options": [
+            "On November 12",
+            "On November 20",
+            "On November 14",
+            "On November 30"
+          ],
+          "answer": 1,
+          "explain": "Email của bà Ferrer: \"version 5.0.2, which we will release on November 20\". Ngày 14/11 là ngày viết email, 30/11 là hạn ưu đãi."
+        },
+        {
+          "q": "What does Mr. Ishii like most about TaskBridge 5.0?",
+          "options": [
+            "The price of the subscription",
+            "The integration with CalendarSync",
+            "A new desktop application",
+            "A feature that shows tasks visually"
+          ],
+          "answer": 3,
+          "explain": "Ông nói \"The timeline view is excellent; it has saved me at least two hours of planning\" - tính năng hiển thị công việc dạng lịch trực quan."
+        },
+        {
+          "q": "What benefit has Mr. Ishii most likely already received?",
+          "options": [
+            "A free upgrade to macOS 12",
+            "A refund of his subscription",
+            "Three months of Priority Support",
+            "A lifetime license"
+          ],
+          "answer": 2,
+          "explain": "Ông nâng cấp lên 5.0 \"last week\" (trước 30/11), nên đủ điều kiện nhận 3 tháng Priority Support miễn phí theo trang web. Tháng miễn phí trong email là tín dụng xin lỗi, không phải hoàn tiền."
+        }
+      ]
+    }
+  ]
+}

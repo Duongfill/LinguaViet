@@ -1,0 +1,112 @@
+{
+  "title": "How Birds Find Their Way",
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Each autumn, billions of birds leave their breeding grounds and set off on journeys that would test the endurance of any human athlete. The Arctic tern, which breeds in the far north and spends the southern summer around Antarctica, travels more than 70,000 kilometres in a single year, and so enjoys more hours of daylight than any other creature on Earth. The bar-tailed godwit does something even more astonishing. Fitted with tiny satellite tags, godwits have been tracked flying about 11,000 kilometres across the Pacific Ocean without a single stop, a journey that lasts more than a week and during which the bird neither eats nor drinks. Such feats raise two obvious questions: why do birds undertake these risky voyages, and how do they find their way?"
+    },
+    {
+      "label": "B",
+      "text": "The answer to the first question is, above all, food. In the northern winter, insects disappear, plants stop producing seeds and fruit, and lakes freeze over. Birds that stay behind face starvation, while those that fly south find abundant supplies, and when spring returns they head north again to exploit the sudden explosion of insects and the long days that allow parents to feed their chicks for many hours. Migration is dangerous, and a large proportion of young birds die on their first trip, but for many species the benefits clearly outweigh the costs. The picture is not simple, however. In some species, such as the European blackbird, certain populations migrate while others in the same region remain all year, which suggests that the habit can evolve, or disappear, remarkably quickly."
+    },
+    {
+      "label": "C",
+      "text": "Part of the answer to the second question is that young birds do not need to be taught. Young cuckoos, for example, are raised by foster parents of another species, and the adult cuckoos depart for Africa weeks before the youngsters are ready to fly, yet the young birds still reach the correct wintering grounds alone. Experiments by Dr Wei Lin, who studied blackcaps in Germany, provided direct evidence of inherited instinct. Chicks taken from the nest and hand-reared in cages became restless at exactly the time when wild blackcaps depart, hopping and fluttering in the direction their relatives would fly. Dr Lin's team then crossed birds from two populations that normally follow different routes. The offspring chose a direction midway between those of their parents, a result that is difficult to explain without a genetic contribution."
+    },
+    {
+      "label": "D",
+      "text": "Knowing which direction to fly is only the beginning, however, because a bird also needs a compass. For many species the sun is the principal guide, and because the sun moves across the sky, birds use an internal body clock to correct for the time of day. Many migrants travel by night, and these rely instead on the stars. In a well-known series of experiments, Dr Ingrid Solberg raised young buntings indoors, so that they never saw the real night sky, and exposed them to an artificial sky in a planetarium. When the stars were made to rotate around an unusual point, the buntings treated that point as north when the time came to choose a direction. Solberg concluded that birds are not born with a map of the constellations. Instead, they learn the centre of the sky's rotation as chicks and use it later as a fixed reference."
+    },
+    {
+      "label": "E",
+      "text": "On cloudy nights, when neither sun nor stars is visible, birds continue to find their way, which led scientists to look for another sense. Professor Tomas Varga placed European robins in special funnel-shaped cages inside a building that blocked all views of the sky and then altered the magnetic field around them with coils of wire. When the artificial north was moved, the robins shifted the direction in which they hopped by the same amount. The mechanism remains controversial. One theory proposes that a light-sensitive protein called cryptochrome, located in the bird's eye, allows it to detect the field as a pattern that overlays its normal vision. Another suggests that tiny particles of iron-rich mineral in the beak act like the needle of a compass. Both ideas have supporters, and the truth may well involve elements of each."
+    },
+    {
+      "label": "F",
+      "text": "Even a perfect compass is of limited use unless a bird knows where it is relative to its destination. Here, smell and landmarks appear to play a role. Dr Amara Okafor transported shearwaters, seabirds that spend most of their lives over open water, hundreds of kilometres from their nesting burrows and released them. Birds whose sense of smell had been temporarily blocked wandered aimlessly, while untreated birds flew straight home. Okafor argued that the scent of the ocean varies from place to place, creating an invisible map that shearwaters learn to read. Over land, experienced birds follow coastlines, rivers and mountain ranges, and pigeons have been observed turning at motorway junctions rather than flying in a straight line, apparently using roads as guides."
+    },
+    {
+      "label": "G",
+      "text": "Understanding these abilities has become urgent because human activity is interfering with them. Bright city lights attract and confuse nocturnal migrants, causing many to collide with buildings, and some cities now switch off unnecessary lighting during peak migration weeks. A more subtle problem is climate change. Spring now arrives earlier in many regions, so insects reach their peak before the birds do, and species that rely on inherited timing may arrive too late to feed their young. Whether birds can adapt quickly enough remains one of the most pressing questions in conservation biology."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "q": "The writer mentions the Arctic tern and the bar-tailed godwit in paragraph A in order to",
+          "options": [
+            "show how far and how long some birds can travel",
+            "explain why satellite tags are so useful to scientists",
+            "compare the feeding habits of two migratory species",
+            "suggest that humans could learn from the endurance of birds"
+          ],
+          "answer": 0,
+          "explain": "Đoạn A dùng hai ví dụ (70.000 km mỗi năm, 11.000 km không nghỉ) để cho thấy quãng đường và thời gian bay cực lớn. Các lựa chọn khác không được đoạn nhấn mạnh."
+        },
+        {
+          "q": "What does the example of the blackbird in paragraph B suggest?",
+          "options": [
+            "Blackbirds are less intelligent than other migrants.",
+            "Migratory behaviour can change within a species relatively quickly.",
+            "Birds that stay behind in winter usually die of starvation.",
+            "Migration is more dangerous for blackbirds than for other birds."
+          ],
+          "answer": 1,
+          "explain": "Đoạn B: một số quần thể chim sáo di cư còn quần thể khác ở lại, 'which suggests that the habit can evolve, or disappear, remarkably quickly'."
+        },
+        {
+          "q": "What did the experiment with crossed blackcaps in paragraph C show?",
+          "options": [
+            "Blackcaps learn their route by following adult birds.",
+            "Hand-reared birds fly faster than wild birds.",
+            "Offspring can inherit a direction from both parent populations.",
+            "Different populations of blackcaps cannot breed together."
+          ],
+          "answer": 2,
+          "explain": "Đoạn C: chim lai chọn hướng 'midway between those of their parents', nghĩa là hướng bay có yếu tố di truyền từ cả hai quần thể."
+        },
+        {
+          "q": "What is the writer's view of the magnetic sense described in paragraph E?",
+          "options": [
+            "It has been proved to depend on a protein in the eye.",
+            "It is less important to birds than the sun or the stars.",
+            "It is probably found only in European robins.",
+            "Its working is still disputed, and more than one explanation may be correct."
+          ],
+          "answer": 3,
+          "explain": "Đoạn E: cơ chế 'remains controversial', có hai giả thuyết và 'the truth may well involve elements of each'. Không có bằng chứng cho thấy chỉ một giả thuyết được chứng minh."
+        }
+      ]
+    },
+    {
+      "type": "gap",
+      "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        { "q": "Dr Lin's young blackcaps became ______ at the time when wild blackcaps would normally depart.", "answer": ["restless"], "explain": "Đoạn C: chim non 'became restless at exactly the time when wild blackcaps depart'. Chỉ cần điền tính từ restless." },
+        { "q": "Solberg's buntings treated the point around which the artificial stars rotated as ______.", "answer": ["north"], "explain": "Đoạn D: 'the buntings treated that point as north'." },
+        { "q": "A light-sensitive protein in the eye called ______ may allow birds to detect the magnetic field.", "answer": ["cryptochrome"], "explain": "Đoạn E: 'a light-sensitive protein called cryptochrome, located in the bird's eye'." },
+        { "q": "Shearwaters that could not use their sense of ______ failed to fly directly home.", "answer": ["smell"], "explain": "Đoạn F: chim bị chặn khứu giác 'wandered aimlessly', còn chim bình thường bay thẳng về tổ." }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "Look at the following statements and the list of researchers below. Match each statement with the correct researcher, A-D. You may use any letter more than once.",
+      "options": [
+        "A  Dr Wei Lin",
+        "B  Dr Ingrid Solberg",
+        "C  Professor Tomas Varga",
+        "D  Dr Amara Okafor"
+      ],
+      "questions": [
+        { "q": "Found that birds of mixed parentage chose a direction between those of their two parent groups.", "answer": 0, "explain": "Đoạn C: Dr Wei Lin lai chim từ hai quần thể, chim con chọn hướng ở giữa." },
+        { "q": "Raised young birds indoors so that they had never seen the real night sky.", "answer": 1, "explain": "Đoạn D: Dr Solberg nuôi chim sẻ non trong nhà, chúng chưa từng thấy bầu trời đêm thật." },
+        { "q": "Changed the magnetic field around birds and observed that their chosen direction altered as a result.", "answer": 2, "explain": "Đoạn E: Professor Varga dùng cuộn dây đổi từ trường, chim robin đổi hướng nhảy theo." },
+        { "q": "Tested whether birds taken far from their nests could find the way back.", "answer": 3, "explain": "Đoạn F: Dr Okafor mang chim hải âu cách tổ hàng trăm km rồi thả để xem chúng có về được không." },
+        { "q": "Hand-reared birds in cages and watched how they behaved when the migration season arrived.", "answer": 0, "explain": "Đoạn C: Dr Lin nuôi chim non bằng tay trong lồng và quan sát chúng bồn chồn đúng mùa di cư." }
+      ]
+    }
+  ]
+}

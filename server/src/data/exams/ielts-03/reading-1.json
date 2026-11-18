@@ -1,0 +1,127 @@
+{
+  "title": "Drawing the World: Maps and Their Makers",
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "A map is often treated as a simple picture of the world, but it is nothing of the kind. Every map is a selection. Its maker must decide what to include, what to leave out and what to exaggerate, and these decisions reflect the purposes and beliefs of the society that produced it. A map for sailors shows hazards that a map for tourists ignores, and a map made to defend a border looks quite different from one made to sell land. The history of cartography, the art and science of making maps, is therefore not only a story of improving accuracy. It is also a story of changing ideas about what people needed to know and who was allowed to know it."
+    },
+    {
+      "label": "B",
+      "text": "The oldest surviving maps are far older than the paper on which we now print them. A clay tablet from ancient Babylon, made around 2,600 years ago, shows the known world as a circular disc surrounded by water, with the city of Babylon at its centre. Earlier fragments record the boundaries of farms and the layout of towns, scratched into clay or carved on stone. Mapmaking was not confined to literate civilisations, either. Navigators in the Marshall Islands, in the Pacific Ocean, constructed charts from the ribs of palm leaves tied together with fibre. The sticks did not show distances or coastlines; they represented the pattern of ocean swells that bend around islands, which an experienced sailor could feel through the hull of a canoe. Such charts were memorised before a voyage and were never taken to sea."
+    },
+    {
+      "label": "C",
+      "text": "Greek scholars brought mathematics to the problem. Around the second century CE, the geographer Ptolemy compiled a guide that listed the positions of thousands of places by latitude and longitude, and explained how a curved surface could be flattened onto a sheet of paper. His method was brilliant, but his data were poor. He relied on travellers' reports to estimate distances, and he made the Earth smaller than it really is, an error that later encouraged explorers to believe that Asia lay a short voyage west of Europe. When his work was rediscovered in Europe in the fifteenth century, it was copied and printed with such enthusiasm that his errors survived for generations."
+    },
+    {
+      "label": "D",
+      "text": "Between Ptolemy's time and the Renaissance, European maps followed a different tradition. The large mappae mundi, or world maps, of medieval monasteries were designed less to guide travellers than to teach religious history. Jerusalem usually occupied the centre, and the edges were filled with monsters and marvels. At the same time, sailors around the Mediterranean used portolan charts, which were covered with straight lines radiating from compass points and carefully recorded harbours. These practical documents were drawn on animal skin and updated by hand whenever a captain returned with new information. The two kinds of map existed side by side, rarely influencing each other, because they answered entirely different questions."
+    },
+    {
+      "label": "E",
+      "text": "The age of ocean exploration created a demand for maps that was both commercial and political. In 1569, the Flemish mapmaker Gerardus Mercator published a world map on which any line of constant compass direction appeared as a straight line, a great convenience for navigators. The price of this convenience was distortion: regions close to the poles were stretched, so that Greenland appears as large as Africa although it is in fact about fourteen times smaller. Despite this flaw, versions of the projection remain in everyday use today. Meanwhile, governments realised that a good map was a strategic asset. Trading companies guarded their charts as closely as their cargoes, and in some countries a pilot who sold a chart to a rival could be punished severely."
+    },
+    {
+      "label": "F",
+      "text": "By the eighteenth century, European states wanted maps that were accurate in every detail, and the solution was triangulation. Surveyors measured one baseline with great care, often using chains laid on the ground, and then calculated every other distance by measuring angles from hilltop to hilltop with an instrument called a theodolite. A national survey could take decades and employed hundreds of workers. Mapmaking became a division of labour: surveyors collected measurements in the field, draughtsmen turned them into drawings, and engravers cut the designs into copper plates for printing. The cartographer was now an organiser of specialists rather than a lone craftsman."
+    },
+    {
+      "label": "G",
+      "text": "The twentieth century transformed the profession again. Aerial photography, and later satellite images, replaced much of the slow work on foot, and the introduction of the Global Positioning System allowed anyone with a mobile phone to know their position within a few metres. Today most maps are digital databases, and much of the data is gathered by volunteers: in projects such as OpenStreetMap, ordinary citizens add roads, footpaths and buildings in their own neighbourhoods. Professional cartographers have not disappeared, however. Their task has shifted from drawing to checking sources, designing clear displays and deciding which information is reliable. As the earliest mapmakers knew, the central skill is not measurement but judgement."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tfng",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1? Write TRUE, FALSE or NOT GIVEN.",
+      "questions": [
+        {
+          "q": "The Babylonian clay tablet places the city of Babylon in the middle of the known world.",
+          "answer": "TRUE",
+          "explain": "Đoạn B: tấm bảng đất sét cho thấy thế giới là một đĩa tròn \"with the city of Babylon at its centre\" - khớp với phát biểu nên là TRUE."
+        },
+        {
+          "q": "The charts made by Marshall Islands navigators showed the coastlines of islands accurately.",
+          "answer": "FALSE",
+          "explain": "Đoạn B nói rõ các que gỗ \"did not show distances or coastlines\"; chúng chỉ thể hiện hướng sóng biển, nên phát biểu là FALSE."
+        },
+        {
+          "q": "Ptolemy later corrected the mistakes in his estimates of distance.",
+          "answer": "NOT GIVEN",
+          "explain": "Đoạn C chỉ nói dữ liệu của Ptolemy kém và sai sót tồn tại qua nhiều thế hệ; không hề nhắc ông có sửa lại hay không nên là NOT GIVEN."
+        },
+        {
+          "q": "Ptolemy's error about the size of the Earth influenced later explorers.",
+          "answer": "TRUE",
+          "explain": "Đoạn C: ông tính Trái Đất nhỏ hơn thực tế, \"an error that later encouraged explorers to believe that Asia lay a short voyage west of Europe\" - TRUE."
+        },
+        {
+          "q": "The world maps drawn in medieval monasteries were mainly intended to help travellers find their way.",
+          "answer": "FALSE",
+          "explain": "Đoạn D: các mappae mundi \"designed less to guide travellers than to teach religious history\" - mục đích chính là dạy lịch sử tôn giáo, nên FALSE."
+        }
+      ]
+    },
+    {
+      "type": "headings",
+      "instructions": "Reading Passage 1 has seven paragraphs, A-G. Choose the correct heading for paragraphs A, E, F and G from the list of headings below.",
+      "options": [
+        "i  Maps as records of choice and belief",
+        "ii  A division between maps for the spirit and maps for the sea",
+        "iii  Profit, secrecy and a useful distortion",
+        "iv  Measuring a whole country from hilltop to hilltop",
+        "v  Mathematics arrives in mapmaking",
+        "vi  Digital data and the changing role of the professional",
+        "vii  Early maps made without paper"
+      ],
+      "questions": [
+        {
+          "q": "Paragraph A",
+          "answer": 0,
+          "explain": "Đoạn A nói mọi bản đồ đều là sự lựa chọn của người vẽ, phản ánh mục đích và niềm tin của xã hội - tiêu đề i. Tiêu đề vii thuộc đoạn B."
+        },
+        {
+          "q": "Paragraph E",
+          "answer": 2,
+          "explain": "Đoạn E bàn về lợi nhuận thương mại, việc giữ bí mật bản đồ và phép chiếu Mercator làm méo vùng cực - tiêu đề iii."
+        },
+        {
+          "q": "Paragraph F",
+          "answer": 3,
+          "explain": "Đoạn F mô tả phép tam giác đạc, đo góc từ đỉnh đồi này sang đỉnh đồi khác để lập bản đồ cả quốc gia - tiêu đề iv."
+        },
+        {
+          "q": "Paragraph G",
+          "answer": 5,
+          "explain": "Đoạn G nói bản đồ ngày nay là dữ liệu số do tình nguyện viên thu thập, và vai trò người vẽ bản đồ chuyển sang kiểm tra nguồn - tiêu đề vi."
+        }
+      ]
+    },
+    {
+      "type": "gap",
+      "instructions": "Complete the sentences below. Choose ONE WORD ONLY from the passage for each answer.",
+      "questions": [
+        {
+          "q": "In the eighteenth century, surveyors used ______ to produce accurate maps of whole countries.",
+          "answer": ["triangulation"],
+          "explain": "Đoạn F: \"the solution was triangulation\"."
+        },
+        {
+          "q": "After measuring a single baseline, surveyors calculated other distances by measuring ______ with a theodolite.",
+          "answer": ["angles"],
+          "explain": "Đoạn F: \"calculated every other distance by measuring angles from hilltop to hilltop with an instrument called a theodolite\"."
+        },
+        {
+          "q": "The designs drawn by draughtsmen were cut into copper plates by ______.",
+          "answer": ["engravers"],
+          "explain": "Đoạn F: \"engravers cut the designs into copper plates for printing\"."
+        },
+        {
+          "q": "In projects such as OpenStreetMap, much of the information on digital maps is added by ______.",
+          "answer": ["volunteers"],
+          "explain": "Đoạn G: \"much of the data is gathered by volunteers\"."
+        }
+      ]
+    }
+  ]
+}

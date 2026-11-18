@@ -1,0 +1,54 @@
+{
+  "title": "Section 2",
+  "context": "A council officer is introducing a city volunteer tree-planting programme to a group of new volunteers.",
+  "audio": [
+    { "s": "N", "t": "You will hear a council officer talking to new volunteers about a tree-planting programme." },
+    { "s": "W", "t": "Good evening, everyone, and thank you for coming along. I'm delighted to see so many new faces at tonight's welcome session for the Greener Streets programme." },
+    { "s": "W", "t": "Let me start with a little history. Many people assume the project began as part of a national campaign, but in fact it started after a severe storm six years ago." },
+    { "s": "W", "t": "That storm brought down more than a thousand trees across the city, and residents were so upset that they asked the council to help them replace them." },
+    { "s": "W", "t": "Now, a word about when we plant. In the early years we met every Sunday, but too many volunteers told us that Sundays were difficult because of family commitments." },
+    { "s": "W", "t": "So we changed it, and planting days are now held on the first Saturday of every month, from nine until one." },
+    { "s": "W", "t": "I know some of you have brought your children along tonight. Children are very welcome, but anyone under sixteen must be accompanied by an adult for the whole session." },
+    { "s": "W", "t": "It's not enough for a parent to drop them off and come back later, I'm afraid. That's an insurance requirement." },
+    { "s": "W", "t": "Please wear sensible clothes, because the work does get muddy. We provide gloves and all the tools, so there's no need to bring your own spades." },
+    { "s": "W", "t": "What we can't provide is footwear. So please wear strong, closed shoes, and ideally waterproof boots if you have them." },
+    { "s": "W", "t": "As for our targets, the council originally hoped to plant two thousand trees by the end of this decade." },
+    { "s": "W", "t": "We've been so successful that the goal has been raised to twenty thousand by 2030, which would make this one of the biggest programmes in the region." },
+    { "s": "W", "t": "Now let me tell you about the five sites we'll be working on this season, and which species goes where." },
+    { "s": "W", "t": "Our first project is Riverside Park. The soil there is very damp, so we'll be putting in willows, which cope well with wet ground." },
+    { "s": "W", "t": "Next is Hillcrest School. The head teacher would like the pupils to eat what they grow, so the playground edge will get apple trees." },
+    { "s": "W", "t": "Then there's Market Square. We first planned to put in oaks, but their roots would damage the old paving stones." },
+    { "s": "W", "t": "So instead we've chosen maples, which are smaller and also give wonderful colour in autumn." },
+    { "s": "W", "t": "Along the Canal Path, we'll plant birches. They're slim, so they won't block the towpath, and cyclists will enjoy the shade." },
+    { "s": "W", "t": "The last site is the Old Quarry. Nothing much grows in that thin, stony ground, but pines are tough enough to survive there." },
+    { "s": "W", "t": "I should mention that we considered planting some oaks at the quarry too, but we've decided to keep those for a woodland project next year." },
+    { "s": "W", "t": "Right, if you'd all like to come forward, there are sign-up sheets on the table by the door, and my colleague will hand out the safety leaflets." },
+    { "s": "W", "t": "Please choose the first Saturday you can attend, and tell us if you have any health conditions we should know about." },
+    { "s": "W", "t": "Thank you again, and I look forward to seeing you with muddy boots in a few weeks' time." }
+  ],
+  "blocks": [
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        { "q": "The Greener Streets programme began because", "options": ["of a national campaign.", "a storm destroyed many trees.", "the council wanted to attract tourists."], "answer": 1, "explain": "Người nói bác bỏ ý \"national campaign\" và nói chương trình bắt đầu \"after a severe storm\" làm đổ hơn một nghìn cây." },
+        { "q": "Planting days are now held", "options": ["every Sunday.", "on the first Sunday of each month.", "on the first Saturday of each month."], "answer": 2, "explain": "Lúc đầu họp mỗi Chủ nhật, nhưng đã đổi: \"planting days are now held on the first Saturday of every month\"." },
+        { "q": "Volunteers under sixteen must", "options": ["stay with an adult throughout the session.", "bring a letter from a parent.", "work only at the school site."], "answer": 0, "explain": "\"anyone under sixteen must be accompanied by an adult for the whole session\" - phụ huynh không được chỉ đưa trẻ đến rồi đi." },
+        { "q": "What do volunteers need to bring themselves?", "options": ["spades", "gloves", "strong shoes"], "answer": 2, "explain": "Hội đồng cung cấp găng tay và dụng cụ, nhưng \"What we can't provide is footwear\", nên phải tự mang giày chắc chắn." },
+        { "q": "What is the new target for the programme?", "options": ["2,000 trees by 2030", "20,000 trees by 2030", "1,000 trees a year"], "answer": 1, "explain": "Mục tiêu ban đầu là hai nghìn cây, nay \"raised to twenty thousand by 2030\"." }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "Which type of tree will be planted at each site? Choose FIVE answers from the box and write the correct letter, A-F, next to Questions 6-10.",
+      "options": ["A  oak", "B  birch", "C  apple", "D  maple", "E  willow", "F  pine"],
+      "questions": [
+        { "q": "Riverside Park", "answer": 4, "explain": "Đất rất ẩm nên \"we'll be putting in willows\" (liễu)." },
+        { "q": "Hillcrest School", "answer": 2, "explain": "Để học sinh có thể ăn quả: \"the playground edge will get apple trees\"." },
+        { "q": "Market Square", "answer": 3, "explain": "Dự định trồng sồi nhưng rễ làm hỏng nền lát, nên \"instead we've chosen maples\" (phong)." },
+        { "q": "Canal Path", "answer": 1, "explain": "\"we'll plant birches. They're slim, so they won't block the towpath\"." },
+        { "q": "Old Quarry", "answer": 5, "explain": "Đất mỏng nhiều đá nên chọn thông: \"pines are tough enough to survive there\"; sồi để dành cho dự án năm sau." }
+      ]
+    }
+  ]
+}

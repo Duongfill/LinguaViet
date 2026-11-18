@@ -1,0 +1,185 @@
+{
+  "part": 5,
+  "groups": [
+    { "kind": "word-form", "questions": [ {
+      "q": "The airline has ______ increased the number of flights between Hanoi and Da Nang.",
+      "options": ["significant", "significance", "significantly", "signify"],
+      "answer": 2,
+      "explain": "Giữa trợ động từ \"has\" và động từ \"increased\" cần một trạng từ bổ nghĩa cho động từ: significantly (đáng kể). \"significant\" là tính từ, \"significance\" là danh từ, \"signify\" là động từ."
+    } ] },
+    { "kind": "vocabulary", "questions": [ {
+      "q": "The publisher announced the ______ of a new line of children's books for next spring.",
+      "options": ["launch", "pursuit", "quota", "refund"],
+      "answer": 0,
+      "explain": "\"the launch of a new line\" nghĩa là việc ra mắt một dòng sản phẩm mới, hợp với ngữ cảnh nhà xuất bản. Pursuit (sự theo đuổi), quota (hạn ngạch), refund (hoàn tiền) không hợp nghĩa."
+    } ] },
+    { "kind": "preposition", "questions": [ {
+      "q": "Farmers must submit their crop reports ______ the last day of the month.",
+      "options": ["until", "among", "since", "by"],
+      "answer": 3,
+      "explain": "\"by + mốc thời gian\" chỉ hạn chót (trước hoặc vào ngày cuối tháng). \"until\" dùng cho hành động kéo dài liên tục tới mốc, còn nộp báo cáo là hành động tức thời; \"among\" và \"since\" không hợp."
+    } ] },
+    { "kind": "conjunction", "questions": [ {
+      "q": "______ the water supply was interrupted for nearly six hours, the utility company offered customers a bill credit.",
+      "options": ["Despite", "Because", "However", "Therefore"],
+      "answer": 1,
+      "explain": "Sau chỗ trống là một mệnh đề đầy đủ nên cần liên từ chỉ nguyên nhân: Because (vì nguồn nước bị gián đoạn nên công ty giảm tiền). \"Despite\" đi với danh từ; \"However\" và \"Therefore\" là trạng từ liên kết, không nối mệnh đề trong cấu trúc này."
+    } ] },
+    { "kind": "pronoun", "questions": [ {
+      "q": "The sales associates reminded customers that ______ could return any device within thirty days of purchase.",
+      "options": ["them", "they", "their", "themselves"],
+      "answer": 1,
+      "explain": "Chỗ trống là chủ ngữ của mệnh đề sau \"that\" (đứng trước động từ \"could return\"), nên cần đại từ chủ ngữ: they (customers). \"them\" là tân ngữ, \"their\" là sở hữu tính từ, \"themselves\" là đại từ phản thân."
+    } ] },
+    { "kind": "tense", "questions": [ {
+      "q": "Before the new software was installed, employees ______ their timesheets by hand.",
+      "options": ["fill", "will fill", "have filled", "filled"],
+      "answer": 3,
+      "explain": "Mệnh đề \"Before the new software was installed\" ở quá khứ đơn nên hành động xảy ra trước đó cũng chia quá khứ: filled. \"fill\" và \"will fill\" sai thì, \"have filled\" (hiện tại hoàn thành) không đi với mốc quá khứ đã kết thúc."
+    } ] },
+    { "kind": "vocabulary", "questions": [ {
+      "q": "Applicants who wish to be considered for the position must submit a résumé and two letters of ______.",
+      "options": ["reference", "referee", "referring", "referred"],
+      "answer": 0,
+      "explain": "\"letters of reference\" là cụm cố định: thư giới thiệu/thư tham chiếu trong hồ sơ xin việc. \"referee\" chỉ người giới thiệu, không đi sau \"letters of\"; hai dạng còn lại là dạng động từ."
+    } ] },
+    { "kind": "word-form", "questions": [ {
+      "q": "The new tablet is ______ with most wireless headphones on the market.",
+      "options": ["compatibility", "compatibly", "compatible", "compatibles"],
+      "answer": 2,
+      "explain": "Sau động từ \"is\" cần tính từ làm vị ngữ, và \"compatible with\" nghĩa là tương thích với. \"compatibility\" là danh từ, \"compatibly\" là trạng từ, \"compatibles\" là danh từ số nhiều."
+    } ] },
+    { "kind": "preposition", "questions": [ {
+      "q": "The airline's frequent-flyer program entitles members ______ priority boarding and free checked baggage.",
+      "options": ["of", "at", "to", "for"],
+      "answer": 2,
+      "explain": "Cấu trúc \"entitle someone to something\" nghĩa là cho ai quyền hưởng cái gì. Các giới từ \"of\", \"at\", \"for\" không đi với entitle theo nghĩa này."
+    } ] },
+    { "kind": "voice", "questions": [ {
+      "q": "The manuscript ______ by two independent reviewers before the editor made a final decision.",
+      "options": ["was evaluated", "evaluated", "has evaluated", "evaluating"],
+      "answer": 0,
+      "explain": "Bản thảo là đối tượng bị đánh giá và có \"by two independent reviewers\", nên cần thể bị động quá khứ: was evaluated. \"evaluated\" đơn lẻ sẽ thành chủ động và sai nghĩa; \"has evaluated\" và \"evaluating\" cũng không phù hợp cấu trúc."
+    } ] },
+    { "kind": "relative-pronoun", "questions": [ {
+      "q": "Mr. Pham, ______ oversees the cold-storage warehouse, will lead the tour of the packing facility.",
+      "options": ["whom", "who", "whose", "which"],
+      "answer": 1,
+      "explain": "Mệnh đề quan hệ bổ nghĩa cho người (Mr. Pham) và đóng vai chủ ngữ của \"oversees\", nên dùng \"who\". \"whom\" là tân ngữ, \"whose\" chỉ sở hữu, \"which\" dùng cho vật."
+    } ] },
+    { "kind": "conjunction", "questions": [ {
+      "q": "The store will keep its extended opening hours ______ the holiday season ends.",
+      "options": ["during", "as soon as", "unless", "until"],
+      "answer": 3,
+      "explain": "\"keep ... hours until the holiday season ends\" nghĩa là giữ giờ mở cửa kéo dài cho đến khi mùa lễ kết thúc. \"during\" đi với danh từ, \"as soon as\" và \"unless\" làm câu sai nghĩa."
+    } ] },
+    { "kind": "vocabulary", "questions": [ {
+      "q": "To reduce water waste, the city plans to ______ the old pipes in the eastern district.",
+      "options": ["replace", "reply", "reserve", "respond"],
+      "answer": 0,
+      "explain": "Cần một động từ có tân ngữ \"the old pipes\" và hợp nghĩa: replace (thay thế) để giảm thất thoát nước. \"reply\" và \"respond\" là nội động từ (đi với to), \"reserve\" (đặt trước) không hợp."
+    } ] },
+    { "kind": "superlative", "questions": [ {
+      "q": "Of all the rice varieties grown in the delta, this one is the ______ resistant to drought.",
+      "options": ["much", "more", "most", "very"],
+      "answer": 2,
+      "explain": "Có \"the\" và phạm vi so sánh \"Of all the rice varieties\" nên dùng so sánh nhất: the most resistant. \"much\", \"more\" và \"very\" không tạo được cấu trúc đúng sau \"the\"."
+    } ] },
+    { "kind": "word-form", "questions": [ {
+      "q": "All new hires will receive ______ training during their first week at the company.",
+      "options": ["comprehend", "comprehensive", "comprehensively", "comprehension"],
+      "answer": 1,
+      "explain": "Trước danh từ \"training\" cần một tính từ: comprehensive (toàn diện). \"comprehend\" là động từ, \"comprehensively\" là trạng từ, \"comprehension\" là danh từ (sự hiểu)."
+    } ] },
+    { "kind": "conditional", "questions": [ {
+      "q": "If the shipment ______ before noon, we will be able to stock the shelves by this evening.",
+      "options": ["will arrive", "arrived", "is arriving", "arrives"],
+      "answer": 3,
+      "explain": "Câu điều kiện loại 1: mệnh đề If dùng hiện tại đơn (arrives), mệnh đề chính dùng \"will\". Không dùng \"will arrive\" trong mệnh đề If; \"arrived\" thuộc loại 2."
+    } ] },
+    { "kind": "vocabulary", "questions": [ {
+      "q": "The farm cooperative ______ its organic certification after passing the annual audit.",
+      "options": ["lost", "dismissed", "renewed", "declined"],
+      "answer": 2,
+      "explain": "Sau khi vượt qua kỳ kiểm tra thường niên thì hợp tác xã gia hạn (renewed) chứng nhận hữu cơ. \"lost\" mâu thuẫn với việc đạt kiểm tra; \"dismissed\" và \"declined\" không đi với certification theo nghĩa này."
+    } ] },
+    { "kind": "gerund", "questions": [ {
+      "q": "Ms. Lopez is in charge of ______ the editorial calendar for the magazine.",
+      "options": ["coordinating", "coordinate", "coordinated", "coordinates"],
+      "answer": 0,
+      "explain": "Sau giới từ \"of\" cần danh động từ (V-ing): in charge of coordinating (phụ trách điều phối). Các dạng nguyên mẫu, quá khứ hoặc ngôi thứ ba không đứng sau giới từ."
+    } ] },
+    { "kind": "preposition", "questions": [ {
+      "q": "The flight to Seoul was delayed ______ heavy fog at the airport.",
+      "options": ["despite", "although", "instead", "because of"],
+      "answer": 3,
+      "explain": "Sau chỗ trống là cụm danh từ \"heavy fog\" và nghĩa là nguyên nhân gây trễ chuyến bay: because of. \"despite\" (mặc dù) sai nghĩa, \"although\" cần mệnh đề, \"instead\" là trạng từ."
+    } ] },
+    { "kind": "word-form", "questions": [ {
+      "q": "Customers may view their monthly ______ of electricity on the utility company's website.",
+      "options": ["consumer", "consumption", "consume", "consumed"],
+      "answer": 1,
+      "explain": "Sau tính từ sở hữu \"their\" và \"monthly\", trước \"of electricity\" cần danh từ chỉ lượng sử dụng: consumption (mức tiêu thụ). \"consumer\" là người tiêu dùng nên sai nghĩa."
+    } ] },
+    { "kind": "quantifier", "questions": [ {
+      "q": "Please keep your receipt, as ______ item purchased without one cannot be exchanged.",
+      "options": ["any", "many", "few", "several"],
+      "answer": 0,
+      "explain": "Danh từ \"item\" ở số ít nên cần từ đứng trước danh từ số ít: any (bất kỳ món nào). \"many\", \"few\", \"several\" đều đi với danh từ số nhiều."
+    } ] },
+    { "kind": "word-form", "questions": [ {
+      "q": "The committee found Mr. Ito's presentation highly ______ and recommended him for the promotion.",
+      "options": ["impress", "impressively", "impressive", "impression"],
+      "answer": 2,
+      "explain": "\"found + tân ngữ + tính từ\" (cho rằng bài thuyết trình ...), và \"highly\" bổ nghĩa cho tính từ: highly impressive (rất ấn tượng). Các dạng khác không đứng được làm bổ ngữ ở vị trí này."
+    } ] },
+    { "kind": "correlative", "questions": [ {
+      "q": "Passengers may check in ______ at the airport kiosk or through the mobile app.",
+      "options": ["both", "either", "neither", "whether"],
+      "answer": 1,
+      "explain": "Có liên từ \"or\" phía sau nên cần cặp tương quan \"either ... or\" (hoặc ... hoặc). \"both\" đi với \"and\", \"neither\" đi với \"nor\", còn \"whether\" không phù hợp."
+    } ] },
+    { "kind": "word-form", "questions": [ {
+      "q": "The author's latest novel received ______ reviews from critics across the country.",
+      "options": ["favorably", "favor", "favored", "favorable"],
+      "answer": 3,
+      "explain": "Trước danh từ \"reviews\" cần một tính từ: favorable reviews (những lời nhận xét tích cực). \"favorably\" là trạng từ, \"favor\" là danh từ/động từ, \"favored\" mang nghĩa được ưa chuộng nên không hợp."
+    } ] },
+    { "kind": "preposition", "questions": [ {
+      "q": "The new warehouse is located ______ the highway and the railway station.",
+      "options": ["among", "within", "between", "beside"],
+      "answer": 2,
+      "explain": "Cấu trúc \"between A and B\" chỉ vị trí ở giữa hai đối tượng (the highway và the railway station). \"among\" dùng cho từ ba đối tượng trở lên."
+    } ] },
+    { "kind": "infinitive", "questions": [ {
+      "q": "The utility company has hired extra crews ______ power outages as quickly as possible.",
+      "options": ["to repair", "repairs", "repaired", "are repairing"],
+      "answer": 0,
+      "explain": "Cần cụm chỉ mục đích sau \"hired extra crews\": to repair (để sửa chữa). \"repairs\", \"repaired\" hoặc \"are repairing\" không tạo thành cấu trúc đúng khi đã có động từ chính \"has hired\"."
+    } ] },
+    { "kind": "vocabulary", "questions": [ {
+      "q": "The store offers a two-year ______ covering defects in materials and workmanship.",
+      "options": ["subscription", "warranty", "discount", "invoice"],
+      "answer": 1,
+      "explain": "\"a two-year warranty covering defects\" là bảo hành hai năm cho lỗi vật liệu và tay nghề. Subscription (đăng ký dịch vụ), discount (giảm giá), invoice (hóa đơn) không bao phủ lỗi sản phẩm."
+    } ] },
+    { "kind": "voice", "questions": [ {
+      "q": "Employees who work overtime will be ______ at one and a half times their regular hourly rate.",
+      "options": ["compensate", "compensation", "compensating", "compensated"],
+      "answer": 3,
+      "explain": "Sau \"will be\" cần phân từ quá khứ để tạo thể bị động: will be compensated (được trả công). Nhân viên là đối tượng được đền bù, nên không dùng V-ing hay danh từ."
+    } ] },
+    { "kind": "verb-form", "questions": [ {
+      "q": "Heavy rain last month ______ the tomato harvest by nearly twenty percent.",
+      "options": ["reduced", "reducing", "reduction", "reducible"],
+      "answer": 0,
+      "explain": "Câu thiếu động từ chính, chủ ngữ \"Heavy rain\" và mốc \"last month\" nên dùng quá khứ đơn: reduced. \"reducing\" không thành động từ chính, \"reduction\" là danh từ, \"reducible\" là tính từ."
+    } ] },
+    { "kind": "vocabulary", "questions": [ {
+      "q": "Passengers traveling with ______ luggage should proceed to the oversized baggage counter.",
+      "options": ["spacious", "eager", "bulky", "wealthy"],
+      "answer": 2,
+      "explain": "Hành lý cồng kềnh (bulky) mới cần đến quầy hành lý quá khổ. \"spacious\" dùng cho không gian rộng, \"eager\" và \"wealthy\" miêu tả người nên không đi với luggage."
+    } ] }
+  ]
+}

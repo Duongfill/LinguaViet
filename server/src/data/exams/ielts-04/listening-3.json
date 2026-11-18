@@ -1,0 +1,67 @@
+{
+  "title": "Section 3",
+  "context": "Two university students, Maya and Tom, are discussing their research project on students' social media habits.",
+  "audio": [
+    { "s": "N", "t": "You will hear two students, Maya and Tom, discussing a research project about social media habits." },
+    { "s": "W", "t": "Hi Tom. Have you thought any more about our project for the research methods course?" },
+    { "s": "M", "t": "Yes, I have. I was going to suggest something about sleep, because I read that late-night phone use affects how well students concentrate." },
+    { "s": "W", "t": "That's interesting, but my idea was more about social media itself. My flatmate says she can't study for twenty minutes without checking her phone." },
+    { "s": "M", "t": "Hmm, that does sound more original. And the tutor did say she wanted topics close to our own experience." },
+    { "s": "W", "t": "Exactly. So we'd look at how undergraduates actually use social media, and perhaps touch on sleep as one factor." },
+    { "s": "M", "t": "Fine by me. Now, how are we going to collect the data? I think face-to-face interviews would give us richer answers." },
+    { "s": "W", "t": "They would, but we only have six weeks, and transcribing every interview takes forever." },
+    { "s": "M", "t": "True. So an online questionnaire, then. We can send the link round the student groups." },
+    { "s": "W", "t": "Right. And how many people should we aim for? I was thinking two hundred." },
+    { "s": "M", "t": "Dr Kowalski told me that was far too many for a project this size, because we'd never have time to analyse them all." },
+    { "s": "W", "t": "Oh, I didn't know that. Did she suggest a number?" },
+    { "s": "M", "t": "She said eighty would be too small to show any pattern, and a hundred and twenty would be about right." },
+    { "s": "W", "t": "A hundred and twenty it is, then." },
+    { "s": "M", "t": "My worry about questionnaires is that people don't tell the truth about how long they spend online." },
+    { "s": "W", "t": "That's a good point. They nearly always underestimate it." },
+    { "s": "M", "t": "So instead of just asking, we could ask them to send a screenshot of the screen-time report on their phones." },
+    { "s": "W", "t": "That's much more reliable. I'll add that to the questionnaire." },
+    { "s": "M", "t": "Have you looked at the ethics form yet? I couldn't tell what's the most difficult part." },
+    { "s": "W", "t": "I thought the consent section would be the hard bit, but it's actually quite simple, just a tick box." },
+    { "s": "W", "t": "The tricky part is that we have to promise participants' names will never be linked to their screenshots, so we have to delete the names straight away." },
+    { "s": "M", "t": "Okay, so anonymity is the main issue. I can take care of that bit." },
+    { "s": "W", "t": "Thanks. Now, before we start, we ran a small pilot with ten friends last week. Shall we go through what it showed?" },
+    { "s": "M", "t": "Sure. What about Instagram? I expected it to be popular with everyone." },
+    { "s": "W", "t": "Not with the first-years, actually. Most of them said they use it less than they did last year." },
+    { "s": "M", "t": "Interesting. And TikTok? I guessed it would be the one that people use after midnight." },
+    { "s": "W", "t": "That's what I thought too, but no. It was the platform where people spent the longest each day, around two and a half hours." },
+    { "s": "M", "t": "Wow. Then which one was the late-night one?" },
+    { "s": "W", "t": "YouTube. Most of them said they watch it in bed, usually after twelve." },
+    { "s": "M", "t": "That makes sense. What about WhatsApp?" },
+    { "s": "W", "t": "Almost everyone said they use it for study groups, to share notes and organise meetings." },
+    { "s": "M", "t": "And Facebook? I remember a couple of people mentioning it for the news." },
+    { "s": "W", "t": "Only for one person. In general, hardly any of our participants used it at all." },
+    { "s": "M", "t": "Right. So that's something we should highlight in our report." },
+    { "s": "W", "t": "Agreed. Shall we draft the questionnaire together this afternoon?" },
+    { "s": "M", "t": "Yes, let's meet in the library at two." }
+  ],
+  "blocks": [
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B or C.",
+      "questions": [
+        { "q": "Why did Maya choose social media as the project topic?", "options": ["Her tutor recommended it.", "Her flatmate's habits gave her the idea.", "She had read an article about it."], "answer": 1, "explain": "Maya kể: \"My flatmate says she can't study for twenty minutes without checking her phone.\" Ý về giấc ngủ là của Tom, không phải chủ đề cuối cùng." },
+        { "q": "They decide to collect their data using", "options": ["face-to-face interviews.", "a focus group.", "an online questionnaire."], "answer": 2, "explain": "Phỏng vấn trực tiếp mất quá nhiều thời gian chép lại, nên Tom chốt: \"So an online questionnaire, then.\"" },
+        { "q": "How many participants will they recruit?", "options": ["200", "80", "120"], "answer": 2, "explain": "Maya định 200, nhưng Tiến sĩ Kowalski nói quá nhiều; 80 thì quá ít, \"a hundred and twenty would be about right\"." },
+        { "q": "How will they deal with people underestimating their time online?", "options": ["by asking for screen-time screenshots", "by checking the data with interviews", "by reducing the length of the questionnaire"], "answer": 0, "explain": "Tom đề xuất \"ask them to send a screenshot of the screen-time report\" và Maya đồng ý đưa vào bảng hỏi." },
+        { "q": "What is the most difficult part of the ethics form?", "options": ["getting participants' consent", "keeping participants anonymous", "explaining how the data will be stored"], "answer": 1, "explain": "Phần đồng ý chỉ là ô tick; khó nhất là cam kết tên không bị gắn với ảnh chụp: \"anonymity is the main issue\"." }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "What did the pilot study show about each social media platform? Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 6-10.",
+      "options": ["A  used mainly for group study", "B  used mostly after midnight", "C  the most daily time per user", "D  declining among first-year students", "E  used mainly for news", "F  hardly used by participants", "G  used more by men than by women"],
+      "questions": [
+        { "q": "Instagram", "answer": 3, "explain": "\"Not with the first-years ... they use it less than they did last year\" nghĩa là giảm ở sinh viên năm nhất." },
+        { "q": "TikTok", "answer": 2, "explain": "Tom đoán dùng sau nửa đêm nhưng Maya sửa: đây là nền tảng \"where people spent the longest each day\"." },
+        { "q": "YouTube", "answer": 1, "explain": "Nền tảng dùng khuya là YouTube: \"they watch it in bed, usually after twelve\"." },
+        { "q": "WhatsApp", "answer": 0, "explain": "\"Almost everyone said they use it for study groups\"." },
+        { "q": "Facebook", "answer": 5, "explain": "Chỉ một người dùng cho tin tức, còn nhìn chung \"hardly any of our participants used it at all\"." }
+      ]
+    }
+  ]
+}
