@@ -58,8 +58,51 @@ function Shell() {
   const [moreOpen, setMoreOpen] = useState(false);
   useEffect(() => setMoreOpen(false), [pathname, lang]);
   const inMore = more.some(([to]) => pathname === to);
+  // Máy tính: thanh bên trái chia nhóm
+  const NAV_GROUPS = [
+    ['Học', ['/', '/journey', '/flashcards', '/weak']],
+    ['Luyện tập', ['/quiz', '/match', '/dictation', '/translate', '/speak', '/hanzi']],
+    ['Từ vựng', ['/decks']],
+    ['Khác', ['/rank', '/settings']],
+  ];
   return (
     <div className="app">
+      <aside className="sidebar" aria-label="Điều hướng">
+        <div className="sb-brand">📚 LinguaViet</div>
+        <div className="sb-langs" role="tablist" aria-label="Chọn ngôn ngữ">
+          {Object.entries(LANG_INFO).map(([k, v]) => (
+            <button key={k} role="tab" aria-selected={lang === k} className={lang === k ? 'active' : ''} onClick={() => setLang(k)}>
+              <span aria-hidden>{v.flag}</span> {v.short}
+            </button>
+          ))}
+        </div>
+        {myLevel && (
+          <button className="sb-level" onClick={() => setPicking(true)} title="Đổi trình độ">
+            🎯 Trình độ <strong>{levelShort(myLevel)}</strong> <span aria-hidden>▾</span>
+          </button>
+        )}
+        {myLevel && !picking && (
+          <nav className="sb-nav">
+            {NAV_GROUPS.map(([title, paths]) => {
+              const items = paths.map((p) => links.find((l) => l[0] === p)).filter(Boolean);
+              return (
+                <div key={title} className="sb-group">
+                  <div className="sb-title">{title}</div>
+                  {items.map(([to, label, icon]) => (
+                    <NavLink key={to} to={to} end={to === '/'}>
+                      <span className="ico" aria-hidden>{icon}</span>{label}
+                    </NavLink>
+                  ))}
+                </div>
+              );
+            })}
+          </nav>
+        )}
+        <div className="sb-foot">
+          <span className="muted small" title={user.email}>👤 {user.name}</span>
+          <button className="btn ghost sm" onClick={logout}>Đăng xuất</button>
+        </div>
+      </aside>
       <header className="topbar">
         <div className="brand">📚<span className="brand-text"> LinguaViet</span></div>
         <div className="lang-switch" role="tablist" aria-label="Chọn ngôn ngữ">

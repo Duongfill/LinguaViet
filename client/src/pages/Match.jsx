@@ -104,7 +104,7 @@ export default function Match() {
   const enough = cards && new Set(cards.map((c) => c.meaning_vi)).size >= 3;
 
   return (
-    <div className="stack">
+    <div className="stack page-narrow">
       <div className="toolbar">
         <h2>🧩 Ghép thẻ</h2>
         <DeckPicker lang={lang} value={deck} onChange={setDeck} />

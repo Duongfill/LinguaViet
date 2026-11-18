@@ -63,7 +63,7 @@ export default function Dictation() {
   };
 
   return (
-    <div className="stack">
+    <div className="stack page-narrow">
       <div className="toolbar">
         <h2>🎧 Nghe chép chính tả</h2>
         <DeckPicker lang={lang} value={deck} onChange={setDeck} />
