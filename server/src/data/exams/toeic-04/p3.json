@@ -1,0 +1,226 @@
+{
+  "part": 3,
+  "groups": [
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "W", "t": "Good morning. I'd like to check in for the flight to Lisbon. Here's my passport." },
+        { "s": "M", "t": "Thank you, Ms. Duarte. I see you have one suitcase. Let me put it on the scale. Hmm, it's twenty-six kilograms, and the limit is twenty-three." },
+        { "s": "W", "t": "Oh no. I bought some gifts in Singapore, and I didn't realize they were so heavy." },
+        { "s": "M", "t": "You can pay an extra fee of fifty dollars, or you can move some items into your carry-on bag." },
+        { "s": "W", "t": "My carry-on is already pretty full. Is there a place nearby where I can mail a package home?" },
+        { "s": "M", "t": "Yes, there's a postal counter across from Gate 3. It closes at noon, so you have about forty minutes." },
+        { "s": "W", "t": "Great. I'll take out some books and mail them. I'll come back after that." }
+      ],
+      "questions": [
+        { "q": "What is the problem?", "options": ["A flight has been canceled.", "A passport has expired.", "A suitcase is too heavy.", "A seat is double-booked."], "answer": 2, "explain": "Nhân viên nói hành lý nặng 26 kg trong khi giới hạn là 23 kg." },
+        { "q": "What does the man suggest the woman do?", "options": ["Pay a fee or move some items", "Take a later flight", "Buy a larger suitcase", "Check in online"], "answer": 0, "explain": "Anh nói 'pay an extra fee of fifty dollars, or move some items into your carry-on bag'. Các lựa chọn khác không được nhắc tới." },
+        { "q": "What will the woman probably do next?", "options": ["Rebook her flight", "Pay a fifty-dollar fee", "Exchange some currency", "Mail some books"], "answer": 3, "explain": "Cô nói 'I'll take out some books and mail them'. Cô chưa chọn trả phí nên (B) sai." }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "W", "t": "Daniel, Hiro, thanks for coming. The mayor's interview was scheduled for Thursday, but his office just asked to move it to Friday." },
+        { "s": "M", "t": "That's a problem. Our print deadline for Saturday's edition is Friday at six p.m." },
+        { "s": "M", "t": "Well, I could write the draft in advance, using the background research, and then add the quotes right after the interview." },
+        { "s": "W", "t": "That could work. Hiro, how many photos will you need?" },
+        { "s": "M2", "t": "Just two. I can take them right after the interview, before the mayor's office closes." },
+        { "s": "W", "t": "Good. Then let's proceed. I'll let the mayor's assistant know." },
+        { "s": "M", "t": "Should we also tell the layout team about the possible delay?" },
+        { "s": "W", "t": "Yes, I'll e-mail them this afternoon." }
+      ],
+      "questions": [
+        { "q": "What problem does the woman mention?", "options": ["A reporter is sick.", "An interview has been rescheduled.", "A printer is broken.", "A photo is missing."], "answer": 1, "explain": "Cô nói văn phòng thị trưởng yêu cầu dời buổi phỏng vấn từ thứ Năm sang thứ Sáu." },
+        { "q": "What does Daniel offer to do?", "options": ["Write a draft in advance", "Take some photographs", "Contact the mayor", "Extend the deadline"], "answer": 0, "explain": "Daniel nói 'I could write the draft in advance'. Chụp ảnh là việc của Hiro." },
+        { "q": "What will the woman do this afternoon?", "options": ["Call the mayor", "Send an e-mail to the layout team", "Review some photographs", "Print the edition"], "answer": 1, "explain": "Cô kết luận 'I'll e-mail them this afternoon' (them = layout team)." }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "M", "t": "Hi, I'm interested in your weekly vegetable box. Do you deliver to the downtown area?" },
+        { "s": "W", "t": "We do, every Wednesday and Saturday. The small box is twenty-two dollars and the large box is thirty-five." },
+        { "s": "M", "t": "And is everything organic?" },
+        { "s": "W", "t": "All of it is grown without chemical pesticides. We just received our official organic certificate last month." },
+        { "s": "M", "t": "That's reassuring. I'd like the large box. Can I start next week?" },
+        { "s": "W", "t": "Of course. Just fill out this form with your address and choose a delivery day. If you sign up for three months, you'll get one box free." },
+        { "s": "M", "t": "Great, I'll do that now, and I'll take the Saturday delivery." }
+      ],
+      "questions": [
+        { "q": "What is the man interested in?", "options": ["A farm tour", "A cooking class", "A restaurant reservation", "A vegetable delivery service"], "answer": 3, "explain": "Anh nói quan tâm 'your weekly vegetable box' và hỏi có giao đến khu trung tâm không." },
+        { "q": "What does the woman say about the farm's products?", "options": ["They are sold only in stores.", "They are grown without chemical pesticides.", "They are available all year.", "They are cheaper than at supermarkets."], "answer": 1, "explain": "Cô nói 'All of it is grown without chemical pesticides'. Không có thông tin về giá so với siêu thị." },
+        { "q": "How can the man get a free box?", "options": ["By signing up for three months", "By referring a friend", "By paying by credit card", "By choosing Saturday delivery"], "answer": 0, "explain": "Cô nói 'If you sign up for three months, you'll get one box free'. Chọn thứ Bảy chỉ là lựa chọn ngày giao." }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "W", "t": "Hello, Lakeside Water Services. How can I help you?" },
+        { "s": "M", "t": "Hi, my water bill this month is almost double what I usually pay, and I haven't changed anything at home." },
+        { "s": "W", "t": "I'm sorry to hear that. Let me look at your account... It shows a steady increase in usage over the last three weeks. Is it possible you have a leak?" },
+        { "s": "M", "t": "Hmm, I did notice a wet patch in the yard last week, but I thought it was from the rain." },
+        { "s": "W", "t": "That might be the problem. We can send a technician to inspect your pipes. It's free of charge, and the earliest slot is tomorrow between ten and noon." },
+        { "s": "M", "t": "That works. I'll be home. And what about the bill?" },
+        { "s": "W", "t": "If a leak is confirmed, you can apply for an adjustment, and I'll e-mail you the form." }
+      ],
+      "questions": [
+        { "q": "Why is the man calling?", "options": ["To cancel his service", "To report a broken meter", "To move to a new house", "To question a higher bill"], "answer": 3, "explain": "Anh nói hóa đơn nước 'almost double' mức thường lệ." },
+        { "q": "What did the man notice last week?", "options": ["A strange noise from the pipes", "A leaking faucet", "A wet area in his yard", "A new water meter"], "answer": 2, "explain": "Anh nói 'I did notice a wet patch in the yard last week'." },
+        { "q": "What will the woman send by e-mail?", "options": ["An inspection report", "A payment receipt", "A technician's schedule", "An adjustment form"], "answer": 3, "explain": "Cô nói 'I'll e-mail you the form' để xin điều chỉnh hóa đơn (adjustment)." }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "M", "t": "Welcome to Tech Haven. Looking for anything in particular?" },
+        { "s": "W", "t": "Yes, I bought this wireless speaker last week, and the sound keeps cutting out. I'd like to exchange it." },
+        { "s": "M", "t": "Do you have the receipt? Let me check. Hmm, this was purchased on the fifth, so it's within our fourteen-day exchange period. But the model you bought is out of stock now." },
+        { "s": "W2", "t": "Excuse me, Kevin. I just got a delivery of that model this morning. It's in the back." },
+        { "s": "M", "t": "Oh, that's great, Ms. Tanaka. Then I'll bring one out for you." },
+        { "s": "W", "t": "Thank you. Could I also get a case for it?" },
+        { "s": "W2", "t": "Of course. Cases are on the shelf near the register, and they're twenty percent off this week." }
+      ],
+      "questions": [
+        { "q": "What is the woman's problem?", "options": ["A cable is missing.", "The sound keeps cutting out.", "The battery will not charge.", "The speaker is the wrong color."], "answer": 1, "explain": "Khách nói 'the sound keeps cutting out'." },
+        { "q": "What does Ms. Tanaka say she received?", "options": ["A shipment of the product", "A customer complaint", "A refund request", "A new work schedule"], "answer": 0, "explain": "Bà nói 'I just got a delivery of that model this morning', tức hàng mới về." },
+        { "q": "What does the woman ask about?", "options": ["A gift card", "A cable", "A case", "An extended warranty"], "answer": 2, "explain": "Cô hỏi 'Could I also get a case for it?'." }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "W", "t": "Good afternoon, Seabreeze Resort. How can I assist you?" },
+        { "s": "M", "t": "Hi, I'm in the Palm Villa. We'd like to book a snorkeling trip for tomorrow, if there's still space." },
+        { "s": "W", "t": "Let me see. The morning trip is full, but there are a few spots on the afternoon departure at two o'clock. It lasts about three hours and includes equipment." },
+        { "s": "M", "t": "Two o'clock should be fine. There are four of us, including two children aged nine and eleven." },
+        { "s": "W", "t": "Children under ten need to be accompanied by an adult in the water, and we require a signed permission form. I'll have it sent to your villa." },
+        { "s": "M", "t": "Thank you. Also, is lunch included?" },
+        { "s": "W", "t": "No, but you could have lunch at the beach café first. Show your room key, and you'll get a ten percent discount." }
+      ],
+      "questions": [
+        { "q": "What does the man want to do?", "options": ["Book a water activity", "Rent a car", "Change rooms", "Order room service"], "answer": 0, "explain": "Anh muốn đặt 'a snorkeling trip' cho ngày mai." },
+        { "q": "What does the woman say about the morning trip?", "options": ["It has been canceled.", "It is more expensive.", "It is fully booked.", "It starts at nine."], "answer": 2, "explain": "Cô nói 'The morning trip is full'." },
+        { "q": "What will the woman send to the villa?", "options": ["A beach map", "A lunch menu", "A discount coupon", "A permission form"], "answer": 3, "explain": "Cô nói cần 'a signed permission form. I'll have it sent to your villa'." }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "W", "t": "Thanks for joining. As you know, we have five new hires starting Monday, and I'd like to finalize the orientation schedule." },
+        { "s": "M", "t": "The IT department can set up laptops and accounts on Friday afternoon, so everything will be ready." },
+        { "s": "M2", "t": "I'll prepare the welcome packets. Do we want to include the revised employee handbook? It was updated last month." },
+        { "s": "W", "t": "Yes, please. And can someone arrange a lunch for the new employees on their first day?" },
+        { "s": "M", "t": "I'll take care of that. I'll book a table at the restaurant near the office." },
+        { "s": "M2", "t": "One more thing. Two of the new hires are relocating from other cities. Should we send them parking information?" },
+        { "s": "W", "t": "Good point. I'll e-mail them today." }
+      ],
+      "questions": [
+        { "q": "What are the speakers preparing for?", "options": ["A client visit", "A safety inspection", "The arrival of new employees", "A company picnic"], "answer": 2, "explain": "Họ bàn về 'five new hires starting Monday' và lịch định hướng (orientation)." },
+        { "q": "What does the second man say he will prepare?", "options": ["Name badges", "Welcome packets", "Training videos", "Laptops"], "answer": 1, "explain": "M2 nói 'I'll prepare the welcome packets'. Laptop là việc của phòng IT do M nói." },
+        { "q": "What will the woman do today?", "options": ["Reserve a restaurant", "Order laptops", "Update the handbook", "Send parking information"], "answer": 3, "explain": "Cô nói 'I'll e-mail them today' sau khi đồng ý gửi thông tin chỗ đậu xe. Đặt nhà hàng là việc của người đàn ông thứ nhất." }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "M", "t": "Hello, I'm planning a trip to Bangkok for my parents' anniversary, and I'd like to book flights and a hotel." },
+        { "s": "W", "t": "Congratulations to them. When would you like to travel?" },
+        { "s": "M", "t": "Around the second week of October, for about ten days." },
+        { "s": "W", "t": "October is the beginning of the dry season, so it's a popular time. Prices go up by about fifteen percent compared with September. I'd recommend booking at least two months ahead." },
+        { "s": "M", "t": "I see. Are there any packages that include airport transfers?" },
+        { "s": "W", "t": "Yes. Our Silk Route package includes flights, six nights at a four-star hotel, and transfers. I can print the details for you." },
+        { "s": "M", "t": "Please do. I'd also like to discuss it with my sister before I decide." }
+      ],
+      "questions": [
+        { "q": "What is the occasion for the trip?", "options": ["An anniversary", "A business conference", "A graduation", "A holiday festival"], "answer": 0, "explain": "Người đàn ông nói chuyến đi 'for my parents' anniversary'." },
+        { "q": "Why are prices higher in October?", "options": ["A festival is held.", "It is the start of the dry season.", "Flights are limited.", "The airline is on strike."], "answer": 1, "explain": "Cô nói 'October is the beginning of the dry season, so it's a popular time'." },
+        { "q": "What will the woman probably do next?", "options": ["Contact a hotel", "Process a payment", "Call the man's sister", "Print some details"], "answer": 3, "explain": "Cô nói 'I can print the details for you' và anh đáp 'Please do'. Anh còn muốn bàn với chị gái nên chưa thanh toán." }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "W", "t": "Team, we've had reports of a power outage on Maple Avenue since about seven this morning." },
+        { "s": "M", "t": "Is it affecting the whole neighborhood?" },
+        { "s": "W", "t": "About two hundred homes. Preliminary reports suggest a transformer was damaged by the storm last night." },
+        { "s": "M2", "t": "I'm at the depot now. We have a spare transformer in the truck, but we'll need a crane to install it." },
+        { "s": "W", "t": "I'll request one from the city's equipment unit. How soon can you get there?" },
+        { "s": "M", "t": "We can be on-site by nine. Should we notify the residents?" },
+        { "s": "W", "t": "Yes, I'll send text messages with an estimated restoration time of noon, and post an update on our Web site." }
+      ],
+      "questions": [
+        { "q": "What has caused the problem?", "options": ["An overloaded cable", "A damaged transformer", "A fallen tree", "A construction accident"], "answer": 1, "explain": "Cô nói 'a transformer was damaged by the storm last night'." },
+        { "q": "What does the woman say she will request?", "options": ["A generator", "A police escort", "Additional workers", "A crane"], "answer": 3, "explain": "M2 cần cần cẩu, cô đáp 'I'll request one from the city's equipment unit' (one = a crane)." },
+        { "q": "What will the woman do for residents?", "options": ["Send them text messages", "Offer them a discount", "Visit their homes", "Provide bottled water"], "answer": 0, "explain": "Cô nói 'I'll send text messages with an estimated restoration time'." }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "W", "t": "Mr. Costa, thanks for stopping by. We've reviewed your manuscript on regional farming traditions, and we'd like to publish it." },
+        { "s": "M", "t": "That's wonderful news. When would it be released?" },
+        { "s": "W", "t": "We're aiming for next spring, but there's a catch. Our editor suggests cutting the third chapter, since it overlaps with the second." },
+        { "s": "M", "t": "Well, I'd rather keep some of it. Perhaps I could shorten it by half and add more photographs instead?" },
+        { "s": "W", "t": "That's a good compromise. I'll check with the design department about the cost of printing color images." },
+        { "s": "M", "t": "Fine. Should I send the revised chapter by the end of the month?" },
+        { "s": "W", "t": "Yes, and I'll e-mail you the contract this week." }
+      ],
+      "questions": [
+        { "q": "What does the woman say about the manuscript?", "options": ["It will be published.", "It has been rejected.", "It is too expensive to print.", "It must be completely rewritten."], "answer": 0, "explain": "Cô nói 'we'd like to publish it'. Chỉ đề nghị cắt một chương, không bị từ chối." },
+        { "q": "What does the man propose?", "options": ["Removing a chapter entirely", "Delaying publication", "Shortening a chapter and adding photos", "Hiring a designer"], "answer": 2, "explain": "Anh nói 'shorten it by half and add more photographs instead'." },
+        { "q": "What will the woman do this week?", "options": ["Review some images", "Send a contract", "Print some copies", "Edit the second chapter"], "answer": 1, "explain": "Cô nói 'I'll e-mail you the contract this week'." }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "M", "t": "Thanks for meeting, everyone. The corporate retreat for Brightwave Consulting arrives next Thursday, with about sixty guests." },
+        { "s": "W", "t": "The conference room is ready, but their organizer asked for a second projector for breakout sessions." },
+        { "s": "W2", "t": "And on the catering side, six guests have food allergies, mostly nuts and shellfish. I'll prepare separate menus, but I need the final list by Monday." },
+        { "s": "M", "t": "I'll ask the organizer to confirm. Anything else?" },
+        { "s": "W", "t": "They'd like an outdoor activity on Friday afternoon, but the forecast shows rain." },
+        { "s": "M", "t": "Let's offer a cooking class in the kitchen as an alternative. Chef, would that work?" },
+        { "s": "W2", "t": "Sure, I can host up to twenty people at a time, so we'd need three sessions." }
+      ],
+      "questions": [
+        { "q": "What are the speakers discussing?", "options": ["A renovation project", "An upcoming group visit", "A staff training session", "A menu change"], "answer": 1, "explain": "Họ chuẩn bị cho đoàn 'corporate retreat' khoảng 60 khách sắp đến vào thứ Năm tới." },
+        { "q": "What did the organizer request?", "options": ["A larger room", "An early check-in", "A second projector", "A shuttle service"], "answer": 2, "explain": "Người phụ nữ nói 'their organizer asked for a second projector for breakout sessions'." },
+        { "q": "What does the man suggest for Friday afternoon?", "options": ["A cooking class", "A city tour", "A beach party", "A free afternoon"], "answer": 0, "explain": "Dự báo có mưa nên anh đề nghị 'a cooking class in the kitchen as an alternative'." }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "M", "t": "Hi, Sandra. I wanted to ask about the parental leave policy. My wife and I are expecting a baby in March." },
+        { "s": "W", "t": "Congratulations, Tom! Employees who've been with us for more than a year get twelve weeks of paid leave. You joined two years ago, so you qualify." },
+        { "s": "M", "t": "That's good to know. Do I need to submit anything?" },
+        { "s": "W", "t": "Yes, you'll need to fill out a request form at least thirty days before your leave starts, and attach a note from your doctor." },
+        { "s": "M", "t": "I see. Can I split the leave into two parts?" },
+        { "s": "W", "t": "Yes, as long as your supervisor approves. I suggest you talk to Mr. Weber first and then bring me the signed form." },
+        { "s": "M", "t": "Will do. I'll speak with him this afternoon." }
+      ],
+      "questions": [
+        { "q": "What does the man ask about?", "options": ["A health insurance claim", "A job transfer", "A promotion", "A leave benefit"], "answer": 3, "explain": "Anh hỏi về 'the parental leave policy' (chế độ nghỉ thai sản/chăm con)." },
+        { "q": "What must the man attach to the form?", "options": ["A doctor's note", "A letter of recommendation", "A copy of his contract", "A receipt"], "answer": 0, "explain": "Cô nói 'attach a note from your doctor'." },
+        { "q": "What will the man do this afternoon?", "options": ["Fill out a form", "Meet his doctor", "Speak with his supervisor", "Visit the payroll office"], "answer": 2, "explain": "Anh nói 'I'll speak with him this afternoon', him = Mr. Weber, người giám sát của anh." }
+      ]
+    },
+    {
+      "kind": "conversation",
+      "audio": [
+        { "s": "W", "t": "Excuse me, my connecting flight to Denver has been canceled because of snow. The screen says to see an agent." },
+        { "s": "M", "t": "I'm sorry, ma'am. May I see your ticket? Let me check. The next available flight to Denver departs tomorrow at eight fifteen in the morning." },
+        { "s": "W", "t": "Tomorrow? I have a presentation at ten tomorrow morning." },
+        { "s": "M", "t": "Then I could put you on a flight through Chicago leaving in forty minutes. You'd arrive in Denver at nine thirty tonight, but you'd need to hurry because the gate is far away." },
+        { "s": "W", "t": "That works. Will my luggage be transferred automatically?" },
+        { "s": "M", "t": "Yes, it will. Here's your new boarding pass. Gate B22, and I'd recommend taking the shuttle train." }
+      ],
+      "questions": [
+        { "q": "Why was the woman's flight canceled?", "options": ["A pilot shortage", "A mechanical problem", "Bad weather", "A security alert"], "answer": 2, "explain": "Cô nói chuyến bay bị hủy 'because of snow' (tuyết = thời tiết xấu)." },
+        { "q": "Why is the woman concerned about tomorrow's flight?", "options": ["She has not packed yet.", "She has a morning commitment.", "She dislikes early flights.", "She needs to meet a friend."], "answer": 1, "explain": "Cô nói 'I have a presentation at ten tomorrow morning', nên chuyến 8:15 sáng mai không kịp." },
+        { "q": "What does the man recommend?", "options": ["Waiting for a call", "Taking a shuttle train", "Visiting the baggage office", "Booking a hotel"], "answer": 1, "explain": "Anh nói 'I'd recommend taking the shuttle train' vì cổng bay ở xa." }
+      ]
+    }
+  ]
+}

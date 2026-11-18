@@ -1,0 +1,98 @@
+{
+  "title": "Section 1",
+  "context": "A woman is phoning a restaurant to book a room for her mother's birthday party.",
+  "audio": [
+    { "s": "N", "t": "Section 1. You will hear a woman phoning a restaurant to organise a birthday party." },
+    { "s": "M", "t": "Good morning, Harbourview Restaurant, Daniel speaking. How can I help you?" },
+    { "s": "W", "t": "Hello. I'd like to book a table for a birthday party, please. It's for my mother's seventieth." },
+    { "s": "M", "t": "How lovely. Let me take down a few details. Could I have your surname, please?" },
+    { "s": "W", "t": "Yes, it's Lindqvist. That's L-I-N-D-Q-V-I-S-T." },
+    { "s": "M", "t": "Sorry, was that Q-V or K-V in the middle?" },
+    { "s": "W", "t": "Q, as in queen, and then V." },
+    { "s": "M", "t": "Got it, thank you. And what's the best contact number?" },
+    { "s": "W", "t": "My mobile is best. It's oh seven nine one one, two six four, five oh eight." },
+    { "s": "M", "t": "That's 07911, 264 508. Thank you. Now, how many people will be coming?" },
+    { "s": "W", "t": "Sixteen, I think. Actually, my aunt has just told me her two sons are coming as well, so it'll be eighteen altogether." },
+    { "s": "M", "t": "Eighteen, that's fine. Our private room seats up to twenty, so you'll have plenty of space." },
+    { "s": "W", "t": "Wonderful. I was hoping for Saturday the twelfth of June." },
+    { "s": "M", "t": "I'm afraid we have a wedding booked on that day. Would the Sunday, the thirteenth, be possible?" },
+    { "s": "W", "t": "Yes, that's fine. It's probably easier for the relatives who are travelling, anyway." },
+    { "s": "M", "t": "Good. And what time would you like to start?" },
+    { "s": "W", "t": "Seven o'clock, if that's possible." },
+    { "s": "M", "t": "Well, the private room has to be empty by ten thirty, and you'll want time for the speeches and the cake. Could you manage half past six?" },
+    { "s": "W", "t": "Yes, that's a good idea. Half past six, then." },
+    { "s": "M", "t": "Perfect. The room we'll give you is called the Garden Room, and it looks out onto the terrace." },
+    { "s": "W", "t": "That sounds lovely. Now, I should mention dietary needs. One of the guests is allergic to shellfish. No, sorry, that's my brother, and he isn't coming after all." },
+    { "s": "M", "t": "So nobody has a shellfish allergy?" },
+    { "s": "W", "t": "That's right. It's my cousin Hannah who has an allergy, and hers is to peanuts." },
+    { "s": "M", "t": "Thank you, I'll let the kitchen know. They'll make sure none of the dishes for her contain nuts." },
+    { "s": "W", "t": "Also, we're bringing our own cake. Is that all right?" },
+    { "s": "M", "t": "Of course, and there's no charge for that. We can keep it in the fridge until you need it. What flavour is it, so that the staff know?" },
+    { "s": "W", "t": "It's lemon. I know chocolate is more popular, but it's my mother's favourite." },
+    { "s": "M", "t": "Lovely. Now, about the menu. We have a two-course set menu at twenty-four pounds, or a three-course one at twenty-eight pounds per person." },
+    { "s": "W", "t": "I think we'll go for three courses, then. Twenty-eight pounds each is fine." },
+    { "s": "M", "t": "Great. We ask for a deposit of five pounds per person, which is taken off the final bill." },
+    { "s": "W", "t": "So five pounds times eighteen. That's ninety pounds, isn't it?" },
+    { "s": "M", "t": "That's right, ninety pounds. You can pay it over the phone with a card." },
+    { "s": "W", "t": "I'll do that now, if I may. I have my card here." },
+    { "s": "M", "t": "Certainly. I'll just transfer you to our payment line. Please hold for a moment." }
+  ],
+  "blocks": [
+    {
+      "type": "gap",
+      "instructions": "Complete the booking form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+        {
+          "q": "Surname: ______",
+          "answer": ["Lindqvist"],
+          "explain": "Người gọi đánh vần \"L-I-N-D-Q-V-I-S-T\"; nhân viên hỏi lại Q-V hay K-V và được xác nhận là Q, V."
+        },
+        {
+          "q": "Mobile number: 07911 ______",
+          "answer": ["264 508", "264508"],
+          "explain": "\"oh seven nine one one, two six four, five oh eight\" — phần còn thiếu sau 07911 là 264 508."
+        },
+        {
+          "q": "Number of guests: ______",
+          "answer": ["18", "eighteen"],
+          "explain": "Ban đầu chị nói \"Sixteen, I think\" rồi sửa: hai người con của dì cũng đến nên \"eighteen altogether\"."
+        },
+        {
+          "q": "Date of party: Sunday ______ June",
+          "answer": ["13", "13th", "thirteenth"],
+          "explain": "Chị muốn thứ Bảy ngày 12 nhưng nhà hàng có tiệc cưới; nhân viên đề nghị \"the Sunday, the thirteenth\" và chị đồng ý."
+        },
+        {
+          "q": "Start time: ______ pm",
+          "answer": ["6.30", "6:30", "6.30 pm", "6:30 pm", "half past six"],
+          "explain": "Chị đề nghị bảy giờ, nhưng phòng phải trống trước 10 rưỡi nên nhân viên gợi ý \"half past six\" và chị chấp nhận (6.30)."
+        },
+        {
+          "q": "Room: the ______ Room",
+          "answer": ["Garden"],
+          "explain": "Nhân viên nói: \"The room we'll give you is called the Garden Room\"."
+        },
+        {
+          "q": "One guest is allergic to: ______",
+          "answer": ["peanuts", "peanut"],
+          "explain": "Chị nhắc hải sản (shellfish) nhưng đó là em trai chị và anh không đến; người dị ứng là Hannah: \"hers is to peanuts\"."
+        },
+        {
+          "q": "Flavour of the birthday cake: ______",
+          "answer": ["lemon"],
+          "explain": "\"It's lemon. I know chocolate is more popular, but it's my mother's favourite.\" Chocolate chỉ được nhắc để so sánh."
+        },
+        {
+          "q": "Price per person (three courses): £ ______",
+          "answer": ["28", "twenty-eight", "twenty eight"],
+          "explain": "Thực đơn hai món giá 24 bảng, ba món 28 bảng; chị chọn ba món: \"Twenty-eight pounds each is fine\"."
+        },
+        {
+          "q": "Deposit to be paid: £ ______",
+          "answer": ["90", "ninety"],
+          "explain": "Đặt cọc 5 bảng mỗi người, 18 người: \"That's right, ninety pounds\". Không dùng số 16 người ban đầu (sẽ ra 80)."
+        }
+      ]
+    }
+  ]
+}

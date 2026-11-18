@@ -1,0 +1,61 @@
+{
+  "title": "Section 1",
+  "context": "A tourist is phoning a rental shop to hire a bike for a trip around the coast.",
+  "audio": [
+    { "s": "N", "t": "You will hear a man phoning a rental shop about hiring a bike for a holiday." },
+    { "s": "W", "t": "Good morning, Seaview Cycle Hire. How can I help you?" },
+    { "s": "M", "t": "Hi there. I'm visiting the area next month and I'd like to hire a bike for a few days." },
+    { "s": "W", "t": "Of course. Let me take some details. Could I have your surname, please?" },
+    { "s": "M", "t": "It's Whitcomb." },
+    { "s": "W", "t": "Sorry, was that W-I-T-C-O-M-B?" },
+    { "s": "M", "t": "Not quite. It's W-H-I-T-C-O-M-B-E, with an H after the W and an E on the end." },
+    { "s": "W", "t": "Got it, Whitcombe. And when would you like to pick the bike up?" },
+    { "s": "M", "t": "I arrive on the 13th of June, so let's say the 13th." },
+    { "s": "W", "t": "Right, the 13th." },
+    { "s": "M", "t": "Oh, hang on. My ferry gets in very late that night, so I won't be able to come to the shop until the next morning. Make it the 14th, please." },
+    { "s": "W", "t": "No problem, the 14th of June. What kind of bike are you after? We have mountain bikes, city bikes and electric bikes." },
+    { "s": "M", "t": "I was thinking of a mountain bike, because I like riding off-road." },
+    { "s": "W", "t": "Well, I should warn you that the coastal route is very hilly, and most of it is on paved roads." },
+    { "s": "M", "t": "Ah, in that case an electric bike would be much better. I'll go for that." },
+    { "s": "W", "t": "Good choice. How many days will you need it?" },
+    { "s": "M", "t": "Four days, I think. Actually, I'd like to include the Friday for the island trip, so that makes it five." },
+    { "s": "W", "t": "Five days, fine. Now, the price. City bikes are 12 pounds a day and mountain bikes are 15." },
+    { "s": "M", "t": "And the electric ones?" },
+    { "s": "W", "t": "Those are 18 pounds a day, but the price drops if you hire for a full week." },
+    { "s": "M", "t": "That's all right. Five days is what I need." },
+    { "s": "W", "t": "We also take a refundable deposit. It's 30 pounds for ordinary bikes, but for the electric ones it's 40." },
+    { "s": "M", "t": "Fine. Do I pay that when I collect the bike?" },
+    { "s": "W", "t": "Yes, and you'll need to bring some identification. Most people think a driving licence is enough." },
+    { "s": "M", "t": "I do have my licence with me." },
+    { "s": "W", "t": "That's only needed for scooters, I'm afraid. For bicycles we need to see your passport." },
+    { "s": "M", "t": "Okay, I'll make sure I have my passport in my hand luggage." },
+    { "s": "W", "t": "Great. Our shop is on Hill Street, just opposite the bus station." },
+    { "s": "M", "t": "Sorry, did you say Hill Street?" },
+    { "s": "W", "t": "No, Mill Street. That's M-I-L-L, next to the old bakery." },
+    { "s": "M", "t": "Thanks. Is it possible to add any extra equipment? I'll be carrying a lot of luggage." },
+    { "s": "W", "t": "We can fit a rear rack, but you'd need to bring your own bags. A front basket is also free of charge." },
+    { "s": "M", "t": "Then I'll just take the basket. A rack would make the bike too heavy to push uphill if the battery runs out." },
+    { "s": "W", "t": "Fair enough. Finally, can I take a contact number in case the bike isn't ready?" },
+    { "s": "M", "t": "Sure. It's 07731 508 246." },
+    { "s": "W", "t": "That's 07731, 508, 246. Perfect, Mr Whitcombe. We'll see you on the 14th." },
+    { "s": "M", "t": "Thanks very much. Goodbye." }
+  ],
+  "blocks": [
+    {
+      "type": "gap",
+      "instructions": "Complete the booking form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+        { "q": "Surname: ______", "answer": ["Whitcombe"], "explain": "Người gọi đánh vần \"W-H-I-T-C-O-M-B-E, with an H after the W and an E on the end\"; nhân viên ban đầu nghe sai (Whitcomb) nên bẫy nằm ở chữ E cuối." },
+        { "q": "Date of pick-up: ______ June", "answer": ["14", "14th", "fourteenth"], "explain": "Ban đầu ông nói ngày 13, rồi đổi: \"Make it the 14th, please\" vì phà đến muộn." },
+        { "q": "Type of bike: ______", "answer": ["electric", "an electric bike", "electric bike"], "explain": "Ông định thuê xe leo núi nhưng nghe tuyến đường nhiều dốc, nên chốt: \"an electric bike would be much better. I'll go for that.\"" },
+        { "q": "Number of days needed: ______", "answer": ["5", "five"], "explain": "Ông nói bốn ngày rồi sửa: \"to include the Friday ... that makes it five.\"" },
+        { "q": "Price per day: £ ______", "answer": ["18"], "explain": "Xe đạp thành phố 12, xe leo núi 15, còn xe điện (loại ông chọn) là \"18 pounds a day\"." },
+        { "q": "Deposit: £ ______", "answer": ["40"], "explain": "\"30 pounds for ordinary bikes, but for the electric ones it's 40\" - ông thuê xe điện nên là 40." },
+        { "q": "Must bring your ______ when collecting the bike", "answer": ["passport"], "explain": "Bằng lái chỉ cần cho xe tay ga: \"For bicycles we need to see your passport.\"" },
+        { "q": "Shop address: ______ Street, opposite the bus station", "answer": ["Mill"], "explain": "Ông nghe nhầm là Hill Street, nhân viên sửa: \"No, Mill Street. That's M-I-L-L\"." },
+        { "q": "Extra equipment: a front ______", "answer": ["basket"], "explain": "Ông từ chối giá hành lý phía sau và chọn: \"I'll just take the basket.\"" },
+        { "q": "Contact number: ______", "answer": ["07731 508 246", "07731508246", "07731-508-246"], "explain": "Ông đọc số điện thoại: \"It's 07731 508 246\", nhân viên đọc lại để xác nhận." }
+      ]
+    }
+  ]
+}

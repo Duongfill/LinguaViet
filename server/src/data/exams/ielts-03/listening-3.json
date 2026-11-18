@@ -1,0 +1,95 @@
+{
+  "title": "Section 3",
+  "context": "Two psychology students, Priya and Callum, are discussing their presentation about background music and concentration with their tutor, Dr Brandt.",
+  "audio": [
+    { "s": "N", "t": "Section 3. You will hear two psychology students, Priya and Callum, talking to their tutor, Dr Brandt, about a presentation on background music." },
+    { "s": "M2", "t": "Come in, both of you. I've had a look at your slides, but first remind me how you chose your topic. I seem to remember Callum wanted to study sleep." },
+    { "s": "M", "t": "Yes, that was my first idea. But you told us there's already a huge amount of research on sleep, so we dropped it." },
+    { "s": "W", "t": "I suggested the music topic, actually. I always study with headphones on and my grades are fine, so I wondered whether music really helps people concentrate." },
+    { "s": "M2", "t": "That's a perfectly good reason to start. Personal curiosity often makes the best research question. Now, tell me about the participants." },
+    { "s": "M", "t": "We managed to get forty volunteers. Getting them to turn up was easy, because we ran the sessions in the library at lunchtime." },
+    { "s": "W", "t": "The only real difficulty was that nearly all of them were first-year psychology students. I think that makes our sample rather narrow." },
+    { "s": "M2", "t": "It does, and you should say so on your limitations slide. What task did they do while the music was playing?" },
+    { "s": "W", "t": "We gave them lists of words to memorise and recall afterwards." },
+    { "s": "M2", "t": "Hmm. I'd question that. Your presentation is about concentration, but remembering word lists tests memory more than concentration. A proof-reading task would have suited your aim better." },
+    { "s": "M", "t": "That's a fair point. We'll mention it in the discussion section." },
+    { "s": "M2", "t": "Good. Now, the results. What did you find for the three conditions: silence, instrumental music and music with lyrics?" },
+    { "s": "M", "t": "I expected instrumental music to help, but the scores were almost identical to silence. The real difference was with lyrics, where people remembered far fewer words." },
+    { "s": "W", "t": "So instrumental music made little difference, but songs with words clearly got in the way." },
+    { "s": "M2", "t": "That's an interesting pattern, and it fits with earlier studies. Now, let me give you some comments on each part of your presentation." },
+    { "s": "M2", "t": "Your introduction begins with a definition of concentration. That's accurate, but a bit dry. Why not open with a question to the audience, such as who studies with music on?" },
+    { "s": "W", "t": "Oh, I like that. We could ask for a show of hands." },
+    { "s": "M2", "t": "Exactly. For the method, you've written a whole paragraph describing the timing of the sessions. I'd replace that with a simple diagram, because it's much quicker to follow." },
+    { "s": "M", "t": "I could do that. I thought of a flowchart, or maybe a photo of the room layout. Which would you prefer?" },
+    { "s": "M2", "t": "The flowchart. The photo wouldn't tell the audience anything useful." },
+    { "s": "M2", "t": "For the results, you've put all the numbers into a table. A table is fine for the handout, but on the screen a bar graph would show the difference far more clearly." },
+    { "s": "W", "t": "Right, we'll turn it into a bar graph." },
+    { "s": "M2", "t": "The limitations section currently runs over three slides, which is far too much. Shorten it to a single slide with the main points." },
+    { "s": "M", "t": "Yes, we did go on a bit there." },
+    { "s": "M2", "t": "And finally the conclusion. It's sensible, but it feels a little abstract. Add a real-life example, perhaps about students studying in cafés, to show why the findings matter." },
+    { "s": "W", "t": "That's a nice idea, because lots of students do that. We'll add it." },
+    { "s": "M", "t": "Dr Brandt, we thought about repeating the study with a better task, to fix the problem with the word lists. Is that worth doing?" },
+    { "s": "M2", "t": "I wouldn't. You don't have time before the presentation, and you can simply explain the issue. What I'd suggest is a practice run in front of another group first." },
+    { "s": "W", "t": "That's a good idea. Hannah's group is presenting on the same day, so we could ask them." },
+    { "s": "M2", "t": "Perfect. Ask them to give you honest feedback, especially on timing." },
+    { "s": "M", "t": "We will. Thank you, Dr Brandt. That's been really helpful." }
+  ],
+  "blocks": [
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "q": "Why did the students choose background music as their topic?",
+          "options": ["Dr Brandt recommended it.", "Earlier research on it was unclear.", "Priya was curious about her own study habits.", "It was easy to find volunteers."],
+          "answer": 2,
+          "explain": "Chủ đề ngủ bị bỏ vì đã có quá nhiều nghiên cứu. Priya nói: \"I always study with headphones on ... so I wondered whether music really helps people concentrate.\""
+        },
+        {
+          "q": "What was the main problem with the participants?",
+          "options": ["Nearly all were psychology students.", "Too few people volunteered.", "They could not attend at the same time.", "Many were too young."],
+          "answer": 0,
+          "explain": "Có 40 người và họ dễ tập hợp; vấn đề là \"nearly all of them were first-year psychology students\" nên mẫu hẹp."
+        },
+        {
+          "q": "What criticism does Dr Brandt make of the memory task?",
+          "options": ["It was too easy for the volunteers.", "It took too long to mark.", "It was unsuitable for first-year students.", "It measured something different from what they claimed."],
+          "answer": 3,
+          "explain": "Thầy nói: \"remembering word lists tests memory more than concentration\" — tức đo kỹ năng khác với mục tiêu của bài."
+        },
+        {
+          "q": "What did the results show about instrumental music?",
+          "options": ["It improved scores considerably.", "It made little difference to scores.", "It lowered scores slightly.", "It helped some people but not others."],
+          "answer": 1,
+          "explain": "Callum dự đoán nhạc không lời sẽ giúp nhưng \"the scores were almost identical to silence\"; chỉ nhạc có lời làm điểm giảm rõ rệt."
+        },
+        {
+          "q": "What does Dr Brandt advise the students to do before the presentation?",
+          "options": ["repeat the study with a better task", "email their slides to him", "practise in front of another group", "reduce the number of slides"],
+          "answer": 2,
+          "explain": "Thầy bác ý định làm lại nghiên cứu vì không đủ thời gian và đề nghị: \"a practice run in front of another group first\"."
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "What does Dr Brandt suggest for each part of the presentation? Choose FIVE answers from the box and write the correct letter, A–G, next to Questions 26–30.",
+      "options": [
+        "A  use a diagram",
+        "B  shorten it",
+        "C  begin with a question",
+        "D  add a real-life example",
+        "E  move it to the end",
+        "F  use a graph",
+        "G  leave it unchanged"
+      ],
+      "questions": [
+        { "q": "Introduction", "answer": 2, "explain": "Phần mở đầu đúng nhưng khô khan: \"Why not open with a question to the audience\" (C)." },
+        { "q": "Method", "answer": 0, "explain": "Thay đoạn văn mô tả thời gian bằng sơ đồ: \"I'd replace that with a simple diagram\"; thầy chọn flowchart chứ không phải ảnh phòng (A)." },
+        { "q": "Results", "answer": 5, "explain": "Bảng số liệu để cho handout; trên màn hình \"a bar graph would show the difference far more clearly\" (F)." },
+        { "q": "Limitations", "answer": 1, "explain": "Ba slide là quá nhiều: \"Shorten it to a single slide\" (B)." },
+        { "q": "Conclusion", "answer": 3, "explain": "Phần kết hơi trừu tượng: \"Add a real-life example, perhaps about students studying in cafés\" (D)." }
+      ]
+    }
+  ]
+}

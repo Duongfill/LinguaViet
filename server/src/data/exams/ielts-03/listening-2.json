@@ -1,0 +1,127 @@
+{
+  "title": "Section 2",
+  "context": "A member of the organising committee is talking on local radio about a weekend food festival in the town of Millbrook.",
+  "audio": [
+    { "s":"N", "t":"Section 2. You will hear a member of a festival committee talking on local radio about a food festival." },
+    { "s":"M", "t":"Good morning, everyone, and thanks for having me on the show. I'm here to tell you about the Millbrook Food Festival, which takes place this Saturday and Sunday." },
+    { "s":"M", "t":"Many people ask us every year whether we'll extend it to a third day. We did discuss it, but it would have been too tiring for the stallholders, so it stays as a weekend event." },
+    { "s":"M", "t":"We also talked about moving the main stalls to Riverside Park, because Market Square gets very crowded. In the end we decided to stay in the square, as the shops there depend on the visitors." },
+    { "s":"M", "t":"So what's actually new this year? The big addition is a baking contest for amateur cooks." },
+    { "s":"M", "t":"Entry is free, and the winner will have their recipe printed on the festival's cookbook cover." },
+    { "s":"M", "t":"Now, a few practical points. If you're driving, please don't try to use the station car park, because it's being resurfaced and will be closed all weekend." },
+    { "s":"M", "t":"Some people will head for Church Street, but that's for residents only and you could be fined. The best idea is to leave your car at the leisure centre, where parking is free, and take the shuttle bus." },
+    { "s":"M", "t":"It runs every ten minutes and costs nothing." },
+    { "s":"M", "t":"You may also be wondering where the money goes. Last year, as many of you know, it paid for repairs to the town hall roof, and that work is now finished." },
+    { "s":"M", "t":"So this year, every penny of the profit will go to the Millbrook Food Bank." },
+    { "s":"M", "t":"To avoid disappointment, here's some advice about queues. Almost all the stalls accept cards, so there's no need to bring a lot of cash." },
+    { "s":"M", "t":"Some people think arriving at opening time is the best way to beat the crowds, but it's actually busy all day." },
+    { "s":"M", "t":"What really does help is booking ahead. Tickets for the workshops can't be bought on the day, because they sell out within a few days." },
+    { "s":"M", "t":"You'll find them on the festival website." },
+    { "s":"M", "t":"Let me now take you on a quick tour of the festival, area by area. The heart of the event is Market Square, and that's where you'll find the farmers' stalls, selling fruit, vegetables, cheese and honey grown or made within thirty miles of the town." },
+    { "s":"M", "t":"Over in Riverside Park, there's a whole area for children, with face painting, a mini farm and a chance to decorate their own cupcakes. Parents can relax on the grass nearby." },
+    { "s":"M", "t":"In the Town Hall, you can watch cooking demonstrations given by local chefs. People often assume the workshops are held there too, but they're not." },
+    { "s":"M", "t":"Those take place in the Old Library, where space is limited and you'll need a ticket." },
+    { "s":"M", "t":"If you enjoy music while you eat, head for the Church Garden. We'd first planned to put the band in Riverside Park, but we worried it would be too loud for the little ones, so it's been moved to the garden." },
+    { "s":"M", "t":"And finally, down at Harbour Quay, you can try small samples of cheeses, sauces and chocolate from dozens of producers. None of the tastings costs anything, so it's a great place to discover new flavours." },
+    { "s":"M", "t":"So that's the Millbrook Food Festival. We hope to see you all there, rain or shine." },
+    { "s":"M", "t":"Thank you for listening." }
+  ],
+  "blocks": [
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "q": "What is new about this year's festival?",
+          "options": [
+            "It is held over three days.",
+            "It takes place in the evenings.",
+            "It includes a contest for amateur cooks.",
+            "It has moved to a new site."
+          ],
+          "answer": 2,
+          "explain": "Ba ngày và đổi địa điểm chỉ được bàn rồi bỏ. Điều mới là: \"a baking contest for amateur cooks\"."
+        },
+        {
+          "q": "How are visitors advised to travel to the festival?",
+          "options": [
+            "by parking at the station",
+            "by parking in Church Street",
+            "by cycling from the leisure centre",
+            "by taking a free bus from the leisure centre"
+          ],
+          "answer": 3,
+          "explain": "Bãi đỗ xe ga đóng cửa, Church Street chỉ dành cho cư dân; người nói khuyên: \"leave your car at the leisure centre ... and take the shuttle bus\" miễn phí."
+        },
+        {
+          "q": "What will the profits from the festival be used for?",
+          "options": [
+            "supporting the local food bank",
+            "repairing the town hall roof",
+            "buying equipment for the market",
+            "organising next year's contest"
+          ],
+          "answer": 0,
+          "explain": "Năm ngoái tiền dùng sửa mái toà thị chính (đã xong); năm nay: \"every penny of the profit will go to the Millbrook Food Bank\"."
+        },
+        {
+          "q": "What does the speaker recommend to avoid queues?",
+          "options": [
+            "arriving at opening time",
+            "booking workshop tickets online in advance",
+            "paying in cash only",
+            "visiting on Sunday afternoon"
+          ],
+          "answer": 1,
+          "explain": "Đến sớm không giúp vì \"it's actually busy all day\"; điều thực sự hiệu quả là đặt trước: vé workshop \"can't be bought on the day\" và bán trên website."
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "What can visitors find in each area of the festival? Choose SIX answers from the box and write the correct letter, A–H, next to Questions 15–20.",
+      "options": [
+        "A  live music",
+        "B  cooking demonstrations",
+        "C  activities for children",
+        "D  free tastings",
+        "E  stalls selling local farm produce",
+        "F  workshops that need a ticket",
+        "G  a recycling and water-refill point",
+        "H  an information desk"
+      ],
+      "questions": [
+        {
+          "q": "Market Square",
+          "answer": 4,
+          "explain": "\"the farmers' stalls, selling fruit, vegetables, cheese and honey\" làm trong vòng 30 dặm (E)."
+        },
+        {
+          "q": "Riverside Park",
+          "answer": 2,
+          "explain": "\"a whole area for children, with face painting, a mini farm...\" (C). Ban nhạc từng định đặt ở đây nhưng đã chuyển đi."
+        },
+        {
+          "q": "Town Hall",
+          "answer": 1,
+          "explain": "\"you can watch cooking demonstrations given by local chefs\" (B); workshop không ở đây mà ở Old Library."
+        },
+        {
+          "q": "Old Library",
+          "answer": 5,
+          "explain": "\"Those take place in the Old Library, where space is limited and you'll need a ticket\" (F)."
+        },
+        {
+          "q": "Church Garden",
+          "answer": 0,
+          "explain": "Ban nhạc được chuyển sang Church Garden vì sợ ồn với trẻ nhỏ: \"head for the Church Garden\" nếu thích nhạc sống (A)."
+        },
+        {
+          "q": "Harbour Quay",
+          "answer": 3,
+          "explain": "\"you can try small samples of cheeses, sauces and chocolate ... None of the tastings costs anything\" (D)."
+        }
+      ]
+    }
+  ]
+}

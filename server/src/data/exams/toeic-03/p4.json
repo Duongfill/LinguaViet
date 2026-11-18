@@ -1,0 +1,160 @@
+{
+  "part": 4,
+  "groups": [
+    {
+      "kind": "voicemail",
+      "audio": [
+        { "s": "W", "t": "Hello, Mr. Dawson, this is Karen Liu from Liu and Park Legal Services, returning your call." },
+        { "s": "W", "t": "I've reviewed the documents you sent regarding the sale of your warehouse." },
+        { "s": "W", "t": "Everything looks in order, except that the property survey is more than five years old." },
+        { "s": "W", "t": "The buyer's attorney will almost certainly ask for a current one, so I recommend ordering a new survey this week." },
+        { "s": "W", "t": "It usually costs around six hundred dollars and takes about ten days." },
+        { "s": "W", "t": "If you'd like, my assistant can contact a surveyor for you. Just call our office and press two." }
+      ],
+      "questions": [
+        { "q": "Who most likely is the speaker?", "options": ["A property buyer", "A surveyor", "An attorney", "A warehouse manager"], "answer": 2, "explain": "Bà giới thiệu mình từ 'Legal Services', xem xét tài liệu bán nhà kho và nhắc 'the buyer's attorney' - bà là luật sư của người bán." },
+        { "q": "What does the speaker recommend?", "options": ["Getting a new survey", "Lowering the sale price", "Delaying the sale", "Hiring another attorney"], "answer": 0, "explain": "Bà nói 'I recommend ordering a new survey this week' vì bản khảo sát hiện tại đã hơn năm năm tuổi." },
+        { "q": "What does the speaker offer to do?", "options": ["Pay for a survey", "Reduce her fee", "Visit the warehouse", "Have an assistant contact a surveyor"], "answer": 3, "explain": "Bà đề nghị 'my assistant can contact a surveyor for you'." }
+      ]
+    },
+    {
+      "kind": "staff announcement",
+      "audio": [
+        { "s": "M", "t": "Good morning, everyone. Before we begin, I have a few announcements about our new time-tracking system." },
+        { "s": "M", "t": "Starting next Monday, all staff will log billable hours through the Clockwise application instead of the spreadsheets we've been using." },
+        { "s": "M", "t": "Training sessions will be held tomorrow and Thursday in the third-floor conference room, and attendance is required." },
+        { "s": "M", "t": "Also, because of the upgrade, the old spreadsheets will be closed to editing on Friday at five p.m., so please submit your current entries before then." },
+        { "s": "M", "t": "If you have any questions, please contact Fatima in the technology department." }
+      ],
+      "questions": [
+        { "q": "What is the main topic of the announcement?", "options": ["A new office location", "A change in how hours are recorded", "A holiday schedule", "A client presentation"], "answer": 1, "explain": "Bài nói về hệ thống theo dõi thời gian mới: nhân viên ghi giờ làm qua ứng dụng thay cho bảng tính." },
+        { "q": "What are listeners required to do?", "options": ["Work extra hours", "Update their résumés", "Submit expense reports", "Attend training sessions"], "answer": 3, "explain": "Người nói nhấn mạnh 'attendance is required' cho các buổi đào tạo vào ngày mai và thứ Năm." },
+        { "q": "What will happen on Friday at five p.m.?", "options": ["The old spreadsheets will no longer be editable", "A training session will begin", "A new employee will start", "The office will close early"], "answer": 0, "explain": "Người nói nói bảng tính cũ 'will be closed to editing on Friday at five p.m.'." }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "audio": [
+        { "s": "W", "t": "Are you tired of cooking after a long day? Try Harvest Table Meal Prep and Catering." },
+        { "s": "W", "t": "Every week, our chefs prepare fresh, balanced dinners using ingredients from local farms." },
+        { "s": "W", "t": "Choose from twelve menu options, including vegetarian and low-sodium dishes, and pick up your meals on Sunday evening or have them delivered to your door." },
+        { "s": "W", "t": "New customers who sign up before the end of the month will receive their first week at half price." },
+        { "s": "W", "t": "Visit our Web site to see this week's menu and place your order." }
+      ],
+      "questions": [
+        { "q": "What is being advertised?", "options": ["A meal preparation service", "A cooking school", "A farmers' market", "A grocery delivery app"], "answer": 0, "explain": "Quảng cáo nói đầu bếp chuẩn bị các bữa tối hằng tuần cho khách - dịch vụ chuẩn bị suất ăn (meal prep and catering)." },
+        { "q": "What does the speaker say about the ingredients?", "options": ["They are imported", "They are all organic", "They come from local farms", "They are frozen"], "answer": 2, "explain": "Người nói đề cập 'using ingredients from local farms'." },
+        { "q": "How can new customers get a discount?", "options": ["By visiting the restaurant", "By signing up before the end of the month", "By referring a friend", "By ordering twelve meals"], "answer": 1, "explain": "Khách mới đăng ký trước cuối tháng sẽ được 'their first week at half price'." }
+      ]
+    },
+    {
+      "kind": "building notice",
+      "audio": [
+        { "s": "N", "t": "Attention, residents of Lakeview Apartments. This is a notice from the building management office." },
+        { "s": "N", "t": "Next Tuesday, the water supply will be shut off from nine a.m. to one p.m. so that crews can replace a main pipe in the basement." },
+        { "s": "N", "t": "Please fill containers with drinking water in advance, and avoid using the washing machines in the laundry room during that time." },
+        { "s": "N", "t": "Hot water may look cloudy for a short time after service is restored. This is harmless and will clear up quickly." },
+        { "s": "N", "t": "For questions, stop by the management office on the first floor or call extension one hundred." },
+        { "s": "N", "t": "Thank you for your patience." }
+      ],
+      "questions": [
+        { "q": "Why will the water be shut off?", "options": ["To clean a swimming pool", "To install a water filter", "To repair a roof", "To replace a pipe"], "answer": 3, "explain": "Thông báo nói nước bị cắt 'so that crews can replace a main pipe in the basement'." },
+        { "q": "What are residents asked to do?", "options": ["Move their cars", "Store some drinking water", "Turn off the electricity", "Leave the building"], "answer": 1, "explain": "Cư dân được nhắc 'fill containers with drinking water in advance' và tránh dùng máy giặt." },
+        { "q": "What does the speaker say about cloudy hot water?", "options": ["It should be reported", "It is dangerous", "It is harmless", "It needs a filter"], "answer": 2, "explain": "Người nói giải thích nước nóng có thể đục tạm thời nhưng 'This is harmless and will clear up quickly'." }
+      ]
+    },
+    {
+      "kind": "workplace talk",
+      "audio": [
+        { "s": "M", "t": "Good morning, team. Before we start the shift, I want to go over a few changes at the loading dock." },
+        { "s": "M", "t": "Beginning today, all forklift drivers must wear high-visibility vests, and pedestrians are not allowed in the yellow lanes while a vehicle is moving." },
+        { "s": "M", "t": "We've also installed new scanners at bays three and four. Please use them to log every pallet as soon as it comes off the truck." },
+        { "s": "M", "t": "This will help us locate items more quickly and reduce shipping errors." },
+        { "s": "M", "t": "Finally, a reminder that the monthly safety meeting is this Friday at two in the break room. Lunch will be provided." }
+      ],
+      "questions": [
+        { "q": "Who is the speaker most likely addressing?", "options": ["Truck drivers from another company", "Office accountants", "Warehouse employees", "Safety inspectors"], "answer": 2, "explain": "Người nói bàn về bến xếp dỡ, xe nâng, pallet và ca làm việc - đối tượng là nhân viên kho." },
+        { "q": "What are workers asked to do at bays three and four?", "options": ["Scan each pallet", "Park their vehicles", "Inspect forklifts", "Wait for a supervisor"], "answer": 0, "explain": "Người nói bảo 'use them to log every pallet as soon as it comes off the truck' - dùng máy quét ghi nhận mỗi pallet." },
+        { "q": "What will happen on Friday?", "options": ["Vests will be handed out", "A safety meeting will take place", "A truck will be unloaded", "A manager will retire"], "answer": 1, "explain": "Người nói nhắc 'the monthly safety meeting is this Friday at two in the break room'." }
+      ]
+    },
+    {
+      "kind": "conference announcement",
+      "audio": [
+        { "s": "W", "t": "Welcome to the second day of the Project Leadership Conference." },
+        { "s": "W", "t": "This morning's keynote will be delivered by Dr. Emily Ross, who has spent twenty years helping companies manage large teams." },
+        { "s": "W", "t": "After her talk, you'll break into small groups for the workshops. Please check the schedule on the back of your name badge to find your room." },
+        { "s": "W", "t": "Because of the number of registrations, lunch will be served in two shifts, at twelve and at twelve forty-five." },
+        { "s": "W", "t": "Finally, if you haven't completed the feedback survey from yesterday, you can do so at the registration desk. Thank you." }
+      ],
+      "questions": [
+        { "q": "Where is the announcement most likely being made?", "options": ["At a sales meeting", "At a conference", "In a university classroom", "At a job fair"], "answer": 1, "explain": "Câu mở đầu 'Welcome to the second day of the Project Leadership Conference' cho biết đây là hội nghị." },
+        { "q": "What are listeners told to check on their name badges?", "options": ["Their meal choice", "Their hotel room", "Their parking space", "Their workshop room"], "answer": 3, "explain": "Người nói bảo 'check the schedule on the back of your name badge to find your room' - phòng workshop." },
+        { "q": "Why will lunch be served in two shifts?", "options": ["A kitchen is closed", "A speaker is late", "Many people registered", "A room is being repaired"], "answer": 2, "explain": "Người nói giải thích 'Because of the number of registrations' - số người đăng ký đông." }
+      ]
+    },
+    {
+      "kind": "voicemail",
+      "audio": [
+        { "s": "M", "t": "Hi, this is Marcus from Ironwood Fitness, calling for Ms. Tran." },
+        { "s": "M", "t": "I'm calling to let you know that your membership will expire on the thirtieth of this month." },
+        { "s": "M", "t": "As a loyal member, you can renew for a year at a twenty percent discount if you do so before the twentieth." },
+        { "s": "M", "t": "We're also adding a new swimming pool and a sauna to the second floor next month, and the construction may cause some noise on weekday mornings." },
+        { "s": "M", "t": "Please call me back or stop by the front desk to renew. Thanks, and have a great day." }
+      ],
+      "questions": [
+        { "q": "Why is the speaker calling?", "options": ["To remind a member about a renewal", "To cancel a class", "To announce a gym closing", "To offer a job"], "answer": 0, "explain": "Anh thông báo thẻ thành viên sắp hết hạn và mời gia hạn ('your membership will expire... you can renew')." },
+        { "q": "What will happen if Ms. Tran renews before the twentieth?", "options": ["She will get a free trainer", "She will receive a gift", "She will receive a discount", "She will skip the fee for a month"], "answer": 2, "explain": "Anh nói gia hạn một năm trước ngày 20 sẽ được 'a twenty percent discount'." },
+        { "q": "What will be added to the gym next month?", "options": ["A parking garage", "A juice bar", "A childcare room", "A pool and a sauna"], "answer": 3, "explain": "Anh nói 'adding a new swimming pool and a sauna to the second floor next month'. Việc thi công có thể gây ồn." }
+      ]
+    },
+    {
+      "kind": "conference call",
+      "audio": [
+        { "s": "W", "t": "Thanks for joining today's product update call." },
+        { "s": "W", "t": "As you know, our team released version five of the Taskline project management software last week." },
+        { "s": "W", "t": "Early feedback has been positive, but some customers report that the mobile app crashes when they upload large files." },
+        { "s": "W", "t": "Our developers have identified the cause and expect to release a fix by Thursday." },
+        { "s": "W", "t": "In the meantime, I'm asking support staff to suggest using the Web version for uploads." },
+        { "s": "W", "t": "Please also add this issue to the knowledge base so that customers can find the workaround themselves." }
+      ],
+      "questions": [
+        { "q": "What problem do some customers report?", "options": ["A slow installation", "A confusing menu", "High prices", "An app that crashes"], "answer": 3, "explain": "Người nói nói 'the mobile app crashes when they upload large files'." },
+        { "q": "What does the speaker say will happen by Thursday?", "options": ["A new version will be launched", "A software fix will be released", "A survey will be sent", "A new employee will start"], "answer": 1, "explain": "Các lập trình viên 'expect to release a fix by Thursday' - bản sửa lỗi." },
+        { "q": "What are support staff asked to tell customers?", "options": ["To use the Web version", "To reinstall the app", "To wait for a refund", "To call the developers"], "answer": 0, "explain": "Nhân viên hỗ trợ được yêu cầu 'suggest using the Web version for uploads' làm giải pháp tạm." }
+      ]
+    },
+    {
+      "kind": "site tour",
+      "audio": [
+        { "s": "M", "t": "Good afternoon, everyone, and welcome to the Greenfield Community Library construction site." },
+        { "s": "M", "t": "Before we enter, please put on your helmets and safety glasses, which are in the blue bin by the gate." },
+        { "s": "M", "t": "The project is about sixty percent complete. The steel frame is finished, and this week the crews are installing windows on the east side." },
+        { "s": "M", "t": "Because the elevator isn't operational yet, we'll take the stairs to the second floor, so please watch your step." },
+        { "s": "M", "t": "Photography is allowed, but please don't take pictures of the architect's drawings in the site office." },
+        { "s": "M", "t": "If you need to leave the group at any time, please let me know." }
+      ],
+      "questions": [
+        { "q": "Who most likely are the listeners?", "options": ["Job applicants", "Building inspectors", "Visitors to a construction site", "Library employees"], "answer": 2, "explain": "Người nói chào mừng mọi người đến công trường và dặn đội mũ bảo hộ trước khi vào - nhóm khách tham quan." },
+        { "q": "What does the speaker say about the project?", "options": ["It is over budget", "It is about sixty percent complete", "It is finished", "It is behind schedule"], "answer": 1, "explain": "Người nói nêu 'The project is about sixty percent complete'." },
+        { "q": "Why will the group use the stairs?", "options": ["The stairs were just painted", "The doors are locked", "The elevator is not working yet", "The group is small"], "answer": 2, "explain": "Người nói giải thích 'Because the elevator isn't operational yet'." }
+      ]
+    },
+    {
+      "kind": "radio news report",
+      "audio": [
+        { "s": "N", "t": "In local business news, Redwood Freight announced today that it will open a new distribution center in Eastport next spring." },
+        { "s": "N", "t": "The twenty-million-dollar facility is expected to create two hundred jobs, mostly in warehousing and truck driving." },
+        { "s": "N", "t": "Company president Daniel Moore said the location was chosen for its proximity to the interstate highway and the harbor." },
+        { "s": "N", "t": "The center will use automated sorting equipment to speed up deliveries to customers across the region." },
+        { "s": "N", "t": "A job fair will be held at the Eastport Community Hall on the fourteenth. Applicants are asked to bring a résumé." },
+        { "s": "N", "t": "And now, a look at the weather." }
+      ],
+      "questions": [
+        { "q": "What is being announced?", "options": ["A company merger", "A new distribution center", "A road closure", "A hiring freeze"], "answer": 1, "explain": "Bản tin nói Redwood Freight 'will open a new distribution center in Eastport next spring'." },
+        { "q": "Why was the location chosen?", "options": ["Land is inexpensive", "Many workers live nearby", "Taxes are low", "It is close to a highway and a harbor"], "answer": 3, "explain": "Chủ tịch công ty nói địa điểm được chọn vì 'its proximity to the interstate highway and the harbor'." },
+        { "q": "What are job applicants asked to bring to the job fair?", "options": ["A reference letter", "A photo ID", "A résumé", "A work portfolio"], "answer": 2, "explain": "Người dẫn nói 'Applicants are asked to bring a résumé'." }
+      ]
+    }
+  ]
+}

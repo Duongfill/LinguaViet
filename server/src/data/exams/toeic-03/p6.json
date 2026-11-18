@@ -1,0 +1,69 @@
+{
+  "part": 6,
+  "groups": [
+    {
+      "kind": "email",
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Email",
+          "text": "To: All Staff\nFrom: Priya Nandakumar, IT Director\nDate: September 12\nSubject: Move to a new project-tracking system\n\nDear colleagues,\n\nOn Monday, October 6, our department will [1] from the old project-tracking software to Trackwise Pro. The new system offers faster searches, clearer dashboards, and mobile access. [2] Because of this, please finish updating all open tickets by Friday, October 3.\n\nTo help you get started, we will hold two training sessions [3] the transition week. Both will take place in Conference Room B and will last about 45 minutes. Seating is limited, so please sign up through the intranet.\n\nIf you experience any difficulty logging in, contact the help desk, [4] will be staffed until 8 P.M. throughout the first week.\n\nThank you for your cooperation.\n\nPriya Nandakumar"
+        }
+      ],
+      "questions": [
+        { "options": ["switch", "switching", "switched", "switches"], "answer": 0, "explain": "Sau 'will' cần động từ nguyên mẫu không 'to': switch (chuyển từ ... sang ...)." },
+        { "options": ["Trackwise Pro was developed by a company based in Singapore.", "Several employees have asked for longer lunch breaks.", "The old system will be permanently shut down on the evening of October 3.", "Our annual conference will be held in the spring."], "answer": 2, "explain": "Câu sau bắt đầu bằng 'Because of this, please finish updating all open tickets by October 3', nên câu chèn phải nêu lý do: hệ thống cũ sẽ ngừng hoạt động vào tối 3/10. Các câu khác không liên quan." },
+        { "options": ["while", "during", "until", "among"], "answer": 1, "explain": "'during the transition week' = trong tuần chuyển đổi (giới từ + danh từ chỉ khoảng thời gian). 'while' là liên từ cần mệnh đề." },
+        { "options": ["who", "what", "that", "which"], "answer": 3, "explain": "Mệnh đề quan hệ không xác định (sau dấu phẩy) thay cho 'the help desk' dùng 'which'. 'that' không đứng sau dấu phẩy, 'who' dành cho người." }
+      ]
+    },
+    {
+      "kind": "notice",
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Notice",
+          "text": "NOTICE TO TENANTS\nHarborview Commons, 220 Dockside Avenue\nPosted: April 15\n\nBeginning May 5, the management office will start repairing the parking garage on levels 1 and 2. The work is expected to [1] about six weeks, weather permitting. [2] Tenants will instead be able to park on levels 3 through 5 at no extra cost.\n\nPlease note that the entire garage will be [3] on Saturday, May 17, when the new surface is sealed. Vehicles left inside after 7 A.M. that day may be towed at the owner's expense. Street parking along Dockside Avenue is free on weekends.\n\nIf you have questions about the schedule, please [4] the property manager, Ms. Dubois, at extension 14.\n\nThank you for your patience."
+        }
+      ],
+      "questions": [
+        { "options": ["lasting", "last", "lasts", "lasted"], "answer": 1, "explain": "'be expected to' + động từ nguyên mẫu: last (kéo dài khoảng sáu tuần)." },
+        { "options": ["During this period, levels 1 and 2 will be closed to all vehicles.", "The lobby was repainted last winter.", "Monthly rent will increase by three percent in June.", "A new café will open on the ground floor."], "answer": 0, "explain": "Câu sau nói người thuê 'instead' đỗ xe ở tầng 3-5, nên câu chèn phải nói tầng 1 và 2 bị đóng. Các câu còn lại lạc đề." },
+        { "options": ["unavailably", "unavailability", "unavailabilities", "unavailable"], "answer": 3, "explain": "Sau 'will be' cần tính từ làm vị ngữ: unavailable (không sử dụng được). Các dạng còn lại là trạng từ hoặc danh từ." },
+        { "options": ["contacts", "contacted", "contact", "contacting"], "answer": 2, "explain": "'please' + động từ nguyên mẫu: contact (liên hệ)." }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Job Advertisement",
+          "text": "NOW HIRING: LOGISTICS COORDINATOR\n\nBlueRiver Freight Solutions, a growing regional carrier, is seeking a logistics coordinator to join its dispatch team in Fairbanks Park. The successful candidate will be [1] for scheduling deliveries, tracking shipments, and communicating with drivers and customers. [2]\n\nApplicants should have at least two years of experience in logistics or a related field, as well as strong [3] skills. Knowledge of route-planning software is an advantage but not required.\n\nWe offer a competitive salary, paid training, and health benefits. To apply, send your résumé and a cover letter to careers@blueriverfreight.example. Applications must be received [4] March 31 to be considered."
+        }
+      ],
+      "questions": [
+        { "options": ["responsibility", "responsibly", "responsible", "responsibilities"], "answer": 2, "explain": "'be responsible for' = chịu trách nhiệm về; sau 'will be' cần tính từ responsible." },
+        { "options": ["BlueRiver was founded by three former airline pilots in 2008.", "Last year the company won an award for its cafeteria.", "The new warehouse will have room for 3,000 pallets.", "The role involves working closely with warehouse staff to resolve delays quickly."], "answer": 3, "explain": "Câu chèn bổ sung mô tả công việc, nối tiếp câu liệt kê nhiệm vụ (lên lịch, theo dõi, liên lạc). Các câu khác nói về lịch sử, giải thưởng hay kho mới, không liên quan đến vai trò." },
+        { "options": ["organizational", "organize", "organizer", "organized"], "answer": 0, "explain": "Trước danh từ 'skills' cần tính từ: organizational skills (kỹ năng tổ chức). 'organized skills' không phải cụm đúng nghĩa." },
+        { "options": ["until", "by", "during", "since"], "answer": 1, "explain": "'must be received by March 31' = phải nhận được chậm nhất vào 31/3 (hạn chót). 'until' không đi với 'must be received' để chỉ hạn chót, 'since' và 'during' sai nghĩa." }
+      ]
+    },
+    {
+      "kind": "article",
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Company Blog",
+          "text": "FROM THE BLOG: WHY WE INVEST IN EMPLOYEE TRAINING\nPosted by Elena Marchetti, Head of People Operations\n\nAt Corvane Software, we believe that our greatest asset is our people. That is why, [1] the past three years, we have doubled the budget for our learning program.\n\nThe program has three parts. First, employees can attend online courses on topics ranging from cloud computing to project management. [2] Finally, every employee receives an annual allowance of $1,200 to spend on conferences or certification exams.\n\nThe results speak for themselves. Employee turnover has [3] by nearly 20 percent, and customer satisfaction scores are at an all-time high. [4] you are interested in joining a team that values growth, visit our careers page to see our current openings."
+        }
+      ],
+      "questions": [
+        { "options": ["since", "at", "upon", "over"], "answer": 3, "explain": "'over the past three years' = trong ba năm qua, đúng cụm thời gian với thì hiện tại hoàn thành. 'since' cần một mốc thời gian cụ thể, 'at' và 'upon' không hợp." },
+        { "options": ["Our headquarters moved to a larger building in 2021.", "Second, every new hire is paired with a senior engineer for ten weeks of mentoring.", "Many of our clients are located in Europe and Asia.", "The cafeteria offers vegetarian meals on Fridays."], "answer": 1, "explain": "Đoạn văn liệt kê ba phần ('First ... Finally'), còn thiếu phần 'Second'. Chỉ câu bắt đầu bằng 'Second' (chương trình cố vấn) hoàn chỉnh trình tự này." },
+        { "options": ["decrease", "decreasing", "decreased", "decreases"], "answer": 2, "explain": "'has' + phân từ quá khứ (thì hiện tại hoàn thành): has decreased (đã giảm)." },
+        { "options": ["If", "Unless", "Despite", "Whereas"], "answer": 0, "explain": "Mệnh đề điều kiện 'If you are interested in ...' dẫn tới lời mời truy cập trang tuyển dụng. 'Unless' và 'Whereas' sai nghĩa, 'Despite' không đi với mệnh đề." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "title": "Section 4",
+  "context": "A history lecturer is giving a talk about how paper developed over time and what its future might be.",
+  "audio": [
+    { "s":"N", "t":"Section 4. You will hear a lecturer giving a talk about the history and future of paper." },
+    { "s":"M", "t":"Good afternoon, everyone. Today I'd like to look at something so familiar that we rarely think about it: paper." },
+    { "s":"M", "t":"Where did it come from, and does it have a future in a digital world?" },
+    { "s":"M", "t":"Let's begin in China. Before paper existed, people there wrote on strips of bamboo, which were heavy and awkward, or on silk, which was light but very expensive." },
+    { "s":"M", "t":"Neither was practical for ordinary people." },
+    { "s":"M", "t":"The invention of paper is traditionally credited to an official named Cai Lun, around the year 105. His paper was made from a mixture of tree bark, old rags and worn-out fishing nets, which were beaten into a pulp and dried in thin sheets." },
+    { "s":"M", "t":"For several centuries the Chinese kept the technique to themselves. It's often said that it spread because of a battle fought in the year 751, near the river Talas, where some Chinese papermakers were captured by Arab forces." },
+    { "s":"M", "t":"Careful here: 105 is when paper was invented, but 751 is the date associated with the spread of the skill to the Arab world. Soon afterwards there were paper mills in Baghdad and Damascus." },
+    { "s":"M", "t":"From there, papermaking travelled through North Africa to Spain and then to Italy. Italian papermakers made an important improvement." },
+    { "s":"M", "t":"They dipped the finished sheets in gelatine, which stopped ink from soaking through, so both sides of a page could be used." },
+    { "s":"M", "t":"The real turning point came in the 1450s, when Gutenberg's printing press made books cheaper. Demand for paper soared, and since the raw material was mainly old rags, Europe soon faced a serious shortage of rags." },
+    { "s":"M", "t":"Inventors went looking for alternatives. A Canadian, Charles Fenerty, experimented with wood pulp as early as 1838, but he never took out a patent." },
+    { "s":"M", "t":"It was a German weaver named Friedrich Keller who patented a process in 1844 that used ground wood." },
+    { "s":"M", "t":"That discovery made paper cheap enough for newspapers and cheap paperbacks, and it changed literacy for ever." },
+    { "s":"M", "t":"But there was a hidden problem. Paper made from wood in the nineteenth century contained acid." },
+    { "s":"M", "t":"Over time this acid attacks the fibres, so that old books become brittle and may crumble when handled. Librarians are still struggling with the consequences today." },
+    { "s":"M", "t":"Now let's turn to the modern era. In the 1970s, experts predicted that computers would create the paperless office." },
+    { "s":"M", "t":"In fact, the opposite happened, and office paper use grew for decades." },
+    { "s":"M", "t":"Today the picture is more complicated. Printing and writing paper is in decline, but demand for packaging paper is rising quickly, thanks mainly to online shopping and all those delivery boxes." },
+    { "s":"M", "t":"What about the environment? Paper has a bad reputation, but it's actually one of the most recycled products in the world." },
+    { "s":"M", "t":"The worldwide average recycling rate is about fifty-eight per cent." },
+    { "s":"M", "t":"In Europe it's higher still, at seventy-two per cent. It was only fifty-six per cent at the start of this century, so this is real progress." },
+    { "s":"M", "t":"Finally, the future. Researchers are not trying to replace paper; they are trying to make it do more." },
+    { "s":"M", "t":"One team has developed paper-based sensors, which are cheap enough to throw away and can detect pollution in water." },
+    { "s":"M", "t":"So perhaps the oldest information technology we have may turn out to be one of the newest. Thank you for listening." },
+    { "s":"M", "t":"Are there any questions?" }
+  ],
+  "blocks": [
+    {
+      "type": "gap",
+      "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "questions": [
+        {
+          "q": "Before paper, Chinese writers used bamboo strips and ______.",
+          "answer": [
+            "silk"
+          ],
+          "explain": "\"people there wrote on strips of bamboo ... or on silk, which was light but very expensive\"."
+        },
+        {
+          "q": "The first paper was made from bark, old rags and worn-out ______.",
+          "answer": [
+            "fishing nets"
+          ],
+          "explain": "\"tree bark, old rags and worn-out fishing nets, which were beaten into a pulp\"."
+        },
+        {
+          "q": "The skill reached the Arab world after a battle in the year ______.",
+          "answer": [
+            "751"
+          ],
+          "explain": "Người nói cảnh báo: 105 là năm phát minh, còn \"751 is the date associated with the spread of the skill to the Arab world\"."
+        },
+        {
+          "q": "Italian papermakers dipped sheets in ______ to stop ink soaking through.",
+          "answer": [
+            "gelatine",
+            "gelatin"
+          ],
+          "explain": "\"They dipped the finished sheets in gelatine, which stopped ink from soaking through\"."
+        },
+        {
+          "q": "After the printing press appeared, Europe faced a shortage of ______.",
+          "answer": [
+            "rags"
+          ],
+          "explain": "Nhu cầu giấy tăng vọt và vì nguyên liệu chủ yếu là giẻ cũ nên châu Âu thiếu \"rags\"."
+        },
+        {
+          "q": "In 1844, Keller patented a process using ground ______.",
+          "answer": [
+            "wood"
+          ],
+          "explain": "Fenerty thử bột gỗ từ 1838 nhưng không đăng ký; Keller \"patented a process in 1844 that used ground wood\"."
+        },
+        {
+          "q": "Acid in nineteenth-century paper makes old books ______.",
+          "answer": [
+            "brittle"
+          ],
+          "explain": "\"old books become brittle and may crumble when handled\"."
+        },
+        {
+          "q": "Europe now recycles ______ % of its paper.",
+          "answer": [
+            "72",
+            "seventy-two",
+            "seventy two"
+          ],
+          "explain": "Trung bình thế giới là 58%, đầu thế kỷ này châu Âu là 56%; hiện nay \"In Europe it's higher still, at seventy-two per cent\"."
+        },
+        {
+          "q": "Demand for ______ paper is rising because of online shopping.",
+          "answer": [
+            "packaging"
+          ],
+          "explain": "Giấy in và viết giảm nhưng \"demand for packaging paper is rising quickly\" nhờ mua sắm trực tuyến."
+        },
+        {
+          "q": "Researchers have developed paper-based ______ that can detect pollution in water.",
+          "answer": [
+            "sensors"
+          ],
+          "explain": "\"One team has developed paper-based sensors ... can detect pollution in water\"."
+        }
+      ]
+    }
+  ]
+}

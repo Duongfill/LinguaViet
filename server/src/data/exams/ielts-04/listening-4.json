@@ -1,0 +1,52 @@
+{
+  "title": "Section 4",
+  "context": "A university lecturer is giving a talk on how traditional and modern housing designs adapt to different climates.",
+  "audio": [
+    { "s": "N", "t": "You will hear a lecturer talking about climate-adaptive housing." },
+    { "s": "M", "t": "Good morning, everyone. Today I'd like to look at how architects design homes that work with the climate rather than against it." },
+    { "s": "M", "t": "Long before air conditioning existed, builders around the world had already solved many of these problems, so let's begin with traditional, or vernacular, architecture." },
+    { "s": "M", "t": "In hot, dry regions, the classic solution is thick walls made from adobe, which is simply sun-dried earth mixed with straw." },
+    { "s": "M", "t": "The walls absorb heat slowly during the day and release it at night, so the temperature inside stays surprisingly stable." },
+    { "s": "M", "t": "Many of those houses are also built around a central courtyard, and the narrow streets between them are designed to give shade for most of the day." },
+    { "s": "M", "t": "Now, people sometimes think the secret is the colour of the walls, but in fact it's the thermal mass, meaning the sheer thickness of the material." },
+    { "s": "M", "t": "Moving to the tropics, we find a very different problem, which is humidity rather than heat." },
+    { "s": "M", "t": "Here, houses are often raised on stilts. This allows airflow beneath the floor, which keeps the rooms dry and cool, and it also protects against small floods." },
+    { "s": "M", "t": "The roofs are usually steep as well, but not because of snow, as students often assume. They're designed to shed heavy rain quickly." },
+    { "s": "M", "t": "Of course, in some places flooding is so serious that raising the house a metre or two is not enough." },
+    { "s": "M", "t": "One modern response is the amphibious house. It looks like an ordinary home, but it sits on a hollow concrete pontoon." },
+    { "s": "M", "t": "When the river rises, the whole building floats upwards along steel posts, and it settles back down again when the water falls." },
+    { "s": "M", "t": "Let's now turn to cold climates, where the priority is capturing and keeping warmth." },
+    { "s": "M", "t": "In the northern hemisphere, architects place the largest windows facing south, because that's where the winter sun is strongest." },
+    { "s": "M", "t": "I should point out that I'm sometimes asked about east-facing windows, but these only get weak morning sun, so they're less useful." },
+    { "s": "M", "t": "Of course, windows lose heat as well as gain it, so modern designs combine triple glazing with thick insulation to cut heat loss to a minimum." },
+    { "s": "M", "t": "Now, what about cities? Concrete and asphalt absorb heat, which makes city centres much warmer than the surrounding countryside." },
+    { "s": "M", "t": "This is known as the urban heat island effect, and one popular way to reduce it is the green roof, which is a roof covered in plants." },
+    { "s": "M", "t": "Green roofs cool the air through evaporation, they absorb rainwater, and they also provide a habitat for insects and birds." },
+    { "s": "M", "t": "A common objection is cost. Many people think it's cheaper to demolish an old house and build a new one." },
+    { "s": "M", "t": "But a recent study of retrofitting, meaning adapting existing buildings, found that it cost on average 40 per cent less than rebuilding." },
+    { "s": "M", "t": "The original estimate in the draft report was 30 per cent, but that figure was revised after the researchers included the cost of removing waste." },
+    { "s": "M", "t": "Finally, let's look briefly at the future. A number of research teams are developing homes that adjust themselves automatically." },
+    { "s": "M", "t": "For instance, sensors measure the sunlight and temperature, and then they control self-adjusting shutters on the windows." },
+    { "s": "M", "t": "The shutters close at midday to keep the house cool, and open again in the evening to let the heat out." },
+    { "s": "M", "t": "To sum up, good climate design is not about expensive technology, but about understanding the local environment." },
+    { "s": "M", "t": "For next week, please read the two articles on the reading list, and think about which climate you would find most challenging to design for." }
+  ],
+  "blocks": [
+    {
+      "type": "gap",
+      "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS for each answer.",
+      "questions": [
+        { "q": "In hot, dry regions, homes have thick ______ walls that release heat slowly at night.", "answer": ["adobe"], "explain": "\"thick walls made from adobe, which is simply sun-dried earth mixed with straw\" - bẫy: màu tường không phải yếu tố chính." },
+        { "q": "Courtyards and narrow streets are designed to provide ______.", "answer": ["shade"], "explain": "\"the narrow streets between them are designed to give shade for most of the day\"." },
+        { "q": "Houses on stilts in the tropics allow ______ beneath the floor.", "answer": ["airflow", "air flow"], "explain": "\"This allows airflow beneath the floor, which keeps the rooms dry and cool\"." },
+        { "q": "Steep roofs in the tropics are designed to shed ______ quickly.", "answer": ["heavy rain", "rain"], "explain": "Không phải tuyết như sinh viên hay nghĩ: \"They're designed to shed heavy rain quickly.\"" },
+        { "q": "An amphibious house sits on a hollow concrete ______.", "answer": ["pontoon"], "explain": "\"it sits on a hollow concrete pontoon\" và nổi lên theo cột thép khi nước dâng." },
+        { "q": "In cold northern regions, the largest windows face ______.", "answer": ["south"], "explain": "\"architects place the largest windows facing south\"; hướng đông chỉ có nắng sớm yếu nên bị loại." },
+        { "q": "Triple glazing and thick insulation reduce ______.", "answer": ["heat loss"], "explain": "\"combine triple glazing with thick insulation to cut heat loss to a minimum\"." },
+        { "q": "Green roofs help to reduce the urban ______ effect.", "answer": ["heat island"], "explain": "\"This is known as the urban heat island effect, and one popular way to reduce it is the green roof\"." },
+        { "q": "Retrofitting existing buildings costs on average ______ per cent less than rebuilding.", "answer": ["40", "forty"], "explain": "Số liệu nháp là 30% nhưng đã được chỉnh lại: \"it cost on average 40 per cent less than rebuilding\"." },
+        { "q": "Future homes may use sensors to control self-adjusting ______ on windows.", "answer": ["shutters"], "explain": "\"sensors measure the sunlight and temperature, and then they control self-adjusting shutters on the windows\"." }
+      ]
+    }
+  ]
+}

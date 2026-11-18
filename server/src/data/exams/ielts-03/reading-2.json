@@ -1,0 +1,143 @@
+{
+  "title": "Farming Upwards: Vertical Agriculture in the City",
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "By the middle of this century, around two thirds of the world's population is expected to live in towns and cities. Feeding so many people is a challenge that conventional agriculture, which depends on large areas of open land, is poorly placed to meet. Most urban food is grown far away and travels hundreds of kilometres by road, rail or air before it reaches a shop, losing freshness and generating emissions on the way. One proposed solution is to bring farming to the consumer by growing crops indoors, in stacked layers, inside buildings. This approach is known as vertical farming, and over two decades it has moved from an academic curiosity to a small but growing industry."
+    },
+    {
+      "label": "B",
+      "text": "The modern idea is usually traced to Professor Elena Voss, an ecologist who set her students a deliberately provocative task in the late 1990s: to calculate whether a single city block could feed its own residents. The students concluded that a skyscraper-style farm, thirty storeys high, might supply several thousand people with food, even though the design was never built. The calculation attracted attention not because it was practical but because it changed the question. Instead of asking how much land farmers needed, people began asking how much space plants actually require, and the answer, once soil and weather are removed from the equation, turned out to be surprisingly little."
+    },
+    {
+      "label": "C",
+      "text": "Vertical farms generally do without soil altogether. In hydroponic systems, the roots of the plants sit in shallow channels of water enriched with dissolved minerals. In aeroponic systems, the roots hang in the air and are misted at intervals with a nutrient solution, a method that uses even less water. A third approach, aquaponics, combines plant cultivation with fish farming: waste from the fish is converted by bacteria into nutrients that feed the plants, and the plants in turn clean the water that returns to the fish tanks. All three systems rely on artificial lighting. Early farms used ordinary lamps that wasted most of their energy as heat, but modern growers use light-emitting diodes tuned to the red and blue wavelengths that plants absorb most efficiently, and they adjust the balance to speed up growth or improve flavour."
+    },
+    {
+      "label": "D",
+      "text": "Supporters point to a long list of advantages. Because the water is recycled, a vertical farm can use up to 95 per cent less than a field growing the same crop. Since the growing rooms are sealed, pests rarely enter, so pesticides are generally unnecessary. Harvests do not depend on the season or the weather, which means that a farm can produce many crops a year, and the stacked arrangement means that one hectare of floor space can yield the equivalent of many hectares of open land. Growers can also control the temperature, humidity and nutrients in each room with great precision, so the quality of the produce is remarkably consistent from one harvest to the next. Finally, a farm located in the middle of a city can deliver lettuce to nearby restaurants within hours of picking, which reduces both spoilage and transport emissions."
+    },
+    {
+      "label": "E",
+      "text": "The picture is not entirely rosy, however. The greatest obstacle is energy. Lights, pumps and climate control consume large amounts of electricity, and where that electricity comes from fossil fuels the environmental benefit of shorter transport may be cancelled out. Building a farm is also expensive, and several well-funded start-ups have closed after failing to sell their produce at a price that covered their costs. In addition, the range of crops is narrow. Leafy vegetables, herbs and some berries grow well indoors, but staple foods such as wheat, rice and potatoes need far more light and space than is economic, so vertical farms cannot yet replace the fields that supply most of the world's calories."
+    },
+    {
+      "label": "F",
+      "text": "Researchers are working on several of these problems. Some farms are now powered by solar or wind energy, while others have been built in disused warehouses, car parks and underground tunnels, where the cost of land is low and temperatures are naturally stable. Engineers are also developing sensors and software that adjust light and water for each tray automatically, which reduces both labour and waste. Hybrid designs that use sunlight during the day and artificial light only at night are also being tested. Most experts therefore see vertical farming not as a replacement for traditional agriculture but as a complement to it: a way of producing fresh, perishable crops close to where people live, while the fields continue to grow the staples. Whether it can achieve that role will depend largely on the price of clean energy."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "q": "According to paragraph A, why is conventional agriculture poorly suited to feeding future cities?",
+          "options": [
+            "It produces food that is too expensive for urban consumers.",
+            "It depends on large areas of open land.",
+            "It cannot supply fresh vegetables.",
+            "It relies mainly on air transport."
+          ],
+          "answer": 1,
+          "explain": "Đoạn A: nông nghiệp truyền thống \"depends on large areas of open land\" nên khó đáp ứng thành phố đông dân. Máy bay chỉ là một trong ba phương tiện được nhắc, không phải lý do chính."
+        },
+        {
+          "q": "What was significant about the project that Professor Voss gave her students?",
+          "options": [
+            "It produced the first working vertical farm.",
+            "It proved that a skyscraper farm would be cheap to build.",
+            "It led people to rethink how much space crops really need.",
+            "It showed that plants grow better without sunlight."
+          ],
+          "answer": 2,
+          "explain": "Đoạn B: bài tính \"changed the question\" - từ cần bao nhiêu đất sang cây thực sự cần bao nhiêu không gian. Thiết kế chưa bao giờ được xây, nên A và B sai."
+        },
+        {
+          "q": "What advantage of modern lighting is mentioned in paragraph C?",
+          "options": [
+            "It gives off more heat so that plants grow faster.",
+            "It is cheaper than natural sunlight.",
+            "It removes the need for nutrient solutions.",
+            "It supplies the colours of light that plants absorb best."
+          ],
+          "answer": 3,
+          "explain": "Đoạn C: đèn LED hiện đại được chỉnh theo bước sóng đỏ và xanh \"that plants absorb most efficiently\". Đèn cũ mới là loại lãng phí năng lượng thành nhiệt."
+        },
+        {
+          "q": "What is the writer's overall view of vertical farming?",
+          "options": [
+            "It is a useful addition to field farming whose success depends on clean energy.",
+            "It is likely to replace traditional agriculture within a few years.",
+            "It has failed to attract any serious investment.",
+            "It is suitable for growing every kind of staple food."
+          ],
+          "answer": 0,
+          "explain": "Đoạn F: chuyên gia xem nó là \"a complement\" chứ không thay thế nông nghiệp truyền thống, và tương lai phụ thuộc vào giá năng lượng sạch."
+        }
+      ]
+    },
+    {
+      "type": "tfng",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 2? Write TRUE, FALSE or NOT GIVEN.",
+      "questions": [
+        {
+          "q": "A vertical farm uses about the same amount of water as a field growing the same crop.",
+          "answer": "FALSE",
+          "explain": "Đoạn D: trang trại thẳng đứng dùng \"up to 95 per cent less\" nước so với ruộng cùng loại cây, nên FALSE."
+        },
+        {
+          "q": "Pesticides are rarely needed in vertical farms because the growing rooms are sealed.",
+          "answer": "TRUE",
+          "explain": "Đoạn D: \"Since the growing rooms are sealed, pests rarely enter, so pesticides are generally unnecessary\"."
+        },
+        {
+          "q": "Most vertical farms are owned by large supermarket chains.",
+          "answer": "NOT GIVEN",
+          "explain": "Bài không hề nói ai sở hữu các trang trại thẳng đứng; chỉ nhắc đến các công ty khởi nghiệp ở đoạn E, nên NOT GIVEN."
+        },
+        {
+          "q": "Wheat and rice can already be grown profitably in vertical farms.",
+          "answer": "FALSE",
+          "explain": "Đoạn E: lúa mì, gạo, khoai tây cần nhiều ánh sáng và không gian hơn mức kinh tế cho phép, nên \"cannot yet replace the fields\" - FALSE."
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "Look at the following descriptions (Questions 9-13). Match each description with the correct growing system, A, B or C. You may use any letter more than once.",
+      "options": [
+        "A  Hydroponics",
+        "B  Aeroponics",
+        "C  Aquaponics"
+      ],
+      "questions": [
+        {
+          "q": "The roots are sprayed from time to time with a mist of nutrients.",
+          "answer": 1,
+          "explain": "Đoạn C: ở hệ aeroponic, rễ treo trong không khí và \"misted at intervals with a nutrient solution\"."
+        },
+        {
+          "q": "Fish are raised in the same system as the plants.",
+          "answer": 2,
+          "explain": "Đoạn C: aquaponics \"combines plant cultivation with fish farming\"."
+        },
+        {
+          "q": "The roots sit in shallow channels of water containing dissolved minerals.",
+          "answer": 0,
+          "explain": "Đoạn C: hệ hydroponic - rễ nằm trong các rãnh nước nông giàu khoáng chất hòa tan."
+        },
+        {
+          "q": "Bacteria convert animal waste into food for the crops.",
+          "answer": 2,
+          "explain": "Đoạn C: trong aquaponics, chất thải của cá được vi khuẩn chuyển thành dinh dưỡng nuôi cây."
+        },
+        {
+          "q": "The roots are suspended in the air rather than in water.",
+          "answer": 1,
+          "explain": "Đoạn C: aeroponic - \"the roots hang in the air\"."
+        }
+      ]
+    }
+  ]
+}

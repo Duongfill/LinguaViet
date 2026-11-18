@@ -1,0 +1,72 @@
+{
+  "title": "Sand, Fire and Light: A Short History of Glass",
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Glass is so familiar that we rarely stop to consider how remarkable it is. It is made largely from sand, yet it is transparent, hard and easily shaped when hot. Natural glass has existed for millions of years: obsidian, which forms when volcanic lava cools very rapidly, was chipped into knives and arrowheads by Stone Age peoples. The earliest man-made glass, however, appeared much later. Archaeologists generally date the first deliberate glassmaking to around 3500 BC in Mesopotamia, although these early pieces were small beads and glazes rather than containers, and some experts suspect that glass began as an accidental by-product of metal and pottery working."
+    },
+    {
+      "label": "B",
+      "text": "The first true glass vessels were made in Egypt and Mesopotamia about 1500 BC. Craftsmen did not blow glass at this stage. Instead, they wound threads of molten glass around a core of clay and dung, which was scraped out once the glass had cooled. The results, small perfume bottles in striking colours, were luxury goods owned only by the wealthy. The techniques were closely guarded, and glass remained rare for well over a thousand years. Its price began to fall only when an unknown craftsman, probably working on the coast of Syria in the first century BC, invented the blowpipe. This hollow iron tube allowed a glassmaker to inflate a gather of molten glass like a bubble, so that a vessel could be produced in minutes rather than days."
+    },
+    {
+      "label": "C",
+      "text": "The Romans seized upon the new method with enthusiasm. Glass bottles, cups and bowls became everyday items across the empire, and the Romans even experimented with window glass, although their panes were small, thick and so cloudy that they let in light without allowing anyone to see through them. With the collapse of the western empire, much of this knowledge was lost in Europe, but it survived elsewhere. Islamic workshops in Syria and Egypt refined decorative techniques such as enamelling, and by the thirteenth century the Italian city of Venice had become the leading centre of glassmaking in Europe. Fearing fires, and anxious to protect its trade secrets, the Venetian government moved the furnaces to the island of Murano in 1291. Glassworkers were forbidden to leave the republic on pain of severe punishment."
+    },
+    {
+      "label": "D",
+      "text": "Venetian craftsmen produced cristallo, a remarkably clear glass, but it was an English invention that would transform the material. In the 1670s, George Ravenscroft added lead oxide to the mixture and obtained a heavy glass that sparkled and rang when tapped. Lead crystal was easier to cut and engrave, and it soon became fashionable in the houses of the rich. At roughly the same time, advances in the making of large sheets allowed mirrors and tall windows to appear in palaces. The Hall of Mirrors at Versailles is the most famous example, but such luxuries remained far beyond the reach of ordinary households, and a clear window was still a sign of wealth rather than a basic feature of every home."
+    },
+    {
+      "label": "E",
+      "text": "Industrialisation finally made glass cheap. During the nineteenth century, improved furnaces allowed manufacturers to melt glass continuously instead of in small batches, and in 1903 an American engineer, Michael Owens, introduced an automatic machine that turned out bottles at a rate no team of skilled blowers could match. Windows, however, were still made by methods that left the surface slightly uneven, and perfectly flat glass required laborious grinding and polishing. The problem was solved in the 1950s by the British company Pilkington, whose engineers developed the float process. In this method, molten glass is poured onto a bath of molten tin, where it spreads out and hardens into a ribbon with a flawless, parallel surface. The process was announced in 1959, and today almost all of the world's window glass is produced in this way."
+    },
+    {
+      "label": "F",
+      "text": "Far from being a finished story, the history of glass is still being written. Since the 1970s, strands of ultra-pure glass thinner than a human hair have carried telephone calls and internet data around the planet as pulses of light, and without these optical fibres modern communications would be unrecognisable. The screens of mobile phones are made from glass that has been chemically strengthened so that it resists scratches and cracks. Glass also has an environmental advantage that few materials can match: it can be recycled again and again without any loss of quality. Crushed waste glass, known as cullet, melts at a lower temperature than the raw ingredients, so every bottle that is returned to the furnace saves energy. Researchers are now developing smart windows that darken in strong sunshine, and it seems likely that the material first chipped from volcanic rock will keep finding new uses for centuries to come."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "headings",
+      "instructions": "Reading Passage 1 has six paragraphs, A-F. Choose the correct heading for paragraphs B-F from the list of headings below.",
+      "options": [
+        "i  The decline of glassmaking after the Industrial Revolution",
+        "ii  Empire, lost knowledge and a city's closely guarded trade",
+        "iii  Fibres, screens and a material that can be reused",
+        "iv  A costly luxury and the invention that made it cheaper",
+        "v  How a natural glass was first used by Stone Age toolmakers",
+        "vi  Machines and a flat-sheet process change everything",
+        "vii  A new ingredient and a taste for decoration and display",
+        "viii  Egyptian secrets stolen by foreign rulers"
+      ],
+      "questions": [
+        { "q": "Paragraph B", "answer": 3, "explain": "Đoạn B nói thủy tinh ban đầu là hàng xa xỉ, giá chỉ giảm khi ống thổi (blowpipe) ra đời, nên khớp heading iv. Heading v nói về obsidian, thuộc đoạn A." },
+        { "q": "Paragraph C", "answer": 1, "explain": "Đoạn C kể về đế chế La Mã, kiến thức bị mất ở châu Âu rồi Venice giữ bí mật nghề trên đảo Murano, khớp heading ii." },
+        { "q": "Paragraph D", "answer": 6, "explain": "Đoạn D nói về thành phần mới (lead oxide) và việc thủy tinh pha lê, gương, cửa sổ lớn trở thành đồ trang trí của giới giàu, khớp heading vii." },
+        { "q": "Paragraph E", "answer": 5, "explain": "Đoạn E nêu máy làm chai tự động và quy trình float tạo tấm kính phẳng, khớp heading vi. Heading i sai vì thủy tinh trở nên rẻ chứ không suy giảm." },
+        { "q": "Paragraph F", "answer": 2, "explain": "Đoạn F nói về sợi quang, màn hình điện thoại và khả năng tái chế vô hạn, khớp heading iii." }
+      ]
+    },
+    {
+      "type": "tfng",
+      "instructions": "Do the following statements agree with the information given in Reading Passage 1? Write TRUE, FALSE or NOT GIVEN.",
+      "questions": [
+        { "q": "Stone Age peoples used obsidian to make cutting tools.", "answer": "TRUE", "explain": "Đoạn A: obsidian 'was chipped into knives and arrowheads by Stone Age peoples'." },
+        { "q": "The earliest man-made glass objects were large vessels.", "answer": "FALSE", "explain": "Đoạn A nói những món đầu tiên là hạt và men thủy tinh nhỏ (small beads and glazes), không phải vật chứa lớn." },
+        { "q": "Roman window panes were clear enough for people to see through easily.", "answer": "FALSE", "explain": "Đoạn C: kính La Mã nhỏ, dày và đục đến mức chỉ cho ánh sáng lọt vào chứ không nhìn xuyên qua được." },
+        { "q": "Glassworkers on Murano were paid more than other craftsmen in Venice.", "answer": "NOT GIVEN", "explain": "Đoạn C chỉ nói thợ bị cấm rời khỏi Venice, hoàn toàn không đề cập tới mức lương của họ." }
+      ]
+    },
+    {
+      "type": "gap",
+      "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        { "q": "Archaeologists date the first deliberate glassmaking to around 3500 BC in ______.", "answer": ["Mesopotamia"], "explain": "Đoạn A: 'around 3500 BC in Mesopotamia'." },
+        { "q": "George Ravenscroft produced a heavy, sparkling glass by adding ______ to the mixture.", "answer": ["lead oxide"], "explain": "Đoạn D: 'added lead oxide to the mixture'." },
+        { "q": "In the float process, glass is poured onto a bath of molten ______.", "answer": ["tin"], "explain": "Đoạn E: 'a bath of molten tin'." },
+        { "q": "Waste glass that is crushed for reuse is called ______.", "answer": ["cullet"], "explain": "Đoạn F: 'Crushed waste glass, known as cullet'." }
+      ]
+    }
+  ]
+}

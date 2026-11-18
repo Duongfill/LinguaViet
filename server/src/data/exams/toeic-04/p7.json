@@ -1,0 +1,819 @@
+{
+  "part": 7,
+  "groups": [
+    {
+      "kind": "email",
+      "passages": [
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: Priya Raman <priya.raman@mailnest.example>\nFrom: Customer Care, Skyline Pacific Airways\nDate: June 14\nSubject: Change to your flight SP 218\n\nDear Ms. Raman,\n\nWe regret to inform you that flight SP 218 from Auckland to Singapore on June 21 has been rescheduled because the aircraft is arriving late from its previous trip. The new departure time is 11:45 P.M. instead of 8:15 P.M., and you will land in Singapore at 5:30 A.M. on June 22.\n\nBecause of this change, we can no longer guarantee your connection to Bangkok on SP 640. We have therefore reserved a seat for you on SP 644, which leaves Singapore at 9:10 A.M. on June 22. If this option does not suit you, you may choose a full refund or travel on another date within 60 days. Simply visit our Web site and enter your booking code, KT7R4Q, before June 18.\n\nAs a gesture of apology, a $25 meal voucher will be waiting for you at the airport check-in desk.\n\nSincerely,\nDaniel Okafor\nCustomer Care, Skyline Pacific Airways"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the purpose of the e-mail?",
+          "options": [
+            "To confirm a seat upgrade",
+            "To request payment for a booking",
+            "To inform a passenger of a revised departure time",
+            "To announce a new route"
+          ],
+          "answer": 2,
+          "explain": "Email mở đầu bằng việc báo chuyến SP 218 \"has been rescheduled\" với giờ khởi hành mới 11:45 P.M., nên mục đích là thông báo giờ bay thay đổi."
+        },
+        {
+          "q": "What is Ms. Raman NOT offered?",
+          "options": [
+            "A full refund",
+            "A seat on a later connecting flight",
+            "A meal voucher",
+            "A complimentary hotel room"
+          ],
+          "answer": 3,
+          "explain": "Email nhắc tới hoàn tiền toàn bộ, ghế trên chuyến SP 644 và phiếu ăn 25 đô la; hoàn toàn không có phòng khách sạn miễn phí."
+        }
+      ]
+    },
+    {
+      "kind": "notice",
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Notice",
+          "text": "NOTICE OF TEMPORARY WATER SERVICE INTERRUPTION\nRiverbend Municipal Water Authority\nDate of notice: September 3\n\nResidents of Elm Terrace, Cobbler Lane, and the Hartley Heights apartment complex will have no water on Wednesday, September 11, from 9:00 A.M. to approximately 3:00 P.M. The interruption is necessary so that crews can replace an aging main pipe under Elm Terrace.\n\nWhen service is restored, the water may look cloudy or slightly discolored for a short time. This is harmless; however, we suggest running your cold tap for several minutes until the water runs clear. Residents who depend on medical equipment that requires running water should call our priority line at 555-0143 no later than September 9 so that an emergency supply can be arranged.\n\nWe appreciate your patience as we work to improve the reliability of our network."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What are residents advised to do after water service returns?",
+          "options": [
+            "Let the cold water run until it becomes clear",
+            "Boil all water before drinking it",
+            "Call the Authority to report cloudy water",
+            "Replace their household water filters"
+          ],
+          "answer": 0,
+          "explain": "Thông báo khuyên \"running your cold tap for several minutes until the water runs clear\" sau khi có nước lại."
+        },
+        {
+          "q": "Who is asked to call the priority line by September 9?",
+          "options": [
+            "Anyone living on Cobbler Lane",
+            "Owners of the Hartley Heights complex",
+            "Residents who use medical equipment that needs water",
+            "Customers who want a bill adjustment"
+          ],
+          "answer": 2,
+          "explain": "Chỉ những cư dân phụ thuộc vào thiết bị y tế cần nước chạy (\"depend on medical equipment\") mới được yêu cầu gọi đường dây ưu tiên trước ngày 9/9."
+        }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Advertisement",
+          "text": "VOLTEX ELECTRONICS\n15th ANNIVERSARY SALE\n\nCelebrate 15 years with Voltex! From Friday, October 4, through Sunday, October 13, enjoy big savings at all three of our stores.\n\n* Up to 40% off laptops, tablets, and smartphones\n* Buy any television 55 inches or larger and receive a free soundbar (while supplies last)\n* Trade in your old phone and get an extra $75 credit toward a new model\n* Free same-day delivery on orders over $300 within the city limits\n\nMembers of the Voltex Circle loyalty program may shop early on Thursday, October 3, from 6:00 P.M. to 9:00 P.M. Not a member yet? Sign up at any register or at voltex.example and start saving right away.\n\nSale prices cannot be combined with other coupons. Extended warranties are available at additional cost."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the purpose of the advertisement?",
+          "options": [
+            "To announce the opening of a new store",
+            "To promote a limited-time sale marking the store's anniversary",
+            "To advertise a change in store hours",
+            "To recruit sales staff for the holidays"
+          ],
+          "answer": 1,
+          "explain": "Tiêu đề \"15th Anniversary Sale\" và ngày diễn ra 4-13/10 cho thấy đây là quảng cáo đợt giảm giá có thời hạn nhân kỷ niệm thành lập."
+        },
+        {
+          "q": "What is NOT mentioned as part of the promotion?",
+          "options": [
+            "A free soundbar with a large television",
+            "Extra credit for trading in a phone",
+            "Free delivery on larger orders",
+            "A gift card with every purchase"
+          ],
+          "answer": 3,
+          "explain": "Quảng cáo nêu loa thanh miễn phí, 75 đô la khi đổi điện thoại cũ và giao hàng miễn phí trên 300 đô la; không có thẻ quà tặng cho mỗi lần mua."
+        },
+        {
+          "q": "What is indicated about Voltex Circle members?",
+          "options": [
+            "They can shop before the sale opens to the public",
+            "They receive an extra 40 percent discount",
+            "They may combine sale prices with coupons",
+            "They get extended warranties for free"
+          ],
+          "answer": 0,
+          "explain": "Hội viên được mua sớm vào thứ Năm 3/10, trước khi đợt sale mở cửa cho mọi người vào thứ Sáu 4/10."
+        }
+      ]
+    },
+    {
+      "kind": "article",
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Article",
+          "text": "Green Valley Farm Expands Its Home-Delivery Program\n\nGREEN VALLEY (April 9) - Green Valley Farm announced on Monday that it will double the number of households served by its weekly produce-box program, from 400 to 800, by the end of the summer. The farm, which grows vegetables without synthetic pesticides, started the program six years ago with just 35 customers.\n\n\"We were overwhelmed by the demand,\" said owner Marisol Ibarra. \"Our waiting list had grown to more than 300 names, and some people had been waiting for over a year.\" To meet the demand, the farm has leased an additional 20 acres from a neighboring orchard and hired eight seasonal workers. It has also bought two refrigerated vans, which will allow deliveries to reach towns up to 80 kilometers away.\n\nCustomers can choose between a small box, suitable for one or two people, and a family-size box. Both contain whatever is in season, along with a newsletter of recipes. Ms. Ibarra said she hopes to add eggs and honey next year, pending approval from the regional health department. Sign-ups for the new places will open on May 1 on the farm's Web site."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the article mainly about?",
+          "options": [
+            "The retirement of a farm owner",
+            "The opening of a new restaurant",
+            "A plan to serve more households",
+            "A change in farming methods"
+          ],
+          "answer": 2,
+          "explain": "Bài báo mở đầu bằng việc farm sẽ \"double the number of households served\" từ 400 lên 800, tức mở rộng để phục vụ thêm khách hàng."
+        },
+        {
+          "q": "The word \"overwhelmed\" in paragraph 2 is closest in meaning to",
+          "options": [
+            "swamped",
+            "confused",
+            "disappointed",
+            "defeated"
+          ],
+          "answer": 0,
+          "explain": "\"Overwhelmed by the demand\" nghĩa là nhu cầu quá lớn, bị \"ngập\" yêu cầu; danh sách chờ hơn 300 người cũng cho thấy điều này, nên đồng nghĩa với swamped."
+        },
+        {
+          "q": "What does Ms. Ibarra hope to do next year?",
+          "options": [
+            "Open a second farm 80 kilometers away",
+            "Sell eggs and honey",
+            "Start a newsletter with recipes",
+            "Reduce the price of the boxes"
+          ],
+          "answer": 1,
+          "explain": "Bà nói hy vọng \"to add eggs and honey next year\" nếu được sở y tế chấp thuận. Bản tin công thức nấu ăn thì đã có sẵn trong hộp rồi."
+        }
+      ]
+    },
+    {
+      "kind": "webpage",
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "Web page",
+          "text": "CORAL HAVEN RESORT & SPA - Special Packages\n\nRELAXATION RETREAT - $480 per person\nThree nights in a garden-view room, daily breakfast, and one 60-minute massage.\n\nCOUPLES' ESCAPE - $890 per couple\nFour nights in an ocean-view suite, a private dinner on the beach, and a sunset boat ride.\n\nFAMILY ADVENTURE - $1,150 for two adults and up to two children\nFive nights in a two-bedroom villa, snorkeling lessons, and free access to the Kids' Club.\n\nBooking conditions: All packages are subject to availability and cannot be combined with other discounts. A deposit of 30 percent is required at the time of booking. Cancellations made at least 14 days before arrival receive a full refund of the deposit; after that, the deposit is non-refundable. Packages are valid for stays between January 10 and May 31, excluding the week of the Lunar New Year holiday. Guests who book directly through our Web site receive a complimentary airport transfer."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Which package includes a spa service?",
+          "options": [
+            "The Relaxation Retreat",
+            "The Couples' Escape",
+            "The Family Adventure",
+            "All of the packages"
+          ],
+          "answer": 0,
+          "explain": "Chỉ gói Relaxation Retreat có \"one 60-minute massage\"; hai gói còn lại không nhắc tới dịch vụ spa."
+        },
+        {
+          "q": "What will happen if a guest cancels 10 days before arrival?",
+          "options": [
+            "The whole payment will be refunded",
+            "The guest will be moved to a later date",
+            "The guest will be charged an extra fee",
+            "The deposit will not be returned"
+          ],
+          "answer": 3,
+          "explain": "Chỉ khi hủy ít nhất 14 ngày trước mới được hoàn cọc; hủy trước 10 ngày thì \"the deposit is non-refundable\"."
+        },
+        {
+          "q": "How can guests receive a free airport transfer?",
+          "options": [
+            "By staying at least five nights",
+            "By choosing the Couples' Escape",
+            "By reserving through the resort's Web site",
+            "By paying a larger deposit"
+          ],
+          "answer": 2,
+          "explain": "Câu cuối: khách \"book directly through our Web site\" sẽ được đưa đón sân bay miễn phí."
+        }
+      ]
+    },
+    {
+      "kind": "memo",
+      "passages": [
+        {
+          "kind": "memo",
+          "title": "Memo",
+          "text": "MEMO\nTo: All Staff\nFrom: Lena Fischer, Director of Human Resources\nDate: January 8\nRe: Updated remote-work policy\n\nBeginning March 1, eligible employees may work from home up to two days per week. To be eligible, an employee must have completed at least six months of service and received a satisfactory rating in his or her most recent performance review. Employees should submit a Remote Work Request form to their supervisor at least two weeks before they wish to begin. Supervisors will respond within five business days.\n\nRemote work days must be fixed and approved in advance, and they may be changed only once a month. Employees working from home are expected to be available by phone and e-mail during core hours, 10:00 A.M. to 4:00 P.M. The company will provide a laptop and necessary equipment, but home internet costs will not be reimbursed.\n\nStaff in the customer service and warehouse departments are not eligible because their duties require them to be on site. Information sessions will be held at noon on January 22 and January 29 in Conference Room B."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the purpose of the memo?",
+          "options": [
+            "To announce changes in office locations",
+            "To explain new rules for working from home",
+            "To invite employees to a training course",
+            "To report the results of performance reviews"
+          ],
+          "answer": 1,
+          "explain": "Memo có tiêu đề \"Updated remote-work policy\" và giải thích điều kiện, thủ tục làm việc tại nhà từ ngày 1/3."
+        },
+        {
+          "q": "Which employee is most likely eligible for remote work?",
+          "options": [
+            "A warehouse worker with two years of service",
+            "A marketing assistant hired four months ago",
+            "An accountant who joined eight months ago and has a satisfactory review",
+            "A customer service agent with a satisfactory rating"
+          ],
+          "answer": 2,
+          "explain": "Cần ít nhất 6 tháng làm việc và đánh giá đạt; kế toán vào làm 8 tháng nên đủ điều kiện. Nhân viên kho và chăm sóc khách hàng bị loại, người mới 4 tháng chưa đủ thời gian."
+        },
+        {
+          "q": "What will employees working from home have to pay for themselves?",
+          "options": [
+            "A company laptop",
+            "Additional office equipment",
+            "A fee for submitting a request",
+            "Their home internet service"
+          ],
+          "answer": 3,
+          "explain": "Memo nói công ty cấp laptop và thiết bị nhưng \"home internet costs will not be reimbursed\" nên nhân viên tự trả tiền internet."
+        }
+      ]
+    },
+    {
+      "kind": "chat",
+      "passages": [
+        {
+          "kind": "chat",
+          "title": "Text-message chain",
+          "text": "Hana Ito (Managing Editor) [2:02 P.M.]\nQuick update: the printing plant has moved our press time up. We now need all pages finalized by 8:45 tonight instead of 9:30.\n\nVictor Alvarez (Sports) [2:04 P.M.]\nFine by me. My pages are nearly done. I'm only waiting on a photo from the swim meet.\n\nChloe Baptiste (Photo Desk) [2:06 P.M.]\nI can send it by four. Our photographer got stuck in traffic on the way back from the stadium.\n\nHana Ito [2:07 P.M.]\nThanks, Chloe. Dmitri, what about the front page?\n\nDmitri Kowalski (News) [2:10 P.M.]\nStill undecided. The city council vote may run late, and I'd hate to miss it.\n\nHana Ito [2:11 P.M.]\nLet's hold the top half of the page until 8:00 and decide then. If the vote isn't in by then, we run the transport-strike story instead.\n\nDmitri Kowalski [2:12 P.M.]\nWorks for me. I'll have both versions ready.\n\nVictor Alvarez [2:13 P.M.]\nI can stay late and help proofread if needed."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why did Ms. Ito send the message?",
+          "options": [
+            "To cancel the evening edition",
+            "To ask for volunteers to work overtime",
+            "To introduce a new printing plant",
+            "To announce an earlier deadline"
+          ],
+          "answer": 3,
+          "explain": "Ms. Ito báo nhà in đã dời giờ in sớm lên và tất cả trang phải xong lúc 8:45 thay vì 9:30, tức là hạn chót sớm hơn."
+        },
+        {
+          "q": "Why is Mr. Kowalski unsure about the front page?",
+          "options": [
+            "A photograph has not arrived",
+            "A city council vote might not finish in time",
+            "The printing plant has changed its address",
+            "A story must be shortened"
+          ],
+          "answer": 1,
+          "explain": "Ông viết \"The city council vote may run late, and I'd hate to miss it\" nên chưa quyết định nội dung trang nhất. Ảnh chờ là của trang thể thao do Mr. Alvarez phụ trách."
+        },
+        {
+          "q": "At 2:12 P.M., what does Mr. Kowalski mean when he writes, \"Works for me\"?",
+          "options": [
+            "He accepts Ms. Ito's suggestion",
+            "He is willing to work extra hours",
+            "He has finished his assigned pages",
+            "He thinks the vote should be covered later"
+          ],
+          "answer": 0,
+          "explain": "Ngay trước đó Ms. Ito đề xuất giữ nửa trên trang nhất đến 8:00 rồi quyết định; \"Works for me\" nghĩa là ông đồng ý với đề xuất ấy."
+        }
+      ]
+    },
+    {
+      "kind": "invoice",
+      "passages": [
+        {
+          "kind": "invoice",
+          "title": "Billing statement",
+          "text": "BRIGHTGRID ELECTRIC COMPANY - Monthly Statement\n\nAccount holder: Oakmont Bakery & Cafe\nAccount number: 70-4482-19\nBilling period: October 1 - October 31\nStatement date: November 3\n\nCharges\nElectricity usage (1,800 kWh at $0.12 per kWh) ........ $216.00\nFixed service charge ........ $18.50\nPeak-demand surcharge ........ $24.00\nLate payment fee (September balance) ........ $5.00\nGreen Energy credit ........ -$12.50\n\nTOTAL DUE: $251.00\nPayment due date: November 24\n\nNotes: Your usage this month was 15 percent higher than last month. To learn how to reduce usage during peak hours, visit brightgrid.example/saveenergy. Customers who enroll in automatic payment before November 24 will receive a $10 credit on their next statement."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the total amount due?",
+          "options": [
+            "$216.00",
+            "$251.00",
+            "$263.50",
+            "$258.50"
+          ],
+          "answer": 1,
+          "explain": "Cộng các khoản: 216,00 + 18,50 + 24,00 + 5,00 = 263,50, trừ tín dụng 12,50 còn 251,00 đô la, đúng với dòng TOTAL DUE."
+        },
+        {
+          "q": "Why was a $5.00 fee charged?",
+          "options": [
+            "A previous payment was not made on time",
+            "The meter was read late",
+            "The customer exceeded a usage limit",
+            "The account was recently reopened"
+          ],
+          "answer": 0,
+          "explain": "Khoản này ghi là \"Late payment fee (September balance)\", tức phí trả chậm của số dư tháng Chín."
+        },
+        {
+          "q": "What is offered to customers who enroll in automatic payment?",
+          "options": [
+            "A waiver of the fixed service charge",
+            "A discount on peak-demand rates",
+            "A $10 credit on a future statement",
+            "A free energy-saving inspection"
+          ],
+          "answer": 2,
+          "explain": "Mục Notes: ai đăng ký thanh toán tự động trước 24/11 sẽ nhận \"a $10 credit on their next statement\"."
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "passages": [
+        {
+          "kind": "review",
+          "title": "Customer review",
+          "text": "Bluewing Air - Reviewed by Tomas Eriksen\nFlight BW 305, Oslo to Lisbon - August 29\nRating: 3 out of 5 stars - \"Great crew, poor communication\"\n\nI travel for business about twice a month, and I chose Bluewing Air for this trip because its fare was significantly lower than the competition. Check-in was smooth, and the online boarding pass worked perfectly. However, our departure was delayed by nearly two hours, and the only explanation we received was a brief announcement that the aircraft was \"awaiting a technical inspection.\" No one at the gate offered water or snacks, even though many of us had waited well over an hour.\n\nOnce we were in the air, the cabin crew did an excellent job. They were courteous, and the flight attendant in my row, Ms. Teixeira, went out of her way to find me a seat with extra legroom after I mentioned my bad knee. The meal was ordinary, but the coffee was surprisingly good.\n\nOn arrival, my suitcase was among the first off the belt, which I greatly appreciated because I had a meeting to attend. Overall, I would fly Bluewing again only if the airline improves how it communicates with passengers during delays."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why did Mr. Eriksen select Bluewing Air?",
+          "options": [
+            "It offered the earliest departure",
+            "He had collected free travel miles",
+            "Its ticket price was lower than those of other airlines",
+            "A colleague recommended it"
+          ],
+          "answer": 2,
+          "explain": "Ông viết đã chọn hãng vì \"its fare was significantly lower than the competition\"."
+        },
+        {
+          "q": "What was Mr. Eriksen's main complaint?",
+          "options": [
+            "Check-in took too long",
+            "The cabin crew was impolite",
+            "His luggage arrived late",
+            "He was given little information during a delay"
+          ],
+          "answer": 3,
+          "explain": "Ông chỉ nhận được một thông báo ngắn về lý do trễ chuyến và không ai phát nước hay đồ ăn nhẹ; nhận xét cuối cũng nói hãng cần cải thiện việc thông tin cho hành khách."
+        },
+        {
+          "q": "The phrase \"went out of her way\" in paragraph 2 is closest in meaning to",
+          "options": [
+            "lost her direction",
+            "made a special effort",
+            "took a long break",
+            "changed her work schedule"
+          ],
+          "answer": 1,
+          "explain": "\"Go out of one's way\" là nỗ lực hơn mức bình thường để giúp ai; ở đây cô tiếp viên tìm cho ông chỗ rộng chân, nên gần nghĩa với \"made a special effort\"."
+        },
+        {
+          "q": "Why was Mr. Eriksen most likely pleased to get his suitcase quickly?",
+          "options": [
+            "He had to attend a meeting",
+            "He needed to catch a connecting flight",
+            "His knee was hurting",
+            "He wanted to file a complaint"
+          ],
+          "answer": 0,
+          "explain": "Ông nói hành lý ra sớm là điều ông rất cảm kích \"because I had a meeting to attend\" nên ông cần đi họp ngay."
+        }
+      ]
+    },
+    {
+      "kind": "schedule",
+      "passages": [
+        {
+          "kind": "schedule",
+          "title": "Schedule",
+          "text": "PAGETURNER PUBLISHING FORUM - Day 1\nFriday, November 8 - Harlow Convention Center\n\n9:00 A.M. - 9:30 A.M.   Registration and coffee (Lobby)\n9:30 A.M. - 10:30 A.M.  Keynote: \"Reading in a Digital Age\" - Nadia Sorensen, editor-in-chief, Meridian Books (Hall A)\n10:45 A.M. - 12:00 P.M. Workshops (choose one):\n   A. Designing Book Covers That Sell - Kenji Watanabe (Room 1)\n   B. Contracts for First-Time Authors - Alicia Gomez, literary agent (Room 2)\n   C. Marketing on a Small Budget - Peter Lindqvist (Room 3)\n12:00 P.M. - 1:30 P.M.  Lunch, included for registered participants (Garden Terrace)\n1:30 P.M. - 3:00 P.M.   Panel: The Future of Independent Bookstores (Hall A)\n3:15 P.M. - 4:15 P.M.   Book fair opening and author signings (Exhibition Hall)\n\nNote: Each workshop is limited to 30 people. Sign up at the registration desk on a first-come, first-served basis. Speakers' slides will be e-mailed to all participants within one week after the forum."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Who would be most interested in Workshop B?",
+          "options": [
+            "A writer preparing to publish a first book",
+            "A designer of book covers",
+            "A bookstore owner with a small budget",
+            "A reporter covering the forum"
+          ],
+          "answer": 0,
+          "explain": "Workshop B có tên \"Contracts for First-Time Authors\", phù hợp nhất với người viết sắp xuất bản cuốn sách đầu tiên."
+        },
+        {
+          "q": "What is indicated about lunch?",
+          "options": [
+            "It is served in Hall A",
+            "It is included for registered participants",
+            "It costs extra at the Garden Terrace",
+            "It takes place after the book fair"
+          ],
+          "answer": 1,
+          "explain": "Lịch ghi \"Lunch, included for registered participants\" tại Garden Terrace, tức đã nằm trong phí đăng ký."
+        },
+        {
+          "q": "What will participants receive after the forum?",
+          "options": [
+            "A copy of the keynote speaker's book",
+            "A discount on next year's registration",
+            "A list of literary agents",
+            "Speakers' slides by e-mail"
+          ],
+          "answer": 3,
+          "explain": "Ghi chú cuối: \"Speakers' slides will be e-mailed to all participants within one week after the forum\"."
+        }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Job advertisement",
+          "text": "SEABREEZE BEACH RESORT - NOW HIRING\nGuest Relations Manager\n\nSeabreeze Beach Resort, a 120-room property on Tamarind Bay, is looking for a Guest Relations Manager to join our team beginning September 1.\n\nResponsibilities: supervise a team of eight front-desk and concierge employees; handle guest complaints; coordinate with the housekeeping and restaurant departments; prepare monthly satisfaction reports.\n\nRequirements: at least four years of experience in hospitality, including two in a supervisory role; fluency in English and one other language (Mandarin or Korean preferred); strong computer skills.\n\nBenefits: competitive salary, free meals while on duty, 20 days of paid vacation, and discounted stays at our sister resorts.\n\nTo apply, send a resume and cover letter to Ms. Gloria Santos, Human Resources, at careers@seabreeze.example by July 15. Interviews will take place during the week of July 22. Applications received after the deadline will not be considered."
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: Gloria Santos <careers@seabreeze.example>\nFrom: Min-jun Park <mj.park@mailnest.example>\nDate: July 12\nSubject: Application for Guest Relations Manager\nAttachment: Park_Resume.pdf\n\nDear Ms. Santos,\n\nI am writing to apply for the Guest Relations Manager position advertised on your resort's Web site. For the past five years I have worked at the Lakeside Grand Hotel, where I have served as assistant front-office manager for the last three. In that role I supervise a team of six, and I introduced a feedback system that raised our guest satisfaction scores by 12 percent. I speak fluent English and Korean and have studied Mandarin for two years.\n\nUnfortunately, I will be overseas visiting family from July 20 to July 28, so I will not be able to attend an interview during the week of July 22. I would be glad to be interviewed by video call before I leave or immediately after I return. My resume is attached, and my cover letter is included in this e-mail.\n\nSincerely,\nMin-jun Park"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is one responsibility of the Guest Relations Manager?",
+          "options": [
+            "Preparing meals for the restaurant",
+            "Dealing with guest complaints",
+            "Repairing equipment in guest rooms",
+            "Negotiating contracts with tour operators"
+          ],
+          "answer": 1,
+          "explain": "Quảng cáo liệt kê trách nhiệm \"handle guest complaints\"; các việc còn lại không nằm trong danh sách."
+        },
+        {
+          "q": "What is NOT listed as a benefit of the job?",
+          "options": [
+            "Meals during working hours",
+            "Paid vacation",
+            "Reduced rates at sister resorts",
+            "Housing near the resort"
+          ],
+          "answer": 3,
+          "explain": "Phần Benefits có bữa ăn miễn phí, 20 ngày phép có lương và giảm giá tại resort chị em; không có chỗ ở."
+        },
+        {
+          "q": "What can be inferred about Mr. Park?",
+          "options": [
+            "He has more experience than the minimum required",
+            "He has previously worked at Seabreeze",
+            "He is fluent in Mandarin",
+            "He lives near the resort"
+          ],
+          "answer": 0,
+          "explain": "Quảng cáo yêu cầu ít nhất 4 năm kinh nghiệm, trong đó 2 năm giám sát; Mr. Park có 5 năm, gồm 3 năm làm quản lý, nên vượt mức tối thiểu. Ông mới chỉ học tiếng Quan Thoại 2 năm."
+        },
+        {
+          "q": "What problem does Mr. Park mention?",
+          "options": [
+            "He missed the application deadline",
+            "He could not attach his resume",
+            "He cannot attend an interview during the scheduled week",
+            "He needs help finding housing"
+          ],
+          "answer": 2,
+          "explain": "Trong email ông viết sẽ ở nước ngoài từ 20 đến 28/7 nên không thể phỏng vấn trong tuần 22/7, đúng tuần được nêu trong quảng cáo."
+        },
+        {
+          "q": "What is suggested about Mr. Park's application?",
+          "options": [
+            "It was sent to the wrong department",
+            "It lacked a cover letter",
+            "It was received after July 15",
+            "It was submitted before the deadline"
+          ],
+          "answer": 3,
+          "explain": "Hạn nộp hồ sơ là 15/7 theo quảng cáo, còn Mr. Park gửi email ngày 12/7 nên nộp đúng hạn."
+        }
+      ]
+    },
+    {
+      "kind": "webpage",
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "Web page",
+          "text": "CIRCUIT CORNER - Returns and Exchanges\n\nStandard returns: Most items may be returned within 30 days of purchase with the original receipt, as long as they are unopened or in like-new condition.\n\nOpened computers, tablets, and cameras: These may be returned within 14 days of purchase and are subject to a 15 percent restocking fee unless the product is defective.\n\nHeadphones and earbuds: For hygiene reasons, these cannot be returned once opened unless they are defective.\n\nDefective items: Defective products may be exchanged for the same model within 90 days of purchase. If the model is no longer in stock, a refund will be issued. Refunds are returned to the original form of payment within 7 to 10 business days.\n\nOnline orders: Customers who bought online can print a free prepaid return label from the My Account page. No label is needed for returns made in our stores."
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: support@circuitcorner.example\nFrom: Beatriz Nunes <b.nunes@mailnest.example>\nDate: May 20\nSubject: Tablet return - order CC-58213\n\nDear Customer Support,\n\nOn May 3, I bought a Lumio 10 tablet from your Web site for $349. It arrived on May 6, and I set it up that same day. After about two weeks, the screen began to flicker and sometimes went completely black. I restarted the device and installed the latest software update, but the problem persists.\n\nI would like to return it. Will I be charged a restocking fee? I would prefer a refund, although I would accept a replacement if you have one in stock. Also, my receipt came as an e-mail. Is that acceptable?\n\nI look forward to your reply.\n\nSincerely,\nBeatriz Nunes"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why did Ms. Nunes write to Circuit Corner?",
+          "options": [
+            "To order a replacement battery",
+            "To complain about a late delivery",
+            "To ask about returning a faulty tablet",
+            "To apply for a store credit card"
+          ],
+          "answer": 2,
+          "explain": "Email mô tả màn hình tablet nhấp nháy rồi tắt hẳn, sau đó bà nói \"I would like to return it\" và hỏi về phí cùng hoàn tiền."
+        },
+        {
+          "q": "The word \"persists\" in the e-mail is closest in meaning to",
+          "options": [
+            "stops",
+            "continues",
+            "gets repaired",
+            "is reported"
+          ],
+          "answer": 1,
+          "explain": "\"The problem persists\" nghĩa là lỗi vẫn còn tiếp diễn dù đã khởi động lại và cập nhật phần mềm, đồng nghĩa với continues."
+        },
+        {
+          "q": "Why would Ms. Nunes most likely avoid a restocking fee?",
+          "options": [
+            "She bought it online",
+            "She still has the original box",
+            "She is returning it within 14 days of purchase",
+            "The tablet is defective"
+          ],
+          "answer": 3,
+          "explain": "Trang web nêu phí 15% áp dụng cho thiết bị đã mở \"unless the product is defective\"; tablet của bà bị lỗi màn hình. Bà mua ngày 3/5 và liên hệ ngày 20/5, quá 14 ngày."
+        },
+        {
+          "q": "How can Ms. Nunes return the tablet without paying for shipping?",
+          "options": [
+            "By printing a label from her online account",
+            "By mailing it with a copy of her receipt",
+            "By asking support to arrange a pickup",
+            "By exchanging it at a partner shop"
+          ],
+          "answer": 0,
+          "explain": "Bà mua trực tuyến, và trang web nói khách mua online có thể in nhãn trả hàng trả trước miễn phí từ trang My Account."
+        },
+        {
+          "q": "What does Ms. Nunes ask that is NOT addressed on the Web page?",
+          "options": [
+            "Whether a fee applies to a faulty product",
+            "Whether a replacement is possible",
+            "Whether an e-mailed receipt is accepted",
+            "Whether she can get a refund"
+          ],
+          "answer": 2,
+          "explain": "Trang web có nói về phí với hàng lỗi, đổi cùng mẫu và hoàn tiền nếu hết hàng; nhưng chỉ đề cập \"original receipt\" mà không nói biên lai điện tử có được chấp nhận không."
+        }
+      ]
+    },
+    {
+      "kind": "form",
+      "passages": [
+        {
+          "kind": "form",
+          "title": "Booking confirmation",
+          "text": "NORDAIR AIRLINES - BOOKING CONFIRMATION\nBooking reference: NA4Z9K\nPassenger: Hiroshi Tanaka\nFare type: Economy Flex     Total paid: EUR 1,240\n\nOUTBOUND - Tuesday, March 12\nNA 117   Osaka (KIX) 10:20 A.M.  ->  Helsinki (HEL) 2:05 P.M.\nNA 482   Helsinki (HEL) 4:00 P.M.  ->  Edinburgh (EDI) 5:30 P.M.\n\nRETURN - Sunday, March 17\nNA 483   Edinburgh (EDI) 12:30 P.M.  ->  Helsinki (HEL) 3:40 P.M.\nNA 118   Helsinki (HEL) 5:30 P.M.  ->  Osaka (KIX) 9:15 A.M. (next day)\n\nBaggage: one checked bag up to 23 kg. Economy Flex tickets can be changed free of charge up to 24 hours before departure. Online check-in opens 36 hours before each flight."
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: Hiroshi Tanaka <h.tanaka@mailnest.example>\nFrom: Nordair Airlines Customer Service\nDate: March 8\nSubject: Cancellation of flight NA 482 on March 12\n\nDear Mr. Tanaka,\n\nWe regret to inform you that flight NA 482 from Helsinki to Edinburgh on March 12 has been canceled because of a crew shortage. We have automatically rebooked you on NA 486, which departs Helsinki at 8:20 P.M. and arrives in Edinburgh at 9:50 P.M. A 15-euro meal voucher will be available at the Nordair service desk in Helsinki.\n\nIf you would prefer to travel on a different day, you may change your booking free of charge through the Manage Booking page on our Web site.\n\nBecause you were notified fewer than 14 days before departure, you may be entitled to compensation under passenger-rights regulations. To make a claim, please complete the form at nordair.example/claim within 30 days of your original travel date.\n\nWe apologize for the inconvenience.\n\nNordair Airlines Customer Service"
+        },
+        {
+          "kind": "chat",
+          "title": "Online chat",
+          "text": "Hiroshi Tanaka [March 11, 6:40 P.M.]\nHello. I received notice that my March 12 flight to Edinburgh was canceled. The new flight gets me in more than four hours late. Is there any way to arrive earlier?\n\nOlivia, Nordair Support [6:43 P.M.]\nI'm sorry for the trouble, Mr. Tanaka. Let me check. The only other option that day is a flight through Amsterdam on a partner airline, arriving in Edinburgh at 7:30 P.M. I can book it if you like.\n\nHiroshi Tanaka [6:44 P.M.]\nYes, please. Will my checked bag be transferred?\n\nOlivia, Nordair Support [6:47 P.M.]\nYes, your bag will go through to Edinburgh. The new booking is confirmed, and you'll receive a new e-mail shortly.\n\nHiroshi Tanaka [6:48 P.M.]\nThanks. And I should still use the claim form?\n\nOlivia, Nordair Support [6:49 P.M.]\nYes. You have until April 11 to submit it."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the purpose of the e-mail?",
+          "options": [
+            "To confirm an online check-in",
+            "To tell a passenger that a flight was canceled and he has been rebooked",
+            "To offer an upgrade to business class",
+            "To request payment for extra baggage"
+          ],
+          "answer": 1,
+          "explain": "Email báo chuyến NA 482 \"has been canceled\" và hãng đã tự động chuyển ông sang chuyến NA 486."
+        },
+        {
+          "q": "What is indicated about Mr. Tanaka's ticket?",
+          "options": [
+            "It includes two checked bags",
+            "It is a one-way fare",
+            "It can be changed at no cost before departure",
+            "It was bought through a travel agency"
+          ],
+          "answer": 2,
+          "explain": "Giấy xác nhận ghi vé Economy Flex \"can be changed free of charge up to 24 hours before departure\". Vé có 1 hành lý ký gửi và có cả chiều về."
+        },
+        {
+          "q": "When will Mr. Tanaka most likely arrive in Edinburgh on March 12?",
+          "options": [
+            "At 5:30 P.M.",
+            "At 9:50 P.M.",
+            "At 4:00 P.M.",
+            "At 7:30 P.M."
+          ],
+          "answer": 3,
+          "explain": "Trong chat, nhân viên đề nghị chuyến qua Amsterdam đến Edinburgh lúc 7:30 P.M. và ông đồng ý (\"Yes, please\"), thay cho NA 486 đến lúc 9:50 P.M."
+        },
+        {
+          "q": "The word \"entitled\" in the e-mail is closest in meaning to",
+          "options": [
+            "required",
+            "eligible",
+            "pleased",
+            "named"
+          ],
+          "answer": 1,
+          "explain": "\"You may be entitled to compensation\" nghĩa là bạn có thể đủ điều kiện để nhận bồi thường, đồng nghĩa với eligible."
+        },
+        {
+          "q": "By what date must Mr. Tanaka submit his claim form?",
+          "options": [
+            "April 11",
+            "March 11",
+            "March 12",
+            "April 22"
+          ],
+          "answer": 0,
+          "explain": "Email yêu cầu nộp trong vòng 30 ngày kể từ ngày bay ban đầu (12/3), tức đến 11/4; nhân viên chat cũng xác nhận \"until April 11\"."
+        }
+      ]
+    },
+    {
+      "kind": "webpage",
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "Web page",
+          "text": "HILLCREST ORGANICS - Weekly Harvest Box\n\nChoose the box that fits your household. All produce is certified organic and picked within 24 hours of delivery.\n\nSmall box (1-2 people) ........ $28\nMedium box (3-4 people) ........ $42\nLarge box (5 or more people) ........ $58\n\nAdd-ons: farm eggs, $6 per dozen; wildflower honey, $9 per jar; sourdough bread, $5 per loaf.\n\nDelivery: Thursdays, between 4:00 P.M. and 7:00 P.M. Delivery is free within 25 kilometers of the farm. For addresses beyond 25 kilometers, a fee of $5 per delivery applies.\n\nSkipping a week: Please notify us by midnight on the Sunday before the delivery week. Boxes skipped after that time will still be charged.\n\nSubscriptions may be paused or canceled at any time with seven days' notice."
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: service@hillcrestorganics.example\nFrom: Jonas Berger <j.berger@mailnest.example>\nDate: Tuesday, June 18\nSubject: Problems with my last box and a request to skip\n\nDear Hillcrest Organics,\n\nI have received a medium box with a dozen eggs every week since April, and I have been very happy until now. However, the box delivered on June 13 did not include my eggs, and the lettuce arrived wilted.\n\nAlso, I will be traveling from July 1 to July 14, so please skip my deliveries during that period. I live in Millbrook, about 30 kilometers from your farm, so please make sure my account is adjusted correctly.\n\nThank you,\nJonas Berger"
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: Jonas Berger <j.berger@mailnest.example>\nFrom: Sandra Whitfield, Customer Service\nDate: June 19\nSubject: RE: Problems with my last box and a request to skip\n\nDear Mr. Berger,\n\nThank you for letting us know, and please accept our apologies. We have applied a $10 credit to your account to cover the missing eggs and the lettuce. In addition, your next box, on June 20, will include an extra dozen eggs at no charge.\n\nWe have also noted that you will be away from July 1 to July 14. Your deliveries on July 4 and July 11 have been skipped, and regular service will resume on July 18. Since your request reached us well before the deadline, there will be no charge for those weeks.\n\nWe hope you enjoy the rest of the season's harvest.\n\nSandra Whitfield\nCustomer Service, Hillcrest Organics"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why did Mr. Berger write to Hillcrest Organics?",
+          "options": [
+            "To increase the size of his box",
+            "To cancel his subscription permanently",
+            "To order honey and bread",
+            "To report problems and ask to pause deliveries"
+          ],
+          "answer": 3,
+          "explain": "Ông báo thiếu trứng và rau héo trong hộp ngày 13/6, đồng thời nhờ bỏ qua các lần giao từ 1 đến 14/7."
+        },
+        {
+          "q": "How much does Mr. Berger most likely pay for each regular delivery?",
+          "options": [
+            "$42",
+            "$48",
+            "$53",
+            "$58"
+          ],
+          "answer": 2,
+          "explain": "Hộp cỡ vừa 42 đô la, cộng một tá trứng 6 đô la, cộng phí giao 5 đô la vì Millbrook cách trang trại khoảng 30 km (hơn 25 km): tổng 53 đô la."
+        },
+        {
+          "q": "What does Ms. Whitfield offer Mr. Berger?",
+          "options": [
+            "A refund to his credit card",
+            "A $10 account credit and a free dozen eggs",
+            "A free upgrade to a large box",
+            "A permanent discount on honey"
+          ],
+          "answer": 1,
+          "explain": "Thư trả lời nói đã cộng 10 đô la vào tài khoản và hộp kế tiếp sẽ có thêm một tá trứng miễn phí."
+        },
+        {
+          "q": "Which deliveries will be skipped?",
+          "options": [
+            "Those on July 4 and July 11",
+            "Those on July 1 and July 8",
+            "Those on June 27 and July 4",
+            "Every delivery in June"
+          ],
+          "answer": 0,
+          "explain": "Giao hàng vào thứ Năm; trong khoảng 1-14/7 chỉ có hai thứ Năm là 4/7 và 11/7, và thư trả lời xác nhận hai lần giao này bị bỏ qua."
+        },
+        {
+          "q": "According to the Web page, what must customers do to skip a week?",
+          "options": [
+            "Pay a $5 fee",
+            "Call the farm on Thursday",
+            "Give notice by the Sunday before that week",
+            "Cancel and subscribe again later"
+          ],
+          "answer": 2,
+          "explain": "Trang web ghi cần báo \"by midnight on the Sunday before the delivery week\", nếu không vẫn bị tính tiền."
+        }
+      ]
+    },
+    {
+      "kind": "article",
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Article",
+          "text": "Gazette to Publish Book of Readers' Memories\n\nMAPLE RIDGE (August 5) - To celebrate its 100th anniversary, the Maple Ridge Gazette will publish a book of 60 true stories submitted by its readers. The collection, titled \"A Century of Us,\" will be produced by Cobalt Books, a local publisher.\n\nReaders of all ages are invited to write about a memorable moment in the town's history or in their own lives. Each story must be no longer than 1,200 words and should be submitted through the Gazette's Web site by August 31. A committee of editors and librarians will choose the final 60 entries, and the authors of selected stories will each receive five free copies of the book.\n\nAll proceeds from sales will go to the Maple Ridge Literacy Fund, which supports reading programs in local schools. The book will be launched at the public library on November 15."
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: stories@mapleridgegazette.example\nFrom: Aaron Whitaker <a.whitaker@mailnest.example>\nDate: August 28\nSubject: Story submission - \"The Winter the River Froze\"\n\nDear Editors,\n\nI have attached my story about the winter of 1963, when the Maple River froze solid and the whole town came out to skate. I have been a Gazette reader for over forty years, and this project means a great deal to me.\n\nI should mention that my story is about 1,350 words. Is that acceptable, or must I shorten it? I would also like to include two old photographs from my family album. Is that allowed?\n\nThank you for organizing this wonderful project.\n\nAaron Whitaker"
+        },
+        {
+          "kind": "email",
+          "title": "E-mail",
+          "text": "To: Aaron Whitaker <a.whitaker@mailnest.example>\nFrom: Rachel Obi, Features Editor\nDate: August 29\nSubject: RE: Story submission - \"The Winter the River Froze\"\n\nDear Mr. Whitaker,\n\nThank you for your lovely story. Unfortunately, the 1,200-word limit is firm because of the space we have in the book, so we would ask you to trim about 150 words. Because so many readers have asked for more time, we have extended the submission deadline to September 7, so you have plenty of time to revise it.\n\nYou are welcome to send up to two photographs, as long as they are high-resolution scans and you own the rights to them. Writers will be told whether their stories were selected by September 20.\n\nBest regards,\nRachel Obi\nFeatures Editor, Maple Ridge Gazette"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the purpose of the article?",
+          "options": [
+            "To review a newly published novel",
+            "To advertise jobs at the newspaper",
+            "To report on a school's reading program",
+            "To announce a book of readers' stories"
+          ],
+          "answer": 3,
+          "explain": "Bài báo mở đầu rằng tờ Gazette \"will publish a book of 60 true stories submitted by its readers\" nhân dịp kỷ niệm 100 năm."
+        },
+        {
+          "q": "What is indicated about Mr. Whitaker's story?",
+          "options": [
+            "It is longer than the maximum length",
+            "It has already been selected",
+            "It was submitted after the deadline",
+            "It contains no photographs"
+          ],
+          "answer": 0,
+          "explain": "Bài báo giới hạn 1.200 từ, còn truyện của Mr. Whitaker khoảng 1.350 từ nên vượt quá giới hạn. Ông gửi ngày 28/8, trước hạn 31/8."
+        },
+        {
+          "q": "By what date should Mr. Whitaker send his shortened story?",
+          "options": [
+            "August 31",
+            "September 7",
+            "September 20",
+            "November 15"
+          ],
+          "answer": 1,
+          "explain": "Bài báo nêu hạn 31/8 nhưng Ms. Obi thông báo đã gia hạn đến 7/9; 20/9 là ngày thông báo kết quả, 15/11 là ngày ra mắt sách."
+        },
+        {
+          "q": "What will Mr. Whitaker receive if his story is chosen?",
+          "options": [
+            "A cash payment",
+            "A free subscription to the Gazette",
+            "A page of photographs",
+            "Five copies of the book"
+          ],
+          "answer": 3,
+          "explain": "Bài báo viết tác giả của truyện được chọn \"will each receive five free copies of the book\"."
+        },
+        {
+          "q": "What is NOT mentioned about the book?",
+          "options": [
+            "A local publisher will produce it",
+            "Proceeds will support a literacy fund",
+            "It will be sold in stores across the country",
+            "It will be launched at the library"
+          ],
+          "answer": 2,
+          "explain": "Bài báo nêu nhà xuất bản địa phương Cobalt Books, tiền bán sách đóng góp cho quỹ xóa mù chữ và buổi ra mắt tại thư viện; không nói gì về việc bán trên toàn quốc."
+        }
+      ]
+    }
+  ]
+}

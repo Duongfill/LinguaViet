@@ -1,0 +1,137 @@
+{
+  "title": "Predictably Irrational: The Economics of Human Error",
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "For most of the twentieth century, mainstream economics rested on a convenient fiction. Its central character, sometimes called homo economicus, was a person who knew exactly what he wanted, collected all the relevant information, weighed costs against benefits without emotion, and never changed his mind for no reason. Such a creature is easy to model, and the models built upon him proved a useful starting point for understanding prices and markets. The trouble was that nobody had ever met him. From the 1970s onwards, a growing group of psychologists and economists began to document, in carefully designed experiments, the ways in which real people depart from this ideal. Their conclusion, which gave birth to behavioural economics, was not simply that people make mistakes, but that the mistakes follow patterns."
+    },
+    {
+      "label": "B",
+      "text": "One of the most robust of these patterns is anchoring. When people are asked to estimate an unknown quantity, their answers are drawn towards any number they have recently encountered, even when that number is obviously irrelevant. In experiments of this kind, volunteers who have been shown a large random figure produce higher estimates of everything from the price of a bottle of wine to the age of a famous building than those shown a small one. Retailers appear to understand the principle instinctively: a shirt displayed beside a far more expensive one seems like a bargain. The effect is hard to resist because it operates largely below the level of conscious reasoning."
+    },
+    {
+      "label": "C",
+      "text": "A second pattern concerns the asymmetry between gains and losses. Experiments suggest that the pain of losing a sum of money is roughly twice as strong as the pleasure of gaining the same sum, a tendency known as loss aversion. It explains why investors cling to falling shares for far too long, since selling would turn a paper loss into a real one, and why people value an object more highly once they own it. In a classic demonstration, participants given a coffee mug demanded a much higher price to give it up than others were willing to pay for an identical one. Closely related is the sunk cost fallacy: having already spent money on a project, we continue to pour resources into it long after a rational assessment would tell us to stop."
+    },
+    {
+      "label": "D",
+      "text": "Time is a third source of distortion. Most people would rather receive a modest reward immediately than a larger one after a delay, even if the delay is short, yet the same people will happily choose the larger reward when both options lie a year in the future. This inconsistency, called present bias, is the reason that gym memberships go unused and savings plans are abandoned. Present bias also helps to explain the remarkable power of default options. When employees are automatically enrolled in a pension scheme and have to take action in order to leave it, participation rises from around a third to more than nine in ten, compared with schemes that require staff to sign up. The financial products are identical in both cases; the only difference is which choice requires effort."
+    },
+    {
+      "label": "E",
+      "text": "Insights of this kind have found their way into government. Since the late 2000s, several countries have established small units applying behavioural research to public policy, and the approach they favour is known as the nudge: a change in the way choices are presented that steers behaviour without forbidding anything or significantly altering incentives. School canteens that place fruit at eye level sell more of it, and tax letters that tell recipients that most of their neighbours have already paid on time produce more prompt payments. Nudges are cheap, and the early results appeared impressive. On a larger scale, however, the typical effect has turned out to be smaller than the pioneering studies suggested, and a lively argument has developed."
+    },
+    {
+      "label": "F",
+      "text": "Professor Elena Marchetti, an influential advocate, argues that biases are evidence of a genuine flaw in the way the human mind processes information, and that since people cannot reliably protect their own interests, it is legitimate for public authorities to arrange choices so that the better option is the easy one. Dr Samuel Adeyemi takes almost the opposite view. In his opinion the word 'irrational' is misleading, because many of the shortcuts that appear foolish in the laboratory evolved because they work well in the settings where people actually live, and puzzles designed to catch people out say little about everyday life. Professor Karin Lindqvist is less concerned with whether people err than with who is blamed for it. She contends that the assumption that individuals alone are responsible for poor choices is itself a mistake, and that tougher regulation of how companies design their products would achieve more than any amount of gentle steering. Finally, Dr Raymond Chu questions the evidence itself, pointing out that when some celebrated experiments have been repeated by independent teams, the effects have proved far weaker than first reported."
+    },
+    {
+      "label": "G",
+      "text": "It would be a mistake to dismiss the discipline. The classical model is a reasonable first approximation, and behavioural economics does not replace it so much as refine it, showing that departures from rational choice are neither random nor trivial. The impact of something as simple as a default setting on pension enrolment is, to my mind, astonishing, and it would be perverse to ignore such results when designing policy. Yet it would be equally unwise to treat every bias as a universal law of nature. The effects vary between people, cultures and situations, and ideas that look compelling in a university laboratory need to be tested in the field before they are rolled out nationwide."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "gap",
+      "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+      "questions": [
+        {
+          "q": "The idealised economic person of classical theory was sometimes known as ______.",
+          "answer": [
+            "homo economicus"
+          ],
+          "explain": "Đoạn A: 'sometimes called homo economicus'."
+        },
+        {
+          "q": "People who have seen a large random number tend to give higher estimates, an effect known as ______.",
+          "answer": [
+            "anchoring"
+          ],
+          "explain": "Đoạn B mở đầu bằng 'One of the most robust of these patterns is anchoring', mô tả đúng hiện tượng này."
+        },
+        {
+          "q": "The inconsistency that leads people to abandon savings plans is called ______.",
+          "answer": [
+            "present bias"
+          ],
+          "explain": "Đoạn D: 'This inconsistency, called present bias, is the reason that gym memberships go unused and savings plans are abandoned'."
+        },
+        {
+          "q": "In school canteens, putting fruit at ______ increases the amount that is sold.",
+          "answer": [
+            "eye level"
+          ],
+          "explain": "Đoạn E: 'School canteens that place fruit at eye level sell more of it'."
+        }
+      ]
+    },
+    {
+      "type": "ynng",
+      "instructions": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES, NO or NOT GIVEN.",
+      "questions": [
+        {
+          "q": "The writer believes that the classical economic model has no value.",
+          "answer": "NO",
+          "explain": "Đoạn G: mô hình cổ điển là 'a reasonable first approximation' và đoạn A gọi nó là 'a useful starting point', nên tác giả không cho rằng nó vô giá trị."
+        },
+        {
+          "q": "The writer accepts that people's departures from rational choice often follow recognisable patterns.",
+          "answer": "YES",
+          "explain": "Đoạn A: 'the mistakes follow patterns'; đoạn G: sai lệch 'neither random nor trivial'."
+        },
+        {
+          "q": "The writer thinks that present bias is stronger among young adults than among older people.",
+          "answer": "NOT GIVEN",
+          "explain": "Đoạn D nói về present bias nhưng không so sánh theo độ tuổi, nên không có thông tin."
+        },
+        {
+          "q": "The writer finds the effect of default options on pension enrolment surprisingly large.",
+          "answer": "YES",
+          "explain": "Đoạn G: tác giả viết kết quả này 'is, to my mind, astonishing', đồng nghĩa với rất lớn một cách đáng ngạc nhiên."
+        },
+        {
+          "q": "The writer believes that findings from behavioural experiments should be applied to national policy without further testing.",
+          "answer": "NO",
+          "explain": "Đoạn G: các ý tưởng 'need to be tested in the field before they are rolled out nationwide', tức là phải kiểm chứng thêm trước."
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "Look at the following statements and the list of scholars below. Match each statement with the correct scholar, A-D. You may use any letter more than once.",
+      "options": [
+        "A  Professor Elena Marchetti",
+        "B  Dr Samuel Adeyemi",
+        "C  Professor Karin Lindqvist",
+        "D  Dr Raymond Chu"
+      ],
+      "questions": [
+        {
+          "q": "Some well-known findings have turned out to be much weaker when other researchers repeated the studies.",
+          "answer": 3,
+          "explain": "Đoạn F: Dr Chu chỉ ra rằng khi các nhóm độc lập lặp lại thí nghiệm, hiệu ứng yếu hơn nhiều."
+        },
+        {
+          "q": "The belief that individuals are solely to blame for poor decisions is mistaken.",
+          "answer": 2,
+          "explain": "Đoạn F: Professor Lindqvist cho rằng việc đổ hết lỗi cho cá nhân là sai lầm, vai trò của các tổ chức bị bỏ qua."
+        },
+        {
+          "q": "Choices that look foolish in the laboratory can be sensible in the real world.",
+          "answer": 1,
+          "explain": "Đoạn F: Dr Adeyemi nói các lối tắt tư duy tiến hóa vì chúng hiệu quả trong môi trường sống thực."
+        },
+        {
+          "q": "Officials may legitimately organise choices so that the better option is the easiest one.",
+          "answer": 0,
+          "explain": "Đoạn F: Professor Marchetti cho rằng chính quyền có thể sắp xếp lựa chọn để phương án tốt hơn là phương án dễ nhất."
+        },
+        {
+          "q": "Stricter rules for companies would be more effective than gentle steering of individuals.",
+          "answer": 2,
+          "explain": "Đoạn F: Professor Lindqvist cho rằng quy định chặt hơn với doanh nghiệp hiệu quả hơn bất kỳ sự thúc đẩy nhẹ nhàng nào."
+        }
+      ]
+    }
+  ]
+}

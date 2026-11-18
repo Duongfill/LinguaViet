@@ -1,0 +1,153 @@
+{
+  "title": "Music, Memory and Mood: What Do We Really Know?",
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Almost everyone has had the experience of hearing a few bars of a half-forgotten song and being swept back, within a second, to a particular summer, a school corridor or a kitchen. The memories that music summons tend to be vivid, emotional and oddly detailed, and they often arrive unbidden. For many years scientists regarded this as a charming curiosity rather than a topic worthy of rigorous study. That attitude has changed. Brain-imaging technology has made it possible to watch the mind at work while a person listens, and the resulting studies suggest that music is bound up with memory and emotion more tightly than almost any other everyday stimulus. How it achieves this, and what we should do with the knowledge, remain matters of lively dispute."
+    },
+    {
+      "label": "B",
+      "text": "One reason for the intimate link is the sheer number of brain regions that music recruits. Listening engages areas that process pitch and rhythm, regions that control movement, which explains why we tap our feet, and structures deep in the brain associated with emotion and reward. Dr Ingrid Solheim, a neuroscientist, has argued that this wide distribution is what makes musical memories so durable. A memory stored in many places, she says, can survive damage to any one of them. Her evidence comes from patients with advanced dementia, who may no longer recognise their own children but can still sing every word of songs learned in youth. Solheim regards this as the strongest argument for treating music as a form of memory in its own right rather than a mere trigger for other memories."
+    },
+    {
+      "label": "C",
+      "text": "The most reliable finding in this field concerns the period of life from about ten to thirty. People consistently recall music from their adolescence and early adulthood more readily than music from any other period, and they rate it as more emotionally significant, even when they heard it only a few times. Professor Rahul Menon explains this 'reminiscence bump' in terms of identity. Adolescence is the stage at which people decide who they are, and the music they choose becomes part of the story they tell about themselves. The songs are remembered, Menon contends, not because the teenage brain is unusually efficient, but because they were attached to experiences that mattered intensely. Solheim disagrees with part of this account; she believes that the brain is genuinely more receptive to new information during these years, and that Menon underestimates the biological factor."
+    },
+    {
+      "label": "D",
+      "text": "Emotion is the second half of the puzzle. Music can make us feel sad, calm or exhilarated, and these reactions are not merely metaphorical: listeners show measurable changes in heart rate, skin conductance and breathing. Researchers have identified several mechanisms. Some pieces appear to work through expectation. A melody sets up a pattern, and the pleasure comes from the way the composer delays, fulfils or surprises our prediction. Others work through association, because a tune is linked with the circumstances in which it was first heard. A third mechanism is a kind of contagion, in which the listener unconsciously mimics the emotional tone of the music, much as we might yawn when someone else does. Which mechanism dominates depends on the listener's culture and personal history as well as on the music itself."
+    },
+    {
+      "label": "E",
+      "text": "The practical applications have attracted the most attention. Dr Camille Dubois, a music therapist, runs sessions in care homes in which residents with memory problems listen to personalised playlists. Staff have reported that residents become calmer, speak more and sometimes recall names and events that had been inaccessible for months. Dubois is careful, however, not to overstate her claims. She argues that music does not restore lost memories so much as create a state in which existing ones are easier to reach, and that the benefits fade within hours unless the sessions are repeated. 'It is a door, not a cure,' she says. Even so, several health services have begun to include music in dementia care plans, because the approach is inexpensive and has few side effects."
+    },
+    {
+      "label": "F",
+      "text": "Not everyone is persuaded. Professor Walter Hughes, a cognitive psychologist, has warned that much of the supporting evidence is weaker than it appears. Many studies involve small groups of volunteers, lack comparison groups, and rely on staff or relatives to judge improvement, which invites wishful thinking. Hughes also questions the popular claim that listening to classical music improves intelligence in children, a notion that grew from a single, small experiment that others have struggled to reproduce. While he accepts that music can lift mood, he argues that the effect is no greater than that of other pleasant activities such as a walk or a conversation. What is needed, in his view, are large, carefully controlled trials that compare music with those alternatives."
+    },
+    {
+      "label": "G",
+      "text": "It may be too early to settle the argument. The most responsible reading of the evidence is that music has a genuine power to evoke memories and shape mood, and that this power is likely to be useful in some settings, particularly where other methods have failed. But the biological explanations remain tentative, and several widely repeated claims have not survived scrutiny. For ordinary listeners the practical lesson is simpler: the playlist of our youth is more than entertainment. It is an unusually accurate record of who we were, and learning to read that record may tell us as much about ourselves as any laboratory instrument can."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "ynng",
+      "instructions": "Do the following statements agree with the views of the writer in Reading Passage 3? Write YES if the statement agrees with the views of the writer, NO if the statement contradicts the views of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+      "questions": [
+        {
+          "q": "Scientists have always treated the link between music and memory as a serious subject of study.",
+          "answer": "NO",
+          "explain": "Đoạn A: \"For many years scientists regarded this as a charming curiosity rather than a topic worthy of rigorous study\" - trái với \"always serious\", nên NO."
+        },
+        {
+          "q": "Brain-imaging technology has made it easier to investigate how music affects the mind.",
+          "answer": "YES",
+          "explain": "Đoạn A: công nghệ chụp não cho phép \"watch the mind at work while a person listens\" - tác giả đồng ý, nên YES."
+        },
+        {
+          "q": "How a person reacts emotionally to music is determined entirely by his or her culture.",
+          "answer": "NO",
+          "explain": "Đoạn D: cơ chế nào chiếm ưu thế phụ thuộc vào văn hóa và lịch sử cá nhân \"as well as on the music itself\"; không phải hoàn toàn do văn hóa, nên NO."
+        },
+        {
+          "q": "Music therapy in care homes should replace medication for people with dementia.",
+          "answer": "NOT GIVEN",
+          "explain": "Đoạn E chỉ nói âm nhạc được đưa vào kế hoạch chăm sóc; tác giả không đưa ý kiến về việc thay thế thuốc, nên NOT GIVEN."
+        },
+        {
+          "q": "Some frequently repeated claims about the benefits of music have turned out to be unreliable.",
+          "answer": "YES",
+          "explain": "Đoạn G: tác giả viết \"several widely repeated claims have not survived scrutiny\" - đồng quan điểm, nên YES."
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "Look at the following statements (Questions 6-10) and the list of people below. Match each statement with the correct person, A, B, C or D. You may use any letter more than once.",
+      "options": [
+        "A  Dr Ingrid Solheim",
+        "B  Professor Rahul Menon",
+        "C  Dr Camille Dubois",
+        "D  Professor Walter Hughes"
+      ],
+      "questions": [
+        {
+          "q": "Musical memories last a long time because they are stored in many parts of the brain.",
+          "answer": 0,
+          "explain": "Đoạn B: Solheim cho rằng sự phân bố rộng khắp các vùng não làm ký ức âm nhạc bền vững."
+        },
+        {
+          "q": "Songs from adolescence are remembered because they become part of a person's sense of identity.",
+          "answer": 1,
+          "explain": "Đoạn C: Menon giải thích 'reminiscence bump' bằng bản sắc cá nhân - nhạc trở thành một phần câu chuyện về chính mình."
+        },
+        {
+          "q": "The benefits of music for people with memory loss disappear quickly unless sessions are repeated.",
+          "answer": 2,
+          "explain": "Đoạn E: Dubois nói lợi ích \"fade within hours unless the sessions are repeated\"."
+        },
+        {
+          "q": "Large trials should compare the effects of music with those of other enjoyable activities.",
+          "answer": 3,
+          "explain": "Đoạn F: Hughes cần các thử nghiệm lớn, có kiểm soát để so sánh âm nhạc với những hoạt động dễ chịu khác như đi dạo."
+        },
+        {
+          "q": "The young brain is biologically more receptive to new information than the brain at other ages.",
+          "answer": 0,
+          "explain": "Đoạn C: Solheim tin rằng não thực sự tiếp nhận thông tin mới tốt hơn trong những năm này, và Menon đánh giá thấp yếu tố sinh học."
+        }
+      ]
+    },
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "q": "What does Solheim take the case of dementia patients to show?",
+          "options": [
+            "Music can cure the illness if it is played regularly.",
+            "Music is a more powerful trigger of emotion than of memory.",
+            "Musical memories can survive damage that destroys other memories.",
+            "People with dementia prefer older songs to modern ones."
+          ],
+          "answer": 2,
+          "explain": "Đoạn B: bệnh nhân sa sút trí tuệ nặng không nhận ra con cái nhưng vẫn hát được - bằng chứng ký ức âm nhạc sống sót dù các vùng khác bị hỏng."
+        },
+        {
+          "q": "The writer compares the 'contagion' mechanism to",
+          "options": [
+            "yawning when another person yawns.",
+            "recognising a tune from the first few notes.",
+            "predicting how a melody will end.",
+            "remembering where a song was first heard."
+          ],
+          "answer": 0,
+          "explain": "Đoạn D: sự lây lan cảm xúc được ví với việc ngáp khi người khác ngáp (\"much as we might yawn\"). Đáp án C là cơ chế expectation, D là association."
+        },
+        {
+          "q": "What does Dubois mean by the phrase 'a door, not a cure'?",
+          "options": [
+            "Music therapy should be offered only in care homes with open doors.",
+            "Music therapy can ease access to existing memories without repairing the underlying loss.",
+            "Music therapy opens up a new market for health services.",
+            "Music therapy is useful only for patients who are already recovering."
+          ],
+          "answer": 1,
+          "explain": "Đoạn E: âm nhạc không khôi phục ký ức đã mất mà tạo trạng thái giúp ký ức hiện có \"easier to reach\"; tức là mở cửa chứ không chữa khỏi."
+        },
+        {
+          "q": "What is Hughes's main criticism of the research?",
+          "options": [
+            "It focuses too heavily on children.",
+            "It ignores the effect of music on mood.",
+            "It has been carried out only in care homes.",
+            "Many of the studies are too small or poorly designed to prove its claims."
+          ],
+          "answer": 3,
+          "explain": "Đoạn F: nhiều nghiên cứu có nhóm nhỏ, thiếu nhóm đối chứng và dựa vào đánh giá chủ quan. Hughes vẫn công nhận nhạc cải thiện tâm trạng nên B sai."
+        }
+      ]
+    }
+  ]
+}
