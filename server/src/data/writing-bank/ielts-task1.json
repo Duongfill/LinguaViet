@@ -1,0 +1,244 @@
+[
+  {
+    "id": "t1-01",
+    "type": "bar",
+    "title": "Tỉ lệ vào đại học ở 5 quốc gia",
+    "prompt": "The bar chart below shows the percentage of school leavers who entered university in five countries in 2000 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "bar",
+      "title": "School leavers entering university (%)",
+      "unit": "%",
+      "categories": ["Canada", "Japan", "Poland", "Egypt", "Brazil"],
+      "series": [
+        { "name": "2000", "values": [58, 45, 38, 28, 24] },
+        { "name": "2020", "values": [72, 61, 55, 41, 46] }
+      ]
+    },
+    "sample": "The bar chart compares the proportion of school leavers who went on to university in five countries in 2000 and 2020.\n\nOverall, university entry rose in every country over the two decades, with Brazil showing the most dramatic growth, while Canada remained the leader throughout.\n\nIn 2000, Canada had the highest rate of enrolment, at 58 per cent, followed by Japan with 45 per cent and Poland with 38 per cent. Egypt and Brazil lagged behind, at 28 and 24 per cent respectively.\n\nBy 2020, every figure had climbed. Canada stayed in first place, although its increase of 14 percentage points was modest compared with the changes elsewhere. Brazil's rate almost doubled to 46 per cent, which was the biggest relative rise of the five countries. Poland and Japan also made notable progress, reaching 55 and 61 per cent. Egypt's figure grew from 28 to 41 per cent, which made it the lowest of the group by the end of the period.\n\nAs a result, the gap between the highest and the lowest country narrowed slightly, from 34 to 31 percentage points.",
+    "sampleBand": 7.5,
+    "notes_vi": "DÀN Ý: (1) Mở bài: paraphrase đề (shows -> compares, the percentage of -> the proportion of). (2) Overview: nêu xu hướng chung (tất cả đều tăng) + điểm nổi bật (Canada cao nhất suốt kỳ, Brazil tăng mạnh nhất). (3) Thân bài 1: số liệu năm 2000 theo thứ tự cao -> thấp. (4) Thân bài 2: số liệu 2020 và so sánh mức tăng.\nCÂU OVERVIEW MẪU: Overall, university entry rose in every country, with Brazil showing the most dramatic growth.\nTỪ VỰNG: rise / climb / grow, almost doubled (gần gấp đôi), percentage points (điểm phần trăm), lag behind (tụt lại phía sau), respectively (lần lượt), modest (khiêm tốn), remain in first place.\nLỖI HAY GẶP: nhầm 'per cent' với 'percentage points' khi nói về mức chênh; liệt kê số liệu mà không so sánh; quên overview."
+  },
+  {
+    "id": "t1-02",
+    "type": "bar",
+    "title": "Cơ cấu nguồn điện của hai quốc gia",
+    "prompt": "The bar chart below shows the share of electricity generated from five different sources in two countries in 2022.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "bar",
+      "title": "Electricity generation by source, 2022 (%)",
+      "unit": "%",
+      "categories": ["Coal", "Gas", "Nuclear", "Hydropower", "Wind and solar"],
+      "series": [
+        { "name": "Country X", "values": [38, 24, 18, 8, 12] },
+        { "name": "Country Y", "values": [9, 21, 0, 49, 21] }
+      ]
+    },
+    "sample": "The bar chart illustrates how electricity was generated from five different sources in two countries, Country X and Country Y, in 2022.\n\nOverall, Country X relied mainly on fossil fuels, whereas Country Y depended heavily on renewable sources, especially hydropower.\n\nIn Country X, coal was the single biggest contributor, supplying 38 per cent of electricity, and natural gas added a further 24 per cent, so fossil fuels together accounted for 62 per cent of the total. Nuclear power provided 18 per cent, while wind and solar combined produced 12 per cent. Hydropower was the smallest source, at just 8 per cent.\n\nThe picture in Country Y was very different. Hydropower alone generated 49 per cent of its electricity, and wind and solar contributed another 21 per cent, which was almost double the share in Country X. Gas supplied 21 per cent, similar to the figure for Country X, but coal made up only 9 per cent. Notably, Country Y produced no nuclear power at all.\n\nIn short, the two countries' energy mixes were close to opposites.",
+    "sampleBand": 7.5,
+    "notes_vi": "DÀN Ý: so sánh hai quốc gia theo từng nguồn hoặc theo từng nước. Với biểu đồ nhiều hạng mục, nên viết mỗi thân bài về MỘT quốc gia rồi dùng từ nối so sánh.\nCÂU OVERVIEW MẪU: Overall, Country X relied mainly on fossil fuels, whereas Country Y depended heavily on renewable sources.\nTỪ VỰNG: fossil fuels (nhiên liệu hóa thạch), renewable sources (nguồn tái tạo), account for / make up / supply, the single biggest contributor, in contrast, whereas, no ... at all (hoàn toàn không có), almost double.\nMẸO: gộp các nhóm gần nhau (coal + gas = fossil fuels; wind + solar) để bài gọn và có tính khái quát.\nLỖI HAY GẶP: chép lại từng cột một cách máy móc; viết 'the biggest' mà không rõ so với cái gì."
+  },
+  {
+    "id": "t1-03",
+    "type": "bar",
+    "title": "Khách quốc tế đến bốn thành phố",
+    "prompt": "The chart below shows the number of international visitors to four cities in 2012 and 2022.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "bar",
+      "title": "International visitors (millions)",
+      "unit": "million",
+      "categories": ["Seoul", "Prague", "Lisbon", "Cape Town"],
+      "series": [
+        { "name": "2012", "values": [7.2, 4.8, 3.1, 1.9] },
+        { "name": "2022", "values": [11.3, 8.1, 6.4, 2.8] }
+      ]
+    },
+    "sample": "The bar chart gives information about how many international tourists visited four cities in 2012 and in 2022.\n\nOverall, all four destinations attracted more visitors at the end of the period than at the beginning. Seoul was the most popular city in both years, while Cape Town received the fewest tourists.\n\nIn 2012, Seoul welcomed 7.2 million visitors, well ahead of Prague at 4.8 million. Lisbon came third with 3.1 million, and Cape Town trailed with only 1.9 million.\n\nTen years later, Seoul's total had risen by roughly 4 million to reach 11.3 million. Prague also grew impressively, climbing to 8.1 million, an increase of more than 3 million. However, the most striking change occurred in Lisbon, where the number of visitors doubled to 6.4 million, so that the city came much closer to Prague. By contrast, Cape Town recorded the smallest increase, rising by only 0.9 million to 2.8 million.\n\nIn relative terms, Lisbon therefore performed best, whereas Cape Town grew the most slowly of the four cities.",
+    "sampleBand": 7.5,
+    "notes_vi": "DÀN Ý: Mở bài; Overview (tất cả đều tăng, Seoul nhất cả hai năm, Cape Town thấp nhất); thân bài 1 = 2012 xếp hạng; thân bài 2 = 2022 + mức tăng.\nCÂU OVERVIEW MẪU: Overall, all four destinations attracted more visitors, with Seoul the most popular in both years.\nTỪ VỰNG: attract / welcome / receive visitors, trail (đứng sau), well ahead of, roughly / approximately, an increase of ..., double (tăng gấp đôi), in relative terms (xét theo tỉ lệ), by contrast.\nLƯU Ý: đơn vị là triệu - luôn ghi 'million'. Dùng cả mức tăng tuyệt đối và tương đối sẽ cho thấy khả năng phân tích.\nLỖI HAY GẶP: quên đơn vị; dùng 'people' thay vì 'visitors / tourists'; dùng thì hiện tại cho dữ liệu quá khứ."
+  },
+  {
+    "id": "t1-04",
+    "type": "line",
+    "title": "Phương tiện đi làm trong một thành phố",
+    "prompt": "The line graph below shows the percentage of commuters in one city using three different means of transport between 1995 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "line",
+      "title": "Commuters by means of transport (%)",
+      "unit": "%",
+      "categories": ["1995", "2000", "2005", "2010", "2015", "2020"],
+      "series": [
+        { "name": "Car", "values": [62, 64, 63, 58, 52, 45] },
+        { "name": "Public transport", "values": [28, 25, 24, 26, 29, 33] },
+        { "name": "Bicycle", "values": [4, 5, 7, 9, 12, 15] }
+      ]
+    },
+    "sample": "The line graph shows how the proportion of commuters using cars, public transport and bicycles changed in one city over a 25-year period from 1995 to 2020.\n\nOverall, the car remained the most popular way of getting to work throughout the period, although its share fell noticeably after 2005. In contrast, both public transport and cycling became more widely used, with cycling showing the fastest growth.\n\nIn 1995, 62 per cent of commuters drove, compared with 28 per cent who used public transport and only 4 per cent who cycled. The share of car users peaked at 64 per cent in 2000 and then fell steadily, dropping to 45 per cent by 2020.\n\nPublic transport followed the opposite pattern. After a slight decline to a low of 24 per cent in 2005, it recovered gradually and reached 33 per cent in the final year. Cycling, meanwhile, rose consistently from just 4 per cent to 15 per cent, which meant that it almost quadrupled.\n\nBy 2020, the gap between car use and public transport had narrowed from 34 to 12 percentage points.",
+    "sampleBand": 7.5,
+    "notes_vi": "DÀN Ý: Mở bài; Overview (xe hơi vẫn đứng đầu nhưng giảm; hai loại còn lại tăng); thân bài 1: xe hơi (đỉnh 2000 rồi giảm); thân bài 2: phương tiện công cộng + xe đạp.\nCÂU OVERVIEW MẪU: Overall, the car remained the most popular option, although its share fell after 2005, while public transport and cycling both gained popularity.\nTỪ VỰNG XU HƯỚNG: rise / increase / grow / climb; fall / decline / drop / decrease; peak at (đạt đỉnh), hit a low of (chạm đáy), fluctuate (dao động), remain stable / level off (đi ngang), recover (hồi phục), almost quadrupled (gần gấp bốn). Trạng từ: slightly, gradually, steadily, sharply, dramatically.\nMẸO: với biểu đồ đường, nhóm các đường có xu hướng giống nhau; nhấn các điểm cực trị (đỉnh, đáy) và điểm giao nhau.\nLỖI HAY GẶP: nhầm 'the number of' với 'the percentage of'; mô tả từng năm một thay vì nêu xu hướng."
+  },
+  {
+    "id": "t1-05",
+    "type": "line",
+    "title": "Doanh số kem và súp theo tháng",
+    "prompt": "The graph below shows the monthly sales of ice cream and hot soup at a chain of cafés over one year.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "line",
+      "title": "Monthly sales at a café chain (thousand portions)",
+      "unit": "thousand portions",
+      "categories": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      "series": [
+        { "name": "Ice cream", "values": [12, 14, 22, 35, 48, 62, 70, 68, 45, 28, 16, 13] },
+        { "name": "Hot soup", "values": [58, 55, 42, 30, 20, 12, 9, 10, 22, 36, 50, 60] }
+      ]
+    },
+    "sample": "The line graph compares the monthly sales of ice cream and hot soup at a chain of cafés over the course of one year.\n\nOverall, the two products show clearly opposite seasonal patterns: ice cream sells best in the warmer months, whereas soup is most popular in winter. The lines cross twice, in the spring and again in the autumn.\n\nIn January, soup sales stood at 58 thousand portions, nearly five times higher than ice cream at 12 thousand. From then on, soup fell steadily and bottomed out at just 9 thousand in July. Over the same period, ice cream sales climbed sharply from 14 thousand in February to a peak of 70 thousand in July, before easing slightly to 68 thousand in August.\n\nThe pattern then reversed. Between September and December, ice cream sales dropped quickly to 13 thousand, almost the same as the figure at the start of the year. Soup, on the other hand, recovered strongly, reaching 60 thousand in December.\n\nThe point where the two products sold equally well came between March and April, and again in September and October, at around 30 to 40 thousand portions.",
+    "sampleBand": 7.5,
+    "notes_vi": "DÀN Ý: Mở bài; Overview (xu hướng đối nghịch theo mùa, hai đường cắt nhau); thân bài 1: từ tháng 1 đến tháng 7; thân bài 2: từ tháng 8 đến tháng 12.\nCÂU OVERVIEW MẪU: Overall, the two products show opposite seasonal patterns: ice cream peaks in summer while soup peaks in winter.\nTỪ VỰNG: seasonal pattern (mô hình theo mùa), mirror image (hình ảnh phản chiếu), peak at / bottom out at (chạm đáy), ease / dip (giảm nhẹ), reverse (đảo chiều), intersect / cross (cắt nhau), nearly five times higher than.\nMẸO: với dữ liệu theo tháng, chia theo giai đoạn (nửa đầu / nửa sau năm) thay vì nêu từng tháng.\nLỖI HAY GẶP: dùng 'bottom' làm danh từ sai chỗ (dùng 'low' hoặc 'bottom out'); không nêu điểm giao nhau; liệt kê cả 24 số liệu."
+  },
+  {
+    "id": "t1-06",
+    "type": "line",
+    "title": "Lượng khí CO2 bình quân đầu người",
+    "prompt": "The line graph below shows the average carbon dioxide emissions per person in three countries between 1990 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "line",
+      "title": "CO2 emissions per person (tonnes)",
+      "unit": "tonnes",
+      "categories": ["1990", "2000", "2010", "2020"],
+      "series": [
+        { "name": "Country A", "values": [9.8, 10.4, 9.1, 7.2] },
+        { "name": "Country B", "values": [2.1, 3.4, 6.2, 7.8] },
+        { "name": "Country C", "values": [5.5, 5.9, 6.3, 6.4] }
+      ]
+    },
+    "sample": "The line graph illustrates changes in the amount of carbon dioxide produced per person in three countries over a 30-year period starting in 1990.\n\nOverall, Country A moved from being the highest emitter to a figure that was slightly lower than that of Country B, which rose dramatically. Country C, by contrast, stayed within a narrow range throughout.\n\nIn 1990, Country A emitted 9.8 tonnes per person, far more than Country C at 5.5 tonnes and Country B at only 2.1 tonnes. Country A's figure edged up to a peak of 10.4 tonnes in 2000, but it then declined, falling to 9.1 tonnes in 2010 and 7.2 tonnes in 2020.\n\nCountry B experienced the opposite trend. Its emissions increased steadily from 2.1 to 3.4 tonnes in 2000 and then almost doubled over the following decade, reaching 6.2 tonnes. By 2020 the figure had climbed to 7.8 tonnes, overtaking Country A for the first time.\n\nMeanwhile, emissions in Country C grew only slightly, from 5.5 to 6.4 tonnes, so the three countries had become much closer to one another by the end of the period.",
+    "sampleBand": 8,
+    "notes_vi": "DÀN Ý: Mở bài; Overview (A giảm sau đỉnh, B tăng mạnh vượt A, C gần như đi ngang); thân bài 1: A và C; thân bài 2: B và điểm vượt qua A.\nCÂU OVERVIEW MẪU: Overall, Country A's emissions fell after peaking while Country B's rose dramatically and eventually overtook it; Country C stayed relatively stable.\nTỪ VỰNG: emissions (khí thải), per person / per capita (bình quân đầu người), edge up (nhích lên), overtake (vượt qua), within a narrow range (trong biên độ hẹp), the opposite trend, converge (tiến lại gần nhau), a threefold increase (tăng gấp ba).\nMẸO: điểm vượt/giao nhau rất đáng nêu để đạt Task Achievement cao. Dữ liệu chỉ có 4 mốc nên mô tả cụ thể giá trị tại từng mốc.\nLỖI HAY GẶP: dùng 'tons' thay 'tonnes'; dùng 'increase' mà không có trạng từ/mức độ; quên nêu mốc thời gian."
+  },
+  {
+    "id": "t1-07",
+    "type": "pie",
+    "title": "Chi tiêu hộ gia đình năm 2000 và 2020",
+    "prompt": "The pie charts below show how an average household in one town spent its income in 2000 and in 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "pie",
+      "title": "Household spending by category (%)",
+      "unit": "%",
+      "categories": ["Housing", "Food", "Transport", "Leisure", "Education", "Other"],
+      "series": [
+        { "name": "2000", "values": [30, 28, 14, 8, 6, 14] },
+        { "name": "2020", "values": [36, 18, 15, 15, 9, 7] }
+      ]
+    },
+    "sample": "The pie charts compare the way an average household in one town divided its spending among six categories in 2000 and 2020.\n\nOverall, housing was the largest item of expenditure in both years, but its lead over the other categories widened considerably. Households spent a much smaller share on food by 2020, and a much larger share on leisure.\n\nIn 2000, housing accounted for 30 per cent of the household budget, closely followed by food at 28 per cent. Transport took 14 per cent, the same as the miscellaneous category, while leisure and education represented only 8 and 6 per cent respectively.\n\nBy 2020, the share spent on housing had risen to 36 per cent, whereas food had dropped sharply to 18 per cent. Leisure spending almost doubled, from 8 to 15 per cent, and education also grew, to 9 per cent. Transport remained fairly stable, edging up by just one percentage point to 15 per cent. The only other category to decline was the miscellaneous group, which was halved from 14 to 7 per cent.\n\nIn summary, money was clearly shifted away from food and other items towards housing and leisure.",
+    "sampleBand": 7.5,
+    "notes_vi": "DÀN Ý: Mở bài; Overview (nhà ở lớn nhất cả hai năm, ăn uống giảm mạnh, giải trí tăng mạnh); thân bài 1: cơ cấu năm 2000; thân bài 2: năm 2020 và so sánh thay đổi.\nCÂU OVERVIEW MẪU: Overall, housing was the biggest expense in both years, while the share spent on food fell sharply and leisure spending rose markedly.\nTỪ VỰNG: account for / make up / represent (chiếm), a share / proportion, expenditure / spending, be halved (giảm một nửa), almost doubled, closely followed by, remain fairly stable, miscellaneous (linh tinh), edge up by.\nMẸO: với hai biểu đồ tròn, luôn so sánh THAY ĐỔI giữa hai năm chứ không chỉ liệt kê. Chú ý cộng tổng ≈ 100%.\nLỖI HAY GẶP: viết 'the percentage of housing' (sai) thay vì 'the percentage spent on housing'; dùng 'rate' thay cho 'share'."
+  },
+  {
+    "id": "t1-08",
+    "type": "pie",
+    "title": "Cách xử lý rác thải sinh hoạt",
+    "prompt": "The pie charts below show the methods used to dispose of household waste in one country in 2000 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "pie",
+      "title": "Household waste disposal methods (%)",
+      "unit": "%",
+      "categories": ["Landfill", "Recycling", "Incineration", "Composting"],
+      "series": [
+        { "name": "2000", "values": [62, 18, 15, 5] },
+        { "name": "2020", "values": [28, 41, 21, 10] }
+      ]
+    },
+    "sample": "The two pie charts show how household waste was handled in one country in 2000 and in 2020, using four different methods.\n\nOverall, there was a major change in disposal habits over the twenty years. Landfill, which had been by far the most common method, was overtaken by recycling, and the other two methods also became more widely used.\n\nIn 2000, almost two thirds of waste, or 62 per cent, was buried in landfill sites. Recycling accounted for 18 per cent, incineration for 15 per cent, and composting was the least popular option, at only 5 per cent.\n\nBy 2020, the proportion of waste sent to landfill had fallen by more than half to 28 per cent. Recycling, in contrast, grew dramatically to 41 per cent, making it the leading method, which represented an increase of 23 percentage points. Incineration also rose, although more modestly, from 15 to 21 per cent. Composting doubled its share to 10 per cent, but it remained the smallest category.\n\nThese figures suggest that the country had moved decisively away from burying rubbish towards reusing it.",
+    "sampleBand": 7.5,
+    "notes_vi": "DÀN Ý: Mở bài; Overview (landfill từ chiếm ưu thế sang bị recycling vượt qua; mọi phương pháp khác đều tăng); thân bài 1: 2000; thân bài 2: 2020 + mức thay đổi.\nCÂU OVERVIEW MẪU: Overall, landfill went from being the dominant method to being overtaken by recycling, while incineration and composting both gained ground.\nTỪ VỰNG: household waste (rác sinh hoạt), landfill (bãi chôn lấp), recycling (tái chế), incineration (đốt rác), composting (ủ phân hữu cơ), dispose of (xử lý/vứt bỏ), be overtaken by, almost two thirds, fall by more than half, by far the most common.\nMẸO: dùng phân số/từ ước lượng (almost two thirds, just over a quarter) để tránh lặp lại số liệu chính xác.\nLỖI HAY GẶP: nhầm 'rubbish / waste' dạng đếm được; quên 'by' khi nói mức tăng giảm (fell by 34 points vs fell to 28%)."
+  },
+  {
+    "id": "t1-09",
+    "type": "table",
+    "title": "Chi phí sinh hoạt hằng tháng của sinh viên",
+    "prompt": "The table below shows the average monthly spending of international students on four items in four cities.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "table",
+      "title": "Average monthly student spending (US dollars)",
+      "unit": "USD",
+      "categories": ["Rent", "Food", "Transport", "Leisure"],
+      "series": [
+        { "name": "Sydney", "values": [820, 310, 95, 140] },
+        { "name": "Toronto", "values": [690, 280, 110, 120] },
+        { "name": "Berlin", "values": [480, 240, 60, 110] },
+        { "name": "Bangkok", "values": [260, 150, 30, 70] }
+      ]
+    },
+    "sample": "The table compares what international students spend each month on rent, food, transport and leisure in four cities: Sydney, Toronto, Berlin and Bangkok.\n\nOverall, rent was the biggest expense in every city, and there was a clear gap between the costs in the two English-speaking cities and those in Berlin and Bangkok. Sydney was the most expensive place to study, while Bangkok was the cheapest.\n\nStudents in Sydney paid the most for rent, at 820 dollars, and also spent the most on food, at 310 dollars, and leisure, at 140 dollars. Adding all four items together gives a monthly total of around 1,365 dollars. Toronto came second, with rent of 690 dollars and a total of about 1,200 dollars, although its students paid the highest transport costs, at 110 dollars.\n\nBerlin was considerably cheaper. Rent was 480 dollars, and food, transport and leisure cost 240, 60 and 110 dollars respectively, giving a total of around 890 dollars. Bangkok was cheaper still, with a total of about 510 dollars, which was less than 40 per cent of the Sydney figure. Rent there, at 260 dollars, was less than a third of the Sydney figure.",
+    "sampleBand": 7.5,
+    "notes_vi": "DÀN Ý: Mở bài; Overview (tiền thuê nhà luôn lớn nhất; Sydney đắt nhất, Bangkok rẻ nhất); thân bài 1: Sydney + Toronto; thân bài 2: Berlin + Bangkok.\nCÂU OVERVIEW MẪU: Overall, rent was the biggest expense everywhere, with Sydney the most costly city and Bangkok the cheapest.\nTỪ VỰNG: the most / least expensive, considerably cheaper, cost / spend / pay (chú ý chủ ngữ), respectively, a monthly total, by a wide margin, less than 40 per cent of ..., the highest figure for ... .\nMẸO: với bảng số liệu, TỰ TÍNH TỔNG hoặc trung bình để làm nổi bật so sánh; chọn 2–3 đặc điểm chính, không mô tả hết mọi ô.\nLỖI HAY GẶP: dùng 'spend' với chủ ngữ là vật (ví dụ 'rent spends'); liệt kê 16 số liệu; không đưa overview."
+  },
+  {
+    "id": "t1-10",
+    "type": "table",
+    "title": "Người dùng internet theo độ tuổi",
+    "prompt": "The table below shows the percentage of people in four age groups who used the internet at least once a week in 2010, 2015 and 2020.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "table",
+      "title": "Weekly internet users by age group (%)",
+      "unit": "%",
+      "categories": ["2010", "2015", "2020"],
+      "series": [
+        { "name": "16-24", "values": [88, 94, 98] },
+        { "name": "25-44", "values": [76, 86, 94] },
+        { "name": "45-64", "values": [51, 67, 82] },
+        { "name": "65 and over", "values": [18, 34, 57] }
+      ]
+    },
+    "sample": "The table shows the proportion of people in four age groups who went online at least once a week in 2010, 2015 and 2020.\n\nOverall, internet use increased in every age group throughout the period, and the younger the group, the more likely its members were to be online. However, the oldest group saw by far the fastest growth, so the differences between generations became much smaller.\n\nIn 2010, almost nine in ten people aged 16 to 24 used the internet weekly, at 88 per cent, compared with 76 per cent of those aged 25 to 44. The figures for the older groups were far lower: just over half of people aged 45 to 64 were online, and only 18 per cent of those aged 65 and over.\n\nBy 2020, the youngest group was close to saturation at 98 per cent, having risen by only 10 percentage points. The 25 to 44 group reached 94 per cent. Growth was much more dramatic among the older groups. The share of 45 to 64 year olds climbed by 31 points to 82 per cent, while the figure for people over 65 more than tripled to 57 per cent. Consequently, the gap between the youngest and oldest groups shrank from 70 to 41 percentage points.",
+    "sampleBand": 8,
+    "notes_vi": "DÀN Ý: Mở bài; Overview (tăng ở mọi nhóm, nhóm trẻ luôn cao hơn nhưng nhóm già tăng nhanh nhất => khoảng cách thu hẹp); thân bài 1: 2010; thân bài 2: 2020 và mức tăng.\nCÂU OVERVIEW MẪU: Overall, usage rose in every age group, and although younger people were always more likely to be online, the oldest group grew the fastest.\nTỪ VỰNG: at least once a week, be online / go online, saturation (bão hòa), more than tripled (hơn gấp ba), the gap shrank / narrowed, the younger the group, the more likely ... (so sánh kép), consequently, almost nine in ten.\nMẸO: bảng có yếu tố thời gian => mô tả như biểu đồ đường: nêu xu hướng + so sánh giữa các nhóm.\nLỖI HAY GẶP: nhầm 'age group' với 'age'; viết '16-24 years' thiếu 'aged'; không phân biệt 'percentage' và 'percentage point'."
+  },
+  {
+    "id": "t1-11",
+    "type": "process",
+    "title": "Quy trình sản xuất trà đen",
+    "prompt": "The diagram below shows how black tea is produced.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "process",
+      "title": "How black tea is made",
+      "steps": [
+        { "label": "Growing", "detail": "tea bushes are grown on hillside plantations" },
+        { "label": "Plucking", "detail": "the top two leaves and the bud are picked by hand" },
+        { "label": "Withering", "detail": "leaves are spread on racks for up to 18 hours to lose moisture" },
+        { "label": "Rolling", "detail": "machines twist and crush the leaves to release their juices" },
+        { "label": "Oxidising", "detail": "leaves are left in a humid room and turn dark brown" },
+        { "label": "Firing", "detail": "hot air dries the leaves and stops oxidation" },
+        { "label": "Sorting", "detail": "leaves are sieved and graded by size" },
+        { "label": "Packing", "detail": "tea is packed into sealed bags and boxes for sale" }
+      ]
+    },
+    "sample": "The diagram illustrates the process by which black tea is manufactured, from the growing of the plant to the final packaging. Overall, there are eight stages, and the process is largely mechanised apart from the picking of the leaves.\n\nThe process begins when tea bushes are cultivated on hillside plantations. Once the plants are mature, workers pick the top two leaves and the bud of each shoot by hand. These fresh leaves are then spread out on racks and left to wither for up to eighteen hours, during which time they lose much of their moisture.\n\nNext, the softened leaves are fed into machines, where they are twisted and crushed so that their juices are released. After that, the leaves are placed in a humid room for oxidation, a stage in which they gradually turn dark brown and develop their characteristic flavour.\n\nOnce oxidation is complete, the leaves are dried with hot air, which also stops the chemical change. Finally, the dried tea is sieved and graded according to the size of the leaves, and it is packed into sealed bags and boxes ready to be sold.",
+    "sampleBand": 7.5,
+    "notes_vi": "DÀN Ý: Mở bài (paraphrase + số bước); Overview (tổng số giai đoạn, bước nào thủ công / bước nào dùng máy, bắt đầu và kết thúc ở đâu); thân bài 1: các bước đầu (trồng - hái - làm héo); thân bài 2: các bước giữa/cuối (vò - oxy hóa - sấy - phân loại - đóng gói).\nCÂU OVERVIEW MẪU: Overall, there are eight stages, and the process is mostly mechanised apart from the picking of leaves.\nTỪ NỐI TRÌNH TỰ: begins with / first, then, next, after that, once ... is complete, during which time, subsequently, finally.\nTHỂ BỊ ĐỘNG: leaves are picked / are spread out / are crushed / are dried / are graded.\nTỪ VỰNG: plantation (đồn điền), wither (làm héo), oxidise (oxy hóa), humid (ẩm), sieve (rây), grade (phân loại), mechanised (cơ giới hóa).\nLỖI HAY GẶP: dùng thì quá khứ (quy trình dùng hiện tại đơn bị động); liệt kê 'step 1, step 2' thay vì dùng từ nối; không nêu overview."
+  },
+  {
+    "id": "t1-12",
+    "type": "process",
+    "title": "Quy trình tái chế chai nhựa",
+    "prompt": "The diagram below shows how plastic bottles are recycled into new products.\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "process",
+      "title": "How plastic bottles are recycled",
+      "steps": [
+        { "label": "Collection", "detail": "used bottles are collected from homes and recycling bins" },
+        { "label": "Sorting", "detail": "bottles are separated by plastic type and colour" },
+        { "label": "Washing", "detail": "labels, caps and dirt are removed" },
+        { "label": "Shredding", "detail": "the bottles are cut into small flakes" },
+        { "label": "Melting", "detail": "flakes are heated until they become liquid plastic" },
+        { "label": "Pelletising", "detail": "the liquid is cooled and cut into small pellets" },
+        { "label": "Manufacturing", "detail": "pellets are spun into fibre or moulded into new items" },
+        { "label": "Distribution", "detail": "finished products such as clothing and containers are sold" }
+      ]
+    },
+    "sample": "The diagram shows the stages involved in recycling used plastic bottles into new products. Overall, the process consists of eight steps, beginning with the collection of waste bottles and ending with the sale of finished goods.\n\nFirst, used bottles are gathered from households and public recycling bins and transported to a processing plant. There they are sorted according to the type of plastic and colour, so that different materials do not get mixed. The sorted bottles are then washed to remove labels, caps and dirt.\n\nIn the fourth stage, the clean bottles are shredded into small flakes. These flakes are subsequently heated until they melt into liquid plastic, which is cooled down and cut into tiny pellets. The pellets are the raw material for the next stage.\n\nDuring manufacturing, the pellets are either spun into fibre or moulded into new items. Finally, the finished products, which include clothing and plastic containers, are distributed and sold to customers. As a result, material that would otherwise be thrown away is given a second life.",
+    "sampleBand": 7.5,
+    "notes_vi": "DÀN Ý: Mở bài; Overview (8 bước, bắt đầu từ thu gom, kết thúc ở phân phối sản phẩm; đây là quy trình tuyến tính, không khép kín); thân bài 1: thu gom - phân loại - rửa; thân bài 2: nghiền - nấu chảy - tạo hạt - sản xuất - phân phối.\nCÂU OVERVIEW MẪU: Overall, there are eight stages, beginning with collection and ending with the sale of new products.\nTỪ VỰNG: collect / gather, sort (phân loại), shred (nghiền nhỏ), flakes (mảnh vụn), melt (nấu chảy), pellets (hạt nhựa), mould (đúc), fibre (sợi), raw material (nguyên liệu thô), be transported to.\nTỪ NỐI: first, then, subsequently, as a result, finally, which is then ... .\nMẸO: nhóm các bước nhỏ vào cùng một câu bằng mệnh đề quan hệ (which, where) để bài trôi chảy và đạt Coherence cao.\nLỖI HAY GẶP: chép nguyên văn nhãn của sơ đồ; dùng chủ động (workers shred) trong khi bị động tự nhiên hơn."
+  }
+]

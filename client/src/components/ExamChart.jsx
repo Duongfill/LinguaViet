@@ -8,7 +8,8 @@ export default function ExamChart({ chart }) {
   return (
     <figure className="exam-chart">
       <figcaption>{title}{unit && type !== 'pie' ? <span className="muted small"> ({unit})</span> : null}</figcaption>
-      {type === 'table' ? <Table categories={categories} series={series} unit={unit} />
+      {type === 'process' ? <Process steps={chart.steps || []} />
+        : type === 'table' ? <Table categories={categories} series={series} unit={unit} />
         : type === 'pie' ? <Pie categories={categories} series={series} />
           : <XY type={type} categories={categories} series={series} unit={unit} />}
       {type !== 'table' && type !== 'pie' && series.length > 1 && (
@@ -94,6 +95,21 @@ function Pie({ categories, series }) {
         {categories.map((c, i) => <span key={c}><i style={{ background: COLORS[i % COLORS.length] }} />{c}</span>)}
       </div>
     </div>
+  );
+}
+
+// Sơ đồ quy trình: các bước đánh số nối bằng mũi tên, tự xuống dòng theo bề ngang
+function Process({ steps }) {
+  return (
+    <ol className="process-flow">
+      {steps.map((s, i) => (
+        <li key={i} className="process-step">
+          <span className="process-num">{i + 1}</span>
+          <strong>{s.label}</strong>
+          {s.detail && <span className="small muted">{s.detail}</span>}
+        </li>
+      ))}
+    </ol>
   );
 }
 

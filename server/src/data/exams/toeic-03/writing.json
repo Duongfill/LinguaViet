@@ -1,0 +1,78 @@
+{
+  "q1_5": [
+    {
+      "scene": "👷🧱🏗️",
+      "alt": "A worker is carrying bricks at a construction site.",
+      "words": ["worker", "bricks"],
+      "samples": [
+        "A worker is carrying bricks at a construction site.",
+        "The worker is moving some bricks to the building."
+      ]
+    },
+    {
+      "scene": "👩🏋️💦",
+      "alt": "A woman is lifting weights in a gym.",
+      "words": ["lifting", "weights"],
+      "samples": [
+        "A woman is lifting heavy weights in the gym.",
+        "She is lifting weights to build her muscles."
+      ]
+    },
+    {
+      "scene": "🚚📦👨",
+      "alt": "A man is unloading boxes from a delivery truck.",
+      "words": ["boxes", "truck"],
+      "samples": [
+        "A man is unloading boxes from a truck.",
+        "The truck is full of boxes, and the man is taking them out."
+      ]
+    },
+    {
+      "scene": "👨‍💻⌨️☕",
+      "alt": "A programmer is typing on a laptop while drinking coffee.",
+      "words": ["while", "laptop"],
+      "samples": [
+        "A programmer is typing on a laptop while he drinks coffee.",
+        "While the man is working on his laptop, a cup of coffee is next to him."
+      ]
+    },
+    {
+      "scene": "👩‍⚖️⚖️📚",
+      "alt": "A lawyer is reading a thick law book because she has an important case.",
+      "words": ["because", "lawyer"],
+      "samples": [
+        "A lawyer is reading a thick book because she has an important case.",
+        "Because she has a trial tomorrow, the lawyer is studying a law book."
+      ]
+    }
+  ],
+  "q6_7": [
+    {
+      "email": {
+        "from": "Linh Tran <linh.tran@mailbox.example.com>",
+        "to": "Peak Gym Manager <manager@peakgym.example.com>",
+        "subject": "Freezing my membership",
+        "text": "Dear Fitness Manager,\n\nI have been a member of Peak Gym for six months, and I will travel to Da Nang for work next month. I would like to know whether I can freeze my membership while I am away. I also want to start personal training when I return, but I am not sure how the sessions work. Could you tell me how much they cost and how I can book them?\n\nThank you for your help.\n\nBest regards,\nLinh Tran"
+      },
+      "task": "Respond to the e-mail as the gym manager. In your e-mail, give TWO pieces of information and ask ONE question.",
+      "sample": "Dear Ms. Tran,\n\nThank you for your message, and congratulations on your trip to Da Nang. Yes, you can freeze your membership for up to two months. You only need to fill in a short form at the front desk before you leave, and no fee is charged for the first freeze. As for personal training, a one-hour session costs 25 dollars, and a package of ten sessions costs 200 dollars. You can book a trainer at the front desk or through our mobile app.\n\nBefore I prepare your plan, could you tell me what your main goal is, for example losing weight or building strength? This will help me to match you with the best trainer.\n\nWe look forward to seeing you again after your trip.\n\nBest regards,\nMark Evans\nManager, Peak Gym",
+      "notes_vi": "Đề yêu cầu đúng 2 thông tin + 1 câu hỏi, nên hãy đánh dấu rõ từng phần (thông tin 1: đóng băng thẻ; thông tin 2: giá và cách đặt buổi tập; câu hỏi: mục tiêu tập luyện). Lỗi hay gặp: trả lời thiếu một ý của email gốc, viết 'I want ask' thay vì 'I want to ask', quên mở bài/kết bài lịch sự, và hỏi nhiều hơn 1 câu. Nên dùng cấu trúc 'Yes, you can ...', 'You only need to ...' và 'Could you tell me ...?' cho tự nhiên."
+    },
+    {
+      "email": {
+        "from": "Daniel Cho <daniel.cho@ledgerpro.example.com>",
+        "to": "Isabel Ortiz <iortiz@northbridgeaccounting.example.com>",
+        "subject": "Installation of your new accounting software",
+        "text": "Dear Ms. Ortiz,\n\nThank you for choosing LedgerPro for your accounting department. Our team will install the new software at your firm next Monday. Before we begin, we need to know which employees will use the system so that we can create their accounts. We would also like to arrange a two-hour training session for your staff later this week. Please let me know which day and time would suit you best.\n\nSincerely,\nDaniel Cho\nCustomer Success, LedgerPro"
+      },
+      "task": "Respond to the e-mail as Ms. Ortiz, the office manager of the accounting firm. In your e-mail, answer TWO of the questions and make ONE request.",
+      "sample": "Dear Mr. Cho,\n\nThank you for your e-mail. We are pleased that the installation will start next Monday. Eight employees will use the system, and I will send you their names and e-mail addresses by tomorrow afternoon. The training session would be best on Thursday at 2 p.m., because most of our staff will be free at that time and the conference room will be available.\n\nI have one request. Some of our clients' files are very large, so could your technician copy our old data to the new system and check that nothing is missing? We cannot afford to lose any records during the busy tax season.\n\nPlease confirm the schedule when you have a moment.\n\nSincerely,\nIsabel Ortiz\nOffice Manager, Northbridge Accounting",
+      "notes_vi": "Đề yêu cầu trả lời 2 câu hỏi của email gốc (ai dùng phần mềm, ngày giờ đào tạo) và đưa ra 1 yêu cầu (request). Lỗi hay gặp: nhầm vai (viết như thể mình là Daniel Cho), trả lời quá chung chung mà không đưa chi tiết cụ thể như số nhân viên, ngày và giờ, hoặc nhầm 'request' với 'question'. Mẫu câu hữu ích: 'I would be grateful if you could ...', 'Could you please ...?', 'would be best on ...'. Nên kết bằng một câu xác nhận lịch."
+    }
+  ],
+  "q8": {
+    "prompt": "Do you agree or disagree with the following statement? Companies should provide free gym memberships to all of their employees. Give reasons and examples to support your opinion.",
+    "sample": "I agree that companies should offer free gym memberships to their employees, and I have three main reasons for this opinion.\n\nFirst, regular exercise improves health, and healthier employees are more productive. People who work at a desk all day often suffer from back pain, stress, and low energy. If a company pays for a gym, workers can exercise before work, during lunch, or after the day ends. In my experience, colleagues who exercise regularly concentrate better in meetings and rarely take sick leave. This means the company loses fewer working days, so the benefit is financial as well as personal.\n\nSecond, a gym membership is an attractive benefit that helps a company keep good staff. Salaries are important, but many young professionals also look for a pleasant workplace and a good lifestyle. When I compared two job offers last year, the company that included a fitness benefit felt more caring. Employees who feel valued are more loyal, and replacing a trained worker is much more expensive than paying for a membership.\n\nThird, exercising together builds teamwork. Colleagues who meet at a class or run on the treadmill next to each other get to know people from other departments. These friendly relationships make it easier to cooperate on projects later. Some firms even organize friendly sports competitions, which create a stronger team spirit than a formal training day.\n\nOf course, there are some disadvantages. A free membership costs money, and not every employee enjoys sports. Some workers may feel pressure to join even if they prefer to relax at home. However, a company can solve this problem by offering a choice, for example a gym pass, a yoga class, or a monthly wellness allowance. In this way, everyone can use the benefit in the way that suits them.\n\nIn conclusion, free gym memberships bring clear advantages: better health, higher loyalty, and stronger teamwork. Although the cost must be considered, I believe the long-term results are worth the investment, so I strongly support this idea.",
+    "notes_vi": "Cấu trúc 5 đoạn: mở bài nêu rõ quan điểm (agree) và số lý do; 3 đoạn thân bài, mỗi đoạn một lý do kèm ví dụ cá nhân; một đoạn nhượng bộ ngắn (nhược điểm + cách giải quyết); kết bài nhắc lại ý. Dùng từ nối First / Second / Third / However / In conclusion. Lỗi hay gặp: chỉ liệt kê ý mà không có ví dụ, viết quá ngắn (cần khoảng 300 từ), nhầm 'employee' với 'employer', thiếu mạo từ (a/the) và chia sai thì. Hãy dành 5 phút lập dàn ý trước khi viết và 3 phút cuối để soát lỗi."
+  }
+}

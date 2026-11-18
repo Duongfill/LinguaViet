@@ -1,0 +1,314 @@
+[
+  {
+    "id": "zh-01", "level": "HSK1", "topic_vi": "Tự giới thiệu bản thân",
+    "prompt": "请做一个简单的自我介绍(zìwǒ jièshào):你叫什么名字?你是哪国人?你多大?你喜欢做什么?",
+    "prompt_vi": "Hãy tự giới thiệu đơn giản: bạn tên gì, là người nước nào, bao nhiêu tuổi, thích làm gì.",
+    "min": 30,
+    "useful": [
+      { "term": "我叫 (wǒ jiào)", "meaning_vi": "tên tôi là" },
+      { "term": "岁 (suì)", "meaning_vi": "tuổi" },
+      { "term": "越南人 (Yuènánrén)", "meaning_vi": "người Việt Nam" },
+      { "term": "学生 (xuésheng)", "meaning_vi": "học sinh, sinh viên" },
+      { "term": "喜欢 (xǐhuan)", "meaning_vi": "thích" },
+      { "term": "认识 (rènshi)", "meaning_vi": "quen biết, làm quen" }
+    ],
+    "sample": "你好!我叫小明,我是越南人。我今年二十岁,是大学生。我住在河内,我家有四口人。我喜欢学汉语,我也喜欢听音乐。认识你很高兴!",
+    "sample_vi": "Xin chào! Tôi tên là Tiểu Minh, tôi là người Việt Nam. Năm nay tôi hai mươi tuổi, là sinh viên đại học. Tôi sống ở Hà Nội, nhà tôi có bốn người. Tôi thích học tiếng Trung, cũng thích nghe nhạc. Rất vui được làm quen với bạn!"
+  },
+  {
+    "id": "zh-02", "level": "HSK1", "topic_vi": "Gia đình của bạn",
+    "prompt": "请写一写你的家人(jiārén):你家有几口人?他们做什么工作?",
+    "prompt_vi": "Hãy viết về người thân trong gia đình: nhà bạn có mấy người, họ làm nghề gì.",
+    "min": 30,
+    "useful": [
+      { "term": "爸爸 (bàba)", "meaning_vi": "bố" },
+      { "term": "妈妈 (māma)", "meaning_vi": "mẹ" },
+      { "term": "哥哥 (gēge)", "meaning_vi": "anh trai" },
+      { "term": "妹妹 (mèimei)", "meaning_vi": "em gái" },
+      { "term": "医生 (yīshēng)", "meaning_vi": "bác sĩ" },
+      { "term": "工作 (gōngzuò)", "meaning_vi": "làm việc, công việc" },
+      { "term": "口 (kǒu)", "meaning_vi": "lượng từ cho số người trong gia đình" }
+    ],
+    "sample": "我家有五口人:爸爸、妈妈、哥哥、妹妹和我。爸爸是医生,妈妈是老师。哥哥在北京工作,妹妹在中学学习。我们住在一个大房子里,我很爱我的家。",
+    "sample_vi": "Nhà tôi có năm người: bố, mẹ, anh trai, em gái và tôi. Bố là bác sĩ, mẹ là giáo viên. Anh trai làm việc ở Bắc Kinh, em gái học ở trường cấp hai. Chúng tôi sống trong một ngôi nhà lớn, tôi rất yêu gia đình mình."
+  },
+  {
+    "id": "zh-03", "level": "HSK1", "topic_vi": "Thời tiết và một ngày của bạn",
+    "prompt": "请写一写今天的天气(tiānqì)和你今天做了什么。",
+    "prompt_vi": "Hãy viết về thời tiết hôm nay và những việc bạn đã làm trong ngày.",
+    "min": 30,
+    "useful": [
+      { "term": "天气 (tiānqì)", "meaning_vi": "thời tiết" },
+      { "term": "起床 (qǐchuáng)", "meaning_vi": "thức dậy" },
+      { "term": "上午 (shàngwǔ)", "meaning_vi": "buổi sáng" },
+      { "term": "下午 (xiàwǔ)", "meaning_vi": "buổi chiều" },
+      { "term": "晚上 (wǎnshang)", "meaning_vi": "buổi tối" },
+      { "term": "买东西 (mǎi dōngxi)", "meaning_vi": "mua đồ" },
+      { "term": "睡觉 (shuìjiào)", "meaning_vi": "đi ngủ" }
+    ],
+    "sample": "今天天气很好,不冷也不热。我早上七点起床,吃了米饭和鸡蛋。上午我去学校学汉语,下午和朋友去商店买东西。晚上我在家看电视,十点睡觉。",
+    "sample_vi": "Hôm nay thời tiết rất đẹp, không lạnh cũng không nóng. Sáng tôi dậy lúc bảy giờ, ăn cơm và trứng. Buổi sáng tôi đến trường học tiếng Trung, buổi chiều cùng bạn đi cửa hàng mua đồ. Buổi tối tôi ở nhà xem ti vi, mười giờ đi ngủ."
+  },
+  {
+    "id": "zh-04", "level": "HSK2", "topic_vi": "Cuối tuần của bạn",
+    "prompt": "请写一写上个周末(zhōumò)你做了什么,过得怎么样。",
+    "prompt_vi": "Hãy viết về những việc bạn đã làm cuối tuần trước và cảm nhận của bạn.",
+    "min": 50,
+    "useful": [
+      { "term": "周末 (zhōumò)", "meaning_vi": "cuối tuần" },
+      { "term": "先……然后…… (xiān… ránhòu…)", "meaning_vi": "trước… sau đó…" },
+      { "term": "一起 (yìqǐ)", "meaning_vi": "cùng nhau" },
+      { "term": "照相 (zhàoxiàng)", "meaning_vi": "chụp ảnh" },
+      { "term": "虽然……但是…… (suīrán… dànshì…)", "meaning_vi": "tuy… nhưng…" },
+      { "term": "觉得 (juéde)", "meaning_vi": "cảm thấy" },
+      { "term": "累 (lèi)", "meaning_vi": "mệt" }
+    ],
+    "sample": "上个周末我过得很开心。星期六早上我先去超市买了一些水果,然后给妈妈打了电话。下午我和朋友一起去公园玩,我们还照了很多照片。星期天天气不太好,我在家看了一个电影,还洗了衣服。虽然有点儿累,但是我觉得很高兴。",
+    "sample_vi": "Cuối tuần trước tôi trải qua rất vui. Sáng thứ Bảy tôi đi siêu thị mua một ít trái cây trước, sau đó gọi điện cho mẹ. Buổi chiều tôi cùng bạn đi chơi công viên, chúng tôi còn chụp rất nhiều ảnh. Chủ nhật thời tiết không tốt lắm, tôi ở nhà xem một bộ phim và giặt quần áo. Tuy hơi mệt nhưng tôi thấy rất vui."
+  },
+  {
+    "id": "zh-05", "level": "HSK2", "topic_vi": "Món ăn yêu thích",
+    "prompt": "请介绍一下你最喜欢的食物(shíwù):它是什么?你为什么喜欢它?",
+    "prompt_vi": "Hãy giới thiệu món ăn bạn thích nhất: đó là món gì, vì sao bạn thích.",
+    "min": 50,
+    "useful": [
+      { "term": "最 (zuì)", "meaning_vi": "nhất" },
+      { "term": "好喝 (hǎohē)", "meaning_vi": "ngon (đồ uống, canh)" },
+      { "term": "便宜 (piányi)", "meaning_vi": "rẻ" },
+      { "term": "饺子 (jiǎozi)", "meaning_vi": "sủi cảo" },
+      { "term": "老板 (lǎobǎn)", "meaning_vi": "ông chủ, chủ quán" },
+      { "term": "经常 (jīngcháng)", "meaning_vi": "thường xuyên" },
+      { "term": "如果 (rúguǒ)", "meaning_vi": "nếu" }
+    ],
+    "sample": "我最喜欢吃越南的河粉。河粉里有牛肉和青菜,汤很好喝。我每个星期都去一家小店吃两次,那里的老板很热情,价格也不贵。我也喜欢吃中国的饺子,可是我做得不太好。如果你来越南,我请你吃河粉。",
+    "sample_vi": "Món tôi thích ăn nhất là phở Việt Nam. Trong phở có thịt bò và rau xanh, nước dùng rất ngon. Mỗi tuần tôi đến một quán nhỏ ăn hai lần, ông chủ ở đó rất nhiệt tình, giá cũng không đắt. Tôi cũng thích ăn sủi cảo Trung Quốc, nhưng tôi làm chưa giỏi. Nếu bạn đến Việt Nam, tôi sẽ mời bạn ăn phở."
+  },
+  {
+    "id": "zh-06", "level": "HSK2", "topic_vi": "Người bạn thân",
+    "prompt": "请写一写你的好朋友(hǎo péngyou):他/她长什么样?你们常常一起做什么?",
+    "prompt_vi": "Hãy viết về người bạn thân: bạn ấy trông thế nào, hai người thường cùng làm gì.",
+    "min": 50,
+    "useful": [
+      { "term": "朋友 (péngyou)", "meaning_vi": "bạn bè" },
+      { "term": "个子高 (gèzi gāo)", "meaning_vi": "dáng cao" },
+      { "term": "踢足球 (tī zúqiú)", "meaning_vi": "đá bóng" },
+      { "term": "比 (bǐ)", "meaning_vi": "hơn (so sánh)" },
+      { "term": "帮助 (bāngzhù)", "meaning_vi": "giúp đỡ" },
+      { "term": "运动 (yùndòng)", "meaning_vi": "vận động, thể thao" },
+      { "term": "总是 (zǒngshì)", "meaning_vi": "luôn luôn" }
+    ],
+    "sample": "我有一个好朋友,他叫大卫。他比我大两岁,个子很高,眼睛大大的。他喜欢踢足球,也很爱笑。我们是在学校认识的,现在经常一起学习,一起运动。有问题的时候,他总是帮助我。我觉得他是一个很好的朋友。",
+    "sample_vi": "Tôi có một người bạn thân tên là David. Cậu ấy hơn tôi hai tuổi, dáng rất cao, mắt to. Cậu ấy thích đá bóng, cũng hay cười. Chúng tôi quen nhau ở trường, bây giờ thường cùng học, cùng tập thể thao. Khi tôi có vấn đề, cậu ấy luôn giúp tôi. Tôi thấy cậu ấy là một người bạn rất tốt."
+  },
+  {
+    "id": "zh-07", "level": "HSK3", "topic_vi": "Một chuyến du lịch",
+    "prompt": "请写一次你难忘的旅行(lǚxíng):你去了哪里?和谁一起去?做了什么?感觉怎么样?",
+    "prompt_vi": "Hãy viết về một chuyến du lịch khó quên: bạn đi đâu, đi với ai, làm gì và cảm nhận ra sao.",
+    "min": 80,
+    "useful": [
+      { "term": "旅游 (lǚyóu)", "meaning_vi": "du lịch" },
+      { "term": "风景 (fēngjǐng)", "meaning_vi": "phong cảnh" },
+      { "term": "爬山 (páshān)", "meaning_vi": "leo núi" },
+      { "term": "到处 (dàochù)", "meaning_vi": "khắp nơi" },
+      { "term": "小吃 (xiǎochī)", "meaning_vi": "món ăn vặt" },
+      { "term": "希望 (xīwàng)", "meaning_vi": "hy vọng" },
+      { "term": "过得太快 (guò de tài kuài)", "meaning_vi": "trôi qua quá nhanh" }
+    ],
+    "sample": "去年夏天,我和家人去了大叻旅游。我们坐飞机去的,一个小时就到了。那里的天气很凉快,到处都是花,风景非常漂亮。我们住在一个小酒店里,老板人很好,还告诉我们哪里的咖啡最好喝。白天我们爬山、拍照,晚上在街上买小吃。虽然只玩了三天,但是我觉得时间过得太快了。我希望明年还能再去一次。",
+    "sample_vi": "Mùa hè năm ngoái, tôi cùng gia đình đi du lịch Đà Lạt. Chúng tôi đi bằng máy bay, chỉ một tiếng là đến. Thời tiết ở đó rất mát mẻ, khắp nơi đều có hoa, phong cảnh vô cùng đẹp. Chúng tôi ở một khách sạn nhỏ, ông chủ rất tốt, còn chỉ cho chúng tôi quán cà phê nào ngon nhất. Ban ngày chúng tôi leo núi, chụp ảnh, buổi tối mua đồ ăn vặt trên phố. Dù chỉ chơi ba ngày nhưng tôi thấy thời gian trôi quá nhanh. Tôi hy vọng sang năm có thể đi thêm một lần nữa."
+  },
+  {
+    "id": "zh-08", "level": "HSK3", "topic_vi": "Sở thích của bạn",
+    "prompt": "请介绍一下你的爱好(àihào):你是怎么开始的?它给你的生活带来了什么变化?",
+    "prompt_vi": "Hãy giới thiệu sở thích của bạn: bạn bắt đầu thế nào và nó mang lại thay đổi gì cho cuộc sống.",
+    "min": 80,
+    "useful": [
+      { "term": "爱好 (àihào)", "meaning_vi": "sở thích" },
+      { "term": "锻炼 (duànliàn)", "meaning_vi": "rèn luyện, tập thể dục" },
+      { "term": "慢慢 (mànmàn)", "meaning_vi": "dần dần" },
+      { "term": "不但……而且…… (búdàn… érqiě…)", "meaning_vi": "không những… mà còn…" },
+      { "term": "坚持 (jiānchí)", "meaning_vi": "kiên trì" },
+      { "term": "心情 (xīnqíng)", "meaning_vi": "tâm trạng" },
+      { "term": "只要……就…… (zhǐyào… jiù…)", "meaning_vi": "chỉ cần… thì…" }
+    ],
+    "sample": "我的爱好是跑步。以前我很少锻炼,经常觉得累。后来一个朋友带我去公园跑步,我慢慢就爱上了。现在我每天早上六点起床,跑三十分钟,然后再去上班。跑步不但让我身体变好了,而且让我的心情也很好。如果下雨,我就在家做运动。我觉得只要坚持下去,每个人都可以做到。",
+    "sample_vi": "Sở thích của tôi là chạy bộ. Trước đây tôi ít tập thể dục, thường cảm thấy mệt. Sau đó một người bạn rủ tôi ra công viên chạy bộ, dần dần tôi yêu thích nó. Bây giờ mỗi sáng tôi dậy lúc sáu giờ, chạy ba mươi phút rồi mới đi làm. Chạy bộ không những làm sức khỏe tôi tốt lên mà tâm trạng cũng tốt hơn. Nếu trời mưa, tôi tập ở nhà. Tôi nghĩ chỉ cần kiên trì thì ai cũng làm được."
+  },
+  {
+    "id": "zh-09", "level": "HSK3", "topic_vi": "Quê hương của bạn",
+    "prompt": "请介绍一下你的家乡(jiāxiāng):它在哪里?有什么特点?你为什么喜欢它?",
+    "prompt_vi": "Hãy giới thiệu quê hương bạn: ở đâu, có đặc điểm gì và vì sao bạn yêu quý nơi đó.",
+    "min": 80,
+    "useful": [
+      { "term": "家乡 (jiāxiāng)", "meaning_vi": "quê hương" },
+      { "term": "靠海 (kào hǎi)", "meaning_vi": "gần biển" },
+      { "term": "有名 (yǒumíng)", "meaning_vi": "nổi tiếng" },
+      { "term": "海鲜 (hǎixiān)", "meaning_vi": "hải sản" },
+      { "term": "游客 (yóukè)", "meaning_vi": "du khách" },
+      { "term": "热闹 (rènao)", "meaning_vi": "náo nhiệt" },
+      { "term": "放假 (fàngjià)", "meaning_vi": "nghỉ lễ, nghỉ học" }
+    ],
+    "sample": "我的家乡在海防,是一个靠海的城市。那里的夏天很热,冬天比较冷。海防最有名的是海鲜,又新鲜又便宜。很多游客来这里玩,因为海边很漂亮。我家附近有一个大市场,每天早上都很热闹。我很爱我的家乡,虽然现在在河内学习,但是放假的时候我一定会回去看看。",
+    "sample_vi": "Quê tôi ở Hải Phòng, là một thành phố ven biển. Mùa hè ở đó rất nóng, mùa đông khá lạnh. Nổi tiếng nhất ở Hải Phòng là hải sản, vừa tươi vừa rẻ. Nhiều du khách đến đây chơi vì bãi biển rất đẹp. Gần nhà tôi có một khu chợ lớn, sáng nào cũng rất náo nhiệt. Tôi rất yêu quê hương, tuy bây giờ đang học ở Hà Nội nhưng khi nghỉ lễ tôi nhất định sẽ về thăm."
+  },
+  {
+    "id": "zh-10", "level": "HSK4", "topic_vi": "Công việc mơ ước",
+    "prompt": "毕业以后你想做什么工作?请说明原因,并写一写你为此做了哪些准备。",
+    "prompt_vi": "Sau khi tốt nghiệp bạn muốn làm nghề gì? Hãy nêu lý do và viết về những chuẩn bị bạn đã làm.",
+    "min": 120,
+    "useful": [
+      { "term": "毕业 (bìyè)", "meaning_vi": "tốt nghiệp" },
+      { "term": "实习 (shíxí)", "meaning_vi": "thực tập" },
+      { "term": "经验 (jīngyàn)", "meaning_vi": "kinh nghiệm" },
+      { "term": "耐心 (nàixīn)", "meaning_vi": "kiên nhẫn" },
+      { "term": "合作 (hézuò)", "meaning_vi": "hợp tác" },
+      { "term": "为了 (wèile)", "meaning_vi": "để, nhằm" },
+      { "term": "满意 (mǎnyì)", "meaning_vi": "hài lòng" }
+    ],
+    "sample": "大学毕业以后,我想做一名网站设计师。我从小就喜欢电脑,上大学时选了相关的专业。为了得到更多的经验,我利用假期在一家公司实习了两个月。刚开始的时候,我什么都不会,经常犯错误,可是同事们都很耐心地教我。通过这次实习,我不仅学会了很多技术,还明白了和别人合作的重要性。虽然现在找工作比较难,但是我相信只要努力准备,一定会找到满意的工作。",
+    "sample_vi": "Sau khi tốt nghiệp đại học, tôi muốn làm nhà thiết kế web. Từ nhỏ tôi đã thích máy tính, khi vào đại học tôi chọn chuyên ngành liên quan. Để có thêm kinh nghiệm, tôi tranh thủ kỳ nghỉ thực tập hai tháng tại một công ty. Lúc mới bắt đầu tôi chẳng biết gì, thường mắc lỗi, nhưng các đồng nghiệp đều kiên nhẫn dạy tôi. Qua đợt thực tập này, tôi không chỉ học được nhiều kỹ thuật mà còn hiểu tầm quan trọng của việc hợp tác với người khác. Tuy bây giờ tìm việc khá khó, nhưng tôi tin chỉ cần cố gắng chuẩn bị, nhất định sẽ tìm được công việc ưng ý."
+  },
+  {
+    "id": "zh-11", "level": "HSK4", "topic_vi": "Mua sắm trực tuyến",
+    "prompt": "你喜欢网上购物(wǎngshàng gòuwù)吗?请谈谈它的优点和缺点,并写一次你自己的购物经历。",
+    "prompt_vi": "Bạn có thích mua sắm trực tuyến không? Hãy bàn về ưu, nhược điểm và kể một lần mua sắm của chính bạn.",
+    "min": 120,
+    "useful": [
+      { "term": "普遍 (pǔbiàn)", "meaning_vi": "phổ biến" },
+      { "term": "质量 (zhìliàng)", "meaning_vi": "chất lượng" },
+      { "term": "退货 (tuìhuò)", "meaning_vi": "trả hàng" },
+      { "term": "尺码 (chǐmǎ)", "meaning_vi": "cỡ, size" },
+      { "term": "评价 (píngjià)", "meaning_vi": "đánh giá" },
+      { "term": "……是……,但是…… (…shì…, dànshì…)", "meaning_vi": "…thì… nhưng…" },
+      { "term": "优点 (yōudiǎn)", "meaning_vi": "ưu điểm" },
+      { "term": "缺点 (quēdiǎn)", "meaning_vi": "nhược điểm" }
+    ],
+    "sample": "现在网上购物越来越普遍了。我自己也经常在网上买衣服和书,因为不用出门,价格往往比商店便宜,而且送货很快。不过网购也有缺点,比如东西的质量有时和照片不一样,退货也比较麻烦。上个月我买了一双鞋,收到以后发现尺码太小,最后只好送给了弟弟。从那以后,我买东西以前都会先看看别人的评价。我觉得网购方便是方便,但是我们应该小心,不要买太多不需要的东西。",
+    "sample_vi": "Ngày nay mua sắm trực tuyến ngày càng phổ biến. Bản thân tôi cũng thường mua quần áo và sách trên mạng, vì không cần ra khỏi nhà, giá thường rẻ hơn cửa hàng mà giao hàng lại nhanh. Tuy nhiên mua hàng online cũng có nhược điểm, chẳng hạn chất lượng đồ đôi khi không giống trong ảnh, trả hàng cũng khá phiền phức. Tháng trước tôi mua một đôi giày, nhận được mới thấy size quá nhỏ, cuối cùng đành tặng em trai. Từ đó về sau, trước khi mua đồ tôi đều xem đánh giá của người khác trước. Tôi thấy mua sắm online tiện thì tiện, nhưng chúng ta nên cẩn thận, đừng mua quá nhiều thứ không cần thiết."
+  },
+  {
+    "id": "zh-12", "level": "HSK4", "topic_vi": "Một trải nghiệm khó quên",
+    "prompt": "请写一次让你难忘的经历(jīnglì),说明发生了什么,你是怎么解决问题的,以及你从中学到了什么。",
+    "prompt_vi": "Hãy viết về một trải nghiệm khó quên: chuyện gì đã xảy ra, bạn giải quyết ra sao và rút ra được điều gì.",
+    "min": 120,
+    "useful": [
+      { "term": "难忘 (nánwàng)", "meaning_vi": "khó quên" },
+      { "term": "适应 (shìyìng)", "meaning_vi": "thích nghi" },
+      { "term": "主动 (zhǔdòng)", "meaning_vi": "chủ động" },
+      { "term": "熟悉 (shúxī)", "meaning_vi": "quen thuộc, làm quen" },
+      { "term": "独立 (dúlì)", "meaning_vi": "tự lập" },
+      { "term": "困难 (kùnnan)", "meaning_vi": "khó khăn" },
+      { "term": "请教 (qǐngjiào)", "meaning_vi": "xin chỉ giáo, hỏi ý kiến" }
+    ],
+    "sample": "去年我第一次一个人去国外学习,这是我最难忘的经历。刚到的时候,我连地铁都不会坐,有一次还走错了路,天黑了才找到宿舍。那时候我特别想家,晚上常常给妈妈打电话。后来,一位当地的同学主动帮助我,带我熟悉了学校和附近的环境,我们还成了好朋友。慢慢地,我不但适应了新的生活,而且变得更独立了。这次经历让我明白,遇到困难的时候不要害怕,只要愿意向别人请教,问题总会解决的。",
+    "sample_vi": "Năm ngoái lần đầu tiên tôi một mình ra nước ngoài du học, đó là trải nghiệm khó quên nhất của tôi. Lúc mới đến, tôi còn không biết đi tàu điện ngầm, có lần còn đi nhầm đường, trời tối mới tìm được ký túc xá. Khi đó tôi nhớ nhà vô cùng, buổi tối thường gọi điện cho mẹ. Sau đó, một bạn học người bản địa chủ động giúp tôi, dẫn tôi làm quen với trường và khu vực xung quanh, chúng tôi còn trở thành bạn tốt. Dần dần, tôi không chỉ thích nghi với cuộc sống mới mà còn trở nên tự lập hơn. Trải nghiệm này giúp tôi hiểu rằng khi gặp khó khăn đừng sợ hãi, chỉ cần sẵn lòng hỏi người khác thì vấn đề rồi sẽ được giải quyết."
+  },
+  {
+    "id": "zh-13", "level": "HSK5", "topic_vi": "Bảo vệ môi trường",
+    "prompt": "随着经济的发展,环境问题越来越严重。请谈谈你对环境保护的看法,并说明我们每个人可以做些什么。",
+    "prompt_vi": "Cùng với sự phát triển kinh tế, vấn đề môi trường ngày càng nghiêm trọng. Hãy nêu quan điểm về bảo vệ môi trường và mỗi người có thể làm gì.",
+    "min": 200,
+    "useful": [
+      { "term": "随着 (suízhe)", "meaning_vi": "cùng với, theo đà" },
+      { "term": "污染 (wūrǎn)", "meaning_vi": "ô nhiễm" },
+      { "term": "威胁 (wēixié)", "meaning_vi": "đe dọa" },
+      { "term": "承担 (chéngdān)", "meaning_vi": "gánh vác, đảm nhận" },
+      { "term": "义务 (yìwù)", "meaning_vi": "nghĩa vụ" },
+      { "term": "垃圾分类 (lājī fēnlèi)", "meaning_vi": "phân loại rác" },
+      { "term": "养成 (yǎngchéng)", "meaning_vi": "hình thành (thói quen)" },
+      { "term": "总之 (zǒngzhī)", "meaning_vi": "tóm lại" }
+    ],
+    "sample": "随着经济的发展,环境问题越来越引起人们的关注。空气污染、垃圾增多、水资源浪费等现象,不仅影响我们的健康,而且威胁着子孙后代的生活。在我看来,保护环境不是政府一个人的责任,而是每个人都应该承担的义务。首先,我们可以从身边的小事做起,比如出门自带购物袋,尽量少用一次性筷子和塑料瓶,垃圾要分类扔掉。其次,选择公共交通或者骑自行车出行,能够减少汽车排放的废气。此外,家长和学校也应该加强对孩子的环保教育,让他们从小养成良好的习惯。总之,只要大家共同努力,哪怕每个人只改变一点点,我们的地球也会变得更干净、更美丽。",
+    "sample_vi": "Cùng với sự phát triển kinh tế, vấn đề môi trường ngày càng thu hút sự quan tâm của mọi người. Ô nhiễm không khí, rác thải gia tăng, lãng phí nguồn nước... không chỉ ảnh hưởng đến sức khỏe của chúng ta mà còn đe dọa cuộc sống của các thế hệ mai sau. Theo tôi, bảo vệ môi trường không phải trách nhiệm riêng của chính phủ mà là nghĩa vụ mỗi người đều phải gánh vác. Trước hết, chúng ta có thể bắt đầu từ những việc nhỏ quanh mình, ví dụ ra ngoài tự mang túi mua sắm, cố gắng ít dùng đũa dùng một lần và chai nhựa, rác phải được phân loại trước khi bỏ. Tiếp theo, chọn phương tiện công cộng hoặc đi xe đạp có thể giảm khí thải của ô tô. Ngoài ra, phụ huynh và nhà trường cũng nên tăng cường giáo dục môi trường cho trẻ để các em hình thành thói quen tốt từ nhỏ. Tóm lại, chỉ cần mọi người cùng cố gắng, dù mỗi người chỉ thay đổi một chút, Trái Đất của chúng ta cũng sẽ trở nên sạch hơn, đẹp hơn."
+  },
+  {
+    "id": "zh-14", "level": "HSK5", "topic_vi": "Áp lực và sức khỏe",
+    "prompt": "现代人的压力越来越大。请分析压力产生的原因,并谈谈你是如何缓解压力、保持身心健康的。",
+    "prompt_vi": "Con người hiện đại chịu áp lực ngày càng lớn. Hãy phân tích nguyên nhân gây áp lực và kể bạn giảm căng thẳng, giữ sức khỏe thể chất lẫn tinh thần như thế nào.",
+    "min": 200,
+    "useful": [
+      { "term": "压力 (yālì)", "meaning_vi": "áp lực" },
+      { "term": "失眠 (shīmián)", "meaning_vi": "mất ngủ" },
+      { "term": "焦虑 (jiāolǜ)", "meaning_vi": "lo âu" },
+      { "term": "缓解 (huǎnjiě)", "meaning_vi": "giảm bớt, làm dịu" },
+      { "term": "心态 (xīntài)", "meaning_vi": "tâm thế, tâm lý" },
+      { "term": "规律 (guīlǜ)", "meaning_vi": "quy luật, đều đặn" },
+      { "term": "毕竟 (bìjìng)", "meaning_vi": "dù sao thì, rốt cuộc" },
+      { "term": "就……而言 (jiù… éryán)", "meaning_vi": "xét về…, đối với…" }
+    ],
+    "sample": "现代社会节奏很快,不少年轻人都感到压力很大。工作、学习、人际关系,甚至是对未来的担心,都可能让人失眠、焦虑。长期的压力如果得不到缓解,就会对身体造成严重的伤害。我认为,面对压力,首先要学会调整心态,不要给自己定过高的目标,遇到困难时也不必过分责怪自己。其次,保持规律的生活很重要,按时睡觉、合理饮食、经常运动,都能帮助我们放松心情。就我个人而言,每当感到紧张,我就会去公园散步,或者和朋友聊聊天,这样烦恼往往会减轻不少。毕竟,健康才是一切的基础,只有身心都健康,我们才能更好地面对生活中的各种挑战。",
+    "sample_vi": "Xã hội hiện đại nhịp sống rất nhanh, không ít người trẻ cảm thấy áp lực lớn. Công việc, học tập, các mối quan hệ, thậm chí nỗi lo về tương lai đều có thể khiến người ta mất ngủ, lo âu. Áp lực kéo dài nếu không được giải tỏa sẽ gây tổn hại nghiêm trọng cho cơ thể. Tôi cho rằng, khi đối mặt với áp lực, trước hết cần học cách điều chỉnh tâm thế, đừng đặt mục tiêu quá cao cho bản thân, gặp khó khăn cũng không cần tự trách quá mức. Tiếp theo, giữ nếp sinh hoạt đều đặn rất quan trọng: đi ngủ đúng giờ, ăn uống hợp lý, thường xuyên vận động đều giúp chúng ta thư giãn. Riêng bản thân tôi, mỗi khi căng thẳng, tôi thường ra công viên đi dạo hoặc trò chuyện với bạn bè, như vậy phiền muộn thường giảm đi nhiều. Suy cho cùng, sức khỏe là nền tảng của mọi thứ, chỉ khi cả thân và tâm đều khỏe mạnh, chúng ta mới đối mặt tốt hơn với đủ loại thử thách trong cuộc sống."
+  },
+  {
+    "id": "zh-15", "level": "HSK5", "topic_vi": "Lễ hội truyền thống",
+    "prompt": "请介绍一个你们国家的传统节日:它是怎么庆祝的?有哪些习俗?你对它有什么感受?",
+    "prompt_vi": "Hãy giới thiệu một lễ hội truyền thống của nước bạn: đón như thế nào, có những phong tục gì và bạn cảm nhận ra sao.",
+    "min": 200,
+    "useful": [
+      { "term": "传统 (chuántǒng)", "meaning_vi": "truyền thống" },
+      { "term": "团圆 (tuányuán)", "meaning_vi": "đoàn viên, sum họp" },
+      { "term": "习俗 (xísú)", "meaning_vi": "phong tục" },
+      { "term": "拜年 (bàinián)", "meaning_vi": "chúc Tết" },
+      { "term": "吉祥 (jíxiáng)", "meaning_vi": "may mắn, tốt lành" },
+      { "term": "祝愿 (zhùyuàn)", "meaning_vi": "lời chúc" },
+      { "term": "珍惜 (zhēnxī)", "meaning_vi": "trân trọng" },
+      { "term": "除了……,还…… (chúle…, hái…)", "meaning_vi": "ngoài… ra còn…" }
+    ],
+    "sample": "在我的国家,春节是一年中最重要的传统节日。临近春节,家家户户都会打扫房子、准备年货,在外地工作的人也会想办法赶回家,和家人团聚。除夕那天,全家人围在一起吃团圆饭,孩子们最期待的是长辈给的红包。初一早上,大家互相拜年,说一些吉祥的话,表达对新一年的美好祝愿。除了这些习俗,各地还有舞龙舞狮、逛花市等丰富多彩的活动,这些活动让节日充满了欢乐的气氛,也让不同年龄的人都能参与其中。随着生活节奏的加快,有人觉得年味儿越来越淡了,但我觉得,只要我们珍惜和家人在一起的时光,传统节日的意义就不会消失。",
+    "sample_vi": "Ở nước tôi, Tết Nguyên đán là lễ hội truyền thống quan trọng nhất trong năm. Gần Tết, nhà nhà đều dọn dẹp nhà cửa, chuẩn bị đồ Tết, những người làm việc xa cũng tìm cách về nhà để sum họp cùng gia đình. Vào đêm giao thừa, cả nhà quây quần ăn bữa cơm đoàn viên, điều bọn trẻ mong chờ nhất là phong bì lì xì của người lớn. Sáng mùng một, mọi người chúc Tết lẫn nhau, nói những lời tốt lành, bày tỏ lời chúc tốt đẹp cho năm mới. Ngoài những phong tục này, mỗi nơi còn có các hoạt động phong phú như múa lân múa rồng, đi chợ hoa, những hoạt động này khiến lễ hội tràn ngập không khí vui tươi và để người ở mọi lứa tuổi đều có thể tham gia. Cùng với nhịp sống ngày càng nhanh, có người cảm thấy không khí Tết nhạt dần, nhưng tôi nghĩ, chỉ cần chúng ta trân trọng khoảng thời gian bên gia đình thì ý nghĩa của ngày lễ truyền thống sẽ không mất đi."
+  },
+  {
+    "id": "zh-16", "level": "HSK6", "topic_vi": "Trí tuệ nhân tạo và quyền riêng tư",
+    "prompt": "人工智能(réngōng zhìnéng)正在深刻地改变我们的生活。请谈谈这项技术带来的便利与风险,并提出你的建议。",
+    "prompt_vi": "Trí tuệ nhân tạo đang thay đổi sâu sắc cuộc sống của chúng ta. Hãy bàn về tiện ích và rủi ro mà công nghệ này mang lại, đồng thời đưa ra kiến nghị của bạn.",
+    "min": 300,
+    "useful": [
+      { "term": "突飞猛进 (tūfēi měngjìn)", "meaning_vi": "tiến bộ vượt bậc" },
+      { "term": "渗透 (shèntòu)", "meaning_vi": "thẩm thấu, len lỏi vào" },
+      { "term": "前所未有 (qiánsuǒwèiyǒu)", "meaning_vi": "chưa từng có" },
+      { "term": "泄露 (xièlòu)", "meaning_vi": "làm lộ, rò rỉ" },
+      { "term": "滥用 (lànyòng)", "meaning_vi": "lạm dụng" },
+      { "term": "取代 (qǔdài)", "meaning_vi": "thay thế" },
+      { "term": "法律法规 (fǎlǜ fǎguī)", "meaning_vi": "luật pháp và quy định" },
+      { "term": "造福 (zàofú)", "meaning_vi": "mang lại phúc lợi" }
+    ],
+    "sample": "近年来,人工智能技术突飞猛进,已经渗透到我们生活的方方面面。从智能手机里的语音助手,到医院里辅助医生诊断的系统,再到工厂里不知疲倦的机器人,人工智能在提高效率、降低成本的同时,也为人们带来了前所未有的便利。然而,任何事物都有两面性,这项技术的普及同样引发了一系列值得深思的问题。其一,为了让算法更加精准,企业往往需要收集大量的个人数据,一旦这些信息被泄露或者滥用,用户的隐私将无从保障。其二,自动化可能取代一部分重复性的工作,使得相关行业的从业者面临失业的风险。对此,我认为政府应当尽快完善相关法律法规,明确数据使用的界限,并加大对违法行为的惩处力度;企业则应当承担起社会责任,在追求利润的同时尊重用户的权利;而我们每个人也要提高警惕,不轻易透露个人信息,并不断学习新的技能,以适应时代的变化。只有多方携手,才能让科技真正造福人类,而不是成为新的隐患。",
+    "sample_vi": "Những năm gần đây, công nghệ trí tuệ nhân tạo tiến bộ vượt bậc và đã thấm vào mọi mặt đời sống của chúng ta. Từ trợ lý giọng nói trong điện thoại thông minh, đến hệ thống hỗ trợ bác sĩ chẩn đoán trong bệnh viện, rồi những chú robot không biết mệt mỏi trong nhà máy, trí tuệ nhân tạo vừa nâng cao hiệu suất, giảm chi phí, vừa mang lại cho con người sự tiện lợi chưa từng có. Tuy nhiên, sự vật nào cũng có hai mặt, việc phổ cập công nghệ này cũng làm nảy sinh hàng loạt vấn đề đáng suy ngẫm. Thứ nhất, để thuật toán chính xác hơn, doanh nghiệp thường phải thu thập lượng lớn dữ liệu cá nhân, một khi thông tin này bị rò rỉ hoặc lạm dụng, quyền riêng tư của người dùng sẽ không còn gì bảo đảm. Thứ hai, tự động hóa có thể thay thế một phần công việc lặp lại, khiến người làm trong các ngành liên quan đối mặt nguy cơ thất nghiệp. Về điều này, tôi cho rằng chính phủ cần sớm hoàn thiện luật pháp và quy định liên quan, làm rõ ranh giới sử dụng dữ liệu, đồng thời tăng cường xử phạt hành vi vi phạm; doanh nghiệp cần gánh vác trách nhiệm xã hội, tôn trọng quyền của người dùng trong khi theo đuổi lợi nhuận; còn mỗi chúng ta cũng cần nâng cao cảnh giác, không dễ dàng tiết lộ thông tin cá nhân và không ngừng học kỹ năng mới để thích ứng với sự thay đổi của thời đại. Chỉ khi nhiều bên cùng chung tay, công nghệ mới thật sự mang lại phúc lợi cho nhân loại chứ không trở thành mối họa mới."
+  },
+  {
+    "id": "zh-17", "level": "HSK6", "topic_vi": "Truyền thừa văn hóa truyền thống",
+    "prompt": "在全球化的背景下,如何传承和创新传统文化?请结合具体的例子,谈谈你的看法。",
+    "prompt_vi": "Trong bối cảnh toàn cầu hóa, làm thế nào để truyền thừa và đổi mới văn hóa truyền thống? Hãy nêu quan điểm của bạn kèm ví dụ cụ thể.",
+    "min": 300,
+    "useful": [
+      { "term": "全球化 (quánqiúhuà)", "meaning_vi": "toàn cầu hóa" },
+      { "term": "传承 (chuánchéng)", "meaning_vi": "truyền thừa, kế thừa" },
+      { "term": "失传 (shīchuán)", "meaning_vi": "thất truyền" },
+      { "term": "墨守成规 (mòshǒu chéngguī)", "meaning_vi": "bảo thủ, giữ nếp cũ" },
+      { "term": "精髓 (jīngsuǐ)", "meaning_vi": "tinh túy" },
+      { "term": "赋予 (fùyǔ)", "meaning_vi": "trao cho, ban cho" },
+      { "term": "相得益彰 (xiāngdé yìzhāng)", "meaning_vi": "bổ trợ lẫn nhau, càng thêm rạng rỡ" },
+      { "term": "扶持 (fúchí)", "meaning_vi": "nâng đỡ, hỗ trợ" }
+    ],
+    "sample": "在全球化的浪潮中,传统文化的传承与创新成为一个备受争议的话题。一方面,随着外来文化的大量涌入,年轻一代对本民族的传统技艺、民间戏曲和古老习俗逐渐失去了兴趣,不少珍贵的文化遗产面临失传的危险。另一方面,也有人认为,文化本身就是不断发展的,一味地墨守成规只会使传统变得僵化,失去生命力。依我之见,这两种观点并不矛盾。保护传统,并不意味着原封不动地保存,而是要在尊重其精髓的基础上,赋予它新的时代内涵。比如,近年来不少博物馆借助数字技术,把文物“搬”到网络上,让远在千里之外的人也能欣赏;一些年轻设计师把传统图案融入时尚服装,深受消费者的喜爱。这些尝试表明,只要方法得当,传统与现代完全可以相得益彰。当然,文化的传承离不开教育和政策的支持,学校应当开设相关课程,政府也应当给予民间艺人必要的扶持。唯有如此,我们的文化之根才能深深扎下,枝叶才能更加繁茂。",
+    "sample_vi": "Trong làn sóng toàn cầu hóa, việc truyền thừa và đổi mới văn hóa truyền thống trở thành một chủ đề gây nhiều tranh luận. Một mặt, cùng với sự tràn vào ồ ạt của văn hóa ngoại lai, thế hệ trẻ dần mất hứng thú với nghề thủ công truyền thống, hí khúc dân gian và phong tục cổ xưa của dân tộc mình, không ít di sản văn hóa quý giá đứng trước nguy cơ thất truyền. Mặt khác, cũng có người cho rằng bản thân văn hóa luôn phát triển không ngừng, cứ khư khư giữ nếp cũ chỉ khiến truyền thống trở nên cứng nhắc, mất sức sống. Theo tôi, hai quan điểm này không mâu thuẫn. Bảo vệ truyền thống không có nghĩa là giữ nguyên xi, mà là trên cơ sở tôn trọng tinh túy của nó, trao cho nó nội hàm mới của thời đại. Chẳng hạn, mấy năm gần đây không ít bảo tàng nhờ công nghệ số đã đưa cổ vật lên mạng, để người ở xa ngàn dặm cũng có thể thưởng thức; một số nhà thiết kế trẻ đưa họa tiết truyền thống vào thời trang, được người tiêu dùng yêu thích. Những thử nghiệm này cho thấy, chỉ cần phương pháp đúng đắn, truyền thống và hiện đại hoàn toàn có thể bổ trợ cho nhau. Tất nhiên, việc truyền thừa văn hóa không thể thiếu sự hỗ trợ của giáo dục và chính sách, nhà trường nên mở các khóa học liên quan, chính phủ cũng nên có sự nâng đỡ cần thiết cho các nghệ nhân dân gian. Chỉ như vậy, cội rễ văn hóa của chúng ta mới bám sâu, cành lá mới thêm sum suê."
+  },
+  {
+    "id": "zh-18", "level": "HSK6", "topic_vi": "Quan niệm về giáo dục",
+    "prompt": "有人认为考试成绩是衡量学生的唯一标准,也有人主张教育应当培养全面发展的人。你怎么看?请阐述你的观点。",
+    "prompt_vi": "Có người cho rằng điểm thi là tiêu chuẩn duy nhất để đánh giá học sinh, người khác lại chủ trương giáo dục phải đào tạo con người phát triển toàn diện. Bạn nghĩ sao? Hãy trình bày quan điểm.",
+    "min": 300,
+    "useful": [
+      { "term": "衡量 (héngliáng)", "meaning_vi": "cân nhắc, đánh giá" },
+      { "term": "倾向于 (qīngxiàng yú)", "meaning_vi": "nghiêng về" },
+      { "term": "不可否认 (bùkě fǒurèn)", "meaning_vi": "không thể phủ nhận" },
+      { "term": "死记硬背 (sǐjì yìngbèi)", "meaning_vi": "học vẹt" },
+      { "term": "激发 (jīfā)", "meaning_vi": "khơi dậy, kích thích" },
+      { "term": "盲目攀比 (mángmù pānbǐ)", "meaning_vi": "so bì một cách mù quáng" },
+      { "term": "终身学习 (zhōngshēn xuéxí)", "meaning_vi": "học tập suốt đời" },
+      { "term": "并不意味着 (bìng bù yìwèizhe)", "meaning_vi": "không có nghĩa là" }
+    ],
+    "sample": "有人认为,考试成绩是衡量学生优劣的唯一标准;也有人主张,教育的目的应当是培养全面发展的人。对于这一问题,我倾向于后一种看法。不可否认,考试在一定程度上能够检验学生对知识的掌握程度,也为选拔人才提供了相对公平的依据。然而,如果整个教育体系都围绕分数运转,学生就容易陷入死记硬背的怪圈,既缺乏独立思考的能力,也缺少创造力和实践经验。更严重的是,过重的课业负担使许多孩子丧失了学习的兴趣,甚至产生心理问题。真正理想的教育,应当注重激发学生的好奇心,鼓励他们提出疑问、动手实践,并在集体活动中学会沟通与合作。与此同时,家长也应当调整期望值,不要盲目攀比,而要尊重孩子的个性和特长。在知识更新日益加快的今天,毕业并不意味着学习的终点,养成终身学习的习惯,才是教育留给我们的最宝贵的财富。",
+    "sample_vi": "Có người cho rằng điểm thi là tiêu chuẩn duy nhất để đánh giá học sinh giỏi dở; cũng có người chủ trương mục đích của giáo dục phải là đào tạo con người phát triển toàn diện. Về vấn đề này, tôi nghiêng về quan điểm thứ hai. Không thể phủ nhận, thi cử ở mức độ nhất định có thể kiểm tra mức độ nắm kiến thức của học sinh, cũng cung cấp căn cứ tương đối công bằng cho việc tuyển chọn nhân tài. Tuy nhiên, nếu cả hệ thống giáo dục xoay quanh điểm số, học sinh dễ sa vào vòng luẩn quẩn học vẹt, vừa thiếu năng lực tư duy độc lập, vừa thiếu sáng tạo và kinh nghiệm thực tiễn. Nghiêm trọng hơn, gánh nặng bài vở quá lớn khiến nhiều trẻ mất hứng thú học tập, thậm chí phát sinh vấn đề tâm lý. Nền giáo dục thực sự lý tưởng cần chú trọng khơi dậy trí tò mò của học sinh, khuyến khích các em đặt câu hỏi, thực hành, và học cách giao tiếp, hợp tác trong hoạt động tập thể. Đồng thời, phụ huynh cũng nên điều chỉnh kỳ vọng, đừng so bì mù quáng mà hãy tôn trọng cá tính và sở trường của con. Trong thời đại tri thức cập nhật ngày càng nhanh, tốt nghiệp không có nghĩa là điểm kết thúc của việc học, hình thành thói quen học tập suốt đời mới là tài sản quý giá nhất mà giáo dục để lại cho chúng ta."
+  }
+]
