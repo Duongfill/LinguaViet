@@ -1,0 +1,69 @@
+{
+  "part": 6,
+  "groups": [
+    {
+      "kind": "letter",
+      "passages": [
+        {
+          "kind": "letter",
+          "title": "Letter",
+          "text": "Lakeshore Family Dental\n48 Harbor Road, Millbrook\n\nNovember 20\n\nDear Mr. Navarro,\n\nThank you for being a patient at Lakeshore Family Dental. We are writing to [1] you that your insurance plan will change its coverage rules on January 1. Under the new rules, two cleanings per year will remain fully covered. [2] X-rays, on the other hand, will be covered only once every twenty-four months.\n\nWe encourage you to schedule your next visit [3] the end of December so that your remaining benefits are not lost. Appointments can be booked online or by calling our front desk. If you have any questions about your [4], our billing staff will be happy to help.\n\nSincerely,\nKaren Whitfield\nPatient Services Manager"
+        }
+      ],
+      "questions": [
+        { "options": ["inform", "informing", "information", "informed"], "answer": 0, "explain": "Sau 'to' cần động từ nguyên mẫu; 'inform someone that ...' = thông báo cho ai rằng. Các dạng còn lại không đứng sau 'to' ở đây." },
+        { "options": ["Our office will be closed for renovations in early December.", "Dr. Hwang has joined our team after ten years abroad.", "Additional cleanings will be billed at a reduced rate of $45 each.", "Please bring your photo identification to every visit."], "answer": 2, "explain": "Câu trước nói hai lần làm sạch răng mỗi năm được chi trả; câu chèn nói rõ lần làm sạch thêm sẽ tính phí giảm, nối tiếp ý về bảo hiểm và đối lập với câu sau về X-quang." },
+        { "options": ["on", "by", "as", "than"], "answer": 1, "explain": "'by the end of December' = chậm nhất vào cuối tháng 12, hợp với ý 'để không mất quyền lợi còn lại'." },
+        { "options": ["cover", "covering", "covered", "coverage"], "answer": 3, "explain": "Sau tính từ sở hữu 'your' cần danh từ: coverage (phạm vi bảo hiểm), đúng với nội dung thư." }
+      ]
+    },
+    {
+      "kind": "memo",
+      "passages": [
+        {
+          "kind": "memo",
+          "title": "Memo",
+          "text": "MEMO\n\nTo: All Production Staff\nFrom: Daniel Okoye, Plant Manager\nDate: March 3\nSubject: New Safety Procedures on Line 4\n\nStarting Monday, March 10, all employees working on Line 4 [1] to wear cut-resistant gloves at all times. This change follows a review of last quarter's incident reports. [2] They are available in all sizes at the supply room beside Gate B.\n\nIn addition, a short safety briefing will be held at the start of each shift. The briefing [3] approximately ten minutes, and attendance is mandatory. Supervisors will record attendance and report any [4] to my office."
+        }
+      ],
+      "questions": [
+        { "options": ["will require", "will be required", "requires", "to require"], "answer": 1, "explain": "Nhân viên là đối tượng bị yêu cầu nên dùng bị động tương lai: will be required to wear. 'Starting Monday' cho thấy thời điểm tương lai." },
+        { "options": ["The cafeteria will serve a new lunch menu starting in April.", "Production on Line 4 reached a record high in February.", "Last year's holiday party was a great success for everyone.", "The company will provide the gloves at no cost to employees."], "answer": 3, "explain": "Câu sau dùng 'They' (chỉ găng tay) và nói nơi lấy găng; do đó câu chèn phải nhắc đến 'the gloves', tức công ty cấp găng miễn phí." },
+        { "options": ["lasts", "last", "lasting", "to last"], "answer": 0, "explain": "Chủ ngữ 'The briefing' là số ít, thì hiện tại đơn nên động từ thêm -s: lasts (kéo dài)." },
+        { "options": ["recipes", "discounts", "violations", "distances"], "answer": 2, "explain": "Giám sát viên báo cáo 'violations' (các vi phạm) về quy định an toàn mới; các từ còn lại không hợp ngữ cảnh." }
+      ]
+    },
+    {
+      "kind": "announcement",
+      "passages": [
+        {
+          "kind": "announcement",
+          "title": "Press Release",
+          "text": "FOR IMMEDIATE RELEASE\n\nCedarpoint Savings Bank Opens Its Eighth Branch\n\nGREENVALE, May 12 - Cedarpoint Savings Bank announced today that it [1] a new branch at 220 Market Street on June 2. The branch, the bank's eighth in the region, will offer full-service banking, including mortgage consultations and small-business loans. [2]\n\n\"We are pleased to be [3] our services to the Greenvale community,\" said regional director Priya Raman. \"Our goal is to make banking more convenient for local families and entrepreneurs.\"\n\nTo celebrate the opening, customers who open a new checking account during the first month will receive a $50 [4]."
+        }
+      ],
+      "questions": [
+        { "options": ["opened", "has opened", "will open", "opening"], "answer": 2, "explain": "Ngày 2/6 còn ở tương lai so với ngày thông cáo (12/5) nên dùng 'will open'." },
+        { "options": ["The branch will be open Monday through Saturday, with extended hours on Fridays.", "Interest rates are expected to remain stable throughout the year.", "Several employees have recently been promoted to senior positions.", "The bank was founded by a group of local farmers in 1952."], "answer": 0, "explain": "Câu chèn tiếp tục giới thiệu về chi nhánh mới (giờ mở cửa) sau phần dịch vụ; các câu khác lạc sang chủ đề không liên quan." },
+        { "options": ["bring", "brought", "brings", "bringing"], "answer": 3, "explain": "Sau 'to be' trong cấu trúc tiếp diễn 'be + V-ing': 'to be bringing our services'." },
+        { "options": ["cost", "bonus", "fare", "rent"], "answer": 1, "explain": "Khách mở tài khoản mới được nhận '$50 bonus' (thưởng); 'cost', 'fare', 'rent' đều là khoản phải trả, sai nghĩa." }
+      ]
+    },
+    {
+      "kind": "notice",
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "User Guide",
+          "text": "QuickBrew 300 Coffee Maker - Getting Started\n\nBefore you use your QuickBrew 300 for the first time, [1] the water tank and the carafe with warm, soapy water. Rinse them thoroughly and let them dry. [2]\n\nTo brew coffee, fill the tank with fresh water up to the desired level. Place a paper filter in the basket and add one spoonful of ground coffee [3] cup. Close the lid and press the Start button. The machine will switch itself off automatically once brewing is [4]."
+        }
+      ],
+      "questions": [
+        { "options": ["washing", "washed", "to wash", "wash"], "answer": 3, "explain": "Đây là câu mệnh lệnh trong hướng dẫn nên dùng động từ nguyên mẫu không 'to': wash." },
+        { "options": ["Replacement filters can be ordered from our website.", "Next, run one full cycle with water only to remove any manufacturing residue.", "The QuickBrew 300 was designed by an award-winning team.", "Coffee beans should be stored in a cool, dry place."], "answer": 1, "explain": "Đoạn đang hướng dẫn các bước chuẩn bị trước lần dùng đầu tiên; bước tiếp theo hợp lý là chạy một chu trình chỉ với nước." },
+        { "options": ["than", "onto", "per", "upon"], "answer": 2, "explain": "'one spoonful ... per cup' = một muỗng cho mỗi tách, cách nói định lượng quen thuộc." },
+        { "options": ["complete", "completely", "completion", "completing"], "answer": 0, "explain": "Sau 'is' cần tính từ: 'brewing is complete' (việc pha cà phê hoàn tất)." }
+      ]
+    }
+  ]
+}

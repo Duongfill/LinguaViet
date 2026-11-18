@@ -1,0 +1,90 @@
+{
+  "title": "Section 4",
+  "context": "A university lecturer is giving a lecture on how sleep affects memory.",
+  "audio": [
+    { "s": "N", "t": "You will hear a university lecturer giving a talk about sleep and memory." },
+    { "s": "M", "t": "Good afternoon, everyone. Today I'd like to talk about something every student experiences, which is the relationship between sleep and memory." },
+    { "s": "M", "t": "Many people think of sleep as a time when the brain simply switches off. In fact, it is extremely active, and it follows a regular pattern." },
+    { "s": "M", "t": "Popular guides often claim that one sleep cycle lasts sixty minutes. That's not accurate; a full cycle actually lasts about ninety minutes." },
+    { "s": "M", "t": "During a normal night, you pass through four or five of these cycles, and each one contains several different stages." },
+    { "s": "M", "t": "The stage that matters most for learning facts is deep sleep, which we also call slow-wave sleep." },
+    { "s": "M", "t": "During slow-wave sleep, the brain replays what you learned during the day. Memories are gradually transferred from the hippocampus, which stores them temporarily, to the cortex, where they are kept for the long term." },
+    { "s": "M", "t": "Now, you might assume that the other main stage, REM sleep, also helps with facts." },
+    { "s": "M", "t": "Research suggests it plays a different role. REM sleep seems to be especially important for processing emotional memories." },
+    { "s": "M", "t": "Let me describe an experiment that shows the effect of sleep on learning. It was carried out by a researcher called Dr Hargreaves." },
+    { "s": "M", "t": "Two groups of volunteers learned forty pairs of words in the evening. One group then went to bed, while the other stayed awake all night." },
+    { "s": "M", "t": "In a small pilot study, the group who slept remembered about fifteen per cent more words the next day." },
+    { "s": "M", "t": "However, when the full study was completed with a much larger sample, the difference turned out to be twenty-five per cent." },
+    { "s": "M", "t": "So the benefit was even bigger than the researchers first thought." },
+    { "s": "M", "t": "What about a short sleep during the day? Napping can be very useful, but the length matters." },
+    { "s": "M", "t": "A nap of thirty minutes or more often leaves people feeling heavy and confused when they wake up. The ideal nap is around twenty minutes, which is enough to improve alertness without entering deep sleep." },
+    { "s": "M", "t": "Let's turn to teenagers and young adults, because this applies to many of you. During adolescence, the body clock shifts by about two hours." },
+    { "s": "M", "t": "That means students naturally feel sleepy later in the evening and find it hard to wake early, which is not laziness but biology." },
+    { "s": "M", "t": "Many students rely on coffee to cope. People often believe that the effect of a cup of coffee wears off after about three hours." },
+    { "s": "M", "t": "In reality, caffeine can affect your sleep for up to six hours, so an afternoon coffee may still be keeping you awake at night." },
+    { "s": "M", "t": "Another common problem is the use of phones and tablets in bed. The blue light from these screens delays the release of the hormone that makes us sleepy." },
+    { "s": "M", "t": "My advice is to switch screens off at least an hour before you go to sleep." },
+    { "s": "M", "t": "Finally, how much sleep do we need? Eight hours is often described as ideal for adults." },
+    { "s": "M", "t": "But studies show that the absolute minimum for a healthy adult is seven hours; regularly sleeping less than that harms both memory and concentration." },
+    { "s": "M", "t": "To sum up, sleep is not wasted time. It is when your brain stores everything you have worked so hard to learn." },
+    { "s": "M", "t": "Next week, we'll look at what happens to memory when people suffer from long-term sleep problems." }
+  ],
+  "blocks": [
+    {
+      "type": "gap",
+      "instructions": "Complete the notes below. Write NO MORE THAN TWO WORDS AND/OR A NUMBER for each answer.",
+      "questions": [
+        {
+          "q": "One full sleep cycle lasts about ______ minutes.",
+          "answer": ["90", "ninety"],
+          "explain": "Sách phổ thông nói 60 phút là sai: \"a full cycle actually lasts about ninety minutes\"."
+        },
+        {
+          "q": "Deep sleep is also known as ______ sleep.",
+          "answer": ["slow-wave", "slow wave"],
+          "explain": "\"deep sleep, which we also call slow-wave sleep\"."
+        },
+        {
+          "q": "In deep sleep, memories move from the ______ to the cortex.",
+          "answer": ["hippocampus"],
+          "explain": "\"Memories are gradually transferred from the hippocampus, which stores them temporarily, to the cortex\"."
+        },
+        {
+          "q": "REM sleep is especially important for ______ memories.",
+          "answer": ["emotional"],
+          "explain": "Không phải ghi nhớ sự kiện: \"REM sleep seems to be especially important for processing emotional memories\"."
+        },
+        {
+          "q": "In the full study, the group who slept remembered ______ % more words.",
+          "answer": ["25", "twenty-five", "twenty five"],
+          "explain": "Nghiên cứu thử nghiệm cho 15%, nhưng nghiên cứu đầy đủ: \"the difference turned out to be twenty-five per cent\"."
+        },
+        {
+          "q": "The ideal length of a nap is about ______ minutes.",
+          "answer": ["20", "twenty"],
+          "explain": "Ngủ 30 phút trở lên gây uể oải; \"The ideal nap is around twenty minutes\"."
+        },
+        {
+          "q": "In adolescence, the body clock shifts by about ______ hours.",
+          "answer": ["2", "two"],
+          "explain": "\"During adolescence, the body clock shifts by about two hours\"."
+        },
+        {
+          "q": "Caffeine can affect sleep for up to ______ hours.",
+          "answer": ["6", "six"],
+          "explain": "Nhiều người tin 3 giờ, nhưng thực tế: \"caffeine can affect your sleep for up to six hours\"."
+        },
+        {
+          "q": "The ______ light from screens delays the hormone that makes us sleepy.",
+          "answer": ["blue"],
+          "explain": "\"The blue light from these screens delays the release of the hormone that makes us sleepy\"."
+        },
+        {
+          "q": "The minimum amount of sleep for a healthy adult is ______ hours.",
+          "answer": ["7", "seven"],
+          "explain": "8 giờ là mức lý tưởng, nhưng mức tối thiểu là: \"the absolute minimum for a healthy adult is seven hours\"."
+        }
+      ]
+    }
+  ]
+}

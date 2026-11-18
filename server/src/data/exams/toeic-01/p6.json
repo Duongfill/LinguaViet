@@ -1,0 +1,153 @@
+{
+  "part": 6,
+  "groups": [
+    {
+      "kind": "email",
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Email",
+          "text": "To: Daniel Whitmore <dwhitmore@brightlinefurnishings.example>\nFrom: Customer Service <service@oakridgeoffice.example>\nSubject: Your Order #48213\n\nDear Mr. Whitmore,\n\nThank you for your recent order of six ergonomic desk chairs. We are writing to inform you that the shipment [1] by two days because of a problem at our warehouse. The chairs will now arrive on Thursday, March 14, instead of Tuesday, March 12.\n\nWe apologize for any [2] this may cause. [3] To thank you for your patience, we have applied a 10 percent discount to your next order. You can use the code PATIENCE10 at checkout, which is valid [4] the end of April.\n\nIf you have any questions, please do not hesitate to contact us.\n\nSincerely,\nRachel Moreno\nOakridge Office Supplies"
+        }
+      ],
+      "questions": [
+        {
+          "options": ["delays", "will delay", "has been delayed", "delaying"],
+          "answer": 2,
+          "explain": "Chủ ngữ \"the shipment\" (lô hàng) bị trì hoãn nên cần thể bị động hiện tại hoàn thành: has been delayed. Các dạng chủ động như \"delays\" hay \"will delay\" làm lô hàng thành chủ thể gây ra sự chậm trễ, sai nghĩa."
+        },
+        {
+          "options": ["inconvenience", "inconvenient", "inconveniently", "inconvenienced"],
+          "answer": 0,
+          "explain": "Sau lượng từ \"any\" và trước mệnh đề quan hệ \"this may cause\" cần một danh từ làm tân ngữ của cause: inconvenience. \"inconvenient\" là tính từ, \"inconveniently\" là trạng từ."
+        },
+        {
+          "options": [
+            "Our warehouse will be closed for renovation next month.",
+            "Please be assured that your chairs have been inspected and are ready to ship.",
+            "We have also moved our customer service office to a new address.",
+            "Unfortunately, the chair model you selected is no longer available."
+          ],
+          "answer": 1,
+          "explain": "Câu trước là lời xin lỗi vì giao hàng chậm, câu sau nói về việc cảm ơn sự kiên nhẫn của khách; câu B trấn an rằng hàng vẫn ổn và sẵn sàng giao, nối mạch hợp lý. Câu D mâu thuẫn với \"The chairs will now arrive\"."
+        },
+        {
+          "options": ["during", "since", "from", "until"],
+          "answer": 3,
+          "explain": "Mã giảm giá có hiệu lực đến cuối tháng Tư: valid until the end of April. \"since\" và \"from\" cần mốc thời gian bắt đầu, \"during\" dùng với một khoảng thời gian chứ không đi với \"the end of\" theo nghĩa này."
+        }
+      ]
+    },
+    {
+      "kind": "memo",
+      "passages": [
+        {
+          "kind": "memo",
+          "title": "Memo",
+          "text": "MEMO\nTo: All Staff\nFrom: Facilities Management\nDate: June 3\nSubject: Parking Lot Resurfacing\n\nPlease be advised that the employee parking lot [1] from June 17 to June 21. During this period, the lot will be closed to all vehicles.\n\n[2] Staff members who drive to work are encouraged to use the public garage on Elm Street, which is a five-minute walk from the main entrance. Parking vouchers will be [3] at the reception desk starting June 10. Each voucher covers one day of parking.\n\nWe appreciate your cooperation. [4] the work is completed, the lot will reopen on Monday, June 24, with newly painted spaces and improved lighting.\n\nFacilities Management"
+        }
+      ],
+      "questions": [
+        {
+          "options": ["resurfaces", "will be resurfaced", "has resurfaced", "resurfacing"],
+          "answer": 1,
+          "explain": "Bãi đỗ xe không tự lát lại mặt đường nên cần bị động; dấu hiệu \"from June 17 to June 21\" là thời gian trong tương lai: will be resurfaced."
+        },
+        {
+          "options": [
+            "The cafeteria will also be closed for the same period.",
+            "The new surface will be much more durable than the old one.",
+            "Unfortunately, no on-site parking will be available during that week.",
+            "Please remember to renew your parking permits before the end of the month."
+          ],
+          "answer": 2,
+          "explain": "Câu trước nói bãi đỗ xe đóng cửa với mọi phương tiện, câu sau gợi ý dùng bãi đỗ công cộng; câu C nối hai ý này một cách tự nhiên (không có chỗ đậu xe tại chỗ nên phải dùng chỗ khác)."
+        },
+        {
+          "options": ["distributed", "distribute", "distributing", "distribution"],
+          "answer": 0,
+          "explain": "Sau \"will be\" và chủ ngữ là \"Parking vouchers\" (vật được phát) cần quá khứ phân từ để tạo bị động: will be distributed at the reception desk."
+        },
+        {
+          "options": ["Unless", "Once", "During", "Despite"],
+          "answer": 1,
+          "explain": "Sau chỗ trống là mệnh đề \"the work is completed\" và nghĩa là \"khi công việc hoàn tất\": Once. \"Unless\" (trừ khi) sai nghĩa, \"During\" và \"Despite\" là giới từ nên không đi với mệnh đề."
+        }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Advertisement",
+          "text": "Greenfield Fitness Center: Grand Opening Special!\n\nAre you looking for a [1] way to stay healthy? Greenfield Fitness Center opens its doors on Saturday, September 7, at 215 Maple Avenue. Our facility features modern equipment, spacious group-exercise studios, and a heated indoor pool.\n\n[2] Our certified trainers are available to design a personal program that suits your goals and schedule. Whether you are a beginner [3] an experienced athlete, we have a class for you.\n\nSign up [4] the opening week and receive three months of membership for only $99. Visit www.greenfieldfitness.example or call 555-0142 to reserve your place today."
+        }
+      ],
+      "questions": [
+        {
+          "options": ["convenience", "conveniently", "conveniences", "convenient"],
+          "answer": 3,
+          "explain": "Giữa mạo từ \"a\" và danh từ \"way\" cần tính từ: convenient (tiện lợi). \"conveniently\" là trạng từ, \"convenience(s)\" là danh từ."
+        },
+        {
+          "options": [
+            "Beginners and professionals alike will find everything they need under one roof.",
+            "Our swimming pool was rebuilt after last year's storm.",
+            "The center will be closed on all public holidays.",
+            "Fees are listed on the back of this flyer."
+          ],
+          "answer": 0,
+          "explain": "Câu trước liệt kê thiết bị và tiện ích của trung tâm, câu sau nói về huấn luyện viên và lớp học; câu A tổng kết tiện ích và dẫn sang ý \"trainers\" và \"a class for you\". Các câu còn lại không nối mạch."
+        },
+        {
+          "options": ["so", "nor", "or", "yet"],
+          "answer": 2,
+          "explain": "Cấu trúc \"Whether ... or ...\" (dù là ... hay là ...) với hai lựa chọn \"a beginner\" và \"an experienced athlete\": or."
+        },
+        {
+          "options": ["since", "during", "while", "among"],
+          "answer": 1,
+          "explain": "Sau chỗ trống là cụm danh từ \"the opening week\" nên cần giới từ chỉ thời gian: during. \"while\" cần một mệnh đề, \"since\" và \"among\" sai nghĩa."
+        }
+      ]
+    },
+    {
+      "kind": "article",
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Article",
+          "text": "Harbor City Introduces Electric Buses\n\nHARBOR CITY (May 12) - The city's transit authority announced on Monday that it will replace one third of its diesel buses with electric models over the next two years. The first ten vehicles [1] service on Route 4 next month.\n\nAccording to transit director Laura Benson, the change is expected not only to reduce fuel costs [2] to cut emissions in the downtown area. [3] The new buses can travel up to 250 kilometers on a single charge, which is enough for a full day of service.\n\nSome residents have expressed concern about the cost of the project, which is estimated at $14 million. However, Ms. Benson said the savings in maintenance and fuel will [4] offset the initial investment within eight years."
+        }
+      ],
+      "questions": [
+        {
+          "options": ["entering", "entered", "have entered", "will enter"],
+          "answer": 3,
+          "explain": "Dấu hiệu \"next month\" (tháng sau) chỉ tương lai nên dùng \"will enter service\". \"entered\" và \"have entered\" là thì quá khứ/hoàn thành, \"entering\" không đủ làm động từ chính."
+        },
+        {
+          "options": ["nor", "but also", "as well", "then"],
+          "answer": 1,
+          "explain": "Cấu trúc \"not only ... but also ...\" (không chỉ ... mà còn ...); \"not only\" xuất hiện trước chỗ trống nên cần \"but also\"."
+        },
+        {
+          "options": [
+            "Bus fares will remain unchanged for the rest of the year.",
+            "Route 4 connects the airport with the university campus.",
+            "Battery range was one of the main factors the authority considered when choosing the vehicles.",
+            "Several other cities have canceled similar projects this year."
+          ],
+          "answer": 2,
+          "explain": "Câu sau nói xe chạy được 250 km mỗi lần sạc, nên câu trước phải nhắc đến phạm vi chạy của pin; chỉ câu C liên quan trực tiếp (\"The new buses\" chỉ những chiếc xe đã được chọn)."
+        },
+        {
+          "options": ["fullness", "fuller", "full", "fully"],
+          "answer": 3,
+          "explain": "Chỗ trống nằm giữa trợ động từ \"will\" và động từ \"offset\" nên cần trạng từ: fully (hoàn toàn). \"full\" là tính từ, \"fullness\" là danh từ."
+        }
+      ]
+    }
+  ]
+}

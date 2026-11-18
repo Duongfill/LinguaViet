@@ -1,0 +1,57 @@
+{
+  "part1": {
+    "topic": "Hobbies and free time",
+    "questions": [
+      "What do you usually do in your free time?",
+      "Do you prefer spending your free time alone or with other people?",
+      "Did you have any hobbies when you were a child?",
+      "Is there a hobby you would like to try in the future?",
+      "Do you think hobbies are important?"
+    ],
+    "samples": [
+      "Well, it varies, but I'm really into cooking and photography at the moment. At weekends I often try out a new recipe, and then, if I'm not too tired, I go out with my camera to capture street scenes around the city.",
+      "A bit of both, actually. I need some quiet time on my own to recharge, especially after a busy week, but I also love getting together with friends over a meal. I think a good balance of the two keeps me happy.",
+      "Yes, I used to collect stamps with my father, and I played badminton in the alley with the neighbourhood kids every afternoon. Looking back, those were simple pastimes, but I have really fond memories of them.",
+      "Definitely. I've always wanted to learn how to surf, since I grew up near the sea but never found the time. It looks challenging, but I think it'd be a great way to keep fit and enjoy nature.",
+      "Absolutely. They give us a break from the routine of work or study and help us relieve stress. Also, a hobby can teach you new skills and even introduce you to like-minded people, so it benefits your mental health and your social life."
+    ]
+  },
+  "part2": {
+    "cue": "Describe a hobby or activity that you have enjoyed for a long time.",
+    "bullets": [
+      "what the hobby is",
+      "when and how you started it",
+      "how often you do it",
+      "and explain why you have kept doing it for so long"
+    ],
+    "sample": "I'd like to talk about playing the guitar, which I've been doing for almost ten years now. It's more than just a hobby for me, really. It's become a kind of companion that I turn to in both good and difficult times.\n\nI first picked it up when I was thirteen. My cousin had an old acoustic guitar that he'd stopped using, and when he left it at our house over the summer holidays, I started fiddling around with it out of boredom. At first it was awful. My fingers hurt, the chords sounded terrible and my family begged me to stop. But I found a few video tutorials online and, little by little, I learnt my first song, a simple pop ballad. The moment I played it from start to finish without a mistake, I was hooked.\n\nThese days I play almost every evening for about half an hour, and for longer at weekends. I mostly play fingerstyle arrangements of songs I like, and occasionally I join a small group of friends for informal jam sessions at a cafe near my apartment. We aren't professionals by any means, but we have a great time.\n\nThere are a few reasons why I've stuck with it for so long. To begin with, it's an excellent way to de-stress. After a long day, I can lose myself in the music and forget about my worries. Secondly, there's always something new to learn, whether it's a tricky technique or a different style, so I never get bored. And finally, it's brought me closer to people. Some of my best friendships started because we shared a love of music.\n\nI honestly can't imagine my life without it, and I hope I'll still be strumming away when I'm old and grey.",
+    "sampleBand": 7.5
+  },
+  "part3": {
+    "questions": [
+      "Why do some people prefer hobbies that they can do alone?",
+      "Do you think children should be encouraged to take up hobbies?",
+      "Is it a good idea to turn a hobby into a career?",
+      "Do people today have enough free time to enjoy their hobbies?",
+      "How has social media influenced the way people choose and share hobbies?"
+    ],
+    "samples": [
+      "Some people are naturally introverted and find solitary activities, like reading or painting, more relaxing than socialising. Others have busy schedules that make it hard to coordinate with a group, so they choose hobbies they can do at their own pace.",
+      "Yes, I think so. Hobbies help children discover their talents, build confidence and learn perseverance. They also provide a healthy alternative to spending hours on screens. However, parents shouldn't push too hard, otherwise the activity becomes another source of pressure.",
+      "It can be, but there are risks. If you're lucky enough to earn a living doing what you love, you'll feel fulfilled. On the other hand, once it becomes your job, the pressure of deadlines and income might take the joy out of it, and you may lose your outlet for relaxation.",
+      "I'm not sure they do. Long working hours and commuting leave many people exhausted by the evening, so they just scroll through their phones instead of doing something creative. People with more flexible jobs are luckier, but they're a minority.",
+      "It's had a huge impact. People discover new hobbies, such as baking or hiking, through viral videos, and they can easily find communities of fellow enthusiasts. The downside is that some feel pressure to make their hobbies look impressive online rather than simply enjoying them."
+    ]
+  },
+  "vocab_vi": [
+    { "en": "I was hooked", "vi": "tôi bị cuốn vào, mê ngay" },
+    { "en": "fiddle around with something", "vi": "mày mò, nghịch ngợm thứ gì" },
+    { "en": "little by little", "vi": "từng chút một" },
+    { "en": "de-stress", "vi": "giải tỏa căng thẳng" },
+    { "en": "lose myself in the music", "vi": "đắm mình vào âm nhạc" },
+    { "en": "like-minded people", "vi": "những người cùng sở thích, cùng quan điểm" },
+    { "en": "take the joy out of something", "vi": "làm mất đi niềm vui của việc gì" },
+    { "en": "a healthy alternative", "vi": "một lựa chọn lành mạnh thay thế" },
+    { "en": "an outlet for relaxation", "vi": "lối thoát để thư giãn" }
+  ]
+}

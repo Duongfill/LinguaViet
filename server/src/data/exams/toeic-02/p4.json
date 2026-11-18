@@ -1,0 +1,171 @@
+{
+  "part": 4,
+  "groups": [
+    {
+      "kind": "announcement",
+      "audio": [
+        { "s": "W", "t": "Attention, visitors to Lakeside Memorial Hospital." },
+        { "s": "W", "t": "Beginning this Monday, the main parking garage will be closed for two weeks while crews repair the ramps." },
+        { "s": "W", "t": "During this time, please park in Lot C on Harbor Street." },
+        { "s": "W", "t": "A free shuttle bus will carry you to the main entrance every ten minutes." },
+        { "s": "W", "t": "If you or a family member has difficulty walking, a wheelchair is available at the main entrance upon request." },
+        { "s": "W", "t": "We apologize for the inconvenience and thank you for your patience." }
+      ],
+      "questions": [
+        { "q": "Who is the announcement intended for?", "options": ["New employees", "Hospital visitors", "Delivery drivers", "Medical students"], "answer": 1, "explain": "Mở đầu 'Attention, visitors to Lakeside Memorial Hospital' → dành cho khách đến bệnh viện." },
+        { "q": "What will happen on Monday?", "options": ["A new entrance will open.", "Visiting hours will be extended.", "A shuttle service will end.", "A parking garage will close for repairs."], "answer": 3, "explain": "'Beginning this Monday, the main parking garage will be closed for two weeks'. Xe đưa đón thì bắt đầu chạy chứ không kết thúc." },
+        { "q": "What can visitors with difficulty walking get?", "options": ["A wheelchair", "A parking discount", "A private parking space", "A taxi voucher"], "answer": 0, "explain": "'A wheelchair is available at the main entrance upon request'." }
+      ]
+    },
+    {
+      "kind": "voicemail",
+      "audio": [
+        { "s": "M", "t": "Hi Carla, it's Greg calling from the main office." },
+        { "s": "M", "t": "I'm calling about tomorrow's visit from the auditors." },
+        { "s": "M", "t": "Their flight got in early, so they'll arrive at the plant at eight thirty instead of ten o'clock." },
+        { "s": "M", "t": "That means we'll have to move up the tour of the packaging line." },
+        { "s": "M", "t": "Could you make sure the quality control records for the last three months are on my desk before they get here?" },
+        { "s": "M", "t": "Also, please remind your team to wear their safety glasses at all times." },
+        { "s": "M", "t": "Call me back if there are any problems. Thanks." }
+      ],
+      "questions": [
+        { "q": "Why is the speaker calling?", "options": ["To request time off", "To report an equipment failure", "To discuss a visit by auditors", "To announce a promotion"], "answer": 2, "explain": "Ông nói 'I'm calling about tomorrow's visit from the auditors'." },
+        { "q": "What has changed about the visit?", "options": ["The arrival time", "The meeting location", "The number of visitors", "The length of the tour"], "answer": 0, "explain": "Họ sẽ đến lúc 8:30 thay vì 10:00. Chuyến tham quan chỉ bị dời sớm lên, độ dài không đổi." },
+        { "q": "What does the speaker ask the listener to do?", "options": ["Order lunch for the guests", "Prepare some quality control records", "Clean the loading dock", "Cancel a meeting"], "answer": 1, "explain": "'Make sure the quality control records for the last three months are on my desk'." }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "audio": [
+        { "s": "W2", "t": "Looking for the freshest ingredients at the best prices?" },
+        { "s": "W2", "t": "Then visit Greenfield Market this weekend for the grand opening of our new in-store bakery." },
+        { "s": "W2", "t": "Our bakers start work at four every morning, so every loaf, roll, and pastry is warm when you pick it up." },
+        { "s": "W2", "t": "Spend thirty dollars or more on Saturday or Sunday, and take home a free loaf of our famous sourdough bread." },
+        { "s": "W2", "t": "Rewards members will also earn double points on all bakery items. Just show your card at the register." },
+        { "s": "W2", "t": "Greenfield Market is located at the corner of Pine and Third, and we're open every day until eleven p.m." }
+      ],
+      "questions": [
+        { "q": "What is being advertised?", "options": ["A farmers' market", "A cooking class", "A home delivery service", "A new bakery section"], "answer": 3, "explain": "'The grand opening of our new in-store bakery'." },
+        { "q": "What can customers get if they spend thirty dollars?", "options": ["A discount coupon", "A cloth shopping bag", "A free loaf of bread", "Free home delivery"], "answer": 2, "explain": "'Spend thirty dollars or more… take home a free loaf of our famous sourdough bread'." },
+        { "q": "What should rewards members do to earn double points?", "options": ["Show their cards at the register", "Sign up online", "Shop before noon", "Bring a friend"], "answer": 0, "explain": "'Rewards members will also earn double points… Just show your card at the register'." }
+      ]
+    },
+    {
+      "kind": "recorded message",
+      "audio": [
+        { "s": "M2", "t": "Thank you for calling Summit Community Bank." },
+        { "s": "M2", "t": "Please note that all of our branches will be closed this Monday in observance of the national holiday." },
+        { "s": "M2", "t": "We will reopen on Tuesday at nine a.m." },
+        { "s": "M2", "t": "During the closure, our ATMs and online banking services will be available as usual." },
+        { "s": "M2", "t": "However, loan consultations and currency exchange will resume on Tuesday." },
+        { "s": "M2", "t": "If you need to report a lost or stolen card, please press one now, and a representative will help you right away." },
+        { "s": "M2", "t": "For all other inquiries, please stay on the line." }
+      ],
+      "questions": [
+        { "q": "What will happen on Monday?", "options": ["All branches will be closed.", "A new branch will open.", "Online banking will be unavailable.", "Fees will increase."], "answer": 0, "explain": "'All of our branches will be closed this Monday in observance of the national holiday'." },
+        { "q": "Which service will remain available during the closure?", "options": ["Loan consultations", "ATMs and online banking", "Currency exchange", "Safe deposit boxes"], "answer": 1, "explain": "'Our ATMs and online banking services will be available as usual'. Vay vốn và đổi tiền chỉ trở lại từ thứ Ba." },
+        { "q": "What should callers do to report a stolen card?", "options": ["Visit a branch", "Send an e-mail", "Stay on the line", "Press one"], "answer": 3, "explain": "'If you need to report a lost or stolen card, please press one'. 'Stay on the line' là cho các thắc mắc khác." }
+      ]
+    },
+    {
+      "kind": "announcement",
+      "audio": [
+        { "s": "W", "t": "May I have your attention, please?" },
+        { "s": "W", "t": "The five forty-five express to Marlow has been delayed by about thirty minutes due to a signal problem." },
+        { "s": "W", "t": "It is now expected to depart at six fifteen." },
+        { "s": "W", "t": "Please note that this train will leave from platform four instead of platform two." },
+        { "s": "W", "t": "As an apology, passengers on this train may collect a free snack voucher at the information desk." },
+        { "s": "W", "t": "We will make another announcement at six o'clock. Thank you for traveling with us." }
+      ],
+      "questions": [
+        { "q": "What is the announcement about?", "options": ["A change in ticket prices", "A delayed train", "A lost item", "A canceled service"], "answer": 1, "explain": "'The five forty-five express to Marlow has been delayed by about thirty minutes'." },
+        { "q": "What are passengers told about the platform?", "options": ["It is closed for cleaning.", "It is on the upper level.", "It has been changed.", "It is overcrowded."], "answer": 2, "explain": "'This train will leave from platform four instead of platform two' → đã đổi sân ga." },
+        { "q": "What can passengers get at the information desk?", "options": ["A refund", "A seat reservation", "A city map", "A snack voucher"], "answer": 3, "explain": "'May collect a free snack voucher at the information desk'." }
+      ]
+    },
+    {
+      "kind": "recorded message",
+      "audio": [
+        { "s": "M", "t": "Good morning, and welcome to the Riverside Public Library's recorded information line." },
+        { "s": "M", "t": "I'd like to share two pieces of news." },
+        { "s": "M", "t": "First, beginning next month, we'll install self-checkout machines near the main entrance, so you'll be able to borrow books without waiting in line." },
+        { "s": "M", "t": "Second, our Winter Reading Challenge is back." },
+        { "s": "M", "t": "Anyone who reads five books before the end of March will be entered into a prize drawing for a tablet computer." },
+        { "s": "M", "t": "To take part, simply register at the information desk by January fifteenth." },
+        { "s": "M", "t": "Staff will be happy to recommend books for every age group." }
+      ],
+      "questions": [
+        { "q": "What change will take place next month?", "options": ["The library will move.", "Late fees will be eliminated.", "Self-checkout machines will be installed.", "The library will close on Sundays."], "answer": 2, "explain": "'Beginning next month, we'll install self-checkout machines near the main entrance'." },
+        { "q": "What will participants receive for finishing the reading challenge?", "options": ["A new library card", "A free book", "A café discount", "A chance to win a prize"], "answer": 3, "explain": "Đọc 5 cuốn sách sẽ 'be entered into a prize drawing' (được tham gia bốc thăm trúng thưởng)." },
+        { "q": "What must listeners do by January fifteenth?", "options": ["Return their books", "Register for a program", "Pay a membership fee", "Renew their cards"], "answer": 1, "explain": "'Simply register at the information desk by January fifteenth' → đăng ký tham gia chương trình." }
+      ]
+    },
+    {
+      "kind": "meeting talk",
+      "audio": [
+        { "s": "W", "t": "Good morning, everyone, and thanks for coming in early." },
+        { "s": "W", "t": "I have a quick update on the Brightside Dental account." },
+        { "s": "W", "t": "The client loved our first presentation, but they've asked us to rethink the audience." },
+        { "s": "W", "t": "They'd like the campaign to appeal to young adults instead of families, which means we'll move most of our ads from newspapers to social media." },
+        { "s": "W", "t": "Because of that, the deadline has been extended to March third." },
+        { "s": "W", "t": "Mark will still lead the design team, but I need every one of you to send me at least two fresh ideas by Wednesday." },
+        { "s": "W", "t": "Let's make this one count." }
+      ],
+      "questions": [
+        { "q": "Who most likely is the speaker addressing?", "options": ["Dental patients", "Printing company staff", "Prospective clients", "Advertising agency colleagues"], "answer": 3, "explain": "Cô nói về 'our first presentation', 'design team', 'send me ideas' → đồng nghiệp trong công ty quảng cáo." },
+        { "q": "What has the client asked the agency to change?", "options": ["The company logo", "The target audience", "The advertising budget", "The campaign name"], "answer": 1, "explain": "'They've asked us to rethink the audience… appeal to young adults instead of families'." },
+        { "q": "What are the listeners asked to do by Wednesday?", "options": ["Meet with Mark", "Visit the client", "Submit new ideas", "Approve a budget"], "answer": 2, "explain": "'Send me at least two fresh ideas by Wednesday'." }
+      ]
+    },
+    {
+      "kind": "news report",
+      "audio": [
+        { "s": "M2", "t": "In local business news this morning, Hartley Furniture, the town's largest employer, has announced plans to build a second factory on the east side of the city." },
+        { "s": "M2", "t": "Construction is expected to begin next spring and finish within eighteen months." },
+        { "s": "M2", "t": "The company says the new factory will create about two hundred jobs." },
+        { "s": "M2", "t": "A spokesperson said Hartley intends to hire mostly from the local area, and no previous manufacturing experience is required." },
+        { "s": "M2", "t": "Interested residents can attend a job fair at the community center on October twelfth." },
+        { "s": "M2", "t": "And now, a look at the weather." }
+      ],
+      "questions": [
+        { "q": "What is the report mainly about?", "options": ["A company's plan to open a new factory", "A store that is closing", "A merger between two firms", "A product recall"], "answer": 0, "explain": "'Hartley Furniture… has announced plans to build a second factory'." },
+        { "q": "What will take place on October twelfth?", "options": ["Construction will begin.", "A factory tour will be held.", "A job fair will be held.", "A new product will be launched."], "answer": 2, "explain": "'Interested residents can attend a job fair at the community center on October twelfth'. Xây dựng bắt đầu vào mùa xuân." },
+        { "q": "What does the company say about hiring?", "options": ["Applicants must have manufacturing experience.", "It will mostly hire local residents.", "It will recruit workers from overseas.", "It has frozen all hiring."], "answer": 1, "explain": "'Hartley intends to hire mostly from the local area, and no previous manufacturing experience is required'." }
+      ]
+    },
+    {
+      "kind": "tour",
+      "audio": [
+        { "s": "W2", "t": "Welcome to Brightwater Bottling, everyone. My name is Helen, and I'll be your guide today." },
+        { "s": "W2", "t": "The tour will take about forty-five minutes, and we'll walk through the entire production process." },
+        { "s": "W2", "t": "We'll begin at the receiving dock, where the water is tested, and then move on to the bottling line." },
+        { "s": "W2", "t": "For your safety, please stay behind the yellow lines at all times." },
+        { "s": "W2", "t": "I also have to ask that you not take photographs near the filling machines, since the equipment is protected by patents." },
+        { "s": "W2", "t": "At the end of the tour, you can pick up some free samples in our gift shop." },
+        { "s": "W2", "t": "If you have any questions along the way, please don't hesitate to ask." }
+      ],
+      "questions": [
+        { "q": "Who is the speaker addressing?", "options": ["New employees", "Government inspectors", "Visitors on a tour", "Equipment suppliers"], "answer": 2, "explain": "Cô là hướng dẫn viên: 'I'll be your guide today… the tour will take about forty-five minutes'." },
+        { "q": "What are listeners asked not to do?", "options": ["Touch the products", "Take photographs near some machines", "Talk during the tour", "Bring bags inside"], "answer": 1, "explain": "'I have to ask that you not take photographs near the filling machines'." },
+        { "q": "What can listeners get at the end of the tour?", "options": ["Free samples", "A discount coupon", "A certificate", "A T-shirt"], "answer": 0, "explain": "'You can pick up some free samples in our gift shop'." }
+      ]
+    },
+    {
+      "kind": "orientation talk",
+      "audio": [
+        { "s": "M", "t": "Good morning, and welcome to Oakdale Clinic. I'm Dr. Singh, the head of nursing." },
+        { "s": "M", "t": "I know you're all eager to get started, so I'll keep this brief." },
+        { "s": "M", "t": "First, you'll each receive an ID badge from the security office down the hall." },
+        { "s": "M", "t": "After that, we'll tour the clinic and go over how to use our electronic patient records." },
+        { "s": "M", "t": "For your first two weeks, you'll be shadowing experienced nurses rather than working on your own." },
+        { "s": "M", "t": "Your schedules are posted on the board outside this room." },
+        { "s": "M", "t": "If anything is unclear, please ask me or any member of the staff." }
+      ],
+      "questions": [
+        { "q": "What is the purpose of the talk?", "options": ["To introduce new equipment", "To welcome new employees", "To announce a schedule change", "To promote a health program"], "answer": 1, "explain": "'Welcome to Oakdale Clinic… you'll each receive an ID badge… your first two weeks' → buổi định hướng cho nhân viên mới." },
+        { "q": "What will the listeners do first?", "options": ["Tour the laboratory", "Attend a safety lecture", "Meet patients", "Receive identification badges"], "answer": 3, "explain": "'First, you'll each receive an ID badge'. Tham quan phòng khám đến sau ('After that')." },
+        { "q": "What will the listeners do for the first two weeks?", "options": ["Work night shifts", "Study for an exam", "Shadow experienced nurses", "Attend daily classes"], "answer": 2, "explain": "'For your first two weeks, you'll be shadowing experienced nurses'." }
+      ]
+    }
+  ]
+}

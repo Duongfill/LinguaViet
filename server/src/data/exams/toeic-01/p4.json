@@ -1,0 +1,164 @@
+{
+  "part": 4,
+  "groups": [
+    {
+      "kind": "airport announcement",
+      "audio": [
+        { "s": "N", "t": "Attention, passengers on Pacifica Air flight 218 to Vancouver." },
+        { "s": "N", "t": "Due to a mechanical inspection of the aircraft, boarding has been delayed." },
+        { "s": "N", "t": "The new departure time is four forty-five p.m., about an hour later than scheduled." },
+        { "s": "N", "t": "Passengers who would like to rebook onto a later flight should visit the service counter near Gate 12." },
+        { "s": "N", "t": "In addition, all passengers on this flight will receive a ten-dollar coupon to use at any restaurant in the terminal." },
+        { "s": "N", "t": "We apologize for the inconvenience and thank you for your patience." }
+      ],
+      "questions": [
+        { "q": "Why is the flight delayed?", "options": ["Bad weather", "A crew shortage", "A mechanical inspection", "A security check"], "answer": 2, "explain": "Thông báo nói rõ 'Due to a mechanical inspection of the aircraft, boarding has been delayed'." },
+        { "q": "How long is the delay?", "options": ["About one hour", "Thirty minutes", "Two hours", "Until the next day"], "answer": 0, "explain": "Giờ khởi hành mới là 4:45 p.m., 'about an hour later than scheduled'." },
+        { "q": "What will passengers receive?", "options": ["A free upgrade", "A refund", "A hotel voucher", "A restaurant coupon"], "answer": 3, "explain": "Hành khách nhận 'a ten-dollar coupon to use at any restaurant in the terminal'." }
+      ]
+    },
+    {
+      "kind": "voicemail",
+      "audio": [
+        { "s": "W", "t": "Hello, Mr. Bennett. This is Laura Chen from Sunrise Office Supplies, returning your call about the order for twelve ergonomic chairs." },
+        { "s": "W", "t": "I'm afraid the black model you requested is out of stock until the end of the month." },
+        { "s": "W", "t": "We do have the same chair in gray, and I can offer a five percent discount if you choose that color." },
+        { "s": "W", "t": "If you'd rather wait for the black one, I can reserve them for you today." },
+        { "s": "W", "t": "Please call me back at extension 214 before noon tomorrow, since the gray chairs are selling quickly." },
+        { "s": "W", "t": "Thank you." }
+      ],
+      "questions": [
+        { "q": "Why is the speaker calling?", "options": ["To confirm a delivery date", "To discuss a problem with an order", "To advertise a sale", "To request a payment"], "answer": 1, "explain": "Cô gọi lại về đơn hàng ghế và báo mẫu màu đen đang hết hàng, tức có vấn đề với đơn hàng." },
+        { "q": "What does the speaker offer?", "options": ["Free delivery", "A longer warranty", "A replacement model", "A discount on a different color"], "answer": 3, "explain": "Cô nói 'the same chair in gray... five percent discount if you choose that color'. Không phải đổi sang mẫu khác mà là đổi màu." },
+        { "q": "What does the speaker ask the listener to do by tomorrow noon?", "options": ["Return her call", "Visit a showroom", "Submit a payment", "Sign a contract"], "answer": 0, "explain": "Cô dặn 'Please call me back at extension 214 before noon tomorrow'." }
+      ]
+    },
+    {
+      "kind": "meeting talk",
+      "audio": [
+        { "s": "M", "t": "Good morning, everyone. Before we start our shifts, I have a few updates." },
+        { "s": "M", "t": "First, a travel company will arrive with sixty guests at two o'clock today, so we'll need extra staff at the front desk during check-in." },
+        { "s": "M", "t": "Second, the elevator on the east side is being repaired this week, so please direct guests to use the main elevators." },
+        { "s": "M", "t": "Finally, starting Monday, we're introducing a new mobile check-in system." },
+        { "s": "M", "t": "Mr. Alvarez from the IT department will lead a training session tomorrow at eight." },
+        { "s": "M", "t": "Please make sure you attend." }
+      ],
+      "questions": [
+        { "q": "Who is the speaker addressing?", "options": ["Hotel employees", "Hotel guests", "Tour guides", "Repair technicians"], "answer": 0, "explain": "Người nói nhắc đến 'our shifts', 'front desk', 'direct guests', nên đối tượng là nhân viên khách sạn." },
+        { "q": "What will happen at two o'clock?", "options": ["An elevator will be repaired", "A training session will begin", "A group of travelers will arrive", "A new system will be launched"], "answer": 2, "explain": "'A travel company will arrive with sixty guests at two o'clock today'. Buổi tập huấn là ngày mai lúc 8 giờ." },
+        { "q": "What are the listeners asked to do?", "options": ["Work extra shifts", "Attend a training session", "Test a new elevator", "Greet a manager"], "answer": 1, "explain": "Kết thúc bài nói: 'Please make sure you attend' (buổi tập huấn của ông Alvarez)." }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "audio": [
+        { "s": "W2", "t": "Are you looking for the latest in business technology?" },
+        { "s": "W2", "t": "Come visit the Digital Solutions Expo, held at the Riverside Convention Center from May ninth to eleventh." },
+        { "s": "W2", "t": "Over two hundred exhibitors will showcase everything from cloud software to smart office equipment." },
+        { "s": "W2", "t": "Each day features free workshops led by industry experts, including a popular session on cybersecurity." },
+        { "s": "W2", "t": "Admission is free if you register online before April thirtieth. Otherwise, tickets cost twenty dollars at the door." },
+        { "s": "W2", "t": "To sign up, visit digitalsolutionsexpo dot com." }
+      ],
+      "questions": [
+        { "q": "What is being advertised?", "options": ["A software company", "A convention center", "A job fair", "A technology exhibition"], "answer": 3, "explain": "Quảng cáo nói về 'Digital Solutions Expo' với hơn 200 nhà trưng bày công nghệ." },
+        { "q": "What can attendees do for free each day?", "options": ["Test products at home", "Attend expert-led workshops", "Receive a free laptop", "Park near the center"], "answer": 1, "explain": "'Each day features free workshops led by industry experts'." },
+        { "q": "How can listeners avoid paying for admission?", "options": ["By arriving early", "By becoming a member", "By registering in advance", "By bringing a coupon"], "answer": 2, "explain": "Vào cửa miễn phí 'if you register online before April thirtieth', tức đăng ký trước." }
+      ]
+    },
+    {
+      "kind": "radio program",
+      "audio": [
+        { "s": "M2", "t": "Welcome back to Taste of the Town, the show that brings you the best in local dining." },
+        { "s": "M2", "t": "This week, we're featuring the Harvest Table, a new restaurant that opened last month on Elm Street." },
+        { "s": "M2", "t": "The chef, Isabel Moreno, uses ingredients from farms within fifty miles of the city, and the menu changes with the seasons." },
+        { "s": "M2", "t": "Many diners say the roasted pumpkin soup is the highlight." },
+        { "s": "M2", "t": "The restaurant is open for dinner Tuesday through Sunday, and reservations are strongly recommended, especially on weekends." },
+        { "s": "M2", "t": "Stay tuned after the break, when Chef Moreno joins me in the studio to share one of her recipes." }
+      ],
+      "questions": [
+        { "q": "What is the broadcast mainly about?", "options": ["A cooking competition", "A farmers' market", "A newly opened restaurant", "A food delivery service"], "answer": 2, "explain": "Chương trình giới thiệu Harvest Table, 'a new restaurant that opened last month'." },
+        { "q": "What does the speaker say about the restaurant's ingredients?", "options": ["They are grown locally", "They are imported from abroad", "They are frozen for freshness", "They are chosen by customers"], "answer": 0, "explain": "Đầu bếp dùng nguyên liệu 'from farms within fifty miles of the city', tức nguồn địa phương." },
+        { "q": "What will happen after the break?", "options": ["A new advertisement will air", "A chef will share a recipe", "A contest winner will be announced", "A weather report will be given"], "answer": 1, "explain": "'Chef Moreno joins me in the studio to share one of her recipes'." }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "audio": [
+        { "s": "W", "t": "Looking for the perfect place to call home?" },
+        { "s": "W", "t": "Welcome to Cedar Heights, a new community of townhouses just fifteen minutes from downtown." },
+        { "s": "W", "t": "Each home features three bedrooms, a private garden, and a two-car garage." },
+        { "s": "W", "t": "Residents also enjoy access to a clubhouse, a swimming pool, and walking trails." },
+        { "s": "W", "t": "Prices start at three hundred and ten thousand dollars, and the first twenty buyers will receive free kitchen appliances." },
+        { "s": "W", "t": "Visit our sales office this weekend between ten and four, or call 555-0134 to schedule a private tour." }
+      ],
+      "questions": [
+        { "q": "What type of property is being advertised?", "options": ["Office buildings", "Townhouses", "An apartment complex", "Vacation cottages"], "answer": 1, "explain": "Quảng cáo giới thiệu 'a new community of townhouses'." },
+        { "q": "What will the first buyers receive?", "options": ["A reduced down payment", "Free landscaping", "A year of free maintenance", "Free kitchen appliances"], "answer": 3, "explain": "'The first twenty buyers will receive free kitchen appliances'." },
+        { "q": "What can listeners do this weekend?", "options": ["Visit a sales office", "Attend a community festival", "Sign a lease online", "Meet their neighbors"], "answer": 0, "explain": "'Visit our sales office this weekend between ten and four'." }
+      ]
+    },
+    {
+      "kind": "instructions",
+      "audio": [
+        { "s": "M", "t": "Welcome to the training video for our new project management software." },
+        { "s": "M", "t": "In this short session, I'll show you how to create a project and invite your team members." },
+        { "s": "M", "t": "First, click the green New Project button in the upper left corner." },
+        { "s": "M", "t": "Give your project a name and choose a due date. You can change both later if the schedule changes." },
+        { "s": "M", "t": "Next, select Team from the menu to send invitations by e-mail. Each team member will get a link, and they'll need to create a password." },
+        { "s": "M", "t": "If you have any questions, you can find answers in the Help Center, or you can start a live chat with our support staff at any time." }
+      ],
+      "questions": [
+        { "q": "What is the purpose of the talk?", "options": ["To explain how to use a program", "To announce a new project", "To introduce a new employee", "To advertise a service"], "answer": 0, "explain": "Người nói mở đầu: 'I'll show you how to create a project and invite your team members' bằng phần mềm quản lý dự án." },
+        { "q": "According to the speaker, what can be changed later?", "options": ["A team member's password", "A program's color", "A project's name and due date", "A support schedule"], "answer": 2, "explain": "'Give your project a name and choose a due date. You can change both later'." },
+        { "q": "What are listeners encouraged to do if they have questions?", "options": ["E-mail the speaker", "Call a manager", "Watch the video again", "Use an online chat service"], "answer": 3, "explain": "Anh nói có thể 'start a live chat with our support staff at any time', tức dùng dịch vụ chat trực tuyến." }
+      ]
+    },
+    {
+      "kind": "announcement",
+      "audio": [
+        { "s": "W2", "t": "Good afternoon, attendees of the Global Marketing Summit. Please note a change to this afternoon's program." },
+        { "s": "W2", "t": "Because of a scheduling conflict, Dr. Patel's presentation on consumer trends has been moved from Room A to the Garden Hall." },
+        { "s": "W2", "t": "It will now begin at three-thirty instead of three o'clock." },
+        { "s": "W2", "t": "In the meantime, the coffee break will be extended by thirty minutes, and refreshments are available on the second floor." },
+        { "s": "W2", "t": "Finally, if you left a black laptop bag near the registration desk, please see a staff member at the information booth." }
+      ],
+      "questions": [
+        { "q": "Where is the announcement most likely being made?", "options": ["At a university", "At a restaurant", "At a bookstore", "At a business event"], "answer": 3, "explain": "Thông báo gửi tới 'attendees of the Global Marketing Summit', một sự kiện kinh doanh." },
+        { "q": "What has changed about Dr. Patel's presentation?", "options": ["Its topic", "Its room and starting time", "Its speaker", "Its length"], "answer": 1, "explain": "Bài thuyết trình chuyển từ Room A sang Garden Hall và bắt đầu lúc 3:30 thay vì 3:00." },
+        { "q": "What are listeners asked to do if they lost an item?", "options": ["Check the Garden Hall", "E-mail the registration desk", "Speak to a staff member", "Fill out an online form"], "answer": 2, "explain": "'Please see a staff member at the information booth' nếu để quên túi xách." }
+      ]
+    },
+    {
+      "kind": "news report",
+      "audio": [
+        { "s": "N", "t": "In business news, Harmon Electronics announced today that it will open a new manufacturing plant in the town of Westfield." },
+        { "s": "N", "t": "The company plans to hire about four hundred workers over the next two years." },
+        { "s": "N", "t": "Mayor Gloria Santos welcomed the news, saying the plant will help revitalize the local economy." },
+        { "s": "N", "t": "Construction is expected to begin in March, with production starting early next year." },
+        { "s": "N", "t": "In related news, the city council will hold a public meeting on Thursday evening to discuss improvements to local roads and public transportation near the site." },
+        { "s": "N", "t": "Residents are encouraged to attend." }
+      ],
+      "questions": [
+        { "q": "What is the main topic of the report?", "options": ["A company merger", "A company's plan to build a factory", "A mayoral election", "A road construction project"], "answer": 1, "explain": "Bản tin nói Harmon Electronics sẽ mở nhà máy sản xuất mới ở Westfield." },
+        { "q": "What does the mayor say about the plant?", "options": ["It will help the local economy", "It will reduce traffic", "It will attract tourists", "It will increase taxes"], "answer": 0, "explain": "Thị trưởng nói nhà máy 'will help revitalize the local economy', tức giúp phục hồi kinh tế địa phương." },
+        { "q": "What will happen on Thursday?", "options": ["Construction will begin", "Workers will be hired", "The mayor will give a speech", "A public meeting will be held"], "answer": 3, "explain": "'The city council will hold a public meeting on Thursday evening'. Việc xây dựng bắt đầu vào tháng Ba." }
+      ]
+    },
+    {
+      "kind": "recorded message",
+      "audio": [
+        { "s": "M2", "t": "Thank you for calling the Zenith Technology help desk. Our office hours are Monday through Friday, eight a.m. to six p.m." },
+        { "s": "M2", "t": "If you're calling about a problem with your Internet service, please press one." },
+        { "s": "M2", "t": "For billing questions, press two. For new installations, press three." },
+        { "s": "M2", "t": "Please note that, due to high call volume, wait times are longer than usual." },
+        { "s": "M2", "t": "You may also visit our website and use the virtual assistant for immediate help." },
+        { "s": "M2", "t": "If this is an emergency, such as a complete service outage in your building, stay on the line and a representative will help you right away." }
+      ],
+      "questions": [
+        { "q": "What kind of business is the caller reaching?", "options": ["A hotel", "A bank", "A technology service company", "A moving company"], "answer": 2, "explain": "Tên 'Zenith Technology help desk' và các lựa chọn về dịch vụ Internet, lắp đặt cho thấy đây là công ty dịch vụ công nghệ." },
+        { "q": "What should a caller press for billing questions?", "options": ["One", "Two", "Three", "Zero"], "answer": 1, "explain": "'For billing questions, press two'. Một là sự cố Internet, ba là lắp đặt mới." },
+        { "q": "What can callers do to get immediate help?", "options": ["Use an online assistant", "Send an e-mail", "Visit an office", "Leave a message"], "answer": 0, "explain": "'Visit our website and use the virtual assistant for immediate help'." }
+      ]
+    }
+  ]
+}

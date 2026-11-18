@@ -1,0 +1,104 @@
+{
+  "title": "Does Willpower Really Run Out?",
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Every day, an ordinary adult makes a bewildering number of choices, from what to wear and eat to which messages to answer first. According to a popular theory, known as decision fatigue, the quality of our choices deteriorates as this sequence lengthens, much as an athlete's performance declines towards the end of a long race. The idea has proved irresistible to journalists, business consultants and policy makers, who have used it to explain everything from poor shopping habits to questionable court rulings. It is worth asking, however, how much of this enthusiasm is justified by the evidence, because the scientific picture is considerably less tidy than the popular one."
+    },
+    {
+      "label": "B",
+      "text": "The theory has its origins in laboratory experiments conducted from the late 1990s. In a typical study, one group of volunteers was asked to resist a plate of freshly baked biscuits, while another was allowed to eat them. Both groups were then given a difficult puzzle, and those who had been forced to exercise restraint gave up significantly sooner. Dr Helena Marsh, who led much of this early work, proposed that self-control relies on a limited internal resource, comparable to the strength of a muscle, which is temporarily exhausted by use. Later researchers suggested that the resource might be glucose, the sugar that fuels the brain, and several experiments appeared to show that a sweet drink restored the willpower of tired participants."
+    },
+    {
+      "label": "C",
+      "text": "Real-world data seemed to support the laboratory findings. The most famous example was a study of judges who decided whether prisoners should be released on parole. The proportion of favourable rulings was around 65 per cent at the start of each session but fell to almost zero as the session progressed, and then rebounded after a meal break. The authors argued that exhausted judges fell back on the easiest option, which was to refuse. Similar patterns were reported elsewhere: doctors were said to prescribe more unnecessary medicines late in the day, and shoppers who had made many choices were more likely to accept the default option on a purchase."
+    },
+    {
+      "label": "D",
+      "text": "Over the past decade, however, this foundation has weakened. Professor Tomas Reyes coordinated a project in which dozens of laboratories around the world attempted to repeat the original biscuit-and-puzzle experiment; the combined results showed an effect so small that it could not be distinguished from zero. The parole study has also been challenged. Dr Aiko Tanaka and her colleagues pointed out that cases were not heard in random order: prisoners without lawyers were scheduled at the end of each session, and these prisoners were far less likely to be released in any case. The famous pattern, she argued, may reflect the timetable rather than the tiredness of the judges. The glucose hypothesis has fared little better. In several experiments, volunteers who merely rinsed their mouths with a sugary drink and spat it out performed as well as those who swallowed it, which is difficult to explain if the brain were actually consuming sugar."
+    },
+    {
+      "label": "E",
+      "text": "If the mind does not literally run out of fuel, why does prolonged effort feel exhausting? Professor Daniel Okafor offers an alternative account. In his view, fatigue is not a sign of an empty tank but a signal that shifts our priorities. After a sustained period of demanding work, the attraction of rest or reward increases, and the task we are performing seems less worthwhile. People do not stop concentrating because they are unable to continue, but because they have become less willing to. His account is consistent with everyday observation: someone who is exhausted by tax forms may nevertheless spend hours absorbed in a game, and offering a meaningful reward often restores effort immediately."
+    },
+    {
+      "label": "F",
+      "text": "Whatever the mechanism, many experts argue that the practical lessons remain sound. Dr Priya Raman, who advises hospitals and schools, points out that nobody has ever claimed that unnecessary choices are free of cost. Setting sensible defaults, adopting routines and removing trivial decisions, she suggests, can leave more capacity for the decisions that matter. Some critics worry that such measures reduce personal freedom, but she replies that a fixed breakfast menu hardly limits anyone's autonomy. It also seems prudent, on common-sense grounds alone, to schedule an important decision for the start of the working day rather than leave it until the end of a long, tiring meeting."
+    },
+    {
+      "label": "G",
+      "text": "What should we conclude? The strong version of the theory, in which willpower is a tank that steadily empties, now looks unlikely. The weaker version, in which long periods of effort make people less motivated to deliberate carefully, is plausible and remains compatible with the better evidence. The failure of replication does not prove that decision fatigue is a myth; it shows only that the case was overstated. The parole results, in particular, cannot be taken at face value. Popular accounts of the idea tend to be far more confident than the research allows, and anyone building policy on them should proceed with caution."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "ynng",
+      "instructions": "Do the following statements agree with the claims of the writer in Reading Passage 3? Write YES, NO or NOT GIVEN.",
+      "questions": [
+        { "q": "The parole study is the only real-world evidence that has been offered in support of decision fatigue.", "answer": "NO", "explain": "Đoạn C nêu thêm bằng chứng khác: bác sĩ kê nhiều thuốc không cần thiết vào cuối ngày và người mua hàng chọn phương án mặc định, nên nhận định sai." },
+        { "q": "The writer believes that the parole study cannot be accepted at face value.", "answer": "YES", "explain": "Đoạn G nói thẳng: 'The parole results, in particular, cannot be taken at face value', đồng thời đoạn D nêu lý do về thứ tự xét các vụ án." },
+        { "q": "Decision fatigue has been shown to reduce the performance of surgeons during long operations.", "answer": "NOT GIVEN", "explain": "Bài không hề nhắc đến bác sĩ phẫu thuật hay các ca mổ dài; chỉ nhắc đến thẩm phán, bác sĩ kê thuốc và người mua hàng." },
+        { "q": "The writer considers it sensible to hold important decisions early in the working day.", "answer": "YES", "explain": "Đoạn F: 'It also seems prudent ... to schedule an important decision for the start of the working day', đây là quan điểm của chính tác giả." },
+        { "q": "The writer thinks the failure to replicate the biscuit experiment proves that decision fatigue does not exist.", "answer": "NO", "explain": "Đoạn G: 'The failure of replication does not prove that decision fatigue is a myth', nghĩa là tác giả phủ nhận ý này." },
+        { "q": "The writer believes popular accounts of decision fatigue are more confident than the evidence justifies.", "answer": "YES", "explain": "Đoạn G: 'Popular accounts ... tend to be far more confident than the research allows'." }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "Look at the following statements and the list of researchers below. Match each statement with the correct researcher, A–E. You may use any letter more than once.",
+      "options": [
+        "A  Dr Helena Marsh",
+        "B  Professor Tomas Reyes",
+        "C  Dr Aiko Tanaka",
+        "D  Professor Daniel Okafor",
+        "E  Dr Priya Raman"
+      ],
+      "questions": [
+        { "q": "Many laboratories that tried to repeat the original experiment found almost no effect.", "answer": 1, "explain": "Đoạn D: Giáo sư Tomas Reyes điều phối dự án nhiều phòng thí nghiệm lặp lại thí nghiệm bánh quy, kết quả gộp gần bằng không." },
+        { "q": "Tiredness may reflect a change in what people want to do rather than a shortage of energy.", "answer": 3, "explain": "Đoạn E: Giáo sư Okafor cho rằng mệt mỏi là tín hiệu thay đổi ưu tiên, con người trở nên kém sẵn lòng chứ không phải không thể tiếp tục." },
+        { "q": "Self-control may depend on an internal resource that is used up like a muscle.", "answer": 0, "explain": "Đoạn B: Tiến sĩ Helena Marsh đề xuất sự tự kiểm soát dựa vào một nguồn lực nội tại có hạn, giống sức mạnh của cơ bắp." },
+        { "q": "Removing unimportant choices can leave more capacity for important ones.", "answer": 4, "explain": "Đoạn F: Tiến sĩ Priya Raman cho rằng loại bỏ quyết định vặt giúp dành nhiều khả năng cho những quyết định quan trọng." },
+        { "q": "The order in which cases were heard may have produced a misleading pattern in the data.", "answer": 2, "explain": "Đoạn D: Tiến sĩ Aiko Tanaka chỉ ra các vụ án không được xét ngẫu nhiên, tù nhân không có luật sư xếp cuối phiên, nên mô hình có thể do lịch xét xử." }
+      ]
+    },
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "q": "What did the early laboratory experiments appear to show?",
+          "options": [
+            "Eating sweet food makes people more creative at puzzles.",
+            "People who are given biscuits are happier than those who are not.",
+            "Resisting temptation on one task can reduce effort on a later, different task.",
+            "Difficult puzzles are solved faster by groups than by individuals."
+          ],
+          "answer": 2,
+          "explain": "Đoạn B: nhóm phải cưỡng lại bánh quy bỏ cuộc sớm hơn ở bài đố khó, tức là tự kiểm soát ở việc này làm giảm nỗ lực ở việc sau."
+        },
+        {
+          "q": "Why does the writer mention volunteers who rinsed their mouths with a sugary drink?",
+          "options": [
+            "To show that sugar is the main source of willpower",
+            "To cast doubt on the idea that the brain literally uses up sugar",
+            "To prove that sweet drinks are harmful to concentration",
+            "To explain why judges made fewer favourable rulings"
+          ],
+          "answer": 1,
+          "explain": "Đoạn D: những người chỉ súc miệng rồi nhổ vẫn làm tốt như người nuốt, 'difficult to explain if the brain were actually consuming sugar', nên giả thuyết glucose bị nghi ngờ."
+        },
+        {
+          "q": "What is the writer's overall conclusion in paragraph G?",
+          "options": [
+            "Decision fatigue has been completely disproved and should be ignored.",
+            "Researchers should repeat the parole study with more judges.",
+            "Willpower is a limited resource that empties steadily over the day.",
+            "A weaker form of the theory is plausible, though the strong form is unlikely."
+          ],
+          "answer": 3,
+          "explain": "Đoạn G: phiên bản mạnh (ý chí như bình cạn dần) 'now looks unlikely', còn phiên bản yếu (nỗ lực kéo dài làm giảm động lực) vẫn hợp lý nên đáp án D."
+        }
+      ]
+    }
+  ]
+}

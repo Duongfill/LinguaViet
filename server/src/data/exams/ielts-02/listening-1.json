@@ -1,0 +1,98 @@
+{
+  "title": "Section 1",
+  "context": "A student is phoning a letting agency to ask about renting a flat.",
+  "audio": [
+    { "s": "N", "t": "You will hear a student phoning a letting agency to ask about renting a flat." },
+    { "s": "W", "t": "Good morning, Brightside Lettings, Hannah speaking. How can I help you?" },
+    { "s": "M", "t": "Hello, I saw an advert online for a two-bedroom flat near the university, and I'd like some more information." },
+    { "s": "W", "t": "Of course. Can I take your name first?" },
+    { "s": "M", "t": "Yes, it's Daniel Okafor. That's O-K-A-F-O-R." },
+    { "s": "W", "t": "Thank you, Mr Okafor. And the flat you mean is the one on Lindon Street, is that right?" },
+    { "s": "M", "t": "I think so, yes. Number 17, Lindon Street." },
+    { "s": "W", "t": "Ah, it's actually Linden, with an E. That's L-I-N-D-E-N, Linden Street." },
+    { "s": "M", "t": "Oh, I see, thanks for correcting me. The advert said the rent was 850 pounds a month." },
+    { "s": "W", "t": "That was the old price, I'm afraid. The owner reduced it last week, so it's now 780 pounds a month for the whole flat." },
+    { "s": "M", "t": "That's better than I expected. And do you ask for a deposit?" },
+    { "s": "W", "t": "Yes, we ask for five weeks' rent, which is the legal maximum." },
+    { "s": "M", "t": "Is that normal? I thought it was usually four weeks." },
+    { "s": "W", "t": "Some agents ask for four, but for this flat it's five." },
+    { "s": "M", "t": "OK. How far is it from the station? Is it near Marlow Station?" },
+    { "s": "W", "t": "No, Marlow is a couple of stops further on. Bridgeford Station is the nearest, about ten minutes' walk." },
+    { "s": "M", "t": "Great, that's very convenient. Could I come and see the flat this week?" },
+    { "s": "W", "t": "Certainly. How about Thursday at half past three?" },
+    { "s": "M", "t": "Hmm, I've got a lecture until four on Thursdays. Could we do it a little later?" },
+    { "s": "W", "t": "Yes, no problem. Would half past four suit you?" },
+    { "s": "M", "t": "Four-thirty would be perfect." },
+    { "s": "M", "t": "Just one more question about the rent. What exactly does it cover?" },
+    { "s": "W", "t": "Water and heating are included, and the owner has just added free internet as well, so you won't need to set that up." },
+    { "s": "M", "t": "Brilliant. And I suppose I'd pay for electricity myself?" },
+    { "s": "W", "t": "That's right, electricity isn't included." },
+    { "s": "M", "t": "Who will I meet at the viewing?" },
+    { "s": "W", "t": "The owner will show you round himself. His name is Mr Halloran, that's H-A-L-L-O-R-A-N." },
+    { "s": "M", "t": "H-A-L-L-O-R-A-N. Thank you. What if I need to change the time?" },
+    { "s": "W", "t": "You can ring him directly on 07715 348 291." },
+    { "s": "M", "t": "Let me check that: 07715 348 291." },
+    { "s": "W", "t": "Yes, that's correct. Oh, and please bring your passport and a reference from your previous landlord." },
+    { "s": "M", "t": "Do I need to show proof of my income as well?" },
+    { "s": "W", "t": "Not at this stage. The passport and the reference are enough for the viewing." },
+    { "s": "M", "t": "Perfect, thank you very much for your help. See you on Thursday." }
+  ],
+  "blocks": [
+    {
+      "type": "gap",
+      "instructions": "Complete the form below. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "questions": [
+        {
+          "q": "Name of caller: Daniel ______",
+          "answer": ["Okafor"],
+          "explain": "Người gọi tự đánh vần: \"That's O-K-A-F-O-R\" nên họ là Okafor."
+        },
+        {
+          "q": "Address of flat: 17 ______ Street",
+          "answer": ["Linden"],
+          "explain": "Người gọi nói nhầm \"Lindon Street\" nhưng nhân viên sửa: \"it's actually Linden, with an E. That's L-I-N-D-E-N\"."
+        },
+        {
+          "q": "Rent: £ ______ per month",
+          "answer": ["780", "£780"],
+          "explain": "850 là giá cũ trong quảng cáo; nhân viên nói \"it's now 780 pounds a month for the whole flat\"."
+        },
+        {
+          "q": "Deposit: ______ weeks' rent",
+          "answer": ["5", "five"],
+          "explain": "Người gọi tưởng là 4 tuần, nhưng nhân viên nói: \"for this flat it's five\"."
+        },
+        {
+          "q": "Nearest station: ______ Station",
+          "answer": ["Bridgeford"],
+          "explain": "Marlow là bẫy (xa hơn vài trạm). Nhân viên nói: \"Bridgeford Station is the nearest, about ten minutes' walk\"."
+        },
+        {
+          "q": "Viewing: Thursday at ______",
+          "answer": ["4.30", "4:30", "4.30pm", "4:30pm", "half past four", "16:30", "four thirty"],
+          "explain": "3h30 bị loại vì người gọi có tiết đến 4 giờ; sau đó đổi sang \"half past four\" và người gọi xác nhận \"Four-thirty would be perfect\"."
+        },
+        {
+          "q": "Included in rent: water, heating and ______",
+          "answer": ["internet", "the internet"],
+          "explain": "\"Water and heating are included, and the owner has just added free internet as well\". Điện thì không bao gồm."
+        },
+        {
+          "q": "Name of owner: Mr ______",
+          "answer": ["Halloran"],
+          "explain": "Nhân viên đánh vần tên chủ nhà: \"Mr Halloran, that's H-A-L-L-O-R-A-N\"."
+        },
+        {
+          "q": "Owner's phone number: ______",
+          "answer": ["07715 348 291", "07715348291", "07715-348-291"],
+          "explain": "\"You can ring him directly on 07715 348 291\" và người gọi đọc lại để xác nhận."
+        },
+        {
+          "q": "Bring to viewing: passport and a ______ from previous landlord",
+          "answer": ["reference"],
+          "explain": "\"please bring your passport and a reference from your previous landlord\". Bằng chứng thu nhập không cần ở giai đoạn này."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,819 @@
+{
+  "part": 7,
+  "groups": [
+    {
+      "kind": "email",
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Email",
+          "text": "To: Mr. Daniel Okafor\nFrom: Patient Services, Riverbend Medical Center\nDate: March 4\nSubject: Change to your appointment\n\nDear Mr. Okafor,\n\nWe regret to inform you that Dr. Helen Marsh, with whom you are scheduled to meet on Tuesday, March 11 at 9:30 A.M., will be attending a medical conference that week. To avoid delaying your follow-up visit, we have reserved two alternative times with Dr. Marsh's colleague, Dr. Paul Winters, a specialist in the same department: Monday, March 10 at 2:00 P.M., or Wednesday, March 12 at 11:15 A.M.\n\nIf neither time is convenient, you may keep your original date, but your appointment would be with a nurse practitioner, who can review your test results and renew prescriptions. Please note that any new treatment decisions would then need to wait until Dr. Marsh returns on March 18.\n\nTo confirm your choice, please reply to this e-mail or call 555-0148 by Friday, March 7. Kindly bring your insurance card and a list of your current medications to the visit. There is no charge for rescheduling.\n\nSincerely,\nRosa Delgado\nPatient Services, Riverbend Medical Center"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why was the e-mail sent?",
+          "options": [
+            "To offer a change to a scheduled visit",
+            "To announce a new hospital department",
+            "To report the results of a medical test",
+            "To request payment for a recent visit"
+          ],
+          "answer": 0,
+          "explain": "Thư báo bác sĩ Marsh đi dự hội nghị nên đề nghị hai giờ hẹn khác — mục đích là đề xuất thay đổi lịch khám."
+        },
+        {
+          "q": "What is indicated about the nurse practitioner?",
+          "options": [
+            "She cannot make new treatment decisions for Mr. Okafor.",
+            "She is attending a medical conference.",
+            "She works in a different department from Dr. Winters.",
+            "She is unable to review test results."
+          ],
+          "answer": 0,
+          "explain": "Thư nói nếu gặp y tá thực hành thì \"any new treatment decisions would then need to wait until Dr. Marsh returns\" — tức cô ấy không quyết định điều trị mới; cô vẫn xem được kết quả xét nghiệm nên C sai."
+        },
+        {
+          "q": "What is Mr. Okafor asked to do by March 7?",
+          "options": [
+            "Pay a rescheduling fee",
+            "Let the center know which option he prefers",
+            "Bring his insurance card to the center",
+            "Call Dr. Marsh directly"
+          ],
+          "answer": 1,
+          "explain": "Thư yêu cầu \"reply to this e-mail or call ... by Friday, March 7\" để xác nhận lựa chọn. Thẻ bảo hiểm là mang theo khi đến khám, và việc đổi lịch không mất phí."
+        }
+      ]
+    },
+    {
+      "kind": "notice",
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Notice",
+          "text": "NOTICE TO ALL PRODUCTION STAFF\nGreenfield Packaging Plant — Posted November 6\n\nStarting Monday, November 17, Assembly Line 3 will be closed for two weeks while new labeling machines are installed. During this period, employees normally assigned to Line 3 will be reassigned temporarily to Lines 1 and 2 or to the warehouse, depending on their certifications.\n\nAll reassigned workers must complete a one-hour safety session before beginning their new duties. Sessions will be held in Conference Room B at 7:00 A.M. on November 12, 13, and 14. Attendance will be recorded, and workers who miss all three sessions will need to meet individually with their supervisors. Note that the session is mandatory even for employees who have worked on Lines 1 and 2 before.\n\nOvertime is expected to be limited during the closure. However, employees who wish to work extra shifts on Saturdays should submit the request form to Ms. Imani Brooks in Human Resources by November 10. Please be aware that forms cannot be accepted after that date.\n\nThe new machines are expected to reduce labeling errors by nearly 40 percent. We thank everyone for their cooperation during the transition."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What will happen to Line 3 on November 17?",
+          "options": [
+            "It will begin operating on a new shift.",
+            "It will be relocated to the warehouse.",
+            "It will be shut down so equipment can be installed.",
+            "It will be inspected by safety officials."
+          ],
+          "answer": 2,
+          "explain": "Thông báo ghi Line 3 \"will be closed for two weeks while new labeling machines are installed\" kể từ ngày 17/11."
+        },
+        {
+          "q": "What is NOT true about the safety session?",
+          "options": [
+            "It lasts one hour.",
+            "It is held in Conference Room B.",
+            "It is optional for workers who have experience on Lines 1 and 2.",
+            "Attendance is recorded."
+          ],
+          "answer": 2,
+          "explain": "Bài viết nói buổi tập huấn là bắt buộc \"even for employees who have worked on Lines 1 and 2 before\", nên khẳng định \"tùy chọn\" là sai; ba ý còn lại đều đúng."
+        },
+        {
+          "q": "By when should employees submit a request for Saturday shifts?",
+          "options": [
+            "November 10",
+            "November 12",
+            "November 14",
+            "November 17"
+          ],
+          "answer": 0,
+          "explain": "Đơn xin làm thêm ca thứ Bảy phải nộp cho cô Brooks \"by November 10\"; các ngày còn lại là ngày tập huấn hoặc ngày đóng dây chuyền."
+        }
+      ]
+    },
+    {
+      "kind": "advertisement",
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Advertisement",
+          "text": "FRESHNEST MARKET — GRAND OPENING!\nSaturday, April 12 through Sunday, April 20\n2150 Laurel Avenue (next to Harbor Street Station)\n\nYour neighborhood now has a new place to shop for fresh, local food. FreshNest Market offers more than 400 products from farms within 80 kilometers, a full-service bakery, and a salad bar made fresh every morning.\n\nOpening-week specials:\n• Free reusable shopping bag with any purchase of $30 or more (first 500 customers each day)\n• Buy one loaf of bakery bread, get a second loaf at half price\n• Members receive 10% off their entire first purchase\n\nSign up for a free FreshNest membership at the customer service desk or on our Web site. Members also receive weekly coupons by e-mail and can order groceries online for same-day pickup. Home delivery will be available starting in June.\n\nStore hours: Monday–Saturday, 7 A.M.–9 P.M.; Sunday, 8 A.M.–7 P.M.\nDon't miss the live cooking demonstration with local chef Marta Lindgren on opening Saturday at 11 A.M.!"
+        }
+      ],
+      "questions": [
+        {
+          "q": "How can a customer receive a free reusable bag?",
+          "options": [
+            "By spending at least $30 as one of the first 500 shoppers of the day",
+            "By signing up for a membership online",
+            "By buying two loaves of bakery bread",
+            "By attending the cooking demonstration"
+          ],
+          "answer": 0,
+          "explain": "Quảng cáo ghi túi miễn phí cho khách mua từ $30 trở lên, chỉ \"first 500 customers each day\"."
+        },
+        {
+          "q": "What service is NOT yet available at FreshNest Market?",
+          "options": [
+            "Online ordering",
+            "Same-day pickup",
+            "Coupons sent by e-mail",
+            "Home delivery"
+          ],
+          "answer": 3,
+          "explain": "\"Home delivery will be available starting in June\" — nghĩa là hiện chưa có giao hàng tận nhà; đặt hàng online và nhận trong ngày đã có."
+        },
+        {
+          "q": "What benefit is offered to new members?",
+          "options": [
+            "A free loaf of bread",
+            "A private tour of the farms",
+            "Priority entry on opening day",
+            "A discount on their first purchase"
+          ],
+          "answer": 3,
+          "explain": "Theo quảng cáo, \"Members receive 10% off their entire first purchase\" — giảm 10% cho lần mua đầu tiên."
+        }
+      ]
+    },
+    {
+      "kind": "article",
+      "passages": [
+        {
+          "kind": "article",
+          "title": "Article",
+          "text": "Harborview Bank Launches \"QuickPay\" App\nBy Leila Nasser, Business Reporter\n\nBROOKFIELD (June 3) — Harborview Bank announced yesterday that its new mobile application, QuickPay, will be available to all account holders beginning June 16. The app allows customers to transfer money, pay utility bills, and deposit checks by taking a photo, without visiting a branch.\n\n\"Our customers told us that waiting in line was their biggest frustration,\" said Chief Operating Officer Victor Hallan. \"QuickPay was designed to eliminate most of those trips.\" During a three-month trial involving 2,000 customers, branch visits for routine transactions dropped by nearly one third, the bank reported.\n\nSecurity was a major focus of the project. The app requires fingerprint or face recognition and sends an alert to the customer whenever a payment above $500 is made. Mr. Hallan added that customers will be reimbursed for any unauthorized transaction reported within 30 days.\n\nDespite the shift toward digital services, Harborview does not plan to close any branches. Instead, it will convert two locations into advice centers, where staff will help customers with mortgages and retirement planning. The conversions are scheduled to be completed by December."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the purpose of the article?",
+          "options": [
+            "To advertise low mortgage rates",
+            "To announce the introduction of a mobile service",
+            "To report the closing of several branches",
+            "To explain how to apply for a bank job"
+          ],
+          "answer": 1,
+          "explain": "Bài báo mở đầu bằng việc ngân hàng công bố ứng dụng QuickPay sẽ ra mắt ngày 16/6."
+        },
+        {
+          "q": "What happened during the trial of the app?",
+          "options": [
+            "Many customers reported unauthorized payments.",
+            "The bank hired more branch employees.",
+            "Customers asked for longer branch hours.",
+            "Fewer customers visited branches for routine matters."
+          ],
+          "answer": 3,
+          "explain": "Bài viết nói trong đợt thử nghiệm, lượt đến chi nhánh cho giao dịch thường lệ \"dropped by nearly one third\"."
+        },
+        {
+          "q": "The word \"reimbursed\" in paragraph 3 is closest in meaning to",
+          "options": [
+            "warned",
+            "repaid",
+            "informed",
+            "employed"
+          ],
+          "answer": 1,
+          "explain": "\"Reimbursed\" nghĩa là được hoàn lại tiền, gần nghĩa nhất với \"repaid\"."
+        },
+        {
+          "q": "What does Harborview Bank plan to do with two of its branches?",
+          "options": [
+            "Close them by December",
+            "Turn them into centers offering financial advice",
+            "Replace them with mobile units",
+            "Rent them to other businesses"
+          ],
+          "answer": 1,
+          "explain": "Đoạn cuối: ngân hàng sẽ \"convert two locations into advice centers\" hỗ trợ vay thế chấp và kế hoạch hưu trí, không đóng chi nhánh nào."
+        }
+      ]
+    },
+    {
+      "kind": "webpage",
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "Web page",
+          "text": "Seabreeze Journeys — 5-Day Island Discovery\nPrice: $1,150 per person (double occupancy) | Departures: every Friday, May–September\n\nHighlights\nDay 1: Arrive in Port Alder and check in to the Lighthouse Inn. Welcome dinner at 7 P.M.\nDay 2: Ferry to Merrow Island; guided walk along the cliffs.\nDay 3: Free day — choose from kayaking, a pottery workshop, or a visit to the local fish market (optional activities cost extra).\nDay 4: Bus tour of the old town and a cooking class using local ingredients.\nDay 5: Breakfast, then transfer to the airport (shuttle departs at 10 A.M.).\n\nIncluded: four nights' accommodation, daily breakfast, ferry tickets, and an English-speaking guide.\nNot included: airfare, lunches, and optional activities.\n\nCancellation policy: Full refund up to 30 days before departure. Cancellations made 15–29 days before departure receive a 50% refund. No refund is given within 14 days of departure.\n\nSingle travelers can reserve a private room for an additional $280. To book, call 555-0172 or complete the online form."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is included in the price of the tour?",
+          "options": [
+            "Ferry transportation",
+            "Airfare to Port Alder",
+            "Lunch every day",
+            "A kayaking trip"
+          ],
+          "answer": 0,
+          "explain": "\"Included: ... ferry tickets\"; vé máy bay, bữa trưa và hoạt động tùy chọn (như chèo kayak) đều không được bao gồm."
+        },
+        {
+          "q": "How much money will a traveler get back by canceling 20 days before departure?",
+          "options": [
+            "All of the price",
+            "50 percent of the price",
+            "None of the price",
+            "The $280 room fee only"
+          ],
+          "answer": 1,
+          "explain": "20 ngày nằm trong khoảng 15–29 ngày trước ngày khởi hành nên \"receive a 50% refund\"."
+        },
+        {
+          "q": "How much would a single traveler pay for a private room?",
+          "options": [
+            "$1,150",
+            "$1,290",
+            "$1,430",
+            "$1,570"
+          ],
+          "answer": 2,
+          "explain": "Giá tour $1,150 cộng phụ thu phòng riêng $280 = $1,430."
+        }
+      ]
+    },
+    {
+      "kind": "notice",
+      "passages": [
+        {
+          "kind": "notice",
+          "title": "Notice",
+          "text": "EASTGATE PUBLIC LIBRARY — Notice of Revised Hours and Services\nEffective Monday, September 8\n\nFollowing a community survey, the library will adjust its opening hours to better serve local residents.\n\n• Monday–Thursday: 9:00 A.M.–8:00 P.M. (previously 10:00 A.M.–6:00 P.M.)\n• Friday: 9:00 A.M.–5:00 P.M.\n• Saturday: 10:00 A.M.–4:00 P.M.\n• Sunday: closed (previously open noon–4:00 P.M.)\n\nSelf-checkout stations will be installed on the first floor, allowing patrons to borrow books without assistance from staff. Late fees are being eliminated for children's books, although adult materials will continue to be charged at 25 cents per day. Patrons who still have overdue items are encouraged to return them before October 1, when the library will send final notices.\n\nMeeting rooms may be reserved up to 30 days in advance at the front desk. Because of the longer evening hours, the Reading Circle will move from Wednesday afternoons to Wednesday evenings at 6:30 P.M."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What change will take effect on September 8?",
+          "options": [
+            "The library will begin opening on Sundays.",
+            "The library will close on Saturdays.",
+            "The library will start charging for meeting rooms.",
+            "The library will stay open later on weekday evenings."
+          ],
+          "answer": 3,
+          "explain": "Thứ Hai–Thứ Năm giờ đóng cửa dời từ 6 giờ lên 8 giờ tối; Chủ nhật thì đóng cửa chứ không mở thêm."
+        },
+        {
+          "q": "What is indicated about late fees?",
+          "options": [
+            "They will no longer apply to children's books.",
+            "They will be raised for adult materials.",
+            "They will be waived for all overdue items before October 1.",
+            "They will be collected at the self-checkout stations."
+          ],
+          "answer": 0,
+          "explain": "Bài viết ghi phí trả muộn \"are being eliminated for children's books\", còn sách người lớn vẫn tính 25 cent mỗi ngày."
+        }
+      ]
+    },
+    {
+      "kind": "chat",
+      "passages": [
+        {
+          "kind": "chat",
+          "title": "Text-message chain",
+          "text": "Priya Raman [10:05 A.M.]: Hi Tom, did the client approve the new poster design for the Sunrise Dairy campaign?\nTom Becker [10:08 A.M.]: Almost. They like the layout, but they want the slogan in a larger font and a different shade of green.\nPriya Raman [10:09 A.M.]: Got it. That shouldn't take long. When do they need the final files?\nTom Becker [10:11 A.M.]: The printer's deadline is Thursday at noon, so I'd like to send everything by Wednesday evening.\nPriya Raman [10:12 A.M.]: Hmm, I'm presenting to another client on Wednesday afternoon. I could start the changes now, though.\nTom Becker [10:14 A.M.]: That would be great. Also, can you check whether Mei is free to proofread? She's the only one who catches every typo.\nPriya Raman [10:16 A.M.]: I'll ask her. By the way, the billboard photos still haven't arrived from the photographer.\nTom Becker [10:17 A.M.]: I'll call him right now. If he can't deliver them today, we'll have to use the stock images.\nPriya Raman [10:18 A.M.]: Sounds good. I'll send you the revised poster by 3 o'clock."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What does the client want to change about the poster?",
+          "options": [
+            "The layout of the design",
+            "The name of the campaign",
+            "The printer used for the job",
+            "The size of the slogan and a color"
+          ],
+          "answer": 3,
+          "explain": "Tom nói khách hàng \"want the slogan in a larger font and a different shade of green\" — đổi cỡ chữ khẩu hiệu và sắc xanh; bố cục thì họ đã ưng."
+        },
+        {
+          "q": "At 10:12 A.M., what does Priya most likely mean when she writes, \"I could start the changes now, though\"?",
+          "options": [
+            "She disagrees with the client's request.",
+            "She wants to cancel her presentation.",
+            "She can finish some of the work before her presentation.",
+            "She has already completed the revisions."
+          ],
+          "answer": 2,
+          "explain": "Priya bận thuyết trình vào chiều thứ Tư nên đề nghị bắt tay sửa ngay để kịp hạn — \"though\" thể hiện giải pháp thay thế cho trở ngại đó."
+        },
+        {
+          "q": "What will Tom probably do next?",
+          "options": [
+            "Send the files to the printer",
+            "Ask Priya to give the presentation",
+            "Order stock images immediately",
+            "Contact the photographer"
+          ],
+          "answer": 3,
+          "explain": "Tom nói \"I'll call him right now\" về việc chưa nhận được ảnh biển quảng cáo từ nhiếp ảnh gia."
+        }
+      ]
+    },
+    {
+      "kind": "invoice",
+      "passages": [
+        {
+          "kind": "invoice",
+          "title": "Invoice",
+          "text": "NORTHFIELD MEDICAL SUPPLY CO.\nINVOICE No. 20431\nDate: October 15        Payment due: November 14\n\nBill to: Lakeside Community Hospital, Purchasing Department\nAttention: Ms. Carla Reyes\n\nItem                                    Qty   Unit price   Total\nDisposable gloves (box of 100)           40      $6.50     $260.00\nSurgical masks (box of 50)               30      $8.00     $240.00\nDigital thermometers                     12     $15.00     $180.00\nHand sanitizer (500 ml)                  24      $4.25     $102.00\n\nSubtotal                                                   $782.00\nDiscount (5% on orders over $750)                          -$39.10\nShipping (free on orders over $500)                          $0.00\nTOTAL DUE                                                  $742.90\n\nNotes: The thermometers will be shipped separately, no later than October 25. A 2% late fee will be added to any balance not paid by the due date. Payment may be made by bank transfer or check. Questions? Call our accounts office at 555-0166."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why did the hospital receive a discount?",
+          "options": [
+            "It paid before the due date.",
+            "Its order was larger than $750.",
+            "It purchased more than 40 boxes of gloves.",
+            "It is a long-time customer."
+          ],
+          "answer": 1,
+          "explain": "Hóa đơn ghi \"Discount (5% on orders over $750)\" và tổng đơn là $782, vượt $750."
+        },
+        {
+          "q": "What is indicated about the thermometers?",
+          "options": [
+            "They were removed from the invoice.",
+            "They are no longer in stock.",
+            "They must be paid for separately.",
+            "They will not arrive with the rest of the order."
+          ],
+          "answer": 3,
+          "explain": "Ghi chú: \"The thermometers will be shipped separately\" — nhiệt kế sẽ được gửi riêng, nhưng vẫn nằm trong hóa đơn."
+        },
+        {
+          "q": "What will happen if Lakeside Community Hospital pays after November 14?",
+          "options": [
+            "Its discount will be cancelled.",
+            "Its next shipment will be delayed.",
+            "An extra charge will be added to its balance.",
+            "It will have to pay by check only."
+          ],
+          "answer": 2,
+          "explain": "Hóa đơn nói \"A 2% late fee will be added to any balance not paid by the due date\" — thanh toán trễ sẽ bị cộng phí."
+        }
+      ]
+    },
+    {
+      "kind": "review",
+      "passages": [
+        {
+          "kind": "review",
+          "title": "Online review",
+          "text": "Hotel Marigold, Port Alder — ★★★★☆\n\"Great location, but breakfast needs work\"\nReviewed by Kenji Mori | September 22 | Business traveler\n\nI stayed at Hotel Marigold for four nights while attending a trade fair. The location is excellent: the convention center is a five-minute walk away, and the train station is just across the street. Check-in was quick, and the front desk clerk, Anna, kindly arranged a late checkout at no charge when she learned my flight left in the evening.\n\nThe room itself was clean and quiet at night, with a large desk and fast Wi-Fi, which was essential for my work. Breakfast, however, was disappointing. The selection was limited, and the dining room was so crowded between 8 and 9 A.M. that I had to wait twenty minutes for a table. I'd suggest arriving before 7:30.\n\nMy one complaint concerns the elevator, which was out of service on my second day, so I had to carry my luggage up three flights. The manager apologized and offered a coupon for a free dinner at the hotel restaurant, which was delicious. I would stay here again, provided the breakfast improves.\n\nResponse from the manager: Thank you for your kind review, Mr. Mori. Since your stay, we have hired additional kitchen staff and extended breakfast service to run from 6:30 to 10:00 A.M."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why did Mr. Mori stay at the hotel?",
+          "options": [
+            "He was taking a vacation with his family.",
+            "He was waiting for an evening train.",
+            "He was attending a business event.",
+            "He was moving to a new city."
+          ],
+          "answer": 2,
+          "explain": "Mr. Mori viết \"while attending a trade fair\" — tức đi dự một sự kiện kinh doanh; anh là \"business traveler\"."
+        },
+        {
+          "q": "What did the front desk clerk do for Mr. Mori?",
+          "options": [
+            "She let him leave his room later than usual.",
+            "She upgraded him to a larger room.",
+            "She booked him a seat on an evening flight.",
+            "She gave him a coupon for dinner."
+          ],
+          "answer": 0,
+          "explain": "Anna \"arranged a late checkout at no charge\"; phiếu ăn tối miễn phí là do quản lý tặng vì sự cố thang máy."
+        },
+        {
+          "q": "What has the hotel done in response to the criticism of breakfast?",
+          "options": [
+            "It moved breakfast to a larger room.",
+            "It lowered the price of the buffet.",
+            "It lengthened the serving hours and added staff.",
+            "It replaced the restaurant manager."
+          ],
+          "answer": 2,
+          "explain": "Quản lý trả lời: đã thuê thêm nhân viên bếp và \"extended breakfast service\" từ 6:30 đến 10:00 sáng."
+        }
+      ]
+    },
+    {
+      "kind": "form",
+      "passages": [
+        {
+          "kind": "form",
+          "title": "Application form",
+          "text": "GREENHAVEN HOSPITAL — VOLUNTEER APPLICATION\n\nApplicant name: Sofia Almeida              Age: 19\nTelephone: 555-0129\nAvailability: Mondays and Wednesdays, 1:00–5:00 P.M.; Saturday mornings\nPreferred area: Patient information desk\nExperience: Two years as a library assistant; fluent in English and Portuguese; CPR certificate (expires in December)\nReason for applying: I am studying nursing and would like to gain experience helping patients and their families.\n\n— FOR OFFICE USE ONLY —\nOrientation: September 12, 9:00 A.M., Room 104\nPlacement: Information desk, Mondays, 1:00–5:00 P.M.\nNotes: All Saturday positions in the pediatric ward are currently filled; applicant has been added to the waiting list for Saturday shifts. Background check: pending. Volunteer badge will be issued after orientation."
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why is Ms. Almeida applying to be a volunteer?",
+          "options": [
+            "To improve her Portuguese",
+            "To renew her CPR certificate",
+            "To gain experience related to her studies",
+            "To find a full-time job at the hospital"
+          ],
+          "answer": 2,
+          "explain": "Phần lý do ghi cô đang học điều dưỡng và muốn tích lũy kinh nghiệm chăm sóc bệnh nhân."
+        },
+        {
+          "q": "What can be inferred about Ms. Almeida?",
+          "options": [
+            "She will not work on Saturdays at first.",
+            "She has previous hospital experience.",
+            "She will start before the orientation.",
+            "She requested to work in the pediatric ward."
+          ],
+          "answer": 0,
+          "explain": "Mục ghi chú: các vị trí thứ Bảy đã đủ người và cô \"has been added to the waiting list\" — nên lúc đầu cô chưa làm ca thứ Bảy, chỉ xếp vào thứ Hai."
+        }
+      ]
+    },
+    {
+      "kind": "email, schedule",
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Email",
+          "text": "To: Mr. Alan Pierce, Orchard Juice Co.\nFrom: Hana Kowalski, Brightline Advertising\nDate: August 19\nSubject: Revised schedule for the summer campaign\nAttachment: Production schedule (version 2)\n\nDear Mr. Pierce,\n\nThank you for your call this morning. As discussed, the filming of the television commercial must move from August 26 to September 2 because the location, Pine Hill Orchard, will be closed during the week of the 26th for harvest preparation. I have attached the updated production schedule.\n\nDespite this change, we still expect to deliver the finished 30-second commercial on September 19, as originally promised, because our editing team has agreed to work an additional weekend. The radio advertisement will not be affected, since its recording is set for September 10, after the voice actor returns from abroad on September 9.\n\nI would also like to remind you that your approval of the script is still outstanding. We cannot begin casting for the commercial until we receive your written approval, so please send it by Friday, August 22. If any further revisions are needed, we can discuss them at our meeting on August 21.\n\nBest regards,\nHana Kowalski\nAccount Manager, Brightline Advertising"
+        },
+        {
+          "kind": "schedule",
+          "title": "Production schedule",
+          "text": "BRIGHTLINE ADVERTISING — Orchard Juice Co. Summer Campaign\nProduction Schedule (Version 2, updated August 19)\n\nDate            Task                                          Responsible\nAug 21          Client meeting: script discussion             H. Kowalski / A. Pierce\nAug 22          Script approval due                           A. Pierce\nAug 25–29       Casting                                       Casting team\nSept 2–3        TV commercial filming (Pine Hill Orchard)     Production team\nSept 4–18       TV editing and sound                          Editing team\nSept 10         Radio ad recording                            Studio / voice actor\nSept 19         Final delivery: TV commercial                 H. Kowalski\nSept 24         Final delivery: radio ad                      H. Kowalski\nOct 1           Campaign launch                               Orchard Juice Co.\n\nNote: Any change to the dates above may affect the launch date. The cost of the additional editing weekend is included in the original quotation."
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the purpose of the e-mail?",
+          "options": [
+            "To ask for payment for completed work",
+            "To inform a client of a change to the schedule",
+            "To propose a new advertising campaign",
+            "To introduce a new account manager"
+          ],
+          "answer": 1,
+          "explain": "Thư mở đầu bằng việc quay phim \"must move from August 26 to September 2\" và đính kèm lịch mới — mục đích là báo thay đổi lịch."
+        },
+        {
+          "q": "Why will filming take place on a different date?",
+          "options": [
+            "The voice actor is traveling abroad.",
+            "The filming location will be unavailable.",
+            "The script has not been written.",
+            "The editing team is busy."
+          ],
+          "answer": 1,
+          "explain": "Pine Hill Orchard \"will be closed during the week of the 26th for harvest preparation\", nên phải dời sang ngày 2/9."
+        },
+        {
+          "q": "The word \"outstanding\" in paragraph 3 of the e-mail is closest in meaning to",
+          "options": [
+            "excellent",
+            "very large",
+            "still needed",
+            "recently changed"
+          ],
+          "answer": 2,
+          "explain": "\"Your approval of the script is still outstanding\" nghĩa là sự chấp thuận vẫn chưa nhận được, tức \"still needed\"."
+        },
+        {
+          "q": "When will casting most likely begin?",
+          "options": [
+            "August 21",
+            "August 25",
+            "September 2",
+            "September 10"
+          ],
+          "answer": 1,
+          "explain": "Email nói chỉ chọn diễn viên sau khi nhận được sự chấp thuận (hạn 22/8), còn lịch trình ghi Casting vào \"Aug 25–29\"."
+        },
+        {
+          "q": "What is suggested about the additional weekend of editing?",
+          "options": [
+            "It will delay the radio advertisement.",
+            "The client will not be charged extra for it.",
+            "It will move the campaign launch to October.",
+            "It was requested by Mr. Pierce."
+          ],
+          "answer": 1,
+          "explain": "Email nói nhóm biên tập đồng ý làm thêm một cuối tuần, còn lịch trình ghi chi phí đó \"is included in the original quotation\" — khách không phải trả thêm."
+        }
+      ]
+    },
+    {
+      "kind": "email, letter",
+      "passages": [
+        {
+          "kind": "email",
+          "title": "Email",
+          "text": "To: Customer Service, Delmar Industrial Equipment\nFrom: Grace Tan, Operations Manager, Sweetcrust Bakeries\nDate: May 6\nSubject: Order #7714 — damaged shipment\n\nTo Whom It May Concern:\n\nOur order of two industrial dough mixers (Model DX-300) arrived on May 5, three days later than the promised delivery date. Upon unpacking, we found that one of the machines had a cracked control panel, and the delivery driver confirmed that the crate had been dropped during unloading. Because we are opening a new production line on May 19, we urgently need both machines.\n\nThe second mixer appears to be in good condition, and we have already started its installation. Could you let us know how you plan to resolve the problem with the damaged unit? We would prefer a replacement, but we would consider a refund if a replacement cannot reach us before May 19.\n\nI look forward to your prompt reply.\n\nGrace Tan\nOperations Manager, Sweetcrust Bakeries"
+        },
+        {
+          "kind": "letter",
+          "title": "Letter",
+          "text": "Delmar Industrial Equipment\nCustomer Relations Department\nMay 8\n\nMs. Grace Tan\nSweetcrust Bakeries\n\nDear Ms. Tan:\n\nPlease accept our sincere apologies for the late delivery and the damage to your DX-300 mixer. Our records show that the shipment was delayed by a regional trucking strike, but this does not excuse the handling error at unloading, which we are investigating with the carrier.\n\nWe can offer two options. First, we will send a replacement control panel by express freight, and our technician can install it at your site, free of charge, on May 12 or 13. Alternatively, we can send a complete replacement mixer, which would arrive on May 21 at the earliest, since the next production batch will not be finished until May 16. Either option comes with a 10 percent credit toward your next order.\n\nPlease let me know which you prefer by May 9 so that we can reserve the technician's time. In the meantime, there is no need to return the damaged unit.\n\nSincerely,\nWalter Osei\nManager, Customer Relations"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why did Ms. Tan write to Delmar Industrial Equipment?",
+          "options": [
+            "To ask about a new mixer model",
+            "To cancel her order for two mixers",
+            "To request a technician for a regular inspection",
+            "To report problems with an order"
+          ],
+          "answer": 3,
+          "explain": "Email nói đơn hàng đến trễ ba ngày và một máy bị nứt bảng điều khiển — mục đích là phản ánh sự cố với đơn hàng."
+        },
+        {
+          "q": "What is indicated about the second mixer?",
+          "options": [
+            "It was damaged during unloading.",
+            "It arrived after the first one.",
+            "It must be returned to the manufacturer.",
+            "Installation has already begun."
+          ],
+          "answer": 3,
+          "explain": "Cô Tan viết máy thứ hai trong tình trạng tốt và \"we have already started its installation\"."
+        },
+        {
+          "q": "According to the letter, what caused the delay in delivery?",
+          "options": [
+            "A strike by truck workers",
+            "A mistake at the factory",
+            "A shortage of materials",
+            "Bad weather on the roads"
+          ],
+          "answer": 0,
+          "explain": "Thư của ông Osei ghi lô hàng bị chậm do \"a regional trucking strike\"."
+        },
+        {
+          "q": "Which option will Ms. Tan most likely choose?",
+          "options": [
+            "Receiving a complete replacement mixer",
+            "Returning the damaged mixer for a refund",
+            "Having a new control panel installed at her site",
+            "Waiting until the next production batch"
+          ],
+          "answer": 2,
+          "explain": "Cô cần máy trước ngày 19/5, mà máy thay thế hoàn chỉnh chỉ đến sớm nhất ngày 21/5; kỹ thuật viên lắp bảng điều khiển mới vào ngày 12 hoặc 13/5 nên là lựa chọn hợp lý."
+        },
+        {
+          "q": "What is NOT offered by Mr. Osei in the letter?",
+          "options": [
+            "Free installation by a technician",
+            "A credit for a future order",
+            "A refund of the entire purchase price",
+            "A complete replacement machine"
+          ],
+          "answer": 2,
+          "explain": "Ông Osei đưa ra hai phương án (thay bảng điều khiển hoặc thay cả máy), kèm 10% tín dụng cho đơn sau; thư không đề cập hoàn tiền."
+        }
+      ]
+    },
+    {
+      "kind": "webpage, email, email",
+      "passages": [
+        {
+          "kind": "webpage",
+          "title": "Web page",
+          "text": "Pinecrest Lakeside Cabins — Rates and Policies\n\nCabin type                    Sleeps      Rate per night\nCozy Cabin                    2           $120\nFamily Cabin                  4–6         $190\nLodge                         8–10        $320\n\n• Special offer: From October 1 through March 31, nights from Sunday to Thursday are 20% off the regular rate.\n• Check-in is at 3:00 P.M. and check-out is at 11:00 A.M. Minimum stay: two nights on weekends.\n• Pets are welcome in the Cozy Cabin and the Family Cabin for a one-time fee of $25. Pets are not permitted in the Lodge.\n• A deposit of 25% of the total is charged at the time of booking. The remaining balance is due 14 days before arrival.\n• Firewood is available for $8 per bundle."
+        },
+        {
+          "kind": "email",
+          "title": "Email",
+          "text": "To: Pinecrest Lakeside Cabins\nFrom: Rachel Dunne\nDate: September 2\nSubject: Booking inquiry\n\nHello,\n\nMy husband and I would like to book a cabin for our two children and our dog for three nights, arriving on Sunday, October 12. We have seen the rates on your Web site, but I have a few questions. Does the special offer apply to our dates? Also, our flight does not land until late, so we would probably reach the lake at around 8 P.M. Would it be possible to check in at that time?\n\nThank you,\nRachel Dunne"
+        },
+        {
+          "kind": "email",
+          "title": "Email",
+          "text": "To: Rachel Dunne\nFrom: Brian Holt, Pinecrest Lakeside Cabins\nDate: September 3\nSubject: RE: Booking inquiry\n\nDear Ms. Dunne,\n\nThank you for your interest in Pinecrest. I am pleased to confirm that I have reserved a cabin for your family for three nights beginning October 12. All three nights fall within our current special offer. The total, including the pet fee, is $481.00, and a deposit of $120.25 has been charged to the card you provided. Your remaining balance will be collected in accordance with our policy.\n\nLate arrivals are no problem. Please call me when you land, and I will send you a code for the key box at the cabin door so you can let yourselves in. If you would like firewood waiting for you, just let me know.\n\nSincerely,\nBrian Holt\nGuest Services, Pinecrest Lakeside Cabins"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why did Ms. Dunne write to Pinecrest Lakeside Cabins?",
+          "options": [
+            "To reserve a cabin and ask some questions",
+            "To complain about the cost of a stay",
+            "To cancel a booking for October",
+            "To request a refund of her deposit"
+          ],
+          "answer": 0,
+          "explain": "Cô Dunne viết \"would like to book a cabin\" và sau đó hỏi về ưu đãi và giờ nhận phòng."
+        },
+        {
+          "q": "Which type of cabin was most likely reserved for Ms. Dunne's family?",
+          "options": [
+            "The Cozy Cabin",
+            "The Lodge",
+            "Both the Cozy Cabin and the Lodge",
+            "The Family Cabin"
+          ],
+          "answer": 3,
+          "explain": "Gia đình 4 người kèm chó: Cozy chỉ chứa 2 người, Lodge không cho thú cưng, nên chỉ có Family Cabin phù hợp (3 đêm x $152 + $25 = $481)."
+        },
+        {
+          "q": "How much will Ms. Dunne pay in total for her stay?",
+          "options": [
+            "$456.00",
+            "$481.00",
+            "$570.00",
+            "$595.00"
+          ],
+          "answer": 1,
+          "explain": "Giá phòng $190 giảm 20% còn $152 mỗi đêm; ba đêm là $456, cộng phí thú cưng $25 thành $481 — khớp với thư của ông Holt."
+        },
+        {
+          "q": "When is Ms. Dunne required to pay the remaining balance?",
+          "options": [
+            "On September 28",
+            "On September 3",
+            "On October 1",
+            "On October 12"
+          ],
+          "answer": 0,
+          "explain": "Trang web ghi phần còn lại đến hạn \"14 days before arrival\"; nhận phòng ngày 12/10 nên hạn là 28/9."
+        },
+        {
+          "q": "What will Ms. Dunne's family be able to do on the evening of October 12?",
+          "options": [
+            "Check in with a front desk clerk at 3 P.M.",
+            "Buy firewood from the guest services office",
+            "Enter their cabin using a code",
+            "Get their keys from a front desk clerk"
+          ],
+          "answer": 2,
+          "explain": "Ông Holt hứa gửi mã hộp khóa (\"a code for the key box\") để gia đình tự vào cabin khi đến trễ khoảng 8 giờ tối."
+        }
+      ]
+    },
+    {
+      "kind": "memo, schedule, email",
+      "passages": [
+        {
+          "kind": "memo",
+          "title": "Memo",
+          "text": "MEMO\nTo: All Staff, Cedar Valley Hospital\nFrom: Dr. Amara Singh, Director of Employee Health\nDate: October 2\nSubject: Annual flu vaccination clinic\n\nAll employees are required to receive a flu vaccination by October 31 unless they have a documented medical exemption. This year, vaccinations will be offered free of charge in the Wellness Room on the second floor from October 14 to 24. The attached schedule lists the times assigned to each department so that patient care is never left understaffed.\n\nEmployees who cannot attend their assigned session may attend another department's session, provided that they inform the Employee Health Office at least one day in advance. Please bring your staff ID badge. Employees who receive the vaccination elsewhere must submit proof to the Employee Health Office by October 31. Those with a medical exemption should submit the required form by October 10."
+        },
+        {
+          "kind": "schedule",
+          "title": "Schedule",
+          "text": "FLU VACCINATION CLINIC — Wellness Room, 2nd Floor\n\nDate        Time                  Departments\nOct 14      7:00–10:00 A.M.       Emergency, Radiology\nOct 15      1:00–4:00 P.M.        Pediatrics, Pharmacy\nOct 17      7:00–10:00 A.M.       Surgery, Intensive Care\nOct 21      1:00–4:00 P.M.        Laboratory, Administration\nOct 24      5:00–8:00 P.M.        Night-shift staff (all departments)\n\nNote: Staff without an assigned session are welcome on October 24, subject to vaccine supply."
+        },
+        {
+          "kind": "email",
+          "title": "Email",
+          "text": "To: Employee Health Office\nFrom: Jorge Medina\nDate: October 8\nSubject: Vaccination session\n\nHello,\n\nI work in Pediatrics, but I will be on vacation from October 13 to 16, so I cannot attend my department's session. I work the day shift from 7:00 A.M. to 3:00 P.M. on weekdays, and I cannot leave the ward during working hours. Could you please tell me which of the other sessions I may join? I would like to receive my vaccination on time.\n\nThank you,\nJorge Medina\nPediatrics Nurse"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is the purpose of the memo?",
+          "options": [
+            "To announce a change in work shifts",
+            "To introduce a new hospital director",
+            "To advertise a health insurance plan",
+            "To explain the hospital's flu vaccination requirement"
+          ],
+          "answer": 3,
+          "explain": "Memo mở đầu: mọi nhân viên \"are required to receive a flu vaccination by October 31\" và hướng dẫn cách tiêm tại bệnh viện."
+        },
+        {
+          "q": "The word \"provided\" in paragraph 2 of the memo is closest in meaning to",
+          "options": [
+            "as long as",
+            "supplied",
+            "decided",
+            "reported"
+          ],
+          "answer": 0,
+          "explain": "\"Provided that they inform...\" mang nghĩa \"với điều kiện là/miễn là\", tương đương \"as long as\"."
+        },
+        {
+          "q": "Why is Mr. Medina unable to attend the session for his department?",
+          "options": [
+            "He is exempt from the vaccination.",
+            "He works the night shift.",
+            "He already received a vaccination elsewhere.",
+            "He will be away on vacation."
+          ],
+          "answer": 3,
+          "explain": "Lịch ghi Pediatrics tiêm ngày 15/10, trùng thời gian anh nghỉ phép từ 13 đến 16/10."
+        },
+        {
+          "q": "Which session is Mr. Medina most likely to attend?",
+          "options": [
+            "October 14",
+            "October 17",
+            "October 21",
+            "October 24"
+          ],
+          "answer": 3,
+          "explain": "Anh làm ca ngày đến 3 giờ chiều và không rời khoa trong giờ làm; chỉ buổi 5–8 giờ tối ngày 24/10 diễn ra sau ca làm của anh (lịch cũng cho nhân viên khác tham dự)."
+        },
+        {
+          "q": "What is NOT indicated about the clinic?",
+          "options": [
+            "Visitors to the hospital may be vaccinated.",
+            "The vaccination is free of charge.",
+            "It is located on the second floor.",
+            "Employees must bring identification."
+          ],
+          "answer": 0,
+          "explain": "Memo nêu tiêm miễn phí, ở Wellness Room tầng hai và cần mang thẻ nhân viên; không nói khách đến bệnh viện được tiêm."
+        }
+      ]
+    },
+    {
+      "kind": "advertisement, email, email",
+      "passages": [
+        {
+          "kind": "advertisement",
+          "title": "Advertisement",
+          "text": "GREENLEAF MARKET IS HIRING\n\nAssistant Store Manager — Westfield location (full-time)\n\nGreenleaf Market, a regional supermarket chain with 24 stores, is expanding. We are looking for an energetic Assistant Store Manager to join our new Westfield store, opening in January.\n\nResponsibilities: supervising up to 20 staff members, ordering inventory, handling customer concerns, and preparing weekly work schedules.\n\nRequirements: at least two years of retail supervisory experience; strong communication skills; ability to work weekends. A university degree is preferred but not required.\n\nBenefits: salary of $48,000–$55,000 depending on experience; health insurance after 60 days; 15% employee discount; paid training.\n\nTo apply, send your résumé and a cover letter to Ines Calder, Human Resources, by November 28. Interviews will be held during the week of December 8."
+        },
+        {
+          "kind": "email",
+          "title": "Email",
+          "text": "To: Ines Calder\nFrom: Marcus Webb\nDate: November 21\nSubject: Application — Assistant Store Manager\n\nDear Ms. Calder,\n\nI am writing to apply for the Assistant Store Manager position at the Westfield store. I have worked as a department supervisor at Greenleaf's Eastgate store for three years, where I manage a team of twelve in the produce and bakery departments. I also introduced a new ordering system that reduced spoiled stock by 18 percent. I am especially interested in this position because Westfield is closer to my home, and I would welcome the chance to help open a new store.\n\nMy résumé is attached. I do not hold a university degree, but I have completed an evening course in retail management. Please note that I will be traveling from December 8 to 10, so I would appreciate an interview on another day that week.\n\nThank you for your consideration.\n\nMarcus Webb"
+        },
+        {
+          "kind": "email",
+          "title": "Email",
+          "text": "To: Marcus Webb\nFrom: Ines Calder\nDate: December 1\nSubject: Interview invitation\n\nDear Mr. Webb,\n\nThank you for applying. We were impressed by your record at the Eastgate store, and your manager there spoke very highly of you. We would like to invite you to an interview. Considering your travel plans, we have reserved Friday, December 12 at 10:30 A.M. at the Westfield store office, 88 Market Road. You will meet with me and Mr. Paul Henriks, who will be the manager of the new store.\n\nPlease bring a photo ID and the names of two references. Kindly confirm that this time is convenient by December 5.\n\nBest regards,\nInes Calder\nHuman Resources, Greenleaf Market"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What is NOT listed as a responsibility of the Assistant Store Manager?",
+          "options": [
+            "Preparing work schedules",
+            "Designing advertisements",
+            "Ordering inventory",
+            "Supervising staff"
+          ],
+          "answer": 1,
+          "explain": "Quảng cáo liệt kê giám sát nhân viên, đặt hàng tồn kho, giải quyết thắc mắc khách và lập lịch làm việc; không có thiết kế quảng cáo."
+        },
+        {
+          "q": "What is suggested about Mr. Webb's qualifications?",
+          "options": [
+            "He has a degree in retail management.",
+            "He has more than the required supervisory experience.",
+            "He has managed a store before.",
+            "He has worked at Greenleaf Market for only a year."
+          ],
+          "answer": 1,
+          "explain": "Yêu cầu là ít nhất hai năm kinh nghiệm giám sát; ông Webb đã làm giám sát ba năm. Bằng đại học chỉ là ưu tiên, không bắt buộc."
+        },
+        {
+          "q": "Why is Mr. Webb interested in the Westfield position?",
+          "options": [
+            "It offers a higher salary than other stores.",
+            "It does not require working on weekends.",
+            "It is the largest Greenleaf store.",
+            "It is nearer to where he lives."
+          ],
+          "answer": 3,
+          "explain": "Ông Webb viết \"Westfield is closer to my home\" khi giải thích lý do quan tâm đến vị trí."
+        },
+        {
+          "q": "What is indicated about the interview on December 12?",
+          "options": [
+            "It will be held at the Eastgate store.",
+            "It will take place during Mr. Webb's work hours.",
+            "It was scheduled to fit Mr. Webb's travel plans.",
+            "It was arranged by Mr. Webb's manager."
+          ],
+          "answer": 2,
+          "explain": "Quảng cáo nói phỏng vấn trong tuần 8/12 và ông Webb đi vắng 8–10/12; bà Calder chọn 12/12 \"considering your travel plans\"."
+        },
+        {
+          "q": "Who is Mr. Henriks?",
+          "options": [
+            "The head of Human Resources",
+            "The manager of the Eastgate store",
+            "The future manager of the Westfield store",
+            "A reference for Mr. Webb"
+          ],
+          "answer": 2,
+          "explain": "Bà Calder viết Mr. Henriks \"will be the manager of the new store\" — tức cửa hàng mới ở Westfield."
+        }
+      ]
+    }
+  ]
+}

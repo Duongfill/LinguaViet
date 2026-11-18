@@ -6,4 +6,4 @@ dist/
 .env
 vapid.json
 *.log
-data/
+/data/

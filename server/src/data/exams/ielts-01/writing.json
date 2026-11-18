@@ -1,0 +1,26 @@
+{
+  "task1": {
+    "prompt": "The bar chart below shows the percentage of adults who took regular exercise in four countries in 2005, 2015 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "bar",
+      "title": "Adults taking regular exercise (%)",
+      "unit": "%",
+      "categories": ["2005", "2015", "2023"],
+      "series": [
+        { "name": "Finland", "values": [52, 58, 64] },
+        { "name": "Japan", "values": [38, 45, 57] },
+        { "name": "Canada", "values": [44, 43, 47] },
+        { "name": "Brazil", "values": [21, 29, 41] }
+      ]
+    },
+    "sample": "The bar chart compares the proportion of adults who took regular exercise in four countries in 2005, 2015 and 2023.\n\nOverall, participation rose in every country over the period, although the size of the increase varied considerably. Finland remained the most active nation throughout, while Brazil recorded the lowest figures in all three years.\n\nIn 2005, Finland led with 52% of adults exercising regularly, followed by Canada at 44% and Japan at 38%. Brazil trailed far behind on just 21%. Over the next decade, Finland and Japan improved steadily, reaching 58% and 45% respectively, and Brazil climbed to 29%. By contrast, Canada's figure dipped marginally to 43%, the only decline shown in the chart.\n\nThe final eight years saw the most dramatic changes. Japan's rate jumped by 12 percentage points to 57%, narrowing the gap with Finland (64%) to just seven points. Brazil's proportion also rose sharply, to 41%, almost double its 2005 level. Canada, meanwhile, recovered slightly to 47% but ended the period with the smallest overall growth, at only three percentage points.",
+    "sampleBand": 7.5,
+    "notes_vi": "Dàn ý: (1) Mở bài: paraphrase đề (the proportion of adults who took regular exercise = the percentage of adults exercising regularly). (2) Overview: nêu 2 xu hướng chính — tất cả nước đều tăng (trừ Canada gần như đi ngang), Phần Lan luôn cao nhất, Brazil luôn thấp nhất. (3) Thân bài 1: 2005–2015. (4) Thân bài 2: 2015–2023 với số liệu nổi bật (Nhật tăng mạnh nhất). Lỗi hay gặp: quên đoạn Overview; chỉ liệt kê số mà không so sánh; nhầm 'percent' và 'percentage points' khi nói về mức chênh; dùng thì hiện tại cho mốc quá khứ; chép nguyên văn đề bài."
+  },
+  "task2": {
+    "prompt": "Some people believe that unpaid community service should be a compulsory part of high school programmes. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience.",
+    "sample": "It is sometimes argued that high school students should be required to complete a period of unpaid community service as part of their studies. I largely agree with this view, although I believe the programme must be carefully designed to be effective.\n\nThe strongest argument in favour of compulsory service is that it teaches practical values that the classroom cannot. Teenagers who spend a few hours each week helping at a food bank or an elderly care home quickly learn empathy, responsibility and teamwork. These qualities are difficult to develop through textbooks alone, yet they are exactly what employers and societies need. For example, a student who has organised a neighbourhood clean-up has had to persuade others, manage time and deal with setbacks, all of which are transferable skills.\n\nMoreover, making the activity compulsory ensures that every young person benefits, not only those whose families already encourage volunteering. If service were optional, the students who most need broader experiences might never take part. A shared requirement also creates a sense of fairness and common purpose among classmates from different backgrounds.\n\nCritics, however, claim that forcing students to volunteer defeats the very meaning of the word and may breed resentment. This concern is valid, which is why schools should offer a wide choice of projects, from environmental work to tutoring younger pupils, so that students can pursue causes they genuinely care about. The workload should also be reasonable, so that it does not damage academic performance.\n\nIn conclusion, provided that the programme is flexible and well supervised, I believe compulsory community service brings lasting benefits to both students and the wider community, and it should therefore form part of the high school curriculum.",
+    "sampleBand": 7.5,
+    "notes_vi": "Dạng Opinion (agree/disagree): nêu rõ lập trường ngay mở bài và giữ nhất quán. Dàn ý 4 đoạn: Mở bài (paraphrase + quan điểm) — Thân bài 1: lý do chính ủng hộ + ví dụ — Thân bài 2: lý do thứ hai và/hoặc nhượng bộ ý kiến đối lập rồi phản biện — Kết bài (nhắc lại quan điểm). Lỗi hay gặp: nói 'I agree' nhưng thân bài lại ủng hộ ý ngược lại; ý chung chung không có ví dụ; lặp từ 'volunteer' thay vì dùng từ đồng nghĩa (community service, unpaid work, helping others); viết quá ngắn dưới 250 từ; dùng 'In my opinion' lặp lại nhiều lần; quên phần 'to what extent' — hãy dùng 'largely agree' hoặc 'partly agree' nếu bạn có điều kiện kèm theo."
+  }
+}

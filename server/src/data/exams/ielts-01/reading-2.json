@@ -1,0 +1,113 @@
+{
+  "title": "Living Lights of the Deep Ocean",
+  "paragraphs": [
+    {
+      "label": "A",
+      "text": "Sunlight fades quickly in the ocean. By about two hundred metres down, the water is dim, and below one kilometre it is completely dark except for the faint glow produced by living things. Early naturalists assumed that the deep sea was a lifeless void, but expeditions in the nineteenth century hauled up animals that seemed to carry their own lamps. Since then, researchers reviewing hours of video recorded by underwater vehicles have concluded that the ability to produce light, known as bioluminescence, is the rule rather than the exception. One survey suggested that roughly three-quarters of the animals living in open water between the surface and the seabed are able to make light."
+    },
+    {
+      "label": "B",
+      "text": "The chemistry behind the glow is surprisingly simple. In most species, a molecule called luciferin reacts with oxygen, and the reaction is sped up by an enzyme, luciferase, to release energy as light. Unlike a light bulb, which wastes most of its energy as heat, this reaction gives off almost no warmth, so the glow is often described as 'cold light'. Not every animal makes its own luciferin. Some, such as the flashlight fish, keep colonies of glowing bacteria in pouches beneath their eyes and feed the microbes in exchange for light. Biologists believe that bioluminescence has evolved independently dozens of times, which suggests that it offers a powerful advantage to life in the dark."
+    },
+    {
+      "label": "C",
+      "text": "One obvious use of light is hunting. The female anglerfish dangles a luminous lure in front of her mouth, and curious prey that swim close to investigate are snapped up. Other hunters have developed more subtle tricks. Most deep-sea animals cannot see red light, because red wavelengths are absorbed within a few metres of the surface and eyes have no reason to detect them. The dragonfish takes advantage of this by producing a beam of red light from a spot below its eye. The beam acts as a private searchlight, allowing the fish to see prey that has no idea it is being watched."
+    },
+    {
+      "label": "D",
+      "text": "Light can also be used for hiding, which seems a contradiction. Animals swimming in the dimly lit waters of the upper ocean appear as dark silhouettes to predators looking upward. Hatchetfish, certain squid and many other species solve this problem with a technique known as counterillumination: they produce light from organs on their undersides and adjust its brightness to match the faint glow filtering down from above. The silhouette disappears. Some animals alter the intensity within seconds as the conditions overhead change, using sensors that detect the light levels around them."
+    },
+    {
+      "label": "E",
+      "text": "For prey that has already been spotted, light offers a means of escape. A sudden flash can startle an attacker for the fraction of a second needed to flee. Certain shrimp spit out a glowing fluid into the face of a predator, much as an octopus releases ink, and slip away while the cloud confuses their pursuer. Jellyfish may use a different strategy, known as the 'burglar alarm' effect. When a jellyfish is caught, its flashing display attracts larger predators, which may attack the animal that is attacking it. Some brittle stars even detach a glowing arm, leaving it twitching on the seabed as a decoy while the rest of the animal creeps off."
+    },
+    {
+      "label": "F",
+      "text": "Light is a language as well. In the warm waters of the Caribbean, tiny crustaceans called ostracods, sometimes known as sea fireflies, perform courtship displays on summer nights. Males release glowing droplets in a precise series of pulses, and each species has its own pattern, so that a female can recognise a suitable partner among the many species sharing the same water. Females respond with signals of their own, while rival males sometimes hover nearby hoping to intercept the courting pair. The result is an underwater light show that can be seen from a boat."
+    },
+    {
+      "label": "G",
+      "text": "Studying these animals is far from easy. Fragile creatures that live under enormous pressure are often damaged by the journey to the surface in nets, and they may stop glowing as soon as they are brought into bright light. Scientists increasingly rely on submersibles fitted with red lamps, which the animals cannot see, and on cameras sensitive enough to record a single flash. Meanwhile, bioluminescence has found uses on land. Luciferase is used as a marker in medical laboratories to follow the growth of cancer cells, and similar systems can detect bacteria in drinking water. Yet researchers readily admit that they have catalogued only a small share of the species that glow, and that the deep ocean still holds far more questions than answers."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "mcq",
+      "instructions": "Choose the correct letter, A, B, C or D.",
+      "questions": [
+        {
+          "q": "What does the survey mentioned in paragraph A suggest?",
+          "options": [
+            "Bioluminescence is rare among animals in open water.",
+            "Most animals in the water between surface and seabed can make light.",
+            "Light-producing animals live mainly close to the seabed.",
+            "Video footage is too unreliable for counting animals."
+          ],
+          "answer": 1,
+          "explain": "Đoạn A: 'roughly three-quarters of the animals living in open water ... are able to make light', tức đa số động vật có thể phát sáng. A trái ngược; C và D không được nói tới."
+        },
+        {
+          "q": "Why is the light produced by living things often called 'cold light'?",
+          "options": [
+            "It only appears in cold water.",
+            "It is mostly blue-green in colour.",
+            "The reaction that makes it releases almost no heat.",
+            "It is made by animals living in polar seas."
+          ],
+          "answer": 2,
+          "explain": "Đoạn B: phản ứng 'gives off almost no warmth, so the glow is often described as cold light'. Các lựa chọn còn lại không có trong bài."
+        },
+        {
+          "q": "What is the purpose of counterillumination, according to paragraph D?",
+          "options": [
+            "To attract partners of the same species",
+            "To make the animal brighter than its surroundings",
+            "To dazzle predators that are looking upward",
+            "To remove the dark outline that predators below could see"
+          ],
+          "answer": 3,
+          "explain": "Đoạn D: động vật phát sáng ở mặt dưới cơ thể cho khớp với ánh sáng từ trên chiếu xuống nên 'The silhouette disappears', kẻ săn mồi ở dưới không thấy bóng tối của nó."
+        },
+        {
+          "q": "What does the writer suggest in the final paragraph?",
+          "options": [
+            "Much about glowing deep-sea animals is still unknown.",
+            "Scientists have now identified most of the species that glow.",
+            "Nets are the best tool for studying deep-sea animals.",
+            "Bioluminescence has no practical uses outside the ocean."
+          ],
+          "answer": 0,
+          "explain": "Đoạn G kết luận các nhà nghiên cứu mới ghi nhận 'only a small share of the species that glow' và đại dương sâu còn nhiều câu hỏi chưa có lời đáp. B sai, C sai (lưới làm hỏng sinh vật), D sai (luciferase dùng trong y học)."
+        }
+      ]
+    },
+    {
+      "type": "gap",
+      "instructions": "Complete the sentences below. Choose ONE WORD ONLY from the passage for each answer.",
+      "questions": [
+        { "q": "In most species, light is produced when oxygen reacts with a molecule called ______.", "answer": ["luciferin"], "explain": "Đoạn B: 'a molecule called luciferin reacts with oxygen'." },
+        { "q": "Flashlight fish keep colonies of glowing ______ in pouches beneath their eyes.", "answer": ["bacteria"], "explain": "Đoạn B: 'keep colonies of glowing bacteria in pouches beneath their eyes'." },
+        { "q": "Researchers use submersibles fitted with ______ lamps because the animals cannot see them.", "answer": ["red"], "explain": "Đoạn G: 'submersibles fitted with red lamps, which the animals cannot see'." },
+        { "q": "In medical laboratories, luciferase serves as a ______ to follow the growth of cancer cells.", "answer": ["marker"], "explain": "Đoạn G: 'Luciferase is used as a marker in medical laboratories to follow the growth of cancer cells'." }
+      ]
+    },
+    {
+      "type": "match",
+      "instructions": "Match each animal with the way it uses light, A–E.",
+      "options": [
+        "A  to draw prey towards it",
+        "B  to hide from predators",
+        "C  to confuse an attacker so that it can escape",
+        "D  to attract a mate of the same species",
+        "E  to see prey without being noticed"
+      ],
+      "questions": [
+        { "q": "hatchetfish", "answer": 1, "explain": "Đoạn D: cá hatchetfish dùng counterillumination để xoá bóng tối của mình, tức là ngụy trang trước kẻ săn mồi." },
+        { "q": "female anglerfish", "answer": 0, "explain": "Đoạn C: anglerfish cái 'dangles a luminous lure' để con mồi tò mò bơi lại gần." },
+        { "q": "ostracod (sea firefly)", "answer": 3, "explain": "Đoạn F: ostracod đực phát các xung sáng theo mẫu riêng của loài để thu hút con cái cùng loài." },
+        { "q": "certain shrimp", "answer": 2, "explain": "Đoạn E: tôm phun chất lỏng phát sáng vào mặt kẻ săn mồi, đám mây này làm nó bối rối trong lúc tôm trốn thoát." },
+        { "q": "dragonfish", "answer": 4, "explain": "Đoạn C: cá dragonfish phát ánh sáng đỏ mà con mồi không nhìn thấy, như đèn pha riêng để quan sát con mồi." }
+      ]
+    }
+  ]
+}
