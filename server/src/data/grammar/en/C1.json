@@ -1,0 +1,306 @@
+[
+  {
+    "id": "en-c1-inversion",
+    "level": "C1",
+    "title": "Đảo ngữ",
+    "title_native": "Inversion (Never have I…, Not only…)",
+    "summary_vi": "Đưa trạng từ phủ định/hạn chế lên đầu câu rồi đảo trợ động từ lên trước chủ ngữ để nhấn mạnh.",
+    "formula": [
+      "Never / Rarely / Seldom / Little + trợ động từ + S + V",
+      "Not only + trợ động từ + S + V, but S also + V",
+      "Hardly / Scarcely + had + S + V3 + when …; No sooner + had + S + V3 + than …",
+      "Only after / Only when / Under no circumstances / Not until + trợ động từ + S + V"
+    ],
+    "explain_vi": "Bình thường câu tiếng Anh có trật tự **chủ ngữ + động từ**. Ở văn phong trang trọng hoặc khi muốn nhấn mạnh mạnh, ta đưa một trạng từ **mang nghĩa phủ định hoặc hạn chế** (never, rarely, seldom, hardly, no sooner, not only, only after, under no circumstances, little…) lên đầu câu. Khi đó phải **đảo trợ động từ lên trước chủ ngữ**, giống như khi đặt câu hỏi.\n\nVí dụ: *I have never seen such a view* → **Never have I seen** such a view. Nếu câu gốc chỉ có động từ thường ở hiện tại hoặc quá khứ đơn, ta mượn **do/does/did**: *Not only did she win…*. Động từ chính trở về dạng nguyên mẫu.\n\nCặp **Hardly/Scarcely … when** và **No sooner … than** diễn tả hai việc xảy ra gần như cùng lúc; mệnh đề đầu dùng quá khứ hoàn thành (**had + V3**) và đảo ngữ, mệnh đề sau dùng quá khứ đơn. Nhớ: hardly/scarcely đi với **when**, no sooner đi với **than**.\n\nCác cụm **Only after/Only when/Only then/Not until** cũng gây đảo ngữ, nhưng đảo ở **mệnh đề chính** chứ không phải mệnh đề phụ: *Only after the meeting did I realise…*. Tiếng Việt không có hiện tượng này, nên người Việt hay quên đảo. Đảo ngữ cũng dùng trong câu điều kiện trang trọng: *Had I known…, Should you need help…, Were he here…* (thay cho If).",
+    "examples": [
+      { "t": "Never have I seen such a beautiful sunset.", "vi": "Chưa bao giờ tôi thấy một hoàng hôn đẹp đến vậy." },
+      { "t": "Not only did she win the prize, but she also broke the record.", "vi": "Cô ấy không chỉ giành giải mà còn phá cả kỷ lục." },
+      { "t": "Hardly had we sat down when the phone rang.", "vi": "Chúng tôi vừa ngồi xuống thì điện thoại reo." },
+      { "t": "No sooner had he arrived than it started to rain.", "vi": "Anh ấy vừa đến thì trời bắt đầu mưa." },
+      { "t": "Only after the meeting did I realise my mistake.", "vi": "Chỉ sau cuộc họp tôi mới nhận ra lỗi của mình." },
+      { "t": "Under no circumstances should you open this door.", "vi": "Trong bất kỳ hoàn cảnh nào bạn cũng không được mở cánh cửa này." }
+    ],
+    "mistakes": [
+      { "wrong": "Never I have seen such a mess.", "right": "Never have I seen such a mess.", "note_vi": "Sau trạng từ phủ định đứng đầu câu phải đảo trợ động từ lên trước chủ ngữ." },
+      { "wrong": "Not only she won the match, but she also scored twice.", "right": "Not only did she win the match, but she also scored twice.", "note_vi": "Với động từ thường phải mượn do/does/did khi đảo ngữ, động từ chính ở dạng nguyên mẫu." },
+      { "wrong": "No sooner had he left than when the rain stopped.", "right": "No sooner had he left than the rain stopped.", "note_vi": "No sooner đi với than, hardly/scarcely đi với when; không dùng cả hai." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "Never ___ such a delicious meal.", "options": ["I have eaten", "have I eaten", "I ate", "did I eaten"], "answer": 1, "explain": "Never đứng đầu câu nên đảo have lên trước I: Never have I eaten." },
+      { "type": "mcq", "q": "Not only ___ late, but he also forgot the documents.", "options": ["he arrived", "arrived he", "did he arrive", "he did arrive"], "answer": 2, "explain": "Not only + did + S + V nguyên mẫu (arrive)." },
+      { "type": "mcq", "q": "Hardly had she closed her eyes ___ the alarm went off.", "options": ["when", "than", "as if", "so"], "answer": 0, "explain": "Hardly/Scarcely đi với when; no sooner mới đi với than." },
+      { "type": "mcq", "q": "Only after the results were published ___ the truth.", "options": ["they learnt", "they did learn", "learnt they", "did they learn"], "answer": 3, "explain": "Only after + mệnh đề, rồi đảo ngữ ở mệnh đề chính: did they learn." },
+      { "type": "mcq", "q": "Under no circumstances ___ the password with anyone.", "options": ["you should share", "should you share", "you share should", "do you should share"], "answer": 1, "explain": "Under no circumstances đứng đầu câu: đảo should lên trước you." },
+      { "type": "gap", "q": "No sooner ___ the door than the dog ran out. (he / open)", "answer": ["had he opened"], "explain": "No sooner + had + S + V3 (had he opened)." },
+      { "type": "gap", "q": "Rarely ___ such honest people. (we / meet)", "answer": ["do we meet"], "explain": "Rarely đứng đầu, hiện tại đơn: mượn do rồi đảo: do we meet." },
+      { "type": "gap", "q": "Little ___ that the plan would fail. (they / know)", "answer": ["did they know"], "explain": "Little (nghĩa gần như 'hoàn toàn không') đứng đầu câu, quá khứ đơn: did they know." },
+      { "type": "order", "words": ["have", "I", "Never", "been", "so", "embarrassed"], "answer": "Never have I been so embarrassed.", "vi": "Chưa bao giờ tôi xấu hổ đến thế.", "explain": "Never + have + I + V3." },
+      { "type": "order", "words": ["did", "Not", "he", "only", "apologise", "but", "also", "he", "paid", "for", "damage", "the"], "answer": "Not only did he apologise, but he also paid for the damage.", "vi": "Anh ấy không chỉ xin lỗi mà còn trả tiền thiệt hại.", "explain": "Not only did he apologise, but he also + V (quá khứ)." }
+    ]
+  },
+  {
+    "id": "en-c1-cleft-sentences",
+    "level": "C1",
+    "title": "Câu chẻ",
+    "title_native": "Cleft sentences (It is… that / What…)",
+    "summary_vi": "Tách câu thành hai phần để nhấn mạnh một thành phần: It is/was … that …, What … is …",
+    "formula": [
+      "It is/was + thành phần nhấn mạnh + that/who + mệnh đề",
+      "What + S + V + is/was + (to) V / danh từ / mệnh đề",
+      "The thing/reason/place … + is/was + …",
+      "All (that) + S + V + is/was + …"
+    ],
+    "explain_vi": "Câu chẻ (cleft sentence) là cách **chẻ một câu thành hai phần** để làm nổi bật thông tin quan trọng. Tiếng Việt có cấu trúc tương tự: *Chính anh ấy là người…*, *Điều tôi cần là…*.\n\n**1. It-cleft:** *It is/was + phần nhấn mạnh + that/who + phần còn lại.* Phần nhấn mạnh có thể là chủ ngữ, tân ngữ, trạng ngữ thời gian hoặc nơi chốn. Với người có thể dùng **who**, còn lại dùng **that**. Ví dụ: *My brother broke the window* → **It was my brother who** broke the window / **It was the window that** my brother broke.\n\n**2. Wh-cleft (pseudo-cleft):** *What + S + V + is/was …*. Ví dụ: **What I need is** a long holiday. Mệnh đề **What…** đóng vai trò chủ ngữ, nên động từ **be** theo sau, chia theo thì của ý được nói tới. Có thể thay What bằng *The thing that, The reason why, The place where, All…*.\n\nLưu ý: phần nhấn mạnh đứng giữa **It was … that**, không dùng *when/where* thay cho *that* trong It-cleft. Không thêm đại từ thừa: không nói *What I need it is…*. Câu chẻ thường dùng để đính chính (*It wasn't Tom who…*), nhấn mạnh cảm xúc, hoặc dẫn dắt thông tin mới trong bài viết và bài nói trang trọng.",
+    "examples": [
+      { "t": "It was my brother who broke the window.", "vi": "Chính anh trai tôi là người làm vỡ cửa sổ." },
+      { "t": "It is on Friday that the results will be announced.", "vi": "Chính vào thứ Sáu kết quả sẽ được công bố." },
+      { "t": "What I need is a long holiday.", "vi": "Điều tôi cần là một kỳ nghỉ dài." },
+      { "t": "What surprised me was how quiet the city was.", "vi": "Điều làm tôi ngạc nhiên là thành phố yên tĩnh đến mức nào." },
+      { "t": "The reason why she left is that she felt undervalued.", "vi": "Lý do cô ấy ra đi là vì cô cảm thấy không được đánh giá đúng." },
+      { "t": "All I want is some peace and quiet.", "vi": "Tất cả những gì tôi muốn là chút yên tĩnh." }
+    ],
+    "mistakes": [
+      { "wrong": "It was yesterday when I met him.", "right": "It was yesterday that I met him.", "note_vi": "Trong câu chẻ It was … that, dùng that (không dùng when/where) sau phần nhấn mạnh." },
+      { "wrong": "What I need it is a holiday.", "right": "What I need is a holiday.", "note_vi": "Mệnh đề What đã là chủ ngữ, không thêm đại từ it." },
+      { "wrong": "It was John which called me.", "right": "It was John who called me.", "note_vi": "Nhấn mạnh người thì dùng who (hoặc that), không dùng which." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "It was in 2015 ___ I first visited Japan.", "options": ["that", "when", "which", "what"], "answer": 0, "explain": "It-cleft nhấn mạnh trạng ngữ thời gian dùng that." },
+      { "type": "mcq", "q": "___ annoys me most is his constant lateness.", "options": ["It", "That", "What", "Which"], "answer": 2, "explain": "What + V làm chủ ngữ của câu chẻ: What annoys me most is…" },
+      { "type": "mcq", "q": "It was Maria ___ organised the whole event.", "options": ["which", "who", "whom", "what"], "answer": 1, "explain": "Nhấn mạnh người làm chủ ngữ dùng who." },
+      { "type": "mcq", "q": "What she did ___ to apologise in person.", "options": ["were", "are", "being", "was"], "answer": 3, "explain": "What she did là chủ ngữ số ít, thì quá khứ nên dùng was." },
+      { "type": "gap", "q": "It was the noise ___ kept me awake all night.", "answer": ["that", "which"], "explain": "Nhấn mạnh vật làm chủ ngữ: that (hoặc which)." },
+      { "type": "gap", "q": "___ I really want is a quiet weekend.", "answer": ["What", "what"], "explain": "Wh-cleft mở đầu bằng What." },
+      { "type": "gap", "q": "It was not until midnight ___ the guests left.", "answer": ["that"], "explain": "It was not until … that … là dạng câu chẻ với trạng ngữ thời gian." },
+      { "type": "order", "words": ["is", "What", "a", "need", "I", "long", "holiday"], "answer": "What I need is a long holiday.", "vi": "Điều tôi cần là một kỳ nghỉ dài.", "explain": "What + S + V + is + danh từ." },
+      { "type": "order", "words": ["who", "It", "my", "told", "was", "sister", "me", "the", "secret"], "answer": "It was my sister who told me the secret.", "vi": "Chính chị tôi đã kể cho tôi bí mật.", "explain": "It was + người + who + V." }
+    ]
+  },
+  {
+    "id": "en-c1-subjunctive",
+    "level": "C1",
+    "title": "Thể giả định",
+    "title_native": "The subjunctive (It is essential that he be…)",
+    "summary_vi": "Dùng động từ nguyên mẫu không 'to' sau các động từ/tính từ chỉ đề nghị, yêu cầu, cần thiết.",
+    "formula": [
+      "S + suggest/recommend/insist/demand/propose + (that) + S + (should) + V nguyên mẫu",
+      "It is essential/vital/important/necessary + that + S + V nguyên mẫu",
+      "Phủ định: that + S + not + V nguyên mẫu",
+      "If I were … / as if he were … (were cho mọi ngôi)"
+    ],
+    "explain_vi": "**Thể giả định (subjunctive)** dùng khi ta nói về điều **được yêu cầu, đề nghị, mong muốn hoặc cần thiết**, chứ không phải sự thật đã xảy ra. Đặc điểm: động từ ở dạng **nguyên mẫu không to**, **không chia theo ngôi** và **không lùi thì**.\n\nNó xuất hiện sau các động từ như *suggest, recommend, propose, insist, demand, require, request, advise, ask*, và sau các tính từ như *essential, vital, important, necessary, crucial, imperative*, theo mẫu **that + S + V nguyên mẫu**. Ví dụ: *The doctor recommended that she **rest**.* (không phải *rests*). Với động từ be: *It is essential that he **be** present.*\n\nPhủ định đặt **not** trước động từ, không mượn do: *I suggest that he **not go**.* Trong Anh-Anh, người ta thường chèn **should** (*that he should go*) hoặc dùng thì thường; Anh-Mỹ và văn viết trang trọng ưa dạng nguyên mẫu thuần túy.\n\nMột dạng giả định khác là **were** sau if/wish/as if cho mọi ngôi: *If I were you…*. Ngoài ra còn các cụm cố định: *So be it, Long live the King, Be that as it may, Suffice it to say*. Tiếng Việt không chia động từ nên dễ bỏ qua; hãy nhớ: sau 'yêu cầu/đề nghị + that', **không thêm -s/-es, không thêm 'is/was'**.",
+    "examples": [
+      { "t": "It is essential that he be present at the meeting.", "vi": "Việc anh ấy có mặt tại cuộc họp là điều thiết yếu." },
+      { "t": "The doctor recommended that she rest for a week.", "vi": "Bác sĩ khuyên cô ấy nghỉ ngơi một tuần." },
+      { "t": "I insist that the report be submitted by Friday.", "vi": "Tôi yêu cầu nhất định báo cáo phải được nộp trước thứ Sáu." },
+      { "t": "They demanded that the manager resign immediately.", "vi": "Họ đòi người quản lý phải từ chức ngay lập tức." },
+      { "t": "If I were you, I would accept the offer.", "vi": "Nếu tôi là bạn, tôi sẽ nhận lời đề nghị." },
+      { "t": "It is vital that every student attend the briefing.", "vi": "Điều quan trọng là mọi sinh viên đều phải dự buổi hướng dẫn." }
+    ],
+    "mistakes": [
+      { "wrong": "She suggested that he goes to the doctor.", "right": "She suggested that he go to the doctor.", "note_vi": "Sau suggest + that dùng động từ nguyên mẫu, không thêm -s." },
+      { "wrong": "He demanded that she apologises.", "right": "He demanded that she apologise.", "note_vi": "Thể giả định không chia theo ngôi thứ ba số ít." },
+      { "wrong": "I suggest that he doesn't go.", "right": "I suggest that he not go.", "note_vi": "Phủ định của thể giả định: not + V nguyên mẫu, không dùng doesn't." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "The teacher insisted that every student ___ the form.", "options": ["fills in", "fill in", "filled in", "is filling in"], "answer": 1, "explain": "Sau insist that dùng động từ nguyên mẫu: fill in." },
+      { "type": "mcq", "q": "It is vital that she ___ informed immediately.", "options": ["be", "is", "was", "will"], "answer": 0, "explain": "It is vital that + S + be (giả định) + V3." },
+      { "type": "mcq", "q": "They proposed that the meeting ___ postponed.", "options": ["is", "were being", "be", "has been"], "answer": 2, "explain": "Proposed that + S + be + V3." },
+      { "type": "mcq", "q": "I recommend that he ___ smoke.", "options": ["doesn't", "won't", "isn't", "not"], "answer": 3, "explain": "Phủ định giả định: not + V nguyên mẫu." },
+      { "type": "gap", "q": "The committee requires that all applicants ___ a recommendation letter. (submit)", "answer": ["submit"], "explain": "Require that + S + V nguyên mẫu, dù chủ ngữ số nhiều hay ít." },
+      { "type": "gap", "q": "It is essential that he ___ on time. (be)", "answer": ["be"], "explain": "Thể giả định của be luôn là be." },
+      { "type": "gap", "q": "If I ___ you, I would reconsider. (be)", "answer": ["were"], "explain": "Giả định trong câu điều kiện không có thật dùng were cho mọi ngôi." },
+      { "type": "order", "words": ["that", "see", "I", "a", "she", "suggest", "doctor"], "answer": "I suggest that she see a doctor.", "vi": "Tôi đề nghị cô ấy nên đi khám bác sĩ.", "explain": "suggest + that + S + V nguyên mẫu (see)." },
+      { "type": "order", "words": ["be", "It", "that", "important", "told", "he", "is", "the", "truth"], "answer": "It is important that he be told the truth.", "vi": "Điều quan trọng là anh ấy phải được nói cho biết sự thật.", "explain": "It is important that + S + be + V3 (bị động giả định)." }
+    ]
+  },
+  {
+    "id": "en-c1-impersonal-passive",
+    "level": "C1",
+    "title": "Bị động khách quan",
+    "title_native": "Impersonal passive (It is said that / He is said to)",
+    "summary_vi": "Dùng bị động với say, believe, think, report… để nêu thông tin không rõ nguồn: It is said that…, He is said to…",
+    "formula": [
+      "It + is/was + said/believed/thought/reported + that + mệnh đề",
+      "S + is/was + said + to + V (cùng thời điểm)",
+      "S + is/was + said + to be + V-ing",
+      "S + is/was + said + to have + V3 (xảy ra trước)"
+    ],
+    "explain_vi": "Khi muốn nói **'người ta nói/tin rằng…'** mà không cần nêu ai nói, tiếng Anh dùng **bị động khách quan** với các động từ như *say, believe, think, consider, report, know, expect, understand, feared, claim*. Tiếng Việt thường dùng *người ta cho rằng, nghe nói, được cho là*.\n\nCó hai mẫu. **Mẫu 1:** *It + is said/believed + that + mệnh đề*: **It is said that** he is very rich. **Mẫu 2:** đưa chủ ngữ của mệnh đề sau lên đầu: **He is said to be** very rich. Mẫu 2 gọn hơn và hay gặp trong tin tức.\n\nChọn dạng nguyên mẫu sau *to* theo **thời điểm** của sự việc so với lúc nói:\n- Cùng lúc: **to + V** (*He is believed to live in Paris*).\n- Đang diễn ra: **to be V-ing** (*She is reported to be recovering*).\n- Xảy ra trước đó: **to have + V3** (*He is believed to have left the country*).\n\nNếu động từ tường thuật ở quá khứ (*was thought*), nhớ lùi theo cùng logic: *It was thought that the painting had been stolen.* Lỗi hay gặp: dùng *He is said that…* (sai, phải có It) hoặc quên *have + V3* khi nói về quá khứ.",
+    "examples": [
+      { "t": "It is said that the company will lay off 500 workers.", "vi": "Người ta nói công ty sẽ sa thải 500 công nhân." },
+      { "t": "The company is said to be planning layoffs.", "vi": "Công ty được cho là đang lên kế hoạch sa thải." },
+      { "t": "He is believed to have left the country.", "vi": "Anh ta được cho là đã rời khỏi đất nước." },
+      { "t": "She is reported to be recovering well.", "vi": "Có tin cô ấy đang hồi phục tốt." },
+      { "t": "It was thought that the painting had been stolen.", "vi": "Người ta từng nghĩ bức tranh đã bị đánh cắp." },
+      { "t": "The missing hikers are feared to have drowned.", "vi": "Những người đi bộ đường dài mất tích được lo ngại là đã chết đuối." }
+    ],
+    "mistakes": [
+      { "wrong": "He is said that he is rich.", "right": "It is said that he is rich. / He is said to be rich.", "note_vi": "Hoặc dùng It is said that + mệnh đề, hoặc S is said to + V; không trộn hai mẫu." },
+      { "wrong": "She is believed to leave the country last week.", "right": "She is believed to have left the country last week.", "note_vi": "Việc xảy ra trước thời điểm nói phải dùng to have + V3." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "It ___ that the minister will resign.", "options": ["says", "is said", "said", "is saying"], "answer": 1, "explain": "It + is said + that + mệnh đề." },
+      { "type": "mcq", "q": "He is believed ___ the country last night.", "options": ["to leave", "leaving", "to have left", "having left to"], "answer": 2, "explain": "Việc xảy ra trước: to have + V3." },
+      { "type": "mcq", "q": "The building is thought ___ built in 1850.", "options": ["have been", "to be", "being", "to have been"], "answer": 3, "explain": "Xây dựng xảy ra trước thời điểm nói và ở thể bị động: to have been built." },
+      { "type": "mcq", "q": "She is reported ___ with a new film at the moment.", "options": ["to be working", "to have worked", "working", "to work being"], "answer": 0, "explain": "Việc đang diễn ra: to be + V-ing." },
+      { "type": "gap", "q": "It was reported ___ the thieves had escaped by car.", "answer": ["that"], "explain": "It was reported + that + mệnh đề." },
+      { "type": "gap", "q": "The president is said ___ seriously ill.", "answer": ["to be"], "explain": "Cùng thời điểm với động từ chính: to be." },
+      { "type": "gap", "q": "The suspect is believed ___ the city two days ago. (leave)", "answer": ["to have left"], "explain": "Việc xảy ra trước (two days ago): to have left." },
+      { "type": "order", "words": ["very", "is", "He", "to", "said", "rich", "be"], "answer": "He is said to be very rich.", "vi": "Nghe nói anh ấy rất giàu.", "explain": "S + is said + to be + tính từ." },
+      { "type": "order", "words": ["It", "that", "believed", "damage", "is", "the", "caused", "huge", "earthquake"], "answer": "It is believed that the earthquake caused huge damage.", "vi": "Người ta tin rằng trận động đất gây thiệt hại lớn.", "explain": "It is believed + that + mệnh đề." }
+    ]
+  },
+  {
+    "id": "en-c1-ellipsis-substitution",
+    "level": "C1",
+    "title": "Tỉnh lược & thay thế",
+    "title_native": "Ellipsis and substitution (so / not / do so)",
+    "summary_vi": "Lược bỏ hoặc thay bằng so, not, do so, to, one/ones để tránh lặp từ.",
+    "formula": [
+      "think/hope/believe/expect/suppose/be afraid + so / not",
+      "do so / do it / do that (thay cho cụm động từ đã nêu)",
+      "… want to / would love to / can't (lược động từ sau trợ động từ hoặc to)",
+      "the red one / the ones on the left (thay danh từ đếm được)"
+    ],
+    "explain_vi": "Người bản ngữ ghét lặp lại: khi nghĩa đã rõ từ ngữ cảnh, họ **lược bỏ** (ellipsis) hoặc **thay thế** (substitution) phần đã nhắc. Tiếng Việt cũng làm vậy (*Anh có đi không? — Có.*), nhưng tiếng Anh có quy tắc riêng.\n\n**1. So / not thay cho mệnh đề that:** sau *think, believe, hope, expect, suppose, imagine, be afraid* ta dùng **so**: *'Will it rain?' 'I think so.'* Phủ định có hai cách: *I don't think so* (với think, believe, expect, suppose) hoặc **not** (với hope, be afraid): *I hope not, I'm afraid not.* Không nói *I don't hope so*.\n\n**2. Do so / do it / do that:** *She asked me to help, and I **did so**.* Do so khá trang trọng, còn do it/do that thân mật hơn.\n\n**3. Lược sau trợ động từ và to:** *You can come if you want **to**.* — chỉ giữ **to** chứ không lặp động từ. Tương tự: *He said he would call, but he never **did**.* Chỉ giữ trợ động từ.\n\n**4. One/ones:** thay danh từ đếm được đã nhắc: *I prefer the blue **one**.*\n\nLưu ý: không thêm **to** thừa sau trợ động từ (*I can't to*) và không đặt so sau not (*I hope so not*).",
+    "examples": [
+      { "t": "'Will it rain tomorrow?' 'I hope not.'", "vi": "'Ngày mai trời có mưa không?' 'Hy vọng là không.'" },
+      { "t": "She asked me to help, and I did so gladly.", "vi": "Cô ấy nhờ tôi giúp và tôi vui vẻ làm vậy." },
+      { "t": "You can come if you want to.", "vi": "Bạn có thể đến nếu bạn muốn." },
+      { "t": "I'd like to join, but I'm afraid I can't.", "vi": "Tôi muốn tham gia nhưng e là tôi không thể." },
+      { "t": "He said he would call, but he never did.", "vi": "Anh ấy nói sẽ gọi nhưng chẳng bao giờ gọi." },
+      { "t": "She likes the red dress; I prefer the blue one.", "vi": "Cô ấy thích chiếc váy đỏ; tôi thích chiếc xanh hơn." }
+    ],
+    "mistakes": [
+      { "wrong": "'Will it snow?' 'I don't hope so.'", "right": "'Will it snow?' 'I hope not.'", "note_vi": "Với hope và be afraid, phủ định dùng not, không dùng don't hope so." },
+      { "wrong": "'Can you come?' 'I'd love to come, but I can't to.'", "right": "'Can you come?' 'I'd love to, but I can't.'", "note_vi": "Sau trợ động từ can't lược hẳn động từ, không thêm to." },
+      { "wrong": "I'm afraid so not.", "right": "I'm afraid not.", "note_vi": "Phủ định ngắn là not, không phải so not." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "'Is she coming to the party?' 'I'm afraid ___.'", "options": ["no", "not", "not so", "don't"], "answer": 1, "explain": "I'm afraid not (phủ định ngắn của be afraid)." },
+      { "type": "mcq", "q": "'Will the exam be difficult?' 'I think ___.'", "options": ["so", "it", "yes", "that"], "answer": 0, "explain": "think so thay cho mệnh đề that vừa nhắc." },
+      { "type": "mcq", "q": "He promised to call me, but he never ___.", "options": ["was", "called to", "did it", "did"], "answer": 3, "explain": "Lược động từ, chỉ giữ trợ động từ did." },
+      { "type": "mcq", "q": "'Would you like to come with us?' 'I'd love ___.'", "options": ["so", "going", "to", "it"], "answer": 2, "explain": "I'd love to (lược động từ come)." },
+      { "type": "gap", "q": "'Do you think he'll pass?' 'I hope ___.'", "answer": ["so"], "explain": "Hope + so thay cho mệnh đề khẳng định." },
+      { "type": "gap", "q": "'Will it snow tonight?' 'I don't think ___.'", "answer": ["so"], "explain": "I don't think so là phủ định thông dụng với think." },
+      { "type": "gap", "q": "I didn't go to the meeting because I didn't want ___.", "answer": ["to"], "explain": "Lược động từ, giữ to." },
+      { "type": "order", "words": ["but", "She", "leave", "wanted", "I", "to", "didn't", "want", "to"], "answer": "She wanted to leave, but I didn't want to.", "vi": "Cô ấy muốn rời đi nhưng tôi thì không muốn.", "explain": "Câu sau lược động từ leave, giữ to." },
+      { "type": "order", "words": ["and", "I", "so", "asked", "he", "happily", "to", "did", "him", "help"], "answer": "I asked him to help, and he did so happily.", "vi": "Tôi nhờ anh ấy giúp và anh ấy vui vẻ làm vậy.", "explain": "did so thay cho cụm động từ helped." }
+    ]
+  },
+  {
+    "id": "en-c1-nominalisation",
+    "level": "C1",
+    "title": "Danh từ hoá",
+    "title_native": "Nominalisation",
+    "summary_vi": "Biến động từ/tính từ thành danh từ để câu văn trang trọng, súc tích hơn.",
+    "formula": [
+      "V → N: decide → decision, develop → development, fail → failure",
+      "Adj → N: important → importance, strong → strength",
+      "S + V (mệnh đề) → The + N + of + …",
+      "Because + clause → Due to / As a result of + N phrase"
+    ],
+    "explain_vi": "**Danh từ hoá (nominalisation)** là biến một **động từ hoặc tính từ** thành **danh từ** để cả một mệnh đề trở thành một cụm danh từ. Đây là đặc trưng của văn viết học thuật, báo chí và IELTS Writing band cao.\n\nSo sánh: *The government decided to raise taxes, so people were angry.* → ***The government's decision** to raise taxes caused anger.* Câu thứ hai gọn, trang trọng, tập trung vào sự việc thay vì hành động của người.\n\nMột số cách tạo danh từ:\n- **-tion/-sion/-ment:** decide → decision, develop → development.\n- **-ure/-al/-ance:** fail → failure, refuse → refusal, perform → performance.\n- **-ity/-ness/-th:** able → ability, strong → strength, grow → growth.\n- Một số từ giữ nguyên dạng: rise, increase, cause, spread.\n\nSau khi danh từ hoá, thường dùng cấu trúc **The + danh từ + of + …** và các động từ như *cause, lead to, result in, bring about* hoặc **There has been a + tính từ + danh từ** (*a sharp increase in…*). Tiếng Việt cũng có *sự, việc, cuộc* (sự phát triển, việc từ chối): dùng chúng làm 'mẹo' nhớ. Lỗi thường gặp: để nguyên động từ sau *the/of* (*the develop*), hoặc dùng V-ing thay cho danh từ chính thức (*a sharp increasing*).",
+    "examples": [
+      { "t": "The government's decision to raise taxes caused anger.", "vi": "Quyết định tăng thuế của chính phủ đã gây ra sự phẫn nộ." },
+      { "t": "The rapid growth of the city has put pressure on housing.", "vi": "Sự tăng trưởng nhanh của thành phố đã gây áp lực lên nhà ở." },
+      { "t": "Her failure to respond led to a misunderstanding.", "vi": "Việc cô ấy không phản hồi đã dẫn đến một sự hiểu lầm." },
+      { "t": "The discovery of the virus changed medicine forever.", "vi": "Việc phát hiện ra virus đã thay đổi y học mãi mãi." },
+      { "t": "There has been a significant increase in the cost of living.", "vi": "Đã có sự gia tăng đáng kể trong chi phí sinh hoạt." },
+      { "t": "The importance of sleep is often underestimated.", "vi": "Tầm quan trọng của giấc ngủ thường bị đánh giá thấp." }
+    ],
+    "mistakes": [
+      { "wrong": "The develop of technology is rapid.", "right": "The development of technology is rapid.", "note_vi": "Sau the phải là danh từ (development), không để nguyên động từ." },
+      { "wrong": "Because of the economy grew, prices rose.", "right": "Because of the growth of the economy, prices rose.", "note_vi": "Because of + cụm danh từ; muốn dùng mệnh đề thì dùng because." },
+      { "wrong": "There was a sharp increasing in prices.", "right": "There was a sharp increase in prices.", "note_vi": "Dùng danh từ increase, không dùng V-ing sau tính từ sharp." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "The ___ of the new airport created thousands of jobs.", "options": ["construct", "constructing", "construction", "constructive"], "answer": 2, "explain": "Sau The và trước of cần danh từ: construction." },
+      { "type": "mcq", "q": "Her ___ to attend the meeting surprised everyone.", "options": ["refuse", "refusal", "refused", "refusing"], "answer": 1, "explain": "Danh từ của refuse là refusal." },
+      { "type": "mcq", "q": "There has been a sharp ___ in unemployment.", "options": ["rise", "rising", "rose", "risen"], "answer": 0, "explain": "Sau tính từ sharp cần danh từ: rise." },
+      { "type": "mcq", "q": "We were impressed by the ___ of her argument.", "options": ["strong", "strongly", "strengthen", "strength"], "answer": 3, "explain": "Danh từ của strong là strength." },
+      { "type": "gap", "q": "The company's ___ to expand was welcomed by investors. (decide)", "answer": ["decision"], "explain": "decide → decision." },
+      { "type": "gap", "q": "The ___ of the economy to grow led to job losses. (fail)", "answer": ["failure"], "explain": "fail → failure." },
+      { "type": "gap", "q": "The rapid ___ of social media has changed how we communicate. (grow)", "answer": ["growth"], "explain": "grow → growth." },
+      { "type": "order", "words": ["of", "The", "changed", "virus", "discovery", "the", "medicine"], "answer": "The discovery of the virus changed medicine.", "vi": "Việc phát hiện ra virus đã thay đổi y học.", "explain": "The + danh từ + of + danh từ làm chủ ngữ." },
+      { "type": "order", "words": ["to", "Her", "caused", "reply", "a", "failure", "serious", "misunderstanding"], "answer": "Her failure to reply caused a serious misunderstanding.", "vi": "Việc cô ấy không trả lời đã gây ra một sự hiểu lầm nghiêm trọng.", "explain": "Danh từ failure + to V thay cho cả mệnh đề." }
+    ]
+  },
+  {
+    "id": "en-c1-hedging",
+    "level": "C1",
+    "title": "Rào đón",
+    "title_native": "Hedging (tend to, it appears that)",
+    "summary_vi": "Làm mềm nhận định bằng tend to, seem/appear, may/might, to some extent… để nói thận trọng, học thuật.",
+    "formula": [
+      "S + tend to / seem to / appear to + V",
+      "It appears/seems that + mệnh đề",
+      "may / might / could / would seem to + V",
+      "to some extent / in most cases / generally / relatively / somewhat; There is some evidence that …"
+    ],
+    "explain_vi": "**Rào đón (hedging)** là cách **làm mềm** nhận định, tránh khẳng định tuyệt đối khi bạn chưa chắc chắn hoặc muốn lịch sự, khách quan, nhất là trong văn học thuật. Tiếng Việt cũng có *có vẻ, dường như, nhìn chung, ở một mức độ nào đó*.\n\nCác công cụ chính:\n- **Động từ làm mềm:** *tend to, seem to, appear to, suggest, indicate* (thay cho *prove, show, is*). *Young people **tend to** spend more time online.*\n- **It-cấu trúc:** *It appears/seems that…*, *It is likely that…*, *It may be that…*.\n- **Động từ khuyết thiếu:** *may, might, could, would seem to*: *The results **would seem to suggest** a link.*\n- **Trạng từ/cụm giới hạn:** *generally, usually, relatively, somewhat, to some extent, in most cases, partly, largely*.\n- **Lượng từ nhẹ:** *some evidence, a number of, a degree of* thay vì *all, every, always, never*.\n\nSo sánh: *Smoking causes cancer in everyone* (quá tuyệt đối) → *Smoking is **strongly associated with** a higher risk of cancer.* Lưu ý *appear, seem* là động từ thường nên chia: *It appears* (không phải *It is appear*). Đừng lạm dụng nhiều lớp rào đón trong một câu, câu sẽ rối.",
+    "examples": [
+      { "t": "Young people tend to spend more time online than their parents.", "vi": "Người trẻ có xu hướng dành nhiều thời gian trực tuyến hơn cha mẹ." },
+      { "t": "It appears that the new policy has had little effect.", "vi": "Có vẻ chính sách mới ít có tác dụng." },
+      { "t": "The results would seem to suggest a link between sleep and memory.", "vi": "Kết quả dường như cho thấy có mối liên hệ giữa giấc ngủ và trí nhớ." },
+      { "t": "To some extent, the problem is caused by poor planning.", "vi": "Ở một mức độ nào đó, vấn đề là do lập kế hoạch kém." },
+      { "t": "There is some evidence that exercise improves concentration.", "vi": "Có một số bằng chứng cho thấy tập thể dục cải thiện sự tập trung." },
+      { "t": "This may be partly due to cultural differences.", "vi": "Điều này có thể một phần do khác biệt văn hoá." }
+    ],
+    "mistakes": [
+      { "wrong": "It is appear that the plan has failed.", "right": "It appears that the plan has failed.", "note_vi": "Appear là động từ thường, không đi với is: it appears / it seems." },
+      { "wrong": "The data prove that coffee is harmful.", "right": "The data suggest that coffee may be harmful.", "note_vi": "Prove quá mạnh; dùng suggest/indicate và may để nói thận trọng." },
+      { "wrong": "Women are always better at languages.", "right": "Women tend to be better at languages.", "note_vi": "Tránh always/never; dùng tend to, generally để không khái quát tuyệt đối." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "People ___ to be more productive in the morning.", "options": ["tend", "tends", "are tending", "tendency"], "answer": 0, "explain": "People là số nhiều: tend to + V." },
+      { "type": "mcq", "q": "It ___ that the plan has failed.", "options": ["appearing", "is appeared", "appears", "appear"], "answer": 2, "explain": "It appears that + mệnh đề." },
+      { "type": "mcq", "q": "The study ___ to suggest that diet affects mood.", "options": ["proves", "would seem", "shows definitely", "always seems"], "answer": 1, "explain": "would seem to suggest là cách nói rào đón thận trọng nhất." },
+      { "type": "mcq", "q": "There is ___ evidence that the drug reduces pain.", "options": ["every", "all", "each", "some"], "answer": 3, "explain": "some evidence làm giảm mức khẳng định." },
+      { "type": "gap", "q": "The results ___ to indicate that the method is effective. (seem)", "answer": ["seem", "appear"], "explain": "seem/appear to + V để rào đón." },
+      { "type": "gap", "q": "___ appears that sales will fall this year.", "answer": ["It", "it"], "explain": "It appears that + mệnh đề." },
+      { "type": "gap", "q": "The delay was, to a certain ___, caused by bad weather.", "answer": ["extent"], "explain": "to a certain extent = ở một mức độ nào đó." },
+      { "type": "order", "words": ["rise", "Prices", "summer", "to", "in", "tend"], "answer": "Prices tend to rise in summer.", "vi": "Giá cả có xu hướng tăng vào mùa hè.", "explain": "S + tend to + V." },
+      { "type": "order", "words": ["problem", "It", "complex", "would", "that", "more", "the", "seem", "is"], "answer": "It would seem that the problem is more complex.", "vi": "Có vẻ vấn đề phức tạp hơn.", "explain": "It would seem that + mệnh đề." }
+    ]
+  },
+  {
+    "id": "en-c1-fronting",
+    "level": "C1",
+    "title": "Đảo trật tự nhấn mạnh",
+    "title_native": "Fronting (Down the hill rolled the ball)",
+    "summary_vi": "Đưa trạng ngữ, tân ngữ hoặc bổ ngữ lên đầu câu để nhấn mạnh hoặc tạo văn phong trang trọng, văn chương.",
+    "formula": [
+      "Trạng ngữ nơi chốn/hướng + V + S (S là danh từ)",
+      "Tân ngữ + S + V (This book I can recommend.)",
+      "Gone / Such / So + adj + be + S",
+      "So + adj + be + S + that …; Such + be + N + that …"
+    ],
+    "explain_vi": "**Fronting** là đưa một thành phần câu **ra đứng đầu** (thay vì vị trí thường lệ) để **nhấn mạnh** hoặc tạo văn phong trang trọng, văn chương. Tiếng Việt cũng làm thế (*Cuốn sách này tôi rất khuyên đọc*).\n\n**1. Trạng ngữ nơi chốn + đảo ngữ:** *Down the hill rolled the ball.* Trạng ngữ nơi chốn/hướng ở đầu thì động từ (thường *stand, lie, sit, come, go, roll*) đứng **trước** chủ ngữ. Nhưng nếu chủ ngữ là **đại từ** thì không đảo: *Down the hill **it** rolled*; *Here **comes** the bus* nhưng *Here **it** comes*.\n\n**2. Tân ngữ lên đầu:** *This book I can recommend to anyone.* Không đảo, chỉ đổi vị trí.\n\n**3. Gone/Such + be + S:** *Gone are the days when…*; **Such was the force of the explosion that…**\n\n**4. So + tính từ + be + S + that…:** *So tired was she that she fell asleep.* Đây là đảo ngữ với tính từ mở đầu.\n\nCấu trúc này thường gặp trong văn miêu tả, văn chương và báo chí. Quy tắc nhớ: **fronting để nhấn mạnh; đảo ngữ khi thành phần đứng đầu là trạng ngữ nơi chốn/so/such/gone và chủ ngữ là danh từ**.",
+    "examples": [
+      { "t": "This book I can recommend to anyone.", "vi": "Cuốn sách này thì tôi có thể giới thiệu cho bất kỳ ai." },
+      { "t": "Down the hill rolled the ball.", "vi": "Quả bóng lăn xuống đồi." },
+      { "t": "In the corner of the room stood an old piano.", "vi": "Ở góc phòng có một cây đàn piano cũ." },
+      { "t": "Beside the river lay a small village.", "vi": "Bên bờ sông có một ngôi làng nhỏ." },
+      { "t": "Gone are the days when we wrote letters by hand.", "vi": "Những ngày viết thư tay đã qua rồi." },
+      { "t": "So tired was she that she fell asleep at the table.", "vi": "Cô ấy mệt đến mức ngủ gục ngay tại bàn." }
+    ],
+    "mistakes": [
+      { "wrong": "Down the hill it rolled the ball.", "right": "Down the hill rolled the ball.", "note_vi": "Khi fronting trạng ngữ nơi chốn, động từ đứng trước chủ ngữ danh từ; không thêm it." },
+      { "wrong": "Down the hill rolled it.", "right": "Down the hill it rolled.", "note_vi": "Chủ ngữ là đại từ thì không đảo ngữ." },
+      { "wrong": "So tired she was that she fell asleep.", "right": "So tired was she that she fell asleep.", "note_vi": "So + adj ở đầu câu phải đảo be lên trước chủ ngữ." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "In the doorway ___ a tall stranger.", "options": ["did stand", "stood", "standing", "stand"], "answer": 1, "explain": "Trạng ngữ nơi chốn + động từ + chủ ngữ danh từ: stood a tall stranger." },
+      { "type": "mcq", "q": "So loud ___ that nobody could sleep.", "options": ["the music was", "did the music", "was the music", "music was"], "answer": 2, "explain": "So + adj + was + S + that: đảo be lên trước chủ ngữ." },
+      { "type": "mcq", "q": "Gone ___ the days of cheap travel.", "options": ["are", "is", "has", "have"], "answer": 0, "explain": "Gone are the days: chủ ngữ the days số nhiều nên dùng are." },
+      { "type": "mcq", "q": "Down the stairs ___, shouting at the top of his voice.", "options": ["ran he", "was he running", "did he run", "he ran"], "answer": 3, "explain": "Chủ ngữ là đại từ he nên không đảo: Down the stairs he ran." },
+      { "type": "gap", "q": "Beside the lake ___ a small wooden hut. (stand, quá khứ)", "answer": ["stood"], "explain": "Fronting nơi chốn + stood + S." },
+      { "type": "gap", "q": "Such ___ his anger that he left the room.", "answer": ["was"], "explain": "Such + be + N + that." },
+      { "type": "gap", "q": "Here ___ the bus!", "answer": ["comes"], "explain": "Here + động từ + chủ ngữ danh từ (the bus, số ít)." },
+      { "type": "order", "words": ["rolled", "the", "Down", "ball", "hill", "the"], "answer": "Down the hill rolled the ball.", "vi": "Quả bóng lăn xuống đồi.", "explain": "Trạng ngữ nơi chốn + V + S." },
+      { "type": "order", "words": ["was", "So", "she", "exhausted", "immediately", "that", "fell", "she", "asleep"], "answer": "So exhausted was she that she fell asleep immediately.", "vi": "Cô ấy kiệt sức đến mức ngủ thiếp đi ngay.", "explain": "So + adj + was + S + that + mệnh đề." }
+    ]
+  }
+]

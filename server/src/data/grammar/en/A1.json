@@ -1,0 +1,478 @@
+[
+  {
+    "id": "en-a1-to-be",
+    "level": "A1",
+    "title": "Động từ to be (am/is/are)",
+    "title_native": "To be: am / is / are",
+    "summary_vi": "Dùng để nói ai/cái gì là gì, ở đâu, như thế nào, bao nhiêu tuổi.",
+    "formula": ["I am · He/She/It is · You/We/They are", "S + am/is/are + not", "Am/Is/Are + S + ...?"],
+    "explain_vi": "Trong tiếng Anh, câu nào cũng cần một động từ. Với các câu kiểu \"Tôi là học sinh\", \"Cô ấy rất cao\", \"Họ ở nhà\", động từ đó là **to be**. Tiếng Việt dùng \"là\", \"thì\", \"ở\" hoặc bỏ luôn, nhưng tiếng Anh thì không được bỏ.\n\nCách dùng theo chủ ngữ: **I am**, **he/she/it is**, **you/we/they are**. Hình thức rút gọn rất thường gặp: I'm, he's, she's, it's, you're, we're, they're.\n\nPhủ định: thêm **not** sau am/is/are (is not = isn't, are not = aren't). Riêng I am not thì chỉ rút gọn thành I'm not.\n\nCâu hỏi: đưa am/is/are lên trước chủ ngữ. Ví dụ: **Are you** a student? Trả lời ngắn: Yes, I am. / No, I'm not.\n\nLưu ý: tuổi dùng to be (I am 20 years old), không nói \"I have 20 years\". Và không dùng to be cùng một động từ thường khác như \"I am agree\".",
+    "examples": [
+      { "t": "I am a student.", "vi": "Tôi là học sinh." },
+      { "t": "She is from Vietnam.", "vi": "Cô ấy đến từ Việt Nam." },
+      { "t": "We are at home now.", "vi": "Bây giờ chúng tôi đang ở nhà." },
+      { "t": "They aren't tired.", "vi": "Họ không mệt." },
+      { "t": "Is your brother a doctor?", "vi": "Anh trai bạn có phải là bác sĩ không?" },
+      { "t": "I'm ten years old.", "vi": "Tôi mười tuổi." }
+    ],
+    "mistakes": [
+      { "wrong": "She very tall.", "right": "She is very tall.", "note_vi": "Tiếng Việt có thể nói \"Cô ấy rất cao\" không cần động từ, nhưng tiếng Anh bắt buộc phải có is." },
+      { "wrong": "I am agree with you.", "right": "I agree with you.", "note_vi": "agree đã là động từ, không dùng thêm am. Không đặt to be trước một động từ thường." },
+      { "wrong": "I have 20 years old.", "right": "I am 20 years old.", "note_vi": "Nói tuổi dùng to be, không dùng have." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "I ___ a teacher.", "options": ["am", "is", "are", "be"], "answer": 0, "explain": "Chủ ngữ I đi với am." },
+      { "type": "mcq", "q": "She ___ my sister.", "options": ["are", "am", "is", "be"], "answer": 2, "explain": "She là ngôi thứ ba số ít nên dùng is." },
+      { "type": "mcq", "q": "They ___ at school now.", "options": ["is", "are", "am", "be"], "answer": 1, "explain": "They đi với are." },
+      { "type": "mcq", "q": "It ___ not cold today.", "options": ["are", "am", "be", "is"], "answer": 3, "explain": "It đi với is: It is not (isn't) cold." },
+      { "type": "mcq", "q": "___ you hungry?", "options": ["Is", "Am", "Are", "Do"], "answer": 2, "explain": "Câu hỏi với you: Are you ...?" },
+      { "type": "gap", "q": "My name ___ Lan.", "answer": ["is"], "explain": "My name là số ít nên dùng is." },
+      { "type": "gap", "q": "We ___ late. (not)", "answer": ["aren't", "are not"], "explain": "Phủ định của we are là we are not / we aren't." },
+      { "type": "gap", "q": "___ he your friend? Yes, he is.", "answer": ["Is"], "explain": "Câu hỏi đưa is lên đầu câu." },
+      { "type": "order", "words": ["is", "My", "from", "mother", "Japan"], "answer": "My mother is from Japan.", "vi": "Mẹ tôi đến từ Nhật Bản.", "explain": "Chủ ngữ + is + from + nơi chốn." },
+      { "type": "order", "words": ["you", "Are", "tired"], "answer": "Are you tired?", "vi": "Bạn có mệt không?", "explain": "Câu hỏi: Are + chủ ngữ + tính từ?" }
+    ]
+  },
+  {
+    "id": "en-a1-present-simple",
+    "level": "A1",
+    "title": "Thì hiện tại đơn",
+    "title_native": "Present simple",
+    "summary_vi": "Diễn tả thói quen, sự thật hiển nhiên và lịch trình.",
+    "formula": ["S + V (he/she/it + V-s/es)", "S + do/does + not + V", "Do/Does + S + V?"],
+    "explain_vi": "Thì hiện tại đơn dùng cho những việc lặp đi lặp lại (thói quen), sự thật lúc nào cũng đúng và lịch trình cố định. Ví dụ: I get up at six. The sun rises in the east.\n\nVới I/you/we/they, động từ giữ nguyên: I work, they live. Với **he/she/it**, động từ thêm **-s** (works), thêm **-es** nếu tận cùng là -s, -sh, -ch, -x, -o (watches, goes), và đổi -y thành -ies nếu trước y là phụ âm (study thành studies). Riêng have thành **has**.\n\nPhủ định: **don't** (I/you/we/they) hoặc **doesn't** (he/she/it) + động từ nguyên mẫu. Câu hỏi: **Do/Does** + chủ ngữ + động từ nguyên mẫu. Khi đã có does/doesn't thì động từ chính KHÔNG thêm -s nữa: She doesn't like tea (không phải likes).\n\nTiếng Việt không chia động từ nên người Việt hay quên -s ở ngôi thứ ba. Hãy tập thói quen: thấy he/she/it, nghĩ ngay tới -s.",
+    "examples": [
+      { "t": "She works in a bank.", "vi": "Cô ấy làm việc ở ngân hàng." },
+      { "t": "I get up at six every day.", "vi": "Tôi dậy lúc sáu giờ mỗi ngày." },
+      { "t": "They don't eat meat.", "vi": "Họ không ăn thịt." },
+      { "t": "Does he play football?", "vi": "Anh ấy có chơi bóng đá không?" },
+      { "t": "My brother watches TV in the evening.", "vi": "Anh trai tôi xem tivi vào buổi tối." },
+      { "t": "The shop opens at nine.", "vi": "Cửa hàng mở cửa lúc chín giờ." }
+    ],
+    "mistakes": [
+      { "wrong": "She work in a bank.", "right": "She works in a bank.", "note_vi": "Ngôi thứ ba số ít (he/she/it) phải thêm -s/-es vào động từ." },
+      { "wrong": "Does she likes tea?", "right": "Does she like tea?", "note_vi": "Đã có does thì động từ chính trở về nguyên mẫu, không thêm -s." },
+      { "wrong": "He don't like fish.", "right": "He doesn't like fish.", "note_vi": "Với he/she/it dùng doesn't, không dùng don't." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "He ___ to school every day.", "options": ["go", "goes", "going", "gone"], "answer": 1, "explain": "He là ngôi thứ ba số ít; go thêm -es thành goes." },
+      { "type": "mcq", "q": "They ___ in a small house.", "options": ["lives", "living", "live", "lived"], "answer": 2, "explain": "They đi với động từ nguyên mẫu, không thêm -s." },
+      { "type": "mcq", "q": "My mother ___ tea in the morning.", "options": ["drink", "drinks", "drinking", "drinkes"], "answer": 1, "explain": "My mother = she, nên drink thêm -s." },
+      { "type": "mcq", "q": "She ___ like coffee.", "options": ["don't", "isn't", "doesn't", "not"], "answer": 2, "explain": "Phủ định với she dùng doesn't + động từ nguyên mẫu." },
+      { "type": "mcq", "q": "___ you speak English?", "options": ["Does", "Are", "Is", "Do"], "answer": 3, "explain": "Với you dùng Do trong câu hỏi hiện tại đơn." },
+      { "type": "gap", "q": "They ___ coffee. (not / like)", "answer": ["don't like", "do not like"], "explain": "They + don't + động từ nguyên mẫu." },
+      { "type": "gap", "q": "Mai ___ English at a school. (teach)", "answer": ["teaches"], "explain": "Teach tận cùng -ch nên thêm -es." },
+      { "type": "gap", "q": "___ your father work on Sundays?", "answer": ["Does"], "explain": "Your father = he, nên dùng Does." },
+      { "type": "order", "words": ["reads", "every", "She", "morning"], "answer": "She reads every morning.", "vi": "Cô ấy đọc sách mỗi sáng.", "explain": "Chủ ngữ + động từ có -s + trạng ngữ thời gian." },
+      { "type": "order", "words": ["do", "What", "you", "do", "at", "weekends"], "answer": "What do you do at weekends?", "vi": "Bạn làm gì vào cuối tuần?", "explain": "Từ để hỏi + do + chủ ngữ + động từ nguyên mẫu." }
+    ]
+  },
+  {
+    "id": "en-a1-present-continuous",
+    "level": "A1",
+    "title": "Thì hiện tại tiếp diễn",
+    "title_native": "Present continuous",
+    "summary_vi": "Diễn tả việc đang xảy ra ngay lúc nói hoặc xung quanh thời điểm nói.",
+    "formula": ["S + am/is/are + V-ing", "S + am/is/are + not + V-ing", "Am/Is/Are + S + V-ing?"],
+    "explain_vi": "Thì hiện tại tiếp diễn nói về việc **đang diễn ra** ngay lúc nói, giống \"đang\" trong tiếng Việt. Ví dụ: I am reading now (Tôi đang đọc). Dấu hiệu thường gặp: now, at the moment, today, look!, listen!\n\nCấu trúc: **am/is/are + động từ thêm -ing**. Cách thêm -ing: thường chỉ thêm ing (work thành working); động từ tận cùng -e thì bỏ e (make thành making); động từ ngắn có một nguyên âm + một phụ âm thì gấp đôi phụ âm cuối (run thành running, sit thành sitting).\n\nPhủ định: thêm not sau am/is/are (She isn't sleeping). Câu hỏi: đảo am/is/are lên trước chủ ngữ (Are they playing?).\n\nSo với hiện tại đơn: hiện tại đơn là thói quen (I drink tea every day), hiện tại tiếp diễn là việc đang làm (I am drinking tea now). Các động từ chỉ trạng thái như like, know, want thường không dùng ở thì tiếp diễn.",
+    "examples": [
+      { "t": "I am reading a book now.", "vi": "Bây giờ tôi đang đọc sách." },
+      { "t": "She is cooking dinner.", "vi": "Cô ấy đang nấu bữa tối." },
+      { "t": "They are playing football in the park.", "vi": "Họ đang chơi bóng đá ở công viên." },
+      { "t": "He isn't sleeping.", "vi": "Anh ấy không đang ngủ." },
+      { "t": "Are you listening to me?", "vi": "Bạn có đang nghe tôi nói không?" },
+      { "t": "Look! It is raining.", "vi": "Nhìn kìa! Trời đang mưa." }
+    ],
+    "mistakes": [
+      { "wrong": "She cooking dinner now.", "right": "She is cooking dinner now.", "note_vi": "Không được bỏ am/is/are trước động từ -ing." },
+      { "wrong": "He is runing in the park.", "right": "He is running in the park.", "note_vi": "Động từ ngắn như run phải gấp đôi phụ âm cuối: running." },
+      { "wrong": "I am knowing the answer.", "right": "I know the answer.", "note_vi": "Động từ chỉ trạng thái như know, like, want thường không dùng ở thì tiếp diễn." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "She ___ a letter now.", "options": ["write", "is writing", "writes", "are writing"], "answer": 1, "explain": "Việc đang xảy ra (now) dùng is + V-ing." },
+      { "type": "mcq", "q": "They ___ football at the moment.", "options": ["are playing", "plays", "is playing", "play"], "answer": 0, "explain": "At the moment là dấu hiệu tiếp diễn; they đi với are." },
+      { "type": "mcq", "q": "I ___ TV now.", "options": ["watching", "watch", "is watching", "am watching"], "answer": 3, "explain": "I đi với am + V-ing." },
+      { "type": "mcq", "q": "He ___ his homework. He is playing games.", "options": ["isn't doing", "doesn't doing", "not doing", "don't do"], "answer": 0, "explain": "Phủ định tiếp diễn: is not (isn't) + V-ing." },
+      { "type": "mcq", "q": "___ it raining now?", "options": ["Does", "Is", "Are", "Do"], "answer": 1, "explain": "Câu hỏi: Is + it + V-ing?" },
+      { "type": "gap", "q": "Look! The baby ___. (sleep)", "answer": ["is sleeping"], "explain": "Look! báo hiệu việc đang diễn ra: is sleeping." },
+      { "type": "gap", "q": "We ___ lunch now. (have)", "answer": ["are having"], "explain": "Have bỏ e thêm -ing: having." },
+      { "type": "gap", "q": "The children ___ in the garden. (run)", "answer": ["are running"], "explain": "Run gấp đôi n: running." },
+      { "type": "order", "words": ["is", "My", "dog", "sleeping", "now"], "answer": "My dog is sleeping now.", "vi": "Bây giờ con chó của tôi đang ngủ.", "explain": "Chủ ngữ + is + V-ing + now." },
+      { "type": "order", "words": ["they", "doing", "What", "are"], "answer": "What are they doing?", "vi": "Họ đang làm gì vậy?", "explain": "Từ để hỏi + are + chủ ngữ + V-ing?" }
+    ]
+  },
+  {
+    "id": "en-a1-there-is-there-are",
+    "level": "A1",
+    "title": "There is / There are",
+    "title_native": "There is / There are",
+    "summary_vi": "Nói về sự tồn tại: có cái gì đó ở đâu.",
+    "formula": ["There is + a/an + danh từ số ít", "There are + danh từ số nhiều", "Is there ...? / Are there ...?"],
+    "explain_vi": "Khi muốn nói \"có\" theo nghĩa **tồn tại** (có một cái bàn trong phòng, có nhiều sinh viên trong lớp), tiếng Anh dùng **there is / there are**. Đừng dịch \"có\" thành have trong trường hợp này.\n\nDùng **There is** với danh từ số ít hoặc không đếm được: There is a book on the table. Dùng **There are** với danh từ số nhiều: There are three books on the table. Rút gọn: there's.\n\nPhủ định: There isn't a ... / There aren't any ... Câu hỏi: **Is there** a ...? / **Are there** any ...? Trả lời ngắn: Yes, there is. / No, there isn't. Yes, there are. / No, there aren't.\n\nKhi liệt kê nhiều vật, động từ thường hợp với vật đứng ngay sau nó: There is a pen and two books. Cụm nơi chốn (in the room, on the wall) thường đứng cuối câu.\n\nPhân biệt: **have** nói về sở hữu (I have a car), còn **there is** nói về sự tồn tại ở một nơi (There is a car in the garage).",
+    "examples": [
+      { "t": "There is a cat under the table.", "vi": "Có một con mèo ở dưới bàn." },
+      { "t": "There are five people in my family.", "vi": "Có năm người trong gia đình tôi." },
+      { "t": "There isn't any milk in the fridge.", "vi": "Không có sữa trong tủ lạnh." },
+      { "t": "Is there a bank near here?", "vi": "Gần đây có ngân hàng nào không?" },
+      { "t": "Are there any students in the room?", "vi": "Có học sinh nào trong phòng không?" },
+      { "t": "There's a park next to my house.", "vi": "Có một công viên cạnh nhà tôi." }
+    ],
+    "mistakes": [
+      { "wrong": "In my room has a bed.", "right": "There is a bed in my room.", "note_vi": "Tiếng Việt nói \"trong phòng có một cái giường\", nhưng tiếng Anh không dùng has/have kiểu này; phải dùng there is." },
+      { "wrong": "There is three chairs in the room.", "right": "There are three chairs in the room.", "note_vi": "Danh từ số nhiều đi với there are." },
+      { "wrong": "Is there any books?", "right": "Are there any books?", "note_vi": "books là số nhiều nên hỏi bằng Are there." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "There ___ a book on the desk.", "options": ["are", "is", "have", "has"], "answer": 1, "explain": "a book là số ít nên dùng there is." },
+      { "type": "mcq", "q": "There ___ two windows in my room.", "options": ["is", "has", "are", "be"], "answer": 2, "explain": "two windows là số nhiều nên dùng there are." },
+      { "type": "mcq", "q": "___ there a supermarket near your house?", "options": ["Are", "Do", "Have", "Is"], "answer": 3, "explain": "a supermarket số ít: Is there ...?" },
+      { "type": "mcq", "q": "There ___ any water in the bottle.", "options": ["isn't", "aren't", "don't", "hasn't"], "answer": 0, "explain": "water không đếm được nên dùng there isn't any." },
+      { "type": "mcq", "q": "___ there any apples in the bag?", "options": ["Is", "Are", "Do", "Does"], "answer": 1, "explain": "apples số nhiều: Are there any ...?" },
+      { "type": "gap", "q": "There ___ a lot of people in the park. (be)", "answer": ["are"], "explain": "a lot of people là số nhiều nên dùng are." },
+      { "type": "gap", "q": "___ there a pen in your bag? Yes, there is.", "answer": ["Is"], "explain": "Hỏi về một vật số ít: Is there ...?" },
+      { "type": "gap", "q": "There ___ any chairs in the kitchen. (not be)", "answer": ["aren't", "are not"], "explain": "Phủ định số nhiều: there aren't any." },
+      { "type": "order", "words": ["is", "a", "There", "river", "near", "my", "village"], "answer": "There is a river near my village.", "vi": "Có một con sông gần làng tôi.", "explain": "There is + a + danh từ + cụm nơi chốn." },
+      { "type": "order", "words": ["there", "Are", "any", "restaurants", "here"], "answer": "Are there any restaurants here?", "vi": "Ở đây có nhà hàng nào không?", "explain": "Are there any + danh từ số nhiều + nơi chốn?" }
+    ]
+  },
+  {
+    "id": "en-a1-articles",
+    "level": "A1",
+    "title": "Mạo từ a / an / the",
+    "title_native": "Articles: a / an / the",
+    "summary_vi": "Chọn a, an hoặc the trước danh từ.",
+    "formula": ["a + danh từ số ít bắt đầu bằng phụ âm", "an + danh từ số ít bắt đầu bằng nguyên âm (a, e, i, o, u)", "the + danh từ đã xác định"],
+    "explain_vi": "Tiếng Việt không có mạo từ nên đây là điểm khó với người Việt. Hãy nhớ quy tắc cơ bản sau.\n\n**a / an** dùng trước danh từ đếm được số ít khi nhắc tới lần đầu hoặc nói chung chung \"một\": I have a dog. Dùng **a** trước âm phụ âm (a book, a car, a university vì đọc là /ju/), dùng **an** trước âm nguyên âm (an apple, an egg, an hour vì h câm). Cái quyết định là cách ĐỌC, không phải chữ cái viết.\n\n**the** dùng khi người nói và người nghe đều biết là cái nào: I have a dog. The dog is black (con chó vừa nhắc). Cũng dùng the với vật duy nhất: the sun, the moon, the sky.\n\nKhông dùng mạo từ trước danh từ số nhiều hoặc không đếm được khi nói chung: I like dogs. I like music. Cũng không dùng với bữa ăn, môn học, tên người: have breakfast, study English.\n\nNgoài ra có thể dùng a/an khi nói nghề nghiệp: She is a nurse.",
+    "examples": [
+      { "t": "I have a cat and a dog.", "vi": "Tôi có một con mèo và một con chó." },
+      { "t": "She eats an apple every day.", "vi": "Cô ấy ăn một quả táo mỗi ngày." },
+      { "t": "The cat is under the table.", "vi": "Con mèo ở dưới bàn." },
+      { "t": "My father is a doctor.", "vi": "Bố tôi là bác sĩ." },
+      { "t": "Please close the door.", "vi": "Làm ơn đóng cửa lại." },
+      { "t": "We wait for an hour.", "vi": "Chúng tôi chờ một tiếng." }
+    ],
+    "mistakes": [
+      { "wrong": "I have a apple.", "right": "I have an apple.", "note_vi": "apple bắt đầu bằng âm nguyên âm nên dùng an." },
+      { "wrong": "She is teacher.", "right": "She is a teacher.", "note_vi": "Danh từ nghề nghiệp số ít cần có a/an." },
+      { "wrong": "I like the music.", "right": "I like music.", "note_vi": "Khi nói chung chung về danh từ không đếm được thì không dùng the." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "I have ___ orange.", "options": ["a", "an", "the", "some"], "answer": 1, "explain": "orange bắt đầu bằng âm nguyên âm nên dùng an." },
+      { "type": "mcq", "q": "He is ___ engineer.", "options": ["a", "the", "an", "x"], "answer": 2, "explain": "engineer đọc bằng âm nguyên âm /e/ nên dùng an." },
+      { "type": "mcq", "q": "I see a bird. ___ bird is blue.", "options": ["A", "An", "The", "Some"], "answer": 2, "explain": "Chim đã được nhắc tới nên dùng the." },
+      { "type": "mcq", "q": "She has ___ new bag.", "options": ["a", "an", "the", "any"], "answer": 0, "explain": "new bắt đầu bằng phụ âm nên dùng a." },
+      { "type": "mcq", "q": "I want to be ___ doctor.", "options": ["an", "the", "x", "a"], "answer": 3, "explain": "Nghề nghiệp số ít dùng a/an; doctor bắt đầu bằng phụ âm nên dùng a." },
+      { "type": "gap", "q": "It is ___ umbrella. (a / an)", "answer": ["an"], "explain": "umbrella bắt đầu bằng âm nguyên âm /ʌ/ nên dùng an." },
+      { "type": "gap", "q": "Open ___ window, please. (a / the)", "answer": ["the"], "explain": "Người nói và người nghe đều biết cửa sổ nào nên dùng the." },
+      { "type": "gap", "q": "He is ___ honest man. (a / an)", "answer": ["an"], "explain": "honest có h câm, đọc là /ˈɒnɪst/ nên dùng an." },
+      { "type": "order", "words": ["has", "She", "a", "red", "car"], "answer": "She has a red car.", "vi": "Cô ấy có một chiếc ô tô màu đỏ.", "explain": "a + tính từ + danh từ; red bắt đầu bằng phụ âm nên dùng a." },
+      { "type": "order", "words": ["an", "is", "My", "brother", "artist"], "answer": "My brother is an artist.", "vi": "Anh trai tôi là một nghệ sĩ.", "explain": "artist bắt đầu bằng âm nguyên âm nên dùng an." }
+    ]
+  },
+  {
+    "id": "en-a1-plural-nouns",
+    "level": "A1",
+    "title": "Danh từ số nhiều",
+    "title_native": "Plural nouns",
+    "summary_vi": "Cách thêm -s/-es và các danh từ số nhiều bất quy tắc.",
+    "formula": ["danh từ + -s (books)", "danh từ tận cùng s/sh/ch/x/o + -es (boxes)", "phụ âm + y thành -ies (city thành cities)"],
+    "explain_vi": "Tiếng Việt chỉ thêm \"những/các/nhiều\" để chỉ số nhiều, còn danh từ giữ nguyên. Tiếng Anh thì **biến đổi chính danh từ**.\n\nQuy tắc thường: thêm **-s**: book thành books, car thành cars. Danh từ tận cùng -s, -ss, -sh, -ch, -x, -o thì thêm **-es**: bus thành buses, watch thành watches, box thành boxes, tomato thành tomatoes. Danh từ tận cùng phụ âm + y đổi y thành **-ies**: baby thành babies. Nếu trước y là nguyên âm thì chỉ thêm s: boy thành boys. Danh từ tận cùng -f/-fe thường đổi thành -ves: knife thành knives.\n\nMột số danh từ **bất quy tắc** phải học thuộc: man thành men, woman thành women, child thành children, foot thành feet, tooth thành teeth, person thành people. Còn sheep và fish giữ nguyên.\n\nSau số từ từ hai trở lên, danh từ luôn ở dạng số nhiều: two books, ten children. Và nhớ chia động từ theo chủ ngữ số nhiều: The children are happy.",
+    "examples": [
+      { "t": "I have two brothers and three sisters.", "vi": "Tôi có hai anh em trai và ba chị em gái." },
+      { "t": "There are five boxes in the room.", "vi": "Có năm cái hộp trong phòng." },
+      { "t": "The babies are sleeping.", "vi": "Những đứa bé đang ngủ." },
+      { "t": "These women are teachers.", "vi": "Những người phụ nữ này là giáo viên." },
+      { "t": "My feet are cold.", "vi": "Chân tôi lạnh." },
+      { "t": "Many people live in this city.", "vi": "Nhiều người sống ở thành phố này." }
+    ],
+    "mistakes": [
+      { "wrong": "I have two book.", "right": "I have two books.", "note_vi": "Sau số từ từ hai trở lên, danh từ phải ở dạng số nhiều. Tiếng Việt không đổi nên dễ quên." },
+      { "wrong": "Three childs are playing.", "right": "Three children are playing.", "note_vi": "child là danh từ bất quy tắc, số nhiều là children." },
+      { "wrong": "I like cities big.", "right": "I like big cities.", "note_vi": "Tính từ đứng trước danh từ, danh từ ở dạng số nhiều: big cities." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "I have three ___.", "options": ["dog", "dogs", "doges", "dogies"], "answer": 1, "explain": "Danh từ thường thêm -s: dogs." },
+      { "type": "mcq", "q": "There are two ___ in the garden.", "options": ["babys", "baby", "babies", "babyes"], "answer": 2, "explain": "Phụ âm + y đổi thành -ies: babies." },
+      { "type": "mcq", "q": "The ___ are playing in the park.", "options": ["childs", "childrens", "child", "children"], "answer": 3, "explain": "Số nhiều bất quy tắc của child là children." },
+      { "type": "mcq", "q": "She has five ___.", "options": ["boxes", "boxs", "boxies", "box"], "answer": 0, "explain": "Tận cùng -x thêm -es: boxes." },
+      { "type": "mcq", "q": "Those ___ are my teachers.", "options": ["man", "mans", "mens", "men"], "answer": 3, "explain": "Số nhiều bất quy tắc của man là men." },
+      { "type": "gap", "q": "I need two ___. (tomato)", "answer": ["tomatoes"], "explain": "Tận cùng -o thêm -es: tomatoes." },
+      { "type": "gap", "q": "There are many ___ in the room. (person)", "answer": ["people"], "explain": "Số nhiều của person là people." },
+      { "type": "gap", "q": "He has two ___. (watch)", "answer": ["watches"], "explain": "Tận cùng -ch thêm -es: watches." },
+      { "type": "order", "words": ["have", "I", "two", "sisters"], "answer": "I have two sisters.", "vi": "Tôi có hai chị em gái.", "explain": "Sau two danh từ số nhiều: sisters." },
+      { "type": "order", "words": ["are", "The", "children", "happy", "very"], "answer": "The children are very happy.", "vi": "Bọn trẻ rất vui.", "explain": "children là số nhiều nên dùng are." }
+    ]
+  },
+  {
+    "id": "en-a1-this-that-these-those",
+    "level": "A1",
+    "title": "This / That / These / Those",
+    "title_native": "This / That / These / Those",
+    "summary_vi": "Chỉ vật hoặc người ở gần hay ở xa, số ít hay số nhiều.",
+    "formula": ["this / that + danh từ số ít", "these / those + danh từ số nhiều", "This/That is ... · These/Those are ..."],
+    "explain_vi": "Bốn từ này giúp chỉ ra vật hoặc người nào đó, giống \"này, kia, đó\" trong tiếng Việt. Có hai tiêu chí: gần hay xa, số ít hay số nhiều.\n\n**This** (cái này) và **these** (những cái này) dùng cho vật ở **gần** người nói. **That** (cái kia) và **those** (những cái kia) dùng cho vật ở **xa**.\n\nSố ít: this, that. Số nhiều: these, those. Động từ to be đi kèm: This is, That is, These are, Those are. Ví dụ: This is my book. Those are my shoes.\n\nCác từ này có thể đứng một mình (đại từ): What is this? hoặc đứng trước danh từ (tính từ chỉ định): this book, those boys.\n\nKhi giới thiệu người, dùng this: This is my friend, Nam. Khi nói điện thoại, cũng dùng this để nói về mình: Hello, this is Lan.\n\nLưu ý: danh từ sau these/those phải ở dạng số nhiều: these books, không phải these book.",
+    "examples": [
+      { "t": "This is my bag.", "vi": "Đây là cái cặp của tôi." },
+      { "t": "That is a beautiful house.", "vi": "Kia là một ngôi nhà đẹp." },
+      { "t": "These apples are fresh.", "vi": "Những quả táo này tươi." },
+      { "t": "Those boys are my cousins.", "vi": "Những cậu bé kia là anh em họ của tôi." },
+      { "t": "What is that?", "vi": "Cái kia là cái gì vậy?" },
+      { "t": "Are these your keys?", "vi": "Đây có phải chìa khóa của bạn không?" }
+    ],
+    "mistakes": [
+      { "wrong": "These book is mine.", "right": "This book is mine.", "note_vi": "these đi với số nhiều; book là số ít nên dùng this." },
+      { "wrong": "Those is my shoes.", "right": "Those are my shoes.", "note_vi": "those là số nhiều nên đi với are, không phải is." },
+      { "wrong": "I like this shoes.", "right": "I like these shoes.", "note_vi": "shoes là số nhiều nên phải dùng these." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "___ is my pen here in my hand.", "options": ["That", "These", "This", "Those"], "answer": 2, "explain": "Vật số ít ở gần dùng this." },
+      { "type": "mcq", "q": "Look at ___ birds over there!", "options": ["this", "those", "that", "these"], "answer": 1, "explain": "birds là số nhiều, ở xa (over there) nên dùng those." },
+      { "type": "mcq", "q": "___ are my new shoes. I am wearing them.", "options": ["These", "Those", "That", "This"], "answer": 0, "explain": "Số nhiều, ở gần nên dùng these." },
+      { "type": "mcq", "q": "Is ___ your house across the street?", "options": ["these", "those", "this", "that"], "answer": 3, "explain": "Số ít ở xa nên dùng that." },
+      { "type": "mcq", "q": "___ girls in the photo are my sisters.", "options": ["This", "Those", "That", "Is"], "answer": 1, "explain": "girls số nhiều, ở xa (trong ảnh) nên dùng those." },
+      { "type": "gap", "q": "___ are my parents. (these / those, người ở gần)", "answer": ["These"], "explain": "Người số nhiều ở gần: These are ..." },
+      { "type": "gap", "q": "What is ___? (this / that, vật xa)", "answer": ["that"], "explain": "Vật số ít ở xa: that." },
+      { "type": "gap", "q": "I like ___ jeans. (this / these)", "answer": ["these"], "explain": "jeans là số nhiều nên dùng these." },
+      { "type": "order", "words": ["is", "my", "That", "teacher"], "answer": "That is my teacher.", "vi": "Kia là giáo viên của tôi.", "explain": "That is + cụm danh từ." },
+      { "type": "order", "words": ["are", "Those", "new", "books", "my"], "answer": "Those are my new books.", "vi": "Kia là những quyển sách mới của tôi.", "explain": "Those are + tính từ sở hữu + tính từ + danh từ số nhiều." }
+    ]
+  },
+  {
+    "id": "en-a1-possessives",
+    "level": "A1",
+    "title": "Tính từ sở hữu & 's",
+    "title_native": "Possessive adjectives & 's",
+    "summary_vi": "Nói cái gì thuộc về ai: my, your, his, her... và Lan's book.",
+    "formula": ["my / your / his / her / its / our / their + danh từ", "tên người / danh từ + 's + danh từ", "danh từ số nhiều tận cùng -s + ' (the students' room)"],
+    "explain_vi": "Để nói vật thuộc về ai, tiếng Anh có hai cách.\n\nCách 1: **tính từ sở hữu** đứng ngay trước danh từ: **my** (của tôi), **your** (của bạn), **his** (của anh ấy), **her** (của cô ấy), **its** (của nó), **our** (của chúng tôi), **their** (của họ). Ví dụ: my book, her bag, our house. Khác tiếng Việt, từ sở hữu đứng TRƯỚC danh từ: \"sách của tôi\" thành my book.\n\nCách 2: thêm **'s** vào sau tên người hoặc danh từ chỉ người: Lan's book (sách của Lan), my father's car (xe của bố tôi). Với danh từ số nhiều đã có -s thì chỉ thêm dấu phẩy trên: the students' classroom (lớp của các học sinh). Danh từ số nhiều bất quy tắc vẫn thêm 's: the children's toys.\n\nCẩn thận: **'s** có thể là sở hữu (Tom's bag) hoặc rút gọn của is (Tom's tall). Nhìn vào phía sau: nếu theo sau là danh từ thì thường là sở hữu.\n\nPhân biệt **its** (của nó, không có dấu phẩy trên) và **it's** (it is).",
+    "examples": [
+      { "t": "My mother is a nurse.", "vi": "Mẹ tôi là y tá." },
+      { "t": "Her bag is very expensive.", "vi": "Cái túi của cô ấy rất đắt." },
+      { "t": "They love their new house.", "vi": "Họ yêu ngôi nhà mới của họ." },
+      { "t": "This is Lan's phone.", "vi": "Đây là điện thoại của Lan." },
+      { "t": "My father's car is old.", "vi": "Xe của bố tôi đã cũ." },
+      { "t": "The dog is eating its food.", "vi": "Con chó đang ăn thức ăn của nó." }
+    ],
+    "mistakes": [
+      { "wrong": "This is book my.", "right": "This is my book.", "note_vi": "Tính từ sở hữu đứng trước danh từ, ngược với tiếng Việt." },
+      { "wrong": "The book of Lan is on the table.", "right": "Lan's book is on the table.", "note_vi": "Với người, dùng 's thay cho cấu trúc of để câu tự nhiên hơn." },
+      { "wrong": "Mai loves his mother.", "right": "Mai loves her mother.", "note_vi": "Chọn tính từ sở hữu theo người sở hữu: Mai là nữ nên dùng her, không dùng his." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "This is Anna. ___ sister is a doctor.", "options": ["Her", "His", "She", "Their"], "answer": 0, "explain": "Anna là nữ nên dùng her." },
+      { "type": "mcq", "q": "We love ___ teacher. She is kind.", "options": ["us", "our", "we", "ours"], "answer": 1, "explain": "Tính từ sở hữu của we là our." },
+      { "type": "mcq", "q": "This is ___ car.", "options": ["Tom", "Toms", "Toms'", "Tom's"], "answer": 3, "explain": "Sở hữu của một người: tên + 's." },
+      { "type": "mcq", "q": "John and Mary like ___ new flat.", "options": ["his", "their", "her", "there"], "answer": 1, "explain": "Hai người, số nhiều: their." },
+      { "type": "mcq", "q": "The ___ room is on the second floor. (nhiều học sinh)", "options": ["students", "student's", "students'", "student"], "answer": 2, "explain": "Danh từ số nhiều tận cùng -s chỉ thêm dấu phẩy trên: students'." },
+      { "type": "gap", "q": "I like ___ job. (I)", "answer": ["my"], "explain": "Tính từ sở hữu của I là my." },
+      { "type": "gap", "q": "That is my ___ house. (brother)", "answer": ["brother's"], "explain": "Một người anh/em trai: brother's." },
+      { "type": "gap", "q": "The cat is eating ___ food. (it)", "answer": ["its"], "explain": "Tính từ sở hữu của it là its." },
+      { "type": "order", "words": ["is", "name", "Her", "Mai"], "answer": "Her name is Mai.", "vi": "Tên cô ấy là Mai.", "explain": "Her + danh từ + is + tên." },
+      { "type": "order", "words": ["is", "Tom's", "student", "a", "sister"], "answer": "Tom's sister is a student.", "vi": "Em gái của Tom là học sinh.", "explain": "Tom's + danh từ = sở hữu." }
+    ]
+  },
+  {
+    "id": "en-a1-can-cant",
+    "level": "A1",
+    "title": "Động từ can / can't",
+    "title_native": "Can / Can't",
+    "summary_vi": "Nói về khả năng và xin phép đơn giản.",
+    "formula": ["S + can + V (nguyên mẫu)", "S + can't (cannot) + V", "Can + S + V?"],
+    "explain_vi": "**Can** là động từ khuyết thiếu, nghĩa là \"có thể, biết (làm gì)\". Dùng để nói về khả năng (I can swim - Tôi biết bơi), cho phép hoặc xin phép (Can I sit here? - Tôi ngồi đây được không?), và yêu cầu lịch sự (Can you help me?).\n\nĐặc điểm quan trọng: **can giống nhau với mọi chủ ngữ** (he can, không phải he cans) và **sau can là động từ nguyên mẫu không có to**: She can sing, không phải She can to sing hay She can sings.\n\nPhủ định: **can't** (hoặc cannot, viết liền một từ). Ví dụ: I can't drive. Câu hỏi: đưa can lên trước chủ ngữ: **Can** you swim? Trả lời ngắn: Yes, I can. / No, I can't.\n\nVới từ để hỏi: What can you do? Where can I buy a ticket?\n\nTiếng Việt nói \"biết bơi, có thể bơi, bơi được\" đều khá giống nhau, còn tiếng Anh thì dùng chung can: I can swim. Đừng dùng \"know\" kiểu I know swim.",
+    "examples": [
+      { "t": "I can swim very well.", "vi": "Tôi bơi rất giỏi." },
+      { "t": "She can speak three languages.", "vi": "Cô ấy nói được ba thứ tiếng." },
+      { "t": "He can't drive a car.", "vi": "Anh ấy không biết lái xe ô tô." },
+      { "t": "Can you help me, please?", "vi": "Bạn giúp tôi được không?" },
+      { "t": "Can I open the window?", "vi": "Tôi mở cửa sổ được không?" },
+      { "t": "My little brother can't read yet.", "vi": "Em trai tôi chưa biết đọc." }
+    ],
+    "mistakes": [
+      { "wrong": "She cans swim.", "right": "She can swim.", "note_vi": "can không thêm -s với he/she/it." },
+      { "wrong": "I can to speak English.", "right": "I can speak English.", "note_vi": "Sau can dùng động từ nguyên mẫu không có to." },
+      { "wrong": "Do you can swim?", "right": "Can you swim?", "note_vi": "can tự làm trợ động từ, không dùng do/does." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "He ___ play the guitar.", "options": ["cans", "can", "can to", "is can"], "answer": 1, "explain": "can không thêm -s và không có to sau nó." },
+      { "type": "mcq", "q": "___ you speak French?", "options": ["Do", "Are", "Can", "Does"], "answer": 2, "explain": "Câu hỏi với can: Can + chủ ngữ + V?" },
+      { "type": "mcq", "q": "I ___ come to the party. I am busy.", "options": ["can", "don't can", "can't", "no can"], "answer": 2, "explain": "Phủ định của can là can't." },
+      { "type": "mcq", "q": "She can ___ a bike.", "options": ["rides", "riding", "to ride", "ride"], "answer": 3, "explain": "Sau can là động từ nguyên mẫu: ride." },
+      { "type": "mcq", "q": "Can ___ open the door for me?", "options": ["you", "yours", "to you", "your"], "answer": 0, "explain": "Sau can là chủ ngữ you." },
+      { "type": "gap", "q": "Birds ___ fly. (can)", "answer": ["can"], "explain": "Chim có thể bay: Birds can fly." },
+      { "type": "gap", "q": "My grandfather ___ use a computer. (not can)", "answer": ["can't", "cannot"], "explain": "Phủ định: can't hoặc cannot." },
+      { "type": "gap", "q": "___ I use your pen? Yes, you can.", "answer": ["Can"], "explain": "Xin phép: Can I ...?" },
+      { "type": "order", "words": ["can", "She", "very", "well", "cook"], "answer": "She can cook very well.", "vi": "Cô ấy nấu ăn rất giỏi.", "explain": "Chủ ngữ + can + V + trạng từ." },
+      { "type": "order", "words": ["you", "Can", "me", "help"], "answer": "Can you help me?", "vi": "Bạn giúp tôi được không?", "explain": "Can + you + V + tân ngữ?" }
+    ]
+  },
+  {
+    "id": "en-a1-imperatives",
+    "level": "A1",
+    "title": "Câu mệnh lệnh",
+    "title_native": "Imperatives",
+    "summary_vi": "Ra lệnh, hướng dẫn, mời hoặc cấm bằng động từ nguyên mẫu.",
+    "formula": ["V (nguyên mẫu) + ...", "Don't + V + ...", "Let's + V + ..."],
+    "explain_vi": "Câu mệnh lệnh dùng để yêu cầu, hướng dẫn, chỉ đường, mời mọc hoặc cấm đoán. Cách tạo câu rất đơn giản: **bắt đầu bằng động từ nguyên mẫu**, không có chủ ngữ. Ví dụ: Open the door. Sit down. Listen carefully.\n\nPhủ định: thêm **Don't** trước động từ: Don't run! Don't be late. Với to be, dùng Be / Don't be: Be careful! Don't be afraid.\n\nĐể câu lịch sự hơn, thêm **please** ở đầu hoặc cuối câu: Please sit down. / Sit down, please.\n\nMuốn rủ ai cùng làm việc gì, dùng **Let's + động từ nguyên mẫu** (Let's go! - Đi nào!). Phủ định là Let's not + V: Let's not argue.\n\nCâu mệnh lệnh thường gặp trên biển báo (No smoking!), trong công thức nấu ăn (Add some salt) và chỉ đường (Turn left).\n\nLưu ý: không thêm -s hay -ing vào động từ và không đặt do trước động từ trong câu mệnh lệnh khẳng định.",
+    "examples": [
+      { "t": "Open your books, please.", "vi": "Làm ơn mở sách ra." },
+      { "t": "Don't run in the classroom.", "vi": "Đừng chạy trong lớp học." },
+      { "t": "Be quiet, the baby is sleeping.", "vi": "Hãy yên lặng, em bé đang ngủ." },
+      { "t": "Turn left at the corner.", "vi": "Rẽ trái ở góc đường." },
+      { "t": "Let's play football after school.", "vi": "Chúng ta chơi bóng đá sau giờ học nhé." },
+      { "t": "Don't be late for class.", "vi": "Đừng đến lớp muộn." }
+    ],
+    "mistakes": [
+      { "wrong": "You open the door.", "right": "Open the door.", "note_vi": "Câu mệnh lệnh không cần chủ ngữ you." },
+      { "wrong": "No run!", "right": "Don't run!", "note_vi": "Phủ định mệnh lệnh dùng Don't + động từ." },
+      { "wrong": "Let's to go home.", "right": "Let's go home.", "note_vi": "Sau Let's là động từ nguyên mẫu không có to." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "___ the window, please. It is hot.", "options": ["Opens", "Open", "Opening", "To open"], "answer": 1, "explain": "Câu mệnh lệnh dùng động từ nguyên mẫu: Open." },
+      { "type": "mcq", "q": "___ talk in the library.", "options": ["No", "Not", "Doesn't", "Don't"], "answer": 3, "explain": "Phủ định mệnh lệnh: Don't + V." },
+      { "type": "mcq", "q": "It is a nice day. ___ go to the park!", "options": ["Let's", "Let", "Lets to", "We let"], "answer": 0, "explain": "Rủ ai cùng làm: Let's + V." },
+      { "type": "mcq", "q": "___ careful! The floor is wet.", "options": ["Are", "Is", "Don't", "Be"], "answer": 3, "explain": "Với to be trong mệnh lệnh dùng Be." },
+      { "type": "mcq", "q": "___ late for the meeting tomorrow.", "options": ["Don't be", "Not be", "Aren't", "Don't"], "answer": 0, "explain": "Phủ định mệnh lệnh với to be: Don't be." },
+      { "type": "gap", "q": "___ your name here, please. (write)", "answer": ["Write"], "explain": "Mệnh lệnh bắt đầu bằng động từ nguyên mẫu." },
+      { "type": "gap", "q": "___ the TV. I am studying. (not turn on)", "answer": ["Don't turn on", "Do not turn on"], "explain": "Don't + động từ nguyên mẫu." },
+      { "type": "gap", "q": "Let's ___ a taxi. (take)", "answer": ["take"], "explain": "Sau Let's là động từ nguyên mẫu." },
+      { "type": "order", "words": ["sit", "Please", "down"], "answer": "Please sit down.", "vi": "Xin mời ngồi xuống.", "explain": "Please + động từ nguyên mẫu." },
+      { "type": "order", "words": ["Don't", "here", "park", "your", "car"], "answer": "Don't park your car here.", "vi": "Đừng đỗ xe của bạn ở đây.", "explain": "Don't + V + tân ngữ + nơi chốn." }
+    ]
+  },
+  {
+    "id": "en-a1-prepositions-place",
+    "level": "A1",
+    "title": "Giới từ chỉ nơi chốn",
+    "title_native": "Prepositions of place: in / on / at / under / next to",
+    "summary_vi": "Nói vật hay người ở đâu bằng in, on, at, under, next to.",
+    "formula": ["in + không gian bao quanh (in the room, in Hanoi)", "on + bề mặt (on the table, on the wall)", "at + điểm cụ thể (at the bus stop, at school)"],
+    "explain_vi": "Giới từ nơi chốn cho biết vật hoặc người ở đâu. Hãy nhớ hình ảnh sau.\n\n**in**: ở bên trong một không gian có biên giới: in the box, in the room, in the garden, và cũng dùng cho thành phố, quốc gia: in Hanoi, in Vietnam.\n\n**on**: ở trên một bề mặt, tiếp xúc với bề mặt: on the table, on the floor, on the wall, on the second floor.\n\n**at**: ở một điểm cụ thể, địa điểm hoạt động: at the bus stop, at the door, at home, at school, at work.\n\n**under**: ở dưới: The cat is under the chair. **next to** (hoặc beside): bên cạnh: The bank is next to the post office. Ngoài ra có **between** (ở giữa hai vật), **in front of** (phía trước), **behind** (phía sau), **opposite** (đối diện).\n\nTiếng Việt hay dùng \"ở\" cho mọi trường hợp, nên người học dễ nhầm. Hãy chọn giới từ theo vị trí thực tế của vật.\n\nCác cụm cố định cần nhớ: at home, at school, at work, in bed, on the bus, in the car.",
+    "examples": [
+      { "t": "The keys are on the table.", "vi": "Chìa khóa ở trên bàn." },
+      { "t": "My sister lives in Da Nang.", "vi": "Chị tôi sống ở Đà Nẵng." },
+      { "t": "I am waiting at the bus stop.", "vi": "Tôi đang đợi ở trạm xe buýt." },
+      { "t": "The cat is under the chair.", "vi": "Con mèo ở dưới cái ghế." },
+      { "t": "The bank is next to the supermarket.", "vi": "Ngân hàng ở cạnh siêu thị." },
+      { "t": "She is at home today.", "vi": "Hôm nay cô ấy ở nhà." }
+    ],
+    "mistakes": [
+      { "wrong": "I am in home.", "right": "I am at home.", "note_vi": "at home là cụm cố định, không dùng in home." },
+      { "wrong": "The picture is in the wall.", "right": "The picture is on the wall.", "note_vi": "Vật dính trên bề mặt thì dùng on." },
+      { "wrong": "He is in the bus stop.", "right": "He is at the bus stop.", "note_vi": "Địa điểm là một điểm cụ thể dùng at." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "The book is ___ the table.", "options": ["in", "on", "at", "under to"], "answer": 1, "explain": "Sách nằm trên bề mặt bàn nên dùng on." },
+      { "type": "mcq", "q": "My parents are ___ home now.", "options": ["on", "in", "to", "at"], "answer": 3, "explain": "at home là cụm cố định." },
+      { "type": "mcq", "q": "There is a ball ___ the box.", "options": ["in", "at", "on", "next"], "answer": 0, "explain": "Bóng ở bên trong hộp nên dùng in." },
+      { "type": "mcq", "q": "The dog is sleeping ___ the bed.", "options": ["at", "on", "in", "under"], "answer": 3, "explain": "Con chó ngủ ở phía dưới giường nên dùng under." },
+      { "type": "mcq", "q": "The school is ___ the park. They are side by side.", "options": ["next to", "in", "at", "on"], "answer": 0, "explain": "Hai vật cạnh nhau dùng next to." },
+      { "type": "gap", "q": "I live ___ Ho Chi Minh City. (in / on / at)", "answer": ["in"], "explain": "Thành phố dùng in." },
+      { "type": "gap", "q": "The clock is ___ the wall. (in / on / at)", "answer": ["on"], "explain": "Vật gắn trên tường dùng on." },
+      { "type": "gap", "q": "Wait for me ___ the door. (in / on / at)", "answer": ["at"], "explain": "Một điểm cụ thể (cửa) dùng at." },
+      { "type": "order", "words": ["is", "The", "cat", "under", "the", "chair"], "answer": "The cat is under the chair.", "vi": "Con mèo ở dưới cái ghế.", "explain": "Chủ ngữ + is + giới từ + cụm danh từ." },
+      { "type": "order", "words": ["lives", "next", "She", "to", "the", "park"], "answer": "She lives next to the park.", "vi": "Cô ấy sống cạnh công viên.", "explain": "next to + địa điểm." }
+    ]
+  },
+  {
+    "id": "en-a1-prepositions-time",
+    "level": "A1",
+    "title": "Giới từ chỉ thời gian",
+    "title_native": "Prepositions of time: in / on / at",
+    "summary_vi": "Dùng in, on, at để nói khi nào việc gì xảy ra.",
+    "formula": ["at + giờ / thời điểm (at 7 o'clock, at night)", "on + thứ / ngày (on Monday, on 5th May)", "in + tháng / năm / mùa / buổi (in June, in 2024, in the morning)"],
+    "explain_vi": "Tiếng Việt dùng \"vào\" hoặc \"lúc\" cho mọi mốc thời gian, còn tiếng Anh chọn giữa **at, on, in** tùy mốc thời gian lớn hay nhỏ.\n\n**at**: dùng cho giờ giấc và thời điểm cụ thể: at 6 o'clock, at noon, at midnight, at night, at the weekend (Anh-Anh), at lunchtime.\n\n**on**: dùng cho thứ và ngày cụ thể: on Monday, on Sunday morning, on 10th March, on my birthday, on Christmas Day.\n\n**in**: dùng cho khoảng thời gian dài hơn như buổi trong ngày, tháng, mùa, năm, thế kỷ: in the morning, in the afternoon, in the evening, in July, in summer, in 2025.\n\nHãy hình dung một cái phễu: in (rộng nhất) thành on (hẹp hơn) thành at (cụ thể nhất).\n\nCác điểm cần nhớ: **at night** (không phải in the night), nhưng in the morning/afternoon/evening. Không dùng giới từ trước **every, next, last, this, tomorrow, today, yesterday**: I see her every day (không phải on every day), She comes next Monday.",
+    "examples": [
+      { "t": "The class starts at eight o'clock.", "vi": "Lớp học bắt đầu lúc tám giờ." },
+      { "t": "I play football on Saturdays.", "vi": "Tôi chơi bóng đá vào các ngày thứ Bảy." },
+      { "t": "My birthday is in October.", "vi": "Sinh nhật của tôi vào tháng Mười." },
+      { "t": "We have dinner in the evening.", "vi": "Chúng tôi ăn tối vào buổi tối." },
+      { "t": "She goes to bed at night.", "vi": "Cô ấy đi ngủ vào ban đêm." },
+      { "t": "It is hot in summer.", "vi": "Vào mùa hè thì nóng." }
+    ],
+    "mistakes": [
+      { "wrong": "I get up in 6 o'clock.", "right": "I get up at 6 o'clock.", "note_vi": "Giờ giấc cụ thể dùng at." },
+      { "wrong": "We have a test in Monday.", "right": "We have a test on Monday.", "note_vi": "Thứ trong tuần dùng on." },
+      { "wrong": "I see him on every day.", "right": "I see him every day.", "note_vi": "Không dùng giới từ trước every." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "The film starts ___ 7 p.m.", "options": ["in", "on", "at", "of"], "answer": 2, "explain": "Giờ cụ thể dùng at." },
+      { "type": "mcq", "q": "I have English class ___ Tuesday.", "options": ["on", "in", "at", "to"], "answer": 0, "explain": "Thứ trong tuần dùng on." },
+      { "type": "mcq", "q": "My brother was born ___ 2010.", "options": ["on", "at", "of", "in"], "answer": 3, "explain": "Năm dùng in." },
+      { "type": "mcq", "q": "Do you study ___ the morning?", "options": ["in", "on", "at", "x"], "answer": 0, "explain": "Buổi trong ngày (morning, afternoon, evening) dùng in." },
+      { "type": "mcq", "q": "We don't work ___ Sundays.", "options": ["in", "at", "on", "for"], "answer": 2, "explain": "Ngày trong tuần dạng số nhiều Sundays vẫn dùng on." },
+      { "type": "gap", "q": "It is very cold ___ winter. (in / on / at)", "answer": ["in"], "explain": "Mùa dùng in." },
+      { "type": "gap", "q": "Her birthday is ___ 14th February. (in / on / at)", "answer": ["on"], "explain": "Ngày tháng cụ thể dùng on." },
+      { "type": "gap", "q": "I usually sleep ___ night. (in / on / at)", "answer": ["at"], "explain": "at night là cụm cố định." },
+      { "type": "order", "words": ["at", "I", "get", "up", "six", "o'clock"], "answer": "I get up at six o'clock.", "vi": "Tôi dậy lúc sáu giờ.", "explain": "at + giờ." },
+      { "type": "order", "words": ["on", "We", "visit", "Sundays", "grandma"], "answer": "We visit grandma on Sundays.", "vi": "Chúng tôi thăm bà vào các ngày Chủ nhật.", "explain": "on + thứ." }
+    ]
+  },
+  {
+    "id": "en-a1-wh-questions",
+    "level": "A1",
+    "title": "Từ để hỏi",
+    "title_native": "Wh-questions: what, where, who, when, why, how",
+    "summary_vi": "Hỏi thông tin bằng what, where, who, when, why, how.",
+    "formula": ["Wh-word + am/is/are + S ...?", "Wh-word + do/does + S + V ...?", "Who/What + V ...? (hỏi về chủ ngữ)"],
+    "explain_vi": "Câu hỏi Wh dùng để hỏi thông tin cụ thể, không thể trả lời bằng yes/no. Các từ hỏi cơ bản: **what** (cái gì), **where** (ở đâu), **who** (ai), **when** (khi nào), **why** (tại sao), **how** (như thế nào), **which** (cái nào), **whose** (của ai), **how old** (bao nhiêu tuổi), **how many** (bao nhiêu, đếm được), **how much** (bao nhiêu, không đếm được hoặc giá tiền).\n\nKhác tiếng Việt, từ để hỏi **đứng đầu câu**: \"Bạn sống ở đâu?\" thành **Where** do you live?\n\nCấu trúc chung: Wh-word + trợ động từ + chủ ngữ + động từ chính. Với to be: Where **is** he? What **are** you doing? Với động từ thường ở hiện tại đơn: Where **do** you live? When **does** she work? Nhớ rằng sau does, động từ chính ở dạng nguyên mẫu.\n\nKhi từ hỏi chính là chủ ngữ (who, what hỏi về chủ ngữ), không cần do/does: Who lives here? What happens next?\n\nTrả lời: Where do you live? - I live in Hue. Why are you late? - Because I missed the bus.",
+    "examples": [
+      { "t": "What is your name?", "vi": "Tên bạn là gì?" },
+      { "t": "Where do you live?", "vi": "Bạn sống ở đâu?" },
+      { "t": "Who is that man?", "vi": "Người đàn ông kia là ai?" },
+      { "t": "When does the shop open?", "vi": "Cửa hàng mở cửa khi nào?" },
+      { "t": "Why are you sad?", "vi": "Tại sao bạn buồn?" },
+      { "t": "How much is this shirt?", "vi": "Cái áo này giá bao nhiêu?" }
+    ],
+    "mistakes": [
+      { "wrong": "You live where?", "right": "Where do you live?", "note_vi": "Tiếng Việt để từ hỏi ở cuối, nhưng tiếng Anh đặt từ hỏi ở đầu câu." },
+      { "wrong": "Where you live?", "right": "Where do you live?", "note_vi": "Thiếu trợ động từ do/does." },
+      { "wrong": "What does she wants?", "right": "What does she want?", "note_vi": "Sau does, động từ chính ở dạng nguyên mẫu, không thêm -s." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "___ is your birthday? It's in May.", "options": ["Where", "When", "Who", "How"], "answer": 1, "explain": "Hỏi thời gian dùng when." },
+      { "type": "mcq", "q": "___ do you go to school? By bus.", "options": ["How", "What", "Where", "Why"], "answer": 0, "explain": "Hỏi phương tiện, cách thức dùng how." },
+      { "type": "mcq", "q": "Where ___ your parents live?", "options": ["does", "is", "do", "are"], "answer": 2, "explain": "your parents là số nhiều, hiện tại đơn nên dùng do." },
+      { "type": "mcq", "q": "___ is that girl? She is my cousin.", "options": ["What", "Who", "Where", "When"], "answer": 1, "explain": "Hỏi về người dùng who." },
+      { "type": "mcq", "q": "What time ___ the film start?", "options": ["do", "is", "are", "does"], "answer": 3, "explain": "the film là số ít nên dùng does." },
+      { "type": "gap", "q": "___ do you like? I like pizza. (what / where)", "answer": ["What"], "explain": "Hỏi cái gì dùng what." },
+      { "type": "gap", "q": "How ___ brothers do you have? (many / much)", "answer": ["many"], "explain": "brothers đếm được nên dùng how many." },
+      { "type": "gap", "q": "Where ___ she work? (do / does)", "answer": ["does"], "explain": "she đi với does." },
+      { "type": "order", "words": ["do", "Where", "live", "you"], "answer": "Where do you live?", "vi": "Bạn sống ở đâu?", "explain": "Wh-word + do + chủ ngữ + V." },
+      { "type": "order", "words": ["does", "your", "What", "teacher", "teach"], "answer": "What does your teacher teach?", "vi": "Giáo viên của bạn dạy môn gì?", "explain": "What + does + chủ ngữ + V nguyên mẫu." }
+    ]
+  },
+  {
+    "id": "en-a1-object-pronouns",
+    "level": "A1",
+    "title": "Đại từ tân ngữ",
+    "title_native": "Object pronouns: me, you, him, her, it, us, them",
+    "summary_vi": "Dùng me, him, her, us, them... sau động từ hoặc giới từ.",
+    "formula": ["S + V + me / you / him / her / it / us / them", "giới từ + me / you / him / her / it / us / them", "giới từ (at, to, for, with) + đại từ tân ngữ: look at him, wait for me"],
+    "explain_vi": "Đại từ có hai dạng chính. **Đại từ chủ ngữ** (I, you, he, she, it, we, they) đứng trước động từ. **Đại từ tân ngữ** đứng sau động từ hoặc sau giới từ để chỉ người/vật nhận hành động.\n\nBảng đối chiếu: I thành **me**, you thành **you**, he thành **him**, she thành **her**, it thành **it**, we thành **us**, they thành **them**.\n\nVí dụ: I like **her** (Tôi thích cô ấy). She loves **me**. Please help **us**. Look at **them**. Wait for **me**.\n\nTiếng Việt dùng cùng một từ cho chủ ngữ và tân ngữ (\"tôi thích anh ấy\", \"anh ấy thích tôi\"), nên người Việt hay dùng sai: \"I like she\" hay \"Give I the book\". Hãy kiểm tra: nếu từ đó đứng sau động từ hoặc sau giới từ (to, for, with, at...), dùng dạng tân ngữ.\n\nKhông lặp lại danh từ khi đã biết: I have a dog. I love **it** (it = the dog). Tom is my friend. I often call **him**.",
+    "examples": [
+      { "t": "I love him very much.", "vi": "Tôi yêu anh ấy rất nhiều." },
+      { "t": "She calls me every day.", "vi": "Cô ấy gọi cho tôi mỗi ngày." },
+      { "t": "Please help us with this exercise.", "vi": "Làm ơn giúp chúng tôi bài tập này." },
+      { "t": "Look at them! They are dancing.", "vi": "Nhìn họ kìa! Họ đang nhảy." },
+      { "t": "This is a gift for you.", "vi": "Đây là món quà dành cho bạn." },
+      { "t": "I have a cat and I feed it every morning.", "vi": "Tôi có một con mèo và tôi cho nó ăn mỗi sáng." }
+    ],
+    "mistakes": [
+      { "wrong": "I like she.", "right": "I like her.", "note_vi": "Sau động từ cần dùng đại từ tân ngữ her, không dùng she." },
+      { "wrong": "He gave I a present.", "right": "He gave me a present.", "note_vi": "Tân ngữ của I là me." },
+      { "wrong": "Wait for we.", "right": "Wait for us.", "note_vi": "Sau giới từ dùng đại từ tân ngữ us." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "I know Tom. I often see ___ at school.", "options": ["he", "his", "him", "them"], "answer": 2, "explain": "Tom là nam, làm tân ngữ nên dùng him." },
+      { "type": "mcq", "q": "She is my teacher. I like ___ very much.", "options": ["she", "her", "hers", "me"], "answer": 1, "explain": "Tân ngữ của she là her." },
+      { "type": "mcq", "q": "Please listen to ___. I have something to say.", "options": ["I", "my", "us", "me"], "answer": 3, "explain": "Sau giới từ to dùng me." },
+      { "type": "mcq", "q": "My parents are at home. I call ___ every evening.", "options": ["they", "them", "their", "us"], "answer": 1, "explain": "my parents là số nhiều, làm tân ngữ nên dùng them." },
+      { "type": "mcq", "q": "We want to go out. Can you come with ___?", "options": ["we", "our", "us", "ours"], "answer": 2, "explain": "Sau giới từ with dùng us." },
+      { "type": "gap", "q": "I have a new bike. I ride ___ to school. (it / them)", "answer": ["it"], "explain": "bike là số ít, thay bằng it." },
+      { "type": "gap", "q": "Anna is here. Can you help ___? (she / her)", "answer": ["her"], "explain": "Tân ngữ của she là her." },
+      { "type": "gap", "q": "These books are good. I love ___. (them / they)", "answer": ["them"], "explain": "books là số nhiều, làm tân ngữ nên dùng them." },
+      { "type": "order", "words": ["loves", "me", "My", "grandmother"], "answer": "My grandmother loves me.", "vi": "Bà tôi yêu tôi.", "explain": "Chủ ngữ + V + đại từ tân ngữ me." },
+      { "type": "order", "words": ["gave", "us", "He", "some", "advice"], "answer": "He gave us some advice.", "vi": "Anh ấy cho chúng tôi vài lời khuyên.", "explain": "gave + đại từ tân ngữ + danh từ." }
+    ]
+  }
+]

@@ -1,0 +1,324 @@
+[
+  {
+    "id": "zh-hsk1-shi",
+    "level": "HSK1",
+    "title": "Động từ 是 (là)",
+    "title_native": "是",
+    "summary_vi": "Dùng 是 để nối hai danh từ, giống 'là' trong tiếng Việt: A là B.",
+    "formula": ["A + 是 + B", "A + 不是 + B", "A + 是 + B + 吗?"],
+    "explain_vi": "**是 (shì)** tương đương với 'là' trong tiếng Việt, dùng để nói ai/cái gì là gì: nghề nghiệp, quốc tịch, tên gọi, quan hệ. Cấu trúc rất đơn giản: **A + 是 + B**. Ví dụ 我是学生 = Tôi là học sinh.\n\nPhủ định thêm **不** trước 是: **不是** (đọc là bú shì vì 不 đổi sang thanh 2 khi đứng trước thanh 4). Không được nói 没是. Muốn hỏi có/không thì thêm 吗 vào cuối câu: 你是老师吗?\n\nLưu ý quan trọng với người Việt: tiếng Việt hay nói 'cô ấy là đẹp', 'tôi là bận' nhưng tiếng Trung **không dùng 是 trước tính từ**. Phải nói 她很漂亮, 我很忙. Ngoài ra, 是 cũng không dùng để chỉ nơi chốn đơn thuần: 'Tôi ở nhà' là 我在家, không phải 我是家.\n\nKhi có nhiều chủ ngữ thì thêm 都 (đều) trước 是: 我们都是学生. Trật tự là chủ ngữ + 都 + 是.",
+    "examples": [
+      { "t": "我是学生。", "py": "wǒ shì xuésheng.", "vi": "Tôi là học sinh." },
+      { "t": "他不是老师。", "py": "tā bú shì lǎoshī.", "vi": "Anh ấy không phải là giáo viên." },
+      { "t": "这是我的书。", "py": "zhè shì wǒ de shū.", "vi": "Đây là sách của tôi." },
+      { "t": "你是中国人吗?", "py": "nǐ shì Zhōngguórén ma?", "vi": "Bạn là người Trung Quốc phải không?" },
+      { "t": "她是我的朋友。", "py": "tā shì wǒ de péngyou.", "vi": "Cô ấy là bạn của tôi." },
+      { "t": "他们都是学生。", "py": "tāmen dōu shì xuésheng.", "vi": "Họ đều là học sinh." }
+    ],
+    "mistakes": [
+      { "wrong": "我是很高。", "right": "我很高。", "note_vi": "Trước tính từ không dùng 是; dùng 很 + tính từ." },
+      { "wrong": "他没是老师。", "right": "他不是老师。", "note_vi": "Phủ định của 是 luôn là 不是, không dùng 没是." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "我___老师。", "options": ["是", "在", "有", "很"], "answer": 0, "explain": "Nối 'tôi' và 'giáo viên' (hai danh từ) bằng 是." },
+      { "type": "mcq", "q": "这___我的手机。", "options": ["很", "有", "是", "在"], "answer": 2, "explain": "'Đây là điện thoại của tôi' dùng 是." },
+      { "type": "mcq", "q": "他___是医生,他是老师。", "options": ["没", "不", "很", "都"], "answer": 1, "explain": "Phủ định của 是 là 不是: 他不是医生." },
+      { "type": "mcq", "q": "我们___是学生。", "options": ["在", "有", "吗", "都"], "answer": 3, "explain": "都 (đều) đứng trước 是: 我们都是学生." },
+      { "type": "gap", "q": "他___我的老师。(không phải)", "answer": ["不是"], "explain": "Phủ định: 不是." },
+      { "type": "gap", "q": "你是学生___?", "answer": ["吗"], "explain": "Câu hỏi có/không thêm 吗 ở cuối câu." },
+      { "type": "order", "words": ["学生", "我", "是"], "answer": "我是学生。", "vi": "Tôi là học sinh.", "explain": "Chủ ngữ + 是 + danh từ." },
+      { "type": "order", "words": ["我的书", "这", "是"], "answer": "这是我的书。", "vi": "Đây là sách của tôi.", "explain": "这 + 是 + danh từ." },
+      { "type": "order", "words": ["老师", "他", "我的", "不是"], "answer": "他不是我的老师。", "vi": "Anh ấy không phải giáo viên của tôi.", "explain": "不是 đứng sau chủ ngữ, trước danh từ." }
+    ]
+  },
+  {
+    "id": "zh-hsk1-de",
+    "level": "HSK1",
+    "title": "的 chỉ sở hữu (của)",
+    "title_native": "的",
+    "summary_vi": "Dùng 的 giữa người sở hữu và vật: 我的书 = sách của tôi (người trước, vật sau).",
+    "formula": ["người sở hữu + 的 + danh từ", "代词 + 的 + N", "quan hệ thân thiết: bỏ 的 (我妈妈)"],
+    "explain_vi": "**的 (de)** giống từ 'của' trong tiếng Việt nhưng **trật tự ngược lại**. Tiếng Việt nói 'sách của tôi' (vật trước, người sau), còn tiếng Trung nói **我的书** (người sở hữu trước, vật sau). Cấu trúc: **người sở hữu + 的 + vật**.\n\nVí dụ: 老师的手机 = điện thoại của thầy giáo; 他的名字 = tên của anh ấy. Nhớ rằng danh từ chính luôn đứng cuối cùng, mọi thứ bổ nghĩa đứng trước nó.\n\nKhi quan hệ rất gần gũi (gia đình, bạn bè, tập thể) thì thường **bỏ 的**: 我妈妈, 我朋友, 我们学校, 我家. Tuy vậy nói 我的妈妈 cũng không sai.\n\nNếu danh từ phía sau đã rõ nghĩa trong ngữ cảnh thì có thể lược nó, chỉ giữ lại 的: 这个杯子是我的 = Cái cốc này là của tôi.",
+    "examples": [
+      { "t": "这是我的书。", "py": "zhè shì wǒ de shū.", "vi": "Đây là sách của tôi." },
+      { "t": "那是老师的手机。", "py": "nà shì lǎoshī de shǒujī.", "vi": "Kia là điện thoại của thầy giáo." },
+      { "t": "我妈妈是医生。", "py": "wǒ māma shì yīshēng.", "vi": "Mẹ tôi là bác sĩ." },
+      { "t": "他的名字叫王明。", "py": "tā de míngzi jiào Wáng Míng.", "vi": "Tên của anh ấy là Vương Minh." },
+      { "t": "这个杯子是我的。", "py": "zhè ge bēizi shì wǒ de.", "vi": "Cái cốc này là của tôi." },
+      { "t": "我们的学校很大。", "py": "wǒmen de xuéxiào hěn dà.", "vi": "Trường của chúng tôi rất lớn." }
+    ],
+    "mistakes": [
+      { "wrong": "这是书我。", "right": "这是我的书。", "note_vi": "Không nói 'sách tôi' như tiếng Việt; người sở hữu đứng trước 的, vật đứng sau." },
+      { "wrong": "那是老师书。", "right": "那是老师的书。", "note_vi": "Danh từ chỉ người + danh từ chỉ vật cần có 的 ở giữa." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "这是我___书。", "options": ["是", "的", "吗", "有"], "answer": 1, "explain": "的 nối người sở hữu với vật sở hữu." },
+      { "type": "mcq", "q": "那是___。(điện thoại của thầy giáo)", "options": ["手机老师", "老师手机", "老师的手机", "的老师手机"], "answer": 2, "explain": "Người sở hữu + 的 + vật: 老师的手机." },
+      { "type": "mcq", "q": "我___是医生。(mẹ tôi)", "options": ["的妈妈", "是妈妈", "妈妈的", "妈妈"], "answer": 3, "explain": "Với người thân thường bỏ 的: 我妈妈." },
+      { "type": "mcq", "q": "这个杯子是我___。", "options": ["的", "吗", "是", "呢"], "answer": 0, "explain": "Lược danh từ phía sau, chỉ giữ lại 的." },
+      { "type": "gap", "q": "这是老师___书。", "answer": ["的"], "explain": "Thầy giáo + 的 + sách." },
+      { "type": "gap", "q": "这本书是我___。", "answer": ["的"], "explain": "我的 (của tôi) — danh từ 书 đã được nhắc ở trước nên lược đi." },
+      { "type": "order", "words": ["名字", "叫", "他", "王明", "的"], "answer": "他的名字叫王明。", "vi": "Tên của anh ấy là Vương Minh.", "explain": "他 + 的 + 名字 làm chủ ngữ, 叫王明 làm vị ngữ." },
+      { "type": "order", "words": ["很大", "学校", "我们", "的"], "answer": "我们的学校很大。", "vi": "Trường của chúng tôi rất lớn.", "explain": "我们的学校 là chủ ngữ, 很大 là vị ngữ." },
+      { "type": "order", "words": ["手机", "那", "老师", "是", "的"], "answer": "那是老师的手机。", "vi": "Kia là điện thoại của thầy giáo.", "explain": "那 + 是 + 老师的手机." }
+    ]
+  },
+  {
+    "id": "zh-hsk1-ma",
+    "level": "HSK1",
+    "title": "Câu hỏi có/không với 吗",
+    "title_native": "吗",
+    "summary_vi": "Thêm 吗 vào cuối câu kể để hỏi 'có … không?', không đổi trật tự từ.",
+    "formula": ["câu kể + 吗?", "你 + 是/有/V + … + 吗?"],
+    "explain_vi": "**吗 (ma)** là trợ từ nghi vấn đặt ở **cuối câu** để biến câu kể thành câu hỏi có/không. Cách dùng giống 'không?' hoặc 'phải không?' cuối câu tiếng Việt: 'Bạn là học sinh không?' = **你是学生吗?** Bạn không cần đảo trật tự từ, chỉ thêm 吗.\n\nCách trả lời: lặp lại động từ chính. Hỏi 你有哥哥吗? thì đáp 有 hoặc 没有. Hỏi 你是学生吗? thì đáp 是 hoặc 不是. Hỏi 你好吗? thì đáp 很好.\n\nCó hai lưu ý. Thứ nhất, **câu đã có từ để hỏi** (什么, 谁, 哪儿, 几, 多少) thì **không thêm 吗**: nói 你是谁? chứ không nói 你是谁吗? Thứ hai, 吗 luôn đứng cuối câu, không đứng giữa như một số trợ từ tiếng Việt (ví dụ 'có … không').",
+    "examples": [
+      { "t": "你好吗?", "py": "nǐ hǎo ma?", "vi": "Bạn khỏe không?" },
+      { "t": "你是学生吗?", "py": "nǐ shì xuésheng ma?", "vi": "Bạn là học sinh phải không?" },
+      { "t": "你有哥哥吗?", "py": "nǐ yǒu gēge ma?", "vi": "Bạn có anh trai không?" },
+      { "t": "他是你的老师吗?", "py": "tā shì nǐ de lǎoshī ma?", "vi": "Anh ấy là thầy giáo của bạn phải không?" },
+      { "t": "你喝茶吗?", "py": "nǐ hē chá ma?", "vi": "Bạn có uống trà không?" },
+      { "t": "你们都是中国人吗?", "py": "nǐmen dōu shì Zhōngguórén ma?", "vi": "Các bạn đều là người Trung Quốc phải không?" }
+    ],
+    "mistakes": [
+      { "wrong": "你是谁吗?", "right": "你是谁?", "note_vi": "Câu đã có từ để hỏi (谁) thì không thêm 吗." },
+      { "wrong": "你吗是学生?", "right": "你是学生吗?", "note_vi": "吗 phải đứng ở cuối câu." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "你是老师___?", "options": ["的", "吗", "是", "有"], "answer": 1, "explain": "Hỏi có/không dùng 吗 ở cuối câu." },
+      { "type": "mcq", "q": "你有姐姐___?", "options": ["吗", "呢", "的", "不"], "answer": 0, "explain": "你有姐姐吗? = Bạn có chị gái không?" },
+      { "type": "mcq", "q": "你___学生吗?", "options": ["什么", "谁", "是", "几"], "answer": 2, "explain": "Câu có 吗 là câu kể + 吗, nên dùng 是, không dùng từ để hỏi." },
+      { "type": "mcq", "q": "你们___是中国人吗?", "options": ["吗", "的", "很", "都"], "answer": 3, "explain": "都 (đều) đứng trước 是; 吗 vẫn ở cuối." },
+      { "type": "gap", "q": "你爸爸是医生___?", "answer": ["吗"], "explain": "Thêm 吗 ở cuối câu." },
+      { "type": "gap", "q": "他是你的朋友___?", "answer": ["吗"], "explain": "Câu hỏi có/không dùng 吗." },
+      { "type": "order", "words": ["吗", "中国人", "你", "是"], "answer": "你是中国人吗?", "vi": "Bạn là người Trung Quốc phải không?", "explain": "吗 đứng cuối câu." },
+      { "type": "order", "words": ["你的", "吗", "老师", "他", "是"], "answer": "他是你的老师吗?", "vi": "Anh ấy là thầy giáo của bạn phải không?", "explain": "Câu kể 他是你的老师 + 吗." },
+      { "type": "order", "words": ["吗", "哥哥", "有", "你"], "answer": "你有哥哥吗?", "vi": "Bạn có anh trai không?", "explain": "你有哥哥 + 吗." }
+    ]
+  },
+  {
+    "id": "zh-hsk1-ne",
+    "level": "HSK1",
+    "title": "Câu hỏi tỉnh lược với 呢",
+    "title_native": "呢",
+    "summary_vi": "Dùng 'N + 呢?' để hỏi lại 'còn … thì sao?' hoặc hỏi 'ở đâu?'.",
+    "formula": ["…, + N + 呢?", "N + 呢? (… đâu rồi?)"],
+    "explain_vi": "**呢 (ne)** dùng để đặt câu hỏi ngắn, lược bỏ phần đã biết. Có hai cách dùng chính ở trình độ HSK1.\n\n**1. Hỏi lại: 'còn … thì sao?'** Sau khi ai đó nói một điều, bạn đáp và hỏi lại bằng 'N + 呢?'. Ví dụ: 我很好,你呢? = Tôi khỏe, còn bạn thì sao? Câu này giống 'Còn bạn?' trong tiếng Việt. Không cần nhắc lại toàn bộ câu.\n\n**2. Hỏi nơi chốn: '… đâu?'.** Khi tìm đồ vật hoặc người, dùng danh từ + 呢: 我的书呢? = Sách của tôi đâu rồi?\n\nKhác với 吗: 吗 dùng để hỏi **có hay không** (câu đầy đủ), còn 呢 dùng khi **đã có ngữ cảnh** và chỉ hỏi phần thay đổi. Nếu không có ngữ cảnh, nói 你是学生呢? là sai; phải nói 你是学生吗?",
+    "examples": [
+      { "t": "我很好,你呢?", "py": "wǒ hěn hǎo, nǐ ne?", "vi": "Tôi khỏe, còn bạn thì sao?" },
+      { "t": "我是学生,你呢?", "py": "wǒ shì xuésheng, nǐ ne?", "vi": "Tôi là học sinh, còn bạn?" },
+      { "t": "我的书呢?", "py": "wǒ de shū ne?", "vi": "Sách của tôi đâu rồi?" },
+      { "t": "爸爸在家,妈妈呢?", "py": "bàba zài jiā, māma ne?", "vi": "Bố ở nhà, còn mẹ đâu?" },
+      { "t": "他是老师,她呢?", "py": "tā shì lǎoshī, tā ne?", "vi": "Anh ấy là giáo viên, còn cô ấy?" },
+      { "t": "我喝茶,你呢?", "py": "wǒ hē chá, nǐ ne?", "vi": "Tôi uống trà, còn bạn?" }
+    ],
+    "mistakes": [
+      { "wrong": "你是学生呢?", "right": "你是学生吗?", "note_vi": "Hỏi có/không (không có ngữ cảnh trước) phải dùng 吗, không dùng 呢." },
+      { "wrong": "我很好,你吗?", "right": "我很好,你呢?", "note_vi": "Hỏi lại 'còn bạn?' dùng 呢, không dùng 吗." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "我很好,你___?", "options": ["吗", "的", "呢", "是"], "answer": 2, "explain": "Hỏi lại 'còn bạn?' dùng 你呢?" },
+      { "type": "mcq", "q": "他是老师,她___?", "options": ["吗", "是", "的", "呢"], "answer": 3, "explain": "Hỏi lại về người khác: 她呢?" },
+      { "type": "mcq", "q": "你是学生___?(hỏi có hay không)", "options": ["呢", "吗", "的", "在"], "answer": 1, "explain": "Câu hỏi có/không dùng 吗." },
+      { "type": "mcq", "q": "我吃米饭,你___?", "options": ["呢", "吗", "的", "是"], "answer": 0, "explain": "Hỏi lại 'còn bạn?' dùng 呢." },
+      { "type": "gap", "q": "我爸爸在北京,你爸爸___?", "answer": ["呢"], "explain": "Còn bố bạn thì sao? Dùng 呢." },
+      { "type": "gap", "q": "我喝茶,你___?", "answer": ["呢"], "explain": "你呢? = Còn bạn?" },
+      { "type": "order", "words": ["呢", "我的", "书"], "answer": "我的书呢?", "vi": "Sách của tôi đâu?", "explain": "N + 呢 để hỏi nơi chốn." },
+      { "type": "order", "words": ["你", "呢", "我", "很好"], "answer": "我很好,你呢?", "vi": "Tôi khỏe, còn bạn?", "explain": "Câu trả lời + hỏi lại 你呢." },
+      { "type": "order", "words": ["爸爸", "在家", "呢", "妈妈"], "answer": "妈妈在家,爸爸呢?", "vi": "Mẹ ở nhà, còn bố đâu?", "explain": "Vế sau là câu hỏi tỉnh lược: 爸爸呢?" }
+    ]
+  },
+  {
+    "id": "zh-hsk1-bu-mei",
+    "level": "HSK1",
+    "title": "Phủ định với 不 và 没",
+    "title_native": "不 / 没",
+    "summary_vi": "不 phủ định thói quen, hiện tại, ý muốn, tính từ, 是; 没 phủ định 有 và hành động đã xảy ra.",
+    "formula": ["S + 不 + V / Adj / 是", "S + 没有 + N", "S + 没 + V (chưa/không đã)"],
+    "explain_vi": "Tiếng Việt chỉ có một chữ 'không', còn tiếng Trung có hai: **不 (bù)** và **没 (méi)**.\n\n**不** phủ định những việc là thói quen, hiện tại, tương lai hoặc ý muốn, và đi với tính từ hoặc 是: 我不喝咖啡 (tôi không uống cà phê), 他不是老师, 今天不冷.\n\n**没** phủ định hai trường hợp: (1) động từ **有**, thành **没有** (không có): 我没有哥哥; (2) hành động **đã xảy ra** hoặc chưa xảy ra: 我昨天没去学校 (hôm qua tôi không đi học). Không bao giờ nói 不有.\n\nBiến điệu: 不 đứng trước chữ thanh 4 thì đọc thành thanh 2: 不是 → bú shì, 不在 → bú zài, 不太 → bú tài. Trước các thanh khác thì 不 vẫn đọc là bù (不喝, 不冷).\n\nMẹo nhớ: nói về sự thật hoặc thói quen thì dùng 不, nói về 'có' hoặc 'đã làm hay chưa' thì dùng 没.",
+    "examples": [
+      { "t": "我不喝咖啡。", "py": "wǒ bù hē kāfēi.", "vi": "Tôi không uống cà phê." },
+      { "t": "他不是老师。", "py": "tā bú shì lǎoshī.", "vi": "Anh ấy không phải giáo viên." },
+      { "t": "我没有哥哥。", "py": "wǒ méiyǒu gēge.", "vi": "Tôi không có anh trai." },
+      { "t": "今天不冷。", "py": "jīntiān bù lěng.", "vi": "Hôm nay không lạnh." },
+      { "t": "我昨天没去学校。", "py": "wǒ zuótiān méi qù xuéxiào.", "vi": "Hôm qua tôi không đi học." },
+      { "t": "她不在家。", "py": "tā bú zài jiā.", "vi": "Cô ấy không ở nhà." }
+    ],
+    "mistakes": [
+      { "wrong": "我不有手机。", "right": "我没有手机。", "note_vi": "Phủ định của 有 luôn là 没有." },
+      { "wrong": "我没是学生。", "right": "我不是学生。", "note_vi": "Phủ định của 是 luôn là 不是." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "我___有手机。", "options": ["不", "没", "很", "吗"], "answer": 1, "explain": "有 chỉ phủ định bằng 没: 没有." },
+      { "type": "mcq", "q": "他___是我的老师。", "options": ["没", "有", "不", "很"], "answer": 2, "explain": "是 phủ định bằng 不: 不是." },
+      { "type": "mcq", "q": "我昨天___去学校。(chuyện đã qua)", "options": ["没", "不", "是", "有"], "answer": 0, "explain": "Hành động đã xảy ra/chưa xảy ra dùng 没." },
+      { "type": "mcq", "q": "今天___冷。(tính từ, nói hiện tại)", "options": ["没", "有", "是", "不"], "answer": 3, "explain": "Tính từ phủ định bằng 不: 不冷." },
+      { "type": "gap", "q": "我___有姐姐。(không có)", "answer": ["没"], "explain": "没有 = không có." },
+      { "type": "gap", "q": "他___是医生。(không phải)", "answer": ["不"], "explain": "不是 = không phải là." },
+      { "type": "order", "words": ["哥哥", "我", "没有"], "answer": "我没有哥哥。", "vi": "Tôi không có anh trai.", "explain": "S + 没有 + N." },
+      { "type": "order", "words": ["我的", "不是", "老师", "他"], "answer": "他不是我的老师。", "vi": "Anh ấy không phải giáo viên của tôi.", "explain": "S + 不是 + N." },
+      { "type": "order", "words": ["咖啡", "不", "我", "喝"], "answer": "我不喝咖啡。", "vi": "Tôi không uống cà phê.", "explain": "不 đứng ngay trước động từ." }
+    ]
+  },
+  {
+    "id": "zh-hsk1-you",
+    "level": "HSK1",
+    "title": "Động từ 有 (có)",
+    "title_native": "有",
+    "summary_vi": "有 = có (sở hữu); phủ định là 没有; hỏi bằng 吗 hoặc 有没有.",
+    "formula": ["S + 有 + O", "S + 没有 + O", "S + 有没有 + O? / S + 有 + O + 吗?"],
+    "explain_vi": "**有 (yǒu)** nghĩa là 'có', dùng để nói sở hữu: 我有一个姐姐 = Tôi có một chị gái. Cấu trúc: **S + 有 + O**.\n\nPhủ định là **没有** (méiyǒu), tuyệt đối không dùng 不有: 他没有手机. Trong khẩu ngữ có thể nói gọn thành 没.\n\nCó hai cách hỏi: (1) thêm 吗 vào cuối câu: 你有笔吗?; (2) dùng dạng lặp **有没有**: 你有没有笔? Hai cách có nghĩa như nhau, nhưng **không dùng cả hai cùng lúc**: không nói 你有没有笔吗. Trả lời bằng 有 hoặc 没有.\n\nSo với tiếng Việt: 'có' trong tiếng Việt còn dùng như một trợ từ ('Bạn có đi không?', 'Tôi có đi'), nhưng trong tiếng Trung, **有 chỉ đi với danh từ** (có cái gì). Muốn hỏi 'bạn có đi không' thì nói 你去吗? hoặc 你去不去?\n\nNgoài sở hữu, 有 còn dùng để nói 'ở đâu đó có cái gì': 这儿有很多学生 = Ở đây có rất nhiều học sinh.",
+    "examples": [
+      { "t": "我有一个姐姐。", "py": "wǒ yǒu yí ge jiějie.", "vi": "Tôi có một chị gái." },
+      { "t": "他没有手机。", "py": "tā méiyǒu shǒujī.", "vi": "Anh ấy không có điện thoại." },
+      { "t": "你有没有笔?", "py": "nǐ yǒu méiyǒu bǐ?", "vi": "Bạn có bút không?" },
+      { "t": "我家有三个人。", "py": "wǒ jiā yǒu sān ge rén.", "vi": "Nhà tôi có ba người." },
+      { "t": "这儿有很多学生。", "py": "zhèr yǒu hěn duō xuésheng.", "vi": "Ở đây có rất nhiều học sinh." },
+      { "t": "你有中国朋友吗?", "py": "nǐ yǒu Zhōngguó péngyou ma?", "vi": "Bạn có bạn người Trung Quốc không?" }
+    ],
+    "mistakes": [
+      { "wrong": "我不有手机。", "right": "我没有手机。", "note_vi": "Phủ định của 有 là 没有." },
+      { "wrong": "你有没有书吗?", "right": "你有没有书?", "note_vi": "Dạng 有没有 đã là câu hỏi, không thêm 吗." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "我___一个妹妹。", "options": ["有", "是", "在", "不"], "answer": 0, "explain": "Nói sở hữu dùng 有." },
+      { "type": "mcq", "q": "他___有电脑。", "options": ["不", "没", "很", "吗"], "answer": 1, "explain": "Phủ định của 有 là 没有." },
+      { "type": "mcq", "q": "你有___有笔?", "options": ["吗", "是", "没", "在"], "answer": 2, "explain": "Dạng lặp: 有没有." },
+      { "type": "mcq", "q": "我没___姐姐。", "options": ["不", "有", "是", "在"], "answer": 1, "explain": "没有 = không có." },
+      { "type": "gap", "q": "我___有手机。(không có)", "answer": ["没"], "explain": "没有 = không có." },
+      { "type": "gap", "q": "你有___书?(dạng 有 không 有)", "answer": ["没有"], "explain": "你有没有书? = Bạn có sách không?" },
+      { "type": "order", "words": ["姐姐", "我", "一个", "有"], "answer": "我有一个姐姐。", "vi": "Tôi có một chị gái.", "explain": "S + 有 + số lượng + danh từ." },
+      { "type": "order", "words": ["手机", "他", "没有"], "answer": "他没有手机。", "vi": "Anh ấy không có điện thoại.", "explain": "S + 没有 + N." },
+      { "type": "order", "words": ["吗", "你", "中国朋友", "有"], "answer": "你有中国朋友吗?", "vi": "Bạn có bạn người Trung Quốc không?", "explain": "吗 ở cuối câu." }
+    ]
+  },
+  {
+    "id": "zh-hsk1-measure-ge",
+    "level": "HSK1",
+    "title": "Số đếm và lượng từ 个",
+    "title_native": "数词 + 量词 个",
+    "summary_vi": "Giữa số và danh từ phải có lượng từ: 三个人 (ba người); 个 là lượng từ dùng phổ biến nhất.",
+    "formula": ["số + 量词 + N", "这/那 + 个 + N", "几 + 个 + N?", "两 + 个 + N (không dùng 二个)"],
+    "explain_vi": "Trong tiếng Trung, khi đếm hoặc dùng 这/那, **bắt buộc có lượng từ** giữa số từ và danh từ. Điều này gần giống 'loại từ' trong tiếng Việt: một **cái** bàn, hai **con** mèo, ba **quyển** sách. Trật tự cũng giống tiếng Việt: **số + lượng từ + danh từ**.\n\n**个 (ge)** là lượng từ phổ biến nhất, dùng với người và rất nhiều vật: 三个人, 一个苹果, 这个问题. Khi chưa biết lượng từ riêng, bạn có thể dùng 个. Một số lượng từ riêng thường gặp ở HSK1: **本** (běn, cho sách), **杯** (bēi, cho cốc/ly đồ uống), **口** cho số người trong gia đình.\n\n**Lưu ý số 2:** khi đếm số lượng, dùng **两** (liǎng), không dùng 二: 两个朋友 (hai người bạn). Còn khi đọc số thứ tự hoặc số điện thoại thì dùng 二.\n\nHỏi số lượng nhỏ (dưới 10) dùng **几 + lượng từ**: 你有几个朋友?\n\nLưu ý: 一 đứng trước thanh 4 thì đọc yí (一个 yí ge), đứng trước thanh 1, 2, 3 thì đọc yì (一杯 yì bēi).",
+    "examples": [
+      { "t": "我有三个朋友。", "py": "wǒ yǒu sān ge péngyou.", "vi": "Tôi có ba người bạn." },
+      { "t": "我要两个苹果。", "py": "wǒ yào liǎng ge píngguǒ.", "vi": "Tôi muốn hai quả táo." },
+      { "t": "桌子上有五本书。", "py": "zhuōzi shang yǒu wǔ běn shū.", "vi": "Trên bàn có năm quyển sách." },
+      { "t": "这个人是我的老师。", "py": "zhè ge rén shì wǒ de lǎoshī.", "vi": "Người này là thầy giáo của tôi." },
+      { "t": "我喝一杯茶。", "py": "wǒ hē yì bēi chá.", "vi": "Tôi uống một tách trà." },
+      { "t": "我家有四个人。", "py": "wǒ jiā yǒu sì ge rén.", "vi": "Nhà tôi có bốn người." }
+    ],
+    "mistakes": [
+      { "wrong": "我有三朋友。", "right": "我有三个朋友。", "note_vi": "Giữa số và danh từ phải có lượng từ 个." },
+      { "wrong": "我有二个哥哥。", "right": "我有两个哥哥。", "note_vi": "Khi đếm số lượng dùng 两, không dùng 二." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "我有三___朋友。", "options": ["本", "个", "杯", "的"], "answer": 1, "explain": "Dùng lượng từ 个 cho người." },
+      { "type": "mcq", "q": "我有___个妹妹。(2 người)", "options": ["二", "三", "两", "是"], "answer": 2, "explain": "Số 2 trước lượng từ dùng 两." },
+      { "type": "mcq", "q": "我想喝一___水。", "options": ["杯", "本", "吗", "的"], "answer": 0, "explain": "杯 là lượng từ cho cốc/ly đồ uống." },
+      { "type": "mcq", "q": "你家有几___人?", "options": ["本", "杯", "吗", "个"], "answer": 3, "explain": "几 + 个 + người." },
+      { "type": "mcq", "q": "桌子上有一___书。", "options": ["杯", "个", "本", "的"], "answer": 2, "explain": "本 là lượng từ cho sách." },
+      { "type": "gap", "q": "我有两___朋友。", "answer": ["个"], "explain": "两个朋友 = hai người bạn." },
+      { "type": "gap", "q": "桌子上有三___书。", "answer": ["本"], "explain": "三本书 = ba quyển sách." },
+      { "type": "order", "words": ["朋友", "三个", "我", "有"], "answer": "我有三个朋友。", "vi": "Tôi có ba người bạn.", "explain": "S + 有 + số + 个 + N." },
+      { "type": "order", "words": ["苹果", "两个", "我要"], "answer": "我要两个苹果。", "vi": "Tôi muốn hai quả táo.", "explain": "S + 要 + 两个 + N." },
+      { "type": "order", "words": ["我的老师", "是", "这个人"], "answer": "这个人是我的老师。", "vi": "Người này là thầy giáo của tôi.", "explain": "这 + 个 + N làm chủ ngữ." }
+    ]
+  },
+  {
+    "id": "zh-hsk1-hen-adj",
+    "level": "HSK1",
+    "title": "很 + tính từ",
+    "title_native": "很 + 形容词",
+    "summary_vi": "Tính từ làm vị ngữ trực tiếp, không cần 是; khẳng định thường có 很 đứng trước.",
+    "formula": ["S + 很 + Adj", "S + 不 + Adj", "S + 非常 / 真 / 太 + Adj"],
+    "explain_vi": "Trong tiếng Trung, tính từ có thể **làm vị ngữ trực tiếp**, không cần động từ 'là'. Người Việt hay nói 'cô ấy là đẹp' nhưng tiếng Trung **không dùng 是** trước tính từ: nói 她很漂亮.\n\nKhi khẳng định, thường thêm **很** (hěn) trước tính từ. Ở đây 很 chỉ mang nghĩa nhẹ, gần như để câu nghe tự nhiên, chưa chắc là 'rất'. Nếu bỏ 很 mà nói 她漂亮, câu nghe như đang so sánh ngầm (cô ấy đẹp, còn người kia thì không).\n\n**Phủ định:** dùng **不 + tính từ**, không dùng 很: 我的汉语不好 (tiếng Hán của tôi không tốt). 不太 + Adj nghĩa là 'không … lắm': 今天不太冷.\n\nMuốn nhấn mạnh hơn, dùng **非常** (rất, vô cùng), **真** (thật là), **太 … 了** (quá). Ví dụ: 太好了! = Tốt quá!\n\nVới tính từ ghép như 好吃 (ngon), 好看 (đẹp mắt) cách dùng giống hệt: 这个苹果很好吃.",
+    "examples": [
+      { "t": "她很漂亮。", "py": "tā hěn piàoliang.", "vi": "Cô ấy rất xinh." },
+      { "t": "今天很热。", "py": "jīntiān hěn rè.", "vi": "Hôm nay rất nóng." },
+      { "t": "这个苹果很好吃。", "py": "zhè ge píngguǒ hěn hǎochī.", "vi": "Quả táo này rất ngon." },
+      { "t": "我的汉语不好。", "py": "wǒ de Hànyǔ bù hǎo.", "vi": "Tiếng Hán của tôi không tốt." },
+      { "t": "他的家很大。", "py": "tā de jiā hěn dà.", "vi": "Nhà của anh ấy rất rộng." },
+      { "t": "今天不太冷。", "py": "jīntiān bú tài lěng.", "vi": "Hôm nay không lạnh lắm." }
+    ],
+    "mistakes": [
+      { "wrong": "她是漂亮。", "right": "她很漂亮。", "note_vi": "Tính từ làm vị ngữ không dùng 是; thêm 很." },
+      { "wrong": "我很不忙。", "right": "我不忙。", "note_vi": "Phủ định không dùng 很; dùng 不 + tính từ." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "今天___热。", "options": ["是", "很", "有", "吗"], "answer": 1, "explain": "很 + tính từ: 很热." },
+      { "type": "mcq", "q": "她___漂亮。", "options": ["是", "在", "很", "有"], "answer": 2, "explain": "Trước tính từ dùng 很, không dùng 是." },
+      { "type": "mcq", "q": "我的汉语___好。(không tốt)", "options": ["不", "很", "是", "有"], "answer": 0, "explain": "Phủ định: 不 + tính từ." },
+      { "type": "mcq", "q": "这个苹果___好吃。", "options": ["有", "是", "吗", "很"], "answer": 3, "explain": "很好吃 = rất ngon." },
+      { "type": "gap", "q": "他的家___大。", "answer": ["很", "非常"], "explain": "很 hoặc 非常 đứng trước tính từ." },
+      { "type": "gap", "q": "我的汉语___好。(không tốt)", "answer": ["不"], "explain": "不好 = không tốt." },
+      { "type": "order", "words": ["漂亮", "她", "很"], "answer": "她很漂亮。", "vi": "Cô ấy rất xinh.", "explain": "S + 很 + Adj." },
+      { "type": "order", "words": ["热", "很", "今天"], "answer": "今天很热。", "vi": "Hôm nay rất nóng.", "explain": "今天 + 很 + Adj." },
+      { "type": "order", "words": ["好吃", "很", "这个", "苹果"], "answer": "这个苹果很好吃。", "vi": "Quả táo này rất ngon.", "explain": "这个苹果 + 很好吃." }
+    ]
+  },
+  {
+    "id": "zh-hsk1-question-words",
+    "level": "HSK1",
+    "title": "Từ để hỏi 什么 / 谁 / 哪儿 / 几 / 多少",
+    "title_native": "疑问代词",
+    "summary_vi": "Từ để hỏi đứng đúng vị trí của thông tin cần hỏi, không đảo trật tự câu.",
+    "formula": ["S + V + 什么?", "谁 + V…? / 他是谁?", "S + 在/去 + 哪儿?", "几 + 量词 + N? / 多少 + N?"],
+    "explain_vi": "Điểm khác biệt lớn nhất so với tiếng Việt: trong tiếng Trung, **từ để hỏi đứng đúng chỗ của câu trả lời**. Tiếng Việt thường đặt từ để hỏi ở cuối ('Bạn uống gì?'), còn tiếng Trung giữ nguyên trật tự câu kể và thay phần cần hỏi bằng từ để hỏi.\n\nVí dụ: câu trả lời 我喝茶 → câu hỏi **你喝什么?** (什么 thay cho 茶). Tương tự: 他是我的老师 → **他是谁?** (谁 = ai); 我去学校 → **你去哪儿?** (哪儿 = ở đâu / đi đâu).\n\n**几 và 多少** đều hỏi số lượng. **几** dùng khi số nhỏ (dưới 10) và **bắt buộc có lượng từ**: 你有几个朋友? **多少** dùng khi số lớn hoặc không biết bao nhiêu, lượng từ có thể bỏ: 这个多少钱? = Cái này bao nhiêu tiền?\n\nNhớ: câu đã có từ để hỏi thì **không thêm 吗**. Ngoài ra không đảo từ để hỏi lên đầu câu: không nói 你什么喝, phải nói 你喝什么.",
+    "examples": [
+      { "t": "你叫什么名字?", "py": "nǐ jiào shénme míngzi?", "vi": "Bạn tên là gì?" },
+      { "t": "他是谁?", "py": "tā shì shéi?", "vi": "Anh ấy là ai?" },
+      { "t": "你去哪儿?", "py": "nǐ qù nǎr?", "vi": "Bạn đi đâu?" },
+      { "t": "你有几个朋友?", "py": "nǐ yǒu jǐ ge péngyou?", "vi": "Bạn có mấy người bạn?" },
+      { "t": "这个多少钱?", "py": "zhè ge duōshao qián?", "vi": "Cái này bao nhiêu tiền?" },
+      { "t": "你喝什么?", "py": "nǐ hē shénme?", "vi": "Bạn uống gì?" }
+    ],
+    "mistakes": [
+      { "wrong": "你什么喝?", "right": "你喝什么?", "note_vi": "Từ để hỏi đứng đúng vị trí của câu trả lời, sau động từ." },
+      { "wrong": "你去哪儿吗?", "right": "你去哪儿?", "note_vi": "Câu có từ để hỏi không thêm 吗." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "你叫___名字?", "options": ["谁", "什么", "哪儿", "几"], "answer": 1, "explain": "你叫什么名字? = Bạn tên là gì?" },
+      { "type": "mcq", "q": "你去___?", "options": ["什么", "几", "哪儿", "谁"], "answer": 2, "explain": "Hỏi nơi chốn dùng 哪儿." },
+      { "type": "mcq", "q": "___是你的老师?", "options": ["谁", "哪儿", "几", "多少"], "answer": 0, "explain": "Hỏi người dùng 谁." },
+      { "type": "mcq", "q": "你有___个朋友?(số nhỏ)", "options": ["什么", "哪儿", "谁", "几"], "answer": 3, "explain": "Số nhỏ dùng 几, theo sau là lượng từ 个." },
+      { "type": "mcq", "q": "苹果___钱?", "options": ["几", "多少", "什么", "谁"], "answer": 1, "explain": "多少钱? = bao nhiêu tiền?" },
+      { "type": "gap", "q": "你喝___?(cái gì)", "answer": ["什么"], "explain": "你喝什么? = Bạn uống gì?" },
+      { "type": "gap", "q": "你家在___?(ở đâu)", "answer": ["哪儿", "哪里"], "explain": "Hỏi nơi chốn dùng 哪儿/哪里." },
+      { "type": "order", "words": ["名字", "你", "叫", "什么"], "answer": "你叫什么名字?", "vi": "Bạn tên là gì?", "explain": "什么 đứng trước 名字." },
+      { "type": "order", "words": ["哪儿", "去", "你"], "answer": "你去哪儿?", "vi": "Bạn đi đâu?", "explain": "哪儿 đứng sau động từ 去." },
+      { "type": "order", "words": ["钱", "多少", "这个"], "answer": "这个多少钱?", "vi": "Cái này bao nhiêu tiền?", "explain": "多少钱 đứng cuối câu." }
+    ]
+  },
+  {
+    "id": "zh-hsk1-zai",
+    "level": "HSK1",
+    "title": "在 (ở) chỉ nơi chốn",
+    "title_native": "在",
+    "summary_vi": "在 + địa điểm: 'ở …'; nơi chốn đứng trước động từ chính (khác tiếng Việt).",
+    "formula": ["S + 在 + địa điểm", "S + 在 + địa điểm + V + O", "S + 不在 + địa điểm", "S + 在 + 哪儿?"],
+    "explain_vi": "**在 (zài)** có hai cách dùng.\n\n**1. Là động từ 'ở':** S + 在 + địa điểm. 我在家 = Tôi ở nhà; 他不在学校 = Anh ấy không ở trường; 你在哪儿? = Bạn đang ở đâu? Phủ định dùng 不 (不在), đọc là bú zài.\n\n**2. Là giới từ 'tại/ở' trước động từ:** S + 在 + địa điểm + V + O. Ví dụ 我在学校学习汉语 = Tôi học tiếng Hán ở trường.\n\n**Điểm khác biệt quan trọng với tiếng Việt:** tiếng Việt đặt nơi chốn **sau** động từ ('học tiếng Hán ở trường'), còn tiếng Trung đặt cụm nơi chốn **trước** động từ ('ở trường học tiếng Hán'). Vì vậy 我学习汉语在学校 là sai.\n\nVới danh từ không phải địa điểm (cái bàn, cái ghế), cần thêm từ chỉ vị trí như 上 (trên), 里 (trong): 我的书在桌子上 = Sách của tôi ở trên bàn.",
+    "examples": [
+      { "t": "我在家。", "py": "wǒ zài jiā.", "vi": "Tôi ở nhà." },
+      { "t": "他不在学校。", "py": "tā bú zài xuéxiào.", "vi": "Anh ấy không ở trường." },
+      { "t": "你在哪儿?", "py": "nǐ zài nǎr?", "vi": "Bạn đang ở đâu?" },
+      { "t": "我在学校学习汉语。", "py": "wǒ zài xuéxiào xuéxí Hànyǔ.", "vi": "Tôi học tiếng Hán ở trường." },
+      { "t": "爸爸在北京工作。", "py": "bàba zài Běijīng gōngzuò.", "vi": "Bố làm việc ở Bắc Kinh." },
+      { "t": "我的书在桌子上。", "py": "wǒ de shū zài zhuōzi shang.", "vi": "Sách của tôi ở trên bàn." }
+    ],
+    "mistakes": [
+      { "wrong": "我学习汉语在学校。", "right": "我在学校学习汉语。", "note_vi": "Cụm nơi chốn với 在 phải đứng trước động từ." },
+      { "wrong": "我是在家。", "right": "我在家。", "note_vi": "Chỉ vị trí đơn thuần dùng 在, không dùng 是." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "我___家。", "options": ["有", "是", "在", "很"], "answer": 2, "explain": "Nói 'ở nhà' dùng 在." },
+      { "type": "mcq", "q": "他___在学校。(không ở)", "options": ["有", "是", "很", "不"], "answer": 3, "explain": "Phủ định của 在 là 不在." },
+      { "type": "mcq", "q": "我___北京工作。", "options": ["在", "是", "有", "很"], "answer": 0, "explain": "在 + địa điểm đứng trước động từ 工作." },
+      { "type": "mcq", "q": "你___哪儿?", "options": ["有", "在", "是", "很"], "answer": 1, "explain": "你在哪儿? = Bạn ở đâu?" },
+      { "type": "gap", "q": "爸爸___北京工作。", "answer": ["在"], "explain": "在北京工作 = làm việc ở Bắc Kinh." },
+      { "type": "gap", "q": "我的书___桌子上。", "answer": ["在"], "explain": "在桌子上 = ở trên bàn." },
+      { "type": "order", "words": ["家", "我", "在"], "answer": "我在家。", "vi": "Tôi ở nhà.", "explain": "S + 在 + địa điểm." },
+      { "type": "order", "words": ["学习汉语", "我", "学校", "在"], "answer": "我在学校学习汉语。", "vi": "Tôi học tiếng Hán ở trường.", "explain": "Nơi chốn đứng trước động từ." },
+      { "type": "order", "words": ["工作", "在", "爸爸", "北京"], "answer": "爸爸在北京工作。", "vi": "Bố làm việc ở Bắc Kinh.", "explain": "爸爸 + 在北京 + 工作." }
+    ]
+  }
+]

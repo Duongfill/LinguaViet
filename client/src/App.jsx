@@ -21,6 +21,8 @@ import Translate from './pages/Translate.jsx';
 import Exams from './pages/Exams.jsx';
 import ExamRun from './pages/ExamRun.jsx';
 import Writing, { IeltsBankTask } from './pages/Writing.jsx';
+import Grammar from './pages/Grammar.jsx';
+import GrammarPoint from './pages/GrammarPoint.jsx';
 
 export default function App() {
   const { user, loading } = useAuth();
@@ -43,6 +45,7 @@ function Shell() {
     ['/journey', 'Hành trình', '🗺️'],
     ['/decks', 'Bộ từ', '📚'],
     ['/flashcards', 'Flashcard', '🃏'],
+    ['/grammar', 'Ngữ pháp', '📐'],
     ['/weak', 'Từ hay quên', '⚠️'],
     ['/quiz', 'Quiz', '❓'],
     ['/match', 'Ghép thẻ', '🧩'],
@@ -65,7 +68,7 @@ function Shell() {
   const inMore = more.some(([to]) => pathname === to);
   // Máy tính: thanh bên trái chia nhóm
   const NAV_GROUPS = [
-    ['Học', ['/', '/journey', '/flashcards', '/weak']],
+    ['Học', ['/', '/journey', '/flashcards', '/grammar', '/weak']],
     ['Luyện tập', ['/exams', '/quiz', '/match', '/dictation', '/translate', '/writing', '/speak', '/hanzi']],
     ['Từ vựng', ['/decks']],
     ['Khác', ['/rank', '/settings']],
@@ -156,6 +159,8 @@ function Shell() {
           <Route path="/dictation" element={<Dictation />} />
           <Route path="/translate" element={<Translate />} />
           <Route path="/writing" element={<Writing />} />
+          <Route path="/grammar" element={<Grammar />} />
+          <Route path="/grammar/:id" element={<GrammarPoint />} />
           <Route path="/writing/ielts/:id" element={lang === 'en' ? <IeltsBankTask /> : <Navigate to="/writing" />} />
           <Route path="/exams" element={lang === 'en' ? <Exams /> : <Navigate to="/" />} />
           <Route path="/exams/:id/:section" element={lang === 'en' ? <ExamRun /> : <Navigate to="/" />} />
