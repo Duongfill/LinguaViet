@@ -9,6 +9,7 @@ Web app (React + Vite) + backend (Node/Express + SQLite) cho người Việt h�
 - **Luyện chữ Hán**: xem thứ tự nét và tự viết có chấm (thư viện hanzi-writer).
 - **Luyện phát âm**: nghe mẫu (TTS), đọc vào micro, chấm điểm độ giống (Web Speech API).
 - **Luyện đề TOEIC / IELTS** (tiếng Anh): Listening (giọng máy nhiều người nói) + Reading chấm tự động, quy đổi điểm/band ước lượng, giải thích tiếng Việt; IELTS Writing (biểu đồ) + Speaking có bài mẫu để tự chấm. Thêm đề: xem `tools/exams/EXAM-SPEC.md`.
+- **Ngữ pháp** (Anh A1–C1, Trung HSK1–6, Nhật N5–N1): 200 bài có giải thích tiếng Việt, ví dụ có nghe, lỗi hay gặp, ~1.800 bài tập (trắc nghiệm, điền từ, sắp xếp câu), tiến độ và ôn bài yếu. Dữ liệu: `tools/grammar/GRAMMAR-SPEC.md`.
 - **Luyện viết** (Anh/Trung/Nhật): đặt câu với từ đã học (cộng XP), viết theo chủ đề theo trình độ kèm đoạn mẫu, nhật ký bài viết; ngân hàng 24 đề IELTS Writing; TOEIC Writing trong đề TOEIC. Dữ liệu: `tools/writing/WRITING-SPEC.md`.
 - **Thống kê**: chuỗi ngày học, mục tiêu ngày, số từ đã thuộc, biểu đồ 7 ngày.
 

@@ -1,0 +1,3001 @@
+[
+  {
+    "id": "ja-n5-wa-ga",
+    "level": "N5",
+    "title": "Trợ từ は và が",
+    "title_native": "は vs が",
+    "summary_vi": "は nêu chủ đề của câu (nói về cái gì), が chỉ chủ ngữ mới hoặc nhấn mạnh chủ thể.",
+    "formula": [
+      "A は B です (A thì là B)",
+      "A が V / Adj (chính A làm / là …)",
+      "だれ・何 + が + V ですか"
+    ],
+    "explain_vi": "Cả hai trợ từ đều đứng sau danh từ nên người Việt rất dễ nhầm. Hãy nhớ: **は** (đọc là 'wa') là trợ từ **chủ đề** — bạn nêu ra điều mình sắp nói, đại ý 'còn về A thì…'. Phần đã biết, đã được nhắc tới thường đi với は. Ví dụ 私は学生です = 'Tôi (nói về tôi nhé) là sinh viên'.\n\n**が** nêu **chủ ngữ** của hành động hoặc trạng thái, thường dùng khi thông tin mới xuất hiện lần đầu (雨が降っています — 'trời đang mưa', vừa thấy), hoặc khi muốn nhấn mạnh 'chính A mới là người…'.\n\nCó ba quy tắc dễ nhớ:\n1. Từ để hỏi làm chủ ngữ luôn đi với が: だれが来ましたか (Ai đã đến?). Câu trả lời cũng dùng が: 田中さんが来ました (Chính anh Tanaka đến).\n2. Với các từ chỉ cảm xúc, khả năng như 好き, 嫌い, 上手, 分かる, bổ ngữ đi với が: 私は猫が好きです.\n3. は còn dùng để đối chiếu hai vế: 田中さんは先生で、山田さんは学生です.\n\nTiếng Việt không có trợ từ, nên bạn hãy tập đặt câu theo mẫu: chủ đề + は + thông tin, và chỉ dùng が khi có từ để hỏi, thông tin mới hoặc các từ 好き/上手…",
+    "examples": [
+      {
+        "t": "私は学生です。",
+        "r": "わたしはがくせいです。",
+        "vi": "Tôi là sinh viên."
+      },
+      {
+        "t": "これは私の本です。",
+        "r": "これはわたしのほんです。",
+        "vi": "Đây là quyển sách của tôi."
+      },
+      {
+        "t": "だれが来ましたか。",
+        "r": "だれがきましたか。",
+        "vi": "Ai đã đến vậy?"
+      },
+      {
+        "t": "私は猫が好きです。",
+        "r": "わたしはねこがすきです。",
+        "vi": "Tôi thích mèo."
+      },
+      {
+        "t": "空が青いです。",
+        "r": "そらがあおいです。",
+        "vi": "Bầu trời xanh."
+      },
+      {
+        "t": "田中さんは先生で、山田さんは学生です。",
+        "r": "たなかさんはせんせいで、やまださんはがくせいです。",
+        "vi": "Anh Tanaka là giáo viên, còn anh Yamada là sinh viên."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "私は猫を好きです。",
+        "right": "私は猫が好きです。",
+        "note_vi": "Dù tiếng Việt nói 'thích mèo', trong tiếng Nhật 好き đi với が chứ không dùng を."
+      },
+      {
+        "wrong": "だれは来ましたか。",
+        "right": "だれが来ましたか。",
+        "note_vi": "Từ để hỏi làm chủ ngữ phải dùng が, không dùng は."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "私___ 学生です。",
+        "options": [
+          "を",
+          "は",
+          "に",
+          "で"
+        ],
+        "answer": 1,
+        "explain": "Nêu chủ đề 'về tôi' thì dùng は."
+      },
+      {
+        "type": "mcq",
+        "q": "だれ___ 来ましたか。",
+        "options": [
+          "は",
+          "を",
+          "が",
+          "で"
+        ],
+        "answer": 2,
+        "explain": "Từ để hỏi làm chủ ngữ đi với が."
+      },
+      {
+        "type": "mcq",
+        "q": "私は 犬___ 好きです。",
+        "options": [
+          "が",
+          "を",
+          "で",
+          "に"
+        ],
+        "answer": 0,
+        "explain": "好き đi với が: 犬が好き."
+      },
+      {
+        "type": "mcq",
+        "q": "あ、雨___ 降っています。(vừa thấy mưa)",
+        "options": [
+          "は",
+          "が",
+          "を",
+          "も"
+        ],
+        "answer": 1,
+        "explain": "Thông tin mới, vừa nhìn thấy thì dùng が."
+      },
+      {
+        "type": "gap",
+        "q": "これ___ 本です。",
+        "answer": [
+          "は"
+        ],
+        "explain": "これ là chủ đề của câu nên dùng は."
+      },
+      {
+        "type": "gap",
+        "q": "私は 水___ 好きです。",
+        "answer": [
+          "が"
+        ],
+        "explain": "好き đi với が."
+      },
+      {
+        "type": "order",
+        "words": [
+          "学生",
+          "です",
+          "私は"
+        ],
+        "answer": "私は学生です。",
+        "vi": "Tôi là sinh viên.",
+        "explain": "Chủ đề は + danh từ + です."
+      },
+      {
+        "type": "order",
+        "words": [
+          "猫が",
+          "好きです",
+          "私は"
+        ],
+        "answer": "私は猫が好きです。",
+        "vi": "Tôi thích mèo.",
+        "explain": "私は (chủ đề) + 猫が (đối tượng của 好き) + 好きです."
+      },
+      {
+        "type": "order",
+        "words": [
+          "先生で",
+          "山田さんは",
+          "田中さんは",
+          "学生です"
+        ],
+        "answer": "田中さんは先生で、山田さんは学生です。",
+        "vi": "Anh Tanaka là giáo viên, còn anh Yamada là sinh viên.",
+        "explain": "Hai vế đối chiếu đều dùng は."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-particles-wo-ni-de-e",
+    "level": "N5",
+    "title": "Trợ từ を, に, で, へ",
+    "title_native": "を・に・で・へ",
+    "summary_vi": "を đánh dấu tân ngữ, に chỉ thời điểm/đích đến/nơi tồn tại, で chỉ nơi diễn ra hành động hoặc phương tiện, へ chỉ hướng.",
+    "formula": [
+      "N を V (tân ngữ)",
+      "N に V (thời điểm / đích / người nhận)",
+      "N で V (nơi hành động / phương tiện)",
+      "N へ V (hướng đi, đọc là え)"
+    ],
+    "explain_vi": "Tiếng Nhật xếp câu theo thứ tự **S - O - V** (động từ đứng cuối), và các trợ từ sẽ cho biết mỗi danh từ đóng vai trò gì, giống như 'nhãn dán' đi sau danh từ.\n\n**を** đứng sau tân ngữ trực tiếp: パンを食べます (ăn bánh mì).\n\n**に** có nhiều nghĩa: thời điểm cụ thể (七時に起きます), đích đến (学校に行きます), người nhận (友だちに手紙を書きます), nơi tồn tại (机の上に本があります).\n\n**で** nói về **nơi diễn ra hành động** (図書館で勉強します — học tại thư viện) và **phương tiện, cách thức** (バスで行きます — đi bằng xe buýt).\n\n**へ** (đọc là 'e') chỉ **hướng** đi tới; với 行く, 来る, 帰る thì dùng へ hoặc に đều được.\n\nMẹo phân biệt に và で: nếu động từ là hành động (ăn, học, mua…) xảy ra ở một nơi thì dùng で; nếu động từ chỉ sự di chuyển tới đích hoặc sự tồn tại thì dùng に. Trong tiếng Việt chúng ta chỉ dùng chung 'ở / tại / đến', vì vậy cần để ý động từ đứng cuối câu.",
+    "examples": [
+      {
+        "t": "毎朝、パンを食べます。",
+        "r": "まいあさ、ぱんをたべます。",
+        "vi": "Mỗi sáng tôi ăn bánh mì."
+      },
+      {
+        "t": "七時に起きます。",
+        "r": "しちじにおきます。",
+        "vi": "Tôi thức dậy lúc 7 giờ."
+      },
+      {
+        "t": "図書館で勉強します。",
+        "r": "としょかんでべんきょうします。",
+        "vi": "Tôi học ở thư viện."
+      },
+      {
+        "t": "バスで学校へ行きます。",
+        "r": "ばすでがっこうへいきます。",
+        "vi": "Tôi đi đến trường bằng xe buýt."
+      },
+      {
+        "t": "友だちに手紙を書きます。",
+        "r": "ともだちにてがみをかきます。",
+        "vi": "Tôi viết thư cho bạn."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "図書館に勉強します。",
+        "right": "図書館で勉強します。",
+        "note_vi": "Hành động (học) diễn ra ở đâu thì dùng で, không dùng に."
+      },
+      {
+        "wrong": "学校で行きます。",
+        "right": "学校へ行きます。",
+        "note_vi": "Đích đến của 行く dùng へ hoặc に, không dùng で."
+      },
+      {
+        "wrong": "水に飲みます。",
+        "right": "水を飲みます。",
+        "note_vi": "Vật bị tác động (tân ngữ) dùng を."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "私は 毎日 コーヒー___ 飲みます。",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "へ"
+        ],
+        "answer": 1,
+        "explain": "コーヒー là tân ngữ nên dùng を."
+      },
+      {
+        "type": "mcq",
+        "q": "八時___ 家を 出ます。",
+        "options": [
+          "で",
+          "を",
+          "が",
+          "に"
+        ],
+        "answer": 3,
+        "explain": "Thời điểm cụ thể (giờ) đi với に."
+      },
+      {
+        "type": "mcq",
+        "q": "駅___ 友だちに 会います。(gặp ở ga)",
+        "options": [
+          "で",
+          "に",
+          "を",
+          "へ"
+        ],
+        "answer": 0,
+        "explain": "Hành động gặp gỡ diễn ra tại ga nên dùng で."
+      },
+      {
+        "type": "mcq",
+        "q": "電車___ 会社へ 行きます。",
+        "options": [
+          "を",
+          "に",
+          "で",
+          "が"
+        ],
+        "answer": 2,
+        "explain": "Phương tiện đi lại dùng で."
+      },
+      {
+        "type": "gap",
+        "q": "きのう、レストラン___ ごはんを 食べました。",
+        "answer": [
+          "で"
+        ],
+        "explain": "Nơi diễn ra hành động ăn → で."
+      },
+      {
+        "type": "gap",
+        "q": "先生___ 質問を します。(hỏi thầy)",
+        "answer": [
+          "に"
+        ],
+        "explain": "Người nhận hành động dùng に."
+      },
+      {
+        "type": "gap",
+        "q": "明日、京都___ 行きます。",
+        "answer": [
+          "へ",
+          "に"
+        ],
+        "explain": "Đích đến của 行きます dùng へ hoặc に."
+      },
+      {
+        "type": "order",
+        "words": [
+          "本を",
+          "読みます",
+          "毎晩"
+        ],
+        "answer": "毎晩本を読みます。",
+        "vi": "Mỗi tối tôi đọc sách.",
+        "explain": "Từ chỉ thời gian đứng đầu, tân ngữ + を, động từ cuối câu."
+      },
+      {
+        "type": "order",
+        "words": [
+          "日本語を",
+          "勉強します",
+          "図書館で"
+        ],
+        "answer": "図書館で日本語を勉強します。",
+        "vi": "Tôi học tiếng Nhật ở thư viện.",
+        "explain": "Nơi chốn + で, tân ngữ + を, động từ cuối."
+      },
+      {
+        "type": "order",
+        "words": [
+          "学校へ",
+          "行きます",
+          "私は",
+          "バスで"
+        ],
+        "answer": "私はバスで学校へ行きます。",
+        "vi": "Tôi đi đến trường bằng xe buýt.",
+        "explain": "私は (chủ đề) + バスで (phương tiện) + 学校へ (đích) + 行きます."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-no",
+    "level": "N5",
+    "title": "Trợ từ の",
+    "title_native": "の",
+    "summary_vi": "Nối hai danh từ: sở hữu, thuộc về, loại/nội dung; N1 の N2 = N2 của N1.",
+    "formula": [
+      "N1 の N2 (N2 của N1)",
+      "N1 の N2 (N2 thuộc loại N1)",
+      "N の (cái của N, không lặp lại danh từ)"
+    ],
+    "explain_vi": "**の** nối hai danh từ, trong đó danh từ đứng trước bổ nghĩa cho danh từ đứng sau. Điều cần nhớ nhất là **thứ tự ngược với tiếng Việt**: tiếng Việt nói 'sách **của** tôi' (danh từ chính trước), còn tiếng Nhật nói 私**の**本 (người sở hữu trước, vật sau).\n\nCác nghĩa thường gặp:\n- **Sở hữu**: 私の本 (sách của tôi), 田中さんの車 (xe của anh Tanaka).\n- **Thuộc tính, loại**: 日本語の先生 (giáo viên tiếng Nhật), 英語の本 (sách tiếng Anh), 母の誕生日 (sinh nhật của mẹ).\n- **Vị trí**: 机の上 (trên bàn), 駅の前 (trước nhà ga).\n\nKhi đã rõ đang nói về vật gì, bạn có thể **bỏ danh từ phía sau** và dùng の thay thế: これは私のです (Cái này là của tôi), その傘はだれのですか (Cái ô đó là của ai?). Lúc này の giống như 'của tôi', 'của ai' trong tiếng Việt.\n\nLưu ý: の không dùng để nối động từ hoặc tính từ với danh từ ở mức N5; tính từ nối thẳng với danh từ (高い本, 静かな町). Hãy luôn đọc câu từ phải sang trái khi dịch sang tiếng Việt.",
+    "examples": [
+      {
+        "t": "これは私の本です。",
+        "r": "これはわたしのほんです。",
+        "vi": "Đây là sách của tôi."
+      },
+      {
+        "t": "田中さんの車は大きいです。",
+        "r": "たなかさんのくるまはおおきいです。",
+        "vi": "Xe của anh Tanaka to."
+      },
+      {
+        "t": "日本語の先生です。",
+        "r": "にほんごのせんせいです。",
+        "vi": "Là giáo viên tiếng Nhật."
+      },
+      {
+        "t": "その傘はだれのですか。",
+        "r": "そのかさはだれのですか。",
+        "vi": "Cái ô đó là của ai vậy?"
+      },
+      {
+        "t": "これは友だちのです。",
+        "r": "これはともだちのです。",
+        "vi": "Cái này là của bạn tôi."
+      },
+      {
+        "t": "母の誕生日は五月です。",
+        "r": "ははのたんじょうびはごがつです。",
+        "vi": "Sinh nhật của mẹ tôi là tháng Năm."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "これは本の私です。",
+        "right": "これは私の本です。",
+        "note_vi": "Thứ tự ngược với tiếng Việt: người sở hữu đứng trước の, vật đứng sau."
+      },
+      {
+        "wrong": "この本はだれですか。",
+        "right": "この本はだれのですか。",
+        "note_vi": "Muốn hỏi 'của ai' phải có の: だれの."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "これは 私___ かさです。",
+        "options": [
+          "は",
+          "の",
+          "を",
+          "が"
+        ],
+        "answer": 1,
+        "explain": "'Ô của tôi' = 私のかさ."
+      },
+      {
+        "type": "mcq",
+        "q": "日本語___ 先生は 山田さんです。",
+        "options": [
+          "が",
+          "を",
+          "の",
+          "で"
+        ],
+        "answer": 2,
+        "explain": "日本語の先生: giáo viên tiếng Nhật."
+      },
+      {
+        "type": "mcq",
+        "q": "この かさは だれ___ ですか。",
+        "options": [
+          "の",
+          "を",
+          "に",
+          "で"
+        ],
+        "answer": 0,
+        "explain": "'Của ai' = だれの."
+      },
+      {
+        "type": "mcq",
+        "q": "これは 友だち___ です。(của bạn)",
+        "options": [
+          "で",
+          "を",
+          "に",
+          "の"
+        ],
+        "answer": 3,
+        "explain": "の thay cho danh từ đã biết: 友だちの(もの)."
+      },
+      {
+        "type": "gap",
+        "q": "私___ 母は 先生です。",
+        "answer": [
+          "の"
+        ],
+        "explain": "私の母 = mẹ của tôi."
+      },
+      {
+        "type": "gap",
+        "q": "これは 英語___ 本です。",
+        "answer": [
+          "の"
+        ],
+        "explain": "英語の本 = sách tiếng Anh."
+      },
+      {
+        "type": "order",
+        "words": [
+          "私の",
+          "かばんです",
+          "これは"
+        ],
+        "answer": "これは私のかばんです。",
+        "vi": "Đây là cái cặp của tôi.",
+        "explain": "これは + 私の + かばんです."
+      },
+      {
+        "type": "order",
+        "words": [
+          "日本語の",
+          "田中さんは",
+          "先生です"
+        ],
+        "answer": "田中さんは日本語の先生です。",
+        "vi": "Anh Tanaka là giáo viên tiếng Nhật.",
+        "explain": "日本語の bổ nghĩa cho 先生."
+      },
+      {
+        "type": "order",
+        "words": [
+          "誕生日は",
+          "五月です",
+          "母の"
+        ],
+        "answer": "母の誕生日は五月です。",
+        "vi": "Sinh nhật của mẹ là tháng Năm.",
+        "explain": "母の đứng trước 誕生日."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-mo-to-ya",
+    "level": "N5",
+    "title": "Trợ từ も, と, や",
+    "title_native": "も・と・や",
+    "summary_vi": "も = cũng; と = và / cùng với (liệt kê đủ); や = và (liệt kê ví dụ, còn nữa).",
+    "formula": [
+      "N も (N cũng)",
+      "N1 と N2 (N1 và N2 / cùng với N)",
+      "N1 や N2 (N1 và N2, v.v.)"
+    ],
+    "explain_vi": "Ba trợ từ này giúp bạn liệt kê và thêm thông tin.\n\n**も** nghĩa là 'cũng'. も **thay thế** は, が, を chứ không đứng cạnh chúng: 私は学生です → 田中さんも学生です. Với tân ngữ: パンを食べます → ごはんも食べます (không nói ごはんをも). Các trợ từ khác như に, で, へ thì có thể đi trước も: 学校にも (cũng ở trường).\n\n**と** nối danh từ với nhau theo kiểu **liệt kê đầy đủ**: パンと牛乳 (bánh mì và sữa — chỉ có hai thứ này). と còn nghĩa là 'cùng với ai': 友だちと映画を見ます (xem phim cùng bạn).\n\n**や** cũng nối danh từ nhưng ngụ ý **còn những thứ khác nữa**: 肉や野菜 (thịt, rau… và các thứ tương tự), giống 'và… v.v.' trong tiếng Việt. Đôi khi cuối cụm có thêm など.\n\nCẩn thận: **と chỉ nối danh từ**, không dùng để nối hai động từ hay hai câu như từ 'và' trong tiếng Việt. Khi nói 'cùng với ai', người Việt hay dùng nhầm に; hãy nhớ là と.",
+    "examples": [
+      {
+        "t": "私も学生です。",
+        "r": "わたしもがくせいです。",
+        "vi": "Tôi cũng là sinh viên."
+      },
+      {
+        "t": "田中さんも山田さんも先生です。",
+        "r": "たなかさんもやまださんもせんせいです。",
+        "vi": "Cả anh Tanaka lẫn anh Yamada đều là giáo viên."
+      },
+      {
+        "t": "パンと牛乳を買います。",
+        "r": "ぱんとぎゅうにゅうをかいます。",
+        "vi": "Tôi mua bánh mì và sữa."
+      },
+      {
+        "t": "スーパーで肉や野菜を買います。",
+        "r": "すーぱーでにくややさいをかいます。",
+        "vi": "Tôi mua thịt, rau, v.v. ở siêu thị."
+      },
+      {
+        "t": "友だちと映画を見ます。",
+        "r": "ともだちとえいがをみます。",
+        "vi": "Tôi xem phim cùng bạn."
+      },
+      {
+        "t": "私は猫も犬も好きです。",
+        "r": "わたしはねこもいぬもすきです。",
+        "vi": "Tôi thích cả mèo lẫn chó."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "友だちに映画を見ます。",
+        "right": "友だちと映画を見ます。",
+        "note_vi": "'Cùng với ai' phải dùng と, không dùng に."
+      },
+      {
+        "wrong": "私はパンをも食べます。",
+        "right": "私はパンも食べます。",
+        "note_vi": "も thay を, は, が chứ không đi sau chúng."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "私___ 学生です。(tôi cũng)",
+        "options": [
+          "は",
+          "を",
+          "も",
+          "に"
+        ],
+        "answer": 2,
+        "explain": "'Cũng' = も."
+      },
+      {
+        "type": "mcq",
+        "q": "パン___ 牛乳を 買います。",
+        "options": [
+          "と",
+          "も",
+          "を",
+          "が"
+        ],
+        "answer": 0,
+        "explain": "Nối hai danh từ 'bánh mì và sữa' bằng と."
+      },
+      {
+        "type": "mcq",
+        "q": "友だち___ 映画を 見ます。(cùng bạn)",
+        "options": [
+          "を",
+          "で",
+          "も",
+          "と"
+        ],
+        "answer": 3,
+        "explain": "'Cùng với ai' dùng と."
+      },
+      {
+        "type": "mcq",
+        "q": "テーブルの 上に りんご___ バナナが あります。(táo, chuối… v.v.)",
+        "options": [
+          "も",
+          "や",
+          "に",
+          "で"
+        ],
+        "answer": 1,
+        "explain": "Liệt kê ví dụ, còn nữa → や."
+      },
+      {
+        "type": "gap",
+        "q": "田中さん___ 山田さんも 先生です。",
+        "answer": [
+          "も"
+        ],
+        "explain": "Cả hai người → ～も～も."
+      },
+      {
+        "type": "gap",
+        "q": "毎朝、パン___ たまごを 食べます。",
+        "answer": [
+          "と",
+          "や"
+        ],
+        "explain": "Liệt kê hai món ăn bằng と hoặc や."
+      },
+      {
+        "type": "gap",
+        "q": "私は 犬___ 猫も 好きです。(cả chó lẫn mèo)",
+        "answer": [
+          "も"
+        ],
+        "explain": "Cả hai đều dùng も: 犬も猫も."
+      },
+      {
+        "type": "order",
+        "words": [
+          "学生",
+          "私も",
+          "です"
+        ],
+        "answer": "私も学生です。",
+        "vi": "Tôi cũng là sinh viên.",
+        "explain": "私も thay cho 私は."
+      },
+      {
+        "type": "order",
+        "words": [
+          "見ます",
+          "友だちと",
+          "映画を"
+        ],
+        "answer": "友だちと映画を見ます。",
+        "vi": "Tôi xem phim cùng bạn.",
+        "explain": "友だちと (cùng ai) + 映画を (tân ngữ) + 見ます."
+      },
+      {
+        "type": "order",
+        "words": [
+          "買います",
+          "野菜を",
+          "スーパーで",
+          "肉や"
+        ],
+        "answer": "スーパーで肉や野菜を買います。",
+        "vi": "Tôi mua thịt, rau, v.v. ở siêu thị.",
+        "explain": "Nơi chốn + で, liệt kê 肉や野菜を, động từ cuối."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-desu-deshita",
+    "level": "N5",
+    "title": "です / でした và phủ định",
+    "title_native": "です・でした・ではありません",
+    "summary_vi": "Cách nói 'là' ở hiện tại và quá khứ, dạng khẳng định và phủ định, lịch sự.",
+    "formula": [
+      "N です / N ではありません (じゃないです)",
+      "N でした / N ではありませんでした",
+      "N ですか (câu hỏi)"
+    ],
+    "explain_vi": "Với danh từ, **です** tương đương 'là' trong tiếng Việt, đồng thời làm câu lịch sự. Có bốn dạng:\n- Hiện tại khẳng định: N **です**\n- Hiện tại phủ định: N **ではありません**\n- Quá khứ khẳng định: N **でした**\n- Quá khứ phủ định: N **ではありませんでした**\n\nTrong hội thoại thân mật, ではありません thường rút gọn thành **じゃありません** (hoặc じゃないです), ではありませんでした thành じゃありませんでした.\n\nĐể đặt câu hỏi chỉ cần thêm **か** vào cuối câu, không đổi trật tự: あなたは学生ですか (Bạn có phải sinh viên không?). Trả lời: はい、学生です / いいえ、学生ではありません.\n\nKhác với tiếng Việt, tiếng Nhật **chia thì ngay ở cuối câu**: nói về hôm qua thì です phải đổi thành でした (きのうは雨でした), không thể giữ nguyên です và chỉ thêm từ 'hôm qua'. Chú ý は trong ではありません vẫn đọc là 'wa'.",
+    "examples": [
+      {
+        "t": "私は学生です。",
+        "r": "わたしはがくせいです。",
+        "vi": "Tôi là sinh viên."
+      },
+      {
+        "t": "田中さんは医者ではありません。",
+        "r": "たなかさんはいしゃではありません。",
+        "vi": "Anh Tanaka không phải là bác sĩ."
+      },
+      {
+        "t": "きのうは雨でした。",
+        "r": "きのうはあめでした。",
+        "vi": "Hôm qua trời mưa."
+      },
+      {
+        "t": "昨日は休みではありませんでした。",
+        "r": "きのうはやすみではありませんでした。",
+        "vi": "Hôm qua không phải ngày nghỉ."
+      },
+      {
+        "t": "あの人は先生じゃないです。",
+        "r": "あのひとはせんせいじゃないです。",
+        "vi": "Người kia không phải giáo viên."
+      },
+      {
+        "t": "あなたは中国人ですか。",
+        "r": "あなたはちゅうごくじんですか。",
+        "vi": "Bạn là người Trung Quốc phải không?"
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "私は学生ありません。",
+        "right": "私は学生ではありません。",
+        "note_vi": "Phủ định của です là ではありません, không thể bỏ では."
+      },
+      {
+        "wrong": "きのうは雨です。",
+        "right": "きのうは雨でした。",
+        "note_vi": "Nói về quá khứ phải đổi です thành でした."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "私は 日本人___。(tôi không phải người Nhật)",
+        "options": [
+          "ではありません",
+          "ありません",
+          "でした",
+          "ではありませんでした"
+        ],
+        "answer": 0,
+        "explain": "Phủ định hiện tại: N ではありません."
+      },
+      {
+        "type": "mcq",
+        "q": "きのうは 雨___。",
+        "options": [
+          "です",
+          "でした",
+          "ではありません",
+          "じゃないです"
+        ],
+        "answer": 1,
+        "explain": "Nói về quá khứ → でした."
+      },
+      {
+        "type": "mcq",
+        "q": "A: 田中さんは 先生ですか。B: いいえ、先生___。医者です。",
+        "options": [
+          "でした",
+          "ではありませんでした",
+          "ではありません",
+          "です"
+        ],
+        "answer": 2,
+        "explain": "Trả lời phủ định hiện tại: ではありません."
+      },
+      {
+        "type": "mcq",
+        "q": "先週の 日曜日は 休み___。(không phải ngày nghỉ)",
+        "options": [
+          "ではありません",
+          "です",
+          "でした",
+          "ではありませんでした"
+        ],
+        "answer": 3,
+        "explain": "Quá khứ phủ định: ではありませんでした."
+      },
+      {
+        "type": "gap",
+        "q": "私は 先生___ありません。",
+        "answer": [
+          "では",
+          "じゃ"
+        ],
+        "explain": "ではありません hoặc じゃありません."
+      },
+      {
+        "type": "gap",
+        "q": "きのうは 休み___。(đã là ngày nghỉ)",
+        "answer": [
+          "でした"
+        ],
+        "explain": "Quá khứ khẳng định → でした."
+      },
+      {
+        "type": "gap",
+        "q": "あの 人は 田中さん___ありませんでした。",
+        "answer": [
+          "では",
+          "じゃ"
+        ],
+        "explain": "Quá khứ phủ định: ではありませんでした / じゃありませんでした."
+      },
+      {
+        "type": "order",
+        "words": [
+          "医者",
+          "田中さんは",
+          "です"
+        ],
+        "answer": "田中さんは医者です。",
+        "vi": "Anh Tanaka là bác sĩ.",
+        "explain": "Chủ đề + danh từ + です."
+      },
+      {
+        "type": "order",
+        "words": [
+          "雨",
+          "でした",
+          "きのうは"
+        ],
+        "answer": "きのうは雨でした。",
+        "vi": "Hôm qua trời mưa.",
+        "explain": "Từ chỉ thời gian + は + danh từ + でした."
+      },
+      {
+        "type": "order",
+        "words": [
+          "ありません",
+          "私は",
+          "学生では"
+        ],
+        "answer": "私は学生ではありません。",
+        "vi": "Tôi không phải sinh viên.",
+        "explain": "N + ではありません."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-adjectives",
+    "level": "N5",
+    "title": "Tính từ い và tính từ な",
+    "title_native": "い形容詞・な形容詞",
+    "summary_vi": "Hai loại tính từ trong tiếng Nhật: cách chia thì/phủ định và cách bổ nghĩa cho danh từ.",
+    "formula": [
+      "い-adj: 高い → 高くない / 高かった / 高くなかった",
+      "な-adj: 静かです / 静かではありません / 静かでした / 静かではありませんでした",
+      "Adj + N: 高い本 / 静かな町"
+    ],
+    "explain_vi": "Tiếng Nhật có hai nhóm tính từ. **Tính từ い** kết thúc bằng い (高い, おもしろい, 大きい) và **tự biến đổi hình dạng**. **Tính từ な** (静か, きれい, 有名, 元気) gần giống danh từ: giữ nguyên thân từ và dùng です để chia thì.\n\n**Tính từ い** (bỏ い rồi thêm đuôi):\n- Hiện tại: 高いです\n- Phủ định: 高**くない**です\n- Quá khứ: 高**かった**です\n- Quá khứ phủ định: 高**くなかった**です\n(Ngoại lệ: いい → よくない, よかった.)\n\n**Tính từ な** (chia theo です):\n- 静かです / 静かではありません / 静かでした / 静かではありませんでした\n\nKhi bổ nghĩa cho danh từ, tính từ **đứng trước danh từ** (ngược tiếng Việt): 高い本 (quyển sách đắt), 静か**な**町 (thị trấn yên tĩnh). Tính từ な phải thêm な, tính từ い giữ nguyên.\n\nNhớ rằng **không bao giờ** nói 高いでした hay 静かいです. Hãy tự hỏi 'tính từ này kết thúc bằng い hay không?' để chọn quy tắc chia đúng.",
+    "examples": [
+      {
+        "t": "この本は高いです。",
+        "r": "このほんはたかいです。",
+        "vi": "Quyển sách này đắt."
+      },
+      {
+        "t": "今日は天気がよくないです。",
+        "r": "きょうはてんきがよくないです。",
+        "vi": "Hôm nay thời tiết không tốt."
+      },
+      {
+        "t": "きのうの映画はおもしろかったです。",
+        "r": "きのうのえいがはおもしろかったです。",
+        "vi": "Bộ phim hôm qua rất thú vị."
+      },
+      {
+        "t": "この町は静かです。",
+        "r": "このまちはしずかです。",
+        "vi": "Thị trấn này yên tĩnh."
+      },
+      {
+        "t": "静かな公園で本を読みます。",
+        "r": "しずかなこうえんでほんをよみます。",
+        "vi": "Tôi đọc sách ở công viên yên tĩnh."
+      },
+      {
+        "t": "あの店は有名ではありませんでした。",
+        "r": "あのみせはゆうめいではありませんでした。",
+        "vi": "Cửa hàng đó đã không nổi tiếng."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "この本は高いでした。",
+        "right": "この本は高かったです。",
+        "note_vi": "Tính từ い chia quá khứ bằng cách đổi い thành かった, rồi thêm です."
+      },
+      {
+        "wrong": "この本は高いじゃありません。",
+        "right": "この本は高くないです。",
+        "note_vi": "Phủ định của tính từ い là 〜くない, không dùng じゃありません."
+      },
+      {
+        "wrong": "静かの町",
+        "right": "静かな町",
+        "note_vi": "Tính từ な đứng trước danh từ phải thêm な."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "この 部屋は ___です。(yên tĩnh)",
+        "options": [
+          "静かい",
+          "静かな",
+          "静かく",
+          "静か"
+        ],
+        "answer": 3,
+        "explain": "Tính từ な đứng trước です giữ nguyên, không thêm い hay な."
+      },
+      {
+        "type": "mcq",
+        "q": "この 本は ___です。(không đắt)",
+        "options": [
+          "高いない",
+          "高くない",
+          "高くなく",
+          "高いじゃない"
+        ],
+        "answer": 1,
+        "explain": "Phủ định tính từ い: 高い → 高くない."
+      },
+      {
+        "type": "mcq",
+        "q": "きのうの 映画は ___。(thú vị, quá khứ)",
+        "options": [
+          "おもしろかったです",
+          "おもしろいでした",
+          "おもしろくないでした",
+          "おもしろでした"
+        ],
+        "answer": 0,
+        "explain": "Quá khứ: おもしろい → おもしろかった + です."
+      },
+      {
+        "type": "mcq",
+        "q": "___ 公園で 散歩します。(yên tĩnh)",
+        "options": [
+          "静かい",
+          "静かの",
+          "静かな",
+          "静かに"
+        ],
+        "answer": 2,
+        "explain": "Tính từ な + danh từ: 静かな公園."
+      },
+      {
+        "type": "gap",
+        "q": "この 時計は 高___ないです。(không đắt)",
+        "answer": [
+          "く"
+        ],
+        "explain": "Tính từ い phủ định: bỏ い, thêm くない."
+      },
+      {
+        "type": "gap",
+        "q": "きのうは 暑___ です。(hôm qua nóng)",
+        "answer": [
+          "かった"
+        ],
+        "explain": "Quá khứ: 暑い → 暑かった."
+      },
+      {
+        "type": "gap",
+        "q": "あの 人は 親切___ 人です。(tốt bụng)",
+        "answer": [
+          "な"
+        ],
+        "explain": "Tính từ な bổ nghĩa danh từ cần な."
+      },
+      {
+        "type": "order",
+        "words": [
+          "静かです",
+          "この",
+          "町は"
+        ],
+        "answer": "この町は静かです。",
+        "vi": "Thị trấn này yên tĩnh.",
+        "explain": "この町は + tính từ + です."
+      },
+      {
+        "type": "order",
+        "words": [
+          "映画は",
+          "おもしろかったです",
+          "きのうの"
+        ],
+        "answer": "きのうの映画はおもしろかったです。",
+        "vi": "Bộ phim hôm qua rất thú vị.",
+        "explain": "きのうの bổ nghĩa cho 映画, kết thúc bằng quá khứ."
+      },
+      {
+        "type": "order",
+        "words": [
+          "本を",
+          "静かな",
+          "読みます",
+          "公園で"
+        ],
+        "answer": "静かな公園で本を読みます。",
+        "vi": "Tôi đọc sách ở công viên yên tĩnh.",
+        "explain": "静かな đứng trước 公園, động từ cuối câu."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-verb-groups-masu",
+    "level": "N5",
+    "title": "Nhóm động từ và thể ます",
+    "title_native": "動詞のグループ・ます形",
+    "summary_vi": "Ba nhóm động từ và cách chia dạng lịch sự ます / ません / ました / ませんでした.",
+    "formula": [
+      "Nhóm 1: 書く → 書きます (đuôi う → い + ます)",
+      "Nhóm 2: 食べる → 食べます (bỏ る + ます)",
+      "Nhóm 3: する → します, 来る → きます",
+      "ます / ません / ました / ませんでした"
+    ],
+    "explain_vi": "Động từ tiếng Nhật ở dạng từ điển kết thúc bằng âm thuộc cột **う** (く, す, む, る…). Chúng chia làm ba nhóm:\n\n**Nhóm 1 (động từ -u)**: đổi âm cuối sang âm cùng hàng ở cột い rồi thêm ます. Ví dụ 書く → 書き**ます**, 飲む → 飲み**ます**, 話す → 話し**ます**, 会う → 会い**ます**.\n\n**Nhóm 2 (động từ -ru)**: thường kết thúc bằng 'え + る' hoặc 'い + る' (食べる, 起きる), bỏ る rồi thêm ます. Ví dụ 食べる → 食べ**ます**, 見る → 見**ます**, 起きる → 起き**ます**.\n\n**Nhóm 3 (bất quy tắc)**: chỉ có hai động từ する → し**ます** và 来る (くる) → き**ます**, cùng các động từ dạng 勉強する → 勉強し**ます**.\n\nThể **ます** là dạng lịch sự, bốn dạng chia: 〜ます (hiện tại/tương lai, khẳng định), 〜ません (phủ định), 〜ました (quá khứ), 〜ませんでした (quá khứ phủ định). Khác tiếng Việt, tiếng Nhật không có từ riêng cho tương lai: **ます** vừa nói 'đang làm thói quen' vừa nói 'sẽ làm', và dựa vào từ chỉ thời gian (毎日, 明日) để hiểu. Quá khứ bắt buộc dùng ました.",
+    "examples": [
+      {
+        "t": "毎日、日本語を勉強します。",
+        "r": "まいにち、にほんごをべんきょうします。",
+        "vi": "Mỗi ngày tôi học tiếng Nhật."
+      },
+      {
+        "t": "朝ごはんは食べません。",
+        "r": "あさごはんはたべません。",
+        "vi": "Tôi không ăn sáng."
+      },
+      {
+        "t": "きのう、友だちと会いました。",
+        "r": "きのう、ともだちとあいました。",
+        "vi": "Hôm qua tôi đã gặp bạn."
+      },
+      {
+        "t": "毎朝七時に起きます。",
+        "r": "まいあさしちじにおきます。",
+        "vi": "Mỗi sáng tôi thức dậy lúc 7 giờ."
+      },
+      {
+        "t": "昨日は何も飲みませんでした。",
+        "r": "きのうはなにものみませんでした。",
+        "vi": "Hôm qua tôi đã không uống gì cả."
+      },
+      {
+        "t": "来週、東京へ行きます。",
+        "r": "らいしゅう、とうきょうへいきます。",
+        "vi": "Tuần sau tôi sẽ đi Tokyo."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "朝ごはんを食べるます。",
+        "right": "朝ごはんを食べます。",
+        "note_vi": "Động từ nhóm 2 phải bỏ る trước khi thêm ます."
+      },
+      {
+        "wrong": "きのう、本を読みます。",
+        "right": "きのう、本を読みました。",
+        "note_vi": "Nói về quá khứ phải dùng ました; ます chỉ hiện tại/tương lai."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "毎日 水を ___。(uống)",
+        "options": [
+          "飲むます",
+          "飲みます",
+          "飲みりす",
+          "飲んます"
+        ],
+        "answer": 1,
+        "explain": "Nhóm 1: 飲む → 飲みます."
+      },
+      {
+        "type": "mcq",
+        "q": "朝ごはんを ___。(ăn)",
+        "options": [
+          "食べます",
+          "食べります",
+          "食べるます",
+          "食べいます"
+        ],
+        "answer": 0,
+        "explain": "Nhóm 2: bỏ る rồi thêm ます."
+      },
+      {
+        "type": "mcq",
+        "q": "きのう、友だちに ___。(đã gặp)",
+        "options": [
+          "会います",
+          "会いません",
+          "会いました",
+          "会いませんでした"
+        ],
+        "answer": 2,
+        "explain": "Quá khứ khẳng định: 会いました."
+      },
+      {
+        "type": "mcq",
+        "q": "先週は 学校へ ___。(đã không đi)",
+        "options": [
+          "行きました",
+          "行きます",
+          "行きません",
+          "行きませんでした"
+        ],
+        "answer": 3,
+        "explain": "Quá khứ phủ định: 行きませんでした."
+      },
+      {
+        "type": "gap",
+        "q": "毎朝 六時に 起き___。(thức dậy)",
+        "answer": [
+          "ます"
+        ],
+        "explain": "Nhóm 2: 起きる → 起きます."
+      },
+      {
+        "type": "gap",
+        "q": "きのうは 勉強___。(đã không học)",
+        "answer": [
+          "しませんでした"
+        ],
+        "explain": "する → しませんでした (quá khứ phủ định)."
+      },
+      {
+        "type": "gap",
+        "q": "明日、レストランで ご飯を 食べ___。(sẽ không ăn)",
+        "answer": [
+          "ません"
+        ],
+        "explain": "Phủ định hiện tại/tương lai: 食べません."
+      },
+      {
+        "type": "order",
+        "words": [
+          "日本語を",
+          "勉強します",
+          "毎日"
+        ],
+        "answer": "毎日日本語を勉強します。",
+        "vi": "Mỗi ngày tôi học tiếng Nhật.",
+        "explain": "Thời gian + tân ngữ + động từ cuối."
+      },
+      {
+        "type": "order",
+        "words": [
+          "七時に",
+          "毎朝",
+          "起きます"
+        ],
+        "answer": "毎朝七時に起きます。",
+        "vi": "Mỗi sáng tôi thức dậy lúc 7 giờ.",
+        "explain": "毎朝 (tần suất) + 七時に (giờ) + 起きます."
+      },
+      {
+        "type": "order",
+        "words": [
+          "何も",
+          "飲みませんでした",
+          "きのうは"
+        ],
+        "answer": "きのうは何も飲みませんでした。",
+        "vi": "Hôm qua tôi không uống gì cả.",
+        "explain": "何も đi với động từ phủ định."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-te-form",
+    "level": "N5",
+    "title": "Thể て (cách chia)",
+    "title_native": "て形",
+    "summary_vi": "Cách chia động từ sang thể て và dùng để nối hành động: làm A rồi làm B.",
+    "formula": [
+      "Nhóm 2: bỏ る + て (食べる → 食べて)",
+      "Nhóm 1: く→いて, ぐ→いで, す→して, う/つ/る→って, ぬ/ぶ/む→んで (行く→行って)",
+      "Nhóm 3: する → して, 来る → きて",
+      "V1て、V2 (làm V1 rồi làm V2)"
+    ],
+    "explain_vi": "Thể **て** là 'chìa khoá' để tạo ra rất nhiều mẫu câu sau này (〜ています, 〜てください, 〜てから…). Bạn cần thuộc cách chia.\n\n**Nhóm 2**: bỏ る + て. 食べる → 食べ**て**, 見る → 見**て**, 起きる → 起き**て**.\n\n**Nhóm 3**: する → **して**, 来る → **きて**.\n\n**Nhóm 1** phụ thuộc vào âm cuối:\n- **う, つ, る → って**: 買う → 買って, 待つ → 待って, 帰る → 帰って\n- **ぬ, ぶ, む → んで**: 読む → 読んで, 遊ぶ → 遊んで\n- **く → いて**: 書く → 書いて (ngoại lệ: 行く → **行って**)\n- **ぐ → いで**: 泳ぐ → 泳いで\n- **す → して**: 話す → 話して\n\nMẹo học: hãy đọc to theo nhịp 'う・つ・る → って' để nhớ.\n\nChức năng đơn giản nhất của thể て là **nối hai hay nhiều hành động xảy ra liên tiếp**: 朝起きて、顔を洗います (Sáng dậy, rồi rửa mặt). Thì của cả câu được quyết định bởi động từ cuối cùng, còn các động từ phía trước chỉ chia て. Giống tiếng Việt 'dậy rồi rửa mặt', nhưng bạn phải đặt động từ vào đúng thể.",
+    "examples": [
+      {
+        "t": "朝起きて、顔を洗います。",
+        "r": "あさおきて、かおをあらいます。",
+        "vi": "Sáng dậy, rồi rửa mặt."
+      },
+      {
+        "t": "図書館へ行って、本を借ります。",
+        "r": "としょかんへいって、ほんをかります。",
+        "vi": "Tôi đến thư viện rồi mượn sách."
+      },
+      {
+        "t": "友だちに会って、いっしょに食べました。",
+        "r": "ともだちにあって、いっしょにたべました。",
+        "vi": "Tôi gặp bạn rồi cùng ăn."
+      },
+      {
+        "t": "手を洗って、ご飯を食べます。",
+        "r": "てをあらって、ごはんをたべます。",
+        "vi": "Rửa tay rồi ăn cơm."
+      },
+      {
+        "t": "駅まで歩いて行きます。",
+        "r": "えきまであるいていきます。",
+        "vi": "Tôi đi bộ đến ga."
+      },
+      {
+        "t": "本を読んで、寝ます。",
+        "r": "ほんをよんで、ねます。",
+        "vi": "Tôi đọc sách rồi đi ngủ."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "書くて",
+        "right": "書いて",
+        "note_vi": "く → いて, chứ không thêm て vào dạng từ điển."
+      },
+      {
+        "wrong": "行いて",
+        "right": "行って",
+        "note_vi": "行く là ngoại lệ duy nhất của nhóm く: 行って."
+      },
+      {
+        "wrong": "読みて",
+        "right": "読んで",
+        "note_vi": "Âm cuối む chuyển thành んで."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "書く → ___",
+        "options": [
+          "書きて",
+          "書いて",
+          "書って",
+          "書んで"
+        ],
+        "answer": 1,
+        "explain": "く → いて."
+      },
+      {
+        "type": "mcq",
+        "q": "読む → ___",
+        "options": [
+          "読みて",
+          "読いて",
+          "読んで",
+          "読って"
+        ],
+        "answer": 2,
+        "explain": "む → んで."
+      },
+      {
+        "type": "mcq",
+        "q": "行く → ___",
+        "options": [
+          "行いて",
+          "行んで",
+          "行きて",
+          "行って"
+        ],
+        "answer": 3,
+        "explain": "行く là ngoại lệ: 行って."
+      },
+      {
+        "type": "mcq",
+        "q": "食べる → ___",
+        "options": [
+          "食べて",
+          "食べいて",
+          "食べって",
+          "食べんで"
+        ],
+        "answer": 0,
+        "explain": "Nhóm 2: bỏ る + て."
+      },
+      {
+        "type": "gap",
+        "q": "待つ → 待___",
+        "answer": [
+          "って"
+        ],
+        "explain": "つ → って."
+      },
+      {
+        "type": "gap",
+        "q": "泳ぐ → 泳___",
+        "answer": [
+          "いで"
+        ],
+        "explain": "ぐ → いで."
+      },
+      {
+        "type": "gap",
+        "q": "ご飯を 食べ___、学校へ 行きます。(ăn cơm rồi đi học)",
+        "answer": [
+          "て"
+        ],
+        "explain": "Nối hai hành động: 食べる → 食べて."
+      },
+      {
+        "type": "order",
+        "words": [
+          "起きて",
+          "顔を",
+          "朝",
+          "洗います"
+        ],
+        "answer": "朝起きて、顔を洗います。",
+        "vi": "Sáng dậy rồi rửa mặt.",
+        "explain": "起きて nối với hành động sau 洗います."
+      },
+      {
+        "type": "order",
+        "words": [
+          "本を",
+          "借ります",
+          "図書館へ",
+          "行って"
+        ],
+        "answer": "図書館へ行って、本を借ります。",
+        "vi": "Tôi đến thư viện rồi mượn sách.",
+        "explain": "行って (て-form) + hành động tiếp theo."
+      },
+      {
+        "type": "order",
+        "words": [
+          "寝ます",
+          "本を",
+          "読んで"
+        ],
+        "answer": "本を読んで、寝ます。",
+        "vi": "Tôi đọc sách rồi đi ngủ.",
+        "explain": "読んで (読む → 読んで) + 寝ます."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-te-imasu",
+    "level": "N5",
+    "title": "〜ています",
+    "title_native": "〜ています",
+    "summary_vi": "Diễn tả hành động đang diễn ra hoặc trạng thái kéo dài (đang sống, đã kết hôn, biết…).",
+    "formula": [
+      "V て + います (đang làm)",
+      "V て + います (trạng thái: 住んでいます, 知っています, 結婚しています)",
+      "V て + いません (chưa / không ở trạng thái đó)"
+    ],
+    "explain_vi": "Ghép **thể て + います** có hai cách dùng chính:\n\n**1. Hành động đang diễn ra** — giống 'đang' trong tiếng Việt: 今、ご飯を食べています (Bây giờ tôi đang ăn cơm), 雨が降っています (Trời đang mưa).\n\n**2. Trạng thái kéo dài** — kết quả của một hành động vẫn còn duy trì. Đây là chỗ người Việt hay nhầm vì tiếng Việt thường không dùng 'đang':\n- 住んでいます: đang sống (ở) — 私は東京に住んでいます\n- 結婚しています: đã kết hôn (và vẫn đang trong trạng thái đó)\n- 知っています: biết\n- 持っています: có, đang cầm\n- 働いています: đang làm việc (ở công ty nào đó)\n\nPhủ định: **〜ていません**, ví dụ 食べていません (chưa ăn). Riêng '知っていますか' thì trả lời phủ định là **知りません** (không biết), không nói 知っていません.\n\nCách nhận biết: những động từ chỉ **thay đổi trạng thái** (住む, 結婚する, 知る, 持つ) khi ghép ています thường mang nghĩa trạng thái. Còn những động từ hành động bình thường (食べる, 読む, 見る) thì mang nghĩa đang làm.",
+    "examples": [
+      {
+        "t": "今、ご飯を食べています。",
+        "r": "いま、ごはんをたべています。",
+        "vi": "Bây giờ tôi đang ăn cơm."
+      },
+      {
+        "t": "田中さんは今、電話をしています。",
+        "r": "たなかさんはいま、でんわをしています。",
+        "vi": "Anh Tanaka bây giờ đang gọi điện thoại."
+      },
+      {
+        "t": "私は東京に住んでいます。",
+        "r": "わたしはとうきょうにすんでいます。",
+        "vi": "Tôi đang sống ở Tokyo."
+      },
+      {
+        "t": "兄は結婚しています。",
+        "r": "あにはけっこんしています。",
+        "vi": "Anh trai tôi đã kết hôn."
+      },
+      {
+        "t": "あの人を知っていますか。",
+        "r": "あのひとをしっていますか。",
+        "vi": "Bạn có biết người kia không?"
+      },
+      {
+        "t": "雨が降っています。",
+        "r": "あめがふっています。",
+        "vi": "Trời đang mưa."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "私は東京に住みます。",
+        "right": "私は東京に住んでいます。",
+        "note_vi": "Nói 'đang sống ở' phải dùng 住んでいます, 住みます nghĩa là 'sẽ chuyển đến sống'."
+      },
+      {
+        "wrong": "いいえ、知っていません。",
+        "right": "いいえ、知りません。",
+        "note_vi": "Trả lời phủ định cho 知っていますか là 知りません."
+      },
+      {
+        "wrong": "いま、ご飯を食べます。",
+        "right": "いま、ご飯を食べています。",
+        "note_vi": "Đang ăn bây giờ phải dùng 食べています; 食べます là thói quen hoặc tương lai."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "今、テレビを ___。(đang xem)",
+        "options": [
+          "見ます",
+          "見ています",
+          "見ました",
+          "見て"
+        ],
+        "answer": 1,
+        "explain": "Đang xem → 見ています."
+      },
+      {
+        "type": "mcq",
+        "q": "私は 大阪に ___。(đang sống)",
+        "options": [
+          "住んでいます",
+          "住みます",
+          "住みません",
+          "住んでいません"
+        ],
+        "answer": 0,
+        "explain": "Trạng thái 'đang sống' → 住んでいます."
+      },
+      {
+        "type": "mcq",
+        "q": "あの 人を ___か。(biết không)",
+        "options": [
+          "知ります",
+          "知んでいます",
+          "知っています",
+          "知いています"
+        ],
+        "answer": 2,
+        "explain": "知る → 知って (る→って) + います."
+      },
+      {
+        "type": "mcq",
+        "q": "A: 田中さんを 知っていますか。B: いいえ、___。",
+        "options": [
+          "知っています",
+          "知っていません",
+          "知りました",
+          "知りません"
+        ],
+        "answer": 3,
+        "explain": "Phủ định của 知っています là 知りません."
+      },
+      {
+        "type": "gap",
+        "q": "弟は 今、勉強し___。(đang học)",
+        "answer": [
+          "ています"
+        ],
+        "explain": "する → して + います."
+      },
+      {
+        "type": "gap",
+        "q": "私は ホテルで 働い___。(làm việc ở khách sạn)",
+        "answer": [
+          "ています"
+        ],
+        "explain": "働く → 働いて + います."
+      },
+      {
+        "type": "gap",
+        "q": "雨が 降っ___。(đang mưa)",
+        "answer": [
+          "ています"
+        ],
+        "explain": "降る → 降って + います."
+      },
+      {
+        "type": "order",
+        "words": [
+          "ご飯を",
+          "食べています",
+          "今"
+        ],
+        "answer": "今ご飯を食べています。",
+        "vi": "Bây giờ tôi đang ăn cơm.",
+        "explain": "Thời gian + tân ngữ + 食べています."
+      },
+      {
+        "type": "order",
+        "words": [
+          "東京に",
+          "住んでいます",
+          "私は"
+        ],
+        "answer": "私は東京に住んでいます。",
+        "vi": "Tôi đang sống ở Tokyo.",
+        "explain": "Nơi sống + に + 住んでいます."
+      },
+      {
+        "type": "order",
+        "words": [
+          "電話を",
+          "しています",
+          "田中さんは",
+          "今"
+        ],
+        "answer": "田中さんは今電話をしています。",
+        "vi": "Anh Tanaka bây giờ đang gọi điện thoại.",
+        "explain": "田中さんは + 今 + 電話を + しています."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-tai",
+    "level": "N5",
+    "title": "〜たい (muốn làm gì)",
+    "title_native": "〜たい",
+    "summary_vi": "Diễn tả mong muốn của người nói: V thể ます bỏ ます + たい.",
+    "formula": [
+      "V(ます bỏ ます) + たい (muốn …)",
+      "〜たくない / 〜たかった / 〜たくなかった",
+      "N を/が V たい"
+    ],
+    "explain_vi": "Để nói 'tôi muốn làm gì', bạn lấy động từ ở thể **ます**, **bỏ ます** rồi thêm **たい**: 食べます → 食べ**たい**, 行きます → 行き**たい**, 飲みます → 飲み**たい**. Câu thường kết thúc bằng です để lịch sự: 日本へ行きたいです.\n\nĐiều đặc biệt là **〜たい** hoạt động như một **tính từ い**, nên bạn chia nó giống tính từ い:\n- 食べたい (muốn ăn)\n- 食べ**たくない** (không muốn ăn)\n- 食べ**たかった** (đã muốn ăn)\n- 食べ**たくなかった** (đã không muốn ăn)\n\nTrợ từ đi với 〜たい: tân ngữ có thể dùng **を** hoặc **が**, ví dụ コーヒーを飲みたい hoặc コーヒーが飲みたい (cả hai đều đúng, が nhấn mạnh hơn vào thứ muốn). Các trợ từ khác như に, で, へ không đổi.\n\nLưu ý: 〜たい chỉ dùng để nói **ý muốn của chính mình** hoặc hỏi người nghe: 何を食べたいですか (Bạn muốn ăn gì?). Không dùng để nói trực tiếp về mong muốn của người thứ ba ở mức N5. Cũng đừng ghép với dạng từ điển: không nói 食べるたい, mà phải là 食べたい.",
+    "examples": [
+      {
+        "t": "私は日本へ行きたいです。",
+        "r": "わたしはにほんへいきたいです。",
+        "vi": "Tôi muốn đi Nhật."
+      },
+      {
+        "t": "水が飲みたいです。",
+        "r": "みずがのみたいです。",
+        "vi": "Tôi muốn uống nước."
+      },
+      {
+        "t": "今日は何も食べたくないです。",
+        "r": "きょうはなにもたべたくないです。",
+        "vi": "Hôm nay tôi không muốn ăn gì cả."
+      },
+      {
+        "t": "子どものとき、医者になりたかったです。",
+        "r": "こどものとき、いしゃになりたかったです。",
+        "vi": "Hồi nhỏ tôi đã muốn trở thành bác sĩ."
+      },
+      {
+        "t": "何を食べたいですか。",
+        "r": "なにをたべたいですか。",
+        "vi": "Bạn muốn ăn gì?"
+      },
+      {
+        "t": "週末は家で休みたいです。",
+        "r": "しゅうまつはいえでやすみたいです。",
+        "vi": "Cuối tuần tôi muốn nghỉ ngơi ở nhà."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "日本へ行くたいです。",
+        "right": "日本へ行きたいです。",
+        "note_vi": "Phải dùng gốc của thể ます (行き), không dùng dạng từ điển."
+      },
+      {
+        "wrong": "行きたいないです。",
+        "right": "行きたくないです。",
+        "note_vi": "Phủ định của たい (tính từ い) là たくない."
+      },
+      {
+        "wrong": "行きたいでした。",
+        "right": "行きたかったです。",
+        "note_vi": "Quá khứ của たい là たかった, rồi thêm です."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "私は 日本へ ___です。(muốn đi)",
+        "options": [
+          "行くたい",
+          "行きたい",
+          "行きます",
+          "行たい"
+        ],
+        "answer": 1,
+        "explain": "Gốc ます (行き) + たい."
+      },
+      {
+        "type": "mcq",
+        "q": "水が ___です。(muốn uống)",
+        "options": [
+          "飲みたい",
+          "飲むたい",
+          "飲みたく",
+          "飲んたい"
+        ],
+        "answer": 0,
+        "explain": "飲みます → 飲み + たい."
+      },
+      {
+        "type": "mcq",
+        "q": "今日は 何も ___です。(không muốn ăn)",
+        "options": [
+          "食べたい",
+          "食べたいない",
+          "食べたくない",
+          "食べません"
+        ],
+        "answer": 2,
+        "explain": "Phủ định của たい là たくない."
+      },
+      {
+        "type": "mcq",
+        "q": "子どもの とき、医者に ___です。(đã muốn trở thành)",
+        "options": [
+          "なりたいでした",
+          "なりたくなかった",
+          "なりたいです",
+          "なりたかった"
+        ],
+        "answer": 3,
+        "explain": "Quá khứ: たかった (+ です)."
+      },
+      {
+        "type": "gap",
+        "q": "週末は 家で 休み___です。(muốn nghỉ)",
+        "answer": [
+          "たい"
+        ],
+        "explain": "休みます → 休み + たい."
+      },
+      {
+        "type": "gap",
+        "q": "何を 食べ___か。(bạn muốn ăn gì)",
+        "answer": [
+          "たいです"
+        ],
+        "explain": "食べたいですか là câu hỏi lịch sự."
+      },
+      {
+        "type": "gap",
+        "q": "ケーキは 食べ___です。(không muốn ăn)",
+        "answer": [
+          "たくない"
+        ],
+        "explain": "Phủ định: 食べたくない."
+      },
+      {
+        "type": "order",
+        "words": [
+          "日本へ",
+          "行きたいです",
+          "私は"
+        ],
+        "answer": "私は日本へ行きたいです。",
+        "vi": "Tôi muốn đi Nhật.",
+        "explain": "私は + 日本へ + 行きたいです."
+      },
+      {
+        "type": "order",
+        "words": [
+          "水が",
+          "飲みたいです",
+          "とても"
+        ],
+        "answer": "とても水が飲みたいです。",
+        "vi": "Tôi rất muốn uống nước.",
+        "explain": "とても đứng trước phần mô tả mong muốn."
+      },
+      {
+        "type": "order",
+        "words": [
+          "何も",
+          "食べたくないです",
+          "今日は"
+        ],
+        "answer": "今日は何も食べたくないです。",
+        "vi": "Hôm nay tôi không muốn ăn gì cả.",
+        "explain": "何も đi với phủ định たくない."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-masenka-mashou",
+    "level": "N5",
+    "title": "〜ませんか / 〜ましょう (rủ rê, đề nghị)",
+    "title_native": "〜ませんか・〜ましょう",
+    "summary_vi": "ませんか để mời nhẹ nhàng, ましょう để rủ cùng làm, ましょうか để đề nghị giúp.",
+    "formula": [
+      "V ませんか (… nhé? — mời, rủ)",
+      "V ましょう (nào cùng …)",
+      "V ましょうか (để tôi … nhé? / mình … nhé?)"
+    ],
+    "explain_vi": "Khi muốn rủ ai làm gì đó mà vẫn lịch sự, tiếng Nhật dùng hai mẫu câu rất hay gặp.\n\n**V ませんか** — hình thức phủ định nhưng nghĩa là **mời, rủ**, giống 'bạn có muốn… không?' hay '… nhé?'. Dùng phủ định để người nghe dễ từ chối hơn nên nghe nhã nhặn: いっしょに昼ご飯を食べませんか (Cùng ăn trưa với tôi nhé?).\n\n**V ましょう** — dùng để **đồng ý lời rủ** hoặc **chủ động rủ cùng làm**: はい、食べましょう (Vâng, ăn nào). Cũng dùng khi kêu gọi cả nhóm: 少し休みましょう (Nghỉ một chút nào).\n\n**V ましょうか** — có hai nghĩa: (1) đề nghị giúp đỡ, 'để tôi… nhé': 手伝いましょうか (Để tôi giúp nhé?), (2) hỏi ý kiến cùng làm: 行きましょうか (Mình đi nhé?).\n\nLưu ý quan trọng với người Việt: khi ai đó hỏi ～ませんか, đừng trả lời はい、～ません (nghĩa là từ chối). Hãy trả lời ええ、～ましょう hoặc ええ、いいですね để đồng ý, và すみません、ちょっと… để từ chối khéo.",
+    "examples": [
+      {
+        "t": "いっしょに昼ご飯を食べませんか。",
+        "r": "いっしょにひるごはんをたべませんか。",
+        "vi": "Cùng ăn trưa với tôi nhé?"
+      },
+      {
+        "t": "はい、食べましょう。",
+        "r": "はい、たべましょう。",
+        "vi": "Vâng, ăn nào."
+      },
+      {
+        "t": "日曜日にいっしょに映画を見ませんか。",
+        "r": "にちようびにいっしょにえいがをみませんか。",
+        "vi": "Chủ nhật cùng xem phim nhé?"
+      },
+      {
+        "t": "少し休みましょう。",
+        "r": "すこしやすみましょう。",
+        "vi": "Nghỉ một chút nào."
+      },
+      {
+        "t": "手伝いましょうか。",
+        "r": "てつだいましょうか。",
+        "vi": "Để tôi giúp nhé?"
+      },
+      {
+        "t": "お茶を飲みませんか。ええ、いいですね。",
+        "r": "おちゃをのみませんか。ええ、いいですね。",
+        "vi": "Uống trà nhé? Vâng, được đấy."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "A: ご飯を食べませんか。B: はい、食べません。",
+        "right": "A: ご飯を食べませんか。B: ええ、食べましょう。",
+        "note_vi": "はい、食べません nghĩa là 'không ăn'. Đồng ý lời rủ thì nói 食べましょう."
+      },
+      {
+        "wrong": "いっしょに食べるましょう。",
+        "right": "いっしょに食べましょう。",
+        "note_vi": "Phải dùng gốc ます (食べ) + ましょう."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "いっしょに お茶を ___か。(rủ rê)",
+        "options": [
+          "飲みました",
+          "飲みましょう",
+          "飲みます",
+          "飲みません"
+        ],
+        "answer": 3,
+        "explain": "Rủ rê lịch sự: 飲みませんか."
+      },
+      {
+        "type": "mcq",
+        "q": "A: いっしょに 帰りませんか。B: はい、___。",
+        "options": [
+          "帰りましょう",
+          "帰りました",
+          "帰りません",
+          "帰りますか"
+        ],
+        "answer": 0,
+        "explain": "Đồng ý lời rủ bằng 帰りましょう."
+      },
+      {
+        "type": "mcq",
+        "q": "荷物が 重いですね。___。(Để tôi cầm nhé)",
+        "options": [
+          "持ちません",
+          "持ちました",
+          "持ちましょうか",
+          "持ちますか"
+        ],
+        "answer": 2,
+        "explain": "Đề nghị giúp đỡ: 持ちましょうか."
+      },
+      {
+        "type": "mcq",
+        "q": "もう 九時です。そろそろ ___。(Nào, đi thôi)",
+        "options": [
+          "行きません",
+          "行きましょう",
+          "行きました",
+          "行きますか"
+        ],
+        "answer": 1,
+        "explain": "Kêu gọi cùng làm: 行きましょう."
+      },
+      {
+        "type": "gap",
+        "q": "いっしょに 映画を 見___。(rủ rê)",
+        "answer": [
+          "ませんか"
+        ],
+        "explain": "Rủ: 見ませんか."
+      },
+      {
+        "type": "gap",
+        "q": "少し 休み___。(Nào nghỉ chút đi)",
+        "answer": [
+          "ましょう"
+        ],
+        "explain": "Rủ cùng làm: 休みましょう."
+      },
+      {
+        "type": "gap",
+        "q": "窓を 開け___か。(Để tôi mở cửa sổ nhé?)",
+        "answer": [
+          "ましょう"
+        ],
+        "explain": "Đề nghị giúp: 開けましょうか."
+      },
+      {
+        "type": "order",
+        "words": [
+          "昼ご飯を",
+          "食べませんか",
+          "いっしょに"
+        ],
+        "answer": "いっしょに昼ご飯を食べませんか。",
+        "vi": "Cùng ăn trưa nhé?",
+        "explain": "いっしょに + tân ngữ + V ませんか."
+      },
+      {
+        "type": "order",
+        "words": [
+          "少し",
+          "休みましょう",
+          "ここで"
+        ],
+        "answer": "ここで少し休みましょう。",
+        "vi": "Nghỉ một chút ở đây nào.",
+        "explain": "Nơi chốn + 少し + V ましょう."
+      },
+      {
+        "type": "order",
+        "words": [
+          "ましょうか",
+          "荷物を",
+          "持ち"
+        ],
+        "answer": "荷物を持ちましょうか。",
+        "vi": "Để tôi cầm hành lý nhé?",
+        "explain": "荷物を + 持ち + ましょうか."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-tekudasai",
+    "level": "N5",
+    "title": "〜てください / 〜ないでください",
+    "title_native": "〜てください・〜ないでください",
+    "summary_vi": "Nhờ vả hoặc yêu cầu lịch sự (hãy …) và yêu cầu đừng làm (xin đừng …).",
+    "formula": [
+      "V て + ください (xin hãy …)",
+      "V ない + でください (xin đừng …)",
+      "Thể ない: 書く→書かない, 買う→買わない, 食べる→食べない, する→しない, 来る→こない"
+    ],
+    "explain_vi": "**V て + ください** dùng để nhờ hoặc yêu cầu ai làm gì một cách lịch sự, tương đương 'xin hãy…', 'làm ơn…' trong tiếng Việt: ちょっと待ってください (Xin đợi một chút), ここに名前を書いてください (Hãy viết tên vào đây).\n\nĐể yêu cầu **không** làm gì, dùng **V ない + でください**: ここで写真を撮らないでください (Xin đừng chụp ảnh ở đây).\n\nCách chia **thể ない** (thể phủ định thân mật):\n- **Nhóm 1**: đổi âm cuối sang cột あ rồi thêm ない: 書く → 書か**ない**, 飲む → 飲ま**ない**, 話す → 話さ**ない**. Riêng う → **わ**: 買う → 買わ**ない**, 会う → 会わ**ない**.\n- **Nhóm 2**: bỏ る + ない: 食べる → 食べ**ない**, 見る → 見**ない**.\n- **Nhóm 3**: する → **しない**, 来る → **こない**.\n\nLưu ý: mẫu này đủ lịch sự cho giao tiếp thường ngày (nhờ bạn bè, đồng nghiệp, người lạ). Ở các cấp cao hơn bạn sẽ học thêm cách nhờ khiêm nhường hơn với người trên. Đừng nói 待つてください hay 食べるないでください; hãy chia động từ đúng trước.",
+    "examples": [
+      {
+        "t": "ちょっと待ってください。",
+        "r": "ちょっとまってください。",
+        "vi": "Xin đợi một chút."
+      },
+      {
+        "t": "ここに名前を書いてください。",
+        "r": "ここになまえをかいてください。",
+        "vi": "Xin hãy viết tên vào đây."
+      },
+      {
+        "t": "窓を開けてください。",
+        "r": "まどをあけてください。",
+        "vi": "Xin hãy mở cửa sổ."
+      },
+      {
+        "t": "ここで写真を撮らないでください。",
+        "r": "ここでしゃしんをとらないでください。",
+        "vi": "Xin đừng chụp ảnh ở đây."
+      },
+      {
+        "t": "心配しないでください。",
+        "r": "しんぱいしないでください。",
+        "vi": "Xin đừng lo lắng."
+      },
+      {
+        "t": "もう一度言ってください。",
+        "r": "もういちどいってください。",
+        "vi": "Xin hãy nói lại một lần nữa."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "ちょっと待つてください。",
+        "right": "ちょっと待ってください。",
+        "note_vi": "Phải chia 待つ sang thể て (待って) trước khi thêm ください."
+      },
+      {
+        "wrong": "ここで食べるないでください。",
+        "right": "ここで食べないでください。",
+        "note_vi": "Nhóm 2 bỏ る rồi thêm ない."
+      },
+      {
+        "wrong": "店で買うないでください。",
+        "right": "店で買わないでください。",
+        "note_vi": "Nhóm 1 có âm cuối う: う → わ rồi thêm ない."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "ちょっと ___ください。(đợi)",
+        "options": [
+          "待ちて",
+          "待って",
+          "待いて",
+          "待んで"
+        ],
+        "answer": 1,
+        "explain": "待つ → 待って."
+      },
+      {
+        "type": "mcq",
+        "q": "ここに 名前を ___ください。(viết)",
+        "options": [
+          "書きて",
+          "書って",
+          "書いて",
+          "書んで"
+        ],
+        "answer": 2,
+        "explain": "書く → 書いて."
+      },
+      {
+        "type": "mcq",
+        "q": "ここで たばこを ___ください。(xin đừng hút)",
+        "options": [
+          "吸わないで",
+          "吸うないで",
+          "吸いないで",
+          "吸ないで"
+        ],
+        "answer": 0,
+        "explain": "吸う → 吸わない + で."
+      },
+      {
+        "type": "mcq",
+        "q": "心配___ ください。(xin đừng lo)",
+        "options": [
+          "して",
+          "しなくて",
+          "しないに",
+          "しないで"
+        ],
+        "answer": 3,
+        "explain": "する → しない + でください."
+      },
+      {
+        "type": "gap",
+        "q": "ドアを 開け___ください。",
+        "answer": [
+          "て"
+        ],
+        "explain": "開ける → 開けて."
+      },
+      {
+        "type": "gap",
+        "q": "ここで 写真を 撮ら___ください。(xin đừng chụp)",
+        "answer": [
+          "ないで"
+        ],
+        "explain": "撮る → 撮らない + で."
+      },
+      {
+        "type": "gap",
+        "q": "もう 一度 言っ___ください。",
+        "answer": [
+          "て"
+        ],
+        "explain": "言う → 言って."
+      },
+      {
+        "type": "order",
+        "words": [
+          "ください",
+          "ちょっと",
+          "待って"
+        ],
+        "answer": "ちょっと待ってください。",
+        "vi": "Xin đợi một chút.",
+        "explain": "Thể て + ください đứng cuối."
+      },
+      {
+        "type": "order",
+        "words": [
+          "書いて",
+          "ここに",
+          "ください",
+          "名前を"
+        ],
+        "answer": "ここに名前を書いてください。",
+        "vi": "Xin hãy viết tên vào đây.",
+        "explain": "ここに + 名前を + 書いて + ください."
+      },
+      {
+        "type": "order",
+        "words": [
+          "撮らないで",
+          "ください",
+          "ここで",
+          "写真を"
+        ],
+        "answer": "ここで写真を撮らないでください。",
+        "vi": "Xin đừng chụp ảnh ở đây.",
+        "explain": "撮らない + でください."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-kara",
+    "level": "N5",
+    "title": "〜から (vì / nên)",
+    "title_native": "〜から",
+    "summary_vi": "Nêu lý do: [lý do] から、[kết quả]; hoặc trả lời 'tại sao' bằng 〜からです.",
+    "formula": [
+      "[Lý do] から、[kết quả]",
+      "[Kết quả]。[Lý do] から。",
+      "どうして 〜か。 — 〜からです。"
+    ],
+    "explain_vi": "**から** gắn **sau lý do**, nghĩa là 'vì… nên…' hoặc 'bởi vì…'. Điểm cần nhớ nhất: tiếng Việt nói 'Vì trời mưa nên tôi ở nhà' (lý do đứng sau chữ 'vì'), còn tiếng Nhật đặt **から ở cuối vế lý do**: 雨ですから、家にいます. Không có chữ nào tương đương 'vì' ở đầu vế.\n\nCấu trúc: **[câu lý do] から、[câu kết quả]**. Vế lý do ở thể lịch sự (です/ます) hoặc thể thường đều được; ở N5, bạn dùng thể lịch sự: 忙しいですから、行きません.\n\nCó thể đảo ngược trật tự để giải thích thêm sau: 傘を持って行きます。雨ですから. (Tôi mang ô. Vì trời mưa mà.)\n\nKhi muốn hỏi lý do dùng **どうして** hoặc **なぜ**: どうして行きませんか (Sao bạn không đi?). Câu trả lời thường kết thúc bằng **〜からです** hoặc đơn giản **〜から**: 忙しいですから. Nếu chỉ nói 忙しいです mà không có から thì nghe như đang thông báo tình trạng chứ chưa trả lời lý do.\n\nKhông đặt から ở đầu câu như 'vì' trong tiếng Việt, và không lặp 'nên' ở vế sau.",
+    "examples": [
+      {
+        "t": "雨ですから、出かけません。",
+        "r": "あめですから、でかけません。",
+        "vi": "Vì trời mưa nên tôi không ra ngoài."
+      },
+      {
+        "t": "疲れましたから、早く寝ます。",
+        "r": "つかれましたから、はやくねます。",
+        "vi": "Vì mệt nên tôi đi ngủ sớm."
+      },
+      {
+        "t": "安いですから、たくさん買いました。",
+        "r": "やすいですから、たくさんかいました。",
+        "vi": "Vì rẻ nên tôi đã mua nhiều."
+      },
+      {
+        "t": "どうして行きませんか。忙しいですから。",
+        "r": "どうしていきませんか。いそがしいですから。",
+        "vi": "Sao bạn không đi? Vì tôi bận."
+      },
+      {
+        "t": "熱がありますから、学校を休みます。",
+        "r": "ねつがありますから、がっこうをやすみます。",
+        "vi": "Vì bị sốt nên tôi nghỉ học."
+      },
+      {
+        "t": "今日は日曜日ですから、会社は休みです。",
+        "r": "きょうはにちようびですから、かいしゃはやすみです。",
+        "vi": "Hôm nay là Chủ nhật nên công ty nghỉ."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "から雨です、出かけません。",
+        "right": "雨ですから、出かけません。",
+        "note_vi": "から đứng sau vế lý do, không đứng đầu như từ 'vì' trong tiếng Việt."
+      },
+      {
+        "wrong": "A: どうして行きませんか。B: 忙しいです。",
+        "right": "A: どうして行きませんか。B: 忙しいですから。",
+        "note_vi": "Trả lời câu hỏi 'tại sao' nên kết thúc bằng から."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "暑いです___、窓を 開けます。",
+        "options": [
+          "まで",
+          "より",
+          "でも",
+          "から"
+        ],
+        "answer": 3,
+        "explain": "Nêu lý do → から."
+      },
+      {
+        "type": "mcq",
+        "q": "A: どうして 食べませんか。B: おなかが いっぱい___。",
+        "options": [
+          "ですから",
+          "ですでも",
+          "ですより",
+          "ですまで"
+        ],
+        "answer": 0,
+        "explain": "Trả lời 'tại sao' bằng ですから."
+      },
+      {
+        "type": "mcq",
+        "q": "疲れました___、今日は 早く 寝ます。",
+        "options": [
+          "が",
+          "でも",
+          "から",
+          "けど"
+        ],
+        "answer": 2,
+        "explain": "から = vì (lý do); が/けど = nhưng."
+      },
+      {
+        "type": "mcq",
+        "q": "傘を 持って 行きます。雨___。",
+        "options": [
+          "ですが",
+          "ですから",
+          "ですか",
+          "でも"
+        ],
+        "answer": 1,
+        "explain": "雨ですから = vì trời mưa."
+      },
+      {
+        "type": "gap",
+        "q": "疲れました___、早く 寝ます。",
+        "answer": [
+          "から"
+        ],
+        "explain": "から đứng sau lý do."
+      },
+      {
+        "type": "gap",
+        "q": "A: どうして 来ませんか。B: 忙しい___。",
+        "answer": [
+          "ですから",
+          "から"
+        ],
+        "explain": "忙しいですから là cách trả lời lý do."
+      },
+      {
+        "type": "gap",
+        "q": "今日は 日曜日です___、会社は 休みです。",
+        "answer": [
+          "から"
+        ],
+        "explain": "から nối lý do với kết quả."
+      },
+      {
+        "type": "order",
+        "words": [
+          "出かけません",
+          "今日は",
+          "雨ですから"
+        ],
+        "answer": "今日は雨ですから、出かけません。",
+        "vi": "Hôm nay vì trời mưa nên tôi không ra ngoài.",
+        "explain": "Lý do + から đứng trước kết quả."
+      },
+      {
+        "type": "order",
+        "words": [
+          "早く",
+          "寝ます",
+          "疲れましたから",
+          "今日は"
+        ],
+        "answer": "疲れましたから、今日は早く寝ます。",
+        "vi": "Vì mệt nên hôm nay tôi đi ngủ sớm.",
+        "explain": "Vế lý do trước, vế kết quả sau."
+      },
+      {
+        "type": "order",
+        "words": [
+          "たくさん",
+          "買いました",
+          "安いですから"
+        ],
+        "answer": "安いですから、たくさん買いました。",
+        "vi": "Vì rẻ nên tôi mua nhiều.",
+        "explain": "安いですから + kết quả."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-arimasu-imasu",
+    "level": "N5",
+    "title": "あります / います (có, ở)",
+    "title_native": "あります・います",
+    "summary_vi": "Diễn tả sự tồn tại: あります cho vật, います cho người/động vật; kèm các từ chỉ vị trí.",
+    "formula": [
+      "場所に N が あります/います (ở … có …)",
+      "N は 場所に あります/います (… thì ở …)",
+      "N の 上/下/前/後ろ/中/隣/そば"
+    ],
+    "explain_vi": "Để nói 'ở đâu có cái gì' hoặc 'ai/cái gì ở đâu', tiếng Nhật dùng hai động từ chỉ sự tồn tại:\n\n**あります** — dùng cho **vật vô tri** (đồ vật, cây cối, tòa nhà…): 机の上に本があります (Trên bàn có quyển sách).\n\n**います** — dùng cho **người và động vật** (vật sống có thể tự di chuyển): 部屋に猫がいます (Trong phòng có con mèo).\n\nHai mẫu câu chính:\n1. **場所に + N が + あります/います**: nhấn mạnh 'ở đó có cái gì'. (駅の前に銀行があります)\n2. **N は + 場所に + あります/います**: nói 'N thì ở đâu'. (田中さんは教室にいます)\n\nTrợ từ chỉ nơi tồn tại là **に** (không dùng で, vì đây không phải hành động).\n\nCác từ vị trí đi với の: 上 (trên), 下 (dưới), 前 (trước), 後ろ (sau), 中 (trong), 隣 (bên cạnh), そば (gần): 机の上, かばんの中, 駅の前. Phủ định là **ありません / いません**.\n\nNgười Việt hay dùng nhầm あります cho động vật vì tiếng Việt chỉ dùng chung từ 'có'. Hãy nhớ: có sinh mệnh → います, không có sinh mệnh → あります.",
+    "examples": [
+      {
+        "t": "机の上に本があります。",
+        "r": "つくえのうえにほんがあります。",
+        "vi": "Trên bàn có quyển sách."
+      },
+      {
+        "t": "部屋に猫がいます。",
+        "r": "へやにねこがいます。",
+        "vi": "Trong phòng có con mèo."
+      },
+      {
+        "t": "駅の前に銀行があります。",
+        "r": "えきのまえにぎんこうがあります。",
+        "vi": "Trước nhà ga có ngân hàng."
+      },
+      {
+        "t": "田中さんは教室にいます。",
+        "r": "たなかさんはきょうしつにいます。",
+        "vi": "Anh Tanaka đang ở trong lớp."
+      },
+      {
+        "t": "かばんの中に財布はありません。",
+        "r": "かばんのなかにさいふはありません。",
+        "vi": "Trong cặp không có ví."
+      },
+      {
+        "t": "公園に子どもがたくさんいます。",
+        "r": "こうえんにこどもがたくさんいます。",
+        "vi": "Ở công viên có rất nhiều trẻ em."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "部屋に猫があります。",
+        "right": "部屋に猫がいます。",
+        "note_vi": "Động vật và người dùng います, không dùng あります."
+      },
+      {
+        "wrong": "机の上で本があります。",
+        "right": "机の上に本があります。",
+        "note_vi": "Nơi tồn tại dùng に; で chỉ dùng cho nơi diễn ra hành động."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "部屋に 猫が ___。",
+        "options": [
+          "あります",
+          "います",
+          "ありました",
+          "ありません"
+        ],
+        "answer": 1,
+        "explain": "Động vật → います."
+      },
+      {
+        "type": "mcq",
+        "q": "机の 上に 本が ___。",
+        "options": [
+          "います",
+          "いません",
+          "あります",
+          "いました"
+        ],
+        "answer": 2,
+        "explain": "Đồ vật → あります."
+      },
+      {
+        "type": "mcq",
+        "q": "駅の 前___ 銀行が あります。",
+        "options": [
+          "で",
+          "を",
+          "が",
+          "に"
+        ],
+        "answer": 3,
+        "explain": "Nơi tồn tại dùng に."
+      },
+      {
+        "type": "mcq",
+        "q": "かばんの 中に 財布は ___。(không có)",
+        "options": [
+          "ありません",
+          "います",
+          "いません",
+          "ありました"
+        ],
+        "answer": 0,
+        "explain": "Vật + phủ định → ありません."
+      },
+      {
+        "type": "gap",
+        "q": "公園に 子どもが たくさん ___。",
+        "answer": [
+          "います"
+        ],
+        "explain": "Trẻ em là người → います."
+      },
+      {
+        "type": "gap",
+        "q": "冷蔵庫に 牛乳が ___。(có)",
+        "answer": [
+          "あります"
+        ],
+        "explain": "Sữa là vật → あります."
+      },
+      {
+        "type": "gap",
+        "q": "いすの 下___ 猫が います。",
+        "answer": [
+          "に"
+        ],
+        "explain": "Nơi tồn tại → に."
+      },
+      {
+        "type": "order",
+        "words": [
+          "本が",
+          "あります",
+          "机の",
+          "上に"
+        ],
+        "answer": "机の上に本があります。",
+        "vi": "Trên bàn có quyển sách.",
+        "explain": "机の上に + 本が + あります."
+      },
+      {
+        "type": "order",
+        "words": [
+          "猫が",
+          "います",
+          "部屋に"
+        ],
+        "answer": "部屋に猫がいます。",
+        "vi": "Trong phòng có con mèo.",
+        "explain": "場所に + N が + います."
+      },
+      {
+        "type": "order",
+        "words": [
+          "財布は",
+          "ありません",
+          "かばんの",
+          "中に"
+        ],
+        "answer": "かばんの中に財布はありません。",
+        "vi": "Trong cặp không có ví.",
+        "explain": "かばんの中に + 財布は + ありません."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-koto-ga-aru",
+    "level": "N5",
+    "title": "〜たことがある (đã từng)",
+    "title_native": "〜たことがある",
+    "summary_vi": "Nói về kinh nghiệm đã từng làm gì: V た + ことがあります.",
+    "formula": [
+      "V た + ことが あります (đã từng …)",
+      "V た + ことが ありません (chưa từng …)",
+      "V た + ことが ありますか → はい、あります / いいえ、ありません"
+    ],
+    "explain_vi": "Mẫu câu **V た + ことがあります** nghĩa là 'đã từng làm gì (ít nhất một lần trong đời)', giống 'đã từng' trong tiếng Việt. Phủ định là ことがありません ('chưa từng'). Câu hỏi: 〜たことがありますか (Bạn đã từng… chưa?).\n\nTrước hết cần biết **thể た** (thể quá khứ thân mật). Cách chia giống hệt thể て, chỉ đổi て → **た**, で → **だ**:\n- 食べる → 食べて → 食べ**た**\n- 行く → 行って → 行っ**た**\n- 読む → 読んで → 読ん**だ**\n- する → した, 来る → きた\n\nSau đó thêm **ことがあります**: 日本へ行った**ことがあります** (Tôi đã từng đi Nhật).\n\nKhác biệt cần chú ý: **V る + ことがある** (dạng từ điển) có nghĩa là 'thỉnh thoảng có khi…', hoàn toàn khác. Vì vậy phải dùng thể た khi nói về kinh nghiệm.\n\nTrợ từ đi sau こと là **が**, không phải を (ことがあります chứ không phải ことをあります). Khi trả lời, có thể nói đơn giản: はい、あります / いいえ、まだありません ('chưa từng, vẫn chưa').",
+    "examples": [
+      {
+        "t": "日本へ行ったことがあります。",
+        "r": "にほんへいったことがあります。",
+        "vi": "Tôi đã từng đi Nhật."
+      },
+      {
+        "t": "すしを食べたことがありますか。",
+        "r": "すしをたべたことがありますか。",
+        "vi": "Bạn đã từng ăn sushi chưa?"
+      },
+      {
+        "t": "富士山に登ったことがありません。",
+        "r": "ふじさんにのぼったことがありません。",
+        "vi": "Tôi chưa từng leo núi Phú Sĩ."
+      },
+      {
+        "t": "私は一度だけ飛行機に乗ったことがあります。",
+        "r": "わたしはいちどだけひこうきにのったことがあります。",
+        "vi": "Tôi mới đi máy bay đúng một lần."
+      },
+      {
+        "t": "納豆を食べたことがありますか。いいえ、まだありません。",
+        "r": "なっとうをたべたことがありますか。いいえ、まだありません。",
+        "vi": "Bạn đã từng ăn natto chưa? Chưa, tôi vẫn chưa."
+      },
+      {
+        "t": "北海道で雪を見たことがあります。",
+        "r": "ほっかいどうでゆきをみたことがあります。",
+        "vi": "Tôi đã từng thấy tuyết ở Hokkaido."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "日本へ行くことがあります。",
+        "right": "日本へ行ったことがあります。",
+        "note_vi": "Dạng từ điển + ことがある nghĩa là 'thỉnh thoảng'. Muốn nói kinh nghiệm phải dùng thể た."
+      },
+      {
+        "wrong": "寿司を食べたことをあります。",
+        "right": "寿司を食べたことがあります。",
+        "note_vi": "Phải dùng が sau こと."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "日本へ ___ことが あります。(đã từng đi)",
+        "options": [
+          "行く",
+          "行って",
+          "行った",
+          "行きた"
+        ],
+        "answer": 2,
+        "explain": "行く → 行った (thể た)."
+      },
+      {
+        "type": "mcq",
+        "q": "すしを ___ことが ありますか。(đã từng ăn)",
+        "options": [
+          "食べた",
+          "食べる",
+          "食べて",
+          "食べり"
+        ],
+        "answer": 0,
+        "explain": "食べる → 食べた."
+      },
+      {
+        "type": "mcq",
+        "q": "富士山に ___ことが ありません。(chưa từng leo)",
+        "options": [
+          "登る",
+          "登った",
+          "登って",
+          "登んだ"
+        ],
+        "answer": 1,
+        "explain": "登る → 登った."
+      },
+      {
+        "type": "mcq",
+        "q": "お酒を ___ことが あります。(đã từng uống)",
+        "options": [
+          "飲んで",
+          "飲む",
+          "飲みた",
+          "飲んだ"
+        ],
+        "answer": 3,
+        "explain": "飲む → 飲んだ."
+      },
+      {
+        "type": "gap",
+        "q": "納豆を 食べた___が ありますか。",
+        "answer": [
+          "こと"
+        ],
+        "explain": "Mẫu: 〜たことがある."
+      },
+      {
+        "type": "gap",
+        "q": "飛行機に 乗っ___ことが ありません。(chưa từng)",
+        "answer": [
+          "た"
+        ],
+        "explain": "乗る → 乗った."
+      },
+      {
+        "type": "gap",
+        "q": "私は 一度も 泳い___ことが ありません。(chưa từng bơi)",
+        "answer": [
+          "だ"
+        ],
+        "explain": "泳ぐ → 泳いだ (ぐ → いだ)."
+      },
+      {
+        "type": "order",
+        "words": [
+          "ことが",
+          "日本へ",
+          "あります",
+          "行った"
+        ],
+        "answer": "日本へ行ったことがあります。",
+        "vi": "Tôi đã từng đi Nhật.",
+        "explain": "日本へ + 行った + ことが + あります."
+      },
+      {
+        "type": "order",
+        "words": [
+          "食べた",
+          "ありますか",
+          "すしを",
+          "ことが"
+        ],
+        "answer": "すしを食べたことがありますか。",
+        "vi": "Bạn đã từng ăn sushi chưa?",
+        "explain": "すしを + 食べた + ことが + ありますか."
+      },
+      {
+        "type": "order",
+        "words": [
+          "ありません",
+          "富士山に",
+          "ことが",
+          "登った"
+        ],
+        "answer": "富士山に登ったことがありません。",
+        "vi": "Tôi chưa từng leo núi Phú Sĩ.",
+        "explain": "登った + ことが + ありません."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-hikaku",
+    "level": "N5",
+    "title": "So sánh: より / のほうが / いちばん",
+    "title_native": "〜より・〜のほうが",
+    "summary_vi": "So sánh hơn (A は B より …), hỏi chọn (どちらが…ですか) và so sánh nhất (いちばん).",
+    "formula": [
+      "A は B より adj です (A … hơn B)",
+      "A と B と どちらが adj ですか — A のほうが adj です",
+      "N の中で 何/だれ/どれ が いちばん adj ですか"
+    ],
+    "explain_vi": "**So sánh hơn** dùng mẫu **A は B より ~です**: 東京は大阪より大きいです (Tokyo lớn hơn Osaka). Chú ý trợ từ **より** đứng sau danh từ được đem ra so sánh (B), còn tính từ **không đổi dạng** (không có '-er' hay 'hơn' như tiếng Việt). So với tiếng Việt 'A lớn hơn B', tiếng Nhật đặt B trước tính từ: 'A so với B thì lớn'.\n\n**Hỏi chọn giữa hai thứ**: AとBと、**どちらが**~ですか。 Trả lời bằng **〜のほうが**: 電車のほうが速いです (Tàu điện thì nhanh hơn). Có thể kèm より: 電車はバスより速いです.\n\nNếu nói sở thích: 私は夏より冬のほうが好きです (Tôi thích mùa đông hơn mùa hè).\n\n**So sánh nhất** (từ ba thứ trở lên): **〜の中で + 何/だれ/どれ/いつ/どこ + が + いちばん ~ですか**. Ví dụ 果物の中で何がいちばん好きですか (Trong các loại trái cây, bạn thích gì nhất?). Trả lời: りんごがいちばん好きです.\n\nLưu ý chọn từ để hỏi: hai thứ → どちら, ba thứ trở lên → 何/どれ/だれ… Còn từ **ほう** (方) mang nghĩa 'phía, bên', đi với の thành 'bên A thì…'. Đừng nhầm trợ từ: người được hỏi 'cái nào' luôn đi với が (どちらが).",
+    "examples": [
+      {
+        "t": "東京は大阪より大きいです。",
+        "r": "とうきょうはおおさかよりおおきいです。",
+        "vi": "Tokyo lớn hơn Osaka."
+      },
+      {
+        "t": "電車とバスと、どちらが速いですか。",
+        "r": "でんしゃとばすと、どちらがはやいですか。",
+        "vi": "Tàu điện và xe buýt, cái nào nhanh hơn?"
+      },
+      {
+        "t": "電車のほうが速いです。",
+        "r": "でんしゃのほうがはやいです。",
+        "vi": "Tàu điện thì nhanh hơn."
+      },
+      {
+        "t": "私は夏より冬のほうが好きです。",
+        "r": "わたしはなつよりふゆのほうがすきです。",
+        "vi": "Tôi thích mùa đông hơn mùa hè."
+      },
+      {
+        "t": "果物の中で何がいちばん好きですか。",
+        "r": "くだもののなかでなにがいちばんすきですか。",
+        "vi": "Trong các loại trái cây, bạn thích gì nhất?"
+      },
+      {
+        "t": "兄は私より背が高いです。",
+        "r": "あにはわたしよりせがたかいです。",
+        "vi": "Anh trai tôi cao hơn tôi."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "東京は大きいより大阪です。",
+        "right": "東京は大阪より大きいです。",
+        "note_vi": "より đứng ngay sau danh từ được so sánh (大阪), tính từ đặt ở cuối câu."
+      },
+      {
+        "wrong": "電車とバスと、どちらは速いですか。",
+        "right": "電車とバスと、どちらが速いですか。",
+        "note_vi": "Từ để hỏi どちら làm chủ ngữ phải dùng が."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "東京は 大阪___ 大きいです。(hơn)",
+        "options": [
+          "と",
+          "を",
+          "で",
+          "より"
+        ],
+        "answer": 3,
+        "explain": "So sánh hơn dùng より."
+      },
+      {
+        "type": "mcq",
+        "q": "電車と バスと、___が 速いですか。",
+        "options": [
+          "どれ",
+          "どちら",
+          "だれ",
+          "いつ"
+        ],
+        "answer": 1,
+        "explain": "So sánh hai thứ → どちら."
+      },
+      {
+        "type": "mcq",
+        "q": "電車の___が 速いです。",
+        "options": [
+          "より",
+          "中",
+          "ほう",
+          "いちばん"
+        ],
+        "answer": 2,
+        "explain": "のほうが = phía A thì hơn."
+      },
+      {
+        "type": "mcq",
+        "q": "果物の ___で 何が いちばん 好きですか。",
+        "options": [
+          "中",
+          "上",
+          "前",
+          "外"
+        ],
+        "answer": 0,
+        "explain": "〜の中で = trong số …"
+      },
+      {
+        "type": "gap",
+        "q": "私は 夏___ 冬のほうが 好きです。",
+        "answer": [
+          "より"
+        ],
+        "explain": "Đối tượng bị so sánh đi với より."
+      },
+      {
+        "type": "gap",
+        "q": "犬と 猫と、どちら___ 好きですか。",
+        "answer": [
+          "が"
+        ],
+        "explain": "どちらが… để hỏi chọn."
+      },
+      {
+        "type": "gap",
+        "q": "家族の 中___、父が いちばん 背が 高いです。",
+        "answer": [
+          "で"
+        ],
+        "explain": "〜の中で + いちばん."
+      },
+      {
+        "type": "order",
+        "words": [
+          "大きいです",
+          "東京は",
+          "大阪より"
+        ],
+        "answer": "東京は大阪より大きいです。",
+        "vi": "Tokyo lớn hơn Osaka.",
+        "explain": "A は B より + tính từ."
+      },
+      {
+        "type": "order",
+        "words": [
+          "冬の",
+          "好きです",
+          "私は",
+          "ほうが",
+          "夏より"
+        ],
+        "answer": "私は夏より冬のほうが好きです。",
+        "vi": "Tôi thích mùa đông hơn mùa hè.",
+        "explain": "私は + 夏より + 冬のほうが + 好きです."
+      },
+      {
+        "type": "order",
+        "words": [
+          "何が",
+          "好きですか",
+          "果物の",
+          "いちばん",
+          "中で"
+        ],
+        "answer": "果物の中で何がいちばん好きですか。",
+        "vi": "Trong các loại trái cây, bạn thích gì nhất?",
+        "explain": "〜の中で + 何が + いちばん + adj."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-mae-ni-ato-de",
+    "level": "N5",
+    "title": "〜前に / 〜後で (trước khi / sau khi)",
+    "title_native": "〜前に・〜後で",
+    "summary_vi": "Sắp xếp thứ tự hai hành động: V る + 前に (trước khi), V た + 後で (sau khi).",
+    "formula": [
+      "V(từ điển) + 前に、〜 (trước khi …)",
+      "N の + 前に、〜",
+      "V た + 後で、〜 (sau khi …)",
+      "N の + 後で、〜"
+    ],
+    "explain_vi": "Hai mẫu câu này nói về thứ tự thời gian giữa hai hành động. Điều thú vị là **thể động từ trước 前に và 後で luôn cố định**, bất kể câu chính ở thì nào.\n\n**V(thể từ điển) + 前に** = trước khi làm V: 寝る前に歯を磨きます (Trước khi ngủ, tôi đánh răng). Động từ trước 前に **luôn ở dạng từ điển** (寝る, 食べる, 来る), kể cả khi cả câu nói về quá khứ: 日本へ来る前に、日本語を勉強しました.\n\n**V た + 後で** = sau khi làm V: ご飯を食べた後で薬を飲みます (Sau khi ăn cơm, tôi uống thuốc). Ở đây dùng **thể た**.\n\nVới danh từ, thêm の: 授業**の**前に (trước giờ học), 食事**の**後で (sau bữa ăn). Với các danh từ chỉ khoảng thời gian cụ thể thì dùng trực tiếp: 三時間前に (cách đây 3 giờ).\n\nHãy nhớ kiểu chia 'ngược với trực giác': 'trước khi ăn' dùng **食べる**前に, nhưng 'sau khi ăn' dùng **食べた**後で. Quy tắc nhớ: **前 → từ điển, 後 → た**. Vế sau của câu mới mang thì thực sự của câu (ます/ました).",
+    "examples": [
+      {
+        "t": "寝る前に歯を磨きます。",
+        "r": "ねるまえにはをみがきます。",
+        "vi": "Trước khi ngủ, tôi đánh răng."
+      },
+      {
+        "t": "ご飯を食べる前に手を洗います。",
+        "r": "ごはんをたべるまえにてをあらいます。",
+        "vi": "Trước khi ăn cơm, tôi rửa tay."
+      },
+      {
+        "t": "食事の後で薬を飲みます。",
+        "r": "しょくじのあとでくすりをのみます。",
+        "vi": "Sau bữa ăn, tôi uống thuốc."
+      },
+      {
+        "t": "仕事が終わった後で、友だちに会います。",
+        "r": "しごとがおわったあとで、ともだちにあいます。",
+        "vi": "Sau khi xong việc, tôi sẽ gặp bạn."
+      },
+      {
+        "t": "日本へ来る前に、日本語を勉強しました。",
+        "r": "にほんへくるまえに、にほんごをべんきょうしました。",
+        "vi": "Trước khi đến Nhật, tôi đã học tiếng Nhật."
+      },
+      {
+        "t": "授業の前に、コーヒーを飲みます。",
+        "r": "じゅぎょうのまえに、こーひーをのみます。",
+        "vi": "Trước giờ học, tôi uống cà phê."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "ご飯を食べた前に手を洗います。",
+        "right": "ご飯を食べる前に手を洗います。",
+        "note_vi": "Trước 前に luôn dùng thể từ điển, kể cả khi nói về quá khứ."
+      },
+      {
+        "wrong": "ご飯を食べる後で薬を飲みます。",
+        "right": "ご飯を食べた後で薬を飲みます。",
+        "note_vi": "Trước 後で dùng thể た."
+      },
+      {
+        "wrong": "食事前に手を洗います。",
+        "right": "食事の前に手を洗います。",
+        "note_vi": "Danh từ nối với 前に phải có の."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "寝る___ 歯を 磨きます。(trước khi)",
+        "options": [
+          "後で",
+          "前に",
+          "から",
+          "まで"
+        ],
+        "answer": 1,
+        "explain": "Trước khi → 前に."
+      },
+      {
+        "type": "mcq",
+        "q": "ご飯を 食べた___ 薬を 飲みます。(sau khi)",
+        "options": [
+          "前に",
+          "まで",
+          "後で",
+          "ために"
+        ],
+        "answer": 2,
+        "explain": "Sau khi → 後で."
+      },
+      {
+        "type": "mcq",
+        "q": "日本へ ___前に、日本語を 勉強しました。",
+        "options": [
+          "来た",
+          "来て",
+          "来ない",
+          "来る"
+        ],
+        "answer": 3,
+        "explain": "Trước 前に luôn dùng thể từ điển: 来る."
+      },
+      {
+        "type": "mcq",
+        "q": "仕事が ___後で、友だちに 会います。",
+        "options": [
+          "終わった",
+          "終わる",
+          "終わって",
+          "終わらない"
+        ],
+        "answer": 0,
+        "explain": "Trước 後で dùng thể た: 終わった."
+      },
+      {
+        "type": "gap",
+        "q": "授業___ 前に、コーヒーを 飲みます。",
+        "answer": [
+          "の"
+        ],
+        "explain": "Danh từ + の + 前に."
+      },
+      {
+        "type": "gap",
+        "q": "寝る___、シャワーを 浴びます。(trước khi ngủ)",
+        "answer": [
+          "前に"
+        ],
+        "explain": "V từ điển + 前に."
+      },
+      {
+        "type": "gap",
+        "q": "食事の___、散歩します。(sau bữa ăn)",
+        "answer": [
+          "後で"
+        ],
+        "explain": "N の + 後で."
+      },
+      {
+        "type": "order",
+        "words": [
+          "歯を",
+          "磨きます",
+          "寝る",
+          "前に"
+        ],
+        "answer": "寝る前に歯を磨きます。",
+        "vi": "Trước khi ngủ, tôi đánh răng.",
+        "explain": "寝る前に + hành động sau."
+      },
+      {
+        "type": "order",
+        "words": [
+          "薬を",
+          "後で",
+          "飲みます",
+          "ご飯を",
+          "食べた"
+        ],
+        "answer": "ご飯を食べた後で薬を飲みます。",
+        "vi": "Sau khi ăn cơm, tôi uống thuốc.",
+        "explain": "食べた + 後で + hành động sau."
+      },
+      {
+        "type": "order",
+        "words": [
+          "コーヒーを",
+          "飲みます",
+          "授業の",
+          "前に"
+        ],
+        "answer": "授業の前にコーヒーを飲みます。",
+        "vi": "Trước giờ học, tôi uống cà phê.",
+        "explain": "授業の前に + コーヒーを + 飲みます."
+      }
+    ]
+  },
+  {
+    "id": "ja-n5-question-words",
+    "level": "N5",
+    "title": "Từ để hỏi + か / も",
+    "title_native": "疑問詞＋か・も",
+    "summary_vi": "何か/だれか/どこか = 'cái gì đó/ai đó/đâu đó'; 何も/だれも/どこへも + phủ định = 'không … nào cả'.",
+    "formula": [
+      "疑問詞 + か + V (có … đó): 何か、だれか、どこか",
+      "疑問詞 + も + V ません (không … nào cả): 何も、だれも、どこへも",
+      "何/だれ/どこ/いつ/どれ/いくら + V ますか"
+    ],
+    "explain_vi": "Đầu tiên, nhắc lại các từ để hỏi quen thuộc: 何 (cái gì), だれ (ai), どこ (đâu), いつ (khi nào), どれ (cái nào), いくら (bao nhiêu tiền). Câu hỏi chỉ cần thêm **か** ở cuối, không đảo trật tự: 何を食べますか.\n\nKhi gắn thêm **か** ngay sau từ để hỏi, nó trở thành từ **không xác định** ('một cái gì đó, một ai đó'):\n- 何か = cái gì đó: 冷蔵庫に何かありますか (Trong tủ lạnh có gì không?)\n- だれか = ai đó: 教室にだれかいますか (Trong lớp có ai không?)\n- どこか = nơi nào đó: 週末、どこか行きませんか (Cuối tuần mình đi đâu đó nhé?)\n\nKhi gắn **も** và câu kết thúc bằng **phủ định**, nó có nghĩa là 'không … nào cả':\n- 何も + V ません: 何も食べませんでした (không ăn gì cả)\n- だれも + V ません: だれもいません (không có ai)\n- どこ**へも**/どこ**にも** + V ません: どこへも行きません (không đi đâu cả)\n\nQuy tắc: **疑問詞 + も luôn đi với phủ định**. Với を thì bỏ を (何をも là sai), còn với へ, に thì vẫn giữ trợ từ trước も (どこへも, だれにも). Người Việt hay nhầm vì tiếng Việt có thể nói 'chẳng có ai' bằng câu khẳng định; tiếng Nhật thì buộc phải phủ định.",
+    "examples": [
+      {
+        "t": "何を食べますか。",
+        "r": "なにをたべますか。",
+        "vi": "Bạn ăn gì?"
+      },
+      {
+        "t": "冷蔵庫に何かありますか。",
+        "r": "れいぞうこになにかありますか。",
+        "vi": "Trong tủ lạnh có gì không?"
+      },
+      {
+        "t": "いいえ、何もありません。",
+        "r": "いいえ、なにもありません。",
+        "vi": "Không, chẳng có gì cả."
+      },
+      {
+        "t": "教室にだれかいますか。",
+        "r": "きょうしつにだれかいますか。",
+        "vi": "Trong lớp có ai không?"
+      },
+      {
+        "t": "教室にはだれもいません。",
+        "r": "きょうしつにはだれもいません。",
+        "vi": "Trong lớp không có ai cả."
+      },
+      {
+        "t": "日曜日はどこへも行きませんでした。",
+        "r": "にちようびはどこへもいきませんでした。",
+        "vi": "Chủ nhật tôi đã không đi đâu cả."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "昨日は何も食べました。",
+        "right": "昨日は何も食べませんでした。",
+        "note_vi": "疑問詞 + も phải đi với động từ phủ định."
+      },
+      {
+        "wrong": "教室にだれかいません。",
+        "right": "教室にだれもいません。",
+        "note_vi": "'Không có ai' = だれもいません; だれか dùng cho câu 'có ai đó'."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "冷蔵庫に ___ ありますか。(Có cái gì đó không?)",
+        "options": [
+          "何も",
+          "何を",
+          "何か",
+          "何に"
+        ],
+        "answer": 2,
+        "explain": "'Cái gì đó' = 何か."
+      },
+      {
+        "type": "mcq",
+        "q": "いいえ、___ ありません。(không có gì cả)",
+        "options": [
+          "何か",
+          "何も",
+          "何が",
+          "何を"
+        ],
+        "answer": 1,
+        "explain": "'Không … gì cả' = 何も + phủ định."
+      },
+      {
+        "type": "mcq",
+        "q": "教室に ___ いません。(không có ai)",
+        "options": [
+          "だれか",
+          "だれが",
+          "だれを",
+          "だれも"
+        ],
+        "answer": 3,
+        "explain": "'Không có ai' = だれも + いません."
+      },
+      {
+        "type": "mcq",
+        "q": "日曜日は ___ 行きませんでした。(không đi đâu cả)",
+        "options": [
+          "どこへも",
+          "どこかへ",
+          "どこが",
+          "どこを"
+        ],
+        "answer": 0,
+        "explain": "どこへも + phủ định."
+      },
+      {
+        "type": "gap",
+        "q": "何___ 食べませんでした。(không ăn gì cả)",
+        "answer": [
+          "も"
+        ],
+        "explain": "何も + phủ định."
+      },
+      {
+        "type": "gap",
+        "q": "教室に だれ___ いますか。(có ai đó không)",
+        "answer": [
+          "か"
+        ],
+        "explain": "だれか = ai đó."
+      },
+      {
+        "type": "gap",
+        "q": "週末、どこか___ 行きませんか。(đi đâu đó nhé)",
+        "answer": [
+          "へ",
+          "に"
+        ],
+        "explain": "どこかへ/どこかに行く = đi đâu đó."
+      },
+      {
+        "type": "order",
+        "words": [
+          "何を",
+          "食べますか",
+          "昼ご飯に"
+        ],
+        "answer": "昼ご飯に何を食べますか。",
+        "vi": "Bữa trưa bạn ăn gì?",
+        "explain": "昼ご飯に + 何を + 食べますか."
+      },
+      {
+        "type": "order",
+        "words": [
+          "何も",
+          "ありません",
+          "冷蔵庫に"
+        ],
+        "answer": "冷蔵庫に何もありません。",
+        "vi": "Trong tủ lạnh không có gì cả.",
+        "explain": "何も + ありません."
+      },
+      {
+        "type": "order",
+        "words": [
+          "だれか",
+          "いますか",
+          "教室に"
+        ],
+        "answer": "教室にだれかいますか。",
+        "vi": "Trong lớp có ai không?",
+        "explain": "教室に + だれか + いますか."
+      }
+    ]
+  }
+]

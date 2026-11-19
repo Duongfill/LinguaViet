@@ -1,0 +1,243 @@
+[
+  {
+    "id": "zh-hsk6-guran",
+    "level": "HSK6",
+    "title": "固然 (đúng là… nhưng…)",
+    "title_native": "固然……，但是……",
+    "summary_vi": "Thừa nhận một mặt là đúng, rồi chuyển sang mặt quan trọng hơn hoặc mặt khác cần xét.",
+    "formula": ["A 固然 + …，但是/可是/不过 + B", "A 固然 + …，B 也/还是 + …"],
+    "explain_vi": "**固然** là liên từ/phó từ mang tính văn viết và nghị luận. Người nói **thừa nhận** một sự thật A là đúng, không phủ nhận nó, nhưng ngay sau đó chuyển sang mặt B – thường quan trọng hơn hoặc cần được cân nhắc thêm. Gần với tiếng Việt: “đúng là… nhưng…”, “tuy… thật, song…”.\n\nVị trí: 固然 thường đứng sau chủ ngữ (hoặc chủ đề) của vế đầu, trước tính từ/động từ: 努力固然重要. Vế sau gần như luôn có từ chuyển ý như 但是、可是、不过、然而, hoặc dùng 也、还是 để bổ sung ý. Có thể lặp lại chính từ đó theo kiểu “A固然A，但是……” (冷固然冷，但是……) với nghĩa “lạnh thì đúng là lạnh, nhưng…”.\n\nSo với **虽然**: 虽然 chỉ nêu một sự thật đối lập, dùng được cả khẩu ngữ; còn 固然 mang sắc thái “tôi công nhận điểm này, nhưng trọng tâm của tôi là điểm kia”, nên rất hay gặp trong bài bình luận, tranh luận. Cũng không đi chung với 虽然 trong cùng một vế. Trong giao tiếp hằng ngày người Trung Quốc ít nói 固然, chủ yếu thấy trong văn viết và phát biểu trang trọng.",
+    "examples": [
+      { "t": "努力固然重要，但方法更重要。", "py": "Nǔlì gùrán zhòngyào, dàn fāngfǎ gèng zhòngyào.", "vi": "Nỗ lực đúng là quan trọng, nhưng phương pháp còn quan trọng hơn." },
+      { "t": "价格贵固然是个问题，可质量也不能忽视。", "py": "Jiàgé guì gùrán shì ge wèntí, kě zhìliàng yě bùnéng hūshì.", "vi": "Giá đắt đúng là một vấn đề, nhưng chất lượng cũng không thể xem nhẹ." },
+      { "t": "这样做固然省事，不过容易出错。", "py": "Zhèyàng zuò gùrán shěngshì, búguò róngyì chūcuò.", "vi": "Làm thế đúng là đỡ việc, nhưng dễ sai." },
+      { "t": "年轻人有闯劲固然是好事，但也要听听老人的意见。", "py": "Niánqīngrén yǒu chuǎngjìn gùrán shì hǎoshì, dàn yě yào tīngting lǎorén de yìjiàn.", "vi": "Người trẻ có sự dám nghĩ dám làm đúng là chuyện tốt, nhưng cũng nên nghe ý kiến người lớn tuổi." },
+      { "t": "出国留学固然能开阔眼界，国内的教育也有它的优势。", "py": "Chūguó liúxué gùrán néng kāikuò yǎnjiè, guónèi de jiàoyù yě yǒu tā de yōushì.", "vi": "Du học nước ngoài đúng là mở mang tầm mắt, nhưng giáo dục trong nước cũng có thế mạnh riêng." }
+    ],
+    "mistakes": [
+      { "wrong": "他固然很忙，所以没来。", "right": "他固然很忙，但也应该打个电话。", "note_vi": "Vế sau của 固然 phải là chuyển ý/bổ sung, không phải kết quả như 所以." },
+      { "wrong": "虽然努力固然重要，但是方法更重要。", "right": "努力固然重要，但是方法更重要。", "note_vi": "Không dùng 虽然 chồng lên 固然 trong cùng một vế; chọn một trong hai." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "努力___重要，但方法更重要。", "options": ["固然", "固定", "固有", "自然"], "answer": 0, "explain": "“Đúng là quan trọng, nhưng…” dùng 固然." },
+      { "type": "mcq", "q": "这个办法___省钱，但是太花时间。", "options": ["因为", "所以", "固然", "只有"], "answer": 2, "explain": "Thừa nhận ưu điểm rồi chuyển ý bằng 但是 → 固然." },
+      { "type": "gap", "q": "天气冷___冷，但是我们还是要去跑步。", "answer": ["固然"], "explain": "Cấu trúc “A固然A，但是……”: lạnh thì đúng là lạnh, nhưng vẫn đi." },
+      { "type": "mcq", "q": "他说得固然有道理，___我们也要考虑实际情况。", "options": ["因此", "可是", "所以", "于是"], "answer": 1, "explain": "Sau 固然 cần từ chuyển ý như 可是/但是; 因此/所以/于是 chỉ kết quả." },
+      { "type": "gap", "q": "学历固然重要，___能力更重要。", "answer": ["但是", "但", "可是", "不过", "然而"], "explain": "Vế sau của 固然 cần từ chuyển ý." },
+      { "type": "mcq", "q": "请客___是一片心意，但也要量力而行。", "options": ["果然", "仍然", "突然", "固然"], "answer": 3, "explain": "固然 thừa nhận thiện ý rồi nêu mặt cần cân nhắc." },
+      { "type": "order", "words": ["更重要", "固然", "但方法", "努力", "重要"], "answer": "努力固然重要，但方法更重要。", "vi": "Nỗ lực đúng là quan trọng, nhưng phương pháp còn quan trọng hơn.", "explain": "固然 đứng sau chủ ngữ (努力), trước tính từ (重要), rồi tới vế chuyển ý." },
+      { "type": "order", "words": ["不过", "这样做", "出错", "固然", "省事", "容易"], "answer": "这样做固然省事，不过容易出错。", "vi": "Làm thế đúng là đỡ việc, nhưng dễ sai.", "explain": "Trật tự: chủ đề + 固然 + ưu điểm，不过 + mặt trái." }
+    ]
+  },
+  {
+    "id": "zh-hsk6-kuangqie",
+    "level": "HSK6",
+    "title": "况且 (hơn nữa, vả lại)",
+    "title_native": "……，况且……",
+    "summary_vi": "Bổ sung thêm một lý do nữa để củng cố cho kết luận đã nêu.",
+    "formula": ["A，况且 + B（又/也/还 + …）", "既然/因为 A，况且 B，所以……"],
+    "explain_vi": "**况且** là liên từ tăng tiến dùng để **bổ sung thêm một lý do** vào lập luận: “hơn nữa”, “vả lại”, “huống chi”. Vế trước nêu lý do hoặc tình hình thứ nhất, 况且 dẫn ra lý do thứ hai – thường là lý do có sức nặng, giúp kết luận (đã nói hoặc ngầm hiểu) trở nên thuyết phục hơn.\n\nHình thức thường gặp: “A，况且（又/也/还）B”. Phía sau 况且 hay có 又、也、还 để nhấn mạnh sự cộng thêm: 天已经黑了，况且又下着雨. Kết luận có thể nằm sau cùng (所以…、就别去了) hoặc không nói ra mà người nghe tự hiểu.\n\nKhác với **而且**: 而且 chỉ đơn giản là “và còn”, nối hai thông tin cùng loại; 况且 mang tính **giải thích, thuyết phục**, hai vế cùng chứng minh cho một quan điểm. Vì vậy 况且 phải có vế trước làm nền; không thể mở đầu một đoạn văn bằng 况且 được. Đây là từ dùng nhiều trong văn nói lịch sự lẫn văn viết, nhưng không dùng để liệt kê thuần túy hoặc đưa ra một đề nghị trái hướng với vế trước.",
+    "examples": [
+      { "t": "这件事不用担心，况且我们已经准备好了。", "py": "Zhè jiàn shì búyòng dānxīn, kuàngqiě wǒmen yǐjīng zhǔnbèi hǎo le.", "vi": "Chuyện này không cần lo, hơn nữa chúng ta đã chuẩn bị xong rồi." },
+      { "t": "天色已经很晚了，况且还下着大雨，你就别回去了。", "py": "Tiānsè yǐjīng hěn wǎn le, kuàngqiě hái xiàzhe dàyǔ, nǐ jiù bié huíqù le.", "vi": "Trời đã muộn, vả lại còn đang mưa to, anh đừng về nữa." },
+      { "t": "我不想买这么贵的手机，况且我现在的手机还能用。", "py": "Wǒ bù xiǎng mǎi zhème guì de shǒujī, kuàngqiě wǒ xiànzài de shǒujī hái néng yòng.", "vi": "Tôi không muốn mua điện thoại đắt thế, hơn nữa cái hiện tại vẫn dùng được." },
+      { "t": "他刚来公司不久，况且又不熟悉业务，出错也难免。", "py": "Tā gāng lái gōngsī bùjiǔ, kuàngqiě yòu bù shúxī yèwù, chūcuò yě nánmiǎn.", "vi": "Anh ấy mới vào công ty chưa lâu, lại chưa quen nghiệp vụ, sai sót cũng khó tránh." },
+      { "t": "这家饭馆离我家很近，况且菜也不贵，我常去。", "py": "Zhè jiā fànguǎn lí wǒ jiā hěn jìn, kuàngqiě cài yě bú guì, wǒ cháng qù.", "vi": "Quán này gần nhà tôi, vả lại đồ ăn cũng không đắt, nên tôi hay đến." }
+    ],
+    "mistakes": [
+      { "wrong": "况且我喜欢这本书。", "right": "这本书很有意思，况且价格也不高，我就买了。", "note_vi": "况且 cần có vế trước làm nền để thêm lý do; không đứng mở đầu một mình." },
+      { "wrong": "下雨了，况且我们去公园玩吧。", "right": "下雨了，况且天也冷，我们别去公园了。", "note_vi": "况且 bổ sung lý do cùng hướng với vế trước, không dùng để dẫn một đề nghị ngược lại." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "路太远了，___天也快黑了，我们明天再去吧。", "options": ["固然", "况且", "可见", "以至于"], "answer": 1, "explain": "Thêm một lý do nữa (trời sắp tối) → 况且." },
+      { "type": "mcq", "q": "东西不贵，___质量也好，所以我买了。", "options": ["况且", "然而", "否则", "以免"], "answer": 0, "explain": "Hai lý do cùng hướng (rẻ, chất lượng tốt) → 况且." },
+      { "type": "gap", "q": "时间太晚了，___路上又没有车，我们就在这儿住一晚吧。", "answer": ["况且"], "explain": "Lý do thứ hai bổ sung cho lý do thứ nhất." },
+      { "type": "mcq", "q": "我不想去，___我今天还有很多工作。", "options": ["虽然", "除非", "不免", "况且"], "answer": 3, "explain": "Lý do bổ sung cho việc không muốn đi." },
+      { "type": "gap", "q": "我头很疼，况且___没带药，还是回家休息吧。", "answer": ["又", "也", "还"], "explain": "Sau 况且 hay có 又/也/还 để nhấn mạnh sự cộng thêm." },
+      { "type": "mcq", "q": "我没有时间，___这件事也不归我管。", "options": ["尽管", "结果", "况且", "以免"], "answer": 2, "explain": "Bổ sung lý do thứ hai để từ chối → 况且." },
+      { "type": "order", "words": ["况且", "又下着雨", "天", "已经黑了"], "answer": "天已经黑了，况且又下着雨。", "vi": "Trời đã tối rồi, vả lại còn đang mưa.", "explain": "Lý do 1 + 况且 + 又 + lý do 2." },
+      { "type": "order", "words": ["况且", "味道", "这家店", "也不错", "不贵"], "answer": "这家店不贵，况且味道也不错。", "vi": "Quán này không đắt, vả lại hương vị cũng không tệ.", "explain": "况且 nối hai ưu điểm, vế sau thường có 也." }
+    ]
+  },
+  {
+    "id": "zh-hsk6-yizhiyu",
+    "level": "HSK6",
+    "title": "以至于 (đến nỗi, đến mức)",
+    "title_native": "……，以至于……",
+    "summary_vi": "Chỉ kết quả do mức độ quá cao của hành động hoặc trạng thái ở vế trước.",
+    "formula": ["A（太/那么/很 + …），以至于 + B（kết quả）", "A 得……，以至于……"],
+    "explain_vi": "**以至于** (có thể viết ngắn là **以至**) nối một trạng thái hoặc hành động ở mức độ cao với **kết quả** do nó gây ra. Nghĩa tương đương tiếng Việt: “đến nỗi”, “đến mức”, “khiến cho”. Vế trước thường có các từ chỉ mức độ như 太、很、那么、非常, hoặc là một hành động kéo dài; vế sau là hệ quả, thường bất ngờ hoặc không mong muốn.\n\nSo với **所以**: 所以 chỉ nối nguyên nhân – kết quả thông thường. 以至于 nhấn mạnh “mức độ cao đến mức dẫn tới kết quả đó”, nên kết quả thường nổi bật, hơi cường điệu: 他太累了，以至于一坐下就睡着了.\n\nLưu ý: (1) vế sau là kết quả khách quan, **không** phải mệnh lệnh, đề nghị hay quyết định chủ quan; (2) vế trước phải thật sự có mức độ cao; (3) khi kết quả là điều xấu, người Trung Quốc còn dùng **以致** (dẫn đến), còn 以至于 trung tính hơn. Ngoài ra, 以至 còn có nghĩa “từ… cho đến…” để nối một phạm vi, nhưng ở trình độ này bạn chỉ cần nắm nghĩa “đến nỗi”.",
+    "examples": [
+      { "t": "他工作太专心，以至于忘了吃午饭。", "py": "Tā gōngzuò tài zhuānxīn, yǐzhìyú wàng le chī wǔfàn.", "vi": "Anh ấy làm việc quá tập trung, đến nỗi quên cả ăn trưa." },
+      { "t": "声音太小了，以至于后排的同学都听不清。", "py": "Shēngyīn tài xiǎo le, yǐzhìyú hòupái de tóngxué dōu tīng bu qīng.", "vi": "Giọng nhỏ quá, đến mức các bạn hàng sau đều nghe không rõ." },
+      { "t": "他最近压力很大，以至于晚上经常睡不着觉。", "py": "Tā zuìjìn yālì hěn dà, yǐzhìyú wǎnshang jīngcháng shuì bu zháo jiào.", "vi": "Dạo này anh ấy áp lực rất lớn, đến nỗi ban đêm thường xuyên không ngủ được." },
+      { "t": "城市发展得非常快，以至于几年没回来的人都认不出它了。", "py": "Chéngshì fāzhǎn de fēicháng kuài, yǐzhìyú jǐ nián méi huílái de rén dōu rèn bu chū tā le.", "vi": "Thành phố phát triển cực nhanh, đến mức người mấy năm không về cũng không nhận ra." },
+      { "t": "她太激动了，以至于说不出话来。", "py": "Tā tài jīdòng le, yǐzhìyú shuō bu chū huà lái.", "vi": "Cô ấy xúc động quá, đến nỗi không nói nên lời." }
+    ],
+    "mistakes": [
+      { "wrong": "他太累了，以至于我们让他休息。", "right": "他太累了，以至于一进门就睡着了。", "note_vi": "Vế sau của 以至于 là kết quả khách quan, không phải quyết định hay đề nghị của người khác." },
+      { "wrong": "雨下得不大，以至于地面都湿了。", "right": "雨下得很大，以至于路上全是水。", "note_vi": "Vế trước phải có mức độ cao thì mới “đến nỗi” dẫn tới kết quả." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "他跑得太快，___我们都追不上。", "options": ["以免", "况且", "以至于", "尽管"], "answer": 2, "explain": "Mức độ cao (太快) → kết quả (追不上) → 以至于." },
+      { "type": "mcq", "q": "他太累了，___一坐下就睡着了。", "options": ["以至于", "以免", "假如", "何况"], "answer": 0, "explain": "“Mệt đến nỗi vừa ngồi xuống đã ngủ”." },
+      { "type": "gap", "q": "他学习太认真，___忘记了时间。", "answer": ["以至于", "以至"], "explain": "Kết quả của việc học quá chăm chú." },
+      { "type": "mcq", "q": "房间里太吵了，___我完全没法集中精力。", "options": ["免得", "固然", "不如", "以至于"], "answer": 3, "explain": "Ồn ào quá mức → hệ quả không tập trung được." },
+      { "type": "gap", "q": "雨___大了，以至于比赛不得不取消。", "answer": ["太", "很", "特别", "非常"], "explain": "Vế trước cần từ chỉ mức độ cao." },
+      { "type": "mcq", "q": "那首歌太好听了，___他听了一遍又一遍。", "options": ["尽管", "以至于", "因为", "如果"], "answer": 1, "explain": "Hay đến mức nghe đi nghe lại." },
+      { "type": "order", "words": ["一坐下", "以至于", "就睡着了", "他太累了"], "answer": "他太累了，以至于一坐下就睡着了。", "vi": "Anh ấy mệt đến nỗi vừa ngồi xuống đã ngủ.", "explain": "Nguyên nhân/mức độ + 以至于 + kết quả." },
+      { "type": "order", "words": ["以至于", "声音", "都听不清", "大家", "太小了"], "answer": "声音太小了，以至于大家都听不清。", "vi": "Giọng nhỏ quá, đến mức mọi người đều nghe không rõ.", "explain": "声音太小了 là mức độ, 大家都听不清 là kết quả." }
+    ]
+  },
+  {
+    "id": "zh-hsk6-jianyu",
+    "level": "HSK6",
+    "title": "鉴于 (xét thấy, căn cứ vào)",
+    "title_native": "鉴于……，……",
+    "summary_vi": "Nêu căn cứ/tình hình rồi đưa ra quyết định, đề nghị hoặc biện pháp (văn bản trang trọng).",
+    "formula": ["鉴于 + tình hình/sự thật，（chủ ngữ）+ 决定/建议/采取…", "鉴于此，……"],
+    "explain_vi": "**鉴于** là giới từ/liên từ rất **trang trọng**, thường gặp trong thông báo, văn bản hành chính, tin tức, văn bản pháp lý. Nghĩa: “xét thấy”, “căn cứ vào”, “xét đến việc”. Nó dùng để nêu **căn cứ** (một sự thật hay tình hình) rồi từ đó đưa ra **quyết định, đề nghị, biện pháp**.\n\nĐặc điểm cần nhớ: (1) 鉴于 luôn đứng **đầu mệnh đề**, trước chủ ngữ, không đặt sau chủ ngữ như 因为; (2) vế sau thường là hành động có chủ ý như 决定、建议、要求、采取、将…；không dùng để dẫn kết quả tự nhiên; (3) sau 鉴于 không dùng 所以. Có thể dùng “鉴于此” (xét thấy như vậy) để mở đầu câu tiếp theo.\n\nSo với **由于**: 由于 chỉ nguyên nhân khách quan, vế sau có thể là kết quả bất kỳ. 鉴于 nhấn mạnh việc người nói **cân nhắc tình hình** trước khi hành động. Trong khẩu ngữ hằng ngày người ta nói 因为 / 看到…… chứ không nói 鉴于, nên bạn chủ yếu dùng nó khi viết báo cáo, thư trang trọng, phát biểu.",
+    "examples": [
+      { "t": "鉴于天气不好，比赛推迟到下周举行。", "py": "Jiànyú tiānqì bù hǎo, bǐsài tuīchí dào xià zhōu jǔxíng.", "vi": "Xét thấy thời tiết xấu, trận đấu hoãn đến tuần sau." },
+      { "t": "鉴于目前的情况，公司决定暂停这个项目。", "py": "Jiànyú mùqián de qíngkuàng, gōngsī juédìng zàntíng zhège xiàngmù.", "vi": "Căn cứ tình hình hiện nay, công ty quyết định tạm dừng dự án này." },
+      { "t": "鉴于他在工作中的突出表现，经理决定给他加薪。", "py": "Jiànyú tā zài gōngzuò zhōng de tūchū biǎoxiàn, jīnglǐ juédìng gěi tā jiāxīn.", "vi": "Xét thấy thành tích nổi bật trong công việc của anh ấy, giám đốc quyết định tăng lương cho anh." },
+      { "t": "鉴于学生人数增加，学校计划再建一栋教学楼。", "py": "Jiànyú xuésheng rénshù zēngjiā, xuéxiào jìhuà zài jiàn yí dòng jiàoxuélóu.", "vi": "Xét thấy số học sinh tăng, nhà trường dự định xây thêm một tòa nhà học." },
+      { "t": "鉴于此，我们建议大家提前做好准备。", "py": "Jiànyú cǐ, wǒmen jiànyì dàjiā tíqián zuòhǎo zhǔnbèi.", "vi": "Xét thấy vậy, chúng tôi đề nghị mọi người chuẩn bị trước." }
+    ],
+    "mistakes": [
+      { "wrong": "鉴于我今天很累，所以我睡着了。", "right": "鉴于我今天很累，我决定早点休息。", "note_vi": "Sau 鉴于 là quyết định/biện pháp có chủ ý, không phải kết quả tự nhiên; cũng không dùng 所以." },
+      { "wrong": "我鉴于他很忙，没有打扰他。", "right": "鉴于他很忙，我没有打扰他。", "note_vi": "鉴于 phải đứng đầu mệnh đề, không đặt sau chủ ngữ." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "___市场需求变化，公司调整了生产计划。", "options": ["固然", "以至于", "况且", "鉴于"], "answer": 3, "explain": "Căn cứ tình hình → quyết định điều chỉnh → 鉴于." },
+      { "type": "mcq", "q": "___现有条件，我们建议先试行一年。", "options": ["鉴于", "况且", "以至于", "可见"], "answer": 0, "explain": "Nêu căn cứ rồi đưa ra đề nghị." },
+      { "type": "gap", "q": "___目前经费有限，学校决定缩小活动规模。", "answer": ["鉴于"], "explain": "Căn cứ (kinh phí hạn chế) + quyết định." },
+      { "type": "mcq", "q": "___天气预报说明天有大雨，活动决定取消。", "options": ["固然", "尽管", "鉴于", "以便"], "answer": 2, "explain": "Xét thấy dự báo mưa → quyết định hủy." },
+      { "type": "gap", "q": "鉴于参加的人很多，主办方决定___会场换到大厅。", "answer": ["把", "将"], "explain": "Sau 鉴于 là quyết định; ở đây dùng câu chữ 把/将." },
+      { "type": "mcq", "q": "___他多次迟到，公司给了他一次警告。", "options": ["况且", "鉴于", "假如", "宁可"], "answer": 1, "explain": "Căn cứ hành vi → biện pháp xử lý." },
+      { "type": "order", "words": ["比赛", "鉴于", "推迟了", "天气不好"], "answer": "鉴于天气不好，比赛推迟了。", "vi": "Xét thấy thời tiết xấu, trận đấu bị hoãn.", "explain": "鉴于 + căn cứ，+ chủ ngữ + hành động." },
+      { "type": "order", "words": ["我们", "提前", "鉴于", "出发", "这种情况", "决定"], "answer": "鉴于这种情况，我们决定提前出发。", "vi": "Xét tình hình này, chúng tôi quyết định xuất phát sớm.", "explain": "鉴于 đứng đầu câu, sau đó là chủ ngữ + 决定 + việc làm." }
+    ]
+  },
+  {
+    "id": "zh-hsk6-bumian",
+    "level": "HSK6",
+    "title": "不免 (khó tránh khỏi, không khỏi)",
+    "title_native": "不免……",
+    "summary_vi": "Chỉ phản ứng hoặc kết quả khó tránh khỏi trong hoàn cảnh đã nêu, nhất là về cảm xúc.",
+    "formula": ["（hoàn cảnh），S + 不免 + 有些/感到/V…", "S + 不免 + 形容词/động từ"],
+    "explain_vi": "**不免** là phó từ, nghĩa “khó tránh khỏi”, “không khỏi”, “khó mà không…”. Người nói nêu một hoàn cảnh ở vế trước, rồi dùng 不免 để nói rằng trong hoàn cảnh đó **một phản ứng, cảm xúc hoặc kết quả nào đó xảy ra là điều tự nhiên**. Tiếng Việt hay nói: “không khỏi lo lắng”, “khó tránh khỏi thất vọng”.\n\nCách dùng: 不免 đứng sau chủ ngữ, **ngay trước động từ hoặc tính từ**, hay đi với 有些、有点、感到、觉得、想起、担心、紧张、失望… Vế trước thường nêu hoàn cảnh (第一次…、听到……、看到……). Đây là điều **đã hoặc đang xảy ra**, rất hợp với miêu tả cảm xúc.\n\nPhân biệt: **难免** (HSK5) vừa là phó từ vừa là tính từ, có thể làm vị ngữ hoặc chủ ngữ (难免出错是正常的); còn 不免 chỉ làm trạng ngữ, không đứng một mình làm vị ngữ. **未免** mang nghĩa “hơi quá”, có ý phê bình (你这样说未免太过分了), không thể thay bằng 不免. 不免 mang sắc thái văn viết nhẹ, dùng cả trong văn nói lịch sự.",
+    "examples": [
+      { "t": "第一次上台演讲，他不免有些紧张。", "py": "Dì-yī cì shàng tái yǎnjiǎng, tā bùmiǎn yǒuxiē jǐnzhāng.", "vi": "Lần đầu lên sân khấu diễn thuyết, anh ấy không khỏi hơi căng thẳng." },
+      { "t": "听到这个坏消息，大家不免感到失望。", "py": "Tīngdào zhège huài xiāoxi, dàjiā bùmiǎn gǎndào shīwàng.", "vi": "Nghe tin xấu này, mọi người khó tránh khỏi thất vọng." },
+      { "t": "孩子一个人在外地，父母不免有些担心。", "py": "Háizi yí ge rén zài wàidì, fùmǔ bùmiǎn yǒuxiē dānxīn.", "vi": "Con ở một mình nơi xa, cha mẹ không khỏi lo lắng." },
+      { "t": "离家这么久，他不免想起了小时候的生活。", "py": "Lí jiā zhème jiǔ, tā bùmiǎn xiǎngqǐ le xiǎoshíhou de shēnghuó.", "vi": "Xa nhà lâu như vậy, anh không khỏi nhớ lại cuộc sống thuở nhỏ." },
+      { "t": "看到别人都升职了，她心里不免有点着急。", "py": "Kàndào biérén dōu shēngzhí le, tā xīnlǐ bùmiǎn yǒudiǎn zháojí.", "vi": "Thấy người khác đều được thăng chức, trong lòng cô không khỏi sốt ruột." }
+    ],
+    "mistakes": [
+      { "wrong": "不免出错是正常的。", "right": "难免出错是正常的。", "note_vi": "不免 chỉ làm trạng ngữ, không làm chủ ngữ/vị ngữ; trường hợp này dùng 难免." },
+      { "wrong": "你这样说不免太过分了。", "right": "你这样说未免太过分了。", "note_vi": "Muốn phê bình “hơi quá” phải dùng 未免, không dùng 不免." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "第一次见到老板，我___有点紧张。", "options": ["不如", "不管", "不免", "不但"], "answer": 2, "explain": "Phản ứng khó tránh trong hoàn cảnh này → 不免." },
+      { "type": "mcq", "q": "听到好朋友要搬走，她心里___有些难过。", "options": ["不免", "不仅", "不论", "不必"], "answer": 0, "explain": "不免 + cảm xúc tự nhiên." },
+      { "type": "gap", "q": "考试成绩不好，他心里___有些失落。", "answer": ["不免"], "explain": "Điểm kém thì khó tránh khỏi hụt hẫng." },
+      { "type": "mcq", "q": "刚到新公司，他___感到有些陌生。", "options": ["不论", "不免", "不必", "不如"], "answer": 1, "explain": "Cảm giác lạ lẫm là điều khó tránh." },
+      { "type": "gap", "q": "面对这么多观众，他不免___紧张。", "answer": ["有些", "有点", "感到", "觉得"], "explain": "不免 thường kèm 有些/有点/感到 + cảm xúc." },
+      { "type": "mcq", "q": "一个人在国外生活，___会想家。", "options": ["不如", "不论", "不必", "不免"], "answer": 3, "explain": "Nhớ nhà là phản ứng khó tránh → 不免." },
+      { "type": "order", "words": ["大家", "有些", "吃惊", "听到", "不免", "这个消息"], "answer": "听到这个消息，大家不免有些吃惊。", "vi": "Nghe tin này, mọi người không khỏi hơi ngạc nhiên.", "explain": "Hoàn cảnh，chủ ngữ + 不免 + 有些 + cảm xúc." },
+      { "type": "order", "words": ["上台", "不免", "他", "有点紧张", "第一次"], "answer": "第一次上台，他不免有点紧张。", "vi": "Lần đầu lên sân khấu, anh ấy không khỏi hơi căng thẳng.", "explain": "不免 đứng sau chủ ngữ, trước cụm cảm xúc." }
+    ]
+  },
+  {
+    "id": "zh-hsk6-shibi",
+    "level": "HSK6",
+    "title": "势必 (ắt sẽ, tất yếu sẽ)",
+    "title_native": "势必……",
+    "summary_vi": "Suy đoán một kết quả tất yếu trong tương lai dựa trên xu thế, tình hình.",
+    "formula": ["S + 势必 + 会/要/将 + V", "如果/一旦 A，势必 B"],
+    "explain_vi": "**势必** là phó từ văn viết, nghĩa “ắt sẽ”, “tất yếu sẽ”, “chắc chắn sẽ dẫn tới”. Người nói căn cứ vào **xu thế hoặc tình hình** để dự đoán một kết quả mà theo lẽ thường **không thể không xảy ra**. Ví dụ: 竞争激烈，不努力势必被淘汰 – đã cạnh tranh gay gắt mà không cố gắng thì ắt bị loại.\n\nCách dùng: 势必 đứng trước động từ, thường đi với 会、要、将、影响、造成、导致、引起. Nó hay nằm ở vế kết quả, đi sau một giả thiết hoặc hiện trạng: “如果/一旦/若……，势必……”. Kết quả có thể xấu hoặc trung tính, nhưng thường là điều đáng lưu ý; sắc thái nghiêm túc, hợp với bình luận, báo chí.\n\nLưu ý: (1) 势必 chỉ nói về **tương lai hoặc kết quả mang tính suy luận**, không dùng cho việc đã xảy ra (không đi với 了 chỉ quá khứ); (2) không dùng cho mệnh lệnh, mong muốn của chủ quan – khi ấy dùng 一定、必须；(3) so với **一定** (khẩu ngữ, nhấn mạnh ý chí/độ chắc chắn), 势必 nhấn vào tính “tất yếu theo quy luật, theo thế”.",
+    "examples": [
+      { "t": "如果不控制污染，环境势必会越来越差。", "py": "Rúguǒ bù kòngzhì wūrǎn, huánjìng shìbì huì yuè lái yuè chà.", "vi": "Nếu không kiểm soát ô nhiễm, môi trường ắt sẽ ngày càng tệ." },
+      { "t": "竞争这么激烈，不努力势必被淘汰。", "py": "Jìngzhēng zhème jīliè, bù nǔlì shìbì bèi táotài.", "vi": "Cạnh tranh gay gắt thế này, không cố gắng ắt sẽ bị đào thải." },
+      { "t": "房价继续上涨，势必影响年轻人的生活。", "py": "Fángjià jìxù shàngzhǎng, shìbì yǐngxiǎng niánqīngrén de shēnghuó.", "vi": "Giá nhà tiếp tục tăng thì tất sẽ ảnh hưởng đến cuộc sống của người trẻ." },
+      { "t": "工作和生活长期失衡，势必会损害健康。", "py": "Gōngzuò hé shēnghuó chángqī shīhéng, shìbì huì sǔnhài jiànkāng.", "vi": "Công việc và cuộc sống mất cân bằng lâu dài thì ắt sẽ hại sức khỏe." },
+      { "t": "公司要扩大规模，势必需要更多的资金。", "py": "Gōngsī yào kuòdà guīmó, shìbì xūyào gèng duō de zījīn.", "vi": "Công ty muốn mở rộng quy mô thì tất yếu cần nhiều vốn hơn." }
+    ],
+    "mistakes": [
+      { "wrong": "昨天他没带伞，势必被淋湿了。", "right": "要是他不带伞，势必会被淋湿。", "note_vi": "势必 dùng để suy đoán kết quả tương lai/giả thiết, không dùng cho sự việc đã xảy ra." },
+      { "wrong": "你势必要来参加会议！", "right": "你一定要来参加会议！", "note_vi": "Yêu cầu, mệnh lệnh dùng 一定/必须; 势必 chỉ dùng để suy đoán hệ quả tất yếu." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "如果不改进服务，客人___会越来越少。", "options": ["固然", "势必", "鉴于", "以至于"], "answer": 1, "explain": "Giả thiết → kết quả tất yếu → 势必." },
+      { "type": "mcq", "q": "成本不断上升，产品价格___要提高。", "options": ["固然", "鉴于", "况且", "势必"], "answer": 3, "explain": "Theo xu thế, giá ắt phải tăng." },
+      { "type": "gap", "q": "政策一变，市场___发生变化。", "answer": ["势必"], "explain": "Chính sách đổi thì thị trường tất yếu đổi." },
+      { "type": "mcq", "q": "长期熬夜，___影响身体健康。", "options": ["势必", "固然", "鉴于", "况且"], "answer": 0, "explain": "Hệ quả tất yếu của việc thức khuya." },
+      { "type": "gap", "q": "___你一直这样拖下去，势必会耽误大事。", "answer": ["如果", "要是", "假如", "倘若", "若"], "explain": "势必 hay đi sau một giả thiết như 如果/要是." },
+      { "type": "mcq", "q": "一旦出现问题，后果___很严重。", "options": ["固然", "况且", "势必", "鉴于"], "answer": 2, "explain": "Giả thiết 一旦 + kết quả tất yếu 势必." },
+      { "type": "order", "words": ["势必", "落后", "不努力学习", "会"], "answer": "不努力学习，势必会落后。", "vi": "Không chăm học thì ắt sẽ tụt lại.", "explain": "Giả thiết/ hiện trạng + 势必 + 会 + kết quả." },
+      { "type": "order", "words": ["势必", "生活", "房价", "大家的", "上涨", "影响"], "answer": "房价上涨势必影响大家的生活。", "vi": "Giá nhà tăng ắt sẽ ảnh hưởng đến cuộc sống của mọi người.", "explain": "势必 đứng trước động từ 影响." }
+    ]
+  },
+  {
+    "id": "zh-hsk6-kejian",
+    "level": "HSK6",
+    "title": "可见 (có thể thấy, đủ thấy)",
+    "title_native": "……，可见……",
+    "summary_vi": "Từ sự việc ở vế trước rút ra một nhận định, kết luận ở vế sau.",
+    "formula": ["A，可见 + B（nhận định）", "A，由此可见，B"],
+    "explain_vi": "**可见** là liên từ dùng để **rút ra kết luận hoặc nhận định** từ sự việc đã nêu: “có thể thấy”, “đủ thấy”, “như vậy đủ biết”. Vế trước là căn cứ (một sự thật, hiện tượng), vế sau là điều người nói suy ra. Cấu trúc đầy đủ hơn là **由此可见** (từ đó có thể thấy).\n\nCách dùng: 可见 đứng đầu vế sau, thường có dấu phẩy trước nó: “他半夜还在改方案，可见他很重视这个项目”. Phần sau 可见 là một **nhận định, đánh giá**, không phải một hành động hay quyết định.\n\nPhân biệt: so với **所以** (nối nguyên nhân – kết quả thực tế: 下雨了，所以我带伞), 可见 chỉ nối **căn cứ – suy luận**; kết luận thường là cách nhìn của người nói. So với **鉴于** (căn cứ → quyết định/biện pháp), 可见 là căn cứ → nhận định. Trật tự phải là căn cứ trước, kết luận sau; không đảo ngược. 可见 dùng được cả văn nói lẫn văn viết, hay xuất hiện trong bài luận, bình luận để củng cố lập luận.",
+    "examples": [
+      { "t": "他半夜还在改方案，可见他对这次项目非常重视。", "py": "Tā bànyè hái zài gǎi fāng'àn, kějiàn tā duì zhè cì xiàngmù fēicháng zhòngshì.", "vi": "Nửa đêm anh ấy vẫn sửa phương án, đủ thấy anh rất coi trọng dự án lần này." },
+      { "t": "这家店天天排长队，可见味道确实不错。", "py": "Zhè jiā diàn tiāntiān pái cháng duì, kějiàn wèidào quèshí búcuò.", "vi": "Quán này ngày nào cũng xếp hàng dài, đủ thấy hương vị quả thật không tệ." },
+      { "t": "连小孩子都明白这个道理，可见它并不难懂。", "py": "Lián xiǎo háizi dōu míngbai zhège dàolǐ, kějiàn tā bìng bù nán dǒng.", "vi": "Ngay cả trẻ con cũng hiểu đạo lý này, đủ thấy nó chẳng khó hiểu." },
+      { "t": "十年过去了，他还记得我的生日，由此可见，他是个重感情的人。", "py": "Shí nián guòqù le, tā hái jìde wǒ de shēngrì, yóucǐ kějiàn, tā shì ge zhòng gǎnqíng de rén.", "vi": "Mười năm trôi qua anh vẫn nhớ sinh nhật tôi, từ đó thấy anh là người trọng tình cảm." },
+      { "t": "参加活动的人越来越多，可见环保观念已经深入人心。", "py": "Cānjiā huódòng de rén yuè lái yuè duō, kějiàn huánbǎo guānniàn yǐjīng shēnrù rénxīn.", "vi": "Người tham gia hoạt động ngày càng đông, đủ thấy ý thức bảo vệ môi trường đã ăn sâu vào lòng người." }
+    ],
+    "mistakes": [
+      { "wrong": "天气很冷，可见我们穿厚衣服。", "right": "天气很冷，所以我们穿厚衣服。", "note_vi": "可见 dẫn một nhận định rút ra, không dùng cho kết quả hành động; dùng 所以." },
+      { "wrong": "可见他很忙，他每天加班。", "right": "他每天加班，可见他很忙。", "note_vi": "Căn cứ nêu trước, kết luận nêu sau 可见; không đảo ngược." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "他每天最早到公司，___他工作很认真。", "options": ["固然", "况且", "可见", "不免"], "answer": 2, "explain": "Từ việc đến sớm suy ra nhận định → 可见." },
+      { "type": "mcq", "q": "考试前他复习了一个月，___他很重视这次考试。", "options": ["可见", "势必", "鉴于", "以至于"], "answer": 0, "explain": "Căn cứ → nhận định." },
+      { "type": "gap", "q": "游客一年比一年多，___这里的旅游业发展得很快。", "answer": ["可见", "由此可见"], "explain": "Số khách tăng là căn cứ để rút ra nhận định." },
+      { "type": "mcq", "q": "这本书卖了几百万册，由此___它多么受欢迎。", "options": ["势必", "可见", "固然", "况且"], "answer": 1, "explain": "Cụm cố định 由此可见." },
+      { "type": "gap", "q": "那家店天天排队，可见味道___不错。", "answer": ["确实", "的确", "一定", "真的"], "explain": "Sau 可见 là nhận định, thường có phó từ khẳng định như 确实/的确." },
+      { "type": "mcq", "q": "这个问题连老师都答不出来，___它有多难。", "options": ["势必", "况且", "固然", "可见"], "answer": 3, "explain": "Ngay cả thầy cô cũng không trả lời được → đủ thấy khó." },
+      { "type": "order", "words": ["可见", "天天", "不错", "排长队", "味道"], "answer": "天天排长队，可见味道不错。", "vi": "Ngày nào cũng xếp hàng dài, đủ thấy hương vị không tệ.", "explain": "Căn cứ + 可见 + nhận định." },
+      { "type": "order", "words": ["就来了", "可见", "他", "他很重视", "这么早"], "answer": "他这么早就来了，可见他很重视。", "vi": "Anh ấy đã đến sớm như vậy, đủ thấy anh ấy rất coi trọng.", "explain": "Sự việc làm căn cứ ở trước, 可见 + kết luận ở sau." }
+    ]
+  },
+  {
+    "id": "zh-hsk6-tangruo-yidan",
+    "level": "HSK6",
+    "title": "倘若 / 一旦…就… (nếu như / một khi)",
+    "title_native": "倘若……就……；一旦……就……",
+    "summary_vi": "Hai cách nói giả thiết văn viết: 倘若 là “nếu”, 一旦 là “một khi… thì lập tức…”.",
+    "formula": ["倘若 + giả thiết（的话），（就/那么）+ kết quả", "一旦 + sự việc，就/便 + kết quả"],
+    "explain_vi": "**倘若** có nghĩa gần như **如果** nhưng trang trọng, giàu tính văn viết hơn; thường dùng cho giả thiết chưa chắc xảy ra hoặc nhằm lịch sự. Sau giả thiết có thể thêm 的话 ở cuối vế, vế sau hay có 就、那么、便: 倘若明天下雨，运动会就改到下周. 倘若 đứng đầu vế giả thiết; không dùng chồng cùng 如果 trong một vế.\n\n**一旦** nghĩa là “một khi”, “hễ mà”. Nó nêu một sự việc **ít khi xảy ra nhưng nếu xảy ra thì hệ quả đến ngay và thường nghiêm trọng**, nên vế sau thường có 就 hoặc 便, kết quả hay là điều quan trọng, tiêu cực hoặc cần cảnh giác: 一旦发现问题，就要马上报告. 一旦 có thể đứng sau chủ ngữ (数据一旦丢失…). Nó hay đi với 了 để chỉ sự việc đã hoàn thành: 一旦养成了坏习惯，就很难改掉.\n\nSo sánh: **如果/要是** thiên về khẩu ngữ, trung tính; **倘若** là giả thiết trang trọng; **一旦** thêm sắc thái “một khi đã vậy thì”. 一旦 dùng cho giả thiết tương lai hoặc quy luật chung, không dùng cho một việc đã xảy ra trong quá khứ cụ thể.",
+    "examples": [
+      { "t": "倘若明天下雨，运动会就改到下周。", "py": "Tǎngruò míngtiān xià yǔ, yùndònghuì jiù gǎi dào xià zhōu.", "vi": "Nếu ngày mai mưa, hội thao sẽ dời sang tuần sau." },
+      { "t": "倘若你有困难，随时可以来找我。", "py": "Tǎngruò nǐ yǒu kùnnan, suíshí kěyǐ lái zhǎo wǒ.", "vi": "Nếu bạn gặp khó khăn, bất cứ lúc nào cũng có thể tìm tôi." },
+      { "t": "倘若他不同意的话，我们就再想别的办法。", "py": "Tǎngruò tā bù tóngyì dehuà, wǒmen jiù zài xiǎng bié de bànfǎ.", "vi": "Nếu anh ấy không đồng ý thì chúng ta lại nghĩ cách khác." },
+      { "t": "一旦发现问题，就要马上报告。", "py": "Yídàn fāxiàn wèntí, jiù yào mǎshàng bàogào.", "vi": "Một khi phát hiện vấn đề, phải báo cáo ngay." },
+      { "t": "一旦养成了坏习惯，就很难改掉。", "py": "Yídàn yǎngchéng le huài xíguàn, jiù hěn nán gǎidiào.", "vi": "Một khi đã hình thành thói quen xấu thì rất khó bỏ." },
+      { "t": "一旦机会错过，就不会再来了。", "py": "Yídàn jīhuì cuòguò, jiù bú huì zài lái le.", "vi": "Một khi bỏ lỡ cơ hội thì sẽ không quay lại nữa." }
+    ],
+    "mistakes": [
+      { "wrong": "一旦昨天下雨，比赛就取消了。", "right": "一旦下雨，比赛就取消。", "note_vi": "一旦 dùng cho giả thiết tương lai/quy luật chung, không dùng cho sự việc cụ thể đã xảy ra." },
+      { "wrong": "倘若如果你同意，我们就开始。", "right": "倘若你同意，我们就开始。", "note_vi": "倘若 và 如果 cùng nghĩa, không dùng chồng lên nhau." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "___明天天气不好，我们就不去爬山了。", "options": ["固然", "况且", "势必", "倘若"], "answer": 3, "explain": "Giả thiết trang trọng → 倘若." },
+      { "type": "mcq", "q": "这种病___发作，就需要马上送医院。", "options": ["况且", "一旦", "可见", "不免"], "answer": 1, "explain": "“Một khi phát bệnh thì phải đưa đi viện ngay” → 一旦." },
+      { "type": "gap", "q": "一旦发现火情，___要立即拨打119。", "answer": ["就", "便"], "explain": "Sau 一旦 vế kết quả thường có 就/便." },
+      { "type": "mcq", "q": "___你改变了主意，请随时告诉我。", "options": ["倘若", "鉴于", "可见", "以至于"], "answer": 0, "explain": "Giả thiết lịch sự → 倘若." },
+      { "type": "gap", "q": "___你不同意的话，我们就再商量。", "answer": ["倘若", "如果", "要是", "假如"], "explain": "Giả thiết có 的话 và 就 ở vế sau." },
+      { "type": "mcq", "q": "机会___错过，就很难再有了。", "options": ["固然", "况且", "一旦", "可见"], "answer": 2, "explain": "一旦 + hành động, 就 + hệ quả khó đảo ngược." },
+      { "type": "order", "words": ["就", "取消", "一旦", "比赛", "下雨"], "answer": "一旦下雨，比赛就取消。", "vi": "Hễ mưa là trận đấu bị hủy.", "explain": "一旦 + giả thiết，chủ ngữ + 就 + kết quả." },
+      { "type": "order", "words": ["你有困难", "找我", "倘若", "可以", "随时"], "answer": "倘若你有困难，随时可以找我。", "vi": "Nếu bạn gặp khó khăn, lúc nào cũng có thể tìm tôi.", "explain": "倘若 + giả thiết，rồi tới lời đề nghị." }
+    ]
+  }
+]

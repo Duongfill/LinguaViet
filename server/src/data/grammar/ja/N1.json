@@ -1,0 +1,398 @@
+[
+  {
+    "id": "ja-n1-wo-motte",
+    "level": "N1",
+    "title": "Bằng / kể từ (trang trọng)",
+    "title_native": "〜をもって",
+    "summary_vi": "Dùng để chỉ phương tiện (bằng, với) hoặc mốc thời điểm kết thúc/bắt đầu (kể từ, đến hết) trong văn phong rất trang trọng.",
+    "formula": ["N(phương tiện・tấm lòng) + をもって + V", "N(thời điểm) + をもって + 終了・閉店・開始…", "N + をもってしても + V-ない"],
+    "explain_vi": "「をもって」là cách nói cứng, trang trọng của 「で」, thường gặp trong thông báo, thư từ công việc, diễn văn.\n\n**Nghĩa 1: phương tiện, cách thức.** Nghĩa là 'bằng, với'. Ví dụ 書面をもって通知する (thông báo bằng văn bản), 誠意をもって対応する (ứng xử với thành ý). Trong đời thường ta chỉ cần nói 「で」, nhưng trong văn bản chính thức thì 「をもって」nghe lịch sự và nghiêm túc hơn.\n\n**Nghĩa 2: mốc thời điểm.** Danh từ chỉ thời điểm + をもって nghĩa là 'kể từ / đến hết thời điểm đó thì...', thường đi với các động từ kết thúc hoặc bắt đầu như 終了する, 閉店する, 廃止する, 開始する. Ví dụ 本日をもって閉店します = 'Kể từ hôm nay cửa hàng đóng cửa'. Trong thông báo rất trang trọng bạn sẽ gặp dạng 「〜をもちまして」, đây là cách nói khiêm nhường hơn của 「〜をもって」.\n\n**Mở rộng: 〜をもってしても.** Mẫu này nghĩa là 'ngay cả bằng... cũng (không thể)'. Ví dụ 私の力をもってしても解決できなかった. Vế sau thường là phủ định.\n\nLưu ý: không dùng 「をもって」cho công cụ cụ thể hằng ngày như 'viết bằng bút', 'ăn bằng đũa'. Trường hợp đó dùng 「で」.",
+    "examples": [
+      { "t": "本日をもって、当店は閉店いたします。", "r": "ほんじつをもって、とうてんはへいてんいたします。", "vi": "Kể từ hôm nay, cửa hàng chúng tôi xin đóng cửa." },
+      { "t": "選考の結果は、書面をもってお知らせします。", "r": "せんこうのけっかは、しょめんをもっておしらせします。", "vi": "Kết quả tuyển chọn sẽ được thông báo bằng văn bản." },
+      { "t": "受付は午後五時をもって終了とさせていただきます。", "r": "うけつけはごごごじをもってしゅうりょうとさせていただきます。", "vi": "Việc tiếp nhận sẽ kết thúc vào lúc 5 giờ chiều." },
+      { "t": "お客様のご要望には、誠意をもって対応いたします。", "r": "おきゃくさまのごようぼうには、せいいをもってたいおういたします。", "vi": "Chúng tôi sẽ đáp ứng yêu cầu của quý khách bằng thành ý." },
+      { "t": "彼は実力をもって、周囲の疑いを晴らした。", "r": "かれはじつりょくをもって、しゅういのうたがいをはらした。", "vi": "Anh ấy đã dùng thực lực để xóa tan sự nghi ngờ của mọi người." },
+      { "t": "今回の問題は、私の力をもってしても解決できなかった。", "r": "こんかいのもんだいは、わたしのちからをもってしてもかいけつできなかった。", "vi": "Vấn đề lần này, ngay cả bằng sức của tôi cũng không giải quyết được." }
+    ],
+    "mistakes": [
+      { "wrong": "箸をもって食べます。", "right": "箸で食べます。", "note_vi": "「をもって」là văn viết trang trọng, không dùng cho công cụ hằng ngày như đũa, bút. Dùng 「で」." },
+      { "wrong": "昨日をもって閉店したいと思います。", "right": "本日をもって閉店いたします。", "note_vi": "Mốc thời điểm + をもって dùng để thông báo chính thức việc kết thúc/bắt đầu từ mốc đó; không dùng cho mong muốn cá nhân kiểu 〜たいと思います." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "受付は本日午後六時 ___ 終了いたします。", "options": ["をもって", "について", "にとって", "によって"], "answer": 0, "explain": "Mốc thời điểm kết thúc dùng N + をもって." },
+      { "type": "mcq", "q": "合否の結果は、書面 ___ ご通知します。", "options": ["に対して", "について", "をもって", "として"], "answer": 2, "explain": "Phương tiện thông báo (bằng văn bản) dùng をもって." },
+      { "type": "mcq", "q": "私の力 ___ しても、この問題は解決できなかった。", "options": ["にとって", "について", "によって", "をもって"], "answer": 3, "explain": "Mẫu 〜をもってしても = ngay cả bằng...; vế sau phủ định." },
+      { "type": "mcq", "q": "以上 ___ 、本日の会議を終了いたします。", "options": ["に関して", "をもって", "にあたって", "において"], "answer": 1, "explain": "Câu kết thúc trang trọng: 以上をもって、〜を終了いたします." },
+      { "type": "gap", "q": "本日 ___ 、営業を終了いたします。", "answer": ["をもって", "をもちまして"], "explain": "Mốc thời điểm kết thúc: をもって (khiêm nhường hơn: をもちまして)." },
+      { "type": "gap", "q": "お客様のご意見には、誠意 ___ 対応いたします。", "answer": ["をもって"], "explain": "誠意をもって = với thành ý." },
+      { "type": "gap", "q": "当社は今月末 ___ 、この商品の販売を終了します。", "answer": ["をもって", "をもちまして"], "explain": "今月末 là mốc thời điểm, đi với をもって." },
+      { "type": "order", "words": ["閉店", "当店は", "本日", "をもって", "します"], "answer": "当店は本日をもって閉店します。", "vi": "Cửa hàng chúng tôi sẽ đóng cửa kể từ hôm nay.", "explain": "Cấu trúc: 当店は + 本日をもって + 閉店します." },
+      { "type": "order", "words": ["お知らせ", "書面", "結果は", "をもって", "します"], "answer": "結果は書面をもってお知らせします。", "vi": "Kết quả sẽ được thông báo bằng văn bản.", "explain": "書面をもって đứng trước động từ thông báo." },
+      { "type": "order", "words": ["なかった", "私の力", "この", "しても", "解決", "問題は", "でき", "をもって"], "answer": "この問題は私の力をもってしても解決できなかった。", "vi": "Vấn đề này, ngay cả bằng sức của tôi cũng không giải quyết được.", "explain": "Dạng 〜をもってしても đi với vế sau phủ định." }
+    ]
+  },
+  {
+    "id": "ja-n1-nbakari",
+    "level": "N1",
+    "title": "Như thể sắp... đến nơi",
+    "title_native": "〜んばかり",
+    "summary_vi": "Diễn tả trạng thái, vẻ ngoài như thể sắp làm gì đó (dù thực tế chưa làm), thường dùng văn viết, miêu tả sinh động.",
+    "formula": ["V-ない(bỏ い) + んばかり + だ / に / の + N", "する → せんばかり", "「…」と言わんばかり(に)"],
+    "explain_vi": "「んばかり」gắn sau động từ thể ない, bỏ 「ない」 rồi thêm 「んばかり」. Ví dụ 泣かない → 泣か + んばかり = 泣かんばかり ('như thể sắp khóc'). Riêng する đổi thành せんばかり (không phải しんばかり). Với 来る là 来(こ)んばかり hiếm gặp.\n\n**Ý nghĩa.** Mẫu này miêu tả vẻ ngoài, thái độ hay mức độ cực đoan 'trông như thể sắp / gần như là...' dù sự việc chưa thực sự xảy ra. Người nói quan sát và dùng hình ảnh để nhấn mạnh. Ví dụ 割れんばかりの拍手 là 'tràng pháo tay như muốn nứt vỡ cả hội trường'.\n\n**Hai cách dùng hay gặp.**\n1. 〜んばかりの + N / 〜んばかりに + V: 泣かんばかりの顔, 飛び上がらんばかりに喜ぶ.\n2. 「〜」と言わんばかり(に): 'như muốn nói rằng...'. Dùng khi ai đó không nói ra nhưng thái độ, ánh mắt cho thấy họ muốn nói vậy. Ví dụ 「帰れ」と言わんばかりの態度.\n\nĐây là cách nói văn viết, thường thấy trong tiểu thuyết và báo chí. Chủ ngữ thường là người thứ ba, khó dùng để nói về cảm xúc của chính mình. Đừng nhầm với 〜ばかり (vừa mới, chỉ toàn) ở N4.",
+    "examples": [
+      { "t": "彼女は今にも泣かんばかりの顔で謝った。", "r": "かのじょはいまにもなかんばかりのかおであやまった。", "vi": "Cô ấy xin lỗi với vẻ mặt như sắp khóc đến nơi." },
+      { "t": "会場は割れんばかりの拍手に包まれた。", "r": "かいじょうはわれんばかりのはくしゅにつつまれた。", "vi": "Hội trường tràn ngập tiếng vỗ tay như muốn vỡ tung." },
+      { "t": "彼は今にも殴りかからんばかりの勢いで怒鳴った。", "r": "かれはいまにもなぐりかからんばかりのいきおいでどなった。", "vi": "Anh ta quát tháo với khí thế như sắp lao vào đánh." },
+      { "t": "母は「早く帰りなさい」と言わんばかりに時計を見た。", "r": "ははは「はやくかえりなさい」といわんばかりにとけいをみた。", "vi": "Mẹ nhìn đồng hồ như muốn nói 'về sớm đi'." },
+      { "t": "子どもたちは飛び上がらんばかりに喜んだ。", "r": "こどもたちはとびあがらんばかりによろこんだ。", "vi": "Bọn trẻ vui mừng như muốn nhảy cẫng lên." },
+      { "t": "店員は「もう閉店だ」と言わんばかりに椅子を片づけ始めた。", "r": "てんいんは「もうへいてんだ」といわんばかりにいすをかたづけはじめた。", "vi": "Nhân viên bắt đầu dọn ghế như muốn nói 'đã đóng cửa rồi'." }
+    ],
+    "mistakes": [
+      { "wrong": "彼は爆発しんばかりに怒った。", "right": "彼は爆発せんばかりに怒った。", "note_vi": "する chia thành せんばかり, không phải しんばかり." },
+      { "wrong": "泣きんばかりの顔", "right": "泣かんばかりの顔", "note_vi": "Phải dùng thể ない (泣か), không dùng thể ます (泣き)." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "彼女は今にも泣き出 ___ 顔をしていた。", "options": ["さんばかりの", "しんばかりの", "せんばかりの", "すんばかりの"], "answer": 0, "explain": "泣き出す → thể ない 泣き出さ + んばかり." },
+      { "type": "mcq", "q": "会場は割れ ___ の拍手に包まれた。", "options": ["たばかり", "んばかり", "そうばかり", "ながらも"], "answer": 1, "explain": "割れない → 割れ + んばかり." },
+      { "type": "mcq", "q": "彼は「ほっといてくれ」と ___ 態度で部屋を出た。", "options": ["言うばかりの", "言ったばかりの", "言いばかりの", "言わんばかりの"], "answer": 3, "explain": "「〜」と言わんばかりの + N: 'như muốn nói'." },
+      { "type": "mcq", "q": "母は「早く寝なさい」 ___ に私をにらんだ。", "options": ["と言うよう", "と言ったそう", "と言わんばかり", "と言うため"], "answer": 2, "explain": "と言わんばかりに = như muốn nói rằng..." },
+      { "type": "gap", "q": "子どもたちは飛び上がら ___ に喜んだ。", "answer": ["んばかり"], "explain": "飛び上がらない → 飛び上がら + んばかりに." },
+      { "type": "gap", "q": "彼は爆発 ___ ばかりの怒りようだった。", "answer": ["せん"], "explain": "する → せんばかり." },
+      { "type": "gap", "q": "彼女は「帰って」と言わ ___ に、ドアを開けた。", "answer": ["んばかり"], "explain": "言わ + んばかりに: như muốn nói 'về đi'." },
+      { "type": "order", "words": ["包まれた", "の", "会場は", "拍手に", "割れ", "んばかり"], "answer": "会場は割れんばかりの拍手に包まれた。", "vi": "Hội trường tràn ngập tràng vỗ tay như muốn vỡ tung.", "explain": "割れんばかりの + 拍手 (bổ nghĩa danh từ)." },
+      { "type": "order", "words": ["謝った", "顔で", "彼女は", "んばかり", "泣か", "の"], "answer": "彼女は泣かんばかりの顔で謝った。", "vi": "Cô ấy xin lỗi với vẻ mặt như sắp khóc.", "explain": "泣かんばかりの顔 là cụm bổ nghĩa cho 顔." },
+      { "type": "order", "words": ["椅子を", "始めた", "もう", "閉店だと", "店員は", "言わ", "んばかりに", "片づけ"], "answer": "店員は「もう閉店だ」と言わんばかりに椅子を片づけ始めた。", "vi": "Nhân viên bắt đầu dọn ghế như muốn nói 'đóng cửa rồi'.", "explain": "「…」と言わんばかりに + hành động thể hiện thái độ." }
+    ]
+  },
+  {
+    "id": "ja-n1-nagara-mo",
+    "level": "N1",
+    "title": "Tuy... nhưng (đối lập)",
+    "title_native": "〜ながらも",
+    "summary_vi": "Diễn tả hai sự việc đối lập của cùng một chủ thể: 'tuy... nhưng vẫn...', trang trọng hơn 〜けれど.",
+    "formula": ["V-ます(bỏ ます) + ながらも", "Aい + ながらも", "Aな(語幹) / N + ながらも"],
+    "explain_vi": "「ながらも」nối hai vế có nội dung trái ngược nhau, nghĩa là 'tuy... nhưng (vẫn)...'. Chủ ngữ của hai vế thường là một. Đây là cách nói văn viết, nghe trang trọng hơn 「けれども」「のに」.\n\n**Cách nối.**\n- Động từ: thể ます bỏ ます. Ví dụ 知りながらも (tuy biết), 思いながらも (tuy nghĩ rằng). Thường đi với động từ chỉ trạng thái như 知る, 思う, ある, いる (いながらも).\n- Tính từ い: giữ nguyên い. 狭いながらも.\n- Tính từ な và danh từ: bỏ だ. 不器用ながらも, 子どもながらも. Không nói 不器用だながらも.\n\n**Phân biệt với 〜ながら (N4).** 「ながら」chỉ hai hành động xảy ra đồng thời (ご飯を食べながらテレビを見る). 「ながらも」chỉ sự đối lập, không dùng để chỉ hành động song song. Tuy vậy 「ながら」 cũng có nghĩa đối lập, 「ながらも」 chỉ nhấn mạnh thêm ý đó.\n\nVế sau thường là đánh giá tích cực hoặc hành động vượt qua hoàn cảnh bất lợi ở vế trước: 小さいながらも立派な会社 ('tuy nhỏ nhưng là công ty đáng nể').",
+    "examples": [
+      { "t": "彼は体が弱いながらも、毎日一生懸命働いている。", "r": "かれはからだがよわいながらも、まいにちいっしょうけんめいはたらいている。", "vi": "Tuy sức khỏe yếu nhưng anh ấy vẫn làm việc chăm chỉ mỗi ngày." },
+      { "t": "狭いながらも、楽しいわが家です。", "r": "せまいながらも、たのしいわがやです。", "vi": "Tuy chật hẹp nhưng đây là ngôi nhà vui vẻ của tôi." },
+      { "t": "失敗すると知りながらも、彼は挑戦をやめなかった。", "r": "しっぱいするとしりながらも、かれはちょうせんをやめなかった。", "vi": "Dù biết sẽ thất bại, anh ấy vẫn không từ bỏ thử thách." },
+      { "t": "彼女は忙しいながらも、ボランティア活動を続けている。", "r": "かのじょはいそがしいながらも、ボランティアかつどうをつづけている。", "vi": "Tuy bận rộn nhưng cô ấy vẫn tiếp tục hoạt động tình nguyện." },
+      { "t": "不器用ながらも、心のこもった手紙を書いた。", "r": "ぶきようながらも、こころのこもったてがみをかいた。", "vi": "Tuy vụng về nhưng tôi đã viết một lá thư đầy tâm huyết." },
+      { "t": "小さいながらも、この会社は世界に誇れる技術を持っている。", "r": "ちいさいながらも、このかいしゃはせかいにほこれるぎじゅつをもっている。", "vi": "Tuy nhỏ nhưng công ty này có công nghệ đáng tự hào với thế giới." }
+    ],
+    "mistakes": [
+      { "wrong": "不器用だながらも頑張った。", "right": "不器用ながらも頑張った。", "note_vi": "Tính từ な và danh từ bỏ 「だ」 trước ながらも." },
+      { "wrong": "彼は歩きながらも、スマホを見ている。", "right": "彼は歩きながら、スマホを見ている。", "note_vi": "Hai hành động song song thì dùng ながら, không dùng ながらも (chỉ đối lập)." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "狭い ___ 、居心地のいい部屋だ。", "options": ["ながらも", "とともに", "ばかりに", "ものなら"], "answer": 0, "explain": "'Tuy chật nhưng...' dùng ながらも." },
+      { "type": "mcq", "q": "彼は不器用 ___ 、一生懸命に作った。", "options": ["だながらも", "なのながらも", "のながらも", "ながらも"], "answer": 3, "explain": "Tính từ な bỏ だ: 不器用ながらも." },
+      { "type": "mcq", "q": "彼は真実を知り ___ 、何も言わなかった。", "options": ["ばかりも", "ながらも", "ようにも", "ところも"], "answer": 1, "explain": "知りながらも = tuy biết (nhưng)..." },
+      { "type": "mcq", "q": "体は小さい ___ 、力は誰にも負けない。", "options": ["だけに", "おかげで", "ながらも", "せいで"], "answer": 2, "explain": "Hai vế đối lập: nhỏ >< khỏe, dùng ながらも." },
+      { "type": "gap", "q": "彼は貧しい ___ 、明るく生きている。", "answer": ["ながらも"], "explain": "Tính từ い + ながらも." },
+      { "type": "gap", "q": "不器用 ___ 、心のこもった手紙を書いた。", "answer": ["ながらも"], "explain": "Tính từ な (bỏ だ) + ながらも." },
+      { "type": "gap", "q": "悪いと知り ___ 、嘘をついてしまった。", "answer": ["ながらも"], "explain": "V-ます bỏ ます + ながらも." },
+      { "type": "order", "words": ["この", "会社は", "小さい", "ながらも", "優れた", "技術を", "持っている"], "answer": "小さいながらも、この会社は優れた技術を持っている。", "vi": "Tuy nhỏ nhưng công ty này có công nghệ xuất sắc.", "explain": "Vế đầu 小さいながらも, vế sau đánh giá tích cực." },
+      { "type": "order", "words": ["毎日", "彼女は", "運動して", "いる", "ながらも", "忙しい"], "answer": "彼女は忙しいながらも毎日運動している。", "vi": "Tuy bận nhưng cô ấy vẫn tập thể dục mỗi ngày.", "explain": "忙しいながらも + hành động vượt qua khó khăn." },
+      { "type": "order", "words": ["やめ", "なかった", "挑戦を", "彼は", "知り", "ながらも", "失敗", "すると"], "answer": "失敗すると知りながらも彼は挑戦をやめなかった。", "vi": "Dù biết sẽ thất bại, anh ấy vẫn không bỏ cuộc.", "explain": "知りながらも: tuy biết nhưng vẫn..." }
+    ]
+  },
+{
+    "id": "ja-n1-to-iedomo",
+    "level": "N1",
+    "title": "Dù là... cũng (không ngoại lệ)",
+    "title_native": "〜といえども",
+    "summary_vi": "Nhượng bộ trang trọng: 'dù là..., ngay cả... thì cũng (vẫn)...', để nói không có ngoại lệ.",
+    "formula": ["N + といえども", "普通形(Aい・V) + といえども", "いくら + A / V + といえども"],
+    "explain_vi": "「といえども」nghĩa là 'dù là..., cho dù... đi nữa thì cũng...'. Vế trước nêu một người, một thân phận, một điều kiện nghe có vẻ là ngoại lệ hoặc đặc biệt, vế sau khẳng định rằng điều đó vẫn không thay đổi kết luận. Đây là văn viết, cứng và mang sắc thái nhấn mạnh.\n\n**Cách nối.**\n- Danh từ: N + といえども (không dùng だ). 社長といえども, 子どもといえども.\n- Tính từ い / động từ: dạng thường + といえども. 忙しいといえども, 知っているといえども.\n- Tính từ な: 'Aな + といえども' (bỏ だ). 有名といえども.\n- Hay đi với 「いくら」「たとえ」「どんなに」 để nhấn mạnh: いくら安いといえども.\n\n**Điểm cần chú ý.** Vế sau thường là một nguyên tắc chung, một đánh giá, một sự thật 'không ngoại lệ': 法律には従わなければならない, 間違えることはある, 責任がある. Vế sau KHÔNG nêu kết quả bình thường, thuận chiều với vế trước. Ví dụ không nói プロといえども上手だ (vì 'giỏi' là điều đương nhiên).\n\nGần nghĩa với 「であっても」「でも」nhưng trang trọng hơn. Cách nói này thường dùng trong văn nghị luận, báo chí, diễn thuyết, khi muốn nhấn mạnh 'ngay cả ... thì cũng không được/không tránh khỏi'.",
+    "examples": [
+      { "t": "社長といえども、法律には従わなければならない。", "r": "しゃちょうといえども、ほうりつにはしたがわなければならない。", "vi": "Dù là giám đốc thì cũng phải tuân theo pháp luật." },
+      { "t": "子どもといえども、自分の行動に責任を持つべきだ。", "r": "こどもといえども、じぶんのこうどうにせきにんをもつべきだ。", "vi": "Dù là trẻ con cũng nên chịu trách nhiệm về hành động của mình." },
+      { "t": "いくら忙しいといえども、家族との時間は大切にしたい。", "r": "いくらいそがしいといえども、かぞくとのじかんはたいせつにしたい。", "vi": "Dù bận đến đâu, tôi vẫn muốn trân trọng thời gian bên gia đình." },
+      { "t": "専門家といえども、間違えることはある。", "r": "せんもんかといえども、まちがえることはある。", "vi": "Ngay cả chuyên gia cũng có lúc sai." },
+      { "t": "小さな会社といえども、社員の生活を守る責任がある。", "r": "ちいさなかいしゃといえども、しゃいんのせいかつをまもるせきにんがある。", "vi": "Dù là công ty nhỏ cũng có trách nhiệm bảo vệ đời sống nhân viên." },
+      { "t": "たとえ友人といえども、秘密を話すわけにはいかない。", "r": "たとえゆうじんといえども、ひみつをはなすわけにはいかない。", "vi": "Dù là bạn bè cũng không thể tiết lộ bí mật." }
+    ],
+    "mistakes": [
+      { "wrong": "学生だといえども、ルールを守るべきだ。", "right": "学生といえども、ルールを守るべきだ。", "note_vi": "Sau danh từ không thêm 「だ」 trước といえども." },
+      { "wrong": "プロといえども、上手だ。", "right": "プロといえども、失敗することがある。", "note_vi": "Vế sau phải là điều trái với kỳ vọng hoặc một nguyên tắc không ngoại lệ, không phải kết quả đương nhiên." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "王様 ___ 、法律に従わなければならない。", "options": ["といえども", "だけあって", "どころか", "をよそに"], "answer": 0, "explain": "'Dù là vua cũng phải tuân thủ pháp luật' → といえども." },
+      { "type": "mcq", "q": "いくら安い ___ 、品質の悪いものは買いたくない。", "options": ["としたら", "というと", "といえども", "とあれば"], "answer": 2, "explain": "いくら + A + といえども: dù rẻ đến đâu." },
+      { "type": "mcq", "q": "大企業 ___ 、倒産することがある。", "options": ["ばかりに", "だからこそ", "によって", "といえども"], "answer": 3, "explain": "Dù là doanh nghiệp lớn cũng có thể phá sản." },
+      { "type": "mcq", "q": "子ども ___ 、ルールは守らなければならない。", "options": ["だけでは", "といえども", "とばかりに", "ならでは"], "answer": 1, "explain": "Dù là trẻ con cũng phải giữ luật → といえども." },
+      { "type": "gap", "q": "専門家 ___ 、間違えることはある。", "answer": ["といえども"], "explain": "Danh từ + といえども." },
+      { "type": "gap", "q": "いくら忙しい ___ 、食事はきちんと取るべきだ。", "answer": ["といえども"], "explain": "いくら + A + といえども." },
+      { "type": "gap", "q": "大統領 ___ 、法を破ってよいわけではない。", "answer": ["といえども"], "explain": "Dù là tổng thống cũng không được phá luật." },
+      { "type": "order", "words": ["法律には", "社長", "といえども", "従わ", "なければ", "ならない"], "answer": "社長といえども法律には従わなければならない。", "vi": "Dù là giám đốc cũng phải tuân thủ pháp luật.", "explain": "N + といえども + nguyên tắc chung." },
+      { "type": "order", "words": ["責任が", "ある", "子ども", "自分の", "行動に", "といえども"], "answer": "子どもといえども自分の行動に責任がある。", "vi": "Dù là trẻ con cũng có trách nhiệm với hành động của mình.", "explain": "子どもといえども đứng đầu câu làm vế nhượng bộ." },
+      { "type": "order", "words": ["大切に", "したい", "家族との", "いくら", "時間は", "忙しい", "といえども"], "answer": "いくら忙しいといえども家族との時間は大切にしたい。", "vi": "Dù bận đến đâu tôi vẫn muốn trân trọng thời gian bên gia đình.", "explain": "いくら + A + といえども + ý chí/nguyên tắc." }
+    ]
+  },
+  {
+    "id": "ja-n1-wo-yoso-ni",
+    "level": "N1",
+    "title": "Mặc kệ, bất chấp",
+    "title_native": "〜をよそに",
+    "summary_vi": "Làm ngơ trước lo lắng, phản đối, kỳ vọng của người khác mà vẫn hành động theo ý mình.",
+    "formula": ["N(心配・不安・期待・反対・批判) + をよそに + V", "N + をよそに + 普通の行動（ngôi thứ ba）"],
+    "explain_vi": "「をよそに」nghĩa là 'mặc kệ, không đếm xỉa đến, bất chấp'. Danh từ đứng trước là sự lo lắng, bất an, kỳ vọng, phản đối, chỉ trích của người xung quanh. Vế sau là hành động của chủ thể, thường trái ngược với mong muốn của những người đó.\n\n**Danh từ hay gặp.** 心配 (lo lắng), 不安, 期待, 反対, 批判, 忠告 (lời khuyên), 注意, 視線 (ánh nhìn), 声 (tiếng nói). Ví dụ 親の心配をよそに (mặc cha mẹ lo lắng), 住民の反対をよそに (bất chấp sự phản đối của cư dân).\n\n**Sắc thái.** Người nói thường đánh giá hơi tiêu cực hoặc ngạc nhiên về thái độ 'chẳng quan tâm' của chủ thể. Vì vậy chủ ngữ thường là ngôi thứ ba, ít dùng cho chính mình. Đây là văn viết, thường gặp trong báo chí.\n\n**So sánh.** 「を無視して」là 'phớt lờ' nói thẳng, dùng được với nhiều danh từ như 質問, ルール. 「をよそに」chỉ dùng với tình cảm, kỳ vọng, ý kiến của người khác, mang hình ảnh 'coi đó như chuyện của người ngoài'. Không dùng cho vật vô tri như 雨 (mưa) hay 天気.",
+    "examples": [
+      { "t": "彼は周囲の心配をよそに、一人で冬山に登った。", "r": "かれはしゅういのしんぱいをよそに、ひとりでふゆやまにのぼった。", "vi": "Anh ấy mặc kệ mọi người lo lắng, một mình leo núi mùa đông." },
+      { "t": "親の反対をよそに、彼女は海外留学を決めた。", "r": "おやのはんたいをよそに、かのじょはかいがいりゅうがくをきめた。", "vi": "Bất chấp sự phản đối của bố mẹ, cô ấy quyết định đi du học." },
+      { "t": "住民の不安をよそに、工事は予定通りに進められた。", "r": "じゅうみんのふあんをよそに、こうじはよていどおりにすすめられた。", "vi": "Mặc cho cư dân bất an, công trình vẫn được tiến hành theo kế hoạch." },
+      { "t": "周りの期待をよそに、チームは一回戦で負けてしまった。", "r": "まわりのきたいをよそに、チームはいっかいせんでまけてしまった。", "vi": "Trái với kỳ vọng của mọi người, đội đã thua ngay vòng đầu." },
+      { "t": "世間の批判をよそに、その政治家は発言を変えなかった。", "r": "せけんのひはんをよそに、そのせいじかははつげんをかえなかった。", "vi": "Mặc dư luận chỉ trích, chính trị gia đó không thay đổi phát ngôn." },
+      { "t": "母の注意をよそに、弟は夜遅くまでゲームをしていた。", "r": "ははのちゅういをよそに、おとうとはよるおそくまでゲームをしていた。", "vi": "Mặc lời nhắc của mẹ, em trai vẫn chơi game đến khuya." }
+    ],
+    "mistakes": [
+      { "wrong": "彼は雨をよそに出かけた。", "right": "彼は家族の心配をよそに出かけた。", "note_vi": "Trước をよそに phải là lo lắng, kỳ vọng, phản đối của con người, không phải hiện tượng tự nhiên như mưa." },
+      { "wrong": "彼は私の質問をよそに答えなかった。", "right": "彼は私の質問を無視して答えなかった。", "note_vi": "Với danh từ thông thường như 質問, dùng 無視して. をよそに chỉ đi với tình cảm, ý kiến, kỳ vọng." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "親の心配 ___ 、彼は危険な旅に出た。", "options": ["をよそに", "を通じて", "にかけて", "を問わず"], "answer": 0, "explain": "Mặc kệ sự lo lắng của cha mẹ → をよそに." },
+      { "type": "mcq", "q": "周囲の期待 ___ 、彼は試合に負けた。", "options": ["に応えて", "を踏まえて", "をよそに", "に沿って"], "answer": 2, "explain": "Trái với kỳ vọng, không đếm xỉa đến kỳ vọng → をよそに." },
+      { "type": "mcq", "q": "住民の反対 ___ 、ダム建設が始まった。", "options": ["にかけて", "をもって", "にわたって", "をよそに"], "answer": 3, "explain": "Bất chấp sự phản đối của cư dân → をよそに." },
+      { "type": "mcq", "q": "家族の心配 ___ 、父は毎日お酒を飲み続けている。", "options": ["を込めて", "をよそに", "に応じて", "に沿って"], "answer": 1, "explain": "Bố mặc kệ gia đình lo lắng, vẫn uống rượu." },
+      { "type": "gap", "q": "周りの期待 ___ 、彼は会社を辞めた。", "answer": ["をよそに"], "explain": "N(期待) + をよそに." },
+      { "type": "gap", "q": "住民の不安 ___ 、工事が進められた。", "answer": ["をよそに"], "explain": "N(不安) + をよそに." },
+      { "type": "gap", "q": "世間の批判 ___ 、彼は自分の意見を変えなかった。", "answer": ["をよそに"], "explain": "Mặc kệ sự chỉ trích → をよそに." },
+      { "type": "order", "words": ["留学を", "彼女は", "親の", "反対", "決めた", "をよそに"], "answer": "親の反対をよそに彼女は留学を決めた。", "vi": "Bất chấp bố mẹ phản đối, cô ấy quyết định đi du học.", "explain": "親の反対をよそに + hành động trái ý." },
+      { "type": "order", "words": ["負けた", "一回戦で", "期待", "チームは", "周りの", "をよそに"], "answer": "周りの期待をよそにチームは一回戦で負けた。", "vi": "Trái với kỳ vọng của mọi người, đội thua ngay vòng đầu.", "explain": "周りの期待をよそに + kết quả trái ngược." },
+      { "type": "order", "words": ["予定", "通りに", "進め", "られた", "住民の", "工事は", "不安", "をよそに"], "answer": "住民の不安をよそに工事は予定通りに進められた。", "vi": "Mặc cư dân bất an, công trình vẫn tiến hành đúng kế hoạch.", "explain": "住民の不安をよそに + vế sau." }
+    ]
+  },
+  {
+    "id": "ja-n1-tomo-naru-to",
+    "level": "N1",
+    "title": "Một khi đã đến mức... thì",
+    "title_native": "〜ともなると / 〜ともなれば",
+    "summary_vi": "Một khi đã đạt tới vị trí, độ tuổi, thời điểm... thì đương nhiên có những điều khác biệt, khác thường.",
+    "formula": ["N(địa vị・độ tuổi・thời điểm) + ともなると / ともなれば", "V辞書形 + ともなると / ともなれば", "…ともなると、〜(のは当然だ・のが普通だ)"],
+    "explain_vi": "「ともなると」(hoặc 「ともなれば」) nghĩa là 'một khi đã lên đến cấp độ/giai đoạn đó thì...'. Vế trước nêu một địa vị, độ tuổi, thời điểm, hay tình huống đặc biệt; vế sau nói điều đương nhiên xảy ra hoặc sự khác biệt rõ rệt so với bình thường.\n\n**Cách nối.** Danh từ (社長, 三十歳, 年末, 世界的な歌手) hoặc động từ dạng từ điển (海外で暮らす). Không thêm だ. Danh từ thường là thứ có 'cấp độ' hoặc 'giai đoạn' để so sánh với mức thấp hơn.\n\n**Sắc thái.** Người nói muốn nhấn mạnh 'đã đến mức đó thì khác hẳn, cũng dễ hiểu thôi'. Vế sau thường là nhận xét khách quan: 大変だ, 違ってくる, 多い, 難しい. Vì vậy vế sau không dùng ý chí, mệnh lệnh hay mong muốn của người nói (ví dụ không nói 社長ともなると、私は挨拶に行きたい).\n\n**Phân biệt.** 「となると」chỉ là 'nếu (đến mức) thì'. 「ともなると」nhấn mạnh hơn rằng đó là mức độ cao hơn hẳn thông thường. Đây là cách nói hơi văn viết, hay dùng trong báo chí, bài bình luận.\n\nMẹo nhớ: nghĩ đến câu tiếng Việt 'đã là giám đốc thì...', 'đến cuối năm thì...', 'một khi đã ra nước ngoài sống thì...'.",
+    "examples": [
+      { "t": "大学生ともなると、親に頼らず生活する人も増えてくる。", "r": "だいがくせいともなると、おやにたよらずせいかつするひともふえてくる。", "vi": "Đã lên đại học thì cũng có nhiều người sống không dựa vào bố mẹ." },
+      { "t": "年末ともなると、街はにぎやかになる。", "r": "ねんまつともなると、まちはにぎやかになる。", "vi": "Cứ đến cuối năm là phố xá lại nhộn nhịp." },
+      { "t": "社長ともなると、毎日のように接待がある。", "r": "しゃちょうともなると、まいにちのようにせったいがある。", "vi": "Đã là giám đốc thì ngày nào cũng có tiếp khách." },
+      { "t": "世界的な歌手ともなれば、外出するだけでも大騒ぎになる。", "r": "せかいてきなかしゅともなれば、がいしゅつするだけでもおおさわぎになる。", "vi": "Đã là ca sĩ nổi tiếng thế giới thì chỉ ra ngoài thôi cũng gây náo loạn." },
+      { "t": "試験前日ともなると、さすがに緊張して眠れない。", "r": "しけんぜんじつともなると、さすがにきんちょうしてねむれない。", "vi": "Đến ngày trước kỳ thi thì quả thật lo lắng đến mức không ngủ được." },
+      { "t": "海外で暮らすともなると、言葉の問題だけでなく文化の違いにも慣れなければならない。", "r": "かいがいでくらすともなると、ことばのもんだいだけでなくぶんかのちがいにもなれなければならない。", "vi": "Một khi đã sống ở nước ngoài thì không chỉ ngôn ngữ mà còn phải quen cả khác biệt văn hóa." }
+    ],
+    "mistakes": [
+      { "wrong": "社長ともなると、私は挨拶に行きたい。", "right": "社長ともなると、毎日忙しい。", "note_vi": "Vế sau là nhận xét/thực tế đương nhiên, không dùng nguyện vọng hay ý chí của người nói." },
+      { "wrong": "昨日の夜ともなると、街は静かだった。", "right": "夜ともなると、街は静かになる。", "note_vi": "ともなると nói về quy luật, mức độ chung, không dùng cho một sự việc cụ thể đã xảy ra trong quá khứ." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "子どもも高校生 ___ 、親の言うことを聞かなくなる。", "options": ["ともなると", "をよそに", "ながらも", "んばかりに"], "answer": 0, "explain": "Đã lên cấp ba thì... → ともなると." },
+      { "type": "mcq", "q": "年末 ___ 、どこの店も混み合う。", "options": ["というと", "にかけて", "を通じて", "ともなると"], "answer": 3, "explain": "Đến cuối năm thì (đương nhiên) đông → ともなると." },
+      { "type": "mcq", "q": "社長 ___ 、責任の重さも違う。", "options": ["ならでは", "ともなると", "をもって", "まじき"], "answer": 1, "explain": "Đã là giám đốc thì trách nhiệm cũng khác → ともなると." },
+      { "type": "mcq", "q": "結婚 ___ 、費用も大きくなる。", "options": ["するべく", "にたえず", "ともなると", "たりとも"], "answer": 2, "explain": "Một khi đã tới mức kết hôn thì chi phí cũng lớn." },
+      { "type": "gap", "q": "三十歳 ___ 、周りから結婚の話をよく聞かれる。", "answer": ["ともなると", "ともなれば"], "explain": "N + ともなると / ともなれば." },
+      { "type": "gap", "q": "国の代表 ___ 、プレッシャーも大きい。", "answer": ["ともなると", "ともなれば"], "explain": "Đã là đại diện quốc gia thì áp lực cũng lớn." },
+      { "type": "gap", "q": "海外で暮らす ___ 、言葉以外の苦労も多い。", "answer": ["ともなると", "ともなれば"], "explain": "V辞書形 + ともなると." },
+      { "type": "order", "words": ["にぎやかに", "なる", "街は", "ともなると", "年末"], "answer": "年末ともなると街はにぎやかになる。", "vi": "Cứ đến cuối năm là phố xá nhộn nhịp.", "explain": "N + ともなると + nhận xét về sự thay đổi." },
+      { "type": "order", "words": ["接待が", "ある", "社長", "毎日の", "ように", "ともなると"], "answer": "社長ともなると毎日のように接待がある。", "vi": "Đã là giám đốc thì ngày nào cũng có tiếp khách.", "explain": "社長ともなると + thực tế đương nhiên." },
+      { "type": "order", "words": ["眠れ", "ない", "さすがに", "緊張して", "試験", "前日", "ともなると"], "answer": "試験前日ともなるとさすがに緊張して眠れない。", "vi": "Ngày trước kỳ thi thì quả thật căng thẳng đến mức không ngủ được.", "explain": "試験前日ともなると + kết quả dễ hiểu." }
+    ]
+  },
+{
+    "id": "ja-n1-beku",
+    "level": "N1",
+    "title": "Để, nhằm (mục đích)",
+    "title_native": "〜べく",
+    "summary_vi": "Diễn tả mục đích, ý định: 'để (làm gì), nhằm...' — văn viết, trang trọng.",
+    "formula": ["V辞書形 + べく", "する → すべく / するべく", "V1べく、V2（V2 là hành động có chủ ý）"],
+    "explain_vi": "「べく」là hình thức cổ của 「べき」, mang nghĩa 'để, nhằm mục đích, với ý định'. Nó tương tự 「ために」 hay 「ように」 nhưng trang trọng và cứng hơn, thường dùng trong văn viết, báo chí, bài phát biểu.\n\n**Cách nối.** Động từ dạng từ điển + べく. Riêng する có hai dạng: すべく (cổ, trang trọng hơn) và するべく (thông dụng). Ví dụ 実現すべく / 実現するべく (nhằm thực hiện). Với động từ nhóm 2 và nhóm 1: 確かめるべく, 聞くべく, 行くべく.\n\n**Quy tắc vế sau.** Vế sau phải là hành động có ý chí, thường là hành động thực tế đã làm hoặc đang làm (努力している, 開いた, 向かった). Vế sau KHÔNG dùng mệnh lệnh, cấm đoán, rủ rê hay nguyện vọng như 〜てください, 〜よう, 〜たい. Ví dụ không nói 合格すべく頑張ってください.\n\n**Phân biệt.** 「ために」là cách nói thông thường, dùng được trong đời sống. 「べく」thiên về văn viết và thường kèm theo cảm giác quyết tâm, nghiêm túc. Với danh từ ta dùng 「ために」, không dùng 「べく」 (không nói 試験べく). Đừng nhầm với 「べき」 (nên, phải), là một cách dùng khác.",
+    "examples": [
+      { "t": "彼は夢を実現すべく、毎日努力している。", "r": "かれはゆめをじつげんすべく、まいにちどりょくしている。", "vi": "Anh ấy nỗ lực mỗi ngày để thực hiện ước mơ." },
+      { "t": "試験に合格するべく、徹夜で勉強した。", "r": "しけんにごうかくするべく、てつやでべんきょうした。", "vi": "Để đỗ kỳ thi, tôi đã thức trắng đêm học bài." },
+      { "t": "会社は経費を削減すべく、新しい制度を導入した。", "r": "かいしゃはけいひをさくげんすべく、あたらしいせいどをどうにゅうした。", "vi": "Công ty đã đưa vào chế độ mới nhằm cắt giảm chi phí." },
+      { "t": "彼女は真実を確かめるべく、現地へ飛んだ。", "r": "かのじょはしんじつをたしかめるべく、げんちへとんだ。", "vi": "Cô ấy bay đến hiện trường để xác minh sự thật." },
+      { "t": "市長は市民の声を聞くべく、各地で説明会を開いた。", "r": "しちょうはしみんのこえをきくべく、かくちでせつめいかいをひらいた。", "vi": "Thị trưởng đã tổ chức các buổi giải trình ở nhiều nơi để lắng nghe tiếng nói người dân." },
+      { "t": "私は両親に恩返しすべく、故郷に帰ることを決めた。", "r": "わたしはりょうしんにおんがえしすべく、こきょうにかえることをきめた。", "vi": "Để đền đáp cha mẹ, tôi đã quyết định trở về quê hương." }
+    ],
+    "mistakes": [
+      { "wrong": "勉強しべく、図書館へ行った。", "right": "勉強すべく / 勉強するべく、図書館へ行った。", "note_vi": "する chia thành すべく hoặc するべく, không phải しべく." },
+      { "wrong": "合格すべく、頑張ってください。", "right": "合格すべく、毎日勉強している。", "note_vi": "Vế sau của べく không dùng mệnh lệnh, nhờ vả; phải là hành động có ý chí đã/đang diễn ra." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "優勝 ___ 、毎日厳しい練習を続けている。", "options": ["するべく", "しているうちに", "したあげく", "するどころか"], "answer": 0, "explain": "Để vô địch → V辞書形 + べく." },
+      { "type": "mcq", "q": "友人を助け ___ 、彼は急いで駆けつけた。", "options": ["んばかり", "ながらも", "るべく", "ともなると"], "answer": 2, "explain": "助ける + べく: để giúp bạn." },
+      { "type": "mcq", "q": "彼女は夢を叶え ___ 、海外へ旅立った。", "options": ["まじき", "ものを", "ことなく", "るべく"], "answer": 3, "explain": "Để thực hiện ước mơ → 叶えるべく." },
+      { "type": "mcq", "q": "目標を達成 ___ 、全員で協力した。", "options": ["しべく", "すべく", "さべく", "せべく"], "answer": 1, "explain": "する → すべく (hoặc するべく)." },
+      { "type": "gap", "q": "彼は夢を実現 ___ 、毎日努力している。", "answer": ["すべく", "するべく"], "explain": "実現する → 実現すべく / 実現するべく." },
+      { "type": "gap", "q": "問題を解決 ___ 、緊急会議が開かれた。", "answer": ["すべく", "するべく"], "explain": "Họp khẩn nhằm giải quyết vấn đề." },
+      { "type": "gap", "q": "真実を確かめ ___ 、現地を訪れた。", "answer": ["るべく"], "explain": "確かめ + るべく: động từ nhóm 2 giữ る trước べく." },
+      { "type": "order", "words": ["徹夜で", "勉強した", "試験に", "合格", "すべく"], "answer": "試験に合格すべく徹夜で勉強した。", "vi": "Để đỗ kỳ thi, tôi đã thức trắng đêm học bài.", "explain": "Mục đích (合格すべく) đứng trước hành động (勉強した)." },
+      { "type": "order", "words": ["導入した", "会社は", "経費を", "新しい", "制度を", "削減", "すべく"], "answer": "会社は経費を削減すべく新しい制度を導入した。", "vi": "Công ty đưa vào chế độ mới nhằm cắt giảm chi phí.", "explain": "経費を削減すべく + hành động có chủ ý." },
+      { "type": "order", "words": ["現地へ", "飛んだ", "彼女は", "真実を", "確かめる", "べく"], "answer": "彼女は真実を確かめるべく現地へ飛んだ。", "vi": "Cô ấy bay đến hiện trường để xác minh sự thật.", "explain": "確かめる + べく + 現地へ飛んだ." }
+    ]
+  },
+  {
+    "id": "ja-n1-ni-taenai",
+    "level": "N1",
+    "title": "Không đáng / không kìm được",
+    "title_native": "〜にたえない",
+    "summary_vi": "Hai nghĩa: (1) 見る/聞く/読むにたえない — quá tệ, không chịu nổi để xem/nghe/đọc; (2) 感謝/遺憾/同情にたえない — vô cùng, không kìm nổi cảm xúc.",
+    "formula": ["見る / 聞く / 読む + にたえない（không chịu nổi）", "N(感謝・感激・遺憾・同情・憂慮…) + にたえない（vô cùng）", "鑑賞/批評 + にたえる（đáng, xứng đáng）"],
+    "explain_vi": "「にたえない」(堪えない) có hai cách dùng chính, đều là văn viết trang trọng.\n\n**Nghĩa 1: quá tệ để xem/nghe/đọc.** Dùng với ba động từ 見る, 聞く, 読む. Nghĩa là 'tệ đến mức không thể chịu nổi khi xem/nghe/đọc'. Ví dụ 見るにたえない映像 (hình ảnh quá thảm, không nỡ nhìn), 聞くにたえない悪口 (lời nói xấu khó nghe nổi), 読むにたえない文章 (văn bản dở không đọc nổi). Dạng khẳng định tương ứng là 見るにたえる / 鑑賞にたえる, nghĩa là 'đáng xem, xứng đáng được thưởng thức'.\n\n**Nghĩa 2: cảm xúc dâng trào không kìm được.** Danh từ chỉ cảm xúc mạnh (感謝, 感激, 遺憾, 同情, 憂慮, 悲しみ) + にたえない. Ví dụ 感謝にたえません (vô cùng biết ơn), 遺憾にたえない (vô cùng đáng tiếc). Hay dùng trong thư từ, diễn văn, báo chí.\n\n**Lưu ý.**\n- Chỉ dùng với 見る・聞く・読む, không nói 食べるにたえない (hãy dùng 食べられたものではない).\n- Không dùng với tính từ như うれしいにたえない; phải dùng danh từ 感激, 感謝.\n- Đừng nhầm với 〜を禁じ得ない (cũng nghĩa là không kìm nổi cảm xúc, nhưng đi với 涙, 怒り, 驚き).",
+    "examples": [
+      { "t": "あまりにひどくて、見るにたえない映像だった。", "r": "あまりにひどくて、みるにたえないえいぞうだった。", "vi": "Hình ảnh thảm đến mức không nỡ xem." },
+      { "t": "彼の悪口は聞くにたえない。", "r": "かれのわるぐちはきくにたえない。", "vi": "Lời nói xấu của anh ta nghe không chịu nổi." },
+      { "t": "皆様のご支援に、感謝にたえません。", "r": "みなさまのごしえんに、かんしゃにたえません。", "vi": "Chúng tôi vô cùng biết ơn sự ủng hộ của quý vị." },
+      { "t": "被害の大きさを思うと、同情にたえない。", "r": "ひがいのおおきさをおもうと、どうじょうにたえない。", "vi": "Nghĩ đến mức độ thiệt hại, tôi vô cùng cảm thông." },
+      { "t": "こんな不正が行われていたとは、遺憾にたえない。", "r": "こんなふせいがおこなわれていたとは、いかんにたえない。", "vi": "Việc gian lận như vậy từng diễn ra là điều vô cùng đáng tiếc." },
+      { "t": "この小説は文章が乱れていて、読むにたえない。", "r": "このしょうせつはぶんしょうがみだれていて、よむにたえない。", "vi": "Cuốn tiểu thuyết này văn lủng củng, không đọc nổi." }
+    ],
+    "mistakes": [
+      { "wrong": "この料理は食べるにたえない。", "right": "この料理は食べられたものではない。", "note_vi": "にたえない (nghĩa 1) chỉ đi với 見る, 聞く, 読む." },
+      { "wrong": "皆様のご支援がうれしいにたえません。", "right": "皆様のご支援に感謝にたえません。", "note_vi": "Nghĩa 2 đi với danh từ cảm xúc (感謝, 感激), không đi với tính từ như うれしい." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "彼女の悪口は ___ にたえない。", "options": ["聞く", "食べる", "走る", "笑う"], "answer": 0, "explain": "Chỉ dùng với 見る・聞く・読む; lời nói xấu → 聞く." },
+      { "type": "mcq", "q": "皆様の温かいご支援に ___ にたえません。", "options": ["うれしい", "ありがたい", "感謝", "感謝する"], "answer": 2, "explain": "Danh từ cảm xúc + にたえない: 感謝にたえません." },
+      { "type": "mcq", "q": "被害者の話を聞き、同情 ___ 。", "options": ["ならではだ", "をよそにした", "んばかりだ", "にたえない"], "answer": 3, "explain": "同情にたえない = vô cùng cảm thông." },
+      { "type": "mcq", "q": "ひどすぎて ___ にたえない映像だった。", "options": ["言う", "見る", "食べる", "行く"], "answer": 1, "explain": "映像 đi với 見る: 見るにたえない映像." },
+      { "type": "gap", "q": "彼の演説は聞く ___ 。", "answer": ["にたえない", "に堪えない"], "explain": "聞くにたえない = nghe không chịu nổi." },
+      { "type": "gap", "q": "こんな不正は遺憾 ___ 。", "answer": ["にたえない", "に堪えない", "にたえません", "に堪えません"], "explain": "遺憾にたえない = vô cùng đáng tiếc." },
+      { "type": "gap", "q": "皆様のご厚意に感謝 ___ 。", "answer": ["にたえません", "にたえない", "に堪えません", "に堪えない"], "explain": "感謝にたえません: cách nói lịch sự." },
+      { "type": "order", "words": ["暴力が", "多くて", "この映画は", "見る", "にたえない"], "answer": "この映画は暴力が多くて見るにたえない。", "vi": "Bộ phim này quá nhiều bạo lực, không chịu nổi để xem.", "explain": "見るにたえない đặt cuối câu để đánh giá." },
+      { "type": "order", "words": ["ご支援に", "皆様の", "感謝", "にたえ", "ません"], "answer": "皆様のご支援に感謝にたえません。", "vi": "Chúng tôi vô cùng biết ơn sự ủng hộ của quý vị.", "explain": "ご支援に + 感謝にたえません." },
+      { "type": "order", "words": ["行われて", "いたとは", "こんな", "不正が", "遺憾", "にたえない"], "answer": "こんな不正が行われていたとは遺憾にたえない。", "vi": "Việc gian lận như thế từng diễn ra thật là vô cùng đáng tiếc.", "explain": "…とは + 遺憾にたえない." }
+    ]
+  },
+  {
+    "id": "ja-n1-narade-wa",
+    "level": "N1",
+    "title": "Chỉ có ở... mới có",
+    "title_native": "〜ならでは",
+    "summary_vi": "Khen đặc trưng riêng: chỉ có ở N (người/nơi/thời điểm) mới có được, người khác khó mà bắt chước.",
+    "formula": ["N + ならではの + N", "N + ならでは + だ / です", "N + ならではのA"],
+    "explain_vi": "「ならでは」là cách nói khen ngợi: 'chỉ có N mới có được, đặc trưng riêng của N'. Nó thể hiện rằng sự vật, kỹ năng hay hương vị đó là thế mạnh không thể thiếu của N và không dễ thấy ở nơi khác.\n\n**Cách nối.** Danh từ + ならではの + danh từ, hoặc danh từ + ならではだ (kết câu). Danh từ phía trước thường là người, nơi chốn, thời điểm, cách làm có đặc trưng rõ rệt: 老舗 (cửa hàng lâu đời), 京都, プロ, 手作り, 子ども, この季節. Ví dụ 京都ならではの景色 (khung cảnh chỉ có ở Kyoto), 手作りならではの温かさ (sự ấm áp chỉ có ở đồ thủ công).\n\n**Sắc thái.** Luôn mang ý khen, đánh giá tích cực. Không dùng với điều xấu (không nói この店ならではの汚さ). Thường gặp trong quảng cáo, bài giới thiệu du lịch, bài bình luận. Văn viết, nhưng cũng có thể dùng trong lời nói khi muốn nhấn mạnh.\n\n**So sánh.** Gần nghĩa với 「にしかない」「だけが持つ」 nhưng giàu cảm xúc hơn. Khác với 「らしい」(đúng chất, đúng như N nên thế) ở chỗ ならでは nhấn mạnh tính độc đáo, không thể thay thế.\n\nCó thể kết câu bằng 「ならではだ」: この味は老舗ならではだ.",
+    "examples": [
+      { "t": "この味は、老舗ならではの伝統の味だ。", "r": "このあじは、しにせならではのでんとうのあじだ。", "vi": "Hương vị này là hương vị truyền thống chỉ cửa hàng lâu đời mới có." },
+      { "t": "京都ならではの景色を楽しみたい。", "r": "きょうとならではのけしきをたのしみたい。", "vi": "Tôi muốn thưởng thức khung cảnh chỉ có ở Kyoto." },
+      { "t": "手作りならではの温かさが感じられる。", "r": "てづくりならではのあたたかさがかんじられる。", "vi": "Có thể cảm nhận sự ấm áp chỉ đồ thủ công mới có." },
+      { "t": "プロならではの鮮やかな技に、観客は目を奪われた。", "r": "プロならではのあざやかなわざに、かんきゃくはめをうばわれた。", "vi": "Khán giả bị cuốn hút bởi kỹ thuật điêu luyện chỉ dân chuyên nghiệp mới có." },
+      { "t": "子どもならではの自由な発想には、いつも驚かされる。", "r": "こどもならではのじゆうなはっそうには、いつもおどろかされる。", "vi": "Tôi luôn ngạc nhiên trước lối nghĩ tự do chỉ trẻ con mới có." },
+      { "t": "地元の人ならではの穴場を教えてもらった。", "r": "じもとのひとならではのあなばをおしえてもらった。", "vi": "Tôi được chỉ cho một địa điểm ít người biết, chỉ dân địa phương mới rành." }
+    ],
+    "mistakes": [
+      { "wrong": "彼ならではできる仕事だ。", "right": "彼ならではの仕事だ。 / 彼にしかできない仕事だ。", "note_vi": "ならでは đi với の + danh từ hoặc kết câu bằng だ; không nối trực tiếp với động từ khả năng." },
+      { "wrong": "この店ならではの汚さに驚いた。", "right": "この店ならではのサービスに感動した。", "note_vi": "ならでは luôn dùng để khen, không dùng cho điều tiêu cực." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "北海道 ___ 新鮮な海の幸を味わった。", "options": ["ならではの", "ともなると", "をよそに", "べく"], "answer": 0, "explain": "Hải sản tươi chỉ có ở Hokkaido → 北海道ならではの." },
+      { "type": "mcq", "q": "プロ ___ 技術に、思わず拍手した。", "options": ["といえども", "ながらも", "ならではの", "にたえない"], "answer": 2, "explain": "Kỹ thuật chỉ dân chuyên nghiệp mới có → ならではの." },
+      { "type": "mcq", "q": "この店 ___ サービスが人気の理由だ。", "options": ["ながらの", "をもっての", "をよそにの", "ならではの"], "answer": 3, "explain": "Dịch vụ đặc trưng riêng của cửa hàng → ならではの." },
+      { "type": "mcq", "q": "地元の人 ___ の隠れた名所を教えてもらった。", "options": ["にたえない", "ならでは", "をよそに", "べく"], "answer": 1, "explain": "N + ならではの + N (ở đây phần の đã có sẵn sau chỗ trống)." },
+      { "type": "gap", "q": "手作り ___ 温かさがある。", "answer": ["ならではの"], "explain": "N + ならではの + N." },
+      { "type": "gap", "q": "京都 ___ 景色を楽しんだ。", "answer": ["ならではの"], "explain": "京都ならではの景色 = khung cảnh đặc trưng Kyoto." },
+      { "type": "gap", "q": "子ども ___ 自由な発想に驚かされた。", "answer": ["ならではの"], "explain": "子どもならではの + 発想." },
+      { "type": "order", "words": ["感じ", "られる", "温かさが", "手作り", "ならでは", "の"], "answer": "手作りならではの温かさが感じられる。", "vi": "Cảm nhận được sự ấm áp chỉ đồ thủ công mới có.", "explain": "手作りならではの + 温かさ." },
+      { "type": "order", "words": ["楽しみ", "たい", "景色を", "京都", "ならでは", "の"], "answer": "京都ならではの景色を楽しみたい。", "vi": "Tôi muốn thưởng thức khung cảnh chỉ có ở Kyoto.", "explain": "京都ならではの + 景色." },
+      { "type": "order", "words": ["観客は", "目を", "奪われた", "鮮やかな", "技に", "プロ", "ならでは", "の"], "answer": "プロならではの鮮やかな技に観客は目を奪われた。", "vi": "Khán giả bị cuốn hút bởi kỹ thuật điêu luyện chỉ dân chuyên nghiệp mới có.", "explain": "プロならではの + 鮮やかな技." }
+    ]
+  },
+{
+    "id": "ja-n1-wo-kinjienai",
+    "level": "N1",
+    "title": "Không thể kìm nén được",
+    "title_native": "〜を禁じ得ない",
+    "summary_vi": "Không thể kìm nén cảm xúc mạnh (nước mắt, giận dữ, ngạc nhiên, cảm thông...) — văn viết, trang trọng.",
+    "formula": ["N(涙・怒り・驚き・同情・感動・憤り…) + を禁じ得ない", "禁じ得ない → 禁じ得なかった（quá khứ）/ 禁じえない"],
+    "explain_vi": "「〜を禁じ得ない」nghĩa là 'không thể kìm nén được (cảm xúc nào đó)'. 「禁じる」là 'cấm, ngăn chặn', 「得ない」là 'không thể'. Gộp lại: 'không thể ngăn cảm xúc ấy trào ra'. Mẫu này rất trang trọng và mang tính văn viết, thường thấy trong báo chí, bài bình luận, diễn văn.\n\n**Cách nối.** Danh từ chỉ cảm xúc mạnh + を禁じ得ない. Danh từ hay đi kèm: 涙 (nước mắt), 怒り / 憤り (phẫn nộ), 驚き, 同情, 感動, 不安, 笑い, 疑問, 懸念 (lo ngại), 失望. Ví dụ 涙を禁じ得ない (không cầm được nước mắt), 怒りを禁じ得ない (không kìm được cơn giận).\n\n**Chú ý.**\n- Trợ từ luôn là を, không dùng が: 怒りを禁じ得ない, không nói 怒りが禁じ得ない.\n- Danh từ phải là cảm xúc tự phát, mạnh. Không dùng cho trạng thái nhẹ nhàng hằng ngày.\n- Cách viết: 禁じ得ない hoặc 禁じえない đều được; quá khứ 禁じ得なかった là hay gặp nhất khi kể lại.\n\n**Phân biệt.** 「〜にたえない」 cũng diễn tả cảm xúc vô cùng (感謝にたえない, 遺憾にたえない), nhưng đi với một nhóm danh từ khác (感謝, 遺憾, 感激) và nhóm 見る・聞く・読む. 「を禁じ得ない」 đi với cảm xúc tự nhiên bùng lên như 涙, 怒り, 驚き, 笑い. Hai mẫu này không thay thế cho nhau tùy tiện.",
+    "examples": [
+      { "t": "被災者の話を聞いて、涙を禁じ得なかった。", "r": "ひさいしゃのはなしをきいて、なみだをきんじえなかった。", "vi": "Nghe câu chuyện của người bị nạn, tôi không cầm được nước mắt." },
+      { "t": "政府の無責任な対応には、怒りを禁じ得ない。", "r": "せいふのむせきにんなたいおうには、いかりをきんじえない。", "vi": "Trước cách ứng phó vô trách nhiệm của chính phủ, tôi không kìm được sự phẫn nộ." },
+      { "t": "彼の努力する姿に、感動を禁じ得なかった。", "r": "かれのどりょくするすがたに、かんどうをきんじえなかった。", "vi": "Trước hình ảnh anh ấy nỗ lực, tôi không khỏi xúc động." },
+      { "t": "事故の知らせに、驚きを禁じ得ない。", "r": "じこのしらせに、おどろきをきんじえない。", "vi": "Trước tin về vụ tai nạn, tôi không khỏi kinh ngạc." },
+      { "t": "将来への不安を禁じ得ない状況だ。", "r": "しょうらいへのふあんをきんじえないじょうきょうだ。", "vi": "Đây là tình hình khiến người ta không thể không lo lắng cho tương lai." },
+      { "t": "あまりに滑稽な光景に、笑いを禁じ得なかった。", "r": "あまりにこっけいなこうけいに、わらいをきんじえなかった。", "vi": "Trước cảnh tượng quá hài hước, tôi không nhịn được cười." }
+    ],
+    "mistakes": [
+      { "wrong": "政府の対応に怒りが禁じ得ない。", "right": "政府の対応に怒りを禁じ得ない。", "note_vi": "Trợ từ là を, không dùng が." },
+      { "wrong": "悲しいを禁じ得ない。", "right": "悲しみを禁じ得ない。", "note_vi": "Phải dùng danh từ cảm xúc (悲しみ), không dùng tính từ 悲しい." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "被災地の映像を見て、涙 ___ 。", "options": ["を禁じ得なかった", "が禁じ得なかった", "に禁じ得なかった", "で禁じ得なかった"], "answer": 0, "explain": "N + を禁じ得ない: trợ từ を." },
+      { "type": "mcq", "q": "政府の対応に怒り ___ 禁じ得ない。", "options": ["が", "に", "を", "で"], "answer": 2, "explain": "怒りを禁じ得ない." },
+      { "type": "mcq", "q": "被害者の話を聞いて、同情 ___ 。", "options": ["ならではだ", "をよそにした", "んばかりだ", "を禁じ得なかった"], "answer": 3, "explain": "同情を禁じ得なかった = không khỏi cảm thông." },
+      { "type": "mcq", "q": "事件の残酷さに ___ を禁じ得ない。", "options": ["食べること", "憤り", "走ること", "新しい"], "answer": 1, "explain": "Phải là danh từ cảm xúc: 憤り (phẫn nộ)." },
+      { "type": "gap", "q": "彼の姿に感動 ___ 。", "answer": ["を禁じ得なかった", "を禁じえなかった"], "explain": "感動を禁じ得なかった: không khỏi xúc động." },
+      { "type": "gap", "q": "将来への不安を ___ 状況だ。", "answer": ["禁じ得ない", "禁じえない"], "explain": "不安を禁じ得ない状況: bổ nghĩa cho 状況." },
+      { "type": "gap", "q": "あまりに滑稽で笑い ___ 。", "answer": ["を禁じ得なかった", "を禁じえなかった"], "explain": "笑いを禁じ得なかった: không nhịn được cười." },
+      { "type": "order", "words": ["聞いて", "涙を", "禁じ", "得なかった", "被災者の", "話を"], "answer": "被災者の話を聞いて涙を禁じ得なかった。", "vi": "Nghe chuyện của người bị nạn, tôi không cầm được nước mắt.", "explain": "…聞いて + 涙を禁じ得なかった." },
+      { "type": "order", "words": ["怒りを", "禁じ", "得ない", "対応には", "政府の"], "answer": "政府の対応には怒りを禁じ得ない。", "vi": "Trước cách ứng phó của chính phủ, tôi không kìm được sự phẫn nộ.", "explain": "N + には + 怒りを禁じ得ない." },
+      { "type": "order", "words": ["感動を", "禁じ", "得なかった", "彼の", "努力する", "姿に"], "answer": "彼の努力する姿に感動を禁じ得なかった。", "vi": "Trước hình ảnh anh ấy nỗ lực, tôi không khỏi xúc động.", "explain": "姿に + 感動を禁じ得なかった." }
+    ]
+  },
+  {
+    "id": "ja-n1-majiki",
+    "level": "N1",
+    "title": "Không xứng đáng (với tư cách)",
+    "title_native": "〜まじき",
+    "summary_vi": "Phê phán hành vi không được phép, không xứng với thân phận/vai trò của người đó: 'không thể chấp nhận ở một... như vậy'.",
+    "formula": ["N(thân phận・nghề nghiệp) + に / として + あるまじき + N", "V辞書形 + まじき + N（許すまじき）"],
+    "explain_vi": "「まじき」là hình thức cổ của 「まじ」 (phủ định của べき: 'không nên, không được phép'). Mẫu thường gặp nhất là 「あるまじき」, dùng để phê phán mạnh: 'đối với một người ở vị trí/thân phận đó thì hành vi này là không thể chấp nhận'.\n\n**Cấu trúc.** Danh từ chỉ thân phận, nghề nghiệp, vai trò (教師, 医者, 政治家, 公務員, 親, 人) + に / として + あるまじき + danh từ chỉ hành vi (行為, 発言, 態度, 行い, 不正). Ví dụ 教師にあるまじき行為 ('hành vi không xứng với một giáo viên'), 人としてあるまじき行い ('hành động không xứng làm người').\n\n**Điểm cần nhớ.**\n- Sau まじき luôn phải có danh từ (まじき + N). Câu kết thúc kiểu 教師にあるまじきだ là sai; cần 教師にあるまじき行為だ.\n- Không nói あるまじきな, vì まじき đã là dạng bổ nghĩa danh từ.\n- Sắc thái chê trách rất nặng, thường xuất hiện trong báo chí, bình luận về bê bối. Không dùng để khen hay nói về điều trung tính.\n- Cách dùng với động từ ngoài ある rất hạn chế, chỉ gặp vài cụm cố định như 許すまじき (không thể tha thứ).\n\nGần nghĩa với 「〜にふさわしくない」 (không phù hợp) nhưng mạnh hơn nhiều, có tính đạo đức.",
+    "examples": [
+      { "t": "それは教師にあるまじき行為だ。", "r": "それはきょうしにあるまじきこういだ。", "vi": "Đó là hành vi không xứng đáng với một giáo viên." },
+      { "t": "政治家にあるまじき発言に、国民は怒った。", "r": "せいじかにあるまじきはつげんに、こくみんはおこった。", "vi": "Người dân phẫn nộ trước phát ngôn không xứng với một chính trị gia." },
+      { "t": "医者としてあるまじき態度だと思う。", "r": "いしゃとしてあるまじきたいどだとおもう。", "vi": "Tôi nghĩ đó là thái độ không xứng đáng với một bác sĩ." },
+      { "t": "それは人としてあるまじき行いだ。", "r": "それはひととしてあるまじきおこないだ。", "vi": "Đó là hành động không xứng đáng làm người." },
+      { "t": "公務員にあるまじき不正が発覚した。", "r": "こうむいんにあるまじきふせいがはっかくした。", "vi": "Đã phát hiện gian lận không xứng với một công chức." },
+      { "t": "許すまじき犯行に、世間の怒りが高まっている。", "r": "ゆるすまじきはんこうに、せけんのいかりがたかまっている。", "vi": "Dư luận ngày càng phẫn nộ trước tội ác không thể tha thứ." }
+    ],
+    "mistakes": [
+      { "wrong": "それは教師にあるまじきです。", "right": "それは教師にあるまじき行為です。", "note_vi": "まじき phải đi kèm danh từ phía sau (行為, 発言, 態度...)." },
+      { "wrong": "あるまじきな行為", "right": "あるまじき行為", "note_vi": "Không thêm な; まじき tự nó bổ nghĩa cho danh từ." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "教師 ___ あるまじき行為だ。", "options": ["に", "を", "で", "と"], "answer": 0, "explain": "N + に / として + あるまじき." },
+      { "type": "mcq", "q": "政治家にあるまじき ___ に批判が集まった。", "options": ["発言した", "発言する", "発言", "発言で"], "answer": 2, "explain": "Sau あるまじき phải là danh từ: 発言." },
+      { "type": "mcq", "q": "医者として ___ 態度だった。", "options": ["あるべき", "あるまじく", "あるまじ", "あるまじき"], "answer": 3, "explain": "あるまじき + N (態度)." },
+      { "type": "mcq", "q": "弁護士に ___ 不正行為が発覚した。", "options": ["あるべく", "あるまじき", "あるばかり", "あるからこそ"], "answer": 1, "explain": "あるまじき + 不正行為: hành vi không xứng đáng." },
+      { "type": "gap", "q": "警察官に ___ 行為だ。", "answer": ["あるまじき"], "explain": "N + に + あるまじき + N." },
+      { "type": "gap", "q": "人として ___ 行いだ。", "answer": ["あるまじき"], "explain": "人としてあるまじき行い." },
+      { "type": "gap", "q": "許す ___ 犯行に怒りが高まっている。", "answer": ["まじき"], "explain": "許すまじき: không thể tha thứ (cụm cố định)." },
+      { "type": "order", "words": ["行為だ", "あるまじき", "それは", "教師に"], "answer": "それは教師にあるまじき行為だ。", "vi": "Đó là hành vi không xứng với một giáo viên.", "explain": "教師に + あるまじき + 行為." },
+      { "type": "order", "words": ["国民は", "怒った", "発言に", "あるまじき", "政治家に"], "answer": "政治家にあるまじき発言に国民は怒った。", "vi": "Người dân phẫn nộ trước phát ngôn không xứng với một chính trị gia.", "explain": "政治家にあるまじき発言 là cụm danh từ làm bổ ngữ." },
+      { "type": "order", "words": ["発覚した", "不正が", "あるまじき", "公務員に"], "answer": "公務員にあるまじき不正が発覚した。", "vi": "Đã phát hiện gian lận không xứng với một công chức.", "explain": "公務員にあるまじき + 不正が + 発覚した." }
+    ]
+  },
+  {
+    "id": "ja-n1-tarimo",
+    "level": "N1",
+    "title": "Dù chỉ một... cũng không",
+    "title_native": "〜たりとも",
+    "summary_vi": "一 + đơn vị + たりとも + phủ định: 'dù chỉ một... cũng không (cho phép)', nhấn mạnh tuyệt đối.",
+    "formula": ["一 + 助数詞(円・秒・瞬・日・度・人…) + たりとも + V-ない", "一 + 助数詞 + たりとも + V-てはならない"],
+    "explain_vi": "「たりとも」đi sau 一 + đơn vị đếm (một đồng, một giây, một khoảnh khắc, một ngày, một lần, một người) và theo sau luôn là phủ định. Ý nghĩa: 'dù chỉ một ... cũng không (được/không thể)'. Mẫu này nhấn mạnh mạnh mẽ rằng mức tối thiểu nhất cũng không cho phép.\n\n**Cấu trúc.** 一 + 助数詞 + たりとも + động từ dạng phủ định. Ví dụ 一円たりとも無駄にできない (không thể lãng phí dù chỉ một yên), 一瞬たりとも気を抜けない (không thể lơ là dù chỉ một khoảnh khắc). Vế sau thường là V-ない, V-てはならない, V-ことはできない, hoặc V-たことがない.\n\n**Điểm quan trọng.**\n- Số luôn là 一 (một). Không dùng 二円たりとも, 三秒たりとも.\n- Vế sau bắt buộc là phủ định hoặc cấm đoán, không dùng khẳng định. Không nói 一円たりとも使う.\n- Đơn vị thường là thứ nhỏ nhất, đếm được: 円, 秒, 瞬間, 日, 度, 粒 (hạt), 人, 滴 (giọt).\n- Là văn viết trang trọng, mang sắc thái quyết tâm hoặc nghiêm khắc, hay gặp trong khẩu hiệu, thông báo, văn bản chỉ thị.\n\n**So sánh.** Tương tự 「一円も〜ない」 nhưng trang trọng và mạnh hơn. Đừng nhầm với 「といえども」, mẫu nhượng bộ 'dù là...'.",
+    "examples": [
+      { "t": "彼は一日たりとも練習を休んだことがない。", "r": "かれはいちにちたりともれんしゅうをやすんだことがない。", "vi": "Anh ấy chưa từng nghỉ tập dù chỉ một ngày." },
+      { "t": "お客様の大切なお金は、一円たりとも無駄にできない。", "r": "おきゃくさまのたいせつなおかねは、いちえんたりともむだにできない。", "vi": "Tiền quý của khách hàng, không thể lãng phí dù chỉ một yên." },
+      { "t": "試合中は、一瞬たりとも気を抜けない。", "r": "しあいちゅうは、いっしゅんたりともきをぬけない。", "vi": "Trong trận đấu, không thể lơ là dù chỉ một khoảnh khắc." },
+      { "t": "この件は、一秒たりとも遅れてはならない。", "r": "このけんは、いちびょうたりともおくれてはならない。", "vi": "Việc này không được chậm trễ dù chỉ một giây." },
+      { "t": "敵の一人たりとも逃してはならない。", "r": "てきのひとりたりともにがしてはならない。", "vi": "Không được để sổng dù chỉ một tên địch." },
+      { "t": "一度たりとも、あの日のことを忘れたことはない。", "r": "いちどたりとも、あのひのことをわすれたことはない。", "vi": "Tôi chưa từng quên chuyện ngày hôm ấy dù chỉ một lần." }
+    ],
+    "mistakes": [
+      { "wrong": "二円たりとも無駄にできない。", "right": "一円たりとも無駄にできない。", "note_vi": "Chỉ dùng 一 (một) trước たりとも." },
+      { "wrong": "一円たりとも使う。", "right": "一円たりとも使えない。", "note_vi": "Vế sau bắt buộc là phủ định hoặc cấm đoán." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "彼は一日 ___ 練習を休んだことがない。", "options": ["たりとも", "ながらも", "ならでは", "をよそに"], "answer": 0, "explain": "一日たりとも…ない: chưa từng nghỉ dù chỉ một ngày." },
+      { "type": "mcq", "q": "一円 ___ 無駄にできない。", "options": ["ばかりの", "ながらの", "たりとも", "をもって"], "answer": 2, "explain": "一円たりとも + phủ định." },
+      { "type": "mcq", "q": "試合中は一瞬 ___ 気を抜けない。", "options": ["ともなると", "もって", "んばかり", "たりとも"], "answer": 3, "explain": "一瞬たりとも気を抜けない." },
+      { "type": "mcq", "q": "この仕事は一秒たりとも ___ 。", "options": ["遅れてもよい", "遅れてはならない", "遅れた", "遅れる"], "answer": 1, "explain": "Vế sau たりとも phải phủ định / cấm đoán." },
+      { "type": "gap", "q": "一円 ___ 無駄にできない。", "answer": ["たりとも"], "explain": "一 + đơn vị + たりとも." },
+      { "type": "gap", "q": "彼は一度 ___ 嘘をついたことがない。", "answer": ["たりとも"], "explain": "一度たりとも…ことがない." },
+      { "type": "gap", "q": "一瞬 ___ 気を抜いてはいけない。", "answer": ["たりとも"], "explain": "一瞬たりとも + V-てはいけない." },
+      { "type": "order", "words": ["遅れて", "はならない", "一秒", "たりとも"], "answer": "一秒たりとも遅れてはならない。", "vi": "Không được chậm dù chỉ một giây.", "explain": "一秒たりとも + 遅れてはならない." },
+      { "type": "order", "words": ["休んだ", "ことが", "ない", "彼は", "一日", "練習を", "たりとも"], "answer": "彼は一日たりとも練習を休んだことがない。", "vi": "Anh ấy chưa từng nghỉ tập dù chỉ một ngày.", "explain": "一日たりとも + 練習を休んだことがない." },
+      { "type": "order", "words": ["気を", "抜け", "ない", "一瞬", "たりとも"], "answer": "一瞬たりとも気を抜けない。", "vi": "Không thể lơ là dù chỉ một khoảnh khắc.", "explain": "一瞬たりとも + 気を抜けない." }
+    ]
+  }
+]

@@ -1,0 +1,500 @@
+[
+  {
+    "id": "ja-n4-plain-form",
+    "level": "N4",
+    "title": "Thể thường (từ điển / ない / た)",
+    "title_native": "普通形",
+    "summary_vi": "Dạng thân mật của động từ, tính từ, danh từ; nền tảng để nối vào nhiều mẫu câu N4.",
+    "formula": ["V: 辞書形 / ない形 / た形 / なかった形", "Aい: 高い / 高くない / 高かった / 高くなかった", "Aな・N: 静かだ / 静かじゃない / 静かだった / 静かじゃなかった"],
+    "explain_vi": "Ở N5 bạn học thể lịch sự (ます・です). Thể thường (普通形) là dạng \"không です/ます\", dùng khi nói với bạn bè, người thân, trong nhật ký, và đặc biệt **đứng trước các mẫu ngữ pháp** như と思う, と言う, ことがある, そうだ, ようだ...\n\nVới **động từ** có 4 dạng: từ điển (行く), ない (行かない), た (行った), なかった (行かなかった). Cách tạo dạng た và ない theo nhóm bạn đã học ở N5 (thể て → た, thể ます bỏ ます + ない theo nhóm).\n\nVới **tính từ い**: 高い → 高くない → 高かった → 高くなかった. Riêng いい → よくない / よかった.\n\nVới **tính từ な và danh từ**: ở hiện tại khẳng định thêm **だ** (静かだ, 学生だ), phủ định là じゃない, quá khứ là だった / じゃなかった.\n\nMẹo: khi trích dẫn lời nói hoặc ý nghĩ bằng と, phần trước と luôn ở thể thường. Ví dụ: 「明日は雨だと思う」 chứ không nói 「雨ですと思う」. Tiếng Việt không có sự phân biệt này, nên người Việt hay quên đổi dạng.",
+    "examples": [
+      { "t": "私は毎朝コーヒーを飲む。", "r": "わたしはまいあさコーヒーをのむ。", "vi": "Mỗi sáng tôi uống cà phê." },
+      { "t": "昨日は雨が降らなかった。", "r": "きのうはあめがふらなかった。", "vi": "Hôm qua trời không mưa." },
+      { "t": "友達と映画を見たよ。", "r": "ともだちとえいがをみたよ。", "vi": "Mình đã xem phim với bạn đấy." },
+      { "t": "田中さんは明日来ないと言っていました。", "r": "たなかさんはあしたこないといっていました。", "vi": "Anh Tanaka nói ngày mai sẽ không đến." },
+      { "t": "この料理はおいしくなかった。", "r": "このりょうりはおいしくなかった。", "vi": "Món này đã không ngon." },
+      { "t": "日本語は難しいけど、おもしろい。", "r": "にほんごはむずかしいけど、おもしろい。", "vi": "Tiếng Nhật khó nhưng thú vị." }
+    ],
+    "mistakes": [
+      { "wrong": "彼は元気ですと言いました。", "right": "彼は元気だと言いました。", "note_vi": "Trước と (trích dẫn) phải dùng thể thường: 元気だ, không dùng です." },
+      { "wrong": "この料理はおいしいじゃなかった。", "right": "この料理はおいしくなかった。", "note_vi": "Tính từ い phủ định bằng 〜くない / 〜くなかった, không dùng じゃない." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "昨日は何も___。", "options": ["食べる", "食べない", "食べなかった", "食べました"], "answer": 2, "explain": "「昨日」là quá khứ, 「何も」đi với phủ định, nên dùng 食べなかった." },
+      { "type": "mcq", "q": "この本は面白く___。（thể thường, quá khứ phủ định）", "options": ["なかった", "ないでした", "じゃなかった", "なかったです"], "answer": 0, "explain": "Tính từ い: 面白い → 面白くなかった." },
+      { "type": "mcq", "q": "彼は「昨日の試験は簡単___」と言っていた。", "options": ["です", "でした", "だ", "だった"], "answer": 3, "explain": "Trích dẫn dùng thể thường, và 昨日 là quá khứ nên là 簡単だった." },
+      { "type": "mcq", "q": "A: 昨日、映画を___？　B: うん、見たよ。", "options": ["見ますか", "見た", "見ました", "見る"], "answer": 1, "explain": "Hội thoại thân mật hỏi chuyện quá khứ: 見た？ (lên giọng)." },
+      { "type": "gap", "q": "このかばんは___と思う。（高い・phủ định）", "answer": ["高くない"], "explain": "Tính từ い phủ định: 高い → 高くない, đứng trước と思う ở thể thường." },
+      { "type": "gap", "q": "子どものとき、よくここで___。（遊ぶ・quá khứ）", "answer": ["遊んだ"], "explain": "遊ぶ thuộc nhóm 1, đuôi ぶ → んだ: 遊んだ." },
+      { "type": "order", "words": ["行った", "公園に", "友達と", "昨日は"], "answer": "昨日は友達と公園に行った。", "vi": "Hôm qua mình đã đi công viên với bạn.", "explain": "Câu thể thường kết thúc bằng động từ quá khứ 行った." },
+      { "type": "order", "words": ["と", "言った", "来ない", "彼は", "明日"], "answer": "彼は明日来ないと言った。", "vi": "Anh ấy nói ngày mai sẽ không đến.", "explain": "Phần được trích dẫn 来ない ở thể thường rồi mới thêm と + 言った." }
+    ]
+  },
+  {
+    "id": "ja-n4-potential",
+    "level": "N4",
+    "title": "Thể khả năng",
+    "title_native": "可能形",
+    "summary_vi": "Nói \"có thể làm được\" một việc: 書ける, 食べられる, できる.",
+    "formula": ["Nhóm 1: đuôi u → e + る (書く → 書ける)", "Nhóm 2: bỏ る + られる (食べる → 食べられる)", "する → できる / 来る → 来られる", "N を V → N が V可能形"],
+    "explain_vi": "Thể khả năng diễn tả năng lực hoặc khả năng thực hiện một việc, giống như \"có thể / làm được\" trong tiếng Việt.\n\n**Cách chia:**\n- **Nhóm 1**: đổi âm cuối hàng う sang hàng え rồi thêm る: 書く → 書ける, 読む → 読める, 話す → 話せる, 泳ぐ → 泳げる.\n- **Nhóm 2**: bỏ る thêm られる: 食べる → 食べられる, 起きる → 起きられる.\n- **Nhóm 3**: する → できる, 来る (くる) → 来られる (こられる).\n\nSau khi chia, động từ khả năng đều thuộc nhóm 2 (書ける → 書けない, 書けた).\n\n**Trợ từ**: câu thường đổi を thành **が**: 日本語を話す → 日本語が話せる. Trong văn nói vẫn nghe thấy を, nhưng が là chuẩn nhất.\n\nCũng có thể nói 〜ことができる (話すことができる), nghe trang trọng hơn. Trong văn nói nhiều người lược ら: 食べれる, 起きれる (ら抜き言葉), nhưng khi thi hoặc viết văn thì nên dùng 食べられる.\n\nChú ý khác với thể bị động: 食べられる có thể là \"ăn được\" hoặc \"bị ăn\", phải dựa vào ngữ cảnh.",
+    "examples": [
+      { "t": "私は日本語が少し話せます。", "r": "わたしはにほんごがすこしはなせます。", "vi": "Tôi nói được một chút tiếng Nhật." },
+      { "t": "この漢字は読めません。", "r": "このかんじはよめません。", "vi": "Tôi không đọc được chữ Hán này." },
+      { "t": "朝は早く起きられない。", "r": "あさははやくおきられない。", "vi": "Buổi sáng tôi không dậy sớm được." },
+      { "t": "納豆は食べられますか。", "r": "なっとうはたべられますか。", "vi": "Bạn ăn được natto không?" },
+      { "t": "明日のパーティーに来られますか。", "r": "あしたのパーティーにこられますか。", "vi": "Ngày mai bạn đến dự tiệc được không?" },
+      { "t": "ここでは写真が撮れます。", "r": "ここではしゃしんがとれます。", "vi": "Ở đây có thể chụp ảnh." }
+    ],
+    "mistakes": [
+      { "wrong": "私は日本語を話せます。", "right": "私は日本語が話せます。", "note_vi": "Với thể khả năng, tân ngữ thường dùng が thay vì を (を vẫn gặp trong văn nói)." },
+      { "wrong": "この魚は生で食べれます。", "right": "この魚は生で食べられます。", "note_vi": "食べれる là cách nói rút gọn thân mật; khi viết hoặc thi hãy dùng 食べられる." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "私は漢字が___ません。（読む）", "options": ["読み", "読め", "読まれ", "読もう"], "answer": 1, "explain": "Nhóm 1: 読む → 読める, bỏ る thêm ません: 読めません." },
+      { "type": "mcq", "q": "毎朝六時に___。（起きる）", "options": ["起きられる", "起きれた", "起きさせる", "起きれよう"], "answer": 0, "explain": "Nhóm 2: 起きる → 起きられる." },
+      { "type": "mcq", "q": "日本語で手紙が___。（書く）", "options": ["書かれる", "書かせる", "書く", "書ける"], "answer": 3, "explain": "Nhóm 1: 書く → 書ける (khả năng). 書かれる là bị động, 書かせる là sai khiến." },
+      { "type": "mcq", "q": "私は料理が___。（する）", "options": ["されられる", "しれる", "できる", "すられる"], "answer": 2, "explain": "Khả năng của する là できる." },
+      { "type": "gap", "q": "このパソコンは誰でも___。（使う）", "answer": ["使える"], "explain": "Nhóm 1: 使う → 使える." },
+      { "type": "gap", "q": "この魚は生で___ます。（食べる）", "answer": ["食べられ"], "explain": "Nhóm 2: 食べる → 食べられる, nối ます: 食べられます." },
+      { "type": "order", "words": ["話せます", "私は", "日本語が", "少し"], "answer": "私は日本語が少し話せます。", "vi": "Tôi nói được một chút tiếng Nhật.", "explain": "Tân ngữ đi với が, động từ khả năng 話せます ở cuối." },
+      { "type": "order", "words": ["起きられません", "早く", "明日の朝は"], "answer": "明日の朝は早く起きられません。", "vi": "Sáng mai tôi không dậy sớm được.", "explain": "起きる → 起きられる → 起きられません." }
+    ]
+  },
+  {
+    "id": "ja-n4-volitional-to-omou",
+    "level": "N4",
+    "title": "Thể ý chí + と思う",
+    "title_native": "意向形 + と思う",
+    "summary_vi": "Rủ rê \"cùng làm nhé\" và nói dự định \"tôi định làm\".",
+    "formula": ["Nhóm 1: đuôi u → o + う (行く → 行こう)", "Nhóm 2: bỏ る + よう (食べる → 食べよう)", "する → しよう / 来る → 来よう", "V意向形 + と思う / と思っている"],
+    "explain_vi": "Thể ý chí (意向形) có hai việc chính:\n\n1. **Rủ rê / tự quyết định** (thân mật): 行こう (đi nào), 食べよう (ăn thôi), 帰ろう (về thôi). Giống \"…thôi nào\" trong tiếng Việt. Dạng lịch sự là 〜ましょう.\n\n2. **Dự định**: V意向形 + と思う / と思っている = \"tôi định / tôi đang nghĩ sẽ…\". Ví dụ: 日本へ行こうと思います.\n\n**Cách chia:**\n- **Nhóm 1**: đổi âm cuối sang hàng お + う: 書く → 書こう, 飲む → 飲もう, 話す → 話そう, 買う → 買おう.\n- **Nhóm 2**: bỏ る thêm よう: 見る → 見よう, 寝る → 寝よう.\n- **Nhóm 3**: する → しよう, 来る → 来よう (こよう).\n\n**Chú ý**: 〜ようと思う chỉ nói về ý định của **người nói** ở hiện tại. Nếu nói về ý định của người khác, dùng 〜ようと思っている / 〜ようと思っているそうだ: 田中さんは留学しようと思っている. Nếu dự định đã chắc chắn hơn thì dùng 〜つもりだ hoặc 〜ことにする (học ở N3).",
+    "examples": [
+      { "t": "週末は友達と映画を見ようと思います。", "r": "しゅうまつはともだちとえいがをみようとおもいます。", "vi": "Cuối tuần tôi định đi xem phim với bạn." },
+      { "t": "来年、日本へ留学しようと思っている。", "r": "らいねん、にほんへりゅうがくしようとおもっている。", "vi": "Sang năm tôi đang định đi du học Nhật." },
+      { "t": "さあ、そろそろ帰ろう。", "r": "さあ、そろそろかえろう。", "vi": "Nào, sắp đến lúc về rồi đấy." },
+      { "t": "一緒に昼ご飯を食べよう。", "r": "いっしょにひるごはんをたべよう。", "vi": "Cùng ăn trưa nhé." },
+      { "t": "日本語をもっと勉強しようと思う。", "r": "にほんごをもっとべんきょうしようとおもう。", "vi": "Tôi định học tiếng Nhật nhiều hơn nữa." },
+      { "t": "疲れたので、少し休もう。", "r": "つかれたので、すこしやすもう。", "vi": "Mệt rồi nên nghỉ một chút thôi." }
+    ],
+    "mistakes": [
+      { "wrong": "明日、早く食べるようと思います。", "right": "明日、早く食べようと思います。", "note_vi": "Thể ý chí của nhóm 2 là bỏ る + よう, không thêm る vào trước よう." },
+      { "wrong": "田中さんは来年会社を辞めようと思います。", "right": "田中さんは来年会社を辞めようと思っている。", "note_vi": "Ý định của người thứ ba phải dùng 〜と思っている." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "今日は早く___と思う。（寝る）", "options": ["寝る", "寝よう", "寝ろう", "寝て"], "answer": 1, "explain": "Nhóm 2: 寝る → 寝よう, rồi + と思う." },
+      { "type": "mcq", "q": "夏休みに北海道へ___と思っています。（行く）", "options": ["行こう", "行けよう", "行きよう", "行くよう"], "answer": 0, "explain": "Nhóm 1: 行く → 行こう." },
+      { "type": "mcq", "q": "田中さんは来年会社を辞めようと___。（今もその考えがある）", "options": ["思います", "思う", "思っている", "思った"], "answer": 2, "explain": "Nói về ý định của người khác dùng 〜と思っている." },
+      { "type": "mcq", "q": "明日は早く___と思う。（来る）", "options": ["来ろう", "来るよう", "来らよう", "来よう"], "answer": 3, "explain": "来る → 来よう (こよう)." },
+      { "type": "gap", "q": "今晩は家で映画を___と思う。（見る）", "answer": ["見よう"], "explain": "Nhóm 2: 見る → 見よう." },
+      { "type": "gap", "q": "週末に部屋を___と思っています。（掃除する）", "answer": ["掃除しよう"], "explain": "する → しよう, 掃除する → 掃除しよう." },
+      { "type": "order", "words": ["思う", "旅行しよう", "と", "友達と", "一緒に"], "answer": "友達と一緒に旅行しようと思う。", "vi": "Tôi định đi du lịch cùng bạn.", "explain": "V意向形 + と思う đứng ở cuối câu." },
+      { "type": "order", "words": ["歌おう", "みんなで", "歌を", "さあ"], "answer": "さあ、みんなで歌を歌おう。", "vi": "Nào, cả nhóm cùng hát nhé.", "explain": "Rủ rê bằng thể ý chí: 歌う → 歌おう." }
+    ]
+  },
+  {
+    "id": "ja-n4-ba",
+    "level": "N4",
+    "title": "Điều kiện 〜ば",
+    "title_native": "〜ば",
+    "summary_vi": "\"Nếu … thì …\": điều kiện cần, chân lý, lời khuyên.",
+    "formula": ["Nhóm 1: đuôi u → e + ば (書く → 書けば)", "Nhóm 2: bỏ る + れば / する → すれば / 来る → 来れば", "Aい: 〜ければ / Aな・N: 〜なら(ば)", "V ない → 〜なければ"],
+    "explain_vi": "〜ば nghĩa là \"nếu… thì…\", nhấn vào **điều kiện cần để kết quả xảy ra**. Hay dùng cho chân lý, quy luật (春になれば花が咲く), lời khuyên (薬を飲めば治る) và ý \"chỉ cần… là được\" (〜ばいい).\n\n**Cách chia:**\n- **Nhóm 1**: đổi âm cuối hàng う sang hàng え + ば: 行く → 行けば, 読む → 読めば, 急ぐ → 急げば, 買う → 買えば.\n- **Nhóm 2**: bỏ る + れば: 食べれば, 見れば. する → すれば, 来る → くれば.\n- **Tính từ い**: bỏ い + ければ: 安ければ, よければ.\n- **Phủ định**: ない → なければ (分からなければ).\n- **Danh từ / tính từ な**: なら(ば) hoặc であれば.\n\nCũng có mẫu hay gặp **〜ば〜ほど** (càng… càng…): 勉強すればするほど面白い.\n\n**Hạn chế quan trọng**: vế sau của 〜ば thường **không** dùng với ý chí, lời nhờ, mệnh lệnh khi cả hai vế đều là hành động (✕ 駅に着けば、電話してください). Trường hợp đó dùng 〜たら.",
+    "examples": [
+      { "t": "春になれば、桜が咲きます。", "r": "はるになれば、さくらがさきます。", "vi": "Hễ vào xuân là hoa anh đào nở." },
+      { "t": "急げば、まだ間に合う。", "r": "いそげば、まだまにあう。", "vi": "Nếu nhanh lên thì vẫn kịp." },
+      { "t": "薬を飲めば、すぐ治るでしょう。", "r": "くすりをのめば、すぐなおるでしょう。", "vi": "Uống thuốc thì sẽ khỏi ngay thôi." },
+      { "t": "安ければ、買います。", "r": "やすければ、かいます。", "vi": "Nếu rẻ thì tôi sẽ mua." },
+      { "t": "分からなければ、聞いてください。", "r": "わからなければ、きいてください。", "vi": "Nếu không hiểu thì hãy hỏi." },
+      { "t": "日本語は勉強すればするほど面白い。", "r": "にほんごはべんきょうすればするほどおもしろい。", "vi": "Tiếng Nhật càng học càng thú vị." }
+    ],
+    "mistakes": [
+      { "wrong": "この靴は高いければ、買いません。", "right": "この靴は高ければ、買いません。", "note_vi": "Tính từ い: bỏ い rồi thêm ければ (高い → 高ければ)." },
+      { "wrong": "駅に着けば、電話してください。", "right": "駅に着いたら、電話してください。", "note_vi": "Vế sau là lời nhờ vả nên dùng 〜たら, không dùng 〜ば." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "時間が___、手伝います。（ある）", "options": ["あれば", "あるば", "あったば", "あってば"], "answer": 0, "explain": "ある → あれば (đuôi る đổi thành れば)." },
+      { "type": "mcq", "q": "安く___、買います。（安い）", "options": ["安いければ", "安くれば", "安ければ", "安いなら"], "answer": 2, "explain": "Tính từ い: bỏ い + ければ → 安ければ." },
+      { "type": "mcq", "q": "道が分から___、人に聞いてください。", "options": ["ないば", "なければ", "なくれば", "なかれば"], "answer": 1, "explain": "Phủ định ない → なければ." },
+      { "type": "mcq", "q": "毎日練習___、上手になります。", "options": ["しれば", "すいば", "するば", "すれば"], "answer": 3, "explain": "する → すれば." },
+      { "type": "gap", "q": "春に___、花が咲きます。（なる）", "answer": ["なれば"], "explain": "なる → なれば." },
+      { "type": "gap", "q": "この薬を___、元気になりますよ。（飲む）", "answer": ["飲めば"], "explain": "Nhóm 1: 飲む → 飲めば." },
+      { "type": "order", "words": ["旅行したい", "お金が", "世界を", "あれば"], "answer": "お金があれば、世界を旅行したい。", "vi": "Nếu có tiền thì tôi muốn đi du lịch vòng quanh thế giới.", "explain": "Vế điều kiện お金があれば đứng trước vế kết quả." },
+      { "type": "order", "words": ["間に合います", "電車に", "急げば"], "answer": "急げば、電車に間に合います。", "vi": "Nếu nhanh lên thì sẽ kịp chuyến tàu.", "explain": "急ぐ → 急げば, vế sau là kết quả tự nhiên." }
+    ]
+  },
+  {
+    "id": "ja-n4-tara",
+    "level": "N4",
+    "title": "Điều kiện 〜たら",
+    "title_native": "〜たら",
+    "summary_vi": "\"Khi / nếu … thì …\" dùng được rất rộng, kể cả với lời nhờ và ý chí.",
+    "formula": ["V た形 + ら (行った → 行ったら)", "Aい: 〜かったら / Aな・N: 〜だったら", "V ない: 〜なかったら"],
+    "explain_vi": "〜たら là mẫu điều kiện **linh hoạt nhất**: thêm ら vào thể た (thể quá khứ) của động từ, tính từ, danh từ. 行く → 行ったら, 高い → 高かったら, 暇だ → 暇だったら, 学生だ → 学生だったら.\n\nCó 3 cách dùng chính:\n1. **Giả định**: 雨が降ったら、試合は中止です (nếu mưa thì trận đấu hủy).\n2. **\"Sau khi … xong thì …\"** (việc chắc chắn xảy ra): 家に着いたら、電話してください.\n3. **Phát hiện bất ngờ** (vế sau ở quá khứ): 駅に行ったら、友達が待っていた (đến ga thì thấy bạn đang đợi).\n\n**Điểm mạnh**: vế sau có thể là ý chí, lời nhờ, mệnh lệnh, rủ rê, điều mà 〜ば và 〜と không dùng được. Vì vậy với người mới học, nếu không chắc nên chọn mẫu nào, dùng 〜たら thường là an toàn.\n\nSo với tiếng Việt: 〜たら gần như \"nếu / khi / hễ… thì\" tùy ngữ cảnh. Chú ý: dù có た, 〜たら **không nhất thiết là quá khứ**; thời của câu do vế sau quyết định.",
+    "examples": [
+      { "t": "家に着いたら、電話してください。", "r": "いえについたら、でんわしてください。", "vi": "Về đến nhà thì hãy gọi điện cho tôi." },
+      { "t": "雨が降ったら、試合は中止です。", "r": "あめがふったら、しあいはちゅうしです。", "vi": "Nếu trời mưa thì trận đấu sẽ bị hủy." },
+      { "t": "安かったら、買いたいです。", "r": "やすかったら、かいたいです。", "vi": "Nếu rẻ thì tôi muốn mua." },
+      { "t": "駅に行ったら、友達が待っていた。", "r": "えきにいったら、ともだちがまっていた。", "vi": "Khi đến ga thì thấy bạn đang đợi." },
+      { "t": "時間があったら、遊びに来てください。", "r": "じかんがあったら、あそびにきてください。", "vi": "Nếu có thời gian thì hãy đến chơi." },
+      { "t": "日本に行ったら、温泉に入りたい。", "r": "にほんにいったら、おんせんにはいりたい。", "vi": "Nếu đến Nhật thì tôi muốn ngâm onsen." }
+    ],
+    "mistakes": [
+      { "wrong": "高いたら、買いません。", "right": "高かったら、買いません。", "note_vi": "Tính từ い: bỏ い + かったら, không thêm たら vào sau い." },
+      { "wrong": "静かたら、勉強できます。", "right": "静かだったら、勉強できます。", "note_vi": "Tính từ な cần だったら." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "宿題が終わっ___、遊んでもいいです。", "options": ["たら", "だら", "ならば", "れば"], "answer": 0, "explain": "Thể た của 終わる là 終わった, thêm ら: 終わったら." },
+      { "type": "mcq", "q": "駅に___、電話をください。（着く）", "options": ["着けば", "着いたら", "着くと", "着くなら"], "answer": 1, "explain": "Vế sau là lời nhờ vả, dùng 〜たら." },
+      { "type": "mcq", "q": "駅に行っ___、電車が止まっていた。", "options": ["ば", "なら", "たら", "のに"], "answer": 2, "explain": "Phát hiện bất ngờ ở quá khứ: 行ったら、…ていた." },
+      { "type": "mcq", "q": "安___、買います。（安い）", "options": ["いたら", "くたら", "だったら", "かったら"], "answer": 3, "explain": "Tính từ い: 安い → 安かったら." },
+      { "type": "gap", "q": "お金が___、車を買いたい。（ある）", "answer": ["あったら"], "explain": "ある → あった → あったら." },
+      { "type": "gap", "q": "日本に___、ラーメンを食べたい。（行く）", "answer": ["行ったら"], "explain": "行く → 行った → 行ったら." },
+      { "type": "order", "words": ["日本で", "卒業したら", "働きたい", "大学を"], "answer": "大学を卒業したら、日本で働きたい。", "vi": "Sau khi tốt nghiệp đại học tôi muốn làm việc ở Nhật.", "explain": "Vế sau là nguyện vọng (たい), 〜たら đi được." },
+      { "type": "order", "words": ["手伝って", "あったら", "時間が", "ください"], "answer": "時間があったら、手伝ってください。", "vi": "Nếu có thời gian thì hãy giúp tôi.", "explain": "Vế sau là lời nhờ, rất hợp với 〜たら." }
+    ]
+  },
+  {
+    "id": "ja-n4-to-conditional",
+    "level": "N4",
+    "title": "Điều kiện 〜と",
+    "title_native": "〜と",
+    "summary_vi": "\"Hễ … là …\": kết quả tự nhiên, thói quen, chỉ đường, phát hiện.",
+    "formula": ["V 辞書形 / ない形 + と、…", "Aい (辞書形) / Aな・N (だ) + と、…"],
+    "explain_vi": "〜と dùng khi vế sau là **kết quả tự nhiên, tất yếu** của vế trước, giống \"hễ… là…\" trong tiếng Việt. Chỉ cần thêm と vào sau thể thường: 押す → 押すと, 春になる → 春になると, 急がない → 急がないと.\n\nCác cách dùng chính:\n1. **Quy luật, máy móc**: ボタンを押すと、ドアが開きます.\n2. **Thói quen lặp lại**: 日曜日になると、公園は人でいっぱいだ.\n3. **Chỉ đường**: この道をまっすぐ行くと、右に銀行があります.\n4. **Phát hiện ở quá khứ**: 窓を開けると、海が見えた.\n5. **Cảnh báo**: 急がないと、遅れますよ.\n\n**Hạn chế**: vế sau **không** dùng ý chí (〜たい, 〜よう), lời nhờ (〜てください), rủ rê (〜ましょう), mệnh lệnh. Ví dụ ✕ 春になると、花見に行きましょう. Khi đó dùng 〜たら: 春になったら、花見に行きましょう.\n\nSo sánh nhanh: 〜と là kết quả tự nhiên; 〜ば là điều kiện cần; 〜たら là điều kiện linh hoạt; 〜なら là điều kiện dựa trên thông tin đối phương nói.",
+    "examples": [
+      { "t": "春になると、桜が咲きます。", "r": "はるになると、さくらがさきます。", "vi": "Hễ vào xuân là hoa anh đào nở." },
+      { "t": "このボタンを押すと、お湯が出ます。", "r": "このボタンをおすと、おゆがでます。", "vi": "Hễ ấn nút này là nước nóng chảy ra." },
+      { "t": "右に曲がると、駅があります。", "r": "みぎにまがると、えきがあります。", "vi": "Rẽ phải là thấy ga." },
+      { "t": "急がないと、遅れますよ。", "r": "いそがないと、おくれますよ。", "vi": "Không nhanh lên là trễ đấy." },
+      { "t": "窓を開けると、海が見えた。", "r": "まどをあけると、うみがみえた。", "vi": "Mở cửa sổ ra thì thấy biển." },
+      { "t": "日曜日になると、公園は人でいっぱいだ。", "r": "にちようびになると、こうえんはひとでいっぱいだ。", "vi": "Cứ đến Chủ nhật là công viên đầy người." }
+    ],
+    "mistakes": [
+      { "wrong": "暇だと、遊びに来てください。", "right": "暇だったら、遊びに来てください。", "note_vi": "Vế sau là lời nhờ nên không dùng 〜と; dùng 〜たら." },
+      { "wrong": "春になると、花見に行きましょう。", "right": "春になったら、花見に行きましょう。", "note_vi": "Vế sau là rủ rê (〜ましょう) → dùng 〜たら." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "ボタンを押す___、ドアが開きます。", "options": ["と", "から", "でも", "のに"], "answer": 0, "explain": "Kết quả tự nhiên của máy móc: 押すと、開きます." },
+      { "type": "mcq", "q": "時間が___、遊びに来てください。", "options": ["あると", "あるから", "あったら", "あるので"], "answer": 2, "explain": "Vế sau là lời nhờ, cần 〜たら (không dùng 〜と)." },
+      { "type": "mcq", "q": "家に帰る___、手紙が届いていた。", "options": ["なら", "と", "ば", "よう"], "answer": 1, "explain": "Phát hiện sau khi làm một việc: 帰ると、…ていた." },
+      { "type": "mcq", "q": "急が___、遅れますよ。", "options": ["ないで", "なくて", "なかった", "ないと"], "answer": 3, "explain": "Cảnh báo \"nếu không… thì…\": 急がないと、遅れます." },
+      { "type": "gap", "q": "この橋を渡る___、公園があります。", "answer": ["と"], "explain": "Chỉ đường dùng 〜と." },
+      { "type": "gap", "q": "春に___と、暖かくなります。（なる）", "answer": ["なる"], "explain": "Động từ thể từ điển + と." },
+      { "type": "order", "words": ["水が", "ボタンを", "出ます", "押すと"], "answer": "ボタンを押すと、水が出ます。", "vi": "Hễ ấn nút là nước chảy ra.", "explain": "Vế điều kiện 押すと đứng trước vế kết quả." },
+      { "type": "order", "words": ["郵便局が", "曲がると", "あります", "右に"], "answer": "右に曲がると、郵便局があります。", "vi": "Rẽ phải là thấy bưu điện.", "explain": "Mẫu chỉ đường điển hình: V + と、…があります." }
+    ]
+  },
+  {
+    "id": "ja-n4-nara",
+    "level": "N4",
+    "title": "Điều kiện 〜なら",
+    "title_native": "〜なら",
+    "summary_vi": "\"Nếu là … thì …\": đưa ra lời khuyên dựa trên chủ đề / thông tin đối phương vừa nói.",
+    "formula": ["N + なら、…", "V / Aい thể thường + なら、…", "Aな (bỏ だ) + なら、…"],
+    "explain_vi": "〜なら nghĩa là \"nếu là chuyện đó / nếu đã như vậy thì…\". Điểm đặc biệt là nó thường **nhận chủ đề từ người đối thoại hoặc từ tình huống**, rồi đưa ra lời khuyên, đề nghị, đánh giá.\n\nVí dụ: A nói 「来月、京都へ行きます」, B đáp 「京都なら、秋がきれいですよ」 (nếu là Kyoto thì mùa thu đẹp đấy). B không đi Kyoto, mà dùng chủ đề của A để khuyên.\n\n**Cách tạo:**\n- Danh từ: 京都なら, 英語なら.\n- Tính từ な: bỏ だ rồi + なら: 上手なら (✕ 上手だなら).\n- Tính từ い và động từ: thể thường + なら: 安いなら, 行くなら, 行かないなら.\n\nVế sau thoải mái dùng lời khuyên, nhờ vả, ý chí.\n\nLưu ý thứ tự thời gian: với động từ, 〜なら thường dùng cho việc **chưa làm** (日本へ行くなら、… = nếu bạn định đi Nhật). Còn 〜たら nói việc **sau khi làm xong**. Cũng khác 〜と (kết quả tự nhiên): ✕ 春になるなら、暖かくなる → 春になると、暖かくなる.",
+    "examples": [
+      { "t": "日本へ行くなら、京都がおすすめです。", "r": "にほんへいくなら、きょうとがおすすめです。", "vi": "Nếu bạn đi Nhật thì tôi gợi ý Kyoto." },
+      { "t": "安いのがほしいなら、あの店がいいですよ。", "r": "やすいのがほしいなら、あのみせがいいですよ。", "vi": "Nếu muốn đồ rẻ thì cửa hàng kia tốt đấy." },
+      { "t": "行くなら、早く行きましょう。", "r": "いくなら、はやくいきましょう。", "vi": "Nếu đã đi thì đi sớm thôi." },
+      { "t": "英語なら、田中さんに聞いてください。", "r": "えいごなら、たなかさんにきいてください。", "vi": "Nếu là tiếng Anh thì hãy hỏi anh Tanaka." },
+      { "t": "北海道へ行くんですか。それなら、冬がいいですよ。", "r": "ほっかいどうへいくんですか。それなら、ふゆがいいですよ。", "vi": "Bạn đi Hokkaido à? Vậy thì mùa đông là tốt đấy." },
+      { "t": "君が行かないなら、私も行かない。", "r": "きみがいかないなら、わたしもいかない。", "vi": "Nếu cậu không đi thì tôi cũng không đi." }
+    ],
+    "mistakes": [
+      { "wrong": "日本語が上手だなら、通訳をお願いします。", "right": "日本語が上手なら、通訳をお願いします。", "note_vi": "Tính từ な + なら: bỏ だ, không nói だなら." },
+      { "wrong": "春になるなら、暖かくなります。", "right": "春になると、暖かくなります。", "note_vi": "Kết quả tự nhiên dùng 〜と, 〜なら không hợp." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "車を買う___、トヨタがいいですよ。", "options": ["なら", "たら", "と", "ので"], "answer": 0, "explain": "Đưa lời khuyên dựa trên việc đối phương định làm: 買うなら." },
+      { "type": "mcq", "q": "A: 来月、京都へ行きます。　B: 京都___、秋がきれいですよ。", "options": ["と", "たら", "なら", "から"], "answer": 2, "explain": "Nhận chủ đề từ A rồi khuyên: 京都なら." },
+      { "type": "mcq", "q": "日本語が上手___、通訳をお願いします。", "options": ["だなら", "なら", "でなら", "いなら"], "answer": 1, "explain": "Tính từ な: bỏ だ + なら." },
+      { "type": "mcq", "q": "もう帰る___、傘を持って行ったほうがいい。", "options": ["ので", "まで", "のに", "なら"], "answer": 3, "explain": "Thể thường + なら: 帰るなら (nếu bạn về rồi thì…)." },
+      { "type": "gap", "q": "寿司を食べ___、あの店がいいですよ。", "answer": ["るなら"], "explain": "Động từ thể từ điển + なら: 食べるなら." },
+      { "type": "gap", "q": "A: 来週、大阪へ行きます。　B: 大阪___、たこ焼きを食べてください。", "answer": ["なら"], "explain": "Danh từ + なら." },
+      { "type": "order", "words": ["春が", "京都へ", "いいです", "行くなら"], "answer": "京都へ行くなら、春がいいです。", "vi": "Nếu đi Kyoto thì mùa xuân là tốt.", "explain": "Vế なら đứng trước, vế sau là lời khuyên." },
+      { "type": "order", "words": ["あの店に", "ほしいなら", "安いものが", "行ってください"], "answer": "安いものがほしいなら、あの店に行ってください。", "vi": "Nếu muốn đồ rẻ thì hãy đến cửa hàng kia.", "explain": "Vế sau có thể là lời khuyên dạng 〜てください." }
+    ]
+  },
+  {
+    "id": "ja-n4-passive",
+    "level": "N4",
+    "title": "Thể bị động",
+    "title_native": "受身形",
+    "summary_vi": "\"Bị / được\" làm gì: ほめられる, 踏まれる, 建てられる.",
+    "formula": ["Nhóm 1: đuôi u → a + れる (書く → 書かれる)", "Nhóm 2: bỏ る + られる (食べる → 食べられる)", "する → される / 来る → 来られる", "A は B に V受身形"],
+    "explain_vi": "Thể bị động (受身形) diễn tả chủ ngữ **chịu tác động** từ người khác: \"bị / được\".\n\n**Cách chia:**\n- **Nhóm 1**: đổi âm cuối sang hàng あ + れる: 書く → 書かれる, 踏む → 踏まれる, 言う → 言われる.\n- **Nhóm 2**: bỏ る + られる: ほめる → ほめられる, 食べる → 食べられる.\n- **Nhóm 3**: する → される, 来る → 来られる.\n\n**Cấu trúc cơ bản**: 〔Người bị tác động〕は 〔Người gây ra〕に V受身形. Ví dụ: 私は先生にほめられた (tôi được thầy khen). Người gây ra đi với **に**.\n\n**Ba loại thường gặp:**\n1. Bị động trực tiếp: 友達に笑われた.\n2. Bị động \"gặp phiền\" (迷惑の受身): thường dùng cho việc **ta không mong muốn**, kể cả khi tiếng Việt không dịch là bị: 雨に降られた (bị mưa), 電車で足を踏まれた.\n3. Bị động không nêu người làm, nói về sự việc: このビルは去年建てられた, 日本語は世界中で勉強されている.\n\nTiếng Việt dùng \"bị\" (xấu) và \"được\" (tốt); tiếng Nhật chỉ có một dạng 〜られる cho cả hai, ý nghĩa tốt/xấu dựa vào ngữ cảnh.",
+    "examples": [
+      { "t": "私は先生にほめられました。", "r": "わたしはせんせいにほめられました。", "vi": "Tôi đã được thầy giáo khen." },
+      { "t": "電車で足を踏まれた。", "r": "でんしゃであしをふまれた。", "vi": "Tôi bị người ta dẫm vào chân trên tàu." },
+      { "t": "このビルは去年建てられました。", "r": "このビルはきょねんたてられました。", "vi": "Tòa nhà này được xây năm ngoái." },
+      { "t": "日本語は世界中で勉強されています。", "r": "にほんごはせかいじゅうでべんきょうされています。", "vi": "Tiếng Nhật đang được học trên khắp thế giới." },
+      { "t": "昨日、雨に降られて、服が濡れました。", "r": "きのう、あめにふられて、ふくがぬれました。", "vi": "Hôm qua tôi bị mắc mưa nên quần áo ướt." },
+      { "t": "母に部屋を片付けるように言われた。", "r": "ははにへやをかたづけるようにいわれた。", "vi": "Tôi bị mẹ bảo dọn phòng." }
+    ],
+    "mistakes": [
+      { "wrong": "先生が私をほめられました。", "right": "私は先生にほめられました。", "note_vi": "Chủ ngữ là người bị tác động (私), người gây ra đi với に." },
+      { "wrong": "友達が私を笑いました。(ý \"tôi bị bạn cười\")", "right": "私は友達に笑われました。", "note_vi": "Khi muốn nhấn vào cảm giác của người bị tác động thì dùng bị động." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "私は犬___かまれました。", "options": ["を", "に", "が", "で"], "answer": 1, "explain": "Người/vật gây ra hành động đi với に." },
+      { "type": "mcq", "q": "子どものとき、よく母に___。（叱る）", "options": ["叱られた", "叱った", "叱らせた", "叱れた"], "answer": 0, "explain": "叱る (nhóm 1) → 叱られる → 叱られた (bị mẹ mắng)." },
+      { "type": "mcq", "q": "このお寺は五百年前に___。（建てる）", "options": ["建てる", "建てよう", "建たれた", "建てられた"], "answer": 3, "explain": "Bị động nhóm 2: 建てる → 建てられる, quá khứ 建てられた." },
+      { "type": "mcq", "q": "友達に急に家に___、困った。（来る）", "options": ["来て", "来させて", "来られて", "来れて"], "answer": 2, "explain": "Bị động \"gặp phiền\" của 来る: 来られる, te: 来られて." },
+      { "type": "gap", "q": "電車で隣の人に足を___。（踏む）", "answer": ["踏まれた", "踏まれました"], "explain": "踏む (nhóm 1) → 踏まれる → 踏まれた." },
+      { "type": "gap", "q": "この本は多くの人に___ています。（読む）", "answer": ["読まれ"], "explain": "読む → 読まれる, nối ています: 読まれています." },
+      { "type": "order", "words": ["ほめられました", "先生に", "私は"], "answer": "私は先生にほめられました。", "vi": "Tôi đã được thầy khen.", "explain": "A は B に V受身形." },
+      { "type": "order", "words": ["踏まれました", "電車で", "昨日", "足を"], "answer": "昨日、電車で足を踏まれました。", "vi": "Hôm qua tôi bị dẫm vào chân trên tàu.", "explain": "Bị động \"gặp phiền\": 足を踏まれました." }
+    ]
+  },
+  {
+    "id": "ja-n4-causative",
+    "level": "N4",
+    "title": "Thể sai khiến",
+    "title_native": "使役形",
+    "summary_vi": "\"Bắt / cho phép\" ai làm gì: 食べさせる, 行かせる, 〜させてください.",
+    "formula": ["Nhóm 1: đuôi u → a + せる (書く → 書かせる)", "Nhóm 2: bỏ る + させる (食べる → 食べさせる)", "する → させる / 来る → 来させる", "A は B に N を V使役形 / A は B を V使役形"],
+    "explain_vi": "Thể sai khiến (使役形) diễn tả **A khiến / bắt / cho phép B làm gì**. Tiếng Việt chia thành \"bắt, bảo, để cho, cho phép\", còn tiếng Nhật dùng chung một dạng.\n\n**Cách chia:**\n- **Nhóm 1**: đổi âm cuối sang hàng あ + せる: 書く → 書かせる, 行く → 行かせる, 待つ → 待たせる.\n- **Nhóm 2**: bỏ る + させる: 食べる → 食べさせる, 見る → 見させる.\n- **Nhóm 3**: する → させる, 来る → 来させる (こさせる).\n\n**Trợ từ:**\n- Động từ **không có tân ngữ** (行く, 立つ, 笑う): người bị sai khiến đi với **を** (ép buộc) hoặc **に** (cho phép): 先生は学生を立たせた.\n- Động từ **có tân ngữ** (食べる, する): người bị sai khiến đi với **に**, vì を đã dành cho tân ngữ: 母は子どもに野菜を食べさせる.\n\n**Mẫu rất hữu ích**: 〜させてください = \"xin hãy cho phép tôi…\": 早く帰らせてください, 考えさせてください. Đây là cách xin phép lịch sự.\n\nSai khiến cũng dùng để nói gây ra cảm xúc: 彼はみんなを笑わせた (anh ấy làm mọi người cười).",
+    "examples": [
+      { "t": "母は子どもに野菜を食べさせます。", "r": "はははこどもにやさいをたべさせます。", "vi": "Mẹ bắt con ăn rau." },
+      { "t": "先生は学生を立たせました。", "r": "せんせいはがくせいをたたせました。", "vi": "Thầy giáo bắt học sinh đứng lên." },
+      { "t": "部長は私に残業をさせました。", "r": "ぶちょうはわたしにざんぎょうをさせました。", "vi": "Trưởng phòng bắt tôi làm thêm giờ." },
+      { "t": "子どもを自由に遊ばせています。", "r": "こどもをじゆうにあそばせています。", "vi": "Tôi để cho con chơi tự do." },
+      { "t": "すみません、早く帰らせてください。", "r": "すみません、はやくかえらせてください。", "vi": "Xin lỗi, xin hãy cho tôi về sớm." },
+      { "t": "彼は冗談でみんなを笑わせた。", "r": "かれはじょうだんでみんなをわらわせた。", "vi": "Anh ấy pha trò làm mọi người cười." }
+    ],
+    "mistakes": [
+      { "wrong": "母は子どもを野菜を食べさせます。", "right": "母は子どもに野菜を食べさせます。", "note_vi": "Có tân ngữ (野菜を) thì người bị sai khiến phải đi với に, không dùng を hai lần." },
+      { "wrong": "早く帰られてください。", "right": "早く帰らせてください。", "note_vi": "Xin phép dùng sai khiến + てください (帰らせて), không dùng bị động." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "母は子どもに宿題を___。（する）", "options": ["されました", "しました", "できました", "させました"], "answer": 3, "explain": "Nhóm 3: する → させる → させました (mẹ bắt con làm bài tập)." },
+      { "type": "mcq", "q": "先生は学生を廊下に___。（立つ）", "options": ["立たれた", "立てた", "立たせた", "立った"], "answer": 2, "explain": "Nhóm 1: 立つ → 立たせる (bắt đứng)." },
+      { "type": "mcq", "q": "すみません、ちょっと考え___ください。", "options": ["られて", "させて", "せて", "れて"], "answer": 1, "explain": "考える (nhóm 2) → 考えさせる → 考えさせてください (xin cho tôi suy nghĩ)." },
+      { "type": "mcq", "q": "子どもを一人で買い物に___。（行く）", "options": ["行かせた", "行かれた", "行けた", "行った"], "answer": 0, "explain": "Nhóm 1: 行く → 行かせる (để / bắt con đi)." },
+      { "type": "gap", "q": "母は毎日、子どもに野菜を___ます。（食べる）", "answer": ["食べさせ"], "explain": "食べる → 食べさせる, 食べさせます." },
+      { "type": "gap", "q": "すみません、先に___ください。（帰る）", "answer": ["帰らせて"], "explain": "帰る (nhóm 1) → 帰らせる → 帰らせて." },
+      { "type": "order", "words": ["書かせました", "学生に", "先生は", "作文を"], "answer": "先生は学生に作文を書かせました。", "vi": "Thầy giáo cho học sinh viết văn.", "explain": "Có tân ngữ 作文を nên học sinh đi với に." },
+      { "type": "order", "words": ["させた", "私に", "部長は", "残業を"], "answer": "部長は私に残業をさせた。", "vi": "Trưởng phòng bắt tôi làm thêm giờ.", "explain": "A は B に N を V使役形 (する → させる)." }
+    ]
+  },
+  {
+    "id": "ja-n4-te-shimau",
+    "level": "N4",
+    "title": "〜てしまう (làm xong / lỡ làm)",
+    "title_native": "〜てしまう",
+    "summary_vi": "Làm xong hẳn một việc, hoặc lỡ làm điều đáng tiếc.",
+    "formula": ["V て形 + しまう (食べてしまう)", "Nói tắt: 〜てしまう → 〜ちゃう / 〜でしまう → 〜じゃう"],
+    "explain_vi": "〜てしまう có hai nghĩa:\n\n1. **Hoàn thành hẳn** (làm xong, làm hết): 宿題を全部やってしまった (làm xong hết bài tập), ケーキを全部食べてしまった (ăn hết cả cái bánh).\n\n2. **Tiếc nuối, lỡ làm, không mong muốn**: 電車に傘を忘れてしまった (lỡ để quên ô trên tàu), 財布をなくしてしまった (lỡ mất ví). Nghĩa này gần với \"mất rồi / lỡ rồi / mất tiêu\" trong tiếng Việt.\n\nCách dùng: chia động từ ở **thể て** rồi thêm しまう. Ví dụ 忘れる → 忘れてしまう, 飲む → 飲んでしまう. Có thể chia しまう như bình thường: 忘れてしまいました, 忘れてしまった.\n\n**Dạng văn nói thân mật**: 〜てしまう → 〜ちゃう, 〜でしまう → 〜じゃう. 食べてしまった → 食べちゃった, 飲んでしまった → 飲んじゃった. Dạng này rất hay gặp trong hội thoại hàng ngày, anime, truyện tranh.\n\nMẹo: nếu việc đó là điều **không cố ý, đáng tiếc** thì hầu như luôn dùng 〜てしまう. Người Việt học thường quên và chỉ dùng thể quá khứ thường.",
+    "examples": [
+      { "t": "宿題を全部やってしまいました。", "r": "しゅくだいをぜんぶやってしまいました。", "vi": "Tôi đã làm xong hết bài tập." },
+      { "t": "電車の中に傘を忘れてしまった。", "r": "でんしゃのなかにかさをわすれてしまった。", "vi": "Tôi lỡ để quên ô trên tàu." },
+      { "t": "大事な財布をなくしてしまいました。", "r": "だいじなさいふをなくしてしまいました。", "vi": "Tôi lỡ làm mất chiếc ví quan trọng." },
+      { "t": "昨日買った本をもう読んでしまいました。", "r": "きのうかったほんをもうよんでしまいました。", "vi": "Cuốn sách mua hôm qua tôi đã đọc xong rồi." },
+      { "t": "ケーキを食べちゃった。", "r": "ケーキをたべちゃった。", "vi": "Mình lỡ ăn mất cái bánh rồi." },
+      { "t": "財布を落としてしまって、困りました。", "r": "さいふをおとしてしまって、こまりました。", "vi": "Tôi lỡ làm rơi ví nên rất khổ sở." }
+    ],
+    "mistakes": [
+      { "wrong": "傘を忘れるしまった。", "right": "傘を忘れてしまった。", "note_vi": "Phải chia động từ ở thể て trước khi thêm しまう." },
+      { "wrong": "本を読むてしまいました。", "right": "本を読んでしまいました。", "note_vi": "読む → 読んで (đuôi む → んで), rồi mới + しまう." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "大事な書類を___。（なくす）", "options": ["なくしてしまいました", "なくしておきました", "なくしてみました", "なくしていました"], "answer": 0, "explain": "Lỡ làm mất (đáng tiếc) → 〜てしまいました." },
+      { "type": "mcq", "q": "ケーキを全部食べ___。（văn nói thân mật）", "options": ["てしまう", "ちゃった", "ておいた", "てみた"], "answer": 1, "explain": "食べてしまった → 食べちゃった (nói tắt)." },
+      { "type": "mcq", "q": "うっかり約束を忘れ___。", "options": ["ておいた", "てみた", "てから", "てしまった"], "answer": 3, "explain": "Lỡ quên (không cố ý) → 忘れてしまった." },
+      { "type": "mcq", "q": "お金を全部使っ___。", "options": ["てあげた", "てくれた", "てしまった", "ている"], "answer": 2, "explain": "Dùng hết sạch tiền (hoàn thành + tiếc nuối) → 使ってしまった." },
+      { "type": "gap", "q": "傘を電車に忘れ___。", "answer": ["てしまった", "てしまいました"], "explain": "忘れる → 忘れて + しまった." },
+      { "type": "gap", "q": "昨日の夜、一人でケーキを全部食べ___。（văn nói thân mật）", "answer": ["ちゃった"], "explain": "食べてしまった rút gọn thành 食べちゃった." },
+      { "type": "order", "words": ["忘れてしまいました", "傘を", "電車に"], "answer": "電車に傘を忘れてしまいました。", "vi": "Tôi lỡ để quên ô trên tàu.", "explain": "V て + しまいました đặt cuối câu." },
+      { "type": "order", "words": ["落としてしまった", "大事な", "昨日", "財布を"], "answer": "昨日、大事な財布を落としてしまった。", "vi": "Hôm qua tôi lỡ làm rơi chiếc ví quan trọng.", "explain": "落とす → 落として → 落としてしまった." }
+    ]
+  },
+  {
+    "id": "ja-n4-te-oku",
+    "level": "N4",
+    "title": "〜ておく (làm sẵn)",
+    "title_native": "〜ておく",
+    "summary_vi": "Làm trước để chuẩn bị, hoặc để nguyên trạng thái.",
+    "formula": ["V て形 + おく (予約しておく)", "Nói tắt: 〜ておく → 〜とく / 〜でおく → 〜どく"],
+    "explain_vi": "〜ておく có hai nghĩa chính:\n\n1. **Làm sẵn, chuẩn bị trước** cho một việc về sau: 旅行の前にホテルを予約しておく (đặt sẵn khách sạn trước chuyến đi), 試験の前に勉強しておく.\n\n2. **Để nguyên, giữ nguyên trạng thái**: 窓を開けておいてください (cứ để cửa sổ mở nhé), 電気をつけておく.\n\nCách tạo: động từ thể て + おく, chia おく như động từ nhóm 1: ておきます, ておいた, ておいて, ておこう.\n\n**Lưu ý**: ておく thường đi với **tha động từ** (động từ có tân ngữ, thể hiện hành động có chủ ý): 開ける, 閉める, つける, 置く. Vì vậy \"mở sẵn cửa sổ\" là 窓を開けておく (tha động từ 開ける), không phải 開いておく.\n\n**Dạng nói tắt thân mật**: 置いておく → 置いとく, 読んでおく → 読んどく. Ví dụ: メモはここに置いとくね.\n\nSo với tiếng Việt: gần như \"…sẵn\", \"…trước\" (làm sẵn, mua sẵn, đặt trước). Phân biệt với 〜てしまう (làm xong / lỡ làm) và 〜てみる (thử làm).",
+    "examples": [
+      { "t": "旅行の前にホテルを予約しておきます。", "r": "りょこうのまえにホテルをよやくしておきます。", "vi": "Trước chuyến đi tôi sẽ đặt sẵn khách sạn." },
+      { "t": "窓を開けておいてください。", "r": "まどをあけておいてください。", "vi": "Hãy cứ để cửa sổ mở nhé." },
+      { "t": "宿題は先にやっておきました。", "r": "しゅくだいはさきにやっておきました。", "vi": "Bài tập tôi đã làm trước rồi." },
+      { "t": "来週のテストのために、勉強しておこうと思う。", "r": "らいしゅうのテストのために、べんきょうしておこうとおもう。", "vi": "Tôi định học trước cho bài kiểm tra tuần sau." },
+      { "t": "電気をつけておいたほうがいいですよ。", "r": "でんきをつけておいたほうがいいですよ。", "vi": "Nên bật sẵn đèn thì hơn đấy." },
+      { "t": "メモはここに置いとくね。", "r": "メモはここにおいとくね。", "vi": "Mình để sẵn tờ ghi chú ở đây nhé." }
+    ],
+    "mistakes": [
+      { "wrong": "ホテルを予約ておきます。", "right": "ホテルを予約しておきます。", "note_vi": "予約する → 予約して (thể て của する là して) rồi mới + おきます." },
+      { "wrong": "窓を開いておいてください。", "right": "窓を開けておいてください。", "note_vi": "Dùng tha động từ 開ける (mở), không dùng 開く (tự mở) với ておく." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "パーティーの前に飲み物を買っ___。", "options": ["ておきます", "てみます", "てしまいます", "ています"], "answer": 0, "explain": "Mua sẵn để chuẩn bị → 〜ておきます." },
+      { "type": "mcq", "q": "寒いですから、窓を閉め___ください。", "options": ["てしまって", "てみて", "ておいて", "てあげて"], "answer": 2, "explain": "Đóng và giữ nguyên trạng thái: 閉めておいて." },
+      { "type": "mcq", "q": "明日の会議のために、資料を先にコピーし___。", "options": ["てみた", "てしまった", "ていた", "ておいた"], "answer": 3, "explain": "Chuẩn bị trước cho cuộc họp: コピーしておいた." },
+      { "type": "mcq", "q": "ここに荷物を置い___ね。（nói tắt thân mật）", "options": ["ちゃう", "とく", "てる", "でる"], "answer": 1, "explain": "置いておく → 置いとく." },
+      { "type": "gap", "q": "旅行の前に、ホテルを予約し___。", "answer": ["ておきます", "ておく"], "explain": "予約して + おきます." },
+      { "type": "gap", "q": "お客さんが来るので、部屋を掃除し___ください。", "answer": ["ておいて"], "explain": "Dọn sẵn phòng: 掃除しておいてください." },
+      { "type": "order", "words": ["おきます", "試験の前に", "勉強して"], "answer": "試験の前に勉強しておきます。", "vi": "Trước kỳ thi tôi sẽ học sẵn.", "explain": "V て + おきます." },
+      { "type": "order", "words": ["ください", "つけて", "電気を", "おいて"], "answer": "電気をつけておいてください。", "vi": "Hãy bật sẵn đèn nhé.", "explain": "つける → つけて → つけておいてください." }
+    ]
+  },
+  {
+    "id": "ja-n4-te-miru",
+    "level": "N4",
+    "title": "〜てみる (thử làm)",
+    "title_native": "〜てみる",
+    "summary_vi": "Thử làm một việc xem sao: 食べてみる, 行ってみたい.",
+    "formula": ["V て形 + みる (食べてみる)", "V て形 + みたい / みませんか / みてください"],
+    "explain_vi": "〜てみる nghĩa là **\"làm thử…\"**, tức là làm một việc để xem kết quả, cảm giác như thế nào. Giống \"thử\" trong tiếng Việt: ăn thử, mặc thử, hỏi thử.\n\nCách tạo: động từ thể て + みる. Chia みる như động từ nhóm 2: てみます, てみた, てみたい, てみて.\n\n**Mẫu hay dùng:**\n- 〜てみます: \"tôi sẽ thử…\" (先生に聞いてみます).\n- 〜てみたい: \"muốn thử…\" (京都の温泉に行ってみたい).\n- 〜てみませんか: rủ \"thử… không?\" (このラーメンを食べてみませんか).\n- 〜てみてもいいですか: xin phép được thử (この靴をはいてみてもいいですか).\n- 〜てみてください: hãy thử đi.\n\n**Lưu ý chính tả**: みる trong mẫu này thường viết bằng hiragana, **không** viết 見る.\n\nPhân biệt: 食べてみる = thử ăn (chưa biết kết quả). Khác 〜てしまう (ăn hết / lỡ ăn) và 〜ておく (ăn sẵn). 〜てみる thể hiện thái độ **tò mò, thử nghiệm**.",
+    "examples": [
+      { "t": "このラーメンを食べてみませんか。", "r": "このラーメンをたべてみませんか。", "vi": "Bạn ăn thử món mì này không?" },
+      { "t": "先生に聞いてみます。", "r": "せんせいにきいてみます。", "vi": "Tôi sẽ hỏi thử thầy." },
+      { "t": "京都の温泉に行ってみたいです。", "r": "きょうとのおんせんにいってみたいです。", "vi": "Tôi muốn thử đi suối nước nóng ở Kyoto." },
+      { "t": "この靴をはいてみてもいいですか。", "r": "このくつをはいてみてもいいですか。", "vi": "Tôi thử đôi giày này được không?" },
+      { "t": "日本語で手紙を書いてみました。", "r": "にほんごでてがみをかいてみました。", "vi": "Tôi đã thử viết thư bằng tiếng Nhật." },
+      { "t": "試しに自分で作ってみた。", "r": "ためしにじぶんでつくってみた。", "vi": "Mình thử tự làm xem." }
+    ],
+    "mistakes": [
+      { "wrong": "富士山に登るみたいです。(ý \"muốn thử leo\")", "right": "富士山に登ってみたいです。", "note_vi": "Phải chia thể て trước: 登って + みたい (muốn thử)." },
+      { "wrong": "新しい店に行ってみりたい。", "right": "新しい店に行ってみたい。", "note_vi": "みる bỏ る + たい = みたい, không có り." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "この服を着___もいいですか。", "options": ["てみて", "てしまって", "ておいて", "てあげて"], "answer": 0, "explain": "Xin phép mặc thử: 着てみてもいいですか." },
+      { "type": "mcq", "q": "日本の料理を作っ___たいです。", "options": ["てしまい", "ておき", "てみ", "てい"], "answer": 2, "explain": "Muốn thử làm: 作ってみたいです." },
+      { "type": "mcq", "q": "どんな味か、ちょっと食べ___ましょう。", "options": ["てあり", "てみ", "ておい", "てしまい"], "answer": 1, "explain": "Rủ nhau ăn thử: 食べてみましょう." },
+      { "type": "mcq", "q": "一度、富士山に登っ___たいです。", "options": ["てくれ", "てしまい", "てもらい", "てみ"], "answer": 3, "explain": "Muốn thử leo: 登ってみたいです." },
+      { "type": "gap", "q": "この靴をはい___もいいですか。", "answer": ["てみて"], "explain": "はいてみてもいいですか: xin phép đi thử." },
+      { "type": "gap", "q": "日本語で日記を書い___。（thử – quá khứ）", "answer": ["てみた", "てみました"], "explain": "書いて + みた (đã thử viết)." },
+      { "type": "order", "words": ["みます", "先生に", "聞いて"], "answer": "先生に聞いてみます。", "vi": "Tôi sẽ hỏi thử thầy.", "explain": "V て + みます." },
+      { "type": "order", "words": ["食べてみたいです", "ラーメンを", "新しい店で"], "answer": "新しい店でラーメンを食べてみたいです。", "vi": "Tôi muốn thử ăn mì ở quán mới.", "explain": "食べて + みたい + です." }
+    ]
+  },
+  {
+    "id": "ja-n4-souda",
+    "level": "N4",
+    "title": "〜そうだ (trông có vẻ / nghe nói)",
+    "title_native": "〜そうだ",
+    "summary_vi": "Hai nghĩa: \"trông có vẻ\" (dựa vào quan sát) và \"nghe nói\" (truyền đạt tin).",
+    "formula": ["Trông có vẻ: V ます形(bỏ ます) / Aい・Aな (bỏ い・な) + そうだ", "いい → よさそう / ない → なさそう", "Nghe nói: Thể thường + そうだ"],
+    "explain_vi": "Có **hai** mẫu 〜そうだ rất khác nhau về cách chia và nghĩa, cần phân biệt kỹ.\n\n**1. Trông có vẻ (様態)**: dựa vào quan sát trực tiếp của bản thân.\n- Động từ: bỏ ます + そうだ: 降りそうだ (trông sắp mưa), 落ちそうだ (sắp rơi).\n- Tính từ い: bỏ い + そうだ: おいしそう, 高そう. Ngoại lệ: いい → よさそう, ない → なさそう.\n- Tính từ な: bỏ な + そうだ: 元気そう, 丈夫そう.\n- Phủ định: 降りそうもない / 降りそうにない; おいしくなさそう.\n- Khi bổ nghĩa cho danh từ dùng そうな: おいしそうなケーキ.\n\n**2. Nghe nói (伝聞)**: truyền đạt thông tin nghe từ người khác, báo chí, dự báo. Dùng **thể thường** + そうだ: 明日は雪が降るそうです, 田中さんは来月結婚するそうだ. Thường kèm \"〜によると\" (theo…).\n\nMẹo phân biệt: bỏ ます / bỏ い là \"trông có vẻ\" (đọc cảm nhận), thể thường nguyên vẹn là \"nghe nói\" (tin truyền lại).\n\nSo với tiếng Việt: \"trông có vẻ… / hình như…\" và \"nghe nói…\".",
+    "examples": [
+      { "t": "このケーキはおいしそうですね。", "r": "このケーキはおいしそうですね。", "vi": "Cái bánh này trông ngon nhỉ." },
+      { "t": "今にも雨が降りそうです。", "r": "いまにもあめがふりそうです。", "vi": "Trời trông sắp mưa đến nơi." },
+      { "t": "彼は元気がなさそうでした。", "r": "かれはげんきがなさそうでした。", "vi": "Anh ấy trông có vẻ không khỏe." },
+      { "t": "天気予報によると、明日は雪が降るそうです。", "r": "てんきよほうによると、あしたはゆきがふるそうです。", "vi": "Theo dự báo thời tiết, ngày mai nghe nói sẽ có tuyết." },
+      { "t": "田中さんは来月結婚するそうです。", "r": "たなかさんはらいげつけっこんするそうです。", "vi": "Nghe nói anh Tanaka sẽ kết hôn vào tháng sau." },
+      { "t": "このカップは落ちそうで、危ないです。", "r": "このカップはおちそうで、あぶないです。", "vi": "Cái cốc này trông sắp rơi, nguy hiểm quá." }
+    ],
+    "mistakes": [
+      { "wrong": "このケーキはおいしいそうですね。", "right": "このケーキはおいしそうですね。", "note_vi": "Trông có vẻ: bỏ い rồi thêm そう (おいしい → おいしそう)." },
+      { "wrong": "この店はいいそうです。(ý \"trông tốt\")", "right": "この店はよさそうです。", "note_vi": "いい → よさそう; ない → なさそう là hai dạng bất quy tắc." },
+      { "wrong": "田中さんは来月結婚しますそうです。", "right": "田中さんは来月結婚するそうです。", "note_vi": "Nghe nói: dùng thể thường trước そうだ, không dùng ます." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "このケーキは___ですね。（おいしい）", "options": ["おいしそう", "おいしいそう", "おいしくそう", "おいしだそう"], "answer": 0, "explain": "Tính từ い: bỏ い + そう → おいしそう." },
+      { "type": "mcq", "q": "雲が多くて、雨が___です。（降る）", "options": ["降るそう", "降ってそう", "降りそう", "降らそう"], "answer": 2, "explain": "Quan sát (mây nhiều) → bỏ ます: 降り + そう." },
+      { "type": "mcq", "q": "ニュースによると、来週、新しい駅が___。", "options": ["できそうです", "できたそうです", "できませんそうです", "できるそうです"], "answer": 3, "explain": "Thông tin nghe được (によると) về tương lai: できるそうです." },
+      { "type": "mcq", "q": "彼は元気が___です。（ない）", "options": ["ないそう", "なさそう", "なくそう", "なそう"], "answer": 1, "explain": "ない → なさそう (bất quy tắc)." },
+      { "type": "gap", "q": "コップが落ち___ですよ。気をつけて。", "answer": ["そう"], "explain": "落ちる → 落ちそう (sắp rơi)." },
+      { "type": "gap", "q": "このラーメンはあまり___そうです。（おいしい・phủ định）", "answer": ["おいしくなさ"], "explain": "おいしくない → おいしくなさそう." },
+      { "type": "order", "words": ["おいしそう", "ケーキは", "ですね", "この"], "answer": "このケーキはおいしそうですね。", "vi": "Cái bánh này trông ngon nhỉ.", "explain": "A い bỏ い + そう + です." },
+      { "type": "order", "words": ["結婚する", "田中さんは", "そうです", "来月"], "answer": "田中さんは来月結婚するそうです。", "vi": "Nghe nói anh Tanaka sẽ kết hôn vào tháng sau.", "explain": "Thể thường 結婚する + そうです (nghe nói)." }
+    ]
+  },
+  {
+    "id": "ja-n4-youda-mitai",
+    "level": "N4",
+    "title": "〜ようだ / 〜みたい (hình như / giống như)",
+    "title_native": "〜ようだ・〜みたい",
+    "summary_vi": "Phán đoán dựa trên bằng chứng (\"hình như\") và so sánh (\"giống như\").",
+    "formula": ["V / Aい thể thường + ようだ / みたいだ", "Aな + な + ようだ / Aな (bỏ だ) + みたいだ", "N + の + ようだ / N + みたいだ"],
+    "explain_vi": "〜ようだ và 〜みたい có hai nghĩa:\n\n1. **Phán đoán dựa trên bằng chứng, cảm nhận** của người nói: \"hình như, có vẻ là\". 電気がついているから、田中さんはまだ会社にいるようです (đèn còn sáng nên có vẻ anh Tanaka còn ở công ty).\n\n2. **So sánh, ví von**: \"giống như\". 彼女は子どものように笑った, 夢のような話.\n\n**Cách nối:**\n- Động từ, tính từ い: thể thường + ようだ (行くようだ, 高いようだ).\n- Tính từ な: な + ようだ (元気なようだ).\n- Danh từ: の + ようだ (学生のようだ).\n- 〜みたい: nối trực tiếp, danh từ và tính từ な **không** có の / な: 学生みたい, 元気みたい.\n\n**Khác biệt phong cách**: 〜みたい thân mật, văn nói; 〜ようだ hơi trang trọng hơn.\n\n**Phân biệt với そうだ**: そうだ (trông có vẻ) dùng khi **nhìn thấy trực tiếp** cái trông thế nào, còn ようだ / みたい là **suy đoán từ nhiều dấu hiệu**, thường nói về điều không nhìn thấy trực tiếp. Ví dụ \"đèn sáng nên anh ấy còn ở công ty\" dùng ようだ.",
+    "examples": [
+      { "t": "電気がついているから、田中さんはまだ会社にいるようです。", "r": "でんきがついているから、たなかさんはまだかいしゃにいるようです。", "vi": "Đèn còn sáng nên hình như anh Tanaka vẫn ở công ty." },
+      { "t": "彼は疲れているみたいです。", "r": "かれはつかれているみたいです。", "vi": "Anh ấy có vẻ đang mệt." },
+      { "t": "あの人は学生のようです。", "r": "あのひとはがくせいのようです。", "vi": "Người kia hình như là sinh viên." },
+      { "t": "この部屋は誰もいないみたいだ。", "r": "このへやはだれもいないみたいだ。", "vi": "Căn phòng này hình như không có ai." },
+      { "t": "夢のような話ですね。", "r": "ゆめのようなはなしですね。", "vi": "Câu chuyện như một giấc mơ nhỉ." },
+      { "t": "彼女は子どもみたいに笑った。", "r": "かのじょはこどもみたいにわらった。", "vi": "Cô ấy cười như một đứa trẻ." }
+    ],
+    "mistakes": [
+      { "wrong": "彼は元気ようです。", "right": "彼は元気なようです。", "note_vi": "Tính từ な + な + ようです." },
+      { "wrong": "あの人は学生なようです。", "right": "あの人は学生のようです。", "note_vi": "Danh từ + の + ようです (không dùng な)." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "あの人は先生___ようです。", "options": ["の", "な", "だ", "に"], "answer": 0, "explain": "Danh từ + の + ようです." },
+      { "type": "mcq", "q": "この店は人が多いから、人気が___ようです。", "options": ["あるの", "ある", "あって", "あり"], "answer": 1, "explain": "Động từ thể thường + ようです." },
+      { "type": "mcq", "q": "彼女は子ども___笑った。", "options": ["ようだ", "ようなに", "みたいに", "みたいな"], "answer": 2, "explain": "Ví von cách làm: 子どもみたいに笑った (trạng từ → に)." },
+      { "type": "mcq", "q": "電気が消えている。もう寝た___だ。", "options": ["ような", "ように", "ようの", "よう"], "answer": 3, "explain": "Kết thúc câu: 寝たようだ." },
+      { "type": "gap", "q": "窓が開いている。誰かが入った___です。", "answer": ["よう"], "explain": "Phán đoán từ bằng chứng: 入ったようです." },
+      { "type": "gap", "q": "彼は昨日から何も食べていない___です。", "answer": ["みたい"], "explain": "Dạng thân mật: 食べていないみたいです." },
+      { "type": "order", "words": ["疲れている", "彼は", "ようです", "少し"], "answer": "彼は少し疲れているようです。", "vi": "Anh ấy hình như hơi mệt.", "explain": "Thể thường 疲れている + ようです." },
+      { "type": "order", "words": ["いない", "誰も", "この部屋は", "みたいだ"], "answer": "この部屋は誰もいないみたいだ。", "vi": "Căn phòng này hình như không có ai.", "explain": "Thể thường いない + みたいだ." }
+    ]
+  },
+  {
+    "id": "ja-n4-ageru-kureru-morau",
+    "level": "N4",
+    "title": "あげる / くれる / もらう",
+    "title_native": "あげる・くれる・もらう",
+    "summary_vi": "Cho – nhận: đúng hướng \"ai cho ai\" cũng như 〜てあげる/くれる/もらう.",
+    "formula": ["A は B に N を あげる (A cho B)", "B は A に N を くれる (A cho tôi/mình)", "B は A に/から N を もらう (B nhận từ A)", "V て + あげる / くれる / もらう"],
+    "explain_vi": "Tiếng Nhật có ba động từ \"cho/nhận\" phụ thuộc vào **hướng của hành động** và **ai là người nói**:\n\n- **あげる**: người nói (hoặc người thuộc phía mình) **cho** người khác. 私は友達に本をあげた.\n- **くれる**: người khác **cho** người nói (hoặc phía mình). 友達は私に花をくれた.\n- **もらう**: người nói **nhận** từ người khác. 私は友達に/から花をもらった. Chủ ngữ là người nhận.\n\nTiếng Việt đều dùng \"cho\", nên người Việt hay nhầm あげる và くれる. Mẹo: nếu \"tôi\" là người nhận mà chủ ngữ là người khác → くれる; nếu chủ ngữ là \"tôi\" mà cho người khác → あげる.\n\n**Dạng 〜て (làm giúp):**\n- 〜てあげる: tôi làm giúp ai (弟に宿題を教えてあげた).\n- 〜てくれる: ai đó làm giúp tôi (母がセーターを買ってくれた).\n- 〜てもらう: tôi nhờ/được ai làm giúp (田中さんに送ってもらった).\n\nDạng lịch sự cho người trên: あげる → さしあげる, くれる → くださる, もらう → いただく. Lưu ý dùng 〜てあげる với người trên có thể nghe như \"ban ơn\", nên cẩn thận.",
+    "examples": [
+      { "t": "私は友達に本をあげました。", "r": "わたしはともだちにほんをあげました。", "vi": "Tôi đã tặng bạn một cuốn sách." },
+      { "t": "友達は私に花をくれました。", "r": "ともだちはわたしにはなをくれました。", "vi": "Bạn đã tặng hoa cho tôi." },
+      { "t": "私は先生に辞書をもらいました。", "r": "わたしはせんせいにじしょをもらいました。", "vi": "Tôi đã nhận từ thầy một cuốn từ điển." },
+      { "t": "母は私にセーターを買ってくれました。", "r": "ははわたしにセーターをかってくれました。", "vi": "Mẹ đã mua áo len cho tôi." },
+      { "t": "私は弟に宿題を教えてあげました。", "r": "わたしはおとうとにしゅくだいをおしえてあげました。", "vi": "Tôi đã dạy bài tập cho em trai." },
+      { "t": "田中さんに駅まで送ってもらいました。", "r": "たなかさんにえきまでおくってもらいました。", "vi": "Tôi được anh Tanaka đưa đến ga." }
+    ],
+    "mistakes": [
+      { "wrong": "友達が私にプレゼントをあげました。", "right": "友達が私にプレゼントをくれました。", "note_vi": "Người khác cho tôi → くれる, không dùng あげる." },
+      { "wrong": "弟は私に本を貸してあげました。", "right": "弟は私に本を貸してくれました。", "note_vi": "Em làm giúp tôi → 〜てくれる." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "友達が私に誕生日プレゼントを___。", "options": ["あげました", "くれました", "もらいました", "やりました"], "answer": 1, "explain": "Bạn cho tôi → くれました." },
+      { "type": "mcq", "q": "私は妹にお菓子を___。", "options": ["くれました", "もらいました", "あげました", "くださいました"], "answer": 2, "explain": "Tôi cho em gái → あげました." },
+      { "type": "mcq", "q": "私は田中さん___本をもらいました。", "options": ["に", "を", "が", "で"], "answer": 0, "explain": "Người cho đi với に (hoặc から)." },
+      { "type": "mcq", "q": "先生が私に日本語を教え___。", "options": ["てあげました", "てもらいました", "てやりました", "てくれました"], "answer": 3, "explain": "Thầy dạy cho tôi → 〜てくれました." },
+      { "type": "gap", "q": "友達が私に花を___。", "answer": ["くれました", "くれた"], "explain": "Người khác cho tôi → くれる." },
+      { "type": "gap", "q": "私は友達に宿題を手伝っ___。", "answer": ["てあげました", "てあげた"], "explain": "Tôi giúp bạn → 〜てあげる." },
+      { "type": "order", "words": ["買ってくれました", "セーターを", "母は", "私に"], "answer": "母は私にセーターを買ってくれました。", "vi": "Mẹ đã mua áo len cho tôi.", "explain": "A は B に N を V て + くれる." },
+      { "type": "order", "words": ["送ってもらいました", "駅まで", "田中さんに", "私は"], "answer": "私は田中さんに駅まで送ってもらいました。", "vi": "Tôi được anh Tanaka đưa đến ga.", "explain": "Chủ ngữ là người nhận: 〜てもらう." }
+    ]
+  },
+  {
+    "id": "ja-n4-nagara",
+    "level": "N4",
+    "title": "〜ながら (vừa… vừa…)",
+    "title_native": "〜ながら",
+    "summary_vi": "Hai hành động xảy ra cùng lúc bởi cùng một người.",
+    "formula": ["V ます形 (bỏ ます) + ながら + V", "Hành động chính đặt ở vế sau"],
+    "explain_vi": "〜ながら diễn tả **hai hành động diễn ra đồng thời** bởi **cùng một chủ ngữ**: \"vừa… vừa…\".\n\nCách tạo: lấy động từ ở dạng **ます**, bỏ ます rồi thêm ながら: 飲みます → 飲みながら, 聞きます → 聞きながら, 食べます → 食べながら, します → しながら.\n\n**Hành động chính** (quan trọng hơn) đặt ở **vế sau**, vế trước chỉ là hành động kèm theo. Ví dụ 音楽を聞きながら、勉強します = học là việc chính, nghe nhạc kèm theo. Nếu đảo lại 勉強しながら、音楽を聞きます thì nghe nhạc là việc chính.\n\n**Lưu ý:**\n- Hai hành động **cùng chủ ngữ**. Nếu khác chủ ngữ phải dùng cách khác (〜ているとき…).\n- Dùng cho hành động kéo dài, không dùng với hành động tức thời.\n- Có thể dùng cho hai trạng thái song song kéo dài: アルバイトをしながら、大学に通っている (vừa đi làm thêm vừa học đại học).\n\nSo với tiếng Việt: \"vừa… vừa…\" hay \"…trong khi…\". Điểm khác là tiếng Việt có thể đặt \"vừa A vừa B\" song song, còn tiếng Nhật rõ ràng B là việc chính.\n\nPhân biệt với 〜てから (sau khi làm A rồi làm B) và 〜て (nối hành động liên tiếp).",
+    "examples": [
+      { "t": "音楽を聞きながら、勉強します。", "r": "おんがくをききながら、べんきょうします。", "vi": "Tôi vừa nghe nhạc vừa học." },
+      { "t": "歩きながら、携帯電話を見ないでください。", "r": "あるきながら、けいたいでんわをみないでください。", "vi": "Xin đừng vừa đi vừa xem điện thoại." },
+      { "t": "父はテレビを見ながらご飯を食べます。", "r": "ちちはテレビをみながらごはんをたべます。", "vi": "Bố tôi vừa xem tivi vừa ăn cơm." },
+      { "t": "コーヒーを飲みながら、友達と話しました。", "r": "コーヒーをのみながら、ともだちとはなしました。", "vi": "Tôi vừa uống cà phê vừa nói chuyện với bạn." },
+      { "t": "アルバイトをしながら、大学に通っています。", "r": "アルバイトをしながら、だいがくにかよっています。", "vi": "Tôi vừa đi làm thêm vừa học đại học." },
+      { "t": "彼は笑いながら、話してくれました。", "r": "かれはわらいながら、はなしてくれました。", "vi": "Anh ấy vừa cười vừa kể cho tôi nghe." }
+    ],
+    "mistakes": [
+      { "wrong": "ご飯を食べるながらテレビを見ます。", "right": "ご飯を食べながらテレビを見ます。", "note_vi": "Phải dùng thể ます bỏ ます (食べ) + ながら, không dùng thể từ điển." },
+      { "wrong": "弟がテレビを見ながら、私は宿題をしました。", "right": "私はテレビを見ながら宿題をしました。", "note_vi": "〜ながら chỉ dùng khi hai hành động có cùng một chủ ngữ." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "音楽を___、掃除をします。（聞く）", "options": ["聞くながら", "聞いながら", "聞きながら", "聞かながら"], "answer": 2, "explain": "聞きます → bỏ ます → 聞き + ながら." },
+      { "type": "mcq", "q": "歩き___、スマホを見るのは危ないです。", "options": ["ながら", "てから", "たら", "ので"], "answer": 0, "explain": "Hai hành động đồng thời → ながら." },
+      { "type": "mcq", "q": "___、音楽を聞きます。（vừa học vừa nghe nhạc）", "options": ["勉強してから", "勉強したら", "勉強するなら", "勉強しながら"], "answer": 3, "explain": "勉強しながら = vừa học." },
+      { "type": "mcq", "q": "アルバイトを___、大学に通っています。（する）", "options": ["しますながら", "しながら", "するながら", "してながら"], "answer": 1, "explain": "します → し + ながら." },
+      { "type": "gap", "q": "コーヒーを___、本を読みます。（飲む）", "answer": ["飲みながら"], "explain": "飲みます → 飲み + ながら." },
+      { "type": "gap", "q": "歌を歌い___、掃除をした。", "answer": ["ながら"], "explain": "V ます形 (bỏ ます) + ながら." },
+      { "type": "order", "words": ["散歩します", "聞きながら", "音楽を"], "answer": "音楽を聞きながら、散歩します。", "vi": "Tôi vừa nghe nhạc vừa đi dạo.", "explain": "Việc chính 散歩します ở vế sau." },
+      { "type": "order", "words": ["話してくれました", "笑いながら", "彼は"], "answer": "彼は笑いながら、話してくれました。", "vi": "Anh ấy vừa cười vừa kể cho tôi nghe.", "explain": "Cùng chủ ngữ 彼は, ながら nối hai hành động." }
+    ]
+  }
+
+]

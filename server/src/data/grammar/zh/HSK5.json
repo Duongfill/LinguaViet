@@ -1,0 +1,1564 @@
+[
+  {
+    "id": "zh-hsk5-ningke",
+    "level": "HSK5",
+    "title": "Thà … cũng không …",
+    "title_native": "宁可…也不…",
+    "summary_vi": "Chọn phương án “ít tệ hơn” một cách quyết tâm: thà làm A còn hơn làm B.",
+    "formula": [
+      "宁可 + A，也不 + B",
+      "宁可 + A，也要 + B",
+      "宁愿/宁肯 + A，也不 + B"
+    ],
+    "explain_vi": "**宁可…也不…** nghĩa là “thà … còn hơn …”. Người nói đặt hai phương án cạnh nhau, cả hai đều không lý tưởng, nhưng chọn **A** (phần sau 宁可) và kiên quyết **từ chối B** (phần sau 也不). Nhớ quy tắc: **cái được chọn nằm ngay sau 宁可, cái bị bỏ nằm sau 也不**.\n\nVí dụ: 我宁可走路去，也不坐公交车 = Tôi thà đi bộ còn hơn đi xe buýt. Đi bộ mới là phương án được chọn.\n\nCó ba cách nói gần nghĩa: **宁可、宁愿、宁肯**, dùng thay cho nhau được. Vế sau có thể là **也不** (không làm B) hoặc **也要** (vẫn nhất định làm B): 宁可少睡觉，也要把作业做完 = thà ngủ ít cũng phải làm xong bài tập.\n\nLưu ý phân biệt với **与其…不如…** (bài sau): 宁可 thể hiện **ý chí, sự quyết tâm chịu thiệt**; còn 与其 là so sánh và **khuyên** nên chọn cái tốt hơn. Trong tiếng Việt cả hai đều dịch là “thà … còn hơn …”, nhưng trong tiếng Trung chúng không thay cho nhau được. Vế sau 也不 thường đi với động từ như 想、愿意、会: 也不想 / 也不愿意.",
+    "examples": [
+      {
+        "t": "我宁可走路去，也不想挤地铁。",
+        "py": "Wǒ nìngkě zǒulù qù, yě bù xiǎng jǐ dìtiě.",
+        "vi": "Tôi thà đi bộ còn hơn chen chúc trên tàu điện ngầm."
+      },
+      {
+        "t": "他宁可饿着肚子，也不吃别人给的东西。",
+        "py": "Tā nìngkě è zhe dùzi, yě bù chī biérén gěi de dōngxi.",
+        "vi": "Anh ấy thà nhịn đói còn hơn ăn đồ người khác cho."
+      },
+      {
+        "t": "宁可少睡一会儿，我也要把作业做完。",
+        "py": "Nìngkě shǎo shuì yíhuìr, wǒ yě yào bǎ zuòyè zuò wán.",
+        "vi": "Thà ngủ ít một lát, tôi cũng phải làm xong bài tập."
+      },
+      {
+        "t": "她宁愿一个人住，也不愿意和不喜欢的人合租。",
+        "py": "Tā nìngyuàn yí ge rén zhù, yě bú yuànyì hé bù xǐhuan de rén hézū.",
+        "vi": "Cô ấy thà ở một mình còn hơn ở ghép với người mình không thích."
+      },
+      {
+        "t": "我宁可多花点钱，也不买质量差的东西。",
+        "py": "Wǒ nìngkě duō huā diǎn qián, yě bù mǎi zhìliàng chà de dōngxi.",
+        "vi": "Tôi thà tốn thêm tiền còn hơn mua đồ chất lượng kém."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "宁可累一点，也不要完成工作。",
+        "right": "宁可累一点，也要完成工作。",
+        "note_vi": "Muốn nói “dù mệt vẫn nhất định làm” phải dùng 也要, không dùng 也不."
+      },
+      {
+        "wrong": "宁可走路比坐车。",
+        "right": "宁可走路，也不坐车。",
+        "note_vi": "Đừng dịch “thà … còn hơn …” bằng 比. Cấu trúc đúng là 宁可 A，也不 B."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "他___走路上班，也不愿意挤公交车。",
+        "options": [
+          "与其",
+          "宁可",
+          "何况",
+          "免得"
+        ],
+        "answer": 1,
+        "explain": "“Thà đi bộ còn hơn chen xe buýt” → 宁可…也不…."
+      },
+      {
+        "type": "mcq",
+        "q": "宁可少睡觉，他___要把报告写完。",
+        "options": [
+          "就",
+          "才",
+          "也",
+          "都"
+        ],
+        "answer": 2,
+        "explain": "宁可…也要…: dù chịu thiệt vẫn nhất định làm."
+      },
+      {
+        "type": "mcq",
+        "q": "宁可饿肚子，他___吃不干净的东西。",
+        "options": [
+          "也不",
+          "也要",
+          "而且",
+          "还是"
+        ],
+        "answer": 0,
+        "explain": "Từ chối phương án B (ăn đồ bẩn) → 也不."
+      },
+      {
+        "type": "mcq",
+        "q": "在“宁可…也不…”中，被选择的一方在___。",
+        "options": [
+          "也不后面",
+          "两句话中间",
+          "没有选择",
+          "宁可后面"
+        ],
+        "answer": 3,
+        "explain": "Phương án được chọn nằm sau 宁可; phương án bị bỏ nằm sau 也不."
+      },
+      {
+        "type": "gap",
+        "q": "我___多花点钱，也不买质量差的东西。",
+        "answer": [
+          "宁可",
+          "宁愿",
+          "宁肯"
+        ],
+        "explain": "Ba từ 宁可/宁愿/宁肯 đều dùng được."
+      },
+      {
+        "type": "gap",
+        "q": "她宁可加班到很晚，___不想把工作留到明天。",
+        "answer": [
+          "也"
+        ],
+        "explain": "Cặp quan hệ là 宁可…也不…."
+      },
+      {
+        "type": "order",
+        "words": [
+          "也不",
+          "我",
+          "坐车",
+          "宁可",
+          "走路"
+        ],
+        "answer": "我宁可走路，也不坐车。",
+        "vi": "Tôi thà đi bộ còn hơn đi xe.",
+        "explain": "我 + 宁可 + A，也不 + B."
+      },
+      {
+        "type": "order",
+        "words": [
+          "麻烦别人",
+          "他",
+          "也不",
+          "宁可",
+          "自己累一点"
+        ],
+        "answer": "他宁可自己累一点，也不麻烦别人。",
+        "vi": "Anh ấy thà tự mình mệt một chút còn hơn làm phiền người khác.",
+        "explain": "Phương án được chọn: 自己累一点; phương án bị bỏ: 麻烦别人."
+      },
+      {
+        "type": "order",
+        "words": [
+          "我也要",
+          "把书",
+          "看完",
+          "宁可",
+          "少睡一会儿"
+        ],
+        "answer": "宁可少睡一会儿，我也要把书看完。",
+        "vi": "Thà ngủ ít một lát, tôi cũng phải đọc xong cuốn sách.",
+        "explain": "Cấu trúc 宁可…也要… với câu 把."
+      }
+    ]
+  },
+  {
+    "id": "zh-hsk5-yuqi",
+    "level": "HSK5",
+    "title": "Thay vì … chi bằng …",
+    "title_native": "与其…不如…",
+    "summary_vi": "So sánh hai phương án và khuyên chọn cái tốt hơn: thay vì A, chi bằng B.",
+    "formula": [
+      "与其 + A，不如 + B",
+      "与其 + A，还不如 + B",
+      "与其说 + A，不如说 + B"
+    ],
+    "explain_vi": "**与其…不如…** nghĩa là “thay vì … thì chi bằng …”. Người nói so sánh hai việc và cho rằng **B (sau 不如) tốt hơn**, còn A (sau 与其) là cách không nên chọn. Trọng tâm câu nằm ở **不如**.\n\nVí dụ: 与其在家看电视，不如出去散散步 = Thay vì ở nhà xem tivi, chi bằng ra ngoài đi dạo.\n\nThêm **还** thành **还不如** thì ngữ khí mạnh hơn, hàm ý “A chẳng ra gì, B rõ ràng tốt hơn”. Cấu trúc **与其说…不如说…** dùng để “đính chính cách nói”: 他与其说是在开玩笑，不如说是在认真提醒我们 = Nói anh ấy đang đùa thì thà nói anh ấy đang nghiêm túc nhắc nhở chúng ta.\n\n**Đừng nhầm với 宁可…也不…**: 宁可 chọn chịu thiệt ở A và **từ chối hẳn** cái sau 也不; còn 与其 thì **khuyên chọn** cái sau 不如. Chọn sai, ý câu sẽ ngược hẳn. Mẹo: 宁可 → “thà chịu thiệt”, 与其 → “thay vì lãng phí, hãy làm cái tốt hơn”.",
+    "examples": [
+      {
+        "t": "与其在家看电视，不如出去散散步。",
+        "py": "Yǔqí zài jiā kàn diànshì, bùrú chūqù sànsan bù.",
+        "vi": "Thay vì ở nhà xem tivi, chi bằng ra ngoài đi dạo."
+      },
+      {
+        "t": "与其等他来，不如我们自己去找他。",
+        "py": "Yǔqí děng tā lái, bùrú wǒmen zìjǐ qù zhǎo tā.",
+        "vi": "Thay vì đợi anh ấy đến, chi bằng chúng ta tự đi tìm anh ấy."
+      },
+      {
+        "t": "与其抱怨，还不如想想怎么解决问题。",
+        "py": "Yǔqí bàoyuàn, hái bùrú xiǎngxiang zěnme jiějué wèntí.",
+        "vi": "Thay vì phàn nàn, chi bằng nghĩ xem giải quyết vấn đề thế nào."
+      },
+      {
+        "t": "与其买新的，不如把旧的修一修。",
+        "py": "Yǔqí mǎi xīn de, bùrú bǎ jiù de xiū yi xiū.",
+        "vi": "Thay vì mua cái mới, chi bằng sửa lại cái cũ."
+      },
+      {
+        "t": "他与其说是在开玩笑，不如说是在认真地提醒我们。",
+        "py": "Tā yǔqí shuō shì zài kāi wánxiào, bùrú shuō shì zài rènzhēn de tíxǐng wǒmen.",
+        "vi": "Nói anh ấy đang đùa thì thà nói anh ấy đang nghiêm túc nhắc nhở chúng ta."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "与其坐车，也不走路。",
+        "right": "与其坐车，不如走路。",
+        "note_vi": "与其 đi với 不如 (khuyên chọn B), không đi với 也不 (đó là của 宁可)."
+      },
+      {
+        "wrong": "不如在家休息，与其出去玩。",
+        "right": "与其出去玩，不如在家休息。",
+        "note_vi": "与其 phải đứng ở vế đầu, 不如 ở vế sau; phần sau 不如 là phương án tốt hơn."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "___在家玩手机，不如出去运动。",
+        "options": [
+          "宁可",
+          "与其",
+          "何况",
+          "毕竟"
+        ],
+        "answer": 1,
+        "explain": "与其…不如…: thay vì … chi bằng …."
+      },
+      {
+        "type": "mcq",
+        "q": "与其花钱去外面吃，___自己在家做。",
+        "options": [
+          "也不",
+          "就",
+          "才",
+          "不如"
+        ],
+        "answer": 3,
+        "explain": "Vế sau của 与其 là 不如."
+      },
+      {
+        "type": "mcq",
+        "q": "与其说他聪明，___说他努力。",
+        "options": [
+          "不如",
+          "宁可",
+          "何况",
+          "免得"
+        ],
+        "answer": 0,
+        "explain": "与其说…不如说…: đính chính cách nói."
+      },
+      {
+        "type": "mcq",
+        "q": "在“与其…不如…”中，说话人觉得___更好。",
+        "options": [
+          "与其后面",
+          "两个都",
+          "不如后面",
+          "都不好"
+        ],
+        "answer": 2,
+        "explain": "Phương án sau 不如 mới là phương án được đề nghị."
+      },
+      {
+        "type": "gap",
+        "q": "与其一个人发愁，___找朋友聊一聊。",
+        "answer": [
+          "不如",
+          "还不如"
+        ],
+        "explain": "Dùng 不如 hoặc 还不如 (nhấn mạnh hơn)."
+      },
+      {
+        "type": "gap",
+        "q": "___等别人帮忙，不如自己动手。",
+        "answer": [
+          "与其"
+        ],
+        "explain": "Vế đầu dùng 与其."
+      },
+      {
+        "type": "order",
+        "words": [
+          "不如",
+          "与其",
+          "走路",
+          "坐车"
+        ],
+        "answer": "与其坐车，不如走路。",
+        "vi": "Thay vì đi xe, chi bằng đi bộ.",
+        "explain": "与其 A，不如 B."
+      },
+      {
+        "type": "order",
+        "words": [
+          "不如",
+          "去公园玩儿",
+          "在家睡觉",
+          "与其"
+        ],
+        "answer": "与其在家睡觉，不如去公园玩儿。",
+        "vi": "Thay vì ở nhà ngủ, chi bằng ra công viên chơi.",
+        "explain": "A: 在家睡觉; B (tốt hơn): 去公园玩儿."
+      },
+      {
+        "type": "order",
+        "words": [
+          "还不如",
+          "多带一把伞",
+          "与其",
+          "抱怨天气"
+        ],
+        "answer": "与其抱怨天气，还不如多带一把伞。",
+        "vi": "Thay vì phàn nàn thời tiết, chi bằng mang thêm một cái ô.",
+        "explain": "与其…还不如…: ngữ khí mạnh hơn."
+      }
+    ]
+  },
+  {
+    "id": "zh-hsk5-hekuang",
+    "level": "HSK5",
+    "title": "Huống chi",
+    "title_native": "何况",
+    "summary_vi": "Dùng ví dụ dễ/nhẹ để suy ra trường hợp khó/nặng hơn: “… còn vậy, huống chi …”.",
+    "formula": [
+      "A 都/尚且…，何况 B (呢)？",
+      "连 A 都…，何况 B？",
+      "…，何况 + lý do bổ sung"
+    ],
+    "explain_vi": "**何况** (hékuàng) có hai cách dùng chính.\n\n**1. Câu hỏi tu từ “huống chi / nữa là”.** Vế trước nêu một trường hợp đã **dễ hơn / nhẹ hơn** mà vẫn không được, rồi 何况 dẫn ra trường hợp **khó hơn / nặng hơn**, từ đó hiển nhiên càng không được. Câu thường kết thúc bằng 呢 hoặc dấu hỏi, và vế trước hay có **都** hoặc **连…都**.\n\nVí dụ: 大人都搬不动，何况孩子呢？ = Người lớn còn khuân không nổi, huống chi trẻ con? Trẻ con yếu hơn nên dĩ nhiên càng không khuân nổi.\n\n**2. Bổ sung lý do “hơn nữa”.** 这件衣服很便宜，何况质量也不错 = Cái áo này rẻ, hơn nữa chất lượng cũng tốt. Ở nghĩa này 何况 gần với 而且 nhưng mang sắc thái giải thích, thuyết phục.\n\nChú ý: phần sau 何况 **không** nói lại ý phủ định bằng một mệnh đề đầy đủ; thường chỉ là danh từ/đại từ + 呢 (何况孩子呢, 何况你呢). Vế trước phải là trường hợp “nhẹ hơn” thật sự, nếu không câu sẽ vô lý.",
+    "examples": [
+      {
+        "t": "大人都搬不动，何况孩子呢？",
+        "py": "Dàrén dōu bān bu dòng, hékuàng háizi ne?",
+        "vi": "Người lớn còn khuân không nổi, huống chi trẻ con?"
+      },
+      {
+        "t": "这么简单的问题他都不会，何况那么难的呢？",
+        "py": "Zhème jiǎndān de wèntí tā dōu bú huì, hékuàng nàme nán de ne?",
+        "vi": "Câu hỏi đơn giản thế anh ấy còn không biết, huống chi câu khó kia?"
+      },
+      {
+        "t": "平时都很忙，何况是春节前呢？",
+        "py": "Píngshí dōu hěn máng, hékuàng shì Chūnjié qián ne?",
+        "vi": "Ngày thường đã bận rồi, huống chi là trước Tết?"
+      },
+      {
+        "t": "我自己都不清楚，何况你呢？",
+        "py": "Wǒ zìjǐ dōu bù qīngchu, hékuàng nǐ ne?",
+        "vi": "Chính tôi còn không rõ, huống chi bạn?"
+      },
+      {
+        "t": "这件衣服很便宜，何况质量也不错，买吧。",
+        "py": "Zhè jiàn yīfu hěn piányi, hékuàng zhìliàng yě búcuò, mǎi ba.",
+        "vi": "Cái áo này rẻ, hơn nữa chất lượng cũng không tồi, mua đi."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "何况大人都搬不动，孩子呢？",
+        "right": "大人都搬不动，何况孩子呢？",
+        "note_vi": "Phải nêu trường hợp nhẹ hơn trước, rồi mới dùng 何况 dẫn trường hợp nặng hơn."
+      },
+      {
+        "wrong": "小孩都会，何况大人不会呢？",
+        "right": "小孩都会，何况大人呢？",
+        "note_vi": "Sau 何况 chỉ cần nêu đối tượng + 呢, không nhắc lại động từ phủ định."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "他自己都做不好，___别人呢？",
+        "options": [
+          "毕竟",
+          "难免",
+          "何况",
+          "未必"
+        ],
+        "answer": 2,
+        "explain": "“Chính anh ấy còn làm không tốt, huống chi người khác?”"
+      },
+      {
+        "type": "mcq",
+        "q": "这道题老师___觉得难，何况学生呢？",
+        "options": [
+          "都",
+          "才",
+          "就",
+          "也不"
+        ],
+        "answer": 0,
+        "explain": "Vế trước thường có 都 để nhấn mạnh “ngay cả … cũng …”."
+      },
+      {
+        "type": "mcq",
+        "q": "“大人都搬不动，何况孩子呢？”意思是孩子___。",
+        "options": [
+          "能搬动",
+          "可能搬动",
+          "搬得动",
+          "更搬不动"
+        ],
+        "answer": 3,
+        "explain": "Trẻ con yếu hơn nên càng khuân không nổi."
+      },
+      {
+        "type": "mcq",
+        "q": "他连中文歌都不会唱，___英文歌呢？",
+        "options": [
+          "而且",
+          "何况",
+          "于是",
+          "尽管"
+        ],
+        "answer": 1,
+        "explain": "Dùng 何况 để suy ra trường hợp khó hơn."
+      },
+      {
+        "type": "gap",
+        "q": "这么近都懒得走，___那么远呢？",
+        "answer": [
+          "何况"
+        ],
+        "explain": "Gần còn lười đi, huống chi xa."
+      },
+      {
+        "type": "gap",
+        "q": "老师都不知道，何况学生___？",
+        "answer": [
+          "呢"
+        ],
+        "explain": "Câu hỏi tu từ với 何况 thường kết thúc bằng 呢."
+      },
+      {
+        "type": "order",
+        "words": [
+          "何况",
+          "大人都",
+          "孩子呢",
+          "搬不动"
+        ],
+        "answer": "大人都搬不动，何况孩子呢？",
+        "vi": "Người lớn còn khuân không nổi, huống chi trẻ con?",
+        "explain": "A 都…，何况 B 呢？"
+      },
+      {
+        "type": "order",
+        "words": [
+          "不清楚",
+          "我自己都",
+          "你呢",
+          "何况"
+        ],
+        "answer": "我自己都不清楚，何况你呢？",
+        "vi": "Chính tôi còn không rõ, huống chi bạn?",
+        "explain": "Trường hợp nhẹ trước, 何况 + đối tượng + 呢 sau."
+      },
+      {
+        "type": "order",
+        "words": [
+          "何况是",
+          "平时都",
+          "春节前呢",
+          "很忙"
+        ],
+        "answer": "平时都很忙，何况是春节前呢？",
+        "vi": "Ngày thường đã bận, huống chi là trước Tết?",
+        "explain": "平时都很忙 là trường hợp nhẹ hơn; 春节前 nặng hơn."
+      }
+    ]
+  },
+  {
+    "id": "zh-hsk5-yimian",
+    "level": "HSK5",
+    "title": "Để tránh, kẻo",
+    "title_native": "以免 / 免得",
+    "summary_vi": "Làm A trước để tránh xảy ra điều không mong muốn B.",
+    "formula": [
+      "A，以免 + B (điều xấu)",
+      "A，免得 + B (điều xấu)"
+    ],
+    "explain_vi": "**以免** và **免得** đều có nghĩa “để tránh, kẻo”. Vế trước nêu hành động chủ động, vế sau (sau 以免/免得) nêu **kết quả xấu mà ta muốn tránh**.\n\nVí dụ: 出门带把伞，以免被雨淋湿 = Ra ngoài mang theo ô, kẻo bị mưa ướt.\n\n**Điểm giống**: cả hai luôn đứng ở **vế sau**, sau đó là điều không tốt (迟到, 忘记, 着凉, 吵醒…). Vế đầu là biện pháp phòng tránh.\n\n**Điểm khác**: **以免** mang sắc thái **văn viết, trang trọng** hơn; **免得** **khẩu ngữ** hơn, thường dùng khi nhắc nhở người thân, và có thể thêm 就: 免得你白跑一趟.\n\nLưu ý quan trọng: sau 以免/免得 **không bao giờ là điều tốt** mà ta mong muốn. Muốn nói “để có thể đạt được điều tốt” phải dùng 为了 hoặc 以便. Ngoài ra không đặt 以免 ở đầu câu; nó luôn nối tiếp một vế trước.",
+    "examples": [
+      {
+        "t": "出门带把伞，以免被雨淋湿。",
+        "py": "Chūmén dài bǎ sǎn, yǐmiǎn bèi yǔ lín shī.",
+        "vi": "Ra ngoài mang theo cái ô, kẻo bị mưa ướt."
+      },
+      {
+        "t": "你最好提前打个电话，免得白跑一趟。",
+        "py": "Nǐ zuìhǎo tíqián dǎ ge diànhuà, miǎnde bái pǎo yí tàng.",
+        "vi": "Bạn nên gọi điện trước, kẻo đi uổng công."
+      },
+      {
+        "t": "开会的时候请把手机调成静音，以免影响别人。",
+        "py": "Kāihuì de shíhou qǐng bǎ shǒujī tiáo chéng jìngyīn, yǐmiǎn yǐngxiǎng biérén.",
+        "vi": "Khi họp xin chỉnh điện thoại sang im lặng, để tránh ảnh hưởng người khác."
+      },
+      {
+        "t": "把地址写下来吧，免得你忘了。",
+        "py": "Bǎ dìzhǐ xiě xiàlái ba, miǎnde nǐ wàng le.",
+        "vi": "Viết địa chỉ ra đi, kẻo bạn quên."
+      },
+      {
+        "t": "他悄悄地关上门，以免吵醒孩子。",
+        "py": "Tā qiāoqiāo de guānshàng mén, yǐmiǎn chǎoxǐng háizi.",
+        "vi": "Anh ấy khẽ đóng cửa, để tránh đánh thức con."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "我早点出发，以免赶上火车。",
+        "right": "我早点出发，以免误了火车。",
+        "note_vi": "Sau 以免 phải là điều xấu muốn tránh. “Kịp tàu” là điều tốt nên không dùng 以免."
+      },
+      {
+        "wrong": "以免迷路，你带地图吧。",
+        "right": "你带上地图，以免迷路。",
+        "note_vi": "以免 đứng ở vế sau, không đặt ở đầu câu."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "多穿点衣服，___感冒。",
+        "options": [
+          "以便",
+          "而且",
+          "就是",
+          "以免"
+        ],
+        "answer": 3,
+        "explain": "Cảm lạnh là điều xấu cần tránh → 以免."
+      },
+      {
+        "type": "mcq",
+        "q": "你先给他发个信息，___他担心。",
+        "options": [
+          "免得",
+          "以便",
+          "于是",
+          "况且"
+        ],
+        "answer": 0,
+        "explain": "“Kẻo anh ấy lo” → 免得 (khẩu ngữ)."
+      },
+      {
+        "type": "mcq",
+        "q": "请小声说话，以免___。",
+        "options": [
+          "让大家更高兴",
+          "能听清楚",
+          "吵醒孩子",
+          "学得更好"
+        ],
+        "answer": 2,
+        "explain": "Sau 以免 là điều xấu: đánh thức em bé."
+      },
+      {
+        "type": "mcq",
+        "q": "我把重要的事写在本子上，___忘记。",
+        "options": [
+          "才",
+          "免得",
+          "可是",
+          "而是"
+        ],
+        "answer": 1,
+        "explain": "Viết lại để tránh quên → 免得."
+      },
+      {
+        "type": "gap",
+        "q": "出门前检查一下煤气，___发生危险。",
+        "answer": [
+          "以免",
+          "免得"
+        ],
+        "explain": "Tránh nguy hiểm: 以免/免得 đều đúng."
+      },
+      {
+        "type": "gap",
+        "q": "快点走吧，___迟到。",
+        "answer": [
+          "免得",
+          "以免"
+        ],
+        "explain": "Đi nhanh để khỏi trễ."
+      },
+      {
+        "type": "order",
+        "words": [
+          "被雨淋",
+          "以免",
+          "雨伞",
+          "带上"
+        ],
+        "answer": "带上雨伞，以免被雨淋。",
+        "vi": "Mang theo ô, kẻo bị mưa ướt.",
+        "explain": "Biện pháp ở vế đầu; 以免 + điều xấu ở vế sau."
+      },
+      {
+        "type": "order",
+        "words": [
+          "多穿一点",
+          "免得",
+          "你",
+          "着凉"
+        ],
+        "answer": "你多穿一点，免得着凉。",
+        "vi": "Bạn mặc thêm chút, kẻo bị cảm lạnh.",
+        "explain": "你多穿一点 là biện pháp; 免得着凉 là điều muốn tránh."
+      },
+      {
+        "type": "order",
+        "words": [
+          "轻轻地",
+          "以免",
+          "走进房间",
+          "他",
+          "吵醒孩子"
+        ],
+        "answer": "他轻轻地走进房间，以免吵醒孩子。",
+        "vi": "Anh ấy nhẹ nhàng bước vào phòng, để tránh đánh thức con.",
+        "explain": "Chủ ngữ + trạng ngữ + động từ, rồi 以免 + điều xấu."
+      }
+    ]
+  },
+  {
+    "id": "zh-hsk5-weibi",
+    "level": "HSK5",
+    "title": "Chưa chắc, không hẳn",
+    "title_native": "未必",
+    "summary_vi": "Phủ định nhẹ nhàng, không khẳng định tuyệt đối: chưa chắc đã …",
+    "formula": [
+      "S + 未必 + V/Adj",
+      "A 未必 (就/都) + B",
+      "未必。 (đáp ngắn)"
+    ],
+    "explain_vi": "**未必** (wèibì) nghĩa là “chưa chắc, không hẳn”, dùng khi muốn **phản bác nhẹ** hoặc **không đồng ý hoàn toàn** với một nhận định. Ý nghĩa gần như **不一定**, nhưng 未必 mang sắc thái **văn viết** hơn.\n\nVí dụ: 贵的东西未必就是好东西 = Đồ đắt chưa chắc đã là đồ tốt. Người nói không nói “đồ đắt thì xấu”, chỉ phủ nhận tính tuyệt đối của nhận định.\n\n**Vị trí**: 未必 đứng **sau chủ ngữ, trước động từ/tính từ**, thường đi với 会、能、是、就、都: 他未必会来, 学历高的人未必能力强. Không đặt 未必 trước chủ ngữ.\n\nNó cũng có thể dùng làm **câu trả lời ngắn**: “他会同意吗？” “未必。” (Chưa chắc.)\n\n**Phân biệt dễ nhầm**: **未必 (wèibì)** là “chưa chắc”, còn **不必 (búbì)** là “**không cần**”. Hai từ khác hẳn nghĩa: 你不必来 = bạn không cần đến; 你未必来 = chưa chắc bạn đến. Ngoài ra 未必 cũng không phải “chắc chắn không”: nó chỉ có nghĩa khả năng vẫn còn bỏ ngỏ.",
+    "examples": [
+      {
+        "t": "贵的东西未必就是好东西。",
+        "py": "Guì de dōngxi wèibì jiù shì hǎo dōngxi.",
+        "vi": "Đồ đắt chưa chắc đã là đồ tốt."
+      },
+      {
+        "t": "这么晚了，他未必会来。",
+        "py": "Zhème wǎn le, tā wèibì huì lái.",
+        "vi": "Muộn thế này rồi, chưa chắc anh ấy sẽ đến."
+      },
+      {
+        "t": "成绩好的学生未必适合当老师。",
+        "py": "Chéngjì hǎo de xuésheng wèibì shìhé dāng lǎoshī.",
+        "vi": "Học sinh điểm cao chưa chắc đã hợp làm giáo viên."
+      },
+      {
+        "t": "“他今天会迟到吗？”“未必，他平时很准时。”",
+        "py": "“Tā jīntiān huì chídào ma?” “Wèibì, tā píngshí hěn zhǔnshí.”",
+        "vi": "“Hôm nay anh ấy có trễ không?” “Chưa chắc, bình thường anh ấy rất đúng giờ.”"
+      },
+      {
+        "t": "网上的消息未必都是真的。",
+        "py": "Wǎngshàng de xiāoxi wèibì dōu shì zhēn de.",
+        "vi": "Tin trên mạng chưa chắc đã đều là thật."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "东西已经准备好了，你未必来了。",
+        "right": "东西已经准备好了，你不必来了。",
+        "note_vi": "“Không cần đến” là 不必, không phải 未必 (chưa chắc)."
+      },
+      {
+        "wrong": "未必他会同意。",
+        "right": "他未必会同意。",
+        "note_vi": "未必 đứng sau chủ ngữ, trước động từ, không đặt ở đầu câu."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "有钱的人___就快乐。",
+        "options": [
+          "没",
+          "未必",
+          "必须",
+          "一定"
+        ],
+        "answer": 1,
+        "explain": "“Người giàu chưa chắc đã vui” → 未必."
+      },
+      {
+        "type": "mcq",
+        "q": "“他未必知道”的意思是他___。",
+        "options": [
+          "肯定知道",
+          "一定知道",
+          "肯定不知道",
+          "不一定知道"
+        ],
+        "answer": 3,
+        "explain": "未必 ≈ 不一定: khả năng còn bỏ ngỏ."
+      },
+      {
+        "type": "mcq",
+        "q": "你觉得明天会下雨吗？___，天气预报说是晴天。",
+        "options": [
+          "未必",
+          "不必",
+          "必须",
+          "必然"
+        ],
+        "answer": 0,
+        "explain": "Trả lời “chưa chắc” → 未必."
+      },
+      {
+        "type": "mcq",
+        "q": "东西已经准备好了，你___来了。",
+        "options": [
+          "未必",
+          "不一定",
+          "不必",
+          "毕竟"
+        ],
+        "answer": 2,
+        "explain": "“Bạn không cần đến nữa” → 不必."
+      },
+      {
+        "type": "gap",
+        "q": "名牌的产品___质量就好。",
+        "answer": [
+          "未必",
+          "不一定"
+        ],
+        "explain": "Hàng hiệu chưa chắc chất lượng tốt."
+      },
+      {
+        "type": "gap",
+        "q": "聪明的孩子___都爱学习。",
+        "answer": [
+          "未必",
+          "不一定"
+        ],
+        "explain": "未必 + 都: chưa chắc đứa nào cũng …."
+      },
+      {
+        "type": "order",
+        "words": [
+          "未必",
+          "贵的",
+          "都好",
+          "东西"
+        ],
+        "answer": "贵的东西未必都好。",
+        "vi": "Đồ đắt chưa chắc cái nào cũng tốt.",
+        "explain": "未必 đứng sau chủ ngữ “贵的东西”."
+      },
+      {
+        "type": "order",
+        "words": [
+          "今天",
+          "会来",
+          "他",
+          "未必"
+        ],
+        "answer": "他今天未必会来。",
+        "vi": "Hôm nay chưa chắc anh ấy sẽ đến.",
+        "explain": "他 + 今天 + 未必 + 会来."
+      },
+      {
+        "type": "order",
+        "words": [
+          "未必",
+          "能力强",
+          "学历高的人"
+        ],
+        "answer": "学历高的人未必能力强。",
+        "vi": "Người học vị cao chưa chắc năng lực mạnh.",
+        "explain": "Chủ ngữ + 未必 + vị ngữ."
+      }
+    ]
+  },
+  {
+    "id": "zh-hsk5-bijing",
+    "level": "HSK5",
+    "title": "Dù sao thì, suy cho cùng",
+    "title_native": "毕竟",
+    "summary_vi": "Nhấn mạnh sự thật cơ bản làm lý do: dù sao thì … cũng là …",
+    "formula": [
+      "毕竟 + S + 是/还 + …",
+      "S + 毕竟 + Adj/V + …",
+      "毕竟…，所以…/…也…"
+    ],
+    "explain_vi": "**毕竟** (bìjìng) nghĩa là “dù sao thì, suy cho cùng, rốt cuộc thì”. Nó dùng để **nhấn mạnh một sự thật căn bản, không thể phủ nhận**, và sự thật này được dùng làm lý do để giải thích, thông cảm hoặc khuyên bảo.\n\nVí dụ: 他毕竟还是个孩子，别对他要求太高 = Dù sao nó vẫn chỉ là trẻ con, đừng đòi hỏi quá cao. Điểm mấu chốt “là trẻ con” được nêu ra như lý do.\n\n**Vị trí**: có thể đứng trước hoặc sau chủ ngữ (毕竟他… / 他毕竟…). Vế sau thường là kết luận như 也很正常、不能…、应该…. Người Trung hay thêm **嘛** ở cuối vế: 他还小嘛, 毕竟是孩子.\n\n**Phân biệt**: **毕竟** là “suy cho cùng” (khẳng định), còn **到底 (dàodǐ) / 究竟 (jiūjìng)** khi hỏi mang nghĩa “rốt cuộc” (buộc phải có câu trả lời). Bạn **không** dùng 毕竟 để đặt câu hỏi. 毕竟 cũng không dùng cho phỏng đoán chuyện tương lai, vì nó khẳng định một sự thật hiện hữu.",
+    "examples": [
+      {
+        "t": "他毕竟还是个孩子，别对他要求太高。",
+        "py": "Tā bìjìng háishi ge háizi, bié duì tā yāoqiú tài gāo.",
+        "vi": "Dù sao thì nó vẫn là trẻ con, đừng yêu cầu quá cao."
+      },
+      {
+        "t": "毕竟是第一次做，出点错也很正常。",
+        "py": "Bìjìng shì dì-yī cì zuò, chū diǎn cuò yě hěn zhèngcháng.",
+        "vi": "Dù sao cũng là lần đầu làm, mắc chút lỗi cũng rất bình thường."
+      },
+      {
+        "t": "虽然他现在很忙，但毕竟是你的老朋友，去看看他吧。",
+        "py": "Suīrán tā xiànzài hěn máng, dàn bìjìng shì nǐ de lǎo péngyou, qù kànkan tā ba.",
+        "vi": "Tuy bây giờ anh ấy bận, nhưng dù sao cũng là bạn cũ của bạn, hãy đi thăm anh ấy."
+      },
+      {
+        "t": "这里的冬天毕竟比南方冷多了，要多穿点。",
+        "py": "Zhèlǐ de dōngtiān bìjìng bǐ nánfāng lěng duō le, yào duō chuān diǎn.",
+        "vi": "Mùa đông ở đây dù sao cũng lạnh hơn miền Nam nhiều, phải mặc thêm."
+      },
+      {
+        "t": "他毕竟年纪大了，不能再像年轻人那样熬夜。",
+        "py": "Tā bìjìng niánjì dà le, bù néng zài xiàng niánqīngrén nàyàng áoyè.",
+        "vi": "Dù sao ông ấy cũng đã lớn tuổi, không thể thức đêm như người trẻ nữa."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "你毕竟喜欢吃什么？",
+        "right": "你到底喜欢吃什么？",
+        "note_vi": "Khi hỏi “rốt cuộc” dùng 到底/究竟, không dùng 毕竟."
+      },
+      {
+        "wrong": "明天毕竟会下雨，带伞吧。",
+        "right": "明天可能会下雨，带伞吧。",
+        "note_vi": "毕竟 khẳng định sự thật hiển nhiên, không dùng cho phỏng đoán tương lai."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "他___是新来的，不熟悉很正常。",
+        "options": [
+          "难免",
+          "未必",
+          "毕竟",
+          "宁可"
+        ],
+        "answer": 2,
+        "explain": "“Dù sao anh ấy mới đến” là lý do → 毕竟."
+      },
+      {
+        "type": "mcq",
+        "q": "你___想去哪儿玩？（hỏi “rốt cuộc”）",
+        "options": [
+          "毕竟",
+          "到底",
+          "何况",
+          "免得"
+        ],
+        "answer": 1,
+        "explain": "Câu hỏi “rốt cuộc” dùng 到底."
+      },
+      {
+        "type": "mcq",
+        "q": "他毕竟只是个孩子，___。",
+        "options": [
+          "应该严厉批评",
+          "我们不能原谅",
+          "他一定很聪明",
+          "别要求太高"
+        ],
+        "answer": 3,
+        "explain": "Sau lý do “chỉ là trẻ con” là lời khuyên thông cảm."
+      },
+      {
+        "type": "mcq",
+        "q": "___是老同学，帮他一下也应该。",
+        "options": [
+          "毕竟",
+          "宁可",
+          "未必",
+          "免得"
+        ],
+        "answer": 0,
+        "explain": "“Dù sao cũng là bạn học cũ” → 毕竟."
+      },
+      {
+        "type": "gap",
+        "q": "他___年纪大了，不能干重活儿。",
+        "answer": [
+          "毕竟"
+        ],
+        "explain": "毕竟 đứng sau chủ ngữ."
+      },
+      {
+        "type": "gap",
+        "q": "毕竟是第一次，错了___很正常。",
+        "answer": [
+          "也"
+        ],
+        "explain": "Vế sau thường có 也…正常 để kết luận."
+      },
+      {
+        "type": "order",
+        "words": [
+          "年纪",
+          "他",
+          "还小",
+          "毕竟"
+        ],
+        "answer": "他毕竟年纪还小。",
+        "vi": "Dù sao nó vẫn còn nhỏ tuổi.",
+        "explain": "他 + 毕竟 + 年纪还小."
+      },
+      {
+        "type": "order",
+        "words": [
+          "出错",
+          "很正常",
+          "毕竟",
+          "是第一次"
+        ],
+        "answer": "毕竟是第一次，出错很正常。",
+        "vi": "Dù sao cũng là lần đầu, mắc lỗi rất bình thường.",
+        "explain": "毕竟 đứng đầu vế nêu lý do."
+      },
+      {
+        "type": "order",
+        "words": [
+          "冬天",
+          "冷多了",
+          "北方",
+          "毕竟",
+          "比南方"
+        ],
+        "answer": "北方冬天毕竟比南方冷多了。",
+        "vi": "Mùa đông miền Bắc dù sao cũng lạnh hơn miền Nam nhiều.",
+        "explain": "Chủ ngữ + 毕竟 + 比 + so sánh."
+      }
+    ]
+  },
+  {
+    "id": "zh-hsk5-guoran-jingran",
+    "level": "HSK5",
+    "title": "Quả nhiên vs Không ngờ",
+    "title_native": "果然 vs 竟然",
+    "summary_vi": "果然: đúng như dự đoán. 竟然: ngoài dự đoán, ngạc nhiên.",
+    "formula": [
+      "S + 果然 + V (đúng như nghĩ)",
+      "S + 竟然 + V (không ngờ)",
+      "没想到 + S + 竟然/居然 + V"
+    ],
+    "explain_vi": "Cả hai đều đứng **trước động từ/tính từ**, nhưng thái độ của người nói **trái ngược nhau**.\n\n**果然 (guǒrán) = “quả nhiên, đúng như dự đoán”.** Kết quả **trùng khớp** với điều đã đoán hay đã nghe nói. Ví dụ: 天气预报说今天下雨，果然下雨了 = Dự báo bảo hôm nay mưa, quả nhiên mưa. Thường có “cái cớ” phía trước như 我就知道, 听说, 我猜…\n\n**竟然 (jìngrán) = “không ngờ, lại…”.** Kết quả **ngoài dự đoán**, gây bất ngờ, đôi khi kèm sự khó tin hoặc phàn nàn. Ví dụ: 我以为他不会来，他竟然来了 = Tôi tưởng anh ấy không đến, vậy mà lại đến. Hay đi với 没想到 và 连…都: 他竟然连这个字都不认识!\n\nMẹo nhớ: **果然 → “Đúng vậy rồi!”**, **竟然 → “Hả? Sao lại thế!”**. 竟然 còn có từ đồng nghĩa là **居然**.\n\nLưu ý: không dùng 果然 sau 没想到, vì “không ngờ” mâu thuẫn với “đúng như đoán”. Ngược lại, nếu đã đoán được thì không dùng 竟然.",
+    "examples": [
+      {
+        "t": "天气预报说今天下雨，果然下起雨来了。",
+        "py": "Tiānqì yùbào shuō jīntiān xià yǔ, guǒrán xià qǐ yǔ lái le.",
+        "vi": "Dự báo nói hôm nay mưa, quả nhiên trời mưa rồi."
+      },
+      {
+        "t": "我以为他不会来，他竟然来了。",
+        "py": "Wǒ yǐwéi tā bú huì lái, tā jìngrán lái le.",
+        "vi": "Tôi tưởng anh ấy sẽ không đến, vậy mà anh ấy lại đến."
+      },
+      {
+        "t": "老师说这家餐厅很好吃，我去了一次，果然很好吃。",
+        "py": "Lǎoshī shuō zhè jiā cāntīng hěn hǎochī, wǒ qù le yí cì, guǒrán hěn hǎochī.",
+        "vi": "Thầy bảo quán này ngon, tôi đến một lần, quả nhiên rất ngon."
+      },
+      {
+        "t": "他平时那么细心，这次竟然把钥匙忘在家里了。",
+        "py": "Tā píngshí nàme xìxīn, zhè cì jìngrán bǎ yàoshi wàng zài jiā lǐ le.",
+        "vi": "Ngày thường anh ấy cẩn thận thế, lần này lại quên chìa khóa ở nhà."
+      },
+      {
+        "t": "我早就猜到是他，一问，果然是他做的。",
+        "py": "Wǒ zǎo jiù cāi dào shì tā, yí wèn, guǒrán shì tā zuò de.",
+        "vi": "Tôi đã đoán là anh ta, hỏi ra, quả nhiên là anh ta làm."
+      },
+      {
+        "t": "这么重要的会议，他竟然睡着了！",
+        "py": "Zhème zhòngyào de huìyì, tā jìngrán shuìzháo le!",
+        "vi": "Cuộc họp quan trọng thế này mà anh ấy lại ngủ quên!"
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "我没想到他果然会说中文。",
+        "right": "我没想到他竟然会说中文。",
+        "note_vi": "Đã “không ngờ” thì là bất ngờ → 竟然, không dùng 果然."
+      },
+      {
+        "wrong": "我早就知道他会赢，他竟然赢了。",
+        "right": "我早就知道他会赢，他果然赢了。",
+        "note_vi": "Đã đoán trước mà kết quả khớp → 果然."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "我猜他会迟到，他___迟到了。",
+        "options": [
+          "果然",
+          "竟然",
+          "毕竟",
+          "未必"
+        ],
+        "answer": 0,
+        "explain": "Đoán trước và đúng → 果然."
+      },
+      {
+        "type": "mcq",
+        "q": "没想到，这么小的孩子___会弹钢琴！",
+        "options": [
+          "果然",
+          "竟然",
+          "毕竟",
+          "难免"
+        ],
+        "answer": 1,
+        "explain": "Ngạc nhiên, ngoài dự đoán → 竟然."
+      },
+      {
+        "type": "mcq",
+        "q": "医生说多休息就会好，他休息了几天，病___好了。",
+        "options": [
+          "竟然",
+          "宁可",
+          "何况",
+          "果然"
+        ],
+        "answer": 3,
+        "explain": "Bác sĩ nói trước, kết quả đúng như vậy → 果然."
+      },
+      {
+        "type": "mcq",
+        "q": "他是大学老师，___连这个字都不认识！",
+        "options": [
+          "果然",
+          "毕竟",
+          "竟然",
+          "以免"
+        ],
+        "answer": 2,
+        "explain": "Rất bất ngờ, kèm 连…都 → 竟然."
+      },
+      {
+        "type": "gap",
+        "q": "大家都说那部电影很感人，我看了以后，___哭了。（đúng như dự đoán）",
+        "answer": [
+          "果然"
+        ],
+        "explain": "Đúng như lời đồn → 果然."
+      },
+      {
+        "type": "gap",
+        "q": "我昨天还看见他，没想到他今天___已经走了！",
+        "answer": [
+          "竟然",
+          "居然"
+        ],
+        "explain": "没想到 đi với 竟然/居然."
+      },
+      {
+        "type": "order",
+        "words": [
+          "没来",
+          "他",
+          "果然",
+          "今天"
+        ],
+        "answer": "他今天果然没来。",
+        "vi": "Hôm nay anh ấy quả nhiên không đến.",
+        "explain": "果然 đứng trước động từ/phủ định."
+      },
+      {
+        "type": "order",
+        "words": [
+          "忘了",
+          "我的名字",
+          "他",
+          "竟然"
+        ],
+        "answer": "他竟然忘了我的名字。",
+        "vi": "Anh ấy lại quên cả tên tôi.",
+        "explain": "他 + 竟然 + động từ + tân ngữ."
+      },
+      {
+        "type": "order",
+        "words": [
+          "很好用",
+          "我一试",
+          "果然"
+        ],
+        "answer": "我一试，果然很好用。",
+        "vi": "Tôi thử một cái, quả nhiên rất dễ dùng.",
+        "explain": "果然 xác nhận điều đã nghe/đoán."
+      }
+    ]
+  },
+  {
+    "id": "zh-hsk5-henbude",
+    "level": "HSK5",
+    "title": "Chỉ muốn (ước gì có thể) ngay",
+    "title_native": "恨不得",
+    "summary_vi": "Mong muốn mãnh liệt làm ngay điều gì đó, dù thường không thể thực hiện.",
+    "formula": [
+      "S + 恨不得 + (马上/立刻) + V",
+      "S + 恨不得 + 把 + O + V",
+      "S + 恨不得 + câu"
+    ],
+    "explain_vi": "**恨不得** (hènbude) diễn tả **mong muốn rất mạnh, nôn nóng** muốn làm ngay một việc, nhưng thực tế **không làm được hoặc không nên làm**. Tiếng Việt có thể dịch là “chỉ muốn…, ước gì có thể…, hận không thể…”.\n\nVí dụ: 听到这个好消息，我恨不得马上告诉所有的朋友 = Nghe tin vui này, tôi chỉ muốn báo ngay cho tất cả bạn bè. Cường điệu cảm xúc là chủ yếu.\n\n**Khác 想**: 想 là “muốn” bình thường, thật sự có kế hoạch; **恨不得** là cảm xúc phóng đại, thường **bất khả thi**: 太热了，我恨不得跳进河里 (nóng quá, chỉ muốn nhảy xuống sông). Nếu kế hoạch thật, hãy dùng 想.\n\nCác điểm cần nhớ:\n\n- Sau 恨不得 thường có **马上、立刻、一下子**.\n- Có thể nối với **把**: 恨不得把时间停住.\n- **Không** thêm 了/过 sau động từ: 恨不得马上回家 (đúng), 恨不得马上回到了家 (sai).\n- Đừng nhầm với **恨** nghĩa “căm ghét”. 恨不得 là cụm cố định, không mang nghĩa ghét.",
+    "examples": [
+      {
+        "t": "听到这个好消息，我恨不得马上告诉所有的朋友。",
+        "py": "Tīngdào zhège hǎo xiāoxi, wǒ hènbude mǎshàng gàosu suǒyǒu de péngyou.",
+        "vi": "Nghe tin vui này, tôi chỉ muốn báo ngay cho tất cả bạn bè."
+      },
+      {
+        "t": "那天太热了，我恨不得跳进河里去。",
+        "py": "Nà tiān tài rè le, wǒ hènbude tiào jìn hé lǐ qù.",
+        "vi": "Hôm đó nóng quá, tôi chỉ muốn nhảy xuống sông."
+      },
+      {
+        "t": "他恨不得一下子把所有的书都读完。",
+        "py": "Tā hènbude yíxiàzi bǎ suǒyǒu de shū dōu dú wán.",
+        "vi": "Anh ấy chỉ muốn đọc xong tất cả sách trong một lần."
+      },
+      {
+        "t": "看到孩子生病，妈妈恨不得替他生病。",
+        "py": "Kàndào háizi shēngbìng, māma hènbude tì tā shēngbìng.",
+        "vi": "Thấy con ốm, mẹ chỉ muốn ốm thay con."
+      },
+      {
+        "t": "考试前一天，我恨不得时间走得慢一点。",
+        "py": "Kǎoshì qián yì tiān, wǒ hènbude shíjiān zǒu de màn yìdiǎn.",
+        "vi": "Một ngày trước kỳ thi, tôi chỉ ước thời gian trôi chậm lại."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "我恨不得去北京出差，明天就订票了。",
+        "right": "我想去北京出差，明天就订票。",
+        "note_vi": "Kế hoạch thật, làm được ngay thì dùng 想; 恨不得 dành cho mong muốn cường điệu, khó thực hiện."
+      },
+      {
+        "wrong": "我恨不得马上回到了家。",
+        "right": "我恨不得马上回到家。",
+        "note_vi": "Sau 恨不得 không dùng 了."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "知道自己考上了大学，他高兴得___马上告诉全世界。",
+        "options": [
+          "宁可",
+          "未必",
+          "恨不得",
+          "免得"
+        ],
+        "answer": 2,
+        "explain": "Mong muốn nôn nóng, cường điệu → 恨不得."
+      },
+      {
+        "type": "mcq",
+        "q": "饿了一天，他___一口吃下整头牛。",
+        "options": [
+          "恨不得",
+          "毕竟",
+          "难免",
+          "以免"
+        ],
+        "answer": 0,
+        "explain": "Cường điệu cảm giác đói → 恨不得."
+      },
+      {
+        "type": "mcq",
+        "q": "“他恨不得马上飞回家”的意思是他___。",
+        "options": [
+          "已经回家了",
+          "不想回家",
+          "明天回家",
+          "非常想早点回家"
+        ],
+        "answer": 3,
+        "explain": "Rất muốn về nhà ngay (nhưng chưa thể)."
+      },
+      {
+        "type": "mcq",
+        "q": "太想你了，我恨不得___。",
+        "options": [
+          "昨天见到了你",
+          "马上见到你",
+          "不想见你",
+          "去过北京了"
+        ],
+        "answer": 1,
+        "explain": "Sau 恨不得 là hành động mong muốn, không có 了/过."
+      },
+      {
+        "type": "gap",
+        "q": "听到比赛赢了，大家高兴得___马上跳起来。",
+        "answer": [
+          "恨不得"
+        ],
+        "explain": "Mong muốn mạnh mẽ làm ngay → 恨不得."
+      },
+      {
+        "type": "gap",
+        "q": "太闷了，我恨不得___所有的窗户都打开。",
+        "answer": [
+          "把"
+        ],
+        "explain": "恨不得 + 把 + tân ngữ + động từ."
+      },
+      {
+        "type": "order",
+        "words": [
+          "回家",
+          "我",
+          "马上",
+          "恨不得"
+        ],
+        "answer": "我恨不得马上回家。",
+        "vi": "Tôi chỉ muốn về nhà ngay lập tức.",
+        "explain": "我 + 恨不得 + 马上 + V."
+      },
+      {
+        "type": "order",
+        "words": [
+          "长大",
+          "一下子",
+          "他",
+          "恨不得"
+        ],
+        "answer": "他恨不得一下子长大。",
+        "vi": "Cậu bé chỉ muốn lớn lên ngay trong chốc lát.",
+        "explain": "恨不得 + 一下子 + V."
+      },
+      {
+        "type": "order",
+        "words": [
+          "告诉大家",
+          "好消息",
+          "我",
+          "把这个",
+          "恨不得"
+        ],
+        "answer": "我恨不得把这个好消息告诉大家。",
+        "vi": "Tôi chỉ muốn nói tin vui này cho mọi người ngay.",
+        "explain": "恨不得 + 把 + O + V."
+      }
+    ]
+  },
+  {
+    "id": "zh-hsk5-nanmian",
+    "level": "HSK5",
+    "title": "Khó tránh khỏi",
+    "title_native": "难免",
+    "summary_vi": "Điều gì đó dễ xảy ra trong hoàn cảnh nhất định, khó mà tránh được.",
+    "formula": [
+      "S + 难免 + 会/要 + V",
+      "(Hoàn cảnh)，难免 + …",
+      "A 是难免的"
+    ],
+    "explain_vi": "**难免** (nánmiǎn) nghĩa là “khó tránh khỏi, khó mà không…”. Dùng khi trong một **hoàn cảnh nhất định**, một việc (thường không mong muốn) **rất dễ xảy ra** và người ta nên thông cảm.\n\nVí dụ: 刚开始学汉语，难免会说错 = Mới bắt đầu học tiếng Trung thì khó tránh nói sai. Câu đầu nêu hoàn cảnh (刚开始学), câu sau nêu điều tất yếu.\n\n**Hai cách dùng phổ biến**:\n\n1. **Trạng từ**: 难免 + 会/要 + V — 孩子们在一起玩，难免会吵架.\n2. **Vị ngữ**: A **是难免的** — 第一次出国，紧张是难免的. Phải có **的**: 难免的, không nói 是难免.\n\nHoàn cảnh nêu trước thường là: 刚…, 第一次…, 人多…, 工作忙…, 年纪小….\n\n**Lưu ý**: 难免 nói về điều **khó tránh về mặt khách quan**, không phải ý chí của người nói. Không nói 我难免去参加 (nghĩa sai). Ngoài ra đừng nhầm với **难以** (khó mà làm được) hay **不免** (HSK6, nghĩa gần, nhưng chỉ dùng như trạng từ và văn viết hơn).",
+    "examples": [
+      {
+        "t": "刚开始学汉语，难免会说错。",
+        "py": "Gāng kāishǐ xué Hànyǔ, nánmiǎn huì shuō cuò.",
+        "vi": "Mới bắt đầu học tiếng Trung, khó tránh nói sai."
+      },
+      {
+        "t": "孩子们在一起玩，难免会吵架。",
+        "py": "Háizimen zài yìqǐ wán, nánmiǎn huì chǎojià.",
+        "vi": "Bọn trẻ chơi cùng nhau thì khó tránh cãi nhau."
+      },
+      {
+        "t": "第一次出国，紧张是难免的。",
+        "py": "Dì-yī cì chūguó, jǐnzhāng shì nánmiǎn de.",
+        "vi": "Lần đầu ra nước ngoài, lo lắng là điều khó tránh."
+      },
+      {
+        "t": "工作这么忙，难免有时候会忘事。",
+        "py": "Gōngzuò zhème máng, nánmiǎn yǒu shíhou huì wàng shì.",
+        "vi": "Công việc bận thế này, thỉnh thoảng khó tránh quên việc."
+      },
+      {
+        "t": "人都有缺点，难免会犯错误。",
+        "py": "Rén dōu yǒu quēdiǎn, nánmiǎn huì fàn cuòwù.",
+        "vi": "Ai cũng có khuyết điểm, khó tránh mắc sai lầm."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "我难免去参加他的婚礼。",
+        "right": "我想去参加他的婚礼。",
+        "note_vi": "难免 chỉ điều khó tránh khách quan, không dùng để nói ý định."
+      },
+      {
+        "wrong": "出错是难免。",
+        "right": "出错是难免的。",
+        "note_vi": "Cấu trúc A 是难免的 cần có 的."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "刚来中国，想家是___的。",
+        "options": [
+          "未必",
+          "难免",
+          "毕竟",
+          "宁可"
+        ],
+        "answer": 1,
+        "explain": "“Nhớ nhà là điều khó tránh” → 难免的."
+      },
+      {
+        "type": "mcq",
+        "q": "第一次上台，___会紧张。",
+        "options": [
+          "恨不得",
+          "以免",
+          "未必",
+          "难免"
+        ],
+        "answer": 3,
+        "explain": "Hoàn cảnh lần đầu → 难免会…."
+      },
+      {
+        "type": "mcq",
+        "q": "新手开车，___会出一些小问题。",
+        "options": [
+          "难免",
+          "何况",
+          "免得",
+          "宁愿"
+        ],
+        "answer": 0,
+        "explain": "Người mới lái khó tránh gặp lỗi nhỏ."
+      },
+      {
+        "type": "mcq",
+        "q": "“难免”表示这件事___。",
+        "options": [
+          "绝对不会发生",
+          "一定要发生",
+          "很难避免",
+          "没人愿意"
+        ],
+        "answer": 2,
+        "explain": "难免 = khó tránh khỏi."
+      },
+      {
+        "type": "gap",
+        "q": "人多的地方，___有人丢东西。",
+        "answer": [
+          "难免"
+        ],
+        "explain": "Nơi đông người khó tránh có người mất đồ."
+      },
+      {
+        "type": "gap",
+        "q": "孩子小的时候，难免___调皮。",
+        "answer": [
+          "会",
+          "要"
+        ],
+        "explain": "难免 + 会/要 + V."
+      },
+      {
+        "type": "order",
+        "words": [
+          "难免",
+          "会出错",
+          "刚开始学"
+        ],
+        "answer": "刚开始学，难免会出错。",
+        "vi": "Mới bắt đầu học, khó tránh mắc lỗi.",
+        "explain": "Hoàn cảnh + 难免会 + V."
+      },
+      {
+        "type": "order",
+        "words": [
+          "难免",
+          "紧张",
+          "第一次",
+          "有点",
+          "见面"
+        ],
+        "answer": "第一次见面，难免有点紧张。",
+        "vi": "Lần đầu gặp mặt, khó tránh hơi hồi hộp.",
+        "explain": "第一次见面 là hoàn cảnh; 难免 + 有点紧张."
+      },
+      {
+        "type": "order",
+        "words": [
+          "难免的",
+          "犯错",
+          "人人",
+          "这是",
+          "都会"
+        ],
+        "answer": "人人都会犯错，这是难免的。",
+        "vi": "Ai cũng có thể mắc lỗi, điều này khó tránh.",
+        "explain": "这是难免的: A 是难免的."
+      }
+    ]
+  },
+  {
+    "id": "zh-hsk5-zhisuoyi",
+    "level": "HSK5",
+    "title": "Sở dĩ … là vì …",
+    "title_native": "之所以…是因为…",
+    "summary_vi": "Nêu kết quả trước, giải thích nguyên nhân sau: sở dĩ A là vì B.",
+    "formula": [
+      "S + 之所以 + A (kết quả)，是因为 + B (nguyên nhân)",
+      "之所以…，主要是因为…",
+      "A，是因为 B"
+    ],
+    "explain_vi": "**之所以…是因为…** gần như tương đương với “**sở dĩ … là vì …**” trong tiếng Việt: **kết quả đứng trước, nguyên nhân đứng sau**. Cấu trúc này dùng khi bạn muốn **giải thích lý do** của một sự việc đã biết.\n\nVí dụ: 他之所以迟到，是因为路上堵车 = Sở dĩ anh ấy đến muộn là vì đường tắc.\n\nSo sánh với cặp **因为…所以…**: thứ tự **ngược nhau**. 因为路上堵车，所以他迟到了 (nguyên nhân trước, kết quả sau). Với 之所以, kết quả đi trước: 他之所以迟到，是因为路上堵车. Hai câu cùng nghĩa, chỉ khác trọng tâm; 之所以 nhấn mạnh vào phần **nguyên nhân** đi sau.\n\n**Lưu ý quan trọng**:\n\n- **之所以** đi với **是因为**, không đi với 所以 (không nói 之所以…，所以…). Vì 之所以 đã chứa chữ 所以 rồi.\n- Không thể thiếu **是** trong 是因为 khi dùng cặp này.\n- Có thể thêm 主要 để nhấn mạnh: 主要是因为…\n- 之所以 đứng sau chủ ngữ (他之所以…), không đặt trước chủ ngữ nếu muốn tự nhiên.",
+    "examples": [
+      {
+        "t": "他之所以迟到，是因为路上堵车。",
+        "py": "Tā zhī suǒyǐ chídào, shì yīnwèi lùshang dǔchē.",
+        "vi": "Sở dĩ anh ấy đến muộn là vì đường tắc."
+      },
+      {
+        "t": "我之所以选择这所大学，是因为它的中文专业很有名。",
+        "py": "Wǒ zhī suǒyǐ xuǎnzé zhè suǒ dàxué, shì yīnwèi tā de Zhōngwén zhuānyè hěn yǒumíng.",
+        "vi": "Sở dĩ tôi chọn trường này là vì ngành tiếng Trung của trường rất nổi tiếng."
+      },
+      {
+        "t": "这家店之所以受欢迎，是因为东西便宜，服务也好。",
+        "py": "Zhè jiā diàn zhī suǒyǐ shòu huānyíng, shì yīnwèi dōngxi piányi, fúwù yě hǎo.",
+        "vi": "Sở dĩ cửa hàng này được ưa chuộng là vì đồ rẻ, phục vụ cũng tốt."
+      },
+      {
+        "t": "她之所以不告诉你，是因为不想让你担心。",
+        "py": "Tā zhī suǒyǐ bú gàosu nǐ, shì yīnwèi bù xiǎng ràng nǐ dānxīn.",
+        "vi": "Sở dĩ cô ấy không nói với bạn là vì không muốn bạn lo lắng."
+      },
+      {
+        "t": "我们之所以能成功，主要是因为大家一起努力。",
+        "py": "Wǒmen zhī suǒyǐ néng chénggōng, zhǔyào shì yīnwèi dàjiā yìqǐ nǔlì.",
+        "vi": "Sở dĩ chúng ta thành công chủ yếu là nhờ mọi người cùng cố gắng."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "他之所以迟到，所以路上堵车。",
+        "right": "他之所以迟到，是因为路上堵车。",
+        "note_vi": "之所以 đi với 是因为, không đi với 所以."
+      },
+      {
+        "wrong": "他之所以生病了，因为没休息好。",
+        "right": "他之所以生病了，是因为没休息好。",
+        "note_vi": "Vế sau của 之所以 phải là 是因为, thiếu 是 là sai cấu trúc."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "他___没来，是因为生病了。",
+        "options": [
+          "之所以",
+          "因为",
+          "虽然",
+          "如果"
+        ],
+        "answer": 0,
+        "explain": "之所以 + kết quả，是因为 + nguyên nhân."
+      },
+      {
+        "type": "mcq",
+        "q": "我之所以学汉语，___我喜欢中国文化。",
+        "options": [
+          "所以",
+          "可是",
+          "是因为",
+          "而且"
+        ],
+        "answer": 2,
+        "explain": "Vế sau của 之所以 là 是因为."
+      },
+      {
+        "type": "mcq",
+        "q": "“之所以…是因为…”里，“是因为”后面说的是___。",
+        "options": [
+          "结果",
+          "原因",
+          "条件",
+          "让步"
+        ],
+        "answer": 1,
+        "explain": "是因为 dẫn nguyên nhân."
+      },
+      {
+        "type": "mcq",
+        "q": "这座城市___吸引很多游客，是因为风景很美。",
+        "options": [
+          "因为",
+          "由于",
+          "所以",
+          "之所以"
+        ],
+        "answer": 3,
+        "explain": "Câu đã có 是因为 nên vế đầu dùng 之所以."
+      },
+      {
+        "type": "gap",
+        "q": "我之所以早起，___因为要赶火车。",
+        "answer": [
+          "是"
+        ],
+        "explain": "之所以…，是因为…."
+      },
+      {
+        "type": "gap",
+        "q": "他之所以这么高兴，是___他通过了考试。",
+        "answer": [
+          "因为"
+        ],
+        "explain": "是因为 dẫn nguyên nhân."
+      },
+      {
+        "type": "order",
+        "words": [
+          "是因为",
+          "没来",
+          "他",
+          "生病了",
+          "之所以"
+        ],
+        "answer": "他之所以没来，是因为生病了。",
+        "vi": "Sở dĩ anh ấy không đến là vì bị ốm.",
+        "explain": "他 + 之所以 + kết quả，是因为 + nguyên nhân."
+      },
+      {
+        "type": "order",
+        "words": [
+          "喜欢",
+          "是因为",
+          "中国文化",
+          "我",
+          "学中文",
+          "之所以"
+        ],
+        "answer": "我之所以学中文，是因为喜欢中国文化。",
+        "vi": "Sở dĩ tôi học tiếng Trung là vì yêu thích văn hóa Trung Quốc.",
+        "explain": "之所以 + 学中文，是因为 + 喜欢中国文化."
+      },
+      {
+        "type": "order",
+        "words": [
+          "便宜",
+          "很热闹",
+          "之所以",
+          "是因为",
+          "这家店"
+        ],
+        "answer": "这家店之所以很热闹，是因为便宜。",
+        "vi": "Sở dĩ cửa hàng này đông đúc là vì giá rẻ.",
+        "explain": "Chủ ngữ + 之所以 + kết quả，是因为 + lý do."
+      }
+    ]
+  }
+]

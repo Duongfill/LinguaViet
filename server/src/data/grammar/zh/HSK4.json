@@ -1,0 +1,386 @@
+[
+  {
+    "id": "zh-hsk4-budan-erqie",
+    "level": "HSK4",
+    "title": "Không những… mà còn…",
+    "title_native": "不但…而且…",
+    "summary_vi": "Nối hai ý theo chiều tăng tiến: ý sau mạnh hơn hoặc bổ sung thêm cho ý trước.",
+    "formula": ["S + 不但 + A，而且 + B", "不但 + S1 + A，而且 + S2 + 也/还 + B"],
+    "explain_vi": "**不但…而且…** nghĩa là 'không những… mà còn…', dùng để nêu một ý rồi **cộng thêm** một ý nữa (thường mạnh hơn hoặc bổ sung). Vế đầu đứng sau 不但, vế sau đứng sau 而且.\n\nVị trí chủ ngữ rất quan trọng. Nếu hai vế **cùng một chủ ngữ**, chủ ngữ đứng **trước 不但**: 他不但会说汉语，而且会说日语. Nếu hai vế **khác chủ ngữ**, mỗi chủ ngữ đứng **sau** từ nối của mình: 不但他会说汉语，而且我也会说.\n\nSau 而且 rất hay có thêm 也 hoặc 还 để nhấn mạnh ý cộng thêm: 她不但漂亮，而且还很聪明. Lưu ý 而且 là từ nối tăng tiến, **không** dùng 但是 hay 可是 (những từ đó mang nghĩa đối lập 'nhưng').\n\nSo với tiếng Việt, cấu trúc này giống 'không những… mà còn…' gần như từng chữ. Hai vế nên cùng loại (cùng là động từ, hoặc cùng là tính từ) để câu cân đối. Ngoài ra, trong văn viết có thể dùng 不仅 thay cho 不但, nghĩa giống nhau.",
+    "examples": [
+      { "t": "她不但会说汉语，而且会说日语。", "py": "Tā bùdàn huì shuō Hànyǔ, érqiě huì shuō Rìyǔ.", "vi": "Cô ấy không những biết nói tiếng Trung mà còn biết nói tiếng Nhật." },
+      { "t": "这家饭馆不但菜好吃，而且很便宜。", "py": "Zhè jiā fànguǎn bùdàn cài hǎochī, érqiě hěn piányi.", "vi": "Quán này không những đồ ăn ngon mà còn rất rẻ." },
+      { "t": "他不但是我的老师，而且是我的朋友。", "py": "Tā bùdàn shì wǒ de lǎoshī, érqiě shì wǒ de péngyou.", "vi": "Anh ấy không những là thầy của tôi mà còn là bạn của tôi." },
+      { "t": "不但我喜欢这本书，而且我的同学也喜欢。", "py": "Bùdàn wǒ xǐhuan zhè běn shū, érqiě wǒ de tóngxué yě xǐhuan.", "vi": "Không những tôi thích cuốn sách này mà bạn học của tôi cũng thích." },
+      { "t": "这个手机不但便宜，而且质量也很好。", "py": "Zhège shǒujī bùdàn piányi, érqiě zhìliàng yě hěn hǎo.", "vi": "Chiếc điện thoại này không những rẻ mà chất lượng cũng rất tốt." }
+    ],
+    "mistakes": [
+      { "wrong": "他不但聪明，可是很努力。", "right": "他不但聪明，而且很努力。", "note_vi": "Ý tăng tiến phải dùng 而且, không dùng 可是/但是 (nghĩa 'nhưng')." },
+      { "wrong": "不但他会说英语，而且会说法语。", "right": "他不但会说英语，而且会说法语。", "note_vi": "Hai vế cùng chủ ngữ thì chủ ngữ đứng trước 不但." },
+      { "wrong": "他不但会唱歌，而且他不会跳舞。", "right": "他不但会唱歌，而且会跳舞。", "note_vi": "Hai vế phải cùng chiều (cùng khẳng định); không dùng cho ý trái ngược." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "他不但会唱歌，___会跳舞。", "options": ["但是", "而且", "所以", "因为"], "answer": 1, "explain": "Ý tăng tiến dùng 而且." },
+      { "type": "mcq", "q": "___我喜欢这部电影，而且我的家人也喜欢。", "options": ["如果", "虽然", "因为", "不但"], "answer": 3, "explain": "不但 đứng đầu vế 1; 而且 ở vế 2." },
+      { "type": "mcq", "q": "这个地方不但风景美，___人也很热情。", "options": ["而且", "所以", "但是", "如果"], "answer": 0, "explain": "不但…而且… là cặp đi cùng nhau." },
+      { "type": "mcq", "q": "他不但自己去，___带朋友一起去。", "options": ["所以", "可是", "而且还", "要是"], "answer": 2, "explain": "而且还 nhấn mạnh thêm ý cộng thêm." },
+      { "type": "gap", "q": "她不但会做饭，___会做蛋糕。", "answer": ["而且", "而且还", "而且也"], "explain": "Vế sau của 不但 là 而且." },
+      { "type": "gap", "q": "这里的冬天___冷，而且很干。", "answer": ["不但", "不仅"], "explain": "Điền từ mở vế đầu: 不但 (hoặc 不仅)." },
+      { "type": "order", "words": ["会说英语", "而且", "她", "会说法语", "不但"], "answer": "她不但会说英语，而且会说法语。", "vi": "Cô ấy không những nói được tiếng Anh mà còn nói được tiếng Pháp.", "explain": "Cùng chủ ngữ nên 她 đứng trước 不但." },
+      { "type": "order", "words": ["很好吃", "这家饭馆", "而且", "便宜", "不但"], "answer": "这家饭馆不但便宜，而且很好吃。", "vi": "Quán này không những rẻ mà còn rất ngon.", "explain": "Chủ ngữ + 不但 + A，而且 + B." },
+      { "type": "order", "words": ["而且", "北京", "不但", "我弟弟", "去过", "也去过", "我"], "answer": "我不但去过北京，而且我弟弟也去过。", "vi": "Không những tôi đã đến Bắc Kinh mà em trai tôi cũng đã đến.", "explain": "Khác chủ ngữ ở vế 2 thì 我弟弟 đứng sau 而且, thường kèm 也." }
+    ]
+  },
+  {
+    "id": "zh-hsk4-jishi-ye",
+    "level": "HSK4",
+    "title": "Dù cho… cũng…",
+    "title_native": "即使…也…",
+    "summary_vi": "Nhượng bộ giả định: cho dù (có xảy ra) điều gì thì kết quả vẫn không đổi.",
+    "formula": ["即使 + 假设情况，S + 也 + 结果", "S1 + 即使 + A，S2 + 也 + B"],
+    "explain_vi": "**即使…也…** nghĩa là 'dù cho… thì cũng…', 'kể cả khi… vẫn…'. Vế 即使 nêu một tình huống **giả định** (có thể chưa xảy ra, hoặc chỉ là tưởng tượng), vế sau với 也 cho biết kết quả **vẫn không thay đổi** bất kể tình huống đó.\n\nLuôn nhớ **也 là bắt buộc** ở vế sau, đứng trước động từ hoặc tính từ: 即使很累，我也要去. Không dùng 就, 才 hay 但是 ở vế sau.\n\nPhân biệt với **虽然…但是…** (HSK2): 虽然 thừa nhận một **sự thật đã có** rồi nêu điều trái ngược; 即使 lại giả định một tình huống. So sánh: 虽然下雨了，但是我们去了 (trời đã mưa thật) và 即使明天下雨，我们也去 (chưa mưa, chỉ giả sử).\n\nTiếng Việt dịch là 'dù cho / cho dù / kể cả khi… cũng…'. Trong khẩu ngữ, có thể nói 就算…也… với nghĩa tương tự. Vế 即使 có thể đứng sau chủ ngữ: 你即使不说，我也知道.",
+    "examples": [
+      { "t": "即使明天下雨，我们也要去爬山。", "py": "Jíshǐ míngtiān xià yǔ, wǒmen yě yào qù páshān.", "vi": "Dù mai trời mưa, chúng tôi cũng vẫn đi leo núi." },
+      { "t": "即使你不说，我也知道。", "py": "Jíshǐ nǐ bù shuō, wǒ yě zhīdào.", "vi": "Cho dù bạn không nói, tôi cũng biết." },
+      { "t": "即使工作很忙，他也每天锻炼身体。", "py": "Jíshǐ gōngzuò hěn máng, tā yě měitiān duànliàn shēntǐ.", "vi": "Dù công việc rất bận, anh ấy vẫn tập thể dục mỗi ngày." },
+      { "t": "即使很贵，我也要买这件衣服。", "py": "Jíshǐ hěn guì, wǒ yě yào mǎi zhè jiàn yīfu.", "vi": "Dù rất đắt, tôi cũng vẫn muốn mua chiếc áo này." },
+      { "t": "即使以后搬到别的城市，我们也会常常联系。", "py": "Jíshǐ yǐhòu bān dào bié de chéngshì, wǒmen yě huì chángcháng liánxì.", "vi": "Dù sau này chuyển đến thành phố khác, chúng ta cũng sẽ thường xuyên liên lạc." }
+    ],
+    "mistakes": [
+      { "wrong": "即使他不来，我们就开会。", "right": "即使他不来，我们也开会。", "note_vi": "Vế sau của 即使 phải dùng 也, không dùng 就." },
+      { "wrong": "即使下雨，但是我们去。", "right": "即使下雨，我们也去。", "note_vi": "Không thêm 但是; 即使 đã có sẵn ý nhượng bộ, vế sau dùng 也." },
+      { "wrong": "即使我很累，我都要完成工作。", "right": "即使我很累，我也要完成工作。", "note_vi": "都 đi với 无论/不管; với 即使 thì dùng 也." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "即使你不同意，我___会这样做。", "options": ["就", "才", "也", "只"], "answer": 2, "explain": "Vế sau của 即使 dùng 也." },
+      { "type": "mcq", "q": "___明天下大雨，我们也要去爬山。", "options": ["即使", "因为", "只有", "既然"], "answer": 0, "explain": "Giả định chưa xảy ra: 即使…也…" },
+      { "type": "mcq", "q": "即使很贵，我___想买。", "options": ["才", "就", "只", "也"], "answer": 3, "explain": "即使…也…" },
+      { "type": "mcq", "q": "___他不来，我们也会开会。", "options": ["只有", "即使", "因为", "所以"], "answer": 1, "explain": "Nghĩa 'dù anh ấy không đến' là 即使." },
+      { "type": "gap", "q": "即使很忙，他___每天锻炼身体。", "answer": ["也"], "explain": "Vế sau điền 也." },
+      { "type": "gap", "q": "___你不告诉我，我也能猜到。", "answer": ["即使", "就算"], "explain": "Mở vế giả định: 即使 (khẩu ngữ: 就算)." },
+      { "type": "order", "words": ["我们", "下雨", "要去", "即使", "明天", "也"], "answer": "即使明天下雨，我们也要去。", "vi": "Dù mai trời mưa, chúng tôi cũng sẽ đi.", "explain": "即使 + giả định，S + 也 + V." },
+      { "type": "order", "words": ["他也", "锻炼", "即使", "每天", "工作很忙"], "answer": "即使工作很忙，他也每天锻炼。", "vi": "Dù công việc bận, anh ấy vẫn tập mỗi ngày.", "explain": "也 đứng trước trạng ngữ 每天 và động từ." },
+      { "type": "order", "words": ["我也", "你不说", "知道", "即使"], "answer": "即使你不说，我也知道。", "vi": "Cho dù bạn không nói, tôi cũng biết.", "explain": "即使 + A，我也 + V." }
+    ]
+  },
+  {
+    "id": "zh-hsk4-wulun-dou",
+    "level": "HSK4",
+    "title": "Bất kể… đều…",
+    "title_native": "无论…都…",
+    "summary_vi": "Điều kiện không ảnh hưởng: dù thế nào, ai, bao nhiêu thì kết quả vẫn như nhau.",
+    "formula": ["无论 + 疑问词 / A 还是 B / V 不 V，S + 都/也 + 结果"],
+    "explain_vi": "**无论…都…** nghĩa là 'bất kể… đều…', 'dù… thì cũng…'. Nó nói rằng **dù điều kiện nào** (ai, cái gì, thế nào, bao nhiêu…) thì kết quả **không đổi**.\n\nSau 无论 **phải có yếu tố bất định**, thường là một trong ba dạng: (1) từ nghi vấn như 谁, 什么, 哪, 怎么, 多 + tính từ: 无论谁来; (2) cặp lựa chọn A还是B: 无论是大人还是孩子; (3) dạng khẳng định + phủ định: 无论去不去. Nếu chỉ nói 无论你去 thì câu sai vì thiếu yếu tố bất định.\n\nVế sau thường có **都** (hoặc 也) ngay trước động từ để gom 'tất cả các trường hợp': 无论多忙，她都会打电话.\n\n无论 mang sắc thái hơi trang trọng; trong khẩu ngữ người ta hay dùng 不管 (xem bài sau). Khác với 即使…也… (một tình huống giả định cụ thể), 无论 liệt kê **mọi tình huống** đều cho cùng một kết quả. Tiếng Việt: 'bất kể / dù là… đều…'.",
+    "examples": [
+      { "t": "无论天气怎么样，他都坚持跑步。", "py": "Wúlùn tiānqì zěnmeyàng, tā dōu jiānchí pǎobù.", "vi": "Bất kể thời tiết thế nào, anh ấy đều kiên trì chạy bộ." },
+      { "t": "无论谁来，我都欢迎。", "py": "Wúlùn shéi lái, wǒ dōu huānyíng.", "vi": "Bất kể ai đến, tôi đều chào đón." },
+      { "t": "无论多忙，她都会给妈妈打电话。", "py": "Wúlùn duō máng, tā dōu huì gěi māma dǎ diànhuà.", "vi": "Dù bận đến đâu, cô ấy cũng đều gọi điện cho mẹ." },
+      { "t": "无论你去不去，我都去。", "py": "Wúlùn nǐ qù bú qù, wǒ dōu qù.", "vi": "Dù bạn đi hay không, tôi đều đi." },
+      { "t": "无论是大人还是孩子，都喜欢这个游戏。", "py": "Wúlùn shì dàrén háishi háizi, dōu xǐhuan zhège yóuxì.", "vi": "Dù là người lớn hay trẻ con, đều thích trò chơi này." }
+    ],
+    "mistakes": [
+      { "wrong": "无论你去，我都去。", "right": "无论你去不去，我都去。", "note_vi": "Sau 无论 cần yếu tố bất định (nghi vấn từ / A还是B / V不V)." },
+      { "wrong": "无论多忙，她就会给妈妈打电话。", "right": "无论多忙，她都会给妈妈打电话。", "note_vi": "Vế sau dùng 都 (hoặc 也), không dùng 就." },
+      { "wrong": "无论谁来，但是我都欢迎。", "right": "无论谁来，我都欢迎。", "note_vi": "Không có 但是: đây không phải quan hệ đối lập." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "无论你说___，他都不听。", "options": ["吗", "什么", "的", "了"], "answer": 1, "explain": "Sau 无论 cần từ nghi vấn như 什么." },
+      { "type": "mcq", "q": "无论天气怎么样，他___每天跑步。", "options": ["才", "就", "都", "要"], "answer": 2, "explain": "无论…都…" },
+      { "type": "mcq", "q": "___谁来，我都欢迎。", "options": ["无论", "因为", "只有", "即使"], "answer": 0, "explain": "谁 là từ nghi vấn, cần 无论 đứng trước." },
+      { "type": "mcq", "q": "无论你去___去，我都去。", "options": ["吗", "没", "别", "不"], "answer": 3, "explain": "Dạng V不V: 去不去." },
+      { "type": "gap", "q": "无论多忙，她___会给妈妈打电话。", "answer": ["都", "也"], "explain": "Vế sau điền 都/也." },
+      { "type": "gap", "q": "无论是大人___孩子，都喜欢这个游戏。", "answer": ["还是"], "explain": "无论是A还是B." },
+      { "type": "order", "words": ["给妈妈", "她都会", "无论", "打电话", "多忙"], "answer": "无论多忙，她都会给妈妈打电话。", "vi": "Dù bận đến mấy, cô ấy cũng gọi điện cho mẹ.", "explain": "无论 + 多忙，S + 都 + 动词短语." },
+      { "type": "order", "words": ["我都", "欢迎", "无论", "谁来"], "answer": "无论谁来，我都欢迎。", "vi": "Bất kể ai đến, tôi đều chào đón.", "explain": "无论 + 谁来，我都 + V." },
+      { "type": "order", "words": ["我都去", "无论", "你去不去"], "answer": "无论你去不去，我都去。", "vi": "Dù bạn đi hay không, tôi đều đi.", "explain": "Dạng V不V đi sau 无论." }
+    ]
+  },
+  {
+    "id": "zh-hsk4-jiran-jiu",
+    "level": "HSK4",
+    "title": "Đã… thì…",
+    "title_native": "既然…就…",
+    "summary_vi": "Dựa vào một sự thật đã biết/đã xảy ra để đưa ra kết luận, đề nghị hay câu hỏi.",
+    "formula": ["既然 + 已知事实，(S) + 就 + 建议/结论"],
+    "explain_vi": "**既然…就…** nghĩa là 'đã… thì…', 'nếu đã… thì…'. Vế 既然 nêu một **sự thật đã xảy ra hoặc người nghe đã biết**, vế sau (thường có 就) đưa ra **kết luận, lời khuyên, đề nghị** hoặc câu hỏi dựa trên sự thật đó.\n\nĐiểm khác biệt quan trọng so với **如果…就…**: 如果 là giả định (chưa chắc có thật), còn 既然 là điều **đã chắc chắn**. Nói 既然你累了，就休息吧 nghĩa là bạn đã mệt thật rồi; còn 如果你累了 chỉ là 'nếu bạn mệt'.\n\nKhác với **因为…所以…**: 因为…所以 nói nguyên nhân – kết quả khách quan; 既然 thiên về **suy luận** 'vì đã vậy nên (nên làm gì)', vế sau thường là lời đề nghị, quyết định, câu hỏi như 为什么不…?, 就别…, 就要….\n\nTiếng Việt: 'đã… thì…', 'một khi đã… thì…'. Vế sau thường có **就** (hoặc 那就, 就要). Lưu ý vế sau ít khi là câu trần thuật về sự thật khách quan; hãy dùng nó cho đề nghị và kết luận.",
+    "examples": [
+      { "t": "既然你累了，就早点儿休息吧。", "py": "Jìrán nǐ lèi le, jiù zǎodiǎnr xiūxi ba.", "vi": "Đã mệt rồi thì nghỉ sớm đi." },
+      { "t": "既然大家都同意，我们就这样决定吧。", "py": "Jìrán dàjiā dōu tóngyì, wǒmen jiù zhèyàng juédìng ba.", "vi": "Đã mọi người đều đồng ý thì chúng ta quyết định như vậy nhé." },
+      { "t": "既然你不喜欢，就别去了。", "py": "Jìrán nǐ bù xǐhuan, jiù bié qù le.", "vi": "Đã không thích thì đừng đi nữa." },
+      { "t": "既然已经来了，就多玩几天吧。", "py": "Jìrán yǐjīng lái le, jiù duō wán jǐ tiān ba.", "vi": "Đã đến rồi thì chơi thêm vài ngày nhé." },
+      { "t": "既然你答应了她，就一定要做到。", "py": "Jìrán nǐ dāyìng le tā, jiù yídìng yào zuòdào.", "vi": "Đã hứa với cô ấy thì nhất định phải làm được." }
+    ],
+    "mistakes": [
+      { "wrong": "既然明天下雨，我们就不去了。", "right": "如果明天下雨，我们就不去了。", "note_vi": "Chuyện chưa xảy ra/chưa chắc chắn phải dùng 如果, không dùng 既然." },
+      { "wrong": "既然你累了，但是你还要工作。", "right": "既然你累了，就别工作了。", "note_vi": "既然 dẫn tới kết luận thuận theo sự thật, không phải ý đối lập." },
+      { "wrong": "既然你累了，休息吧。", "right": "既然你累了，就休息吧。", "note_vi": "Vế sau nên có 就 để nối mạch suy luận." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "你___已经来了，就多玩几天吧。", "options": ["即使", "只有", "既然", "不但"], "answer": 2, "explain": "Sự việc đã xảy ra (đã đến) nên dùng 既然." },
+      { "type": "mcq", "q": "既然大家都同意，我们___这样决定吧。", "options": ["才", "就", "却", "还"], "answer": 1, "explain": "既然…就…" },
+      { "type": "mcq", "q": "___你不喜欢这份工作，就换一个吧。", "options": ["既然", "即使", "只有", "不管"], "answer": 0, "explain": "Đã không thích thì đổi: 既然." },
+      { "type": "mcq", "q": "___你这么喜欢，就买下来吧。", "options": ["即使", "因为", "虽然", "既然"], "answer": 3, "explain": "Đã thích như vậy thì mua: 既然…就…" },
+      { "type": "gap", "q": "既然你累了，___早点儿睡吧。", "answer": ["就"], "explain": "Vế sau điền 就." },
+      { "type": "gap", "q": "___大家都同意，我们就这样决定吧。", "answer": ["既然"], "explain": "Vế đầu điền 既然." },
+      { "type": "order", "words": ["就", "休息吧", "既然", "早点儿", "你累了"], "answer": "既然你累了，就早点儿休息吧。", "vi": "Đã mệt rồi thì nghỉ sớm đi.", "explain": "既然 + 事实，就 + 建议." },
+      { "type": "order", "words": ["多玩", "几天吧", "既然", "就", "已经来了"], "answer": "既然已经来了，就多玩几天吧。", "vi": "Đã đến rồi thì chơi thêm vài ngày nhé.", "explain": "既然 + 已经来了，就 + 多玩几天吧." },
+      { "type": "order", "words": ["一定", "就", "你", "既然", "答应了她", "要做到"], "answer": "既然你答应了她，就一定要做到。", "vi": "Đã hứa với cô ấy thì nhất định phải làm được.", "explain": "既然 + 你答应了她，就 + 一定要做到." }
+    ]
+  },
+  {
+    "id": "zh-hsk4-lian-dou",
+    "level": "HSK4",
+    "title": "Ngay cả… cũng…",
+    "title_native": "连…都/也…",
+    "summary_vi": "Nhấn mạnh một trường hợp cực đoan: ngay cả điều đó mà còn như vậy thì những cái khác càng thế.",
+    "formula": ["S + 连 + N/số lượng + 都/也 + V", "连 + N + 都/也 + 不/没 + V"],
+    "explain_vi": "**连…都/也…** nghĩa là 'ngay cả… cũng…', 'đến… cũng…'. Cấu trúc này lấy một trường hợp **cực đoan, đáng ngạc nhiên** để nhấn mạnh: nếu ngay cả điều đó còn như vậy thì những điều khác hiển nhiên càng thế.\n\nHình thức chung: **连 + thành phần được nhấn mạnh + 都/也 + vị ngữ**. Thành phần sau 连 có thể là chủ ngữ (连孩子都知道), tân ngữ (他连自己的名字都不会写), số lượng nhỏ nhất (连一口水都没喝, 连一个字也不认识). 都 hoặc 也 **bắt buộc** đứng ngay trước động từ/phủ định.\n\nVí dụ tân ngữ: bình thường nói 他不会写名字; muốn nhấn mạnh thì đưa tân ngữ lên trước động từ với 连: 他连名字都不会写. Rất hay gặp dạng **phủ định** (连…都不/没…) để diễn tả mức độ cực đoan, nhưng khẳng định vẫn dùng được: 他连饭都忘了吃 hay 连老师都来了.\n\nTiếng Việt tương đương: 'đến cả… cũng…', 'thậm chí… còn…'. Lưu ý: đừng bỏ 都/也 sau thành phần 连, và đừng đặt 连 sau động từ.",
+    "examples": [
+      { "t": "他连自己的名字都不会写。", "py": "Tā lián zìjǐ de míngzi dōu bú huì xiě.", "vi": "Anh ấy đến tên mình cũng không biết viết." },
+      { "t": "我太忙了，连吃饭的时间都没有。", "py": "Wǒ tài máng le, lián chī fàn de shíjiān dōu méiyǒu.", "vi": "Tôi bận quá, đến thời gian ăn cơm cũng không có." },
+      { "t": "这个问题很简单，连孩子都知道。", "py": "Zhège wèntí hěn jiǎndān, lián háizi dōu zhīdào.", "vi": "Vấn đề này rất đơn giản, đến trẻ con cũng biết." },
+      { "t": "他累得连一句话也不想说。", "py": "Tā lèi de lián yí jù huà yě bù xiǎng shuō.", "vi": "Anh ấy mệt đến mức một câu cũng không muốn nói." },
+      { "t": "她连一口水都没喝，就出门了。", "py": "Tā lián yì kǒu shuǐ dōu méi hē, jiù chūmén le.", "vi": "Cô ấy đến một ngụm nước cũng chưa uống đã ra khỏi nhà." }
+    ],
+    "mistakes": [
+      { "wrong": "他连汉字不会写。", "right": "他连汉字都不会写。", "note_vi": "Sau thành phần 连 bắt buộc có 都 hoặc 也." },
+      { "wrong": "他连都不知道这件事。", "right": "他连这件事都不知道。", "note_vi": "Phải có thành phần được nhấn mạnh nằm giữa 连 và 都." },
+      { "wrong": "连一个人没来。", "right": "连一个人都没来。", "note_vi": "Dạng 连一…都/也 + phủ định, đừng quên 都/也." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "他连自己的名字___不会写。", "options": ["就", "才", "都", "要"], "answer": 2, "explain": "连…都 + phủ định." },
+      { "type": "mcq", "q": "这个问题很简单，___孩子都知道。", "options": ["连", "把", "被", "对"], "answer": 0, "explain": "连孩子都知道: đến trẻ con cũng biết." },
+      { "type": "mcq", "q": "我太忙了，连吃饭的时间___没有。", "options": ["才", "也", "就", "再"], "answer": 1, "explain": "连…也/都 + 没有." },
+      { "type": "mcq", "q": "他累得___一句话也不想说。", "options": ["但", "又", "却", "连"], "answer": 3, "explain": "连一句话也…: nhấn mạnh mức tối thiểu." },
+      { "type": "gap", "q": "她连一口水___没喝，就出门了。", "answer": ["都", "也"], "explain": "Điền 都/也." },
+      { "type": "gap", "q": "这么简单的字，___小孩子都认识。", "answer": ["连"], "explain": "连 + chủ ngữ + 都." },
+      { "type": "order", "words": ["不会写", "他", "名字", "都", "连", "自己的"], "answer": "他连自己的名字都不会写。", "vi": "Anh ấy đến tên mình cũng không biết viết.", "explain": "S + 连 + tân ngữ + 都 + V." },
+      { "type": "order", "words": ["都没有", "我", "吃饭的", "连", "时间"], "answer": "我连吃饭的时间都没有。", "vi": "Tôi đến thời gian ăn cơm cũng không có.", "explain": "我 + 连 + 吃饭的时间 + 都没有." },
+      { "type": "order", "words": ["也不知道", "这件事", "老师", "连"], "answer": "这件事连老师也不知道。", "vi": "Chuyện này đến thầy giáo cũng không biết.", "explain": "Tân ngữ làm chủ đề đứng đầu, 连老师也不知道." }
+    ]
+  },
+  {
+    "id": "zh-hsk4-zhiyou-cai",
+    "level": "HSK4",
+    "title": "Chỉ có… mới…",
+    "title_native": "只有…才…",
+    "summary_vi": "Điều kiện duy nhất và cần thiết: chỉ khi có điều kiện này thì kết quả mới xảy ra.",
+    "formula": ["只有 + 条件，才 + 结果", "S + 只有 + A，才 + B"],
+    "explain_vi": "**只有…才…** nghĩa là 'chỉ có… mới…'. Vế 只有 nêu **điều kiện duy nhất, không thể thiếu**; vế sau với 才 cho biết kết quả chỉ xuất hiện khi điều kiện đó được đáp ứng.\n\nHãy so sánh với **只要…就…** (HSK3, 'chỉ cần… là…'): 只要 nêu điều kiện **đủ** (có điều kiện này là đủ, dễ đạt), còn 只有 nêu điều kiện **cần** (thiếu là không được). Ví dụ: 只要努力，就能成功 (chỉ cần cố gắng là thành công) và 只有努力，才能成功 (chỉ có cố gắng mới thành công; không cố gắng thì không).\n\n**才** bắt buộc ở vế sau và đứng trước động từ/trợ động từ: 才能, 才会, 才可以. Đừng dùng 就 với 只有. Vị trí của 只有: nếu điều kiện là một cụm giới từ hoặc chủ ngữ, 只有 đứng ngay trước đó (只有你去, 只有在这儿).\n\nTiếng Việt: 'chỉ có… mới…', 'phải… mới…'. Trong tiếng Trung, ý 'phải… mới…' thường được thể hiện đúng bằng cặp này.",
+    "examples": [
+      { "t": "只有多练习，才能说好汉语。", "py": "Zhǐyǒu duō liànxí, cái néng shuōhǎo Hànyǔ.", "vi": "Chỉ có luyện tập nhiều mới nói giỏi tiếng Trung." },
+      { "t": "只有你去，他才会同意。", "py": "Zhǐyǒu nǐ qù, tā cái huì tóngyì.", "vi": "Chỉ có bạn đi thì anh ấy mới đồng ý." },
+      { "t": "只有认真复习，才能考出好成绩。", "py": "Zhǐyǒu rènzhēn fùxí, cái néng kǎo chū hǎo chéngjì.", "vi": "Chỉ có ôn tập nghiêm túc mới thi được điểm cao." },
+      { "t": "只有坚持锻炼，身体才会健康。", "py": "Zhǐyǒu jiānchí duànliàn, shēntǐ cái huì jiànkāng.", "vi": "Chỉ có kiên trì tập thể dục thì cơ thể mới khỏe mạnh." },
+      { "t": "只有在这家店，才能买到这种茶。", "py": "Zhǐyǒu zài zhè jiā diàn, cái néng mǎi dào zhè zhǒng chá.", "vi": "Chỉ có ở cửa hàng này mới mua được loại trà này." }
+    ],
+    "mistakes": [
+      { "wrong": "只有努力学习，就能考好。", "right": "只有努力学习，才能考好。", "note_vi": "只有 đi với 才; 就 đi với 只要." },
+      { "wrong": "只有你去，他会同意。", "right": "只有你去，他才会同意。", "note_vi": "Thiếu 才 ở vế sau." },
+      { "wrong": "只有你去，所以他同意。", "right": "只有你去，他才会同意。", "note_vi": "Đây là quan hệ điều kiện, không phải nguyên nhân–kết quả (所以)." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "只有多练习，___能说好汉语。", "options": ["就", "才", "都", "也"], "answer": 1, "explain": "只有…才…" },
+      { "type": "mcq", "q": "___你去，他才会同意。", "options": ["只有", "只要", "如果", "因为"], "answer": 0, "explain": "Đi với 才 là 只有." },
+      { "type": "mcq", "q": "只要你同意，我就去；只有你同意，我___去。", "options": ["就", "也", "才", "都"], "answer": 2, "explain": "只有 đi với 才 (điều kiện cần)." },
+      { "type": "mcq", "q": "这种药只有医院___能买到。", "options": ["就", "也", "又", "才"], "answer": 3, "explain": "只有医院才能买到." },
+      { "type": "gap", "q": "只有坚持锻炼，身体___会健康。", "answer": ["才"], "explain": "Vế sau điền 才." },
+      { "type": "gap", "q": "___认真复习，才能考出好成绩。", "answer": ["只有"], "explain": "Vế đầu điền 只有." },
+      { "type": "order", "words": ["才能", "汉语", "只有", "说好", "多练习"], "answer": "只有多练习，才能说好汉语。", "vi": "Chỉ có luyện tập nhiều mới nói giỏi tiếng Trung.", "explain": "只有 + 条件，才能 + V." },
+      { "type": "order", "words": ["他", "同意", "你去", "才会", "只有"], "answer": "只有你去，他才会同意。", "vi": "Chỉ có bạn đi thì anh ấy mới đồng ý.", "explain": "他 + 才会 + 同意." },
+      { "type": "order", "words": ["买到", "这种茶", "在这家店", "只有", "才能"], "answer": "只有在这家店，才能买到这种茶。", "vi": "Chỉ có ở cửa hàng này mới mua được loại trà này.", "explain": "只有 + 在这家店，才能 + 买到." }
+    ]
+  },
+  {
+    "id": "zh-hsk4-youyu",
+    "level": "HSK4",
+    "title": "Do, bởi vì (văn viết)",
+    "title_native": "由于",
+    "summary_vi": "Liên từ/giới từ chỉ nguyên nhân, trang trọng hơn 因为.",
+    "formula": ["由于 + 原因，(所以/因此) + 结果", "由于 + 名词短语，……"],
+    "explain_vi": "**由于** nghĩa là 'do', 'bởi vì', 'vì', chỉ nguyên nhân. Nó gần nghĩa với 因为 nhưng mang sắc thái **trang trọng, văn viết** (thông báo, báo chí, văn bản, bài phát biểu).\n\nCó thể dùng 由于 với cả **mệnh đề** (由于天气不好, 我们没去) lẫn **danh từ** (由于堵车, 由于身体原因). Vế sau có thể có 所以 hoặc 因此, nhưng cũng có thể bỏ: 由于堵车，他迟到了.\n\nPhân biệt với 因为: (1) 由于 thường đứng **đầu câu**; hiếm khi đặt sau kết quả (我很高兴，因为通过了考试 — dùng 因为). (2) **Không** dùng 由于 để trả lời trực tiếp câu hỏi 为什么: 你为什么迟到？ — 因为堵车 (tự nhiên), 由于堵车 hơi cứng. (3) 由于 có thể dẫn danh từ trừu tượng như 由于他的努力, 由于这个原因.\n\nVế sau chỉ **kết quả** tự nhiên, không phải ý đối lập, nên không dùng 但是/可是. Tiếng Việt: 'do…, nên…', 'vì…'. Gặp nhiều trong bài đọc HSK4.",
+    "examples": [
+      { "t": "由于天气不好，我们没有去爬山。", "py": "Yóuyú tiānqì bù hǎo, wǒmen méiyǒu qù páshān.", "vi": "Do thời tiết xấu, chúng tôi đã không đi leo núi." },
+      { "t": "由于堵车，他迟到了二十分钟。", "py": "Yóuyú dǔchē, tā chídào le èrshí fēnzhōng.", "vi": "Do tắc đường, anh ấy đến muộn hai mươi phút." },
+      { "t": "由于工作忙，我很少回家。", "py": "Yóuyú gōngzuò máng, wǒ hěn shǎo huí jiā.", "vi": "Do công việc bận, tôi ít khi về nhà." },
+      { "t": "由于他的努力，公司的生意越来越好。", "py": "Yóuyú tā de nǔlì, gōngsī de shēngyi yuè lái yuè hǎo.", "vi": "Nhờ sự cố gắng của anh ấy, việc kinh doanh của công ty ngày càng tốt." },
+      { "t": "由于身体原因，她不能参加这次会议。", "py": "Yóuyú shēntǐ yuányīn, tā bù néng cānjiā zhè cì huìyì.", "vi": "Vì lý do sức khỏe, cô ấy không thể tham dự cuộc họp lần này." }
+    ],
+    "mistakes": [
+      { "wrong": "我很高兴，由于我通过了考试。", "right": "我很高兴，因为我通过了考试。", "note_vi": "由于 thường đứng đầu câu; đặt sau kết quả thì dùng 因为." },
+      { "wrong": "由于很忙，但是我还是去了。", "right": "由于很忙，我没有去。", "note_vi": "由于 dẫn tới kết quả tự nhiên, không dùng 但是 (đối lập)." },
+      { "wrong": "你为什么迟到？——由于堵车。", "right": "你为什么迟到？——因为堵车。", "note_vi": "Trả lời trực tiếp câu hỏi 为什么 thì dùng 因为." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "___堵车，他迟到了二十分钟。", "options": ["虽然", "由于", "即使", "只有"], "answer": 1, "explain": "Nguyên nhân (tắc đường) dùng 由于." },
+      { "type": "mcq", "q": "由于天气不好，我们___没有去爬山。", "options": ["但是", "才", "却", "所以"], "answer": 3, "explain": "由于…所以… là cặp được phép." },
+      { "type": "mcq", "q": "A：你为什么迟到？ B：___堵车。", "options": ["由于", "所以", "因为", "虽然"], "answer": 2, "explain": "Trả lời trực tiếp câu hỏi 为什么, dùng 因为." },
+      { "type": "mcq", "q": "___工作太忙，他很少回家。", "options": ["由于", "如果", "即使", "只要"], "answer": 0, "explain": "Chỉ nguyên nhân: 由于." },
+      { "type": "gap", "q": "___他的努力，公司的生意越来越好。", "answer": ["由于"], "explain": "Nguyên nhân + danh từ: 由于." },
+      { "type": "gap", "q": "由于天气不好，我们___去爬山。", "answer": ["没有", "没"], "explain": "Kết quả phủ định: 没(有)." },
+      { "type": "order", "words": ["他", "迟到了", "由于", "二十分钟", "堵车"], "answer": "由于堵车，他迟到了二十分钟。", "vi": "Do tắc đường, anh ấy đến muộn hai mươi phút.", "explain": "由于 + nguyên nhân，S + kết quả." },
+      { "type": "order", "words": ["很少", "回家", "由于", "我", "工作忙"], "answer": "由于工作忙，我很少回家。", "vi": "Do công việc bận, tôi ít khi về nhà.", "explain": "由于工作忙 là vế nguyên nhân." },
+      { "type": "order", "words": ["不能", "这次", "她", "由于", "参加", "会议", "身体原因"], "answer": "由于身体原因，她不能参加这次会议。", "vi": "Vì lý do sức khỏe, cô ấy không thể tham dự cuộc họp lần này.", "explain": "由于 + danh từ chỉ nguyên nhân, rồi mới đến chủ ngữ." }
+    ]
+  },
+  {
+    "id": "zh-hsk4-yi-wei",
+    "level": "HSK4",
+    "title": "Lấy… làm…",
+    "title_native": "以…为…",
+    "summary_vi": "Lấy A làm B (làm mục tiêu, trung tâm, chủ yếu, ví dụ…).",
+    "formula": ["以 + A + 为 + B", "以…为主 / 以…为中心 / 以…为目标 / 以…为例"],
+    "explain_vi": "**以 A 为 B** nghĩa là 'lấy A làm B', 'coi A là B'. Đây là cấu trúc văn viết, rất hay gặp trong bài đọc, tin tức và khẩu hiệu. A là thứ được chọn, B là vai trò của nó.\n\nChữ **为** ở đây đọc là **wéi** (thanh 2), nghĩa 'làm, là', không phải wèi (vì). Các cụm cố định thường dùng: **以…为主** (lấy… là chính: 我的早饭以面包为主), **以…为中心** (lấy… làm trung tâm), **以…为目标 / 以…为目的** (lấy… làm mục tiêu/mục đích), **以…为理想**, **以…为例** (lấy… làm ví dụ), **以…为荣** (coi… là vinh dự).\n\nVề trật tự, 以 A 为 B có thể đứng ở đầu câu hoặc sau chủ ngữ: 我们公司以客人为中心; 以这件事为例, 我们可以看到…. Đừng thay 为 bằng 是 và đừng bỏ 为.\n\nTiếng Việt có thể dịch 'lấy… làm…', 'xem… là…', 'coi… là…'. Cấu trúc này cũng khá gần với 把 A 当作 B nhưng trang trọng hơn và có nhiều cụm cố định.",
+    "examples": [
+      { "t": "他以第一名为目标，每天学习到很晚。", "py": "Tā yǐ dì-yī míng wéi mùbiāo, měitiān xuéxí dào hěn wǎn.", "vi": "Anh ấy lấy vị trí số một làm mục tiêu, ngày nào cũng học đến rất khuya." },
+      { "t": "我们公司以客人为中心。", "py": "Wǒmen gōngsī yǐ kèrén wéi zhōngxīn.", "vi": "Công ty chúng tôi lấy khách hàng làm trung tâm." },
+      { "t": "我的早饭以面包为主。", "py": "Wǒ de zǎofàn yǐ miànbāo wéi zhǔ.", "vi": "Bữa sáng của tôi chủ yếu là bánh mì." },
+      { "t": "他以当医生为理想。", "py": "Tā yǐ dāng yīshēng wéi lǐxiǎng.", "vi": "Anh ấy lấy việc làm bác sĩ làm lý tưởng." },
+      { "t": "这次旅游以放松为目的，不用安排得太满。", "py": "Zhè cì lǚyóu yǐ fàngsōng wéi mùdì, bú yòng ānpái de tài mǎn.", "vi": "Chuyến du lịch này mục đích là thư giãn, không cần sắp xếp quá kín." }
+    ],
+    "mistakes": [
+      { "wrong": "他以第一名是目标。", "right": "他以第一名为目标。", "note_vi": "Phải dùng 为 (wéi), không dùng 是." },
+      { "wrong": "我的早饭以面包主。", "right": "我的早饭以面包为主。", "note_vi": "Không được bỏ 为 trong 以…为主." },
+      { "wrong": "我们以他学习。", "right": "我们以他为榜样，向他学习。", "note_vi": "以 A 为 B cần có B; 'lấy anh ấy làm gương' phải nói đầy đủ." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "他以第一名___目标，每天学习到很晚。", "options": ["是", "有", "为", "给"], "answer": 2, "explain": "以…为目标 (wéi)." },
+      { "type": "mcq", "q": "我的早饭以面包为___。", "options": ["主", "要", "对", "大"], "answer": 0, "explain": "以…为主: chủ yếu là…" },
+      { "type": "mcq", "q": "我们公司以客人___中心。", "options": ["把", "为", "被", "对"], "answer": 1, "explain": "以…为中心." },
+      { "type": "mcq", "q": "这次旅游___放松为目的，不用安排得太满。", "options": ["把", "对", "向", "以"], "answer": 3, "explain": "Mở đầu cấu trúc bằng 以." },
+      { "type": "gap", "q": "他以当医生___理想。", "answer": ["为"], "explain": "以…为理想." },
+      { "type": "gap", "q": "我们公司___客人为中心。", "answer": ["以"], "explain": "以…为中心." },
+      { "type": "order", "words": ["第一名", "他", "目标", "为", "以"], "answer": "他以第一名为目标。", "vi": "Anh ấy lấy vị trí số một làm mục tiêu.", "explain": "S + 以 A 为 B." },
+      { "type": "order", "words": ["我的早饭", "为主", "面包", "以"], "answer": "我的早饭以面包为主。", "vi": "Bữa sáng của tôi chủ yếu là bánh mì.", "explain": "以 + 面包 + 为主." },
+      { "type": "order", "words": ["目的", "以", "这次旅游", "放松", "为"], "answer": "这次旅游以放松为目的。", "vi": "Chuyến du lịch này lấy thư giãn làm mục đích.", "explain": "以放松为目的." }
+    ]
+  },
+  {
+    "id": "zh-hsk4-buguan-dou",
+    "level": "HSK4",
+    "title": "Bất kể… đều… (khẩu ngữ)",
+    "title_native": "不管…都…",
+    "summary_vi": "Giống 无论…都… nhưng dùng nhiều trong khẩu ngữ: dù thế nào kết quả cũng không đổi.",
+    "formula": ["不管 + 疑问词 / A还是B / V不V，S + 都/也 + 结果"],
+    "explain_vi": "**不管…都…** có nghĩa và cách dùng gần như **无论…都…**: 'bất kể… đều…', 'dù… cũng…'. Khác biệt chính là sắc thái: **不管 thiên về khẩu ngữ**, 无论 trang trọng hơn, hay xuất hiện trong văn viết.\n\nQuy tắc giống nhau: sau 不管 phải có **yếu tố bất định**: (1) từ nghi vấn 谁/什么/怎么/多 + tính từ (不管多晚); (2) 是A还是B (不管是大人还是孩子); (3) V不V (不管喜欢不喜欢). Vế sau dùng **都** hoặc **也** ngay trước vị ngữ.\n\nMột điểm khác: sau 不管 người ta có thể đặt trực tiếp một câu có 是 + từ nghi vấn (不管是谁), còn sau 无论 thì thường là 无论是谁. Cả hai đều không đi với 但是/可是 vì không có ý đối lập.\n\nPhân biệt với 即使…也… (HSK4, một giả định cụ thể) và 尽管…还是… (thừa nhận một sự thật). 不管/无论 bao quát **mọi trường hợp**. Tiếng Việt: 'bất kể / mặc kệ / dù… thế nào cũng…'. Trong bài thi, hãy nhớ cả hai từ có thể thay cho nhau.",
+    "examples": [
+      { "t": "不管多晚，她都会等你。", "py": "Bùguǎn duō wǎn, tā dōu huì děng nǐ.", "vi": "Dù muộn đến mấy, cô ấy cũng đợi bạn." },
+      { "t": "不管你喜欢不喜欢，都要吃一点儿。", "py": "Bùguǎn nǐ xǐhuan bù xǐhuan, dōu yào chī yìdiǎnr.", "vi": "Dù bạn có thích hay không cũng phải ăn một chút." },
+      { "t": "不管是谁，都不能进这个房间。", "py": "Bùguǎn shì shéi, dōu bù néng jìn zhège fángjiān.", "vi": "Bất kể là ai cũng không được vào căn phòng này." },
+      { "t": "不管遇到什么困难，我们都不会放弃。", "py": "Bùguǎn yùdào shénme kùnnan, wǒmen dōu bú huì fàngqì.", "vi": "Dù gặp khó khăn gì chúng tôi cũng sẽ không bỏ cuộc." },
+      { "t": "不管贵不贵，我都想买。", "py": "Bùguǎn guì bu guì, wǒ dōu xiǎng mǎi.", "vi": "Dù đắt hay không, tôi cũng muốn mua." }
+    ],
+    "mistakes": [
+      { "wrong": "不管他来，我都去。", "right": "不管他来不来，我都去。", "note_vi": "Sau 不管 cần yếu tố bất định (来不来)." },
+      { "wrong": "不管多晚，但是她会等你。", "right": "不管多晚，她都会等你。", "note_vi": "Không dùng 但是; dùng 都/也." },
+      { "wrong": "不管遇到什么困难，我们就不会放弃。", "right": "不管遇到什么困难，我们都不会放弃。", "note_vi": "Vế sau dùng 都/也, không dùng 就." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "不管多晚，她___会等你。", "options": ["才", "就", "都", "要"], "answer": 2, "explain": "不管…都…" },
+      { "type": "mcq", "q": "___是谁，都不能进这个房间。", "options": ["不管", "因为", "只有", "如果"], "answer": 0, "explain": "不管是谁: bất kể là ai." },
+      { "type": "mcq", "q": "不管你喜欢___喜欢，都要吃一点儿。", "options": ["吗", "不", "没", "别"], "answer": 1, "explain": "Dạng V不V." },
+      { "type": "mcq", "q": "不管明天下雨___晴天，我们都去。", "options": ["而且", "所以", "因为", "还是"], "answer": 3, "explain": "A还是B: 下雨还是晴天." },
+      { "type": "gap", "q": "不管遇到什么困难，我们___不会放弃。", "answer": ["都", "也"], "explain": "Vế sau điền 都/也." },
+      { "type": "gap", "q": "___你喜欢不喜欢，都要吃一点儿。", "answer": ["不管", "无论"], "explain": "Mở vế đầu: 不管/无论." },
+      { "type": "order", "words": ["她都会", "多晚", "不管", "等你"], "answer": "不管多晚，她都会等你。", "vi": "Dù muộn đến mấy, cô ấy cũng đợi bạn.", "explain": "不管 + 多晚，S + 都会 + V." },
+      { "type": "order", "words": ["这个房间", "是谁", "不能进", "不管", "都"], "answer": "不管是谁，都不能进这个房间。", "vi": "Bất kể là ai cũng không được vào căn phòng này.", "explain": "不管 + 是谁，都 + 不能 + V." },
+      { "type": "order", "words": ["不会放弃", "什么", "我们都", "不管", "困难", "遇到"], "answer": "不管遇到什么困难，我们都不会放弃。", "vi": "Dù gặp khó khăn gì chúng tôi cũng không bỏ cuộc.", "explain": "什么 là từ nghi vấn bất định: 不管 + V + 什么 + N，都…" }
+    ]
+  },
+  {
+    "id": "zh-hsk4-jinguan-haishi",
+    "level": "HSK4",
+    "title": "Mặc dù… vẫn…",
+    "title_native": "尽管…还是…",
+    "summary_vi": "Thừa nhận một sự thật rồi nêu kết quả trái ngược: mặc dù vậy vẫn…",
+    "formula": ["尽管 + 事实，(可是/但是) S + 还是/仍然/却 + 结果"],
+    "explain_vi": "**尽管…还是…** nghĩa là 'mặc dù… nhưng vẫn…'. 尽管 thừa nhận một **sự thật đã có** (thường là trở ngại, khó khăn), vế sau nói kết quả **vẫn không đổi / trái với dự đoán**, thường dùng 还是, 仍然, 却, 但是/可是.\n\nSo với **虽然…但是…** (HSK2), 尽管 mạnh hơn và văn viết hơn, nhấn vào chuyện 'dù thấy rõ điều đó vẫn…'. Khác với 即使…也… ở chỗ: 尽管 dẫn **sự thật** (下着大雨 — mưa thật rồi), còn 即使 dẫn **giả định** (明天下雨 — chưa chắc). Nếu việc đã xảy ra, hãy dùng 尽管; chưa xảy ra thì dùng 即使.\n\nVế sau thường đi với **还是 / 仍然 / 依然 / 却**: 他还是做了决定. Có thể thêm 但是/可是 để rõ nghĩa đối lập: 尽管很年轻，但是经验很多. Vế sau **không** dùng 所以 vì đây là quan hệ nhượng bộ.\n\nTiếng Việt: 'mặc dù… nhưng vẫn…', 'dù đã… vẫn…'. Lưu ý 尽管 còn có nghĩa khác 'cứ, đừng ngại' (尽管说) nhưng ở bài này ta chỉ học nghĩa nhượng bộ.",
+    "examples": [
+      { "t": "尽管很累，他还是坚持完成了工作。", "py": "Jǐnguǎn hěn lèi, tā háishi jiānchí wánchéng le gōngzuò.", "vi": "Mặc dù rất mệt, anh ấy vẫn kiên trì hoàn thành công việc." },
+      { "t": "尽管下着大雨，比赛还是开始了。", "py": "Jǐnguǎn xià zhe dàyǔ, bǐsài háishi kāishǐ le.", "vi": "Mặc dù trời đang mưa to, trận đấu vẫn bắt đầu." },
+      { "t": "尽管大家都反对，他还是做了这个决定。", "py": "Jǐnguǎn dàjiā dōu fǎnduì, tā háishi zuò le zhège juédìng.", "vi": "Mặc dù mọi người đều phản đối, anh ấy vẫn đưa ra quyết định này." },
+      { "t": "尽管她很年轻，但是工作经验很多。", "py": "Jǐnguǎn tā hěn niánqīng, dànshì gōngzuò jīngyàn hěn duō.", "vi": "Mặc dù cô ấy còn trẻ, nhưng kinh nghiệm làm việc rất nhiều." },
+      { "t": "尽管已经十二点了，他还是没睡觉。", "py": "Jǐnguǎn yǐjīng shí'èr diǎn le, tā háishi méi shuìjiào.", "vi": "Mặc dù đã mười hai giờ rồi, anh ấy vẫn chưa ngủ." }
+    ],
+    "mistakes": [
+      { "wrong": "尽管明天下雨，我们还是去。", "right": "即使明天下雨，我们也去。", "note_vi": "Việc chưa xảy ra (giả định) dùng 即使…也…; 尽管 dành cho sự thật đã có." },
+      { "wrong": "尽管很累，所以他还是工作。", "right": "尽管很累，他还是工作。", "note_vi": "Không dùng 所以 trong quan hệ nhượng bộ." },
+      { "wrong": "尽管他很忙，就来了。", "right": "尽管他很忙，还是来了。", "note_vi": "Vế sau dùng 还是/仍然/却, không dùng 就." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "___很累，他还是坚持完成了工作。", "options": ["因为", "尽管", "只有", "如果"], "answer": 1, "explain": "Thừa nhận sự thật (rất mệt) rồi vẫn làm: 尽管." },
+      { "type": "mcq", "q": "尽管大家都反对，他___做了这个决定。", "options": ["才", "就", "还是", "所以"], "answer": 2, "explain": "Kết quả trái dự đoán: 还是." },
+      { "type": "mcq", "q": "尽管她很年轻，___工作经验很多。", "options": ["所以", "因为", "而且", "但是"], "answer": 3, "explain": "Vế sau đối lập nên có thể dùng 但是." },
+      { "type": "mcq", "q": "___下着大雨，比赛还是开始了。", "options": ["尽管", "如果", "只有", "所以"], "answer": 0, "explain": "Mưa đã xảy ra: 尽管." },
+      { "type": "gap", "q": "尽管已经十二点了，他___没睡觉。", "answer": ["还是", "仍然", "还", "依然"], "explain": "Dùng 还是/仍然/依然." },
+      { "type": "gap", "q": "___大家都反对，他还是做了这个决定。", "answer": ["尽管"], "explain": "Mở vế đầu: 尽管." },
+      { "type": "order", "words": ["他", "完成了", "尽管", "还是", "工作", "很累"], "answer": "尽管很累，他还是完成了工作。", "vi": "Mặc dù rất mệt, anh ấy vẫn hoàn thành công việc.", "explain": "尽管 + 事实，S + 还是 + V." },
+      { "type": "order", "words": ["开始了", "下着大雨", "比赛", "尽管", "还是"], "answer": "尽管下着大雨，比赛还是开始了。", "vi": "Mặc dù trời mưa to, trận đấu vẫn bắt đầu.", "explain": "比赛 + 还是 + 开始了." },
+      { "type": "order", "words": ["做了决定", "大家", "还是", "他", "尽管", "都反对"], "answer": "尽管大家都反对，他还是做了决定。", "vi": "Mặc dù mọi người đều phản đối, anh ấy vẫn quyết định.", "explain": "尽管 + 大家都反对，他还是 + 做了决定." }
+    ]
+  },
+  {
+    "id": "zh-hsk4-shenzhi",
+    "level": "HSK4",
+    "title": "Thậm chí",
+    "title_native": "甚至",
+    "summary_vi": "Nhấn mạnh mức độ cao nhất, cực đoan, thường theo sau một ý đã nêu.",
+    "formula": ["A，甚至 + B", "S + V，甚至 + 连 + N + 都/也 + V"],
+    "explain_vi": "**甚至** nghĩa là 'thậm chí', 'đến mức…'. Nó đứng trước **ví dụ cực đoan** nhất để nhấn mạnh ý đã nêu trước đó: 他很忙，甚至周末也要加班 (bận đến mức cuối tuần cũng làm).\n\nCách dùng: (1) **A，甚至 B**: A là mức bình thường/nhẹ, B là mức cao hơn hẳn. (2) **甚至连…都/也…**: dùng 连…都 để nêu cực đoan hơn nữa: 他累得甚至连饭都忘了吃. (3) Có thể nối nhiều thành phần song song: 很多人，甚至老师，都没听说过.\n\nKhác với **不但…而且…**: 不但…而且 chỉ bổ sung thêm ý (tăng tiến thông thường), còn 甚至 chỉ **đẩy lên mức cực điểm**, ý sau luôn 'đáng ngạc nhiên'. Cũng khác 连…都…: 连…都 là cấu trúc câu độc lập; 甚至 là từ nối với ý trước, hai thứ có thể kết hợp.\n\n甚至 luôn phải có ý trước nó để làm nền, không đứng độc lập ở đầu bài nói. Vế sau thường kèm 也/都/还. Tiếng Việt: 'thậm chí', 'thậm chí đến cả…'.",
+    "examples": [
+      { "t": "他很忙，甚至周末也要加班。", "py": "Tā hěn máng, shènzhì zhōumò yě yào jiābān.", "vi": "Anh ấy rất bận, thậm chí cuối tuần cũng phải tăng ca." },
+      { "t": "她汉语说得很好，甚至能看懂中文报纸。", "py": "Tā Hànyǔ shuō de hěn hǎo, shènzhì néng kàndǒng Zhōngwén bàozhǐ.", "vi": "Cô ấy nói tiếng Trung rất tốt, thậm chí đọc hiểu được báo tiếng Trung." },
+      { "t": "这个孩子太小了，甚至还不会走路。", "py": "Zhège háizi tài xiǎo le, shènzhì hái bú huì zǒulù.", "vi": "Đứa bé này còn quá nhỏ, thậm chí còn chưa biết đi." },
+      { "t": "他工作太累，甚至连饭都忘了吃。", "py": "Tā gōngzuò tài lèi, shènzhì lián fàn dōu wàng le chī.", "vi": "Anh ấy làm việc quá mệt, thậm chí quên cả ăn cơm." },
+      { "t": "很多人，甚至老师，都没听说过这个词。", "py": "Hěn duō rén, shènzhì lǎoshī, dōu méi tīngshuō guo zhège cí.", "vi": "Nhiều người, thậm chí cả thầy giáo, cũng chưa từng nghe từ này." }
+    ],
+    "mistakes": [
+      { "wrong": "他很聪明，甚至不努力。", "right": "他很聪明，但是不努力。", "note_vi": "甚至 là tăng tiến cực đoan, không dùng cho ý đối lập." },
+      { "wrong": "甚至连老师不知道。", "right": "甚至连老师都不知道。", "note_vi": "甚至连… phải có 都/也 sau thành phần 连." },
+      { "wrong": "甚至他很高兴。", "right": "他很高兴，甚至哭了。", "note_vi": "甚至 phải có ý đứng trước làm nền, rồi mới nêu mức cực đoan." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "他很忙，___周末也要加班。", "options": ["所以", "甚至", "但是", "如果"], "answer": 1, "explain": "Mức cực đoan hơn: 甚至." },
+      { "type": "mcq", "q": "他累得___连饭都忘了吃。", "options": ["而且", "如果", "甚至", "但是"], "answer": 2, "explain": "甚至连…都…" },
+      { "type": "mcq", "q": "很多人，___老师，都没听说过这个词。", "options": ["因为", "所以", "如果", "甚至"], "answer": 3, "explain": "Chen vào ví dụ cực đoan: 甚至老师." },
+      { "type": "mcq", "q": "这个字很难，学生不认识，甚至连老师___不认识。", "options": ["也", "就", "才", "只"], "answer": 0, "explain": "甚至连老师也不认识." },
+      { "type": "gap", "q": "她汉语说得很好，___能看懂中文报纸。", "answer": ["甚至"], "explain": "Điền 甚至." },
+      { "type": "gap", "q": "他累得甚至___饭都忘了吃。", "answer": ["连"], "explain": "甚至连…都…" },
+      { "type": "order", "words": ["周末也", "要加班", "他很忙", "甚至"], "answer": "他很忙，甚至周末也要加班。", "vi": "Anh ấy rất bận, thậm chí cuối tuần cũng phải tăng ca.", "explain": "A，甚至 + B." },
+      { "type": "order", "words": ["还不会", "走路", "这个孩子", "甚至", "太小了"], "answer": "这个孩子太小了，甚至还不会走路。", "vi": "Đứa bé này quá nhỏ, thậm chí còn chưa biết đi.", "explain": "Ý nền trước, 甚至 + ý cực đoan sau." },
+      { "type": "order", "words": ["连饭", "都忘了吃", "他累得", "甚至"], "answer": "他累得甚至连饭都忘了吃。", "vi": "Anh ấy mệt đến mức quên cả ăn cơm.", "explain": "甚至 + 连 + N + 都 + V." }
+    ]
+  },
+  {
+    "id": "zh-hsk4-nandao-ma",
+    "level": "HSK4",
+    "title": "Câu hỏi tu từ",
+    "title_native": "难道…吗 / 不是…吗",
+    "summary_vi": "Câu hỏi không để hỏi mà để khẳng định hoặc bày tỏ ngạc nhiên, trách móc.",
+    "formula": ["难道 + 句子 + 吗？", "S + 不是 + …吗？"],
+    "explain_vi": "**Câu hỏi tu từ (反问句)** là câu có hình thức câu hỏi nhưng **không cần trả lời**; người nói dùng để nhấn mạnh, ngạc nhiên hoặc trách nhẹ. Hai dạng quan trọng ở HSK4:\n\n**1. 难道…吗？** nghĩa 'chẳng lẽ… sao?'. Người nói thấy khó tin, và thực ra mong câu trả lời là **ngược lại**. 难道你不知道今天考试吗？ = 'Chẳng lẽ bạn không biết hôm nay thi sao?' (ý: bạn lẽ ra phải biết). 难道 đứng trước vị ngữ hoặc đầu câu, và câu thường kết thúc bằng 吗.\n\n**2. 不是…吗？** nghĩa 'chẳng phải… sao?'. Ý khẳng định điều trong câu: 你不是说今天来吗？ = 'Chẳng phải bạn nói hôm nay đến sao?' (tôi nhớ bạn đã nói thế). 这不是你的手机吗？ = 'Đây chẳng phải điện thoại của bạn sao?'.\n\nQuy tắc ý nghĩa: câu hỏi tu từ **phủ định** thì khẳng định ý, còn **khẳng định** thì phủ định ý. Ví dụ 难道我不知道吗？ = tôi biết. Đừng dùng 难道 để hỏi thật sự (ví dụ muốn biết 'bạn ăn cơm chưa?' thì nói 你吃饭了吗？).",
+    "examples": [
+      { "t": "难道你不知道今天考试吗？", "py": "Nándào nǐ bù zhīdào jīntiān kǎoshì ma?", "vi": "Chẳng lẽ bạn không biết hôm nay thi sao?" },
+      { "t": "你不是说今天来吗？怎么没来？", "py": "Nǐ bú shì shuō jīntiān lái ma? Zěnme méi lái?", "vi": "Chẳng phải bạn nói hôm nay đến sao? Sao không đến?" },
+      { "t": "这么简单的问题，难道你不会吗？", "py": "Zhème jiǎndān de wèntí, nándào nǐ bú huì ma?", "vi": "Vấn đề đơn giản như vậy, chẳng lẽ bạn không biết làm sao?" },
+      { "t": "这不是你的手机吗？", "py": "Zhè bú shì nǐ de shǒujī ma?", "vi": "Đây chẳng phải điện thoại của bạn sao?" },
+      { "t": "难道他忘了今天是我的生日吗？", "py": "Nándào tā wàng le jīntiān shì wǒ de shēngrì ma?", "vi": "Chẳng lẽ anh ấy quên hôm nay là sinh nhật tôi sao?" }
+    ],
+    "mistakes": [
+      { "wrong": "难道你吃饭了吗？（muốn hỏi thật）", "right": "你吃饭了吗？", "note_vi": "难道 tạo sắc thái ngạc nhiên, nghi ngờ; hỏi bình thường thì không dùng." },
+      { "wrong": "难道你不知道呢？", "right": "难道你不知道吗？", "note_vi": "难道 thường đi với 吗 ở cuối câu, không dùng 呢." },
+      { "wrong": "你不是说今天来。", "right": "你不是说今天来吗？", "note_vi": "不是…吗 là cặp đi cùng nhau; thiếu 吗 thì thành câu trần thuật phủ định." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "你___说今天来吗？怎么没来？", "options": ["不是", "难道", "是不", "没有"], "answer": 0, "explain": "不是…吗: chẳng phải… sao?" },
+      { "type": "mcq", "q": "___你不知道今天考试吗？", "options": ["因为", "难道", "如果", "虽然"], "answer": 1, "explain": "难道…吗: chẳng lẽ… sao?" },
+      { "type": "mcq", "q": "这___你的手机吗？", "options": ["不", "没", "别", "不是"], "answer": 3, "explain": "这不是你的手机吗." },
+      { "type": "mcq", "q": "难道他忘了今天是我的生日___？", "options": ["了", "呢", "吗", "的"], "answer": 2, "explain": "难道…吗." },
+      { "type": "gap", "q": "这么简单的问题，难道你不会___？", "answer": ["吗"], "explain": "难道…吗." },
+      { "type": "gap", "q": "你___说你不去吗？怎么又来了？", "answer": ["不是"], "explain": "不是…吗: chẳng phải bạn nói… sao?" },
+      { "type": "order", "words": ["今天考试", "你", "难道", "不知道", "吗"], "answer": "难道你不知道今天考试吗？", "vi": "Chẳng lẽ bạn không biết hôm nay thi sao?", "explain": "难道 + S + 不知道 + …吗." },
+      { "type": "order", "words": ["今天来", "吗", "你", "说", "不是"], "answer": "你不是说今天来吗？", "vi": "Chẳng phải bạn nói hôm nay đến sao?", "explain": "你 + 不是 + 说 + …吗." },
+      { "type": "order", "words": ["你的手机", "不是", "吗", "这"], "answer": "这不是你的手机吗？", "vi": "Đây chẳng phải điện thoại của bạn sao?", "explain": "这 + 不是 + N + 吗." }
+    ]
+  }
+]
