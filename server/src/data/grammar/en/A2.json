@@ -1,0 +1,451 @@
+[
+  {
+    "id": "en-a2-past-simple",
+    "level": "A2",
+    "title": "Thì quá khứ đơn",
+    "title_native": "Past simple",
+    "summary_vi": "Diễn tả hành động đã xảy ra và kết thúc hẳn trong quá khứ.",
+    "formula": ["S + V-ed / V2 (bất quy tắc)", "S + did not (didn't) + V", "Did + S + V?"],
+    "explain_vi": "Dùng thì **quá khứ đơn** khi nói về một việc đã xảy ra và đã kết thúc ở một thời điểm xác định trong quá khứ: yesterday, last week, two days ago, in 2020, when I was young...\n\n**Động từ có quy tắc** thêm -ed: work → worked, play → played. Động từ tận cùng -e chỉ thêm -d (live → lived); tận cùng phụ âm + y đổi y thành -ied (study → studied). **Động từ bất quy tắc** có dạng riêng cần học thuộc: go → went, see → saw, have → had, eat → ate, buy → bought.\n\nỞ câu phủ định và câu hỏi, ta mượn **did** và động từ chính **trở về nguyên mẫu**: She didn't go (không nói didn't went). Did you see him? (không nói Did you saw).\n\nTiếng Việt không chia động từ theo thời gian, ta chỉ thêm từ như \"đã\", \"hôm qua\". Tiếng Anh thì phải đổi hẳn dạng động từ, nên hãy chú ý: câu có mốc quá khứ thì động từ phải ở dạng quá khứ.\n\nRiêng động từ **to be** có dạng was/were: I/he/she/it was, you/we/they were. Phủ định: wasn't/weren't. Câu hỏi: Was he...? Were you...? (không dùng did).",
+    "examples": [
+      { "t": "I visited my grandmother last Sunday.", "vi": "Chủ nhật tuần trước tôi đã đến thăm bà." },
+      { "t": "She bought a new phone yesterday.", "vi": "Hôm qua cô ấy đã mua một chiếc điện thoại mới." },
+      { "t": "We didn't watch TV last night.", "vi": "Tối qua chúng tôi không xem ti vi." },
+      { "t": "Did you finish your homework?", "vi": "Bạn đã làm xong bài tập chưa?" },
+      { "t": "They were at the beach two days ago.", "vi": "Hai ngày trước họ ở bãi biển." },
+      { "t": "He studied English for three years.", "vi": "Anh ấy đã học tiếng Anh ba năm." }
+    ],
+    "mistakes": [
+      { "wrong": "Yesterday I go to the market.", "right": "Yesterday I went to the market.", "note_vi": "Có mốc quá khứ (yesterday) thì động từ phải chia quá khứ: go → went." },
+      { "wrong": "She didn't went to school.", "right": "She didn't go to school.", "note_vi": "Sau did/didn't động từ trở về nguyên mẫu, không chia quá khứ nữa." },
+      { "wrong": "Did you saw that film?", "right": "Did you see that film?", "note_vi": "Câu hỏi với Did: động từ chính ở nguyên mẫu." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "I ___ a good film last night.", "options": ["see", "saw", "seen", "seeing"], "answer": 1, "explain": "See là động từ bất quy tắc: see → saw (quá khứ đơn)." },
+      { "type": "mcq", "q": "They ___ to the party yesterday.", "options": ["didn't came", "didn't come", "not came", "don't came"], "answer": 1, "explain": "Phủ định quá khứ: didn't + động từ nguyên mẫu (come)." },
+      { "type": "mcq", "q": "___ you call her this morning?", "options": ["Do", "Are", "Did", "Was"], "answer": 2, "explain": "Câu hỏi quá khứ đơn dùng Did + S + V nguyên mẫu." },
+      { "type": "mcq", "q": "My brother ___ very tired after the trip.", "options": ["is", "were", "was", "did"], "answer": 2, "explain": "Chủ ngữ số ít (my brother) với to be quá khứ dùng was." },
+      { "type": "gap", "q": "She ___ in Hanoi in 2018. (live)", "answer": ["lived"], "explain": "Live tận cùng -e nên chỉ thêm -d: lived." },
+      { "type": "gap", "q": "We ___ any money last week. (not / spend)", "answer": ["didn't spend", "did not spend"], "explain": "Phủ định: didn't + spend (nguyên mẫu)." },
+      { "type": "order", "words": ["bought", "She", "a", "yesterday", "dress"], "answer": "She bought a dress yesterday.", "vi": "Hôm qua cô ấy đã mua một chiếc váy.", "explain": "Cấu trúc: S + V2 + tân ngữ + trạng từ thời gian." },
+      { "type": "order", "words": ["you", "Did", "the", "email", "send"], "answer": "Did you send the email?", "vi": "Bạn đã gửi email chưa?", "explain": "Câu hỏi: Did + S + V nguyên mẫu + tân ngữ?" }
+    ]
+  },
+  {
+    "id": "en-a2-past-continuous",
+    "level": "A2",
+    "title": "Thì quá khứ tiếp diễn",
+    "title_native": "Past continuous",
+    "summary_vi": "Diễn tả hành động đang diễn ra tại một thời điểm trong quá khứ, hoặc bị một việc khác cắt ngang.",
+    "formula": ["S + was/were + V-ing", "S + was/were + not + V-ing", "Was/Were + S + V-ing?"],
+    "explain_vi": "**Quá khứ tiếp diễn** nói về một hành động **đang diễn ra** vào một thời điểm cụ thể trong quá khứ. Ví dụ: At 8 p.m. yesterday, I was watching TV. (Lúc 8 giờ tối qua, tôi đang xem ti vi.) Tiếng Việt tương đương với \"đang\" trong câu kể chuyện quá khứ.\n\nCông thức: **was/were + V-ing**. I/he/she/it dùng was; you/we/they dùng were.\n\nThì này hay đi cùng quá khứ đơn để nói một việc **đang diễn ra thì một việc khác xen vào**: I was cooking when the phone rang. Việc dài, đang xảy ra (was cooking) dùng quá khứ tiếp diễn; việc ngắn, xen vào (rang) dùng quá khứ đơn. Từ nối thường gặp: **when** và **while**. While thường đứng trước hành động đang diễn ra: While I was walking home, it started to rain.\n\nHai việc cùng diễn ra song song cũng dùng quá khứ tiếp diễn: She was reading while he was cooking.\n\nLưu ý: các động từ chỉ trạng thái như know, like, want thường không dùng ở thể tiếp diễn.",
+    "examples": [
+      { "t": "I was sleeping at ten o'clock last night.", "vi": "Lúc mười giờ tối qua tôi đang ngủ." },
+      { "t": "They were playing football in the park.", "vi": "Họ đang chơi bóng đá trong công viên." },
+      { "t": "I was cooking when my friend called.", "vi": "Tôi đang nấu ăn thì bạn tôi gọi điện." },
+      { "t": "While she was walking home, it started to rain.", "vi": "Trong lúc cô ấy đang đi bộ về nhà thì trời bắt đầu mưa." },
+      { "t": "He wasn't listening to the teacher.", "vi": "Anh ấy lúc đó không chú ý nghe giáo viên." },
+      { "t": "What were you doing at 7 a.m.?", "vi": "Lúc 7 giờ sáng bạn đang làm gì?" }
+    ],
+    "mistakes": [
+      { "wrong": "I was watch TV when she came.", "right": "I was watching TV when she came.", "note_vi": "Sau was/were phải là V-ing." },
+      { "wrong": "When I was walking, I see a dog.", "right": "While I was walking, I saw a dog.", "note_vi": "Việc ngắn xen vào dùng quá khứ đơn (saw), không để thì hiện tại." },
+      { "wrong": "We was playing games.", "right": "We were playing games.", "note_vi": "We/you/they đi với were, không phải was." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "At 9 p.m. yesterday, we ___ dinner.", "options": ["have", "were having", "was having", "had been"], "answer": 1, "explain": "Hành động đang diễn ra tại một giờ cụ thể trong quá khứ; we + were + V-ing." },
+      { "type": "mcq", "q": "She ___ a book when I came in.", "options": ["read", "were reading", "reading", "was reading"], "answer": 3, "explain": "She + was + V-ing: việc đang diễn ra thì có việc khác xen vào." },
+      { "type": "mcq", "q": "I ___ TV while my mother was cooking.", "options": ["watched", "was watching", "am watching", "watch"], "answer": 1, "explain": "Hai việc song song trong quá khứ, cả hai đều dùng quá khứ tiếp diễn." },
+      { "type": "mcq", "q": "It started to rain while they ___ tennis.", "options": ["played", "were play", "was playing", "were playing"], "answer": 3, "explain": "They + were + V-ing sau while." },
+      { "type": "gap", "q": "He ___ his homework at 6 o'clock. (do)", "answer": ["was doing"], "explain": "He + was + V-ing." },
+      { "type": "gap", "q": "The children ___ in the garden. (not / play)", "answer": ["weren't playing", "were not playing"], "explain": "Phủ định: were + not + V-ing." },
+      { "type": "order", "words": ["was", "I", "when", "phoned", "she", "sleeping"], "answer": "I was sleeping when she phoned.", "vi": "Tôi đang ngủ thì cô ấy gọi điện.", "explain": "Việc đang diễn ra (was sleeping) + when + việc xen vào (phoned)." },
+      { "type": "order", "words": ["were", "What", "doing", "you", "at", "eight"], "answer": "What were you doing at eight?", "vi": "Lúc tám giờ bạn đang làm gì?", "explain": "Wh-word + were + S + V-ing?" }
+    ]
+  },
+  {
+    "id": "en-a2-present-perfect",
+    "level": "A2",
+    "title": "Hiện tại hoàn thành (ever/never/just/already/yet)",
+    "title_native": "Present perfect",
+    "summary_vi": "Nói về trải nghiệm, việc vừa xảy ra hoặc đã/chưa hoàn thành mà còn liên quan đến hiện tại.",
+    "formula": ["S + have/has + V3 (past participle)", "S + have/has + not + V3", "Have/Has + S + V3?"],
+    "explain_vi": "**Hiện tại hoàn thành** nối quá khứ với hiện tại. Ta không nói chính xác việc xảy ra lúc nào, mà quan tâm **kết quả** hoặc **trải nghiệm** cho đến bây giờ.\n\nCông thức: **have/has + V3**. He/she/it dùng has; còn lại dùng have. V3 của động từ có quy tắc là V-ed; bất quy tắc phải học: go → gone, see → seen, eat → eaten, do → done.\n\nCác từ hay đi kèm ở trình độ này:\n- **ever** (đã từng, dùng trong câu hỏi): Have you ever been to Japan?\n- **never** (chưa bao giờ): I have never eaten sushi.\n- **just** (vừa mới): She has just left.\n- **already** (đã rồi, trong câu khẳng định): I have already finished.\n- **yet** (chưa, dùng trong câu phủ định và câu hỏi, đứng cuối câu): He hasn't called yet. Have you eaten yet?\n\nKhông dùng hiện tại hoàn thành với mốc thời gian đã qua như yesterday, last year, in 2019. Khi đó phải dùng quá khứ đơn. Tiếng Việt hay dùng \"đã\" cho cả hai trường hợp, nên người học dễ nhầm.",
+    "examples": [
+      { "t": "I have visited Da Nang three times.", "vi": "Tôi đã đến Đà Nẵng ba lần." },
+      { "t": "Have you ever eaten snails?", "vi": "Bạn đã bao giờ ăn ốc chưa?" },
+      { "t": "She has never travelled by plane.", "vi": "Cô ấy chưa bao giờ đi máy bay." },
+      { "t": "We have just finished lunch.", "vi": "Chúng tôi vừa mới ăn trưa xong." },
+      { "t": "He has already done his homework.", "vi": "Anh ấy đã làm xong bài tập rồi." },
+      { "t": "They haven't arrived yet.", "vi": "Họ vẫn chưa đến." }
+    ],
+    "mistakes": [
+      { "wrong": "I have seen him yesterday.", "right": "I saw him yesterday.", "note_vi": "Có mốc quá khứ xác định (yesterday) thì dùng quá khứ đơn, không dùng hiện tại hoàn thành." },
+      { "wrong": "She have just come home.", "right": "She has just come home.", "note_vi": "Chủ ngữ she/he/it đi với has." },
+      { "wrong": "Have you ate breakfast yet?", "right": "Have you eaten breakfast yet?", "note_vi": "Sau have/has phải dùng V3 (eaten), không phải V2 (ate)." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "I have ___ been to Hue.", "options": ["ever", "just", "never", "yet"], "answer": 2, "explain": "Never = chưa bao giờ; câu khẳng định mang nghĩa phủ định." },
+      { "type": "mcq", "q": "She ___ already eaten lunch.", "options": ["have", "has", "had", "is"], "answer": 1, "explain": "She đi với has: has already eaten." },
+      { "type": "mcq", "q": "Have you finished your report ___?", "options": ["already", "just", "never", "yet"], "answer": 3, "explain": "Yet đứng cuối câu hỏi, nghĩa là \"chưa\"." },
+      { "type": "mcq", "q": "He has ___ left the office. You can still call him.", "options": ["ever", "just", "yet", "never"], "answer": 1, "explain": "Just = vừa mới, việc vừa xảy ra cách đây không lâu." },
+      { "type": "gap", "q": "I ___ this film three times. (see)", "answer": ["have seen"], "explain": "Trải nghiệm đến nay: have + V3 (seen)." },
+      { "type": "gap", "q": "They ___ their homework yet. (not / finish)", "answer": ["haven't finished", "have not finished"], "explain": "Phủ định với yet: have not + V3." },
+      { "type": "order", "words": ["ever", "Have", "you", "to", "been", "London"], "answer": "Have you ever been to London?", "vi": "Bạn đã bao giờ đến London chưa?", "explain": "Have + S + ever + V3 + ...?" },
+      { "type": "order", "words": ["just", "has", "She", "arrived", "home"], "answer": "She has just arrived home.", "vi": "Cô ấy vừa mới về đến nhà.", "explain": "Just đứng giữa has và V3." }
+    ]
+  },
+  {
+    "id": "en-a2-will-going-to",
+    "level": "A2",
+    "title": "Will và be going to",
+    "title_native": "Will vs be going to",
+    "summary_vi": "Hai cách nói về tương lai: quyết định tức thời/dự đoán (will) và kế hoạch/dấu hiệu rõ ràng (be going to).",
+    "formula": ["S + will + V", "S + am/is/are + going to + V", "S + will not (won't) + V"],
+    "explain_vi": "Tiếng Anh có hai cách phổ biến để nói về tương lai.\n\n**Be going to + V** dùng khi:\n- Đã có **kế hoạch, dự định** từ trước lúc nói: I'm going to visit my aunt this weekend.\n- Có **dấu hiệu rõ ràng ở hiện tại** cho thấy điều sắp xảy ra: Look at those clouds! It's going to rain.\n\n**Will + V** dùng khi:\n- Quyết định **ngay lúc nói**: The phone is ringing. I'll answer it.\n- **Dự đoán, ý kiến** không có dấu hiệu rõ: I think it will be hot tomorrow.\n- Hứa hẹn, đề nghị giúp: I'll help you with your bags.\n\nPhủ định của will là will not, viết tắt **won't**. Sau will luôn là động từ nguyên mẫu, mọi ngôi đều giống nhau (I will, she will, they will), không thêm -s.\n\nTiếng Việt dùng \"sẽ\" cho cả hai nên dễ lẫn. Mẹo: nếu việc đó bạn đã tính từ trước thì chọn **going to**; nếu bạn vừa nghĩ ra lúc nói thì chọn **will**.",
+    "examples": [
+      { "t": "I'm going to learn English next year.", "vi": "Năm sau tôi sẽ học tiếng Anh (đã có dự định)." },
+      { "t": "Look out! The glass is going to fall.", "vi": "Coi chừng! Cái ly sắp rơi rồi." },
+      { "t": "I'm cold. I'll close the window.", "vi": "Tôi thấy lạnh. Tôi sẽ đóng cửa sổ." },
+      { "t": "I think she will pass the exam.", "vi": "Tôi nghĩ cô ấy sẽ đỗ kỳ thi." },
+      { "t": "We aren't going to go out tonight.", "vi": "Tối nay chúng tôi không định đi chơi." },
+      { "t": "Don't worry. I won't tell anyone.", "vi": "Đừng lo. Tôi sẽ không nói với ai đâu." }
+    ],
+    "mistakes": [
+      { "wrong": "I will to call you tomorrow.", "right": "I will call you tomorrow.", "note_vi": "Sau will là động từ nguyên mẫu không có to." },
+      { "wrong": "She wills come tomorrow.", "right": "She will come tomorrow.", "note_vi": "Will không thêm -s ở ngôi thứ ba." },
+      { "wrong": "I go to buy a car next month. (đã có kế hoạch)", "right": "I'm going to buy a car next month.", "note_vi": "Kế hoạch tương lai dùng be going to, không dùng hiện tại đơn với go." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "I've decided. I ___ a new bike next week.", "options": ["will buy", "am going to buy", "buy", "bought"], "answer": 1, "explain": "Đã quyết định từ trước nên dùng be going to." },
+      { "type": "mcq", "q": "A: I can't open this bottle. B: I ___ help you.", "options": ["am going to", "will", "go to", "would to"], "answer": 1, "explain": "Quyết định giúp ngay lúc nói dùng will." },
+      { "type": "mcq", "q": "Look at the sky! It ___ rain.", "options": ["will", "is going to", "won't", "going to"], "answer": 1, "explain": "Có dấu hiệu rõ ràng (mây đen) nên dùng is going to." },
+      { "type": "mcq", "q": "He ___ come to the party. He's too busy.", "options": ["won't", "isn't will", "doesn't will", "not going"], "answer": 0, "explain": "Phủ định của will là won't + V." },
+      { "type": "gap", "q": "We ___ visit our grandparents on Sunday. (going to)", "answer": ["are going to"], "explain": "We đi với are: are going to visit." },
+      { "type": "gap", "q": "I think the test ___ difficult. (will / be)", "answer": ["will be"], "explain": "Dự đoán, ý kiến cá nhân dùng will + V." },
+      { "type": "order", "words": ["going", "She", "is", "to", "study", "abroad"], "answer": "She is going to study abroad.", "vi": "Cô ấy sắp đi du học.", "explain": "S + is going to + V." },
+      { "type": "order", "words": ["I", "you", "will", "help", "with", "that"], "answer": "I will help you with that.", "vi": "Tôi sẽ giúp bạn việc đó.", "explain": "S + will + V + tân ngữ." }
+    ]
+  },
+  {
+    "id": "en-a2-comparatives",
+    "level": "A2",
+    "title": "So sánh hơn",
+    "title_native": "Comparatives",
+    "summary_vi": "So sánh hai người hoặc hai vật: tính từ + -er / more + tính từ + than.",
+    "formula": ["adj ngắn + -er + than", "more + adj dài + than", "(not) as + adj + as"],
+    "explain_vi": "Khi so sánh **hai** người hoặc vật, ta dùng so sánh hơn.\n\n**Tính từ ngắn** (1 âm tiết, hoặc 2 âm tiết tận cùng -y) thêm **-er** rồi dùng **than**: tall → taller, cheap → cheaper, big → bigger (gấp đôi phụ âm cuối), happy → happier (đổi y thành i).\n\n**Tính từ dài** (từ 2 âm tiết trở lên) đặt **more** phía trước: expensive → more expensive, interesting → more interesting.\n\n**Bất quy tắc** cần nhớ: good → better, bad → worse, far → farther/further.\n\nVí dụ: My house is bigger than your house. This book is more interesting than that one.\n\nCó thể thêm **much / a lot** để nhấn mạnh: much cheaper. Cấu trúc **not as ... as** nghĩa là \"không bằng\": This phone is not as expensive as that one.\n\nLỗi hay gặp của người Việt: dùng cả -er và more cùng lúc (more taller), hoặc quên **than**. Tiếng Việt nói \"cao hơn\" mà không cần đổi dạng tính từ, tiếng Anh thì phải đổi.",
+    "examples": [
+      { "t": "My brother is taller than me.", "vi": "Anh tôi cao hơn tôi." },
+      { "t": "Today is hotter than yesterday.", "vi": "Hôm nay nóng hơn hôm qua." },
+      { "t": "This restaurant is more expensive than that one.", "vi": "Nhà hàng này đắt hơn nhà hàng kia." },
+      { "t": "English is easier than Chinese for me.", "vi": "Với tôi tiếng Anh dễ hơn tiếng Trung." },
+      { "t": "Her English is better than mine.", "vi": "Tiếng Anh của cô ấy tốt hơn của tôi." },
+      { "t": "This bag is not as heavy as that one.", "vi": "Cái túi này không nặng bằng cái kia." }
+    ],
+    "mistakes": [
+      { "wrong": "She is more tall than her sister.", "right": "She is taller than her sister.", "note_vi": "Tính từ ngắn thêm -er, không dùng more." },
+      { "wrong": "This film is more better than that one.", "right": "This film is better than that one.", "note_vi": "Good → better đã là dạng so sánh, không thêm more." },
+      { "wrong": "He is older that me.", "right": "He is older than me.", "note_vi": "Từ so sánh là than, không phải that." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "A bike is ___ than a car.", "options": ["cheap", "cheaper", "more cheap", "cheapest"], "answer": 1, "explain": "Cheap là tính từ ngắn: cheaper than." },
+      { "type": "mcq", "q": "This exercise is ___ than the last one.", "options": ["difficult", "difficulter", "more difficult", "most difficult"], "answer": 2, "explain": "Difficult là tính từ dài: more difficult than." },
+      { "type": "mcq", "q": "My new phone is much ___ than my old one.", "options": ["good", "gooder", "more good", "better"], "answer": 3, "explain": "Good bất quy tắc: better." },
+      { "type": "mcq", "q": "Winter in Hanoi is ___ than winter in Ho Chi Minh City.", "options": ["colder", "more cold", "coldest", "cold"], "answer": 0, "explain": "Cold là tính từ ngắn: colder than." },
+      { "type": "gap", "q": "Ann is ___ than her brother. (happy)", "answer": ["happier"], "explain": "Tận cùng phụ âm + y: đổi y thành i rồi thêm -er." },
+      { "type": "gap", "q": "This hotel is ___ than that one. (expensive)", "answer": ["more expensive"], "explain": "Tính từ dài dùng more + adj." },
+      { "type": "order", "words": ["is", "bigger", "My", "than", "yours", "house"], "answer": "My house is bigger than yours.", "vi": "Nhà tôi to hơn nhà bạn.", "explain": "S + be + adj-er + than + ..." },
+      { "type": "order", "words": ["interesting", "more", "is", "This", "book", "than", "that", "one"], "answer": "This book is more interesting than that one.", "vi": "Cuốn sách này thú vị hơn cuốn kia.", "explain": "S + be + more + adj dài + than." }
+    ]
+  },
+  {
+    "id": "en-a2-superlatives",
+    "level": "A2",
+    "title": "So sánh nhất",
+    "title_native": "Superlatives",
+    "summary_vi": "Nói ai/cái gì nhất trong một nhóm: the + adj-est / the most + adj.",
+    "formula": ["the + adj ngắn + -est", "the most + adj dài", "one of the + superlative + danh từ số nhiều"],
+    "explain_vi": "So sánh nhất dùng khi nói một người hoặc vật **hơn tất cả** trong một nhóm từ ba trở lên. Luôn có **the** đứng trước.\n\n**Tính từ ngắn** thêm **-est**: tall → the tallest, cheap → the cheapest, big → the biggest, happy → the happiest.\n\n**Tính từ dài** dùng **the most**: expensive → the most expensive, beautiful → the most beautiful.\n\n**Bất quy tắc**: good → the best, bad → the worst, far → the farthest/furthest.\n\nThường đi với giới từ **in** (+ nơi chốn, nhóm) hoặc **of** (+ nhóm số nhiều): the tallest student **in** the class, the best day **of** my life.\n\nCấu trúc hay dùng: **one of the + so sánh nhất + danh từ số nhiều** (một trong những ... nhất): Hanoi is one of the most interesting cities in Vietnam.\n\nTiếng Việt nói \"nhất\" đặt sau tính từ (cao nhất), còn tiếng Anh phải đổi dạng tính từ và thêm the ở phía trước. Đừng quên the!",
+    "examples": [
+      { "t": "Mount Everest is the highest mountain in the world.", "vi": "Everest là ngọn núi cao nhất thế giới." },
+      { "t": "She is the youngest student in our class.", "vi": "Cô ấy là học sinh trẻ nhất lớp chúng tôi." },
+      { "t": "This is the most expensive watch in the shop.", "vi": "Đây là chiếc đồng hồ đắt nhất trong cửa hàng." },
+      { "t": "Yesterday was the worst day of my week.", "vi": "Hôm qua là ngày tệ nhất trong tuần của tôi." },
+      { "t": "He is the best player in the team.", "vi": "Anh ấy là cầu thủ giỏi nhất đội." },
+      { "t": "It is one of the most popular songs this year.", "vi": "Đó là một trong những bài hát nổi tiếng nhất năm nay." }
+    ],
+    "mistakes": [
+      { "wrong": "She is tallest girl in the class.", "right": "She is the tallest girl in the class.", "note_vi": "So sánh nhất luôn có the." },
+      { "wrong": "This is the most cheap shop.", "right": "This is the cheapest shop.", "note_vi": "Tính từ ngắn dùng -est, không dùng most." },
+      { "wrong": "He is the best of the Vietnam.", "right": "He is the best in Vietnam.", "note_vi": "Dùng in với nơi chốn hoặc nhóm (in the class, in Vietnam)." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "Tom is the ___ boy in our class.", "options": ["tall", "taller", "tallest", "most tall"], "answer": 2, "explain": "Tall ngắn: the tallest." },
+      { "type": "mcq", "q": "This is the ___ film I have ever seen.", "options": ["boring", "more boring", "most boring", "boringest"], "answer": 2, "explain": "Boring là tính từ dài: the most boring." },
+      { "type": "mcq", "q": "She is the ___ cook in my family.", "options": ["best", "goodest", "most good", "better"], "answer": 0, "explain": "Good bất quy tắc: the best." },
+      { "type": "mcq", "q": "That was ___ day of my life.", "options": ["worst", "the worse", "the baddest", "the worst"], "answer": 3, "explain": "Bad → the worst; cần the." },
+      { "type": "gap", "q": "Summer is ___ season in Vietnam. (hot)", "answer": ["the hottest"], "explain": "Hot gấp đôi phụ âm cuối: the hottest." },
+      { "type": "gap", "q": "This is ___ restaurant in town. (expensive)", "answer": ["the most expensive"], "explain": "Tính từ dài: the most + adj." },
+      { "type": "order", "words": ["is", "the", "longest", "river", "This", "in", "country", "our"], "answer": "This is the longest river in our country.", "vi": "Đây là con sông dài nhất nước chúng ta.", "explain": "S + be + the adj-est + danh từ + in + nhóm." },
+      { "type": "order", "words": ["one", "is", "of", "the", "best", "She", "singers"], "answer": "She is one of the best singers.", "vi": "Cô ấy là một trong những ca sĩ hay nhất.", "explain": "One of the + so sánh nhất + danh từ số nhiều." }
+    ]
+  },
+  {
+    "id": "en-a2-countable-quantifiers",
+    "level": "A2",
+    "title": "Danh từ đếm được/không đếm được + some/any/much/many/a lot of",
+    "title_native": "Countable & uncountable nouns; some, any, much, many",
+    "summary_vi": "Phân biệt danh từ đếm được và không đếm được để chọn từ chỉ số lượng phù hợp.",
+    "formula": ["many + danh từ đếm được số nhiều", "much + danh từ không đếm được", "some (khẳng định) / any (phủ định, nghi vấn)"],
+    "explain_vi": "**Danh từ đếm được** có thể đếm bằng số: one apple, two apples, three books. **Danh từ không đếm được** thì không đếm trực tiếp, không có dạng số nhiều: water, rice, milk, money, bread, information, advice.\n\nCách chọn từ chỉ số lượng:\n- **many** đi với đếm được số nhiều; **much** đi với không đếm được. Hai từ này dùng chủ yếu trong câu phủ định và câu hỏi: How many eggs do we have? There isn't much milk.\n- **a lot of** (hoặc lots of) dùng cho cả hai loại, nhất là trong câu khẳng định: I have a lot of friends. We have a lot of time.\n- **some** dùng trong câu khẳng định: I have some books. **any** dùng trong câu phủ định và câu hỏi: I don't have any books. Do you have any books?\n\nKhi muốn đếm danh từ không đếm được, ta dùng đơn vị: a glass of water, a bowl of rice, a piece of advice.\n\nTiếng Việt có lượng từ (một ly, một bát) cho mọi thứ, còn tiếng Anh chia hẳn hai nhóm, nên hãy nhớ rice, money, water không thêm -s.",
+    "examples": [
+      { "t": "There are some apples on the table.", "vi": "Có vài quả táo trên bàn." },
+      { "t": "We don't have any milk.", "vi": "Chúng ta không còn chút sữa nào." },
+      { "t": "How many students are in your class?", "vi": "Lớp bạn có bao nhiêu học sinh?" },
+      { "t": "How much money do you need?", "vi": "Bạn cần bao nhiêu tiền?" },
+      { "t": "She drinks a lot of water every day.", "vi": "Cô ấy uống rất nhiều nước mỗi ngày." },
+      { "t": "Would you like some rice?", "vi": "Bạn có muốn ăn chút cơm không?" }
+    ],
+    "mistakes": [
+      { "wrong": "I need some informations.", "right": "I need some information.", "note_vi": "Information không đếm được, không thêm -s." },
+      { "wrong": "How much people are there?", "right": "How many people are there?", "note_vi": "People là danh từ đếm được số nhiều nên dùng many." },
+      { "wrong": "I don't have some money.", "right": "I don't have any money.", "note_vi": "Câu phủ định dùng any, không dùng some." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "There isn't ___ sugar in my coffee.", "options": ["some", "many", "any", "a"], "answer": 2, "explain": "Câu phủ định + danh từ không đếm được: any." },
+      { "type": "mcq", "q": "How ___ brothers do you have?", "options": ["much", "many", "any", "a lot"], "answer": 1, "explain": "Brothers đếm được số nhiều: how many." },
+      { "type": "mcq", "q": "I have ___ good friends in this city.", "options": ["a lot of", "much", "any", "a little"], "answer": 0, "explain": "Câu khẳng định dùng a lot of (much không dùng ở khẳng định)." },
+      { "type": "mcq", "q": "Is there ___ bread in the kitchen?", "options": ["some", "many", "a", "any"], "answer": 3, "explain": "Câu hỏi dùng any." },
+      { "type": "mcq", "q": "How ___ water do you drink a day?", "options": ["many", "much", "some", "few"], "answer": 1, "explain": "Water không đếm được: how much." },
+      { "type": "gap", "q": "I'd like ___ tea, please. (some / any)", "answer": ["some"], "explain": "Lời mời, yêu cầu lịch sự dùng some." },
+      { "type": "gap", "q": "We haven't got ___ eggs. (some / any)", "answer": ["any"], "explain": "Phủ định dùng any." },
+      { "type": "order", "words": ["many", "How", "do", "have", "you", "books"], "answer": "How many books do you have?", "vi": "Bạn có bao nhiêu quyển sách?", "explain": "How many + danh từ đếm được số nhiều + do you have?" },
+      { "type": "order", "words": ["a", "of", "She", "has", "lot", "money"], "answer": "She has a lot of money.", "vi": "Cô ấy có rất nhiều tiền.", "explain": "A lot of dùng được với danh từ không đếm được." }
+    ]
+  },
+  {
+    "id": "en-a2-adverbs-frequency",
+    "level": "A2",
+    "title": "Trạng từ tần suất",
+    "title_native": "Adverbs of frequency",
+    "summary_vi": "Always, usually, often, sometimes, never: nói việc xảy ra thường xuyên đến đâu và vị trí trong câu.",
+    "formula": ["S + trạng từ tần suất + V thường", "S + be + trạng từ tần suất", "S + trợ động từ + trạng từ tần suất + V"],
+    "explain_vi": "Trạng từ tần suất cho biết một việc xảy ra **bao lâu một lần**. Từ mạnh đến yếu:\n\n**always** (luôn luôn, 100%) → **usually** (thường, ~80%) → **often** (hay, ~60%) → **sometimes** (thỉnh thoảng, ~40%) → **rarely/seldom** (hiếm khi, ~10%) → **never** (không bao giờ, 0%).\n\n**Vị trí trong câu** là điểm quan trọng:\n- Đứng **trước động từ thường**: I often walk to work. She usually gets up early.\n- Đứng **sau to be**: He is always late. They are never at home.\n- Đứng **giữa trợ động từ và động từ chính**: I don't often eat meat. Câu phủ định thường dùng often, không dùng never (never đã mang nghĩa phủ định rồi).\n\n**Sometimes** có thể đứng đầu câu: Sometimes I cook dinner. Cụm như every day, once a week, twice a month đứng cuối câu: I go swimming twice a week.\n\nCâu hỏi tần suất: How often do you ...? (Bạn có thường ... không?). Tiếng Việt đặt \"luôn, thường\" trước động từ giống tiếng Anh, nhưng với to be thì phải đặt sau (He is always late, không phải He always is late).",
+    "examples": [
+      { "t": "I always drink coffee in the morning.", "vi": "Tôi luôn uống cà phê vào buổi sáng." },
+      { "t": "She is usually at home on Sundays.", "vi": "Cô ấy thường ở nhà vào Chủ nhật." },
+      { "t": "We sometimes eat out on Friday evenings.", "vi": "Thỉnh thoảng chúng tôi ăn ngoài vào tối thứ Sáu." },
+      { "t": "He never watches TV.", "vi": "Anh ấy không bao giờ xem ti vi." },
+      { "t": "How often do you go to the gym?", "vi": "Bạn có hay đi tập gym không?" },
+      { "t": "They don't often travel abroad.", "vi": "Họ không hay đi nước ngoài." }
+    ],
+    "mistakes": [
+      { "wrong": "He always is late for class.", "right": "He is always late for class.", "note_vi": "Với to be, trạng từ tần suất đứng sau be." },
+      { "wrong": "I go often to the cinema.", "right": "I often go to the cinema.", "note_vi": "Trạng từ tần suất đứng trước động từ thường." },
+      { "wrong": "I don't never eat fast food.", "right": "I never eat fast food.", "note_vi": "Never đã mang nghĩa phủ định, không dùng thêm don't." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "She ___ walks to school.", "options": ["is usually", "usually", "usually is", "does usually"], "answer": 1, "explain": "Trạng từ tần suất đứng trước động từ thường (walks)." },
+      { "type": "mcq", "q": "My father ___ at home on Saturday mornings.", "options": ["often is", "is often", "often", "does often"], "answer": 1, "explain": "Đứng sau to be: is often." },
+      { "type": "mcq", "q": "I ___ eat meat. I'm a vegetarian.", "options": ["never", "always", "usually", "often"], "answer": 0, "explain": "Người ăn chay thì không bao giờ ăn thịt: never." },
+      { "type": "mcq", "q": "I ___ have breakfast. I eat it every single day.", "options": ["never", "always", "rarely", "sometimes"], "answer": 1, "explain": "Every single day = 100%: always." },
+      { "type": "gap", "q": "We ___ go to the cinema on Sundays. (sometimes)", "answer": ["sometimes"], "explain": "Sometimes = thỉnh thoảng, đứng trước động từ go." },
+      { "type": "gap", "q": "He ___ late for work. (always / be)", "answer": ["is always"], "explain": "Be + always: He is always late." },
+      { "type": "order", "words": ["She", "reads", "often", "in", "bed", "books"], "answer": "She often reads books in bed.", "vi": "Cô ấy hay đọc sách trên giường.", "explain": "Often đứng trước động từ thường reads." },
+      { "type": "order", "words": ["never", "is", "My", "brother", "on", "time"], "answer": "My brother is never on time.", "vi": "Anh tôi không bao giờ đúng giờ.", "explain": "Never đứng sau to be." }
+    ]
+  },
+  {
+    "id": "en-a2-adverbs-manner",
+    "level": "A2",
+    "title": "Trạng từ cách thức",
+    "title_native": "Adverbs of manner",
+    "summary_vi": "Trạng từ (thường tính từ + -ly) mô tả hành động được làm như thế nào.",
+    "formula": ["adj + -ly = adverb (slow → slowly)", "S + V + (O) + adverb", "good → well; fast → fast; hard → hard"],
+    "explain_vi": "**Tính từ** bổ nghĩa cho danh từ (a slow car), còn **trạng từ cách thức** bổ nghĩa cho động từ, cho biết hành động diễn ra **như thế nào** (He drives slowly).\n\nCách tạo trạng từ: thường thêm **-ly** vào tính từ: quick → quickly, careful → carefully, quiet → quietly. Tận cùng phụ âm + y đổi y thành i: happy → happily, easy → easily.\n\n**Trường hợp đặc biệt**:\n- **good → well**: She speaks English well. (không nói speaks English good)\n- Một số từ giữ nguyên: **fast**, **hard**, **late**, **early**: He runs fast. She works hard.\n- Lưu ý **hardly** nghĩa là \"hầu như không\", khác hẳn hard.\n\n**Vị trí**: thường đứng **sau động từ** hoặc sau tân ngữ: She sings beautifully. He opened the door quietly.\n\nSau các động từ nối như be, look, feel, sound, ta dùng **tính từ** chứ không dùng trạng từ: She looks happy. Người Việt hay nhầm vì trong tiếng Việt cùng một từ (nhanh, chậm, tốt) làm cả hai vai trò. Hãy tự hỏi: từ này bổ nghĩa cho danh từ hay cho động từ?",
+    "examples": [
+      { "t": "He speaks very slowly.", "vi": "Anh ấy nói rất chậm." },
+      { "t": "Please drive carefully.", "vi": "Làm ơn lái xe cẩn thận." },
+      { "t": "She sings beautifully.", "vi": "Cô ấy hát rất hay." },
+      { "t": "My brother plays the guitar well.", "vi": "Em tôi chơi ghi-ta giỏi." },
+      { "t": "They worked hard all day.", "vi": "Họ làm việc chăm chỉ cả ngày." },
+      { "t": "The baby is sleeping quietly.", "vi": "Em bé đang ngủ yên." }
+    ],
+    "mistakes": [
+      { "wrong": "She speaks English good.", "right": "She speaks English well.", "note_vi": "Bổ nghĩa cho động từ phải dùng trạng từ well, không dùng tính từ good." },
+      { "wrong": "He drives very slow.", "right": "He drives very slowly.", "note_vi": "Slow (tính từ) → slowly (trạng từ) khi bổ nghĩa cho động từ drives." },
+      { "wrong": "She looks happily.", "right": "She looks happy.", "note_vi": "Sau look (nghĩa là trông có vẻ) dùng tính từ." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "He walks very ___.", "options": ["slow", "slowly", "slowness", "slowest"], "answer": 1, "explain": "Bổ nghĩa động từ walks: trạng từ slowly." },
+      { "type": "mcq", "q": "She plays tennis ___.", "options": ["good", "goodly", "well", "best"], "answer": 2, "explain": "Trạng từ của good là well." },
+      { "type": "mcq", "q": "The students listened ___ to the teacher.", "options": ["careful", "carefully", "care", "more careful"], "answer": 1, "explain": "Careful → carefully (bổ nghĩa cho listened)." },
+      { "type": "mcq", "q": "My father works very ___.", "options": ["hardly", "hardy", "hards", "hard"], "answer": 3, "explain": "Hard vừa là tính từ vừa là trạng từ (làm việc chăm chỉ); hardly có nghĩa khác." },
+      { "type": "gap", "q": "Please speak ___. I can't hear you. (loud)", "answer": ["louder", "loudly"], "explain": "Loud → loudly (hoặc louder khi so sánh); chấp nhận cả hai." },
+      { "type": "gap", "q": "She dances ___. (beautiful)", "answer": ["beautifully"], "explain": "Beautiful → beautifully." },
+      { "type": "order", "words": ["drives", "He", "very", "carefully"], "answer": "He drives very carefully.", "vi": "Anh ấy lái xe rất cẩn thận.", "explain": "S + V + very + trạng từ." },
+      { "type": "order", "words": ["speaks", "English", "She", "well"], "answer": "She speaks English well.", "vi": "Cô ấy nói tiếng Anh giỏi.", "explain": "Trạng từ well đứng sau tân ngữ English." }
+    ]
+  },
+  {
+    "id": "en-a2-must-have-to-should",
+    "level": "A2",
+    "title": "Must, have to và should",
+    "title_native": "Must / have to / should",
+    "summary_vi": "Diễn tả sự bắt buộc (must/have to), không bắt buộc (don't have to), cấm đoán (mustn't) và lời khuyên (should).",
+    "formula": ["S + must / have to / should + V", "S + mustn't + V (cấm)", "S + don't/doesn't have to + V (không cần)"],
+    "explain_vi": "**Must** và **have to** đều nghĩa là \"phải\". Must thường là cảm nhận cá nhân của người nói hoặc luật rõ ràng: I must study for the exam. **Have to** thường chỉ việc phải làm vì quy định, hoàn cảnh bên ngoài: I have to wear a uniform at school. Với ngôi he/she/it dùng **has to**; phủ định và câu hỏi dùng do/does: Do you have to work on Sunday?\n\nHai dạng phủ định **rất khác nghĩa**:\n- **mustn't** = **cấm**, không được phép: You mustn't smoke here.\n- **don't/doesn't have to** = **không cần** (muốn làm cũng được): You don't have to come early.\n\n**Should** nghĩa là \"nên\", dùng để khuyên: You should see a doctor. Phủ định **shouldn't**: You shouldn't eat so much sugar.\n\nSau must và should là động từ nguyên mẫu không to, không thêm -s (She must go, không phải She musts go). Must không có dạng quá khứ; quá khứ của have to là **had to**.\n\nTiếng Việt \"không phải\" mơ hồ giữa \"cấm\" và \"không cần\", nên người học hay dùng nhầm mustn't và don't have to. Hãy nhớ cặp này khi viết.",
+    "examples": [
+      { "t": "You must wear a seat belt in the car.", "vi": "Bạn phải thắt dây an toàn trong xe." },
+      { "t": "I have to get up at six every day.", "vi": "Ngày nào tôi cũng phải dậy lúc sáu giờ." },
+      { "t": "You mustn't use your phone in the exam.", "vi": "Bạn không được dùng điện thoại trong phòng thi." },
+      { "t": "She doesn't have to cook tonight.", "vi": "Tối nay cô ấy không cần phải nấu ăn." },
+      { "t": "You should drink more water.", "vi": "Bạn nên uống nhiều nước hơn." },
+      { "t": "Do we have to bring our passports?", "vi": "Chúng ta có phải mang hộ chiếu không?" }
+    ],
+    "mistakes": [
+      { "wrong": "You don't must park here.", "right": "You mustn't park here.", "note_vi": "Must không dùng với don't. Cấm đoán dùng mustn't." },
+      { "wrong": "He have to go now.", "right": "He has to go now.", "note_vi": "Ngôi he/she/it dùng has to." },
+      { "wrong": "You should to rest.", "right": "You should rest.", "note_vi": "Sau should là động từ nguyên mẫu không to." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "Students ___ be quiet in the library. It's a rule.", "options": ["don't have to", "must", "should to", "has to"], "answer": 1, "explain": "Quy định, bắt buộc: must be quiet." },
+      { "type": "mcq", "q": "You ___ wear a tie. It's optional.", "options": ["mustn't", "must", "don't have to", "shouldn't to"], "answer": 2, "explain": "Không bắt buộc (muốn thì mặc): don't have to." },
+      { "type": "mcq", "q": "You ___ cross the road when the light is red.", "options": ["don't have to", "mustn't", "should to", "doesn't have to"], "answer": 1, "explain": "Cấm, nguy hiểm: mustn't." },
+      { "type": "mcq", "q": "She has a bad cold. She ___ stay at home.", "options": ["musts", "have to", "mustn't", "should"], "answer": 3, "explain": "Lời khuyên: should + V." },
+      { "type": "gap", "q": "My sister ___ work on Saturdays. (have to)", "answer": ["has to"], "explain": "Ngôi she dùng has to." },
+      { "type": "gap", "q": "You ___ eat so much fast food. It's bad for you. (should not)", "answer": ["shouldn't", "should not"], "explain": "Khuyên không nên: shouldn't + V." },
+      { "type": "order", "words": ["have", "to", "We", "early", "get", "up"], "answer": "We have to get up early.", "vi": "Chúng tôi phải dậy sớm.", "explain": "S + have to + V." },
+      { "type": "order", "words": ["park", "mustn't", "You", "here"], "answer": "You mustn't park here.", "vi": "Bạn không được đậu xe ở đây.", "explain": "S + mustn't + V." }
+    ]
+  },
+  {
+    "id": "en-a2-like-love-hate-ing",
+    "level": "A2",
+    "title": "Like / love / hate + V-ing",
+    "title_native": "Like, love, hate + -ing",
+    "summary_vi": "Sau các động từ chỉ sở thích (like, love, enjoy, hate, don't mind) ta dùng động từ thêm -ing.",
+    "formula": ["S + like/love/hate + V-ing", "S + don't like/mind + V-ing", "S + like/love/hate + danh từ"],
+    "explain_vi": "Khi muốn nói về **sở thích** hoặc việc mình **thích/ghét làm**, ta dùng động từ chỉ cảm xúc + **V-ing**: I like swimming. She loves reading. They hate getting up early.\n\nCác động từ hay gặp: like, love, enjoy, hate, don't mind (không phiền, không ngại), prefer. Ví dụ: I don't mind waiting. (Tôi không ngại chờ.)\n\nThông thường, với like, love, hate, prefer, ta cũng có thể dùng **to + V** mà nghĩa gần như không đổi: I like to swim. Tuy nhiên với **enjoy** và **don't mind** thì **chỉ dùng V-ing**: I enjoy cooking (không nói enjoy to cook).\n\nQuy tắc thêm -ing: thông thường thêm -ing (read → reading); tận cùng -e bỏ e (dance → dancing); động từ ngắn tận cùng nguyên âm + phụ âm gấp đôi phụ âm (swim → swimming, run → running).\n\nCũng có thể dùng danh từ sau like/love/hate: I love music. Người Việt chỉ cần nói \"thích bơi\" mà không đổi dạng động từ; tiếng Anh thì phải thêm -ing (hoặc to).\n\nCâu hỏi: Do you like cooking? What do you enjoy doing in your free time?",
+    "examples": [
+      { "t": "I love listening to music.", "vi": "Tôi thích nghe nhạc." },
+      { "t": "My sister likes drawing pictures.", "vi": "Em gái tôi thích vẽ tranh." },
+      { "t": "He hates doing the washing-up.", "vi": "Anh ấy ghét rửa bát." },
+      { "t": "We enjoy playing football on weekends.", "vi": "Cuối tuần chúng tôi thích chơi bóng đá." },
+      { "t": "I don't mind walking to school.", "vi": "Tôi không ngại đi bộ đến trường." },
+      { "t": "Do you like swimming?", "vi": "Bạn có thích bơi không?" }
+    ],
+    "mistakes": [
+      { "wrong": "I enjoy to read books.", "right": "I enjoy reading books.", "note_vi": "Enjoy chỉ đi với V-ing." },
+      { "wrong": "She likes swim.", "right": "She likes swimming.", "note_vi": "Sau like phải có V-ing (hoặc to V), không để động từ trần." },
+      { "wrong": "He loves runing in the park.", "right": "He loves running in the park.", "note_vi": "Run → running: gấp đôi phụ âm n." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "My brother enjoys ___ video games.", "options": ["play", "to play", "playing", "played"], "answer": 2, "explain": "Enjoy + V-ing." },
+      { "type": "mcq", "q": "She hates ___ up early on Mondays.", "options": ["getting", "get", "got", "gets"], "answer": 0, "explain": "Hate + V-ing: getting." },
+      { "type": "mcq", "q": "I don't mind ___ for you.", "options": ["wait", "to waiting", "waited", "waiting"], "answer": 3, "explain": "Don't mind + V-ing." },
+      { "type": "mcq", "q": "They love ___ in the sea.", "options": ["to swimming", "swimming", "swimmed", "swimm"], "answer": 1, "explain": "Swim → swimming (gấp đôi m)." },
+      { "type": "gap", "q": "He likes ___ books before bed. (read)", "answer": ["reading"], "explain": "Like + V-ing." },
+      { "type": "gap", "q": "We enjoy ___ in the park. (run)", "answer": ["running"], "explain": "Run → running." },
+      { "type": "order", "words": ["I", "dancing", "love", "to", "music"], "answer": "I love dancing to music.", "vi": "Tôi thích nhảy theo nhạc.", "explain": "S + love + V-ing + ..." },
+      { "type": "order", "words": ["does", "What", "enjoy", "he", "doing"], "answer": "What does he enjoy doing?", "vi": "Anh ấy thích làm gì?", "explain": "What + does + S + enjoy + V-ing?" }
+    ]
+  },
+  {
+    "id": "en-a2-too-enough",
+    "level": "A2",
+    "title": "Too và enough",
+    "title_native": "Too / enough",
+    "summary_vi": "Too = quá (nhiều/ít so với mức cần thiết); enough = đủ.",
+    "formula": ["too + adj/adv (+ to V)", "adj/adv + enough (+ to V)", "enough + danh từ"],
+    "explain_vi": "**Too** nghĩa là \"quá\", mang nghĩa tiêu cực: nhiều hơn mức cho phép hoặc mức mình muốn. Cấu trúc: **too + tính từ/trạng từ**. The soup is too hot. (Súp nóng quá, không ăn được.)\n\nCó thể thêm **to + V** để nói rõ hậu quả: It's too cold to swim. (Lạnh quá nên không thể bơi.)\n\n**Enough** nghĩa là \"đủ\":\n- Với tính từ/trạng từ, enough **đứng sau**: She is old enough to drive. He doesn't run fast enough.\n- Với danh từ, enough **đứng trước**: We have enough chairs. I don't have enough time.\n\nPhủ định của enough = \"không đủ\": This room isn't big enough.\n\nĐừng nhầm **too** với **very**: very chỉ nhấn mạnh (very hot: rất nóng, vẫn có thể ăn được), còn too nói quá mức, thường gây vấn đề. Đừng nhầm too với **too much/too many** dùng cho danh từ: too much noise, too many people.\n\nTiếng Việt nói \"quá\" đứng sau tính từ (nóng quá), tiếng Anh thì too đứng trước (too hot). Chú ý vị trí khác nhau của enough: sau tính từ nhưng trước danh từ.",
+    "examples": [
+      { "t": "This bag is too heavy for me.", "vi": "Cái túi này nặng quá đối với tôi." },
+      { "t": "It's too late to call her now.", "vi": "Bây giờ gọi cho cô ấy thì muộn quá rồi." },
+      { "t": "He is tall enough to touch the ceiling.", "vi": "Anh ấy đủ cao để chạm trần nhà." },
+      { "t": "We don't have enough money to buy a car.", "vi": "Chúng tôi không đủ tiền mua ô tô." },
+      { "t": "The tea isn't sweet enough.", "vi": "Trà chưa đủ ngọt." },
+      { "t": "She speaks too fast for me to understand.", "vi": "Cô ấy nói nhanh quá, tôi không hiểu kịp." }
+    ],
+    "mistakes": [
+      { "wrong": "The water is enough hot.", "right": "The water is hot enough.", "note_vi": "Enough đứng sau tính từ." },
+      { "wrong": "I have enough of time.", "right": "I have enough time.", "note_vi": "Enough đứng trước danh từ và không cần of." },
+      { "wrong": "The coffee is hot too.", "right": "The coffee is too hot.", "note_vi": "Too (quá) phải đứng trước tính từ; too ở cuối câu có nghĩa là \"cũng\"." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "I can't eat this soup. It's ___ hot.", "options": ["enough", "too", "very enough", "so much"], "answer": 1, "explain": "Quá nóng không ăn được: too hot." },
+      { "type": "mcq", "q": "He isn't ___ to join the army.", "options": ["enough old", "too old enough", "old enough", "old too"], "answer": 2, "explain": "Enough đứng sau tính từ: old enough." },
+      { "type": "mcq", "q": "We don't have ___ chairs for everyone.", "options": ["too", "chairs enough", "enough", "enough of"], "answer": 2, "explain": "Enough đứng trước danh từ: enough chairs." },
+      { "type": "mcq", "q": "It's ___ cold to go swimming today.", "options": ["enough", "too much", "very enough", "too"], "answer": 3, "explain": "Too + adj + to V." },
+      { "type": "gap", "q": "She isn't ___ to reach the shelf. (tall)", "answer": ["tall enough"], "explain": "Adj + enough." },
+      { "type": "gap", "q": "I can't buy it. It's ___ expensive. (too / enough)", "answer": ["too"], "explain": "Too + adj = quá đắt." },
+      { "type": "order", "words": ["too", "The", "is", "box", "heavy", "to", "carry"], "answer": "The box is too heavy to carry.", "vi": "Cái hộp nặng quá không mang nổi.", "explain": "S + be + too + adj + to V." },
+      { "type": "order", "words": ["enough", "have", "We", "time", "don't"], "answer": "We don't have enough time.", "vi": "Chúng tôi không có đủ thời gian.", "explain": "Enough đứng trước danh từ time." }
+    ]
+  },
+  {
+    "id": "en-a2-want-to-enjoy-ing",
+    "level": "A2",
+    "title": "Want to vs enjoy V-ing",
+    "title_native": "Verb + to V / V-ing",
+    "summary_vi": "Một số động từ đi với to + V (want, need, hope, decide, plan), số khác đi với V-ing (enjoy, finish, avoid, keep).",
+    "formula": ["want/need/hope/decide/plan/would like + to + V", "enjoy/finish/avoid/keep/stop + V-ing", "S + want + O + to + V"],
+    "explain_vi": "Khi hai động từ đứng cạnh nhau, động từ thứ hai có dạng phụ thuộc vào động từ đứng trước. Ở trình độ A2, hãy nhớ hai nhóm chính.\n\n**Nhóm + to V (nguyên mẫu có to)**: want, need, hope, decide, plan, would like, learn, promise, agree, try. Ví dụ: I want to buy a new bike. She decided to study abroad. I would like to order a coffee.\n\n**Nhóm + V-ing**: enjoy, finish, avoid, keep, stop, mind, practise, suggest. Ví dụ: He enjoys cooking. She finished doing her homework. Please keep trying.\n\nVới **want**, có thể thêm người: I want **you** to help me. (Tôi muốn bạn giúp tôi.) Không nói I want that you help.\n\nPhủ định: thêm not trước to: I decided **not to go**. Với V-ing thì thêm not trước động từ chính: I don't enjoy driving.\n\nTiếng Việt không chia động từ nên khó cảm nhận, hãy học theo cặp: **want to, need to, hope to, decide to** và **enjoy -ing, finish -ing**. Khi gặp động từ mới, nên học luôn dạng đi kèm.",
+    "examples": [
+      { "t": "I want to learn how to swim.", "vi": "Tôi muốn học bơi." },
+      { "t": "She needs to buy some milk.", "vi": "Cô ấy cần mua ít sữa." },
+      { "t": "We decided to take a taxi.", "vi": "Chúng tôi quyết định đi taxi." },
+      { "t": "He enjoys watching old films.", "vi": "Anh ấy thích xem phim cũ." },
+      { "t": "They finished painting the room at noon.", "vi": "Họ sơn xong căn phòng vào buổi trưa." },
+      { "t": "My mother wants me to study harder.", "vi": "Mẹ muốn tôi học chăm chỉ hơn." }
+    ],
+    "mistakes": [
+      { "wrong": "I want going home.", "right": "I want to go home.", "note_vi": "Want + to V, không dùng V-ing." },
+      { "wrong": "She enjoys to dance.", "right": "She enjoys dancing.", "note_vi": "Enjoy chỉ đi với V-ing." },
+      { "wrong": "I want that you come.", "right": "I want you to come.", "note_vi": "Want + người + to V; không dùng mệnh đề that." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "I want ___ a doctor in the future.", "options": ["being", "be", "to be", "been"], "answer": 2, "explain": "Want + to V." },
+      { "type": "mcq", "q": "He enjoys ___ with his friends.", "options": ["talk", "talking", "to talk", "talked"], "answer": 1, "explain": "Enjoy + V-ing." },
+      { "type": "mcq", "q": "We have finished ___ the report.", "options": ["to write", "write", "wrote", "writing"], "answer": 3, "explain": "Finish + V-ing." },
+      { "type": "mcq", "q": "She decided ___ a new job.", "options": ["to look for", "looking for", "look for", "looks for"], "answer": 0, "explain": "Decide + to V." },
+      { "type": "gap", "q": "I hope ___ you again soon. (see)", "answer": ["to see"], "explain": "Hope + to V." },
+      { "type": "gap", "q": "They avoid ___ in the rain. (walk)", "answer": ["walking"], "explain": "Avoid + V-ing." },
+      { "type": "order", "words": ["to", "I", "want", "a", "buy", "new", "phone"], "answer": "I want to buy a new phone.", "vi": "Tôi muốn mua một chiếc điện thoại mới.", "explain": "S + want + to V + tân ngữ." },
+      { "type": "order", "words": ["enjoys", "She", "cooking", "dinner", "for", "us"], "answer": "She enjoys cooking dinner for us.", "vi": "Cô ấy thích nấu bữa tối cho chúng tôi.", "explain": "S + enjoys + V-ing + tân ngữ." }
+    ]
+  },
+  {
+    "id": "en-a2-first-conditional",
+    "level": "A2",
+    "title": "Câu điều kiện loại 1",
+    "title_native": "First conditional",
+    "summary_vi": "Nói về điều kiện có thể xảy ra ở tương lai và kết quả của nó: If + hiện tại đơn, will + V.",
+    "formula": ["If + S + V (hiện tại đơn), S + will + V", "S + will + V + if + S + V (hiện tại đơn)", "If + S + don't/doesn't + V, S + won't + V"],
+    "explain_vi": "**Câu điều kiện loại 1** nói về một điều kiện **có thể xảy ra** trong tương lai và kết quả của nó. Nếu điều kiện thật sự xảy ra thì kết quả cũng sẽ xảy ra.\n\nCấu trúc: **If + hiện tại đơn, will + động từ nguyên mẫu.**\nIf it rains tomorrow, we will stay at home. (Nếu ngày mai trời mưa, chúng tôi sẽ ở nhà.)\n\nĐiểm quan trọng nhất: mệnh đề **If** dùng **hiện tại đơn**, KHÔNG dùng will, dù nghĩa là tương lai. Không nói If it will rain. Mệnh đề chính mới dùng will.\n\nCó thể đảo vị trí hai mệnh đề. Khi mệnh đề If đứng đầu thì có dấu phẩy: If you study hard, you will pass. Khi mệnh đề If đứng sau thì không cần phẩy: You will pass if you study hard.\n\nPhủ định: If you don't hurry, you will miss the bus. Hoặc: unless (nếu không) = if ... not: Unless you hurry = If you don't hurry.\n\nTiếng Việt \"nếu... thì...\" không đổi dạng động từ, còn tiếng Anh phải dùng hiện tại đơn sau if và will ở vế kết quả.",
+    "examples": [
+      { "t": "If it rains tomorrow, we will stay at home.", "vi": "Nếu ngày mai trời mưa, chúng tôi sẽ ở nhà." },
+      { "t": "If you study hard, you will pass the exam.", "vi": "Nếu bạn học chăm, bạn sẽ đỗ kỳ thi." },
+      { "t": "She will be angry if you are late.", "vi": "Cô ấy sẽ giận nếu bạn đến muộn." },
+      { "t": "If I see him, I will tell him the news.", "vi": "Nếu gặp anh ấy, tôi sẽ báo tin cho anh ấy." },
+      { "t": "If you don't hurry, you will miss the bus.", "vi": "Nếu bạn không nhanh lên, bạn sẽ lỡ xe buýt." },
+      { "t": "We won't go to the beach if the weather is bad.", "vi": "Chúng tôi sẽ không đi biển nếu thời tiết xấu." }
+    ],
+    "mistakes": [
+      { "wrong": "If it will rain, I will stay at home.", "right": "If it rains, I will stay at home.", "note_vi": "Mệnh đề If dùng hiện tại đơn, không dùng will." },
+      { "wrong": "If you will help me, I will thank you.", "right": "If you help me, I will thank you.", "note_vi": "Giống lỗi trên: bỏ will ở mệnh đề If." },
+      { "wrong": "If I will have time, I call you.", "right": "If I have time, I will call you.", "note_vi": "If + hiện tại đơn; vế kết quả dùng will + V." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "If it ___ tomorrow, we will cancel the picnic.", "options": ["will rain", "rains", "rained", "raining"], "answer": 1, "explain": "Mệnh đề If dùng hiện tại đơn: rains." },
+      { "type": "mcq", "q": "If you study hard, you ___ the exam.", "options": ["pass", "passed", "will pass", "would passed"], "answer": 2, "explain": "Vế kết quả dùng will + V." },
+      { "type": "mcq", "q": "She ___ be late if she doesn't leave now.", "options": ["will", "is", "does", "would to"], "answer": 0, "explain": "Kết quả ở tương lai: will be late." },
+      { "type": "mcq", "q": "If we ___ the bus, we will take a taxi.", "options": ["will miss", "missed", "miss", "missing"], "answer": 2, "explain": "If + hiện tại đơn: miss." },
+      { "type": "gap", "q": "If I ___ time tomorrow, I will call you. (have)", "answer": ["have"], "explain": "Mệnh đề If dùng hiện tại đơn." },
+      { "type": "gap", "q": "If you don't hurry, you ___ the train. (miss)", "answer": ["will miss", "'ll miss"], "explain": "Kết quả: will + V." },
+      { "type": "order", "words": ["will", "If", "we", "rains", "it", "stay", "home"], "answer": "If it rains we will stay home.", "vi": "Nếu trời mưa, chúng tôi sẽ ở nhà.", "explain": "If + hiện tại đơn, will + V." },
+      { "type": "order", "words": ["pass", "You", "you", "if", "will", "study", "hard"], "answer": "You will pass if you study hard.", "vi": "Bạn sẽ đỗ nếu bạn học chăm.", "explain": "Mệnh đề chính trước, If sau (không cần dấu phẩy)." }
+    ]
+  }
+]

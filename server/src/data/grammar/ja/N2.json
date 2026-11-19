@@ -1,0 +1,427 @@
+[
+  {
+    "id": "ja-n2-wake-ni-wa-ikanai",
+    "level": "N2",
+    "title": "Không thể (vì lý do hoàn cảnh)",
+    "title_native": "〜わけにはいかない",
+    "summary_vi": "Diễn tả việc về mặt đạo lý, trách nhiệm, hoàn cảnh nên không thể làm được dù có thể muốn làm.",
+    "formula": ["V辞書形 + わけにはいかない", "Vない形 + わけにはいかない（không thể không ~）", "Vます形 → V辞書形 + わけにはいきません"],
+    "explain_vi": "**〜わけにはいかない** nghĩa là 「không thể ~」, nhưng không phải vì thiếu năng lực mà vì **lý do bên ngoài**: trách nhiệm, luật lệ, lễ nghi, quan hệ giữa người với người, hoàn cảnh hiện tại. Người nói thường rất muốn làm, hoặc thấy làm cũng được, nhưng 「làm vậy thì không ổn」.\n\nVí dụ lái xe thì 「お酒を飲むわけにはいかない」: không phải không uống được, mà uống thì vi phạm luật và nguy hiểm. Còn 「泳ぐことができない」 là không biết bơi (khả năng). Hai cái này đừng nhầm.\n\n**Cách nối:** động từ thể từ điển + わけにはいかない. Với **thể ない**, ta có 〜ないわけにはいかない = 「không thể không ~」, tức là bắt buộc phải làm. Ví dụ 「行かないわけにはいかない」 = nhất định phải đi. Vì là phủ định kép nên nghĩa thành khẳng định mạnh.\n\nLịch sự thì dùng 〜わけにはいきません. Mẫu này hay đi với những câu có lý do: 〜ので / 〜から / 〜ている以上. Lưu ý: không dùng cho khả năng thuần túy hay sức khỏe (ví dụ bị sốt nên không đi nổi thì nói 行けない).",
+    "examples": [
+      { "t": "明日は試験があるので、今夜は遅くまで遊ぶわけにはいかない。", "r": "あしたはしけんがあるので、こんやはおそくまであそぶわけにはいかない。", "vi": "Mai có kỳ thi nên tối nay không thể chơi đến khuya." },
+      { "t": "友達の結婚式だから、行かないわけにはいかない。", "r": "ともだちのけっこんしきだから、いかないわけにはいかない。", "vi": "Vì là đám cưới của bạn nên không thể không đi." },
+      { "t": "車で来たので、お酒を飲むわけにはいきません。", "r": "くるまできたので、おさけをのむわけにはいきません。", "vi": "Vì tôi đi xe đến nên không thể uống rượu." },
+      { "t": "上司の頼みだから、断るわけにはいかない。", "r": "じょうしのたのみだから、ことわるわけにはいかない。", "vi": "Là nhờ vả của sếp nên không thể từ chối." },
+      { "t": "大切なお客様の前で、失敗するわけにはいかない。", "r": "たいせつなおきゃくさまのまえで、しっぱいするわけにはいかない。", "vi": "Trước mặt khách quan trọng thì không thể để thất bại." }
+    ],
+    "mistakes": [
+      { "wrong": "私は泳ぐわけにはいかない。", "right": "私は泳ぐことができない。", "note_vi": "Không biết bơi là vấn đề năng lực, phải dùng ことができない / 泳げない. わけにはいかない chỉ dùng khi có lý do hoàn cảnh, đạo lý." },
+      { "wrong": "熱があるので、休むわけにはいかない。（ý: sốt nên phải nghỉ）", "right": "熱があるので、休まないわけにはいかない。", "note_vi": "休むわけにはいかない nghĩa là KHÔNG thể nghỉ. Muốn nói bắt buộc phải nghỉ thì dùng ない形: 休まないわけにはいかない." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "今日は大事な会議があるので、休む___。（không thể nghỉ）", "options": ["わけがない", "わけにはいかない", "ことはない", "ようにする"], "answer": 1, "explain": "Không thể nghỉ vì lý do hoàn cảnh (có cuộc họp quan trọng) là 〜わけにはいかない." },
+      { "type": "mcq", "q": "約束したのだから、行かない___。（không thể không đi）", "options": ["ことはない", "わけではない", "ものではない", "わけにはいかない"], "answer": 3, "explain": "行かないわけにはいかない = không thể không đi, tức là phải đi." },
+      { "type": "mcq", "q": "運転するので、お酒を___わけにはいかない。", "options": ["飲んで", "飲み", "飲む", "飲んだ"], "answer": 2, "explain": "わけにはいかない đi với động từ thể từ điển (hoặc thể ない)." },
+      { "type": "gap", "q": "仕事が終わっていないから、まだ帰る___。", "answer": ["わけにはいかない", "わけにはいきません"], "explain": "Công việc chưa xong nên không thể về: 帰るわけにはいかない." },
+      { "type": "gap", "q": "医者に言われたので、薬を飲ま___わけにはいかない。", "answer": ["ない"], "explain": "Không thể không uống thuốc: 飲まないわけにはいかない (thể ない + わけにはいかない)." },
+      { "type": "gap", "q": "お客様の前で、失礼なことをする___。（lịch sự）", "answer": ["わけにはいきません"], "explain": "Dạng lịch sự là わけにはいきません." },
+      { "type": "order", "words": ["休む", "いかない", "今日は", "わけには"], "answer": "今日は休むわけにはいかない。", "vi": "Hôm nay không thể nghỉ.", "explain": "Chủ đề + V辞書形 + わけにはいかない." },
+      { "type": "order", "words": ["行かない", "約束したから", "いかない", "わけには"], "answer": "約束したから、行かないわけにはいかない。", "vi": "Vì đã hứa nên không thể không đi.", "explain": "Lý do + Vない + わけにはいかない = bắt buộc phải làm." }
+    ]
+  },
+  {
+    "id": "ja-n2-ni-chigainai",
+    "level": "N2",
+    "title": "Chắc chắn là, không sai được",
+    "title_native": "〜に違いない",
+    "summary_vi": "Người nói tin chắc điều gì đó là đúng dựa trên căn cứ, mạnh hơn かもしれない.",
+    "formula": ["V・Aい（thể thường）+ に違いない", "Aな語幹 / N + に違いない（không có だ）"],
+    "explain_vi": "**〜に違いない** dùng khi người nói **tin chắc** vào một suy đoán, thường dựa trên bằng chứng hoặc kinh nghiệm: 「chắc chắn là ~, không thể sai được」. Mức độ chắc chắn: かもしれない (có thể) < だろう < にちがいない (rất chắc). Nghĩa gần với はずだ, nhưng はずだ dựa trên lý lẽ, tính toán khách quan còn にちがいない dựa trên trực giác và phán đoán chủ quan của người nói.\n\n**Cách nối:**\n- Động từ, tính từ い: thể thường (行く / 行った / 高い / 高かった) + に違いない.\n- Tính từ な và danh từ: **bỏ だ**, nối thẳng: 日本人に違いない, 上手に違いない (không nói 日本人だに違いない).\n\nMẫu này thường đi với きっと, 絶対 để nhấn mạnh. Vì là suy đoán của người nói, nên **không dùng cho ý chí hay hành động của chính mình** (không nói 私は明日行くに違いない). Cũng không dùng để nói sự thật đã biết rõ. Dạng lịch sự hay gặp: 〜に違いありません; trong văn nói thân mật có thể rút gọn thành 〜に決まっている.",
+    "examples": [
+      { "t": "電気がついているから、彼は家にいるに違いない。", "r": "でんきがついているから、かれはいえにいるにちがいない。", "vi": "Đèn đang sáng nên chắc chắn anh ấy ở nhà." },
+      { "t": "あの店はいつも行列だから、きっとおいしいに違いない。", "r": "あのみせはいつもぎょうれつだから、きっとおいしいにちがいない。", "vi": "Quán đó lúc nào cũng xếp hàng nên chắc chắn ngon." },
+      { "t": "この字は田中さんが書いたに違いない。", "r": "このじはたなかさんがかいたにちがいない。", "vi": "Chữ này chắc chắn là anh Tanaka viết." },
+      { "t": "彼女はきっとピアノが上手に違いない。", "r": "かのじょはきっとピアノがじょうずにちがいない。", "vi": "Cô ấy chắc chắn chơi piano giỏi." },
+      { "t": "彼の日本語は完璧だから、日本人に違いない。", "r": "かれのにほんごはかんぺきだから、にほんじんにちがいない。", "vi": "Tiếng Nhật của anh ấy hoàn hảo nên chắc chắn là người Nhật." }
+    ],
+    "mistakes": [
+      { "wrong": "彼は学生だに違いない。", "right": "彼は学生に違いない。", "note_vi": "Với danh từ và tính từ な phải bỏ だ trước に違いない." },
+      { "wrong": "私は明日行くに違いない。", "right": "私は明日行くつもりだ。", "note_vi": "に違いない là suy đoán về người/sự việc khác, không dùng để nói ý định của chính mình." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "彼は毎日練習しているから、試合に勝つ___。", "options": ["ことはない", "に違いない", "ものだ", "わけにはいかない"], "answer": 1, "explain": "Suy đoán chắc chắn dựa trên căn cứ (luyện tập mỗi ngày): に違いない." },
+      { "type": "mcq", "q": "あの人は日本人___。（chắc chắn là người Nhật）", "options": ["だに違いない", "でに違いない", "に違いない", "なに違いない"], "answer": 2, "explain": "Danh từ + に違いない, không có だ." },
+      { "type": "mcq", "q": "彼女は泣いている。きっと悲しい___。", "options": ["ばかりか", "わけにはいかない", "ことはない", "に違いない"], "answer": 3, "explain": "Tính từ い thể thường + に違いない." },
+      { "type": "gap", "q": "この問題は子どもには難しい___。", "answer": ["に違いない", "にちがいない"], "explain": "Tính từ い + に違いない." },
+      { "type": "gap", "q": "この絵は有名な画家が描いた___違いない。", "answer": ["に"], "explain": "Mẫu cố định là に違いない." },
+      { "type": "gap", "q": "あんなに勉強したのだから、合格し___に違いない。", "answer": ["た"], "explain": "Suy đoán về việc đã xảy ra: V thể た + に違いない." },
+      { "type": "order", "words": ["彼は", "に違いない", "きっと", "来る"], "answer": "きっと彼は来るに違いない。", "vi": "Chắc chắn anh ấy sẽ đến.", "explain": "きっと + chủ ngữ + V辞書形 + に違いない." },
+      { "type": "order", "words": ["学生に", "あの人は", "違いない"], "answer": "あの人は学生に違いない。", "vi": "Người đó chắc chắn là học sinh.", "explain": "Danh từ 学生 + に違いない (không có だ)." }
+    ]
+  },
+  {
+    "id": "ja-n2-okage-sei",
+    "level": "N2",
+    "title": "Nhờ có / Tại vì",
+    "title_native": "〜おかげで / 〜せいで",
+    "summary_vi": "おかげで: nguyên nhân dẫn tới kết quả tốt (biết ơn). せいで: nguyên nhân dẫn tới kết quả xấu (đổ lỗi).",
+    "formula": ["V・Aい（thể thường）+ おかげで / せいで", "Aな + な + おかげで / せいで", "N + の + おかげで / せいで"],
+    "explain_vi": "Cả hai đều chỉ **nguyên nhân** của một kết quả đã xảy ra, khác nhau ở **đánh giá của người nói**.\n\n**〜おかげで**: kết quả **tốt**, người nói **biết ơn** nguyên nhân đó. 「先生のおかげで合格できました」 = nhờ thầy mà tôi đã đỗ. Đôi khi dùng mỉa mai khi kết quả xấu (あなたのおかげで失敗した), nhưng đó là cách nói châm biếm.\n\n**〜せいで**: kết quả **xấu**, người nói **đổ lỗi / than phiền**. 「雨のせいで試合が中止になった」 = tại mưa mà trận đấu bị hủy. Có thể rút gọn 〜せいだ / 〜せいか (không biết có phải do ~ không).\n\n**Cách nối:** động từ, tính từ い ở thể thường (quá khứ cũng được); tính từ な thêm **な**; danh từ thêm **の**: 元気なおかげで, 風邪のせいで. Phần sau thường là kết quả đã xảy ra, không phải ý chí hay mệnh lệnh.\n\nNhớ nhanh: おかげ = ơn (tốt), せい = lỗi (xấu). Đừng nhầm với 〜ために (trung tính, chỉ nêu nguyên nhân) hay 〜からこそ (nhấn mạnh lý do).",
+    "examples": [
+      { "t": "先生が教えてくれたおかげで、試験に合格できました。", "r": "せんせいがおしえてくれたおかげで、しけんにごうかくできました。", "vi": "Nhờ thầy dạy mà tôi đã đỗ kỳ thi." },
+      { "t": "友達が手伝ってくれたおかげで、早く終わった。", "r": "ともだちがてつだってくれたおかげで、はやくおわった。", "vi": "Nhờ bạn giúp mà xong sớm." },
+      { "t": "雨のせいで、試合が中止になった。", "r": "あめのせいで、しあいがちゅうしになった。", "vi": "Tại mưa mà trận đấu bị hủy." },
+      { "t": "寝坊したせいで、電車に乗り遅れた。", "r": "ねぼうしたせいで、でんしゃにのりおくれた。", "vi": "Tại ngủ quên mà tôi lỡ tàu." },
+      { "t": "彼が元気なおかげで、みんなも明るい気持ちになる。", "r": "かれがげんきなおかげで、みんなもあかるいきもちになる。", "vi": "Nhờ anh ấy khỏe khoắn mà mọi người cũng vui lây." }
+    ],
+    "mistakes": [
+      { "wrong": "雨のおかげで、試合が中止になった。", "right": "雨のせいで、試合が中止になった。", "note_vi": "Kết quả xấu (trận đấu bị hủy) thì dùng せいで, おかげで chỉ dùng khi biết ơn." },
+      { "wrong": "先生のせいで、合格できました。", "right": "先生のおかげで、合格できました。", "note_vi": "Muốn cảm ơn thì dùng おかげで; dùng せいで sẽ nghe như đang trách thầy." },
+      { "wrong": "彼女が親切のおかげで、助かった。", "right": "彼女が親切なおかげで、助かった。", "note_vi": "Tính từ な phải thêm な trước おかげで (danh từ mới dùng の)." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "先生が丁寧に教えてくれた___、日本語が上手になりました。", "options": ["せいで", "おかげで", "どころか", "ことで"], "answer": 1, "explain": "Kết quả tốt, biết ơn thầy: おかげで." },
+      { "type": "mcq", "q": "電車が遅れた___、会議に間に合わなかった。", "options": ["おかげで", "ことで", "せいで", "ように"], "answer": 2, "explain": "Kết quả xấu (trễ họp) nên dùng せいで." },
+      { "type": "mcq", "q": "天気が___おかげで、運動会は成功した。", "options": ["いい", "いいな", "いいの", "いかった"], "answer": 0, "explain": "Tính từ い thể thường (いい) + おかげで." },
+      { "type": "gap", "q": "薬を飲んだ___、熱が下がりました。（biết ơn）", "answer": ["おかげで"], "explain": "Kết quả tốt: おかげで." },
+      { "type": "gap", "q": "風邪を引いた___、旅行に行けなかった。", "answer": ["せいで"], "explain": "Kết quả xấu: せいで." },
+      { "type": "gap", "q": "彼女が親切___おかげで、道に迷わずに済んだ。", "answer": ["な"], "explain": "Tính từ な + な + おかげで." },
+      { "type": "order", "words": ["合格できた", "おかげで", "みんなの"], "answer": "みんなのおかげで合格できた。", "vi": "Nhờ mọi người mà tôi đã đỗ.", "explain": "N + の + おかげで + kết quả." },
+      { "type": "order", "words": ["試合が", "せいで", "なった", "雨の", "中止に"], "answer": "雨のせいで試合が中止になった。", "vi": "Tại mưa mà trận đấu bị hủy.", "explain": "N + の + せいで + kết quả xấu." }
+    ]
+  },
+  {
+    "id": "ja-n2-ippou-da",
+    "level": "N2",
+    "title": "Ngày càng (chỉ một chiều)",
+    "title_native": "〜一方だ",
+    "summary_vi": "Tình trạng liên tục thay đổi theo một hướng, ngày càng ~ (thường là hướng xấu).",
+    "formula": ["V辞書形 + 一方だ", "例：増える一方だ / 悪くなる一方だ"],
+    "explain_vi": "**〜一方だ** (いっぽうだ) diễn tả một sự thay đổi **cứ tiếp tục theo một hướng**, không dừng và không quay lại: 「ngày càng ~」, 「chỉ có ~ thêm」. Thường dùng cho xu hướng **tiêu cực hoặc đáng lo** như giá cả tăng, dân số giảm, bệnh nặng thêm; dùng cho chuyện tốt thì ít tự nhiên hơn.\n\n**Cách nối:** động từ **thể từ điển** + 一方だ. Động từ phải là loại chỉ **biến đổi**: 増える, 減る, 上がる, 下がる, 悪くなる, 広がる... Không nối trực tiếp với tính từ (nói 高くなる一方だ, không nói 高い一方だ). Không dùng thể た (上がった一方だ là sai).\n\nCách nói lịch sự: 〜一方です. Thường đi kèm danh từ chỉ đại lượng như 物価, 人口, 借金, 景気.\n\n**Cẩn thận:** 〜一方で (có で) lại là cấu trúc khác, nghĩa là 「mặt khác, trong khi」 để đối chiếu hai mặt: 「彼は優しい一方で、厳しいところもある」. Đừng nhầm hai mẫu này. Gần nghĩa với 〜ばかりだ (cũng là chiều xấu đi) và 〜つつある (đang dần dần thay đổi).",
+    "examples": [
+      { "t": "物価は上がる一方だ。", "r": "ぶっかはあがるいっぽうだ。", "vi": "Giá cả chỉ có tăng lên mãi." },
+      { "t": "都市の人口は増える一方です。", "r": "としのじんこうはふえるいっぽうです。", "vi": "Dân số thành phố cứ ngày càng tăng." },
+      { "t": "病気は悪くなる一方だ。", "r": "びょうきはわるくなるいっぽうだ。", "vi": "Bệnh cứ ngày càng nặng thêm." },
+      { "t": "日本の若者の数は減る一方だ。", "r": "にほんのわかもののかずはへるいっぽうだ。", "vi": "Số lượng thanh niên Nhật cứ giảm dần." },
+      { "t": "彼の借金は増える一方だ。", "r": "かれのしゃっきんはふえるいっぽうだ。", "vi": "Khoản nợ của anh ấy chỉ có tăng thêm." }
+    ],
+    "mistakes": [
+      { "wrong": "物価は高い一方だ。", "right": "物価は高くなる一方だ。", "note_vi": "一方だ đi với động từ thể từ điển chỉ sự biến đổi, không nối thẳng với tính từ." },
+      { "wrong": "物価は上がった一方だ。", "right": "物価は上がる一方だ。", "note_vi": "Phải dùng thể từ điển, không dùng thể た." },
+      { "wrong": "彼は優しい一方だ。（ý: mặt khác thì nghiêm khắc）", "right": "彼は優しい一方で、厳しいところもある。", "note_vi": "Muốn đối chiếu hai mặt phải dùng 一方で (có で), đó là mẫu khác." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "景気は悪くなる___。", "options": ["ことはない", "わけだ", "一方だ", "ばかりか"], "answer": 2, "explain": "Xu hướng xấu đi liên tục: V辞書形 + 一方だ." },
+      { "type": "mcq", "q": "最近、地球の気温は上がる___。（ngày càng tăng）", "options": ["ことにする", "一方だ", "わけがない", "ものだから"], "answer": 1, "explain": "Chiều hướng liên tục tăng: 上がる一方だ." },
+      { "type": "mcq", "q": "彼の借金は増え___一方だ。", "options": ["る", "た", "ない", "ている"], "answer": 0, "explain": "Phải dùng thể từ điển 増える trước 一方だ." },
+      { "type": "gap", "q": "病気は悪くなる___。", "answer": ["一方だ", "一方です"], "explain": "V辞書形 + 一方だ." },
+      { "type": "gap", "q": "物価は上がる一方___。（lịch sự）", "answer": ["です"], "explain": "Dạng lịch sự là 一方です." },
+      { "type": "gap", "q": "日本の子どもの数は減る___だ。", "answer": ["一方"], "explain": "Mẫu là 〜一方だ." },
+      { "type": "order", "words": ["上がる", "物価は", "一方だ"], "answer": "物価は上がる一方だ。", "vi": "Giá cả chỉ có tăng.", "explain": "Danh từ + は + V辞書形 + 一方だ." },
+      { "type": "order", "words": ["増える", "一方です", "都市の", "人口は"], "answer": "都市の人口は増える一方です。", "vi": "Dân số thành phố cứ tăng mãi.", "explain": "都市の人口は + 増える + 一方です." }
+    ]
+  },
+  {
+    "id": "ja-n2-tsutsu-aru",
+    "level": "N2",
+    "title": "Đang dần dần (thay đổi)",
+    "title_native": "〜つつある",
+    "summary_vi": "Một sự thay đổi đang tiến triển từng chút một, thường dùng trong văn viết, tin tức.",
+    "formula": ["Vます形（bỏ ます）+ つつある", "例：変わりつつある / 増えつつある"],
+    "explain_vi": "**〜つつある** diễn tả một **quá trình biến đổi đang diễn ra và tiến dần** theo một hướng: 「đang dần dần ~」. Đây là cách nói hơi cứng, hay gặp trong tin tức, báo cáo, bài viết.\n\n**Cách nối:** động từ **thể ます bỏ ます** + つつある (変わります → 変わりつつある).\n\nĐiểm quan trọng: chỉ dùng với động từ chỉ **sự biến đổi, tiến triển** như 変わる, 増える, 減る, 近づく, 広がる, 失われる, 回復する. **Không dùng** cho hành động thông thường như 食べる, 走る, 読む. Muốn nói 「đang ăn」 phải dùng 〜ている (食べている), không nói 食べつつある.\n\nSo với 〜ている: 〜ている chỉ trạng thái đang diễn ra nói chung, còn 〜つつある nhấn mạnh **xu hướng thay đổi từng bước** (thấy rõ sự chuyển dịch). So với 〜一方だ: 〜一方だ nhấn mạnh chiều hướng cứ tăng/giảm mãi (thường xấu), còn 〜つつある trung tính, có thể tích cực (回復しつつある).\n\nLưu ý: 〜つつ (không có ある) lại có nghĩa 「vừa ~ vừa」, giống ながら, là mẫu khác.",
+    "examples": [
+      { "t": "地球の環境は少しずつ変わりつつある。", "r": "ちきゅうのかんきょうはすこしずつかわりつつある。", "vi": "Môi trường Trái Đất đang dần dần thay đổi." },
+      { "t": "日本では高齢者が増えつつある。", "r": "にほんではこうれいしゃがふえつつある。", "vi": "Ở Nhật số người cao tuổi đang dần tăng lên." },
+      { "t": "景気は回復しつつあると言われている。", "r": "けいきはかいふくしつつあるといわれている。", "vi": "Người ta nói kinh tế đang dần phục hồi." },
+      { "t": "台風は日本に近づきつつある。", "r": "たいふうはにほんにちかづきつつある。", "vi": "Bão đang dần tiến gần Nhật Bản." },
+      { "t": "伝統的な文化が失われつつある。", "r": "でんとうてきなぶんかがうしなわれつつある。", "vi": "Văn hóa truyền thống đang dần mất đi." }
+    ],
+    "mistakes": [
+      { "wrong": "今、ご飯を食べつつある。", "right": "今、ご飯を食べている。", "note_vi": "つつある chỉ dùng cho sự biến đổi tiến triển, không dùng cho hành động thường ngày; dùng ている." },
+      { "wrong": "世の中は変わるつつある。", "right": "世の中は変わりつつある。", "note_vi": "Phải dùng thể ます bỏ ます (変わり), không dùng thể từ điển." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "地球の気温が___。", "options": ["上がりつつある", "上がるつつある", "上がってつつある", "上がったつつある"], "answer": 0, "explain": "Vます形 + つつある: 上がりつつある." },
+      { "type": "mcq", "q": "町の人口は少しずつ___つつある。", "options": ["減る", "減って", "減り", "減った"], "answer": 2, "explain": "Trước つつある là thể ます bỏ ます: 減り." },
+      { "type": "mcq", "q": "今、ご飯を___。（đang ăn）", "options": ["食べつつある", "食べている", "食べるところ", "食べたばかり"], "answer": 1, "explain": "Hành động thường ngày dùng 〜ている, không dùng つつある." },
+      { "type": "gap", "q": "景気は回復し___ある。", "answer": ["つつ"], "explain": "Mẫu là 〜つつある." },
+      { "type": "gap", "q": "台風が近づき___。", "answer": ["つつある"], "explain": "近づきつつある = đang dần tiến gần." },
+      { "type": "gap", "q": "日本では高齢者が___つつある。（増える）", "answer": ["増え"], "explain": "増える → 増え + つつある." },
+      { "type": "order", "words": ["環境は", "変わり", "つつある", "地球の"], "answer": "地球の環境は変わりつつある。", "vi": "Môi trường Trái Đất đang dần thay đổi.", "explain": "N + は + Vます形 + つつある." },
+      { "type": "order", "words": ["日本では", "増え", "高齢者が", "つつある"], "answer": "日本では高齢者が増えつつある。", "vi": "Ở Nhật người cao tuổi đang dần tăng.", "explain": "増え + つつある ở cuối câu." }
+    ]
+  },
+  {
+    "id": "ja-n2-monoda",
+    "level": "N2",
+    "title": "Hồi tưởng, lẽ thường, cảm thán",
+    "title_native": "〜ものだ",
+    "summary_vi": "Dùng để hồi tưởng thói quen xưa, nêu lẽ thường tình, hoặc bộc lộ cảm xúc mạnh.",
+    "formula": ["Vた + ものだ（hồi tưởng thói quen quá khứ）", "V辞書形 + ものだ / ものではない（lẽ thường, nên / không nên）", "Aい・Aな + ものだ / Vたい + ものだ（cảm thán, mong muốn）"],
+    "explain_vi": "**ものだ** có ba cách dùng chính, đều mang sắc thái 「điều này là lẽ tự nhiên, là cảm xúc sâu trong lòng」.\n\n**1. Hồi tưởng** (V thể た + ものだ): nhớ lại chuyện **lặp đi lặp lại** ở quá khứ, kèm cảm giác hoài niệm. 「子どものころ、よく川で泳いだものだ」 = hồi nhỏ tôi hay bơi ở sông lắm. Thường có よく, 毎日... Không dùng cho việc chỉ xảy ra một lần.\n\n**2. Lẽ thường, đạo lý** (V thể từ điển + ものだ): điều mà ai cũng thấy là đương nhiên. 「人は年を取ると体力が落ちるものだ」. Dạng phủ định 〜ものではない = 「không nên」: 人の悪口を言うものではない.\n\n**3. Cảm thán, mong muốn**: sau tính từ, hoặc 〜たい + ものだ: 「時間が経つのは早いものだ」, 「いつか旅行してみたいものだ」. Với tính từ な thì nối bằng **な**: 不思議なものだ. Với tính từ い thì nối thẳng, **không thêm の**: 早いものだ.\n\nVăn nói thân mật hay rút gọn thành ものだ → もんだ / ものよ. Đừng nhầm ものだ với ものか (phủ định mạnh, 「làm gì có chuyện ~」) hay ものの (mặc dù).",
+    "examples": [
+      { "t": "子どものころ、よく川で泳いだものだ。", "r": "こどものころ、よくかわでおよいだものだ。", "vi": "Hồi nhỏ tôi hay bơi ở sông lắm." },
+      { "t": "人は年を取ると、体力が落ちるものだ。", "r": "ひとはとしをとると、たいりょくがおちるものだ。", "vi": "Con người hễ có tuổi thì sức khỏe giảm đi là chuyện tự nhiên." },
+      { "t": "年上の人には敬語を使うものだ。", "r": "としうえのひとにはけいごをつかうものだ。", "vi": "Với người lớn tuổi thì phải dùng kính ngữ (lẽ thường)." },
+      { "t": "時間が経つのは早いものだ。", "r": "じかんがたつのははやいものだ。", "vi": "Thời gian trôi nhanh thật." },
+      { "t": "いつか世界中を旅行してみたいものだ。", "r": "いつかせかいじゅうをりょこうしてみたいものだ。", "vi": "Giá mà một ngày nào đó tôi được đi du lịch khắp thế giới." },
+      { "t": "人の悪口を言うものではない。", "r": "ひとのわるくちをいうものではない。", "vi": "Không nên nói xấu người khác." }
+    ],
+    "mistakes": [
+      { "wrong": "昨日、友達と遊んだものだ。", "right": "子どものころ、よく友達と遊んだものだ。", "note_vi": "〜たものだ chỉ dùng để hồi tưởng chuyện lặp lại trong quá khứ xa, không dùng cho việc xảy ra một lần như hôm qua." },
+      { "wrong": "時間が経つのは早いのものだ。", "right": "時間が経つのは早いものだ。", "note_vi": "Sau tính từ い không thêm の; tính từ な thì thêm な (不思議なものだ)." },
+      { "wrong": "人の悪口を言うものだ。（ý: không nên nói xấu）", "right": "人の悪口を言うものではない。", "note_vi": "Muốn nói 「không nên」 phải dùng dạng phủ định ものではない." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "子どものころ、夏休みには毎日海で泳いだ___。", "options": ["わけだ", "はずだ", "ものだ", "ものか"], "answer": 2, "explain": "Hồi tưởng thói quen xưa: Vた + ものだ." },
+      { "type": "mcq", "q": "人の悪口を言う___。（không nên nói xấu）", "options": ["ものだ", "ものではない", "ことはない", "わけにはいかない"], "answer": 1, "explain": "Lời khuyên 「không nên」: ものではない." },
+      { "type": "mcq", "q": "年を取ると、体力が落ちる___。（lẽ thường）", "options": ["ことはない", "ものではない", "わけがない", "ものだ"], "answer": 3, "explain": "Nêu lẽ thường tình: V辞書形 + ものだ." },
+      { "type": "gap", "q": "いつか富士山に登ってみたい___。", "answer": ["ものだ"], "explain": "Mong muốn, cảm thán: 〜たいものだ." },
+      { "type": "gap", "q": "時間が経つのは早い___だ。", "answer": ["もの"], "explain": "Tính từ い + ものだ, không thêm の." },
+      { "type": "gap", "q": "学生のころは、よく夜遅くまで友達と話した___。", "answer": ["ものだ"], "explain": "Hồi tưởng chuyện lặp lại: Vた + ものだ." },
+      { "type": "order", "words": ["早い", "ものだ", "経つのは", "時間が"], "answer": "時間が経つのは早いものだ。", "vi": "Thời gian trôi nhanh thật.", "explain": "Tính từ い + ものだ để cảm thán." },
+      { "type": "order", "words": ["川で", "ころ", "泳いだ", "ものだ", "子どもの", "よく"], "answer": "子どものころ、よく川で泳いだものだ。", "vi": "Hồi nhỏ tôi hay bơi ở sông.", "explain": "Hồi tưởng: ... Vた + ものだ." }
+    ]
+  },
+  {
+    "id": "ja-n2-koto-wa-nai",
+    "level": "N2",
+    "title": "Không cần phải",
+    "title_native": "〜ことはない",
+    "summary_vi": "Khuyên hoặc an ủi rằng không cần thiết phải làm việc gì.",
+    "formula": ["V辞書形 + ことはない", "例：心配することはない / 急ぐことはない"],
+    "explain_vi": "**〜ことはない** nghĩa là 「**không cần phải ~**, không có lý do gì phải ~」. Người nói dùng để trấn an, khuyên nhủ: đừng lo, đừng vội, không cần làm quá lên.\n\n**Cách nối:** động từ **thể từ điển** + ことはない. Dạng lịch sự: 〜ことはありません / 〜ことはないですよ. Hay đi với các từ như わざわざ, そんなに, 全部...\n\nCẩn thận **phân biệt** hai mẫu rất giống nhau:\n- **V辞書形 + ことはない**: không cần phải làm. 急ぐことはない = không cần vội.\n- **Vた + ことがない**: **chưa từng** làm. 日本へ行ったことがない = chưa từng đến Nhật.\n\nMột chữ は và が, một thể từ điển và thể た, nhưng nghĩa khác hẳn! Trong mẫu 「ことはない」 này, は mang ý tương phản, 「điều đó thì không cần」.\n\nMẫu này khuyên người khác hoặc nói về việc không cần làm, thường không dùng khi nói về bản thân với giọng bắt buộc. Gần nghĩa với 〜必要はない (không cần thiết), nhưng ことはない nghe nhẹ nhàng, mang tính an ủi hơn.",
+    "examples": [
+      { "t": "まだ時間があるから、急ぐことはない。", "r": "まだじかんがあるから、いそぐことはない。", "vi": "Vẫn còn thời gian nên không cần vội." },
+      { "t": "小さなミスだから、そんなに心配することはないよ。", "r": "ちいさなミスだから、そんなにしんぱいすることはないよ。", "vi": "Chỉ là lỗi nhỏ thôi, không cần lo đến vậy đâu." },
+      { "t": "電話で済むことだから、わざわざ行くことはない。", "r": "でんわですむことだから、わざわざいくことはない。", "vi": "Gọi điện là xong nên không cần cất công đi." },
+      { "t": "あなたが謝ることはないですよ。", "r": "あなたがあやまることはないですよ。", "vi": "Bạn không cần phải xin lỗi đâu." },
+      { "t": "一人で全部やることはない。みんなで分担しよう。", "r": "ひとりでぜんぶやることはない。みんなでぶんたんしよう。", "vi": "Không cần một mình làm hết. Cùng chia nhau làm nhé." }
+    ],
+    "mistakes": [
+      { "wrong": "急ぐことがない。", "right": "急ぐことはない。", "note_vi": "ことがない (với Vた) là 「chưa từng」. Muốn nói 「không cần」 phải là ことはない với động từ thể từ điển." },
+      { "wrong": "急いだことはない。（ý: không cần vội）", "right": "急ぐことはない。", "note_vi": "Phải dùng thể từ điển, không dùng thể た; 急いだことはない nghĩa là chưa từng vội." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "まだ時間があるから、急ぐ___。", "options": ["ことがない", "ものではない", "わけがない", "ことはない"], "answer": 3, "explain": "Không cần vội: V辞書形 + ことはない." },
+      { "type": "mcq", "q": "小さな失敗だから、そんなに落ち込む___よ。", "options": ["ことはない", "ことはある", "ものだ", "一方だ"], "answer": 0, "explain": "An ủi 「không cần buồn đến vậy」: ことはない." },
+      { "type": "mcq", "q": "全部一人で___ことはない。", "options": ["やって", "やった", "やる", "やり"], "answer": 2, "explain": "ことはない đi với động từ thể từ điển." },
+      { "type": "gap", "q": "そんなに心配する___。", "answer": ["ことはない", "ことはありません"], "explain": "Không cần lo đến vậy: 心配することはない." },
+      { "type": "gap", "q": "あなたが謝る___はないですよ。", "answer": ["こと"], "explain": "Mẫu cố định là 〜ことはない." },
+      { "type": "gap", "q": "電話で済むなら、会いに___ことはない。（行く）", "answer": ["行く", "いく"], "explain": "Thể từ điển: 行くことはない." },
+      { "type": "order", "words": ["ことは", "そんなに", "ない", "心配する"], "answer": "そんなに心配することはない。", "vi": "Không cần lo đến vậy.", "explain": "V辞書形 + ことはない." },
+      { "type": "order", "words": ["謝る", "ですよ", "あなたが", "ことは", "ない"], "answer": "あなたが謝ることはないですよ。", "vi": "Bạn không cần xin lỗi đâu.", "explain": "あなたが + 謝る + ことはない + ですよ." }
+    ]
+  },
+  {
+    "id": "ja-n2-ni-kanshite",
+    "level": "N2",
+    "title": "Về, liên quan đến",
+    "title_native": "〜に関して",
+    "summary_vi": "Nói về chủ đề nào đó, văn phong trang trọng hơn について.",
+    "formula": ["N + に関して、〜", "N + に関しては / に関しても", "N + に関する + N"],
+    "explain_vi": "**〜に関して** (にかんして) nghĩa là 「về ~, liên quan đến ~」. Nó tương đương với について nhưng **trang trọng, cứng hơn**, hay dùng trong thông báo, báo cáo, hội họp, văn bản.\n\n**Cách dùng:**\n- **Nに関して、〜**: làm trạng ngữ. 「新しい制度に関して、質問があります」.\n- **Nに関しては / に関しても**: thêm は để nhấn mạnh chủ đề (「riêng về ~ thì」), thêm も để nói 「về ~ cũng」.\n- **Nに関する + N**: bổ nghĩa cho danh từ. 「日本の歴史に関する本」. Chú ý: **に関する** nối thẳng danh từ, không thêm の.\n\n**Phân biệt:**\n- **について**: dùng hằng ngày, trung tính.\n- **に関して**: trang trọng, phạm vi rộng, bao quát cả những chuyện liên quan.\n- **に対して**: 「đối với ~」, chỉ **đối tượng** của hành động hay thái độ (学生に対して優しい), không phải chủ đề. Đừng dùng に関して cho trường hợp này.\n\nVế sau thường là các hành động như 質問する, 調査する, 説明する, 意見を述べる, 連絡する. Không dùng cho hành động hướng tới đối tượng cụ thể như viết thư cho ai.",
+    "examples": [
+      { "t": "環境問題に関して、意見を聞かせてください。", "r": "かんきょうもんだいにかんして、いけんをきかせてください。", "vi": "Về vấn đề môi trường, xin hãy cho tôi nghe ý kiến." },
+      { "t": "この件に関しては、後日ご連絡いたします。", "r": "このけんにかんしては、ごじつごれんらくいたします。", "vi": "Về việc này, chúng tôi sẽ liên lạc lại sau." },
+      { "t": "日本の歴史に関する本を読んでいる。", "r": "にほんのれきしにかんするほんをよんでいる。", "vi": "Tôi đang đọc sách liên quan đến lịch sử Nhật Bản." },
+      { "t": "新しい制度に関して、質問があります。", "r": "あたらしいせいどにかんして、しつもんがあります。", "vi": "Tôi có câu hỏi về chế độ mới." },
+      { "t": "彼は経済に関しては、専門家だ。", "r": "かれはけいざいにかんしては、せんもんかだ。", "vi": "Riêng về kinh tế thì anh ấy là chuyên gia." }
+    ],
+    "mistakes": [
+      { "wrong": "先生に関して手紙を書いた。", "right": "先生に手紙を書いた。", "note_vi": "に関して nghĩa là 「về (chủ đề)」, không dùng cho đối tượng nhận hành động. Viết thư cho thầy thì dùng に." },
+      { "wrong": "試験に関するの本を買った。", "right": "試験に関する本を買った。", "note_vi": "に関する nối thẳng danh từ, không thêm の." },
+      { "wrong": "学生に関して、いつも優しい。", "right": "学生に対して、いつも優しい。", "note_vi": "Thái độ đối với ai thì dùng に対して, không dùng に関して." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "新しい制度___、質問があります。", "options": ["に対して", "にとって", "に関して", "によって"], "answer": 2, "explain": "Hỏi về chủ đề nào đó: に関して." },
+      { "type": "mcq", "q": "日本の経済に___本を買った。", "options": ["関して", "関する", "関し", "関した"], "answer": 1, "explain": "Bổ nghĩa danh từ phải dùng 関する." },
+      { "type": "mcq", "q": "先生は学生___いつも優しい。", "options": ["に関して", "を通じて", "について", "に対して"], "answer": 3, "explain": "Thái độ đối với học sinh: に対して." },
+      { "type": "gap", "q": "この件に___は、後日ご連絡いたします。", "answer": ["関して"], "explain": "に関しては: riêng về việc này thì." },
+      { "type": "gap", "q": "環境問題に___、意見を聞かせてください。", "answer": ["関して", "ついて"], "explain": "に関して (trang trọng) hoặc について đều dùng được." },
+      { "type": "gap", "q": "歴史に___本を読んでいる。", "answer": ["関する"], "explain": "Trước danh từ 本 dùng 関する." },
+      { "type": "order", "words": ["質問が", "関して", "あります", "新しい制度に"], "answer": "新しい制度に関して、質問があります。", "vi": "Về chế độ mới, tôi có câu hỏi.", "explain": "N + に関して + vế sau." },
+      { "type": "order", "words": ["本を", "日本の", "関する", "読んでいる", "歴史に"], "answer": "日本の歴史に関する本を読んでいる。", "vi": "Tôi đang đọc sách về lịch sử Nhật Bản.", "explain": "N + に関する + N." }
+    ]
+  },
+  {
+    "id": "ja-n2-wo-tsuujite",
+    "level": "N2",
+    "title": "Suốt / Thông qua",
+    "title_native": "〜を通じて / 〜を通して",
+    "summary_vi": "Nghĩa là suốt cả khoảng thời gian, khắp phạm vi, hoặc thông qua phương tiện, người trung gian.",
+    "formula": ["N（thời gian）+ を通じて（suốt ~）", "N（phương tiện, người）+ を通じて（thông qua ~）"],
+    "explain_vi": "**〜を通じて / 〜を通して** (をつうじて / をとおして) có hai nghĩa chính.\n\n**1. Suốt, trong cả khoảng ~**: đi với danh từ chỉ thời gian hoặc phạm vi, nghĩa là 「từ đầu đến cuối, khắp」. 「この地域は一年を通じて暖かい」 = khu vực này ấm áp quanh năm. 「この祭りは三日間を通じて行われる」.\n\n**2. Thông qua, nhờ vào**: đi với phương tiện, kênh, người trung gian, trải nghiệm. 「インターネットを通じて世界中の人と話せる」, 「友人を通じて彼女と知り合った」, 「仕事を通じて多くのことを学んだ」.\n\n**Lưu ý cách dùng:**\n- Phải dùng trợ từ **を**: を通じて. Nói 電話に通じて là sai (通じる + に có nghĩa 「thông thạo, thông với」 khác hẳn).\n- 通じて và 通して gần như dùng thay nhau. 通して nghiêng về 「làm trung gian có chủ ý」, 通じて hơi trang trọng hơn.\n- Với nghĩa 「suốt」 thì nói 一年を通じて, không nói 一年中を通じて (一年中 đã có nghĩa suốt cả năm).\n\nSo với によって (do, bằng cách): によって nhấn mạnh phương pháp, nguyên nhân; を通じて nhấn mạnh **đường dẫn, kênh trung gian**.",
+    "examples": [
+      { "t": "この地域は一年を通じて暖かい。", "r": "このちいきはいちねんをつうじてあたたかい。", "vi": "Khu vực này ấm áp quanh năm." },
+      { "t": "インターネットを通じて、世界中の人と話せる。", "r": "インターネットをつうじて、せかいじゅうのひととはなせる。", "vi": "Thông qua Internet, có thể nói chuyện với người khắp thế giới." },
+      { "t": "友人を通じて、彼女と知り合った。", "r": "ゆうじんをつうじて、かのじょとしりあった。", "vi": "Thông qua một người bạn, tôi đã quen cô ấy." },
+      { "t": "彼は仕事を通じて、多くのことを学んだ。", "r": "かれはしごとをつうじて、おおくのことをまなんだ。", "vi": "Anh ấy đã học được nhiều điều qua công việc." },
+      { "t": "この祭りは三日間を通じて行われる。", "r": "このまつりはみっかかんをつうじておこなわれる。", "vi": "Lễ hội này được tổ chức suốt ba ngày." }
+    ],
+    "mistakes": [
+      { "wrong": "電話に通じて話した。", "right": "電話を通じて話した。", "note_vi": "Phải dùng を: を通じて. に通じる có nghĩa khác (thông thạo, dẫn tới)." },
+      { "wrong": "一年中を通じて暖かい。", "right": "一年を通じて暖かい。", "note_vi": "一年中 đã mang nghĩa suốt năm; dùng 一年を通じて hoặc 一年中, không ghép lại." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "この地方は一年___暖かい。", "options": ["に通じて", "で通じて", "を通じて", "が通じて"], "answer": 2, "explain": "Suốt cả năm: 一年を通じて." },
+      { "type": "mcq", "q": "友人___、彼女と知り合った。", "options": ["を通じて", "に対して", "に関して", "によって"], "answer": 0, "explain": "Thông qua người bạn làm trung gian: を通じて." },
+      { "type": "mcq", "q": "インターネットを___、世界の人と話す。", "options": ["通る", "通して", "通った", "通り"], "answer": 1, "explain": "Dạng cần dùng là 通して (hoặc 通じて)." },
+      { "type": "gap", "q": "テレビ___通じて、ニュースを知った。", "answer": ["を"], "explain": "Trợ từ đi trước là を." },
+      { "type": "gap", "q": "彼は仕事を___、多くのことを学んだ。", "answer": ["通じて", "通して"], "explain": "Thông qua công việc: 通じて / 通して." },
+      { "type": "gap", "q": "この祭りは三日間を___行われる。", "answer": ["通じて", "通して"], "explain": "Suốt ba ngày: を通じて." },
+      { "type": "order", "words": ["一年を", "暖かい", "地域は", "この", "通じて"], "answer": "この地域は一年を通じて暖かい。", "vi": "Khu vực này ấm áp quanh năm.", "explain": "N(thời gian) + を通じて." },
+      { "type": "order", "words": ["彼女と", "通じて", "知り合った", "友人を"], "answer": "友人を通じて彼女と知り合った。", "vi": "Qua một người bạn, tôi đã quen cô ấy.", "explain": "N(người) + を通じて + vế sau." }
+    ]
+  },
+  {
+    "id": "ja-n2-kara-koso",
+    "level": "N2",
+    "title": "Chính vì ... nên",
+    "title_native": "〜からこそ",
+    "summary_vi": "Nhấn mạnh rằng chính lý do này mới dẫn tới kết quả, không phải lý do nào khác.",
+    "formula": ["V・Aい（thể thường）+ からこそ", "Aな語幹 / N + だからこそ"],
+    "explain_vi": "**〜からこそ** là cách nói nhấn mạnh 「**chính vì ~ nên**」. Người nói muốn khẳng định rằng **đây mới là lý do thật sự**, thường nhằm giải thích một điều có vẻ ngược đời hoặc cần được biện minh. Nghĩa ở đây là 「vì A cho nên B」 nhưng mạnh hơn から bình thường nhiều.\n\n**Cách nối:** thể thường + からこそ. Với tính từ な và danh từ: dùng **だ** + からこそ (好きだからこそ, 子どもだからこそ). **Không dùng thể です・ます** trước からこそ (nói 好きですからこそ là sai).\n\nCâu thường có dạng: 「A からこそ、B」, ví dụ 「好きだからこそ、厳しく言うのです」 (chính vì quý nên mới nói nghiêm khắc). Thường dùng khi vế sau là kết quả tích cực, đáng giá, hoặc một hành động có chủ ý.\n\n**Lưu ý:** không dùng からこそ để xin lỗi hay đưa lý do bình thường. Nói 「病気だったからこそ遅れてすみません」 nghe rất kỳ; hãy dùng ので / から. Có thể gặp dạng 〜からこそ〜のだ để nhấn mạnh thêm. So với おかげで / せいで (chỉ nêu nguyên nhân kèm cảm xúc), からこそ nhấn mạnh tính **không thể là lý do khác**.",
+    "examples": [
+      { "t": "好きだからこそ、厳しく言うのです。", "r": "すきだからこそ、きびしくいうのです。", "vi": "Chính vì quý nên tôi mới nói nghiêm khắc." },
+      { "t": "失敗したからこそ、学べることがある。", "r": "しっぱいしたからこそ、まなべることがある。", "vi": "Chính vì đã thất bại mới có điều học được." },
+      { "t": "あなたを信じているからこそ、この仕事を任せた。", "r": "あなたをしんじているからこそ、このしごとをまかせた。", "vi": "Chính vì tin bạn nên tôi mới giao việc này." },
+      { "t": "苦労したからこそ、今の幸せがある。", "r": "くろうしたからこそ、いまのしあわせがある。", "vi": "Chính vì đã vất vả nên mới có hạnh phúc hôm nay." },
+      { "t": "忙しいからこそ、時間を大切にしたい。", "r": "いそがしいからこそ、じかんをたいせつにしたい。", "vi": "Chính vì bận nên tôi càng muốn trân trọng thời gian." }
+    ],
+    "mistakes": [
+      { "wrong": "病気だったからこそ、遅れて申し訳ありません。", "right": "病気だったので、遅れて申し訳ありません。", "note_vi": "からこそ dùng để nhấn mạnh lý do, không dùng cho lời xin lỗi hay giải thích thông thường." },
+      { "wrong": "好きですからこそ、厳しく言う。", "right": "好きだからこそ、厳しく言う。", "note_vi": "Trước からこそ dùng thể thường (だ), không dùng です・ます." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "好き___、厳しく言うのです。", "options": ["ですからこそ", "なからこそ", "だからこそ", "のからこそ"], "answer": 2, "explain": "Tính từ な + だからこそ (thể thường)." },
+      { "type": "mcq", "q": "失敗した___、学べることがある。", "options": ["からこそ", "けれども", "のに", "ために"], "answer": 0, "explain": "Nhấn mạnh 「chính vì thất bại」: からこそ." },
+      { "type": "mcq", "q": "忙しい___、時間を大切にしたい。", "options": ["にもかかわらず", "ながらも", "ものの", "からこそ"], "answer": 3, "explain": "Chính vì bận nên càng trân trọng thời gian: からこそ. Các lựa chọn còn lại có nghĩa 「mặc dù」." },
+      { "type": "gap", "q": "あなたを信じている___、この仕事を任せたのです。", "answer": ["からこそ"], "explain": "Nhấn mạnh lý do: からこそ." },
+      { "type": "gap", "q": "苦労した___こそ、今の幸せがある。", "answer": ["から"], "explain": "Mẫu là 〜からこそ." },
+      { "type": "gap", "q": "健康が大切___からこそ、毎日運動する。", "answer": ["だ"], "explain": "Tính từ な + だ + からこそ." },
+      { "type": "order", "words": ["こそ", "好きだから", "言うのです", "厳しく"], "answer": "好きだからこそ厳しく言うのです。", "vi": "Chính vì quý nên tôi nói nghiêm khắc.", "explain": "好きだから + こそ + vế sau." },
+      { "type": "order", "words": ["学べる", "ことが", "ある", "失敗した", "からこそ"], "answer": "失敗したからこそ、学べることがある。", "vi": "Chính vì đã thất bại mới có điều học được.", "explain": "Vた + からこそ + vế sau." }
+    ]
+  },
+  {
+    "id": "ja-n2-bakari-ka",
+    "level": "N2",
+    "title": "Không những ... mà còn",
+    "title_native": "〜ばかりか",
+    "summary_vi": "Nêu điều thứ nhất rồi thêm điều thứ hai nặng hơn, bất ngờ hơn: không những A mà còn B.",
+    "formula": ["V・Aい（thể thường）+ ばかりか、〜も", "Aな + な / Nである + ばかりか、〜も", "N + ばかりか、〜も / まで"],
+    "explain_vi": "**〜ばかりか** nghĩa là 「**không những A mà (ngay cả) B nữa**」. Vế A là điều đã đáng kể, vế B là điều **thêm vào, mức độ còn hơn** A, thường kèm も hoặc まで. Gần với だけでなく, nhưng ばかりか **trang trọng và nhấn mạnh hơn**, và hàm ý 「B còn bất ngờ hơn A」.\n\n**Cách nối:** động từ, tính từ い thể thường; tính từ な thêm **な** (hoặc である); danh từ nối thẳng (子どもばかりか) hoặc である.\n\nVế sau **không dùng** mệnh lệnh, rủ rê, ý chí. Vế sau là một sự việc thêm vào, cùng hướng với vế trước (cả hai tốt hoặc cả hai xấu): 雨が降ったばかりか、風も強くなった (cả hai đều xấu).\n\n**Phân biệt với 〜どころか (bài sau):**\n- ばかりか: A đúng, B cũng đúng và còn hơn A (cộng thêm).\n- どころか: A **không đúng**, thực tế ngược lại hoặc ở mức khác hẳn (phủ định A). Ví dụ 英語どころか、日本語もできない = đừng nói tiếng Anh, đến tiếng Nhật cũng không biết.\n\nNhớ: ばかりか = 「thêm vào」, どころか = 「phủ nhận, trái ngược」.",
+    "examples": [
+      { "t": "彼は英語ばかりか、中国語も話せる。", "r": "かれはえいごばかりか、ちゅうごくごもはなせる。", "vi": "Anh ấy không chỉ nói được tiếng Anh mà còn nói được cả tiếng Trung." },
+      { "t": "彼女は美人なばかりか、頭もいい。", "r": "かのじょはびじんなばかりか、あたまもいい。", "vi": "Cô ấy không những xinh mà còn thông minh." },
+      { "t": "雨が降ったばかりか、風も強くなった。", "r": "あめがふったばかりか、かぜもつよくなった。", "vi": "Không những mưa mà gió cũng mạnh lên." },
+      { "t": "この店は安いばかりか、料理もおいしい。", "r": "このみせはやすいばかりか、りょうりもおいしい。", "vi": "Quán này không những rẻ mà đồ ăn cũng ngon." },
+      { "t": "子どもばかりか、大人まで夢中になった。", "r": "こどもばかりか、おとなまでむちゅうになった。", "vi": "Không chỉ trẻ con mà cả người lớn cũng mê mẩn." }
+    ],
+    "mistakes": [
+      { "wrong": "彼は英語どころか、中国語も話せる。", "right": "彼は英語ばかりか、中国語も話せる。", "note_vi": "Thêm vào cùng hướng thì dùng ばかりか; どころか là phủ nhận vế trước." },
+      { "wrong": "彼女は親切のばかりか、頭もいい。", "right": "彼女は親切なばかりか、頭もいい。", "note_vi": "Tính từ な cần な trước ばかりか." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "彼は英語___、中国語も話せる。", "options": ["にしては", "ばかりか", "っぽい", "おかげで"], "answer": 1, "explain": "Không những A mà còn B: ばかりか." },
+      { "type": "mcq", "q": "この店は安い___、料理もおいしい。", "options": ["せいで", "一方だ", "からこそ", "ばかりか"], "answer": 3, "explain": "Hai điều tốt cộng lại: ばかりか." },
+      { "type": "mcq", "q": "彼女は親切___ばかりか、頭もいい。", "options": ["な", "の", "だ", "に"], "answer": 0, "explain": "Tính từ な + な + ばかりか." },
+      { "type": "gap", "q": "雨が降った___、風も強くなった。", "answer": ["ばかりか"], "explain": "Thêm vào một điều xấu nữa: ばかりか." },
+      { "type": "gap", "q": "子ども___か、大人まで夢中になった。", "answer": ["ばかり"], "explain": "Mẫu là 〜ばかりか." },
+      { "type": "gap", "q": "この店は安いばかりか、料理___おいしい。", "answer": ["も"], "explain": "Vế sau đi kèm も để thêm vào." },
+      { "type": "order", "words": ["ばかりか", "彼は", "中国語も", "英語", "話せる"], "answer": "彼は英語ばかりか、中国語も話せる。", "vi": "Anh ấy không chỉ biết tiếng Anh mà còn nói được tiếng Trung.", "explain": "N + ばかりか、〜も." },
+      { "type": "order", "words": ["風も", "降った", "強くなった", "雨が", "ばかりか"], "answer": "雨が降ったばかりか、風も強くなった。", "vi": "Không những mưa mà gió cũng mạnh lên.", "explain": "Vた + ばかりか、〜も." }
+    ]
+  },
+  {
+    "id": "ja-n2-dokoro-ka",
+    "level": "N2",
+    "title": "Đừng nói là ... mà thậm chí",
+    "title_native": "〜どころか",
+    "summary_vi": "Phủ nhận vế trước và đưa ra thực tế trái ngược hoặc mức độ khác hẳn.",
+    "formula": ["V・Aい（thể thường）+ どころか", "Aな語幹 / N + どころか", "例：A どころか、B（B は否定 / 反対）"],
+    "explain_vi": "**〜どころか** dùng để **phủ nhận** điều người nghe có thể mong đợi hay nghĩ tới, rồi nêu **thực tế trái ngược** hoặc **mức độ khác hẳn**. Dịch: 「đừng nói là A, (thậm chí) B」 hoặc 「A đâu có, mà ngược lại B」.\n\n**Hai kiểu hay gặp:**\n1. **A どころか、B も〜ない**: A đã không có thì B càng không. 「休みどころか、食事をする時間もない」 (nghỉ ngơi thì khỏi nói, ăn cũng không có thời gian). Vế sau thường là phủ định.\n2. **A どころか、かえって B**: A không đúng, thực tế ngược lại. 「疲れが取れるどころか、かえってひどくなった」. Hoặc theo chiều tích cực: 「下手どころか、プロ級だ」.\n\n**Cách nối:** động từ, tính từ い thể thường; tính từ な và danh từ **không có だ, không có な** (上手どころか, 貯金どころか).\n\n**So với ばかりか:** ばかりか là 「không những A mà còn B」 (cộng thêm, cùng hướng); どころか là **phủ định A** và đưa ra điều trái hẳn hoặc ở mức khác. Vì vậy 英語ばかりか中国語も話せる (đúng), còn どころか thì không dùng khi B là sự bổ sung bình thường.\n\nDấu hiệu nhận biết: vế sau thường có かえって, 全然, まったく, も + phủ định.",
+    "examples": [
+      { "t": "忙しくて、休みどころか、食事をする時間もない。", "r": "いそがしくて、やすみどころか、しょくじをするじかんもない。", "vi": "Bận quá, nghỉ ngơi thì khỏi nói, đến thời gian ăn cũng không có." },
+      { "t": "彼は日本語が上手どころか、全然話せない。", "r": "かれはにほんごがじょうずどころか、ぜんぜんはなせない。", "vi": "Anh ấy tiếng Nhật giỏi đâu mà giỏi, hoàn toàn không nói được." },
+      { "t": "疲れが取れるどころか、かえってひどくなった。", "r": "つかれがとれるどころか、かえってひどくなった。", "vi": "Mệt không hết đã đành, ngược lại còn nặng hơn." },
+      { "t": "今月は貯金どころか、生活費も足りない。", "r": "こんげつはちょきんどころか、せいかつひもたりない。", "vi": "Tháng này tiết kiệm thì khỏi nói, đến tiền sinh hoạt cũng thiếu." },
+      { "t": "彼女は料理が下手どころか、プロ級の腕前だ。", "r": "かのじょはりょうりがへたどころか、プロきゅうのうでまえだ。", "vi": "Cô ấy nấu ăn dở đâu mà dở, tay nghề thuộc hàng chuyên nghiệp." }
+    ],
+    "mistakes": [
+      { "wrong": "彼は日本語が上手などころか、全然話せない。", "right": "彼は日本語が上手どころか、全然話せない。", "note_vi": "Tính từ な và danh từ nối thẳng với どころか, không thêm な hay の." },
+      { "wrong": "彼は英語どころか、中国語も話せる。", "right": "彼は英語ばかりか、中国語も話せる。", "note_vi": "どころか phủ nhận vế trước; nếu chỉ muốn cộng thêm thì dùng ばかりか." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "貯金___、生活費も足りない。", "options": ["どころか", "ことはない", "に関して", "わけだ"], "answer": 0, "explain": "Tiết kiệm đã không có, đến sinh hoạt phí cũng thiếu: どころか." },
+      { "type": "mcq", "q": "疲れが取れる___、かえってひどくなった。", "options": ["ばかりか", "どころか", "にしては", "っぽい"], "answer": 1, "explain": "Thực tế trái ngược (かえって): どころか." },
+      { "type": "mcq", "q": "彼は日本語が___どころか、全然話せない。", "options": ["上手な", "上手だ", "上手の", "上手"], "answer": 3, "explain": "Tính từ な nối thẳng với どころか (không な, không だ)." },
+      { "type": "gap", "q": "休み___か、食事をする時間もない。", "answer": ["どころ"], "explain": "Mẫu là 〜どころか." },
+      { "type": "gap", "q": "彼女は料理が下手___、プロ級の腕前だ。", "answer": ["どころか"], "explain": "Phủ nhận 「dở」 và nêu điều trái ngược: どころか." },
+      { "type": "gap", "q": "今月は貯金どころか、生活費___足りない。", "answer": ["も"], "explain": "Vế sau thường đi với も + phủ định hoặc thiếu." },
+      { "type": "order", "words": ["時間も", "ない", "休み", "食事をする", "どころか"], "answer": "休みどころか、食事をする時間もない。", "vi": "Nghỉ ngơi thì khỏi nói, đến thời gian ăn cũng không có.", "explain": "N + どころか、〜も + phủ định." },
+      { "type": "order", "words": ["かえって", "ひどく", "疲れが", "取れる", "どころか", "なった"], "answer": "疲れが取れるどころか、かえってひどくなった。", "vi": "Mệt không hết mà còn nặng hơn.", "explain": "V辞書形 + どころか、かえって + vế trái ngược." }
+    ]
+  },
+  {
+    "id": "ja-n2-ni-shite-wa",
+    "level": "N2",
+    "title": "So với ... thì (khác dự đoán)",
+    "title_native": "〜にしては",
+    "summary_vi": "Xét theo tiêu chuẩn thông thường của A thì kết quả B lại khác với điều ta mong đợi.",
+    "formula": ["V・Aい（thể thường）+ にしては", "N + にしては、〜", "Aな語幹 + にしては"],
+    "explain_vi": "**〜にしては** nghĩa là 「**so với ~ thì (lại)...**」, 「xét theo mức thông thường của ~ thì thật bất ngờ」. Người nói lấy A làm tiêu chuẩn rồi nhận xét rằng B **lệch với điều có thể dự đoán** từ A. Có thể mang sắc thái khen hoặc chê.\n\nVí dụ 「子どもにしては字がきれいだ」: thường trẻ con viết chưa đẹp, nhưng bé này viết đẹp hơn dự đoán. 「このホテルは値段が高いにしては部屋が狭い」: giá cao thì đáng lẽ rộng, vậy mà hẹp.\n\n**Cách nối:** danh từ + にしては (彼は日本人にしては); động từ, tính từ い thể thường (作ったにしては, 高いにしては). Với danh từ không thêm だ: 日本人にしては (không nói 日本人だにしては).\n\n**Chú ý:** vế sau là **nhận xét, đánh giá** về tình trạng ngược dự đoán, không phải hành động mới. Đừng dùng cho việc chỉ nêu sự kiện bình thường.\n\n**Phân biệt:**\n- **〜にしては**: thực tế **lệch** so với kỳ vọng chuẩn.\n- **〜として** (với tư cách là): nói về vai trò, tư cách.\n- **〜のに**: nghĩa 「mặc dù」 rộng hơn, không cần tiêu chuẩn so sánh.\n\nCũng có dạng nhấn mạnh 〜にしても (cho dù ~ đi nữa), nhưng đó là mẫu khác.",
+    "examples": [
+      { "t": "彼は子どもにしては、字がきれいだ。", "r": "かれはこどもにしては、じがきれいだ。", "vi": "So với một đứa trẻ thì chữ cậu bé viết đẹp." },
+      { "t": "初めて作ったにしては、上手にできている。", "r": "はじめてつくったにしては、じょうずにできている。", "vi": "So với lần đầu làm thì làm khá giỏi." },
+      { "t": "十月にしては、今日は暑い。", "r": "じゅうがつにしては、きょうはあつい。", "vi": "So với tháng Mười thì hôm nay nóng." },
+      { "t": "彼は外国に長く住んでいたにしては、英語が下手だ。", "r": "かれはがいこくにながくすんでいたにしては、えいごがへただ。", "vi": "Anh ấy từng sống lâu ở nước ngoài mà tiếng Anh lại dở." },
+      { "t": "このホテルは値段が高いにしては、部屋が狭い。", "r": "このホテルはねだんがたかいにしては、へやがせまい。", "vi": "Khách sạn này giá cao mà phòng lại chật." }
+    ],
+    "mistakes": [
+      { "wrong": "彼は日本人だにしては、日本語が下手だ。", "right": "彼は日本人にしては、日本語が下手だ。", "note_vi": "Danh từ nối trực tiếp với にしては, không thêm だ." },
+      { "wrong": "値段が高いにしては、買いました。", "right": "値段が高いにしては、あまり質がよくない。", "note_vi": "Vế sau phải là nhận xét về điều khác dự đoán, không phải hành động bình thường như 買いました." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "彼は子ども___、字がとてもきれいだ。", "options": ["にとって", "に対して", "による", "にしては"], "answer": 3, "explain": "So với tiêu chuẩn của trẻ con thì bất ngờ: にしては." },
+      { "type": "mcq", "q": "初めて作った___、上手にできている。", "options": ["にしては", "ばかりか", "どころか", "からこそ"], "answer": 0, "explain": "So với lần đầu làm thì giỏi hơn dự đoán: にしては." },
+      { "type": "mcq", "q": "十月___、今日は暑い。", "options": ["のおかげで", "のせいで", "にしては", "を通じて"], "answer": 2, "explain": "So với tháng Mười (thường mát) thì nóng: にしては." },
+      { "type": "gap", "q": "彼は外国に住んでいた___、英語が下手だ。", "answer": ["にしては"], "explain": "Thực tế lệch với dự đoán: にしては." },
+      { "type": "gap", "q": "このホテルは値段が高い___、部屋が狭い。", "answer": ["にしては"], "explain": "Giá cao mà phòng hẹp: にしては." },
+      { "type": "gap", "q": "彼は日本人___は、日本語が下手だ。", "answer": ["にし"], "explain": "Mẫu là 〜にしては." },
+      { "type": "order", "words": ["上手に", "できている", "作った", "にしては", "初めて"], "answer": "初めて作ったにしては、上手にできている。", "vi": "So với lần đầu làm thì làm giỏi.", "explain": "V thể thường + にしては + nhận xét." },
+      { "type": "order", "words": ["字が", "きれいだ", "子ども", "にしては"], "answer": "子どもにしては、字がきれいだ。", "vi": "So với trẻ con thì chữ đẹp.", "explain": "N + にしては + nhận xét." }
+    ]
+  },
+  {
+    "id": "ja-n2-ppoi",
+    "level": "N2",
+    "title": "Hay ..., có vẻ ..., mang tính ...",
+    "title_native": "〜っぽい",
+    "summary_vi": "Gắn vào danh từ hoặc động từ để chỉ tính chất hay xảy ra, hoặc trông giống như, có màu, vị của thứ gì.",
+    "formula": ["N + っぽい（giống ~, có tính ~）", "Vます形（bỏ ます）+ っぽい（hay ~, dễ ~）", "Aい語幹 / 色 + っぽい（hơi ~）"],
+    "explain_vi": "**〜っぽい** là hậu tố biến thành **tính từ い**, mang nghĩa 「có vẻ ~, hay ~, mang tính ~」. Dùng nhiều trong văn nói, thường hơi thân mật và **thường có sắc thái chê**, nhưng cũng có chỗ trung tính.\n\n**Ba cách dùng chính:**\n1. **Giống, mang tính chất của N**: 子どもっぽい (trẻ con), 男っぽい (nam tính), 水っぽい (loãng như nước), 大人っぽい (ra dáng người lớn, có thể là khen).\n2. **Hay, dễ làm gì** (Vます bỏ ます + っぽい): 忘れっぽい (hay quên), 怒りっぽい (dễ nổi nóng), 飽きっぽい (mau chán).\n3. **Hơi có màu, vị** (màu + っぽい): 白っぽい (hơi trắng), 黒っぽい (hơi đen).\n\n**Cách nối:** động từ dùng thể ます bỏ ます (忘れる → 忘れ), không dùng thể từ điển (không nói 忘れるっぽい). Vì là tính từ い nên chia như tính từ い: 怒りっぽく なった, 子どもっぽくて, 白っぽい色 (không nói 白っぽいな).\n\n**So với らしい:** らしい (子どもらしい) chỉ đúng tính chất tốt đẹp của đối tượng (đúng chất trẻ con, đáng yêu), còn っぽい (子どもっぽい) thường chỉ tính **chưa trưởng thành, na ná** và hơi chê.",
+    "examples": [
+      { "t": "彼は三十歳なのに、子どもっぽい。", "r": "かれはさんじゅっさいなのに、こどもっぽい。", "vi": "Anh ấy đã ba mươi tuổi mà vẫn trẻ con." },
+      { "t": "私は忘れっぽいので、メモを取る。", "r": "わたしはわすれっぽいので、メモをとる。", "vi": "Tôi hay quên nên ghi chú lại." },
+      { "t": "祖父は最近、怒りっぽくなった。", "r": "そふはさいきん、おこりっぽくなった。", "vi": "Gần đây ông tôi trở nên dễ nổi nóng." },
+      { "t": "白っぽいシャツを買った。", "r": "しろっぽいシャツをかった。", "vi": "Tôi đã mua cái áo sơ mi hơi trắng." },
+      { "t": "この料理は水っぽくて、おいしくない。", "r": "このりょうりはみずっぽくて、おいしくない。", "vi": "Món này loãng như nước nên không ngon." }
+    ],
+    "mistakes": [
+      { "wrong": "私は忘れるっぽい。", "right": "私は忘れっぽい。", "note_vi": "Động từ phải ở dạng ます bỏ ます (忘れ), không dùng thể từ điển." },
+      { "wrong": "白っぽいな色のシャツ", "right": "白っぽい色のシャツ", "note_vi": "っぽい đã là tính từ い, không thêm な." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "祖父は最近、怒り___なった。", "options": ["っぽい", "っぽくて", "っぽく", "らしい"], "answer": 2, "explain": "なった cần dạng trạng từ: 怒りっぽく + なった." },
+      { "type": "mcq", "q": "彼は三十歳なのに、___。", "options": ["子どもっぽだ", "子どもっぽい", "子どもっぽの", "子どもっぽな"], "answer": 1, "explain": "N + っぽい là tính từ い: 子どもっぽい." },
+      { "type": "mcq", "q": "私は___ので、いつもメモを取る。", "options": ["忘れるっぽい", "忘れたっぽい", "忘れてっぽい", "忘れっぽい"], "answer": 3, "explain": "Vます bỏ ます + っぽい: 忘れっぽい (hay quên)." },
+      { "type": "gap", "q": "白___シャツを買った。", "answer": ["っぽい"], "explain": "Màu + っぽい = hơi (màu đó)." },
+      { "type": "gap", "q": "この料理は水___て、おいしくない。", "answer": ["っぽく"], "explain": "Nối câu bằng て: 水っぽくて (っぽい → っぽく)." },
+      { "type": "gap", "q": "彼は怒り___人だ。", "answer": ["っぽい"], "explain": "Vます bỏ ます + っぽい để bổ nghĩa danh từ." },
+      { "type": "order", "words": ["子ども", "っぽい", "彼は", "三十歳", "なのに"], "answer": "彼は三十歳なのに子どもっぽい。", "vi": "Anh ấy ba mươi tuổi mà còn trẻ con.", "explain": "N + っぽい ở cuối câu." },
+      { "type": "order", "words": ["メモを", "忘れ", "ので", "私は", "取る", "っぽい"], "answer": "私は忘れっぽいので、メモを取る。", "vi": "Tôi hay quên nên ghi chú lại.", "explain": "Vます bỏ ます + っぽい + ので." }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "zh-hsk2-le",
+    "level": "HSK2",
+    "title": "了 (hoàn thành)",
+    "title_native": "了",
+    "summary_vi": "Nói hành động đã hoàn thành (V + 了) hoặc tình huống đã thay đổi (… 了 cuối câu).",
+    "formula": ["S + V + 了 + (số lượng) + O", "S + 没(有) + V + O (bỏ 了)", "…… + 了 (cuối câu: tình huống mới)"],
+    "explain_vi": "Trợ từ **了** có hai vị trí và hai công dụng chính, người học rất hay lẫn.\n\n**1) 了 đứng sau động từ (V + 了)** diễn tả hành động đã **hoàn thành**. Tiếng Trung không chia thì, nên 了 không phải là 'thì quá khứ' mà nhấn mạnh việc đó đã xong. Ví dụ: 我买了一本书 (tôi đã mua một quyển sách). Khi tân ngữ có số lượng hoặc định ngữ thì câu nghe trọn vẹn; nếu tân ngữ đơn giản thì thường phải nói tiếp một vế nữa: 他吃了饭就走了 (anh ấy ăn cơm xong thì đi).\n\n**2) 了 đứng cuối câu** diễn tả **sự thay đổi, tình huống mới**: 下雨了 (mưa rồi), 我累了 (tôi mệt rồi). Câu hỏi 你吃饭了吗？ nghĩa là 'bạn ăn cơm chưa?'.\n\n**Phủ định**: dùng **没(有)** và **bỏ 了**: 我没买书 (tôi chưa mua sách). Không bao giờ nói 没买了.\n\n**Khi nào không dùng 了?** Với hành động thói quen, lặp đi lặp lại (我常常去 chứ không phải 我常常去了) hoặc hành động chưa xảy ra. So với tiếng Việt: 'đã', 'rồi', 'xong' đều có thể ứng với 了, nhưng tiếng Việt hay thêm 'đã' còn tiếng Trung chỉ dùng 了 khi muốn nhấn mạnh sự hoàn thành hoặc thay đổi.",
+    "examples": [
+      { "t": "我昨天买了一本书。", "py": "Wǒ zuótiān mǎi le yì běn shū.", "vi": "Hôm qua tôi đã mua một quyển sách." },
+      { "t": "他吃了饭就走了。", "py": "Tā chī le fàn jiù zǒu le.", "vi": "Anh ấy ăn cơm xong thì đi rồi." },
+      { "t": "下雨了。", "py": "Xià yǔ le.", "vi": "Mưa rồi." },
+      { "t": "你吃饭了吗？", "py": "Nǐ chī fàn le ma?", "vi": "Bạn ăn cơm chưa?" },
+      { "t": "我没买书。", "py": "Wǒ méi mǎi shū.", "vi": "Tôi không (chưa) mua sách." },
+      { "t": "我们去了北京。", "py": "Wǒmen qù le Běijīng.", "vi": "Chúng tôi đã đi Bắc Kinh." }
+    ],
+    "mistakes": [
+      { "wrong": "我昨天没买了书。", "right": "我昨天没买书。", "note_vi": "Đã có 没 thì bỏ 了: phủ định không đi cùng 了 sau động từ." },
+      { "wrong": "我常常去了商店。", "right": "我常常去商店。", "note_vi": "Hành động thói quen, lặp lại không dùng 了." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "我昨天买___一件衣服。", "options": ["了", "过", "在", "的"], "answer": 0, "explain": "Hành động mua đã hoàn thành nên dùng 了 sau động từ." },
+      { "type": "mcq", "q": "我昨天没___那本书。", "options": ["看了", "看", "看了吗", "看过了"], "answer": 1, "explain": "Phủ định bằng 没 thì động từ để trần, không thêm 了." },
+      { "type": "mcq", "q": "下雨___，别出去了。", "options": ["吗", "着", "了", "得"], "answer": 2, "explain": "了 cuối câu báo tình huống mới: trời đã mưa." },
+      { "type": "mcq", "q": "你吃饭了___？", "options": ["的", "得", "过", "吗"], "answer": 3, "explain": "吗 đặt cuối câu để tạo câu hỏi có/không: 吃饭了吗？" },
+      { "type": "gap", "q": "她昨天买___三个苹果。", "answer": ["了"], "explain": "Mua xong ba quả táo: V + 了 + số lượng + O." },
+      { "type": "gap", "q": "我昨天___去商店，我在家。(không)", "answer": ["没", "没有"], "explain": "Phủ định hành động quá khứ dùng 没(有) và bỏ 了." },
+      { "type": "gap", "q": "他已经走___。", "answer": ["了"], "explain": "了 cuối câu cho thấy việc đã xảy ra, đi cùng 已经." },
+      { "type": "order", "words": ["我", "一本书", "买了", "昨天"], "answer": "我昨天买了一本书。", "vi": "Hôm qua tôi đã mua một quyển sách.", "explain": "S + thời gian + V 了 + số lượng + O." },
+      { "type": "order", "words": ["吃了", "他", "就走了", "饭"], "answer": "他吃了饭就走了。", "vi": "Anh ấy ăn cơm xong thì đi rồi.", "explain": "V 了 O 就 V 了: làm xong việc này thì làm việc kia." },
+      { "type": "order", "words": ["你", "了", "吃饭", "吗"], "answer": "你吃饭了吗？", "vi": "Bạn ăn cơm chưa?", "explain": "了 đứng cuối câu, trước 吗." }
+    ]
+  },
+  {
+    "id": "zh-hsk2-guo",
+    "level": "HSK2",
+    "title": "过 (đã từng)",
+    "title_native": "V + 过",
+    "summary_vi": "Diễn tả kinh nghiệm: đã từng làm việc gì.",
+    "formula": ["S + V + 过 + (O)", "S + 没(有) + V + 过 + (O)", "S + V + 过 + O + 吗？"],
+    "explain_vi": "**V + 过** (guò, đọc nhẹ là guo) diễn tả **đã từng làm việc gì**, tức là nói về **kinh nghiệm** trong quá khứ. Tiếng Việt tương ứng là 'đã từng', 'từng'. Việc đó đã kết thúc và hiện tại không còn tiếp diễn.\n\nKhẳng định: **S + V + 过 + O**: 我去过中国 (tôi từng đến Trung Quốc). Phủ định: **S + 没(有) + V + 过 + O**: 我没学过汉语 (tôi chưa từng học tiếng Hán). Câu hỏi: **V + 过 + O + 吗？**: 你吃过这个菜吗？\n\n**So sánh với 了**: 我去了北京 nói tôi đã đi Bắc Kinh (một sự việc đã hoàn thành, thường gắn với một thời điểm cụ thể). Còn 我去过北京 nói tôi từng có trải nghiệm đến Bắc Kinh, nhấn mạnh kinh nghiệm chứ không cần nói khi nào. Vì vậy khi nói số lần, ta thường dùng 过: 我去过两次。\n\nLưu ý: phủ định 没…过 không thêm 了 ở cuối. Một số từ hay đi kèm: 以前 (trước đây), 一次/两次 (một/hai lần).",
+    "examples": [
+      { "t": "我去过中国。", "py": "Wǒ qù guo Zhōngguó.", "vi": "Tôi từng đến Trung Quốc." },
+      { "t": "你吃过这个菜吗？", "py": "Nǐ chī guo zhège cài ma?", "vi": "Bạn từng ăn món này chưa?" },
+      { "t": "我没学过汉语。", "py": "Wǒ méi xué guo Hànyǔ.", "vi": "Tôi chưa từng học tiếng Hán." },
+      { "t": "他看过这个电影。", "py": "Tā kàn guo zhège diànyǐng.", "vi": "Anh ấy từng xem bộ phim này." },
+      { "t": "我们见过一次。", "py": "Wǒmen jiàn guo yí cì.", "vi": "Chúng ta đã từng gặp nhau một lần." },
+      { "t": "我以前学过英语。", "py": "Wǒ yǐqián xué guo Yīngyǔ.", "vi": "Trước đây tôi từng học tiếng Anh." }
+    ],
+    "mistakes": [
+      { "wrong": "我没去过了中国。", "right": "我没去过中国。", "note_vi": "没…过 không thêm 了 ở cuối." },
+      { "wrong": "我去了中国三次。", "right": "我去过中国三次。", "note_vi": "Nói kinh nghiệm và số lần thì dùng 过, không dùng 了." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "我以前学___汉语。", "options": ["着", "过", "呢", "得"], "answer": 1, "explain": "以前 + kinh nghiệm: V + 过." },
+      { "type": "mcq", "q": "他没学___日语。", "options": ["了", "在", "过", "呢"], "answer": 2, "explain": "Phủ định kinh nghiệm: 没 + V + 过." },
+      { "type": "mcq", "q": "你吃___这个菜吗？", "options": ["过", "着", "的", "呢"], "answer": 0, "explain": "Hỏi về kinh nghiệm: V + 过 + O + 吗？" },
+      { "type": "mcq", "q": "我没吃___这个菜。", "options": ["了", "的", "得", "过"], "answer": 3, "explain": "没 + V + 过 nghĩa là chưa từng ăn." },
+      { "type": "gap", "q": "你去___北京吗？(từng)", "answer": ["过"], "explain": "Hỏi bạn đã từng đến chưa: V + 过." },
+      { "type": "gap", "q": "我没吃___这个菜。", "answer": ["过"], "explain": "Chưa từng ăn: 没 + V + 过." },
+      { "type": "gap", "q": "我___去过上海，只去过北京。(không)", "answer": ["没", "没有"], "explain": "没(有) + V + 过 là phủ định kinh nghiệm." },
+      { "type": "order", "words": ["去过", "两次", "我", "中国"], "answer": "我去过中国两次。", "vi": "Tôi từng đến Trung Quốc hai lần.", "explain": "Số lần đặt sau tân ngữ: V 过 O + số lần." },
+      { "type": "order", "words": ["吃过", "你", "吗", "这个菜"], "answer": "你吃过这个菜吗？", "vi": "Bạn từng ăn món này chưa?", "explain": "S + V 过 + O + 吗？" },
+      { "type": "order", "words": ["没", "这个电影", "他", "看过"], "answer": "他没看过这个电影。", "vi": "Anh ấy chưa từng xem bộ phim này.", "explain": "S + 没 + V过 + O." }
+    ]
+  },
+  {
+    "id": "zh-hsk2-zhengzai",
+    "level": "HSK2",
+    "title": "正在…呢 (đang làm)",
+    "title_native": "正在……呢",
+    "summary_vi": "Diễn tả hành động đang diễn ra ngay lúc nói.",
+    "formula": ["S + 正在 + V + (O) + 呢", "S + 在 + V + (O)", "S + 没(有)在 + V + (O)"],
+    "explain_vi": "Để nói một việc **đang diễn ra** ngay lúc nói, tiếng Trung đặt **正在**, **在** hoặc **正** trước động từ, và có thể thêm **呢** ở cuối câu để giọng tự nhiên, sinh động hơn. Tương ứng với 'đang' trong tiếng Việt.\n\nCông thức đầy đủ: **S + 正在 + V + O + 呢**: 我正在看书呢 (tôi đang đọc sách đấy). Có thể rút gọn: 我在看书 hoặc 我看书呢 đều được. Hỏi: 你在做什么呢？ (bạn đang làm gì đấy?).\n\n**Phủ định** dùng **没(有)在 + V**, không dùng 不: 他们没在看电视 (họ không đang xem ti vi). Thông thường người ta trả lời phủ định rồi nói hành động khác: 没在看电视，在学习。\n\nLưu ý: câu này không dùng 了 để chỉ đang làm. Đừng nhầm 在 trước động từ (đang làm) với 在 chỉ nơi chốn (在家: ở nhà). So với tiếng Việt, 'đang' chỉ có một từ nhưng tiếng Trung có ba lựa chọn (正在, 在, 正) với sắc thái nhấn mạnh tăng dần của việc 'ngay lúc này'.",
+    "examples": [
+      { "t": "我正在看书呢。", "py": "Wǒ zhèngzài kàn shū ne.", "vi": "Tôi đang đọc sách đấy." },
+      { "t": "他在打电话。", "py": "Tā zài dǎ diànhuà.", "vi": "Anh ấy đang gọi điện thoại." },
+      { "t": "你在做什么呢？", "py": "Nǐ zài zuò shénme ne?", "vi": "Bạn đang làm gì đấy?" },
+      { "t": "妈妈正在做饭呢。", "py": "Māma zhèngzài zuò fàn ne.", "vi": "Mẹ đang nấu cơm đấy." },
+      { "t": "他们没在看电视，在学习。", "py": "Tāmen méi zài kàn diànshì, zài xuéxí.", "vi": "Họ không đang xem ti vi, họ đang học." },
+      { "t": "外面正在下雨呢。", "py": "Wàimiàn zhèngzài xià yǔ ne.", "vi": "Bên ngoài trời đang mưa đấy." }
+    ],
+    "mistakes": [
+      { "wrong": "我正在吃了饭呢。", "right": "我正在吃饭呢。", "note_vi": "Việc đang diễn ra thì không thêm 了 sau động từ." },
+      { "wrong": "他不在看书。", "right": "他没在看书。", "note_vi": "Phủ định hành động đang diễn ra dùng 没(有)在, không dùng 不在." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "我___看电视呢，你等一下。", "options": ["了", "过", "正在", "会"], "answer": 2, "explain": "正在 + V + 呢 diễn tả đang làm." },
+      { "type": "mcq", "q": "他们在吃饭___。", "options": ["过", "得", "的", "呢"], "answer": 3, "explain": "呢 cuối câu làm câu 'đang làm' thêm tự nhiên." },
+      { "type": "mcq", "q": "你___做什么呢？", "options": ["在", "了", "过", "会"], "answer": 0, "explain": "在 + V: đang làm, hỏi 'đang làm gì'." },
+      { "type": "mcq", "q": "他___在睡觉，你可以进去。", "options": ["很", "会", "别", "没"], "answer": 3, "explain": "Phủ định đang làm: 没在 + V." },
+      { "type": "gap", "q": "我___看书呢。(đang)", "answer": ["正在", "在", "正"], "explain": "正在/在/正 đặt trước động từ để chỉ đang làm." },
+      { "type": "gap", "q": "妈妈在做饭___。", "answer": ["呢"], "explain": "呢 đặt cuối câu để nhấn mạnh đang diễn ra." },
+      { "type": "gap", "q": "他们___在看电视，在玩儿。(không)", "answer": ["没", "没有"], "explain": "Phủ định 'đang làm' dùng 没(有)在." },
+      { "type": "order", "words": ["我", "看书", "正在", "呢"], "answer": "我正在看书呢。", "vi": "Tôi đang đọc sách đấy.", "explain": "S + 正在 + V + O + 呢." },
+      { "type": "order", "words": ["什么", "你", "做", "在", "呢"], "answer": "你在做什么呢？", "vi": "Bạn đang làm gì đấy?", "explain": "S + 在 + V + 什么 + 呢？" },
+      { "type": "order", "words": ["下雨", "外面", "呢", "正在"], "answer": "外面正在下雨呢。", "vi": "Bên ngoài trời đang mưa đấy.", "explain": "Địa điểm/thời gian + 正在 + V + 呢." }
+    ]
+  },
+  {
+    "id": "zh-hsk2-bi",
+    "level": "HSK2",
+    "title": "So sánh bằng 比",
+    "title_native": "A 比 B + adj",
+    "summary_vi": "So sánh hơn: A hơn B về tính chất nào đó; phủ định bằng 没有.",
+    "formula": ["A + 比 + B + adj", "A + 比 + B + adj + 一点儿 / 得多 / số lượng", "A + 没有 + B + adj"],
+    "explain_vi": "**比** (bǐ) dùng để so sánh hơn, tương ứng với 'hơn' trong tiếng Việt, nhưng **vị trí khác hẳn**. Tiếng Việt nói 'Anh ấy cao hơn tôi' (tính từ trước, đối tượng so sánh sau), còn tiếng Trung nói **他比我高** (đối tượng so sánh đặt ngay sau 比, tính từ đứng cuối).\n\nCông thức: **A + 比 + B + tính từ**. Tính từ ở đây **không** thêm 很/非常/太 (không nói 他比我很高). Muốn nói mức độ chênh lệch thì thêm sau tính từ: **一点儿** (hơn một chút): 这个比那个便宜一点儿; **得多 / 多了** (hơn nhiều): 北京比上海冷多了; hoặc con số cụ thể: 哥哥比我大三岁 (anh hơn tôi ba tuổi).\n\n**Phủ định**: không dùng 不 sau 比 một cách thông thường, mà đổi sang **A + 没有 + B + tính từ** (A không bằng B): 我没有他高 (tôi không cao bằng anh ấy). Câu 他比我不高 là cách nói không tự nhiên ở trình độ này.\n\nMẹo nhớ: A 比 B + tính từ, đọc theo thứ tự 'A so với B thì cao'.",
+    "examples": [
+      { "t": "他比我高。", "py": "Tā bǐ wǒ gāo.", "vi": "Anh ấy cao hơn tôi." },
+      { "t": "今天比昨天冷。", "py": "Jīntiān bǐ zuótiān lěng.", "vi": "Hôm nay lạnh hơn hôm qua." },
+      { "t": "这个比那个便宜一点儿。", "py": "Zhège bǐ nàge piányi yìdiǎnr.", "vi": "Cái này rẻ hơn cái kia một chút." },
+      { "t": "哥哥比我大三岁。", "py": "Gēge bǐ wǒ dà sān suì.", "vi": "Anh trai lớn hơn tôi ba tuổi." },
+      { "t": "我没有他高。", "py": "Wǒ méiyǒu tā gāo.", "vi": "Tôi không cao bằng anh ấy." },
+      { "t": "北京比上海冷多了。", "py": "Běijīng bǐ Shànghǎi lěng duō le.", "vi": "Bắc Kinh lạnh hơn Thượng Hải nhiều." }
+    ],
+    "mistakes": [
+      { "wrong": "他比我很高。", "right": "他比我高。", "note_vi": "Câu có 比 không dùng 很/非常 trước tính từ; muốn nhấn mạnh thì thêm 得多/一点儿 sau tính từ." },
+      { "wrong": "他比我不高。", "right": "他没有我高。", "note_vi": "Phủ định của câu 比 dùng 没有, đổi vị trí A và B theo nghĩa." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "他___我高。", "options": ["很", "比", "在", "了"], "answer": 1, "explain": "A 比 B + adj: 他比我高." },
+      { "type": "mcq", "q": "这件衣服比那件___一点儿。", "options": ["贵", "很贵", "非常贵", "太贵"], "answer": 0, "explain": "Sau 比 chỉ dùng tính từ trần, rồi mới thêm 一点儿." },
+      { "type": "mcq", "q": "弟弟比我小___。", "options": ["很", "非常", "两岁", "太"], "answer": 2, "explain": "Có thể thêm số lượng sau tính từ để chỉ mức chênh: 小两岁." },
+      { "type": "mcq", "q": "他没有我___。", "options": ["比高", "很高", "不高", "高"], "answer": 3, "explain": "没有 + B + adj: tính từ trần, không thêm 很." },
+      { "type": "gap", "q": "弟弟___我小两岁。(hơn)", "answer": ["比"], "explain": "A 比 B + adj + số lượng." },
+      { "type": "gap", "q": "今天比昨天热___。(nhiều)", "answer": ["得多", "多了"], "explain": "得多 / 多了 đặt sau tính từ để nói hơn rất nhiều." },
+      { "type": "gap", "q": "我___他高。(không bằng)", "answer": ["没有", "没"], "explain": "A 没有 B + adj: A không bằng B." },
+      { "type": "order", "words": ["比", "我", "他", "高"], "answer": "他比我高。", "vi": "Anh ấy cao hơn tôi.", "explain": "A + 比 + B + adj." },
+      { "type": "order", "words": ["昨天", "冷", "今天", "比"], "answer": "今天比昨天冷。", "vi": "Hôm nay lạnh hơn hôm qua.", "explain": "今天 + 比 + 昨天 + adj." },
+      { "type": "order", "words": ["便宜", "一点儿", "那个", "这个", "比"], "answer": "这个比那个便宜一点儿。", "vi": "Cái này rẻ hơn cái kia một chút.", "explain": "一点儿 đứng sau tính từ." }
+    ]
+  },
+  {
+    "id": "zh-hsk2-modal",
+    "level": "HSK2",
+    "title": "Động từ năng nguyện: 要/想/会/能/可以",
+    "title_native": "要 / 想 / 会 / 能 / 可以",
+    "summary_vi": "Muốn, sẽ, biết, có thể, được phép: phân biệt năm từ hay nhầm.",
+    "formula": ["S + 想/要 + V (muốn / sẽ, cần)", "S + 会 + V (biết làm; sẽ)", "S + 能/可以 + V (có thể; được phép)", "S + 不想/不会/不能/不可以 + V"],
+    "explain_vi": "Động từ năng nguyện đứng **trước động từ chính** để thêm ý nguyện, khả năng, sự cho phép. Cả năm từ đều tương ứng 'muốn / sẽ / biết / có thể / được' trong tiếng Việt, nhưng cách dùng khác nhau:\n\n- **想**: muốn, mong muốn (nhẹ nhàng). 我想喝茶。 Phủ định: 不想.\n- **要**: muốn (mạnh hơn), hoặc **sẽ/cần/phải**: 我要去北京 (tôi sẽ/muốn đi Bắc Kinh). Chú ý **phủ định của 要 (muốn) là 不想**; 不要 nghĩa là 'đừng' trong câu mệnh lệnh.\n- **会**: **biết làm** nhờ học (他会说汉语) hoặc **sẽ** (明天会下雨).\n- **能**: **có thể** vì có khả năng hoặc điều kiện cho phép (我今天不能去，我很忙).\n- **可以**: **được phép** hoặc có thể: 这里可以坐吗？\n\nPhân biệt hay gặp: **会** là kỹ năng đã học, **能** là khả năng/điều kiện hiện tại. Người biết bơi nói 我会游泳, nhưng nếu hôm nay bị ốm thì 我不能游泳. Câu hỏi xin phép dùng **可以** hoặc **能**.",
+    "examples": [
+      { "t": "我想喝茶。", "py": "Wǒ xiǎng hē chá.", "vi": "Tôi muốn uống trà." },
+      { "t": "我要去北京。", "py": "Wǒ yào qù Běijīng.", "vi": "Tôi sẽ (muốn) đi Bắc Kinh." },
+      { "t": "他会说汉语。", "py": "Tā huì shuō Hànyǔ.", "vi": "Anh ấy biết nói tiếng Hán." },
+      { "t": "我今天不能去，我很忙。", "py": "Wǒ jīntiān bù néng qù, wǒ hěn máng.", "vi": "Hôm nay tôi không thể đi, tôi rất bận." },
+      { "t": "这里可以坐吗？", "py": "Zhèlǐ kěyǐ zuò ma?", "vi": "Ở đây ngồi được không?" },
+      { "t": "明天会下雨。", "py": "Míngtiān huì xià yǔ.", "vi": "Ngày mai sẽ mưa." }
+    ],
+    "mistakes": [
+      { "wrong": "我能说汉语。(ý: tôi biết nói)", "right": "我会说汉语。", "note_vi": "Nói biết một kỹ năng đã học thì dùng 会, không dùng 能." },
+      { "wrong": "我不要去北京。(ý: tôi không muốn đi)", "right": "我不想去北京。", "note_vi": "Phủ định của 要 (muốn) là 不想; 不要 nghe như 'đừng' hoặc từ chối cứng." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "他从小学游泳，所以他___游泳。", "options": ["可以", "会", "要", "想"], "answer": 1, "explain": "Kỹ năng đã học: 会 + V." },
+      { "type": "mcq", "q": "这里不___游泳。", "options": ["想", "会", "可以", "要"], "answer": 2, "explain": "Không được phép làm gì: 不可以 + V." },
+      { "type": "mcq", "q": "我很渴，___喝水。", "options": ["想", "会", "能", "可以"], "answer": 0, "explain": "想 + V diễn tả ý muốn: tôi muốn uống nước." },
+      { "type": "mcq", "q": "医生说我不___喝酒。", "options": ["想", "会", "要", "能"], "answer": 3, "explain": "Không được/không thể vì điều kiện sức khỏe: 不能." },
+      { "type": "gap", "q": "我___说一点儿汉语。(biết)", "answer": ["会"], "explain": "会 + V nói về kỹ năng." },
+      { "type": "gap", "q": "明天我___去北京，下午的飞机。(sẽ)", "answer": ["要", "想"], "explain": "要 + V diễn tả dự định sắp làm." },
+      { "type": "gap", "q": "我___坐这里吗？(xin phép)", "answer": ["可以", "能"], "explain": "Xin phép dùng 可以 hoặc 能." },
+      { "type": "order", "words": ["不", "喝茶", "我", "想"], "answer": "我不想喝茶。", "vi": "Tôi không muốn uống trà.", "explain": "S + 不想 + V + O." },
+      { "type": "order", "words": ["汉语", "会", "他", "说"], "answer": "他会说汉语。", "vi": "Anh ấy biết nói tiếng Hán.", "explain": "S + 会 + V + O." },
+      { "type": "order", "words": ["坐", "吗", "这里", "可以"], "answer": "这里可以坐吗？", "vi": "Ở đây ngồi được không?", "explain": "可以 + V + 吗: hỏi xin phép." }
+    ]
+  },
+  {
+    "id": "zh-hsk2-yinwei",
+    "level": "HSK2",
+    "title": "因为…所以… (vì … nên …)",
+    "title_native": "因为……所以……",
+    "summary_vi": "Nêu nguyên nhân (因为) và kết quả (所以).",
+    "formula": ["因为 + nguyên nhân，所以 + kết quả", "S + kết quả，因为 + nguyên nhân", "S + nguyên nhân，所以 + kết quả"],
+    "explain_vi": "Cặp liên từ **因为…所以…** tương ứng 'vì … nên …' trong tiếng Việt. Khác với tiếng Anh (chỉ dùng because **hoặc** so), tiếng Trung thường dùng **cả hai** cùng lúc: **因为下雨，所以我没去** (vì trời mưa nên tôi không đi).\n\n**Vị trí**: 因为 đặt ở đầu vế nguyên nhân; 所以 đặt ở **đầu vế kết quả**, trước chủ ngữ của vế sau nếu chủ ngữ khác nhau. Khi chủ ngữ giống nhau, 因为 có thể đứng sau chủ ngữ: 我因为很忙，所以没去。\n\nBạn cũng có thể chỉ dùng một trong hai từ: chỉ dùng 因为 khi nêu lý do **sau** kết quả: 我没去，因为我很忙; hoặc chỉ dùng 所以 để nêu kết quả: 他很累，所以想早点儿睡觉。\n\nLưu ý: vế sau **không** dùng 但是 (nhưng) thay cho 所以 vì 但是 diễn tả sự đối lập, còn 所以 diễn tả kết quả. 所以 cũng không đứng sau chủ ngữ: nói 所以我没去 chứ không phải 我所以没去.",
+    "examples": [
+      { "t": "因为下雨，所以我没去。", "py": "Yīnwèi xià yǔ, suǒyǐ wǒ méi qù.", "vi": "Vì trời mưa nên tôi không đi." },
+      { "t": "因为他病了，所以今天没来。", "py": "Yīnwèi tā bìng le, suǒyǐ jīntiān méi lái.", "vi": "Vì anh ấy ốm nên hôm nay không đến." },
+      { "t": "我没去，因为我很忙。", "py": "Wǒ méi qù, yīnwèi wǒ hěn máng.", "vi": "Tôi không đi, vì tôi rất bận." },
+      { "t": "因为我喜欢中国菜，所以常常去中国饭馆。", "py": "Yīnwèi wǒ xǐhuan Zhōngguó cài, suǒyǐ chángcháng qù Zhōngguó fànguǎn.", "vi": "Vì tôi thích món Trung nên thường đến nhà hàng Trung Quốc." },
+      { "t": "他很累，所以想早点儿睡觉。", "py": "Tā hěn lèi, suǒyǐ xiǎng zǎo diǎnr shuìjiào.", "vi": "Anh ấy rất mệt nên muốn đi ngủ sớm." },
+      { "t": "因为天气很好，所以我们出去玩儿。", "py": "Yīnwèi tiānqì hěn hǎo, suǒyǐ wǒmen chūqù wánr.", "vi": "Vì thời tiết đẹp nên chúng tôi ra ngoài chơi." }
+    ],
+    "mistakes": [
+      { "wrong": "因为下雨了，我所以没去。", "right": "因为下雨了，所以我没去。", "note_vi": "所以 đứng đầu vế kết quả, trước chủ ngữ." },
+      { "wrong": "因为下雨，但是我没去。", "right": "因为下雨，所以我没去。", "note_vi": "但是 diễn tả đối lập; kết quả của nguyên nhân phải dùng 所以." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "___下雨，所以我没去。", "options": ["虽然", "因为", "如果", "但是"], "answer": 1, "explain": "因为 mở đầu vế nguyên nhân." },
+      { "type": "mcq", "q": "他生病了，___今天没来上课。", "options": ["因为", "但是", "所以", "还是"], "answer": 2, "explain": "Vế sau là kết quả nên dùng 所以." },
+      { "type": "mcq", "q": "因为太累了，___我想休息。", "options": ["但是", "或者", "还是", "所以"], "answer": 3, "explain": "因为…所以…: vì mệt nên muốn nghỉ." },
+      { "type": "mcq", "q": "我今天没去，___我很忙。", "options": ["因为", "所以", "但是", "虽然"], "answer": 0, "explain": "Nêu lý do sau kết quả chỉ cần 因为." },
+      { "type": "gap", "q": "___他病了，所以没来。(vì)", "answer": ["因为"], "explain": "因为 đặt đầu vế nguyên nhân." },
+      { "type": "gap", "q": "因为我很忙，___没去。(nên)", "answer": ["所以"], "explain": "所以 đặt đầu vế kết quả." },
+      { "type": "gap", "q": "我没去，___我很忙。(vì)", "answer": ["因为"], "explain": "Kết quả nói trước thì nguyên nhân dùng 因为." },
+      { "type": "order", "words": ["所以", "我没去", "因为", "下雨"], "answer": "因为下雨，所以我没去。", "vi": "Vì trời mưa nên tôi không đi.", "explain": "因为 + nguyên nhân，所以 + kết quả." },
+      { "type": "order", "words": ["所以", "今天没来", "因为", "他病了"], "answer": "因为他病了，所以今天没来。", "vi": "Vì anh ấy ốm nên hôm nay không đến.", "explain": "Trạng ngữ thời gian đứng trước động từ của vế kết quả." },
+      { "type": "order", "words": ["所以", "想睡觉", "我", "因为", "很累"], "answer": "因为我很累，所以想睡觉。", "vi": "Vì tôi rất mệt nên muốn đi ngủ.", "explain": "Hai vế cùng chủ ngữ nên vế sau có thể lược bỏ 我." }
+    ]
+  },
+  {
+    "id": "zh-hsk2-suiran",
+    "level": "HSK2",
+    "title": "虽然…但是… (tuy … nhưng …)",
+    "title_native": "虽然……但是……",
+    "summary_vi": "Nhượng bộ rồi chuyển ngoặt: tuy A nhưng B.",
+    "formula": ["虽然 + A，但是 + B", "S + 虽然 + A，但是 + B", "虽然 + A，可是 + B"],
+    "explain_vi": "Cặp **虽然…但是…** tương ứng 'tuy … nhưng …' / 'mặc dù … nhưng …' trong tiếng Việt. Vế đầu nêu một sự thật, vế sau nêu điều trái với mong đợi: **虽然很累，但是我很高兴** (tuy rất mệt nhưng tôi rất vui).\n\nĐiểm khác với tiếng Anh: tiếng Anh không dùng although cùng lúc với but, còn tiếng Trung **dùng cả hai** và **但是 gần như bắt buộc có**, giống tiếng Việt 'tuy … nhưng …'. Bạn có thể thay 但是 bằng **可是** (nghĩa tương đương, hơi khẩu ngữ hơn).\n\n**Vị trí của 虽然**: nếu hai vế có cùng chủ ngữ, 虽然 có thể đứng **sau chủ ngữ**: 他虽然很小，但是什么都知道 (cậu bé tuy nhỏ nhưng cái gì cũng biết). Nếu hai vế khác chủ ngữ thì 虽然 đứng ở đầu câu: 虽然下雨，但是我们都去了。\n\nNhắc lại: đừng dùng 所以 trong vế sau của cặp này, vì 所以 chỉ kết quả chứ không chỉ sự đối lập. Mẹo nhớ: 虽然 = tuy, 但是 = nhưng, hai chữ luôn đi cặp với nhau.",
+    "examples": [
+      { "t": "虽然很累，但是我很高兴。", "py": "Suīrán hěn lèi, dànshì wǒ hěn gāoxìng.", "vi": "Tuy rất mệt nhưng tôi rất vui." },
+      { "t": "虽然下雨，但是我们都去了。", "py": "Suīrán xià yǔ, dànshì wǒmen dōu qù le.", "vi": "Tuy trời mưa nhưng chúng tôi đều đi." },
+      { "t": "虽然这个菜很贵，但是很好吃。", "py": "Suīrán zhège cài hěn guì, dànshì hěn hǎochī.", "vi": "Tuy món này đắt nhưng rất ngon." },
+      { "t": "他虽然很小，但是什么都知道。", "py": "Tā suīrán hěn xiǎo, dànshì shénme dōu zhīdào.", "vi": "Cậu ấy tuy còn nhỏ nhưng cái gì cũng biết." },
+      { "t": "虽然我学了两年汉语，但是说得不太好。", "py": "Suīrán wǒ xué le liǎng nián Hànyǔ, dànshì shuō de bú tài hǎo.", "vi": "Tuy tôi học tiếng Hán hai năm rồi nhưng nói chưa tốt lắm." },
+      { "t": "这个房间虽然不大，但是很漂亮。", "py": "Zhège fángjiān suīrán bú dà, dànshì hěn piàoliang.", "vi": "Căn phòng này tuy không rộng nhưng rất đẹp." }
+    ],
+    "mistakes": [
+      { "wrong": "虽然很累，我很高兴。", "right": "虽然很累，但是我很高兴。", "note_vi": "Vế sau cần có 但是/可是, không bỏ như tiếng Anh." },
+      { "wrong": "虽然很累，所以我很高兴。", "right": "虽然很累，但是我很高兴。", "note_vi": "所以 chỉ kết quả; sự đối lập dùng 但是." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "___很累，但是我很高兴。", "options": ["因为", "虽然", "所以", "如果"], "answer": 1, "explain": "虽然 mở vế nhượng bộ (tuy)." },
+      { "type": "mcq", "q": "虽然天气很冷，___他穿得很少。", "options": ["所以", "因为", "但是", "或者"], "answer": 2, "explain": "Vế sau trái với mong đợi nên dùng 但是." },
+      { "type": "mcq", "q": "这个菜虽然很贵，___很好吃。", "options": ["但是", "所以", "因为", "和"], "answer": 0, "explain": "虽然…但是…: tuy đắt nhưng ngon." },
+      { "type": "mcq", "q": "他虽然很小，___什么都知道。", "options": ["所以", "因为", "和", "但是"], "answer": 3, "explain": "Tuy nhỏ nhưng cái gì cũng biết: 但是." },
+      { "type": "gap", "q": "___这个房间不大，但是很漂亮。(tuy)", "answer": ["虽然"], "explain": "虽然 đứng đầu vế nhượng bộ." },
+      { "type": "gap", "q": "虽然我学得不多，___我很喜欢汉语。(nhưng)", "answer": ["但是", "可是"], "explain": "但是 / 可是 mở vế đối lập." },
+      { "type": "gap", "q": "他___很累，但是很高兴。(tuy)", "answer": ["虽然"], "explain": "Cùng chủ ngữ nên 虽然 có thể đứng sau chủ ngữ." },
+      { "type": "order", "words": ["但是", "我很高兴", "虽然", "很累"], "answer": "虽然很累，但是我很高兴。", "vi": "Tuy rất mệt nhưng tôi rất vui.", "explain": "虽然 + A，但是 + B." },
+      { "type": "order", "words": ["但是", "很漂亮", "这个房间", "不大", "虽然"], "answer": "这个房间虽然不大，但是很漂亮。", "vi": "Căn phòng này tuy không rộng nhưng rất đẹp.", "explain": "S + 虽然 + A，但是 + B." },
+      { "type": "order", "words": ["但是", "都去了", "虽然", "我们", "下雨"], "answer": "虽然下雨，但是我们都去了。", "vi": "Tuy trời mưa nhưng chúng tôi đều đi.", "explain": "Khác chủ ngữ giữa hai vế nên 虽然 đứng đầu câu." }
+    ]
+  },
+  {
+    "id": "zh-hsk2-haishi-huozhe",
+    "level": "HSK2",
+    "title": "还是 và 或者 (hay / hoặc)",
+    "title_native": "还是 / 或者",
+    "summary_vi": "还是 dùng trong câu hỏi lựa chọn; 或者 dùng trong câu trần thuật.",
+    "formula": ["A 还是 B？(câu hỏi lựa chọn)", "A 或者 B (câu trần thuật)", "S + 是 A 还是 B？"],
+    "explain_vi": "Tiếng Việt chỉ có một từ **'hay'** (trong câu hỏi) và **'hoặc'** (trong câu kể), nhưng tiếng Trung tách rõ hai từ.\n\n**还是** (háishi) dùng trong **câu hỏi lựa chọn**, người hỏi muốn người nghe chọn một trong hai: **你喝茶还是喝咖啡？** (bạn uống trà hay uống cà phê?). Câu hỏi này **không** thêm 吗. Có thể dùng với 是: 你是学生还是老师？\n\n**或者** (huòzhě) dùng trong **câu trần thuật**, liệt kê các khả năng, nghĩa là 'hoặc': **周六或者周日我有空** (thứ bảy hoặc chủ nhật tôi rảnh). Ngoài ra dùng trong lời đề nghị: 你可以喝茶或者咖啡 (bạn có thể uống trà hoặc cà phê).\n\n**Nhớ nhanh**: câu có dấu hỏi và cần người nghe chọn thì dùng 还是; câu kể, câu đề nghị, câu mệnh lệnh thì dùng 或者. Hai từ không thay thế cho nhau. Lưu ý: 还是 còn có nghĩa 'vẫn' (他还是去了), bạn sẽ học thêm sau; ở bài này ta chỉ học nghĩa 'hay'.",
+    "examples": [
+      { "t": "你喝茶还是喝咖啡？", "py": "Nǐ hē chá háishi hē kāfēi?", "vi": "Bạn uống trà hay uống cà phê?" },
+      { "t": "你是学生还是老师？", "py": "Nǐ shì xuésheng háishi lǎoshī?", "vi": "Bạn là học sinh hay là giáo viên?" },
+      { "t": "我们坐飞机还是坐船？", "py": "Wǒmen zuò fēijī háishi zuò chuán?", "vi": "Chúng ta đi máy bay hay đi tàu thủy?" },
+      { "t": "周六或者周日我有空。", "py": "Zhōuliù huòzhě zhōurì wǒ yǒu kòng.", "vi": "Thứ bảy hoặc chủ nhật tôi rảnh." },
+      { "t": "你可以喝茶或者咖啡。", "py": "Nǐ kěyǐ hē chá huòzhě kāfēi.", "vi": "Bạn có thể uống trà hoặc cà phê." },
+      { "t": "明天或者后天，我去看你。", "py": "Míngtiān huòzhě hòutiān, wǒ qù kàn nǐ.", "vi": "Ngày mai hoặc ngày kia, tôi sẽ đến thăm bạn." }
+    ],
+    "mistakes": [
+      { "wrong": "你喝茶或者咖啡？", "right": "你喝茶还是咖啡？", "note_vi": "Câu hỏi lựa chọn dùng 还是, không dùng 或者." },
+      { "wrong": "我想吃米饭还是面条。", "right": "我想吃米饭或者面条。", "note_vi": "Câu kể (không phải câu hỏi) dùng 或者." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "你喝茶___喝咖啡？", "options": ["或者", "还是", "和", "也"], "answer": 1, "explain": "Câu hỏi lựa chọn dùng 还是." },
+      { "type": "mcq", "q": "星期六___星期天，你来我家玩儿吧。", "options": ["还是", "但是", "或者", "所以"], "answer": 2, "explain": "Câu đề nghị, không phải câu hỏi: dùng 或者." },
+      { "type": "mcq", "q": "你是中国人___日本人？", "options": ["还是", "或者", "和", "也"], "answer": 0, "explain": "Hỏi chọn một trong hai: 还是." },
+      { "type": "mcq", "q": "我周末在家看书___听音乐。", "options": ["还是", "但是", "所以", "或者"], "answer": 3, "explain": "Câu kể liệt kê khả năng: 或者." },
+      { "type": "gap", "q": "你想喝茶___咖啡？(hay)", "answer": ["还是"], "explain": "Hỏi lựa chọn: A 还是 B？" },
+      { "type": "gap", "q": "你可以明天来___后天来。(hoặc)", "answer": ["或者"], "explain": "Câu đề nghị nên dùng 或者." },
+      { "type": "gap", "q": "你是老师___学生？(hay)", "answer": ["还是"], "explain": "是 A 还是 B？ dùng để hỏi nghề nghiệp, thân phận." },
+      { "type": "order", "words": ["还是", "喝咖啡", "你", "喝茶"], "answer": "你喝茶还是喝咖啡？", "vi": "Bạn uống trà hay uống cà phê?", "explain": "S + V A + 还是 + V B？" },
+      { "type": "order", "words": ["坐船", "还是", "我们", "坐飞机"], "answer": "我们坐飞机还是坐船？", "vi": "Chúng ta đi máy bay hay đi tàu thủy?", "explain": "Hỏi chọn một trong hai phương tiện." },
+      { "type": "order", "words": ["我有空", "周日", "周六", "或者"], "answer": "周六或者周日，我有空。", "vi": "Thứ bảy hoặc chủ nhật tôi rảnh.", "explain": "A 或者 B trong câu trần thuật." }
+    ]
+  },
+  {
+    "id": "zh-hsk2-jiu-cai",
+    "level": "HSK2",
+    "title": "就 và 才 (đã … rồi / mãi mới …)",
+    "title_native": "就 / 才",
+    "summary_vi": "就 nhấn mạnh sớm, nhanh, dễ; 才 nhấn mạnh muộn, chậm, khó.",
+    "formula": ["S + thời gian/số lượng + 就 + V (sớm, nhanh)", "S + thời gian/số lượng + 才 + V (muộn, chậm)", "他六点就起床了 / 我八点才起床"],
+    "explain_vi": "**就** và **才** đều là phó từ đặt **trước động từ**, nhưng thể hiện thái độ của người nói về thời gian hay số lượng. Tiếng Việt dịch 就 là 'đã … rồi', 'chỉ … là', còn 才 là 'mãi mới', 'mới'.\n\n**就** cho thấy việc xảy ra **sớm, nhanh, dễ dàng, ít**: 他六点就起床了 (anh ấy 6 giờ đã dậy rồi – nghĩa là sớm). Cuối câu thường có 了. 这本书我一天就看完了 (tôi chỉ một ngày là đọc xong, nhanh).\n\n**才** cho thấy việc xảy ra **muộn, chậm, khó khăn, nhiều**: 我八点才起床 (8 giờ tôi mới dậy – nghĩa là muộn). Câu có 才 thường **không** thêm 了 ở cuối. 我们八点上课，他九点才到 (tám giờ vào học, chín giờ anh ấy mới đến).\n\nCùng một mốc thời gian, chỉ cần đổi 就 sang 才 là đổi thái độ: 六点就起床 (sớm) / 六点才起床 (muộn, so với dự định). So với tiếng Việt, ta thường nói bằng ngữ điệu hoặc từ 'đã', 'mới', còn tiếng Trung phải chọn 就 hay 才 rõ ràng.",
+    "examples": [
+      { "t": "他六点就起床了。", "py": "Tā liù diǎn jiù qǐchuáng le.", "vi": "Anh ấy 6 giờ đã dậy rồi." },
+      { "t": "我八点才起床。", "py": "Wǒ bā diǎn cái qǐchuáng.", "vi": "8 giờ tôi mới dậy." },
+      { "t": "这本书我一天就看完了。", "py": "Zhè běn shū wǒ yì tiān jiù kàn wán le.", "vi": "Quyển sách này tôi chỉ một ngày là đọc xong." },
+      { "t": "我们八点上课，他九点才到。", "py": "Wǒmen bā diǎn shàng kè, tā jiǔ diǎn cái dào.", "vi": "Chúng tôi 8 giờ vào học, 9 giờ anh ấy mới đến." },
+      { "t": "我昨天十二点才睡觉。", "py": "Wǒ zuótiān shí'èr diǎn cái shuìjiào.", "vi": "Hôm qua 12 giờ tôi mới đi ngủ." },
+      { "t": "他五岁就会游泳了。", "py": "Tā wǔ suì jiù huì yóuyǒng le.", "vi": "Cậu ấy 5 tuổi đã biết bơi rồi." }
+    ],
+    "mistakes": [
+      { "wrong": "我八点才起床了。", "right": "我八点才起床。", "note_vi": "Câu có 才 (muộn) thường không thêm 了 ở cuối." },
+      { "wrong": "他六点才起床，很早。", "right": "他六点就起床了，很早。", "note_vi": "Muốn nói 'sớm' phải dùng 就, không dùng 才." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "他六点___起床了，真早。", "options": ["才", "就", "也", "都"], "answer": 1, "explain": "Nhấn mạnh sớm: 就 + V + 了." },
+      { "type": "mcq", "q": "我们八点上课，他九点___到。", "options": ["就", "还", "才", "也"], "answer": 2, "explain": "Nhấn mạnh muộn: 才 + V." },
+      { "type": "mcq", "q": "我只学了一个月，___会说汉语了。", "options": ["就", "才", "也", "都"], "answer": 0, "explain": "Chỉ một tháng đã biết: nhanh, nên dùng 就." },
+      { "type": "mcq", "q": "昨天我十二点___睡觉，今天很累。", "options": ["就", "也", "都", "才"], "answer": 3, "explain": "12 giờ mới ngủ: muộn, nên dùng 才." },
+      { "type": "gap", "q": "他五岁___会游泳了。(đã)", "answer": ["就"], "explain": "五岁 là sớm: dùng 就." },
+      { "type": "gap", "q": "我昨天十二点___睡觉。(mới)", "answer": ["才"], "explain": "Muộn: dùng 才." },
+      { "type": "gap", "q": "这本书我一天___看完了。(đã)", "answer": ["就"], "explain": "Nhanh, dễ: dùng 就." },
+      { "type": "order", "words": ["就", "起床了", "他", "六点"], "answer": "他六点就起床了。", "vi": "Anh ấy 6 giờ đã dậy rồi.", "explain": "S + thời gian + 就 + V + 了." },
+      { "type": "order", "words": ["才到", "九点", "我们", "他", "上课", "八点"], "answer": "我们八点上课，他九点才到。", "vi": "Chúng tôi 8 giờ vào học, 9 giờ anh ấy mới đến.", "explain": "才 đặt trước động từ ở vế nói về việc muộn." },
+      { "type": "order", "words": ["会", "他", "游泳了", "就", "五岁"], "answer": "他五岁就会游泳了。", "vi": "Cậu ấy 5 tuổi đã biết bơi rồi.", "explain": "S + số tuổi + 就 + V + 了: làm được từ rất sớm." }
+    ]
+  },
+  {
+    "id": "zh-hsk2-de-complement",
+    "level": "HSK2",
+    "title": "Bổ ngữ trạng thái V得…",
+    "title_native": "V + 得 + adj",
+    "summary_vi": "Đánh giá hành động làm tốt, nhanh, chậm... bằng V + 得 + tính từ.",
+    "formula": ["S + V + 得 + (很) + adj", "S + V + O + V + 得 + adj", "S + O + V + 得 + adj", "S + V + 得 + 不 + adj"],
+    "explain_vi": "**Bổ ngữ trạng thái** dùng để **đánh giá, miêu tả cách thức** một hành động diễn ra: tốt hay dở, nhanh hay chậm, nhiều hay ít. Trợ từ **得** (de) nối động từ với phần miêu tả. Tiếng Việt tương ứng 'làm … rất …', ví dụ 'nói rất tốt', 'chạy rất nhanh'.\n\nCông thức cơ bản: **S + V + 得 + (很) + tính từ**: 他说得很好 (anh ấy nói rất tốt), 我跑得不快 (tôi chạy không nhanh). Phủ định đặt 不 trước tính từ, không đặt trước động từ.\n\n**Khi động từ có tân ngữ**, phải lặp lại động từ hoặc đưa tân ngữ lên trước: **S + V + O + V + 得 + adj** hoặc **S + O + V + 得 + adj**: 她唱歌唱得很好 / 他汉语说得很好. Không nói 他说汉语得很好.\n\nCâu hỏi: **V + 得 + 怎么样？** (làm thế nào?): 他汉语说得怎么样？ Chú ý ba chữ cùng đọc de: **的** (sở hữu), **地** (trạng ngữ), **得** (bổ ngữ sau động từ). Ở bài này chỉ dùng 得 sau động từ.",
+    "examples": [
+      { "t": "他说得很好。", "py": "Tā shuō de hěn hǎo.", "vi": "Anh ấy nói rất tốt." },
+      { "t": "她唱歌唱得很好。", "py": "Tā chàng gē chàng de hěn hǎo.", "vi": "Cô ấy hát rất hay." },
+      { "t": "我跑得不快。", "py": "Wǒ pǎo de bú kuài.", "vi": "Tôi chạy không nhanh." },
+      { "t": "他汉语说得怎么样？", "py": "Tā Hànyǔ shuō de zěnmeyàng?", "vi": "Tiếng Hán anh ấy nói thế nào?" },
+      { "t": "弟弟吃得很多。", "py": "Dìdi chī de hěn duō.", "vi": "Em trai ăn rất nhiều." },
+      { "t": "她做饭做得真好。", "py": "Tā zuò fàn zuò de zhēn hǎo.", "vi": "Cô ấy nấu cơm thật ngon (giỏi)." }
+    ],
+    "mistakes": [
+      { "wrong": "他说汉语得很好。", "right": "他说汉语说得很好。", "note_vi": "Có tân ngữ thì phải lặp động từ (hoặc đưa tân ngữ lên trước): 他汉语说得很好." },
+      { "wrong": "我跑得没快。", "right": "我跑得不快。", "note_vi": "Phủ định bổ ngữ trạng thái dùng 不 trước tính từ." }
+    ],
+    "exercises": [
+      { "type": "mcq", "q": "他说___很好。", "options": ["的", "得", "地", "了"], "answer": 1, "explain": "Sau động từ, nối bổ ngữ trạng thái dùng 得." },
+      { "type": "mcq", "q": "弟弟吃___很多。", "options": ["得", "的", "地", "过"], "answer": 0, "explain": "V + 得 + adj: 吃得很多." },
+      { "type": "mcq", "q": "他汉语说___怎么样？", "options": ["的", "地", "了", "得"], "answer": 3, "explain": "Hỏi mức độ làm tốt thế nào: V + 得 + 怎么样？" },
+      { "type": "mcq", "q": "他写字___得很好。", "options": ["了", "的", "写", "地"], "answer": 2, "explain": "Có tân ngữ 字 nên lặp lại động từ: 写字写得很好." },
+      { "type": "gap", "q": "他跑___很快。", "answer": ["得"], "explain": "V + 得 + adj." },
+      { "type": "gap", "q": "她唱歌唱___很好。", "answer": ["得"], "explain": "Lặp động từ 唱, rồi 得 + adj." },
+      { "type": "gap", "q": "我跑得___快，他比我快。(không)", "answer": ["不"], "explain": "Phủ định đặt 不 trước tính từ." },
+      { "type": "order", "words": ["说得", "他", "很好"], "answer": "他说得很好。", "vi": "Anh ấy nói rất tốt.", "explain": "S + V得 + 很 + adj." },
+      { "type": "order", "words": ["做得", "真好", "她", "做饭"], "answer": "她做饭做得真好。", "vi": "Cô ấy nấu cơm thật ngon.", "explain": "S + V + O + V + 得 + adj." },
+      { "type": "order", "words": ["不太好", "我", "说得", "汉语"], "answer": "我汉语说得不太好。", "vi": "Tiếng Hán tôi nói chưa tốt lắm.", "explain": "S + O + V得 + 不太 + adj." }
+    ]
+  }
+]

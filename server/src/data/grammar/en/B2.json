@@ -1,0 +1,1893 @@
+[
+  {
+    "id": "en-b2-conditional-3-mixed",
+    "level": "B2",
+    "title": "Câu điều kiện loại 3 và hỗn hợp",
+    "title_native": "Third and mixed conditionals",
+    "summary_vi": "Nói về điều không có thật trong quá khứ và hệ quả của nó ở quá khứ hoặc hiện tại.",
+    "formula": [
+      "If + S + had + V3, S + would/could/might + have + V3",
+      "If + S + had + V3, S + would + V (hiện tại)",
+      "If + S + V2/were, S + would + have + V3"
+    ],
+    "explain_vi": "**Câu điều kiện loại 3** dùng để nói về một điều **đã không xảy ra trong quá khứ** và kết quả tưởng tượng của nó. Vì mọi chuyện đã xong rồi nên ta chỉ có thể tiếc nuối, trách móc hoặc nhận xét. Tiếng Việt thường nói: 'Nếu hồi đó... thì đã...'.\n\nCông thức: **If + had + V3 (quá khứ phân từ), would have + V3**. Ví dụ: If I had left earlier, I would have caught the bus. (Thực tế: tôi đã không đi sớm nên lỡ xe.) Ở mệnh đề kết quả, bạn có thể dùng could have (đã có thể) hoặc might have (có lẽ đã) thay cho would have.\n\n**Câu điều kiện hỗn hợp** trộn hai thời điểm khác nhau. Có hai kiểu hay gặp:\n\n1. Điều kiện ở **quá khứ**, kết quả ở **hiện tại**: If + had + V3, would + V. Ví dụ: If I had taken that job, I would be rich now.\n\n2. Điều kiện là **tính chất thường xuyên ở hiện tại**, kết quả ở **quá khứ**: If + V2/were, would have + V3. Ví dụ: If he were more careful, he wouldn't have broken the vase.\n\nMẹo: hãy tự hỏi 'điều kiện nói về lúc nào, kết quả nói về lúc nào?' rồi chọn dạng động từ tương ứng. Lưu ý không dùng would ngay sau if trong mệnh đề điều kiện: nói If I had known, KHÔNG nói If I would have known. Dấu phẩy được dùng khi mệnh đề If đứng đầu câu.",
+    "examples": [
+      {
+        "t": "If I had known about the traffic, I would have left earlier.",
+        "vi": "Nếu tôi biết về tình trạng kẹt xe thì tôi đã đi sớm hơn."
+      },
+      {
+        "t": "She wouldn't have missed the train if she had woken up on time.",
+        "vi": "Cô ấy đã không lỡ chuyến tàu nếu cô ấy dậy đúng giờ."
+      },
+      {
+        "t": "If they hadn't cancelled the flight, we would have arrived yesterday.",
+        "vi": "Nếu họ không hủy chuyến bay thì hôm qua chúng tôi đã đến nơi rồi."
+      },
+      {
+        "t": "If I had studied medicine, I would be a doctor now.",
+        "vi": "Nếu hồi đó tôi học y thì bây giờ tôi đã là bác sĩ."
+      },
+      {
+        "t": "If she were more patient, she wouldn't have argued with the manager.",
+        "vi": "Nếu cô ấy kiên nhẫn hơn thì cô ấy đã không cãi nhau với quản lý."
+      },
+      {
+        "t": "Would you have accepted the job if they had offered more money?",
+        "vi": "Bạn có nhận công việc đó không nếu họ đã trả lương cao hơn?"
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "If I would have known, I would have told you.",
+        "right": "If I had known, I would have told you.",
+        "note_vi": "Không dùng would trong mệnh đề If; dùng had + V3."
+      },
+      {
+        "wrong": "If I had studied harder, I would pass the exam last year.",
+        "right": "If I had studied harder, I would have passed the exam last year.",
+        "note_vi": "Kết quả nằm ở quá khứ nên phải dùng would have + V3."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "If I ___ the alarm, I wouldn't have been late.",
+        "options": [
+          "set",
+          "had set",
+          "would set",
+          "have set"
+        ],
+        "answer": 1,
+        "explain": "Điều kiện loại 3: If + had + V3."
+      },
+      {
+        "type": "mcq",
+        "q": "She would have passed the exam if she ___ harder.",
+        "options": [
+          "studied",
+          "would study",
+          "had studied",
+          "has studied"
+        ],
+        "answer": 2,
+        "explain": "Mệnh đề If của loại 3 dùng had studied."
+      },
+      {
+        "type": "mcq",
+        "q": "If he had taken the medicine yesterday, he ___ better today.",
+        "options": [
+          "would feel",
+          "would have felt",
+          "felt",
+          "had felt"
+        ],
+        "answer": 0,
+        "explain": "Hỗn hợp: điều kiện ở quá khứ, kết quả ở hiện tại (today) nên dùng would + V."
+      },
+      {
+        "type": "mcq",
+        "q": "We ___ the match if our best player hadn't been injured.",
+        "options": [
+          "had won",
+          "would win",
+          "will win",
+          "would have won"
+        ],
+        "answer": 3,
+        "explain": "Kết quả trong quá khứ: would have + V3."
+      },
+      {
+        "type": "gap",
+        "q": "If you ___ me earlier, I could have helped you. (tell)",
+        "answer": [
+          "had told"
+        ],
+        "explain": "If + had + V3."
+      },
+      {
+        "type": "gap",
+        "q": "If I ___ my phone, I would have called you. (not / lose)",
+        "answer": [
+          "hadn't lost",
+          "had not lost"
+        ],
+        "explain": "Phủ định của had lost là hadn't lost."
+      },
+      {
+        "type": "gap",
+        "q": "If I had won the lottery last year, I ___ rich now. (be)",
+        "answer": [
+          "would be"
+        ],
+        "explain": "Kết quả ở hiện tại (now) nên dùng would + V."
+      },
+      {
+        "type": "order",
+        "words": [
+          "gone",
+          "if",
+          "I",
+          "been",
+          "would",
+          "invited",
+          "I",
+          "have",
+          "had"
+        ],
+        "answer": "I would have gone if I had been invited.",
+        "vi": "Tôi đã đi nếu tôi được mời.",
+        "explain": "Mệnh đề chính would have + V3, mệnh đề If had + been + V3."
+      },
+      {
+        "type": "order",
+        "words": [
+          "still",
+          "hadn't",
+          "he",
+          "If",
+          "trust",
+          "would",
+          "lied",
+          "she",
+          "her"
+        ],
+        "answer": "If she hadn't lied, he would still trust her.",
+        "vi": "Nếu cô ấy không nói dối thì anh ấy vẫn tin cô ấy.",
+        "explain": "Hỗn hợp: If + had + V3 (quá khứ), would + V (hiện tại)."
+      }
+    ]
+  },
+  {
+    "id": "en-b2-passive-all-causative",
+    "level": "B2",
+    "title": "Bị động mọi thì và have something done",
+    "title_native": "Passive in all tenses; have something done",
+    "summary_vi": "Dùng be + V3 ở mọi thì, và nói việc người khác làm giúp mình bằng have/get + vật + V3.",
+    "formula": [
+      "be (chia theo thì) + V3",
+      "will be / has been / is being / had been / will have been + V3",
+      "have/get + vật + V3"
+    ],
+    "explain_vi": "Ở trình độ B2, bạn cần dùng bị động ở **mọi thì**. Quy tắc không đổi: **be + V3**, chỉ có động từ **be** thay đổi theo thì. Hãy chia be như khi chia câu chủ động thông thường.\n\n- Hiện tại đơn: is/are done\n- Hiện tại tiếp diễn: **is/are being** done (The road is being repaired.)\n- Hiện tại hoàn thành: **has/have been** done\n- Quá khứ hoàn thành: **had been** done\n- Tương lai: **will be** done, tương lai hoàn thành: **will have been** done\n- Với động từ khuyết thiếu: **can/must/should be** done\n\nDùng bị động khi người làm hành động không quan trọng, không biết, hoặc khi muốn nhấn mạnh kết quả. Nếu cần nêu người làm, thêm **by + tác nhân**.\n\n**Have something done** (thể sai khiến) dùng khi bạn nhờ hoặc thuê người khác làm việc gì cho mình: **have + vật + V3**. Ví dụ: I had my car repaired. (Tôi mang xe đi sửa, không tự sửa.) Trong văn nói thân mật có thể dùng **get + vật + V3**: I got my hair cut. Cấu trúc này cũng dùng để nói về điều không hay xảy ra với mình: He had his wallet stolen. Hãy chú ý trật tự: vật đứng ngay sau have, V3 đứng cuối. Tiếng Việt chỉ nói 'tôi sửa xe' nên người học hay quên rằng người khác mới làm việc đó.",
+    "examples": [
+      {
+        "t": "The new bridge is being built by a Japanese company.",
+        "vi": "Cây cầu mới đang được một công ty Nhật xây."
+      },
+      {
+        "t": "The report had already been sent when the manager called.",
+        "vi": "Báo cáo đã được gửi rồi khi quản lý gọi."
+      },
+      {
+        "t": "The documents will have been signed by Friday.",
+        "vi": "Các tài liệu sẽ được ký xong trước thứ Sáu."
+      },
+      {
+        "t": "This room has been cleaned every day this week.",
+        "vi": "Phòng này được dọn mỗi ngày trong tuần này."
+      },
+      {
+        "t": "I had my laptop repaired last week.",
+        "vi": "Tuần trước tôi đã mang laptop đi sửa."
+      },
+      {
+        "t": "She is getting her car washed at the moment.",
+        "vi": "Lúc này cô ấy đang cho người ta rửa xe."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "The road is repairing at the moment.",
+        "right": "The road is being repaired at the moment.",
+        "note_vi": "Bị động hiện tại tiếp diễn: is/are being + V3."
+      },
+      {
+        "wrong": "I had repaired my car yesterday. (nhờ thợ sửa)",
+        "right": "I had my car repaired yesterday.",
+        "note_vi": "Muốn nói nhờ người khác làm, đặt vật sau have rồi dùng V3."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "The road ___ at the moment, so please use another route.",
+        "options": [
+          "is being repaired",
+          "repairs",
+          "has repaired",
+          "is repaired"
+        ],
+        "answer": 0,
+        "explain": "Đang diễn ra: is being + V3."
+      },
+      {
+        "type": "mcq",
+        "q": "By next year, the tunnel ___ completely.",
+        "options": [
+          "will finish",
+          "will be finished",
+          "will have been finished",
+          "has been finished"
+        ],
+        "answer": 2,
+        "explain": "Tương lai hoàn thành bị động: will have been + V3."
+      },
+      {
+        "type": "mcq",
+        "q": "My brother ___ his car serviced every six months.",
+        "options": [
+          "makes",
+          "has",
+          "does",
+          "lets"
+        ],
+        "answer": 1,
+        "explain": "have + vật + V3: nhờ người khác làm."
+      },
+      {
+        "type": "mcq",
+        "q": "The documents ___ by the time we arrived.",
+        "options": [
+          "are already signed",
+          "were already signing",
+          "already have signed",
+          "had already been signed"
+        ],
+        "answer": 3,
+        "explain": "Hành động xảy ra trước một mốc quá khứ: had been + V3."
+      },
+      {
+        "type": "gap",
+        "q": "English ___ in many countries around the world. (speak)",
+        "answer": [
+          "is spoken"
+        ],
+        "explain": "Hiện tại đơn bị động: is/are + V3."
+      },
+      {
+        "type": "gap",
+        "q": "I ___ my photo taken for my passport yesterday. (have)",
+        "answer": [
+          "had"
+        ],
+        "explain": "Quá khứ của have là had; have + vật + V3."
+      },
+      {
+        "type": "gap",
+        "q": "The winners ___ tomorrow. (announce)",
+        "answer": [
+          "will be announced"
+        ],
+        "explain": "Tương lai bị động: will be + V3."
+      },
+      {
+        "type": "order",
+        "words": [
+          "is",
+          "house",
+          "painted",
+          "Our",
+          "going",
+          "to",
+          "be",
+          "next",
+          "week"
+        ],
+        "answer": "Our house is going to be painted next week.",
+        "vi": "Tuần sau nhà chúng tôi sẽ được sơn.",
+        "explain": "be going to + be + V3."
+      },
+      {
+        "type": "order",
+        "words": [
+          "going",
+          "I'm",
+          "car",
+          "to",
+          "my",
+          "have",
+          "repaired",
+          "tomorrow"
+        ],
+        "answer": "I'm going to have my car repaired tomorrow.",
+        "vi": "Ngày mai tôi sẽ đem xe đi sửa.",
+        "explain": "have + vật + V3."
+      }
+    ]
+  },
+  {
+    "id": "en-b2-reported-questions-commands",
+    "level": "B2",
+    "title": "Câu tường thuật: câu hỏi và mệnh lệnh",
+    "title_native": "Reported questions and commands",
+    "summary_vi": "Thuật lại câu hỏi và lời yêu cầu, mệnh lệnh của người khác.",
+    "formula": [
+      "asked + (O) + wh-word + S + V (lùi thì)",
+      "asked + (O) + if/whether + S + V (lùi thì)",
+      "told/asked/ordered + O + (not) to V"
+    ],
+    "explain_vi": "Khi thuật lại một **câu hỏi**, ta không dùng cấu trúc câu hỏi nữa. Trật tự từ trở về như câu kể (**chủ ngữ + động từ**), không có trợ động từ do/does/did và không có dấu chấm hỏi.\n\n**1. Câu hỏi có từ để hỏi (wh-):** giữ từ để hỏi rồi đến chủ ngữ + động từ lùi một thì. 'Where do you live?' → He asked me where I lived.\n\n**2. Câu hỏi Yes/No:** dùng **if** hoặc **whether**. 'Have you finished?' → She asked if I had finished.\n\n**3. Mệnh lệnh, yêu cầu:** dùng **told/asked/ordered/warned + người + to V**. 'Close the window.' → He told us to close the window. Phủ định đặt **not** trước to: 'Don't touch it!' → He warned us **not to** touch it. Lời đề nghị lịch sự như 'Could you help me?' thường được thuật lại bằng asked me to help her.\n\nCác quy tắc lùi thì vẫn áp dụng: hiện tại đơn → quá khứ đơn, hiện tại hoàn thành → quá khứ hoàn thành, will → would, can → could. Đại từ và trạng từ chỉ thời gian cũng đổi: now → then, tomorrow → the next day, here → there.\n\nLỗi hay gặp của người Việt là giữ nguyên trật tự câu hỏi (asked me where did I live) hoặc quên dùng to sau told. Hãy nhớ: thuật lại là biến câu hỏi thành câu kể.",
+    "examples": [
+      {
+        "t": "He asked me where I lived.",
+        "vi": "Anh ấy hỏi tôi sống ở đâu."
+      },
+      {
+        "t": "She asked if I had finished the report.",
+        "vi": "Cô ấy hỏi tôi đã làm xong báo cáo chưa."
+      },
+      {
+        "t": "He asked whether I would come to the party.",
+        "vi": "Anh ấy hỏi liệu tôi có đến bữa tiệc không."
+      },
+      {
+        "t": "The teacher told us to close the window.",
+        "vi": "Giáo viên bảo chúng tôi đóng cửa sổ."
+      },
+      {
+        "t": "The engineer warned us not to touch the machine.",
+        "vi": "Kỹ sư cảnh báo chúng tôi đừng chạm vào máy."
+      },
+      {
+        "t": "She asked me to help her with the luggage.",
+        "vi": "Cô ấy nhờ tôi giúp cô ấy mang hành lý."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "He asked me where did I live.",
+        "right": "He asked me where I lived.",
+        "note_vi": "Câu hỏi tường thuật dùng trật tự câu kể, không có did."
+      },
+      {
+        "wrong": "The doctor told him don't eat sugar.",
+        "right": "The doctor told him not to eat sugar.",
+        "note_vi": "Mệnh lệnh phủ định thuật lại bằng not to + V."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "He asked me what time ___.",
+        "options": [
+          "does the film start",
+          "the film started",
+          "did the film start",
+          "started the film"
+        ],
+        "answer": 1,
+        "explain": "Câu hỏi tường thuật: chủ ngữ trước động từ và lùi thì."
+      },
+      {
+        "type": "mcq",
+        "q": "She asked me ___ I had ever been to Japan.",
+        "options": [
+          "if",
+          "that",
+          "what",
+          "do"
+        ],
+        "answer": 0,
+        "explain": "Câu hỏi Yes/No dùng if hoặc whether."
+      },
+      {
+        "type": "mcq",
+        "q": "The doctor told him ___ so much sugar.",
+        "options": [
+          "not eat",
+          "to not eat",
+          "not to eat",
+          "don't eat"
+        ],
+        "answer": 2,
+        "explain": "Mệnh lệnh phủ định: told + O + not to V."
+      },
+      {
+        "type": "mcq",
+        "q": "'I will call you tomorrow,' she said. She said she ___ me the next day.",
+        "options": [
+          "will call",
+          "called",
+          "had called",
+          "would call"
+        ],
+        "answer": 3,
+        "explain": "will lùi thành would."
+      },
+      {
+        "type": "gap",
+        "q": "'Are you tired?' he asked me. He asked me ___ tired. (if / I / be)",
+        "answer": [
+          "if I was",
+          "if I were",
+          "whether I was",
+          "whether I were"
+        ],
+        "explain": "Dùng if/whether + chủ ngữ + động từ lùi thì."
+      },
+      {
+        "type": "gap",
+        "q": "'Please sit down,' the nurse said to us. The nurse asked us ___ down. (sit)",
+        "answer": [
+          "to sit"
+        ],
+        "explain": "asked + O + to V."
+      },
+      {
+        "type": "gap",
+        "q": "'Why didn't you call me?' she asked. She asked me why I ___ her. (not / call)",
+        "answer": [
+          "hadn't called",
+          "had not called",
+          "didn't call",
+          "did not call"
+        ],
+        "explain": "Quá khứ đơn lùi thành quá khứ hoàn thành (hadn't called); cũng chấp nhận giữ quá khứ đơn."
+      },
+      {
+        "type": "order",
+        "words": [
+          "lived",
+          "me",
+          "how",
+          "He",
+          "there",
+          "had",
+          "asked",
+          "long",
+          "I"
+        ],
+        "answer": "He asked me how long I had lived there.",
+        "vi": "Anh ấy hỏi tôi đã sống ở đó bao lâu.",
+        "explain": "Wh-word + chủ ngữ + động từ lùi thì."
+      },
+      {
+        "type": "order",
+        "words": [
+          "not",
+          "the",
+          "told",
+          "talk",
+          "The",
+          "students",
+          "teacher",
+          "to"
+        ],
+        "answer": "The teacher told the students not to talk.",
+        "vi": "Giáo viên bảo học sinh đừng nói chuyện.",
+        "explain": "told + O + not to V."
+      }
+    ]
+  },
+  {
+    "id": "en-b2-non-defining-relative",
+    "level": "B2",
+    "title": "Mệnh đề quan hệ không xác định",
+    "title_native": "Non-defining relative clauses",
+    "summary_vi": "Thêm thông tin phụ về người/vật đã rõ, đặt giữa hai dấu phẩy.",
+    "formula": [
+      "N, who/which/whose + clause, ...",
+      "N, whom/which + S + V, ...",
+      "..., which + V (bổ sung ý cho cả mệnh đề trước)"
+    ],
+    "explain_vi": "**Mệnh đề quan hệ không xác định** (non-defining) chỉ cung cấp **thông tin thêm**. Người nghe đã biết bạn đang nói về ai/cái gì, nên nếu bỏ mệnh đề này đi thì câu vẫn đủ nghĩa. Mệnh đề này luôn nằm giữa **hai dấu phẩy** (hoặc một dấu phẩy ở cuối câu). Khi nói, bạn ngắt giọng ở các dấu phẩy.\n\nSo sánh: My brother who lives in Canada is a doctor (mệnh đề xác định: tôi có nhiều anh em và đang chỉ ra người sống ở Canada) với My brother, who lives in Canada, is a doctor (tôi chỉ có một anh, ở Canada là thông tin thêm).\n\nQuy tắc quan trọng:\n\n- Dùng **who** (người), **which** (vật), **whose** (sở hữu), **whom** (tân ngữ chỉ người, trang trọng).\n- **KHÔNG dùng that** trong mệnh đề này.\n- **KHÔNG được bỏ** đại từ quan hệ, kể cả khi nó là tân ngữ.\n- Không dùng thêm đại từ thừa: nói The car, which I bought last year, không nói which I bought it.\n- Tên riêng (Hanoi, Mr Lee) hầu như luôn đi với mệnh đề không xác định vì đã đủ rõ nghĩa.\n\nĐặc biệt, **which** còn có thể thay cho cả mệnh đề đứng trước: He passed the test, which surprised everyone. (Việc anh ấy đậu làm mọi người ngạc nhiên.) Tiếng Việt dùng 'mà' hoặc 'điều đó' cho cấu trúc này.",
+    "examples": [
+      {
+        "t": "My brother, who lives in Canada, is visiting us next month.",
+        "vi": "Anh trai tôi, người sống ở Canada, sẽ đến thăm chúng tôi vào tháng sau."
+      },
+      {
+        "t": "Hanoi, which is the capital of Vietnam, has over eight million people.",
+        "vi": "Hà Nội, thủ đô của Việt Nam, có hơn tám triệu dân."
+      },
+      {
+        "t": "We stayed at the Grand Hotel, which my sister recommended.",
+        "vi": "Chúng tôi ở khách sạn Grand, nơi mà chị tôi đã giới thiệu."
+      },
+      {
+        "t": "Mr Lee, whose daughter is a doctor, retired last year.",
+        "vi": "Ông Lee, người có con gái làm bác sĩ, đã nghỉ hưu năm ngoái."
+      },
+      {
+        "t": "She passed the exam, which surprised everyone.",
+        "vi": "Cô ấy đã đậu kỳ thi, điều đó làm mọi người ngạc nhiên."
+      },
+      {
+        "t": "The Mekong, which flows through six countries, is a very long river.",
+        "vi": "Sông Mê Kông, chảy qua sáu quốc gia, là một con sông rất dài."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "My mother, that is a nurse, works at night.",
+        "right": "My mother, who is a nurse, works at night.",
+        "note_vi": "Không dùng that trong mệnh đề không xác định."
+      },
+      {
+        "wrong": "My car, which I bought it last year, is red.",
+        "right": "My car, which I bought last year, is red.",
+        "note_vi": "Không lặp lại tân ngữ it sau which."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "My uncle, ___ lives in Da Nang, is a chef.",
+        "options": [
+          "that",
+          "who",
+          "which",
+          "whom"
+        ],
+        "answer": 1,
+        "explain": "Người làm chủ ngữ dùng who; không dùng that."
+      },
+      {
+        "type": "mcq",
+        "q": "The Pacific Ocean, ___ covers one third of the Earth, is huge.",
+        "options": [
+          "who",
+          "that",
+          "which",
+          "whose"
+        ],
+        "answer": 2,
+        "explain": "Vật, làm chủ ngữ: which."
+      },
+      {
+        "type": "mcq",
+        "q": "Mrs Hoa, ___ I have known for years, is a great teacher.",
+        "options": [
+          "whom",
+          "which",
+          "that",
+          "whose"
+        ],
+        "answer": 0,
+        "explain": "Tân ngữ chỉ người trong mệnh đề không xác định dùng whom (hoặc who)."
+      },
+      {
+        "type": "mcq",
+        "q": "Anna, ___ brother works in Paris, is my classmate.",
+        "options": [
+          "who",
+          "which",
+          "that",
+          "whose"
+        ],
+        "answer": 3,
+        "explain": "Chỉ sở hữu (brother của Anna): whose."
+      },
+      {
+        "type": "gap",
+        "q": "He didn't answer my call, ___ made me angry.",
+        "answer": [
+          "which"
+        ],
+        "explain": "which thay cho cả mệnh đề trước."
+      },
+      {
+        "type": "gap",
+        "q": "The professor, ___ lectures are always crowded, is very popular.",
+        "answer": [
+          "whose"
+        ],
+        "explain": "Lectures của giáo sư: whose."
+      },
+      {
+        "type": "gap",
+        "q": "My manager, ___ I respect a lot, is leaving the company.",
+        "answer": [
+          "whom",
+          "who"
+        ],
+        "explain": "Tân ngữ chỉ người: whom (hoặc who ở văn nói)."
+      },
+      {
+        "type": "order",
+        "words": [
+          "plays",
+          "Tom",
+          "neighbour",
+          "the",
+          "who",
+          "my",
+          "guitar",
+          "well",
+          "is"
+        ],
+        "answer": "Tom, who is my neighbour, plays the guitar well.",
+        "vi": "Tom, người hàng xóm của tôi, chơi guitar rất giỏi.",
+        "explain": "Mệnh đề who is my neighbour nằm giữa hai dấu phẩy."
+      },
+      {
+        "type": "order",
+        "words": [
+          "bought",
+          "This",
+          "is",
+          "book",
+          "I",
+          "very",
+          "which",
+          "yesterday",
+          "interesting"
+        ],
+        "answer": "This book, which I bought yesterday, is very interesting.",
+        "vi": "Cuốn sách này, cuốn mà tôi mua hôm qua, rất thú vị.",
+        "explain": "which + S + V đứng giữa hai dấu phẩy."
+      }
+    ]
+  },
+  {
+    "id": "en-b2-wish-if-only",
+    "level": "B2",
+    "title": "Wish và If only",
+    "title_native": "Wish / If only",
+    "summary_vi": "Bày tỏ mong ước điều trái với hiện tại, tiếc nuối quá khứ hoặc phàn nàn.",
+    "formula": [
+      "wish/if only + S + V2/were (hiện tại)",
+      "wish/if only + S + had + V3 (quá khứ)",
+      "wish/if only + S + would/could + V"
+    ],
+    "explain_vi": "**Wish** và **if only** (mạnh hơn, cảm xúc hơn) dùng để nói về điều bạn **mong muốn khác đi so với thực tế**. Điểm đặc biệt là động từ phải **lùi một thì** so với thời gian thật, giống câu điều kiện không có thật.\n\n**1. Mong ước về hiện tại:** wish + **quá khứ đơn**. I wish I had more free time. (Thực tế: tôi không có nhiều thời gian.) Với to be, thường dùng **were** cho mọi ngôi: I wish I were taller.\n\n**2. Tiếc nuối về quá khứ:** wish + **had + V3**. I wish I had studied harder. (Thực tế: tôi đã không học chăm.) If only she hadn't said that!\n\n**3. Phàn nàn hoặc mong thay đổi tương lai:** wish + **would + V**. I wish it would stop raining. Dùng would khi bạn bực mình về thói quen của người khác hoặc muốn ai đó thay đổi. Không dùng would cho chủ ngữ giống nhau trong câu: nói I wish I had a car, không nói I wish I would have a car.\n\nCũng có thể dùng **could** để nói về khả năng: I wish I could speak French.\n\nLưu ý tiếng Việt chỉ nói 'ước gì', nhưng tiếng Anh cần đổi thì theo thời gian bạn nói tới. Hiện tại là quá khứ đơn, quá khứ là quá khứ hoàn thành.",
+    "examples": [
+      {
+        "t": "I wish I had more free time.",
+        "vi": "Ước gì tôi có nhiều thời gian rảnh hơn."
+      },
+      {
+        "t": "She wishes she lived closer to the city.",
+        "vi": "Cô ấy ước gì cô ấy sống gần thành phố hơn."
+      },
+      {
+        "t": "If only I had listened to your advice!",
+        "vi": "Giá mà tôi đã nghe lời khuyên của bạn!"
+      },
+      {
+        "t": "I wish I hadn't eaten so much.",
+        "vi": "Ước gì tôi đã không ăn nhiều như vậy."
+      },
+      {
+        "t": "I wish it would stop raining.",
+        "vi": "Ước gì trời ngừng mưa."
+      },
+      {
+        "t": "He wishes he could speak French.",
+        "vi": "Anh ấy ước gì mình nói được tiếng Pháp."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "I wish I have more time.",
+        "right": "I wish I had more time.",
+        "note_vi": "Ước điều trái hiện tại phải lùi về quá khứ đơn."
+      },
+      {
+        "wrong": "I wish I would have a car.",
+        "right": "I wish I had a car.",
+        "note_vi": "Không dùng would khi nói về trạng thái của chính mình."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "I wish I ___ a bigger flat.",
+        "options": [
+          "have",
+          "had",
+          "will have",
+          "would have"
+        ],
+        "answer": 1,
+        "explain": "Ước điều trái hiện tại: wish + quá khứ đơn."
+      },
+      {
+        "type": "mcq",
+        "q": "I wish I ___ harder for the exam; I failed it.",
+        "options": [
+          "study",
+          "studied",
+          "had studied",
+          "would study"
+        ],
+        "answer": 2,
+        "explain": "Tiếc nuối quá khứ: wish + had + V3."
+      },
+      {
+        "type": "mcq",
+        "q": "I wish the neighbours ___ so much noise! It's driving me crazy.",
+        "options": [
+          "wouldn't make",
+          "didn't made",
+          "hadn't made",
+          "won't make"
+        ],
+        "answer": 0,
+        "explain": "Phàn nàn về hành vi của người khác: wish + would."
+      },
+      {
+        "type": "mcq",
+        "q": "If only I ___ swim, I could join them.",
+        "options": [
+          "will",
+          "would",
+          "had",
+          "could"
+        ],
+        "answer": 3,
+        "explain": "Ước về khả năng: if only + could."
+      },
+      {
+        "type": "gap",
+        "q": "I wish I ___ taller. (be)",
+        "answer": [
+          "were",
+          "was"
+        ],
+        "explain": "Hiện tại không có thật: were (hoặc was)."
+      },
+      {
+        "type": "gap",
+        "q": "If only we ___ the tickets earlier! (buy)",
+        "answer": [
+          "had bought"
+        ],
+        "explain": "Tiếc nuối quá khứ: had + V3."
+      },
+      {
+        "type": "gap",
+        "q": "She wishes she ___ so rude to him yesterday. (not / be)",
+        "answer": [
+          "hadn't been",
+          "had not been"
+        ],
+        "explain": "Quá khứ: had not been."
+      },
+      {
+        "type": "order",
+        "words": [
+          "piano",
+          "I",
+          "play",
+          "wish",
+          "the",
+          "could",
+          "I"
+        ],
+        "answer": "I wish I could play the piano.",
+        "vi": "Ước gì tôi chơi được piano.",
+        "explain": "wish + could + V."
+      },
+      {
+        "type": "order",
+        "words": [
+          "told",
+          "only",
+          "If",
+          "the",
+          "me",
+          "he",
+          "truth",
+          "had"
+        ],
+        "answer": "If only he had told me the truth.",
+        "vi": "Giá mà anh ấy đã nói sự thật với tôi.",
+        "explain": "If only + had + V3."
+      }
+    ]
+  },
+  {
+    "id": "en-b2-modal-perfect",
+    "level": "B2",
+    "title": "Should have, could have, must have",
+    "title_native": "Modal perfect: should/could/must have + V3",
+    "summary_vi": "Nhận xét, tiếc nuối hoặc suy đoán về những việc đã xảy ra trong quá khứ.",
+    "formula": [
+      "should (not) have + V3: lẽ ra đã (không) nên",
+      "could/might have + V3: đã có thể / có lẽ đã",
+      "must/can't have + V3: chắc chắn đã / chắc chắn không thể đã"
+    ],
+    "explain_vi": "Cấu trúc **modal + have + V3** dùng để nói về **quá khứ** từ góc nhìn của hiện tại. Có ba nhóm nghĩa chính:\n\n**1. Chê trách hoặc tiếc nuối (should have / shouldn't have):** nói rằng việc đã làm hoặc không làm là sai. You should have told me earlier. (Lẽ ra bạn nên nói sớm hơn, nhưng bạn đã không nói.) We shouldn't have stayed up so late. (Chúng ta đã thức khuya, và đó là việc không nên.)\n\n**2. Khả năng đã bỏ lỡ hoặc suy đoán không chắc chắn (could have / might have):** I could have won, but I fell. (Tôi đã có khả năng thắng nhưng đã không thắng.) They might have taken another road. (Có lẽ họ đã đi đường khác.)\n\n**3. Suy luận từ bằng chứng (must have / can't have):** **must have + V3** nghĩa là gần như chắc chắn việc đó đã xảy ra: He must have forgotten the meeting. **can't have + V3** nghĩa là gần như chắc chắn việc đó không thể đã xảy ra: She can't have left; her coat is still here.\n\nLưu ý: sau have luôn dùng **quá khứ phân từ (V3)**, không dùng V1 hoặc V2. Người Việt hay bỏ have, nói 'should told', đây là lỗi cần tránh. Khi nói, have thường được đọc nối thành /əv/ nên đừng nhầm với 'of'.",
+    "examples": [
+      {
+        "t": "You should have told me earlier.",
+        "vi": "Lẽ ra bạn nên nói với tôi sớm hơn."
+      },
+      {
+        "t": "I could have won the race, but I fell.",
+        "vi": "Tôi đã có thể thắng cuộc đua nhưng tôi bị ngã."
+      },
+      {
+        "t": "He must have forgotten the meeting.",
+        "vi": "Chắc hẳn anh ấy đã quên cuộc họp."
+      },
+      {
+        "t": "She can't have left yet; her coat is still here.",
+        "vi": "Cô ấy không thể đã đi rồi; áo khoác vẫn ở đây."
+      },
+      {
+        "t": "They might have taken a different road.",
+        "vi": "Có lẽ họ đã đi một con đường khác."
+      },
+      {
+        "t": "We shouldn't have stayed up so late.",
+        "vi": "Lẽ ra chúng ta không nên thức khuya như vậy."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "You should told me the truth.",
+        "right": "You should have told me the truth.",
+        "note_vi": "Phải có have + V3 sau should."
+      },
+      {
+        "wrong": "He must have forgot his keys.",
+        "right": "He must have forgotten his keys.",
+        "note_vi": "Sau have dùng quá khứ phân từ forgotten."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "You look tired. You ___ to bed earlier last night.",
+        "options": [
+          "should go",
+          "should have gone",
+          "must go",
+          "could going"
+        ],
+        "answer": 1,
+        "explain": "Chê trách việc quá khứ: should have + V3."
+      },
+      {
+        "type": "mcq",
+        "q": "The streets are wet. It ___ rained during the night.",
+        "options": [
+          "should have",
+          "can't have",
+          "must have",
+          "needn't have"
+        ],
+        "answer": 2,
+        "explain": "Suy luận chắc chắn từ bằng chứng: must have + V3."
+      },
+      {
+        "type": "mcq",
+        "q": "He ___ stolen the car; he was in another city.",
+        "options": [
+          "can't have",
+          "must have",
+          "should have",
+          "might have"
+        ],
+        "answer": 0,
+        "explain": "Gần như chắc chắn không thể: can't have + V3."
+      },
+      {
+        "type": "mcq",
+        "q": "I'm sorry I shouted. I ___ so angry.",
+        "options": [
+          "shouldn't be",
+          "mustn't have been",
+          "can't be",
+          "shouldn't have been"
+        ],
+        "answer": 3,
+        "explain": "Hối tiếc việc đã làm: shouldn't have + V3."
+      },
+      {
+        "type": "gap",
+        "q": "She isn't answering the phone. She ___ asleep. (must / fall)",
+        "answer": [
+          "must have fallen"
+        ],
+        "explain": "must have + V3 (fallen)."
+      },
+      {
+        "type": "gap",
+        "q": "You ___ me! I would have helped you. (should / call)",
+        "answer": [
+          "should have called"
+        ],
+        "explain": "should have + V3 chỉ việc lẽ ra nên làm."
+      },
+      {
+        "type": "gap",
+        "q": "It is possible that they missed the bus. They ___ the bus. (might / miss)",
+        "answer": [
+          "might have missed",
+          "may have missed",
+          "could have missed"
+        ],
+        "explain": "Khả năng không chắc: might have + V3."
+      },
+      {
+        "type": "order",
+        "words": [
+          "to",
+          "have",
+          "You",
+          "listened",
+          "parents",
+          "should",
+          "your"
+        ],
+        "answer": "You should have listened to your parents.",
+        "vi": "Lẽ ra bạn nên nghe lời bố mẹ.",
+        "explain": "should have + V3."
+      },
+      {
+        "type": "order",
+        "words": [
+          "the",
+          "He",
+          "so",
+          "finished",
+          "can't",
+          "quickly",
+          "have",
+          "work"
+        ],
+        "answer": "He can't have finished the work so quickly.",
+        "vi": "Anh ấy không thể đã làm xong việc nhanh như vậy.",
+        "explain": "can't have + V3."
+      }
+    ]
+  },
+  {
+    "id": "en-b2-participle-clauses",
+    "level": "B2",
+    "title": "Mệnh đề phân từ",
+    "title_native": "Participle clauses",
+    "summary_vi": "Rút gọn câu bằng V-ing, V3 hoặc having + V3 để câu gọn và tự nhiên hơn.",
+    "formula": [
+      "V-ing ..., S + V (chủ động, cùng lúc hoặc nối tiếp)",
+      "V3 ..., S + V (bị động)",
+      "Having + V3 ..., S + V (xảy ra trước hành động chính)"
+    ],
+    "explain_vi": "**Mệnh đề phân từ** là cách rút gọn một mệnh đề phụ khi hai mệnh đề **cùng chủ ngữ**. Nó giúp câu văn gọn và mang phong cách viết hơn.\n\n**1. V-ing (chủ động):** thay cho mệnh đề có nghĩa chủ động, hai hành động cùng lúc hoặc nối tiếp nhau. As I was walking along the beach, I found a bottle → **Walking** along the beach, I found a bottle. Cũng dùng để rút gọn mệnh đề quan hệ: The man who is standing at the door → The man **standing** at the door.\n\n**2. V3 (bị động):** Because he was shocked by the news, he couldn't speak → **Shocked** by the news, he couldn't speak. The house which was built in 1900 → The house **built** in 1900.\n\n**3. Having + V3:** nhấn mạnh hành động trong mệnh đề phân từ xảy ra **trước** hành động chính. **Having finished** the report, she went home. (Làm xong rồi mới về.)\n\n**4. Phủ định:** đặt **not** trước phân từ: **Not knowing** what to say, I kept silent.\n\nQuy tắc then chốt: chủ ngữ của mệnh đề phân từ phải là chủ ngữ của mệnh đề chính. Câu Walking along the street, a car hit me là sai vì xe không đi bộ. Tiếng Việt cho phép lược chủ ngữ tự do hơn, nên người học hay mắc lỗi này.",
+    "examples": [
+      {
+        "t": "Walking along the beach, I found an old bottle.",
+        "vi": "Đang đi dọc bờ biển, tôi tìm thấy một cái chai cũ."
+      },
+      {
+        "t": "Having finished the report, she went home.",
+        "vi": "Làm xong báo cáo, cô ấy về nhà."
+      },
+      {
+        "t": "Shocked by the news, he couldn't speak.",
+        "vi": "Bị sốc vì tin đó, anh ấy không nói được lời nào."
+      },
+      {
+        "t": "The man standing at the door is my uncle.",
+        "vi": "Người đàn ông đứng ở cửa là chú tôi."
+      },
+      {
+        "t": "Not knowing what to say, I kept silent.",
+        "vi": "Không biết nói gì, tôi im lặng."
+      },
+      {
+        "t": "The house built in 1900 is now a museum.",
+        "vi": "Ngôi nhà xây năm 1900 giờ là một bảo tàng."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "Walking along the street, a car hit me.",
+        "right": "Walking along the street, I was hit by a car.",
+        "note_vi": "Chủ ngữ của hai mệnh đề phải là một; người đi bộ là tôi, không phải xe."
+      },
+      {
+        "wrong": "Finished the work, she went home.",
+        "right": "Having finished the work, she went home.",
+        "note_vi": "Hành động chủ động xảy ra trước dùng having + V3."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "___ along the street, I met an old friend.",
+        "options": [
+          "Walked",
+          "Walking",
+          "To walk",
+          "Walks"
+        ],
+        "answer": 1,
+        "explain": "Hành động chủ động cùng lúc: V-ing."
+      },
+      {
+        "type": "mcq",
+        "q": "___ his homework, he went out to play.",
+        "options": [
+          "Finish",
+          "Finished",
+          "Having finished",
+          "Finishing"
+        ],
+        "answer": 2,
+        "explain": "Làm xong trước rồi mới đi chơi: having + V3."
+      },
+      {
+        "type": "mcq",
+        "q": "The girl ___ next to me is my cousin.",
+        "options": [
+          "sitting",
+          "sat",
+          "sits",
+          "to sit"
+        ],
+        "answer": 0,
+        "explain": "Rút gọn mệnh đề quan hệ chủ động: V-ing."
+      },
+      {
+        "type": "mcq",
+        "q": "___ by the noise, the baby started crying.",
+        "options": [
+          "Wake",
+          "Waking",
+          "Having woke",
+          "Woken"
+        ],
+        "answer": 3,
+        "explain": "Nghĩa bị động (em bé bị đánh thức): V3."
+      },
+      {
+        "type": "gap",
+        "q": "___ tired, she went to bed early. (feel)",
+        "answer": [
+          "Feeling"
+        ],
+        "explain": "Chủ động, cùng lúc: V-ing."
+      },
+      {
+        "type": "gap",
+        "q": "The cake ___ by my mother was delicious. (make)",
+        "answer": [
+          "made"
+        ],
+        "explain": "Bánh được làm: V3 (bị động)."
+      },
+      {
+        "type": "gap",
+        "q": "___ the film before, I didn't want to watch it again. (see)",
+        "answer": [
+          "Having seen"
+        ],
+        "explain": "Đã xem trước đó: having + V3."
+      },
+      {
+        "type": "order",
+        "words": [
+          "saw",
+          "door",
+          "she",
+          "Opening",
+          "huge",
+          "a",
+          "the",
+          "box"
+        ],
+        "answer": "Opening the door, she saw a huge box.",
+        "vi": "Mở cửa ra, cô ấy thấy một cái hộp khổng lồ.",
+        "explain": "V-ing + tân ngữ, chủ ngữ + V."
+      },
+      {
+        "type": "order",
+        "words": [
+          "asked",
+          "Not",
+          "way",
+          "we",
+          "knowing",
+          "a",
+          "the",
+          "policeman"
+        ],
+        "answer": "Not knowing the way, we asked a policeman.",
+        "vi": "Không biết đường, chúng tôi hỏi một chú cảnh sát.",
+        "explain": "Phủ định: Not + V-ing."
+      }
+    ]
+  },
+  {
+    "id": "en-b2-future-perfect",
+    "level": "B2",
+    "title": "Thì tương lai hoàn thành",
+    "title_native": "Future perfect",
+    "summary_vi": "Nói về việc sẽ hoàn tất trước một mốc thời gian trong tương lai.",
+    "formula": [
+      "S + will have + V3",
+      "S + will not (won't) have + V3",
+      "Will + S + have + V3?"
+    ],
+    "explain_vi": "**Tương lai hoàn thành** dùng khi bạn đứng ở hiện tại và nhìn về một **mốc trong tương lai**, rồi nói rằng đến mốc đó một việc **đã hoàn tất**. Tiếng Việt thường diễn đạt bằng 'đến lúc đó... sẽ... xong rồi' hoặc 'trước... thì... đã...'.\n\n**Công thức:** will + have + V3. Ví dụ: By next June, I will have graduated. (Đến tháng Sáu tới, tôi sẽ đã tốt nghiệp.) Phủ định: won't have + V3. Câu hỏi: Will you have finished by five?\n\n**Dấu hiệu nhận biết:** thường đi với cụm chỉ mốc thời gian như **by** + thời điểm (by Friday, by 2030, by the end of the year), **by the time** + mệnh đề, **before**.\n\n**Lưu ý quan trọng:** sau **by the time**, **before**, **when**, **after**, **as soon as** ta dùng **hiện tại đơn**, không dùng will. Đúng: By the time you arrive, we will have eaten. Sai: By the time you will arrive.\n\nSo sánh nhanh: **will + V** (tương lai đơn) chỉ quyết định hoặc dự đoán; **will be V-ing** (tiếp diễn) chỉ việc đang diễn ra tại mốc đó; **will have V3** chỉ việc đã xong trước mốc đó. Với B2, bạn nên dùng thì này để làm bài viết về dự đoán ('In 2050, scientists will have...') và các bài nói về kế hoạch sự nghiệp.",
+    "examples": [
+      {
+        "t": "By next June, I will have graduated from university.",
+        "vi": "Đến tháng Sáu tới, tôi sẽ đã tốt nghiệp đại học."
+      },
+      {
+        "t": "She will have finished the report by five o'clock.",
+        "vi": "Cô ấy sẽ làm xong báo cáo trước năm giờ."
+      },
+      {
+        "t": "By the time you arrive, we will have eaten dinner.",
+        "vi": "Lúc bạn đến thì chúng tôi sẽ ăn tối xong rồi."
+      },
+      {
+        "t": "They won't have repaired the road by the end of the month.",
+        "vi": "Họ sẽ chưa sửa xong con đường trước cuối tháng."
+      },
+      {
+        "t": "Will you have saved enough money by December?",
+        "vi": "Đến tháng Mười hai bạn sẽ tiết kiệm đủ tiền chưa?"
+      },
+      {
+        "t": "In ten years, scientists will have found a cure for the disease.",
+        "vi": "Mười năm nữa, các nhà khoa học sẽ đã tìm ra thuốc chữa bệnh này."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "By the time you will arrive, I will have left.",
+        "right": "By the time you arrive, I will have left.",
+        "note_vi": "Sau by the time dùng hiện tại đơn, không dùng will."
+      },
+      {
+        "wrong": "By next year, she will graduated.",
+        "right": "By next year, she will have graduated.",
+        "note_vi": "Thiếu have: will have + V3."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "By 10 p.m. tonight, I ___ this book.",
+        "options": [
+          "will finish",
+          "will have finished",
+          "would have finished",
+          "have finished"
+        ],
+        "answer": 1,
+        "explain": "Hoàn tất trước một mốc tương lai: will have + V3."
+      },
+      {
+        "type": "mcq",
+        "q": "By the time we get to the cinema, the film ___.",
+        "options": [
+          "starts",
+          "will start",
+          "will have started",
+          "has started"
+        ],
+        "answer": 2,
+        "explain": "Mệnh đề chính của by the time ở tương lai dùng will have + V3."
+      },
+      {
+        "type": "mcq",
+        "q": "She ___ her exams by the end of June.",
+        "options": [
+          "won't have finished",
+          "doesn't finish",
+          "wouldn't finish",
+          "hasn't finished"
+        ],
+        "answer": 0,
+        "explain": "Phủ định tương lai hoàn thành: won't have + V3."
+      },
+      {
+        "type": "mcq",
+        "q": "___ you have repaired the car by Friday?",
+        "options": [
+          "Do",
+          "Are",
+          "Would",
+          "Will"
+        ],
+        "answer": 3,
+        "explain": "Câu hỏi: Will + S + have + V3."
+      },
+      {
+        "type": "gap",
+        "q": "By next week, they ___ into the new office. (move)",
+        "answer": [
+          "will have moved"
+        ],
+        "explain": "will have + V3."
+      },
+      {
+        "type": "gap",
+        "q": "I ___ all my homework by dinner time. (finish)",
+        "answer": [
+          "will have finished"
+        ],
+        "explain": "will have + V3 chỉ việc xong trước dinner time."
+      },
+      {
+        "type": "gap",
+        "q": "By the time the guests arrive, I ___ the table. (not / set)",
+        "answer": [
+          "won't have set",
+          "will not have set"
+        ],
+        "explain": "Phủ định: won't have + V3."
+      },
+      {
+        "type": "order",
+        "words": [
+          "will",
+          "finished",
+          "tomorrow",
+          "I",
+          "By",
+          "have",
+          "everything"
+        ],
+        "answer": "By tomorrow I will have finished everything.",
+        "vi": "Đến ngày mai tôi sẽ làm xong mọi thứ.",
+        "explain": "By + mốc thời gian, S + will have + V3."
+      },
+      {
+        "type": "order",
+        "words": [
+          "arrived",
+          "she",
+          "Will",
+          "noon",
+          "by",
+          "have"
+        ],
+        "answer": "Will she have arrived by noon?",
+        "vi": "Đến trưa cô ấy sẽ đến nơi chưa?",
+        "explain": "Will + S + have + V3?"
+      }
+    ]
+  },
+  {
+    "id": "en-b2-contrast-conjunctions",
+    "level": "B2",
+    "title": "Liên từ đối lập",
+    "title_native": "Although / despite / however / whereas",
+    "summary_vi": "Diễn đạt sự tương phản bằng although, despite, however và whereas.",
+    "formula": [
+      "Although/Though/Even though + S + V, S + V",
+      "Despite / In spite of + N / V-ing, S + V",
+      "S + V. However, S + V  /  S + V, whereas S + V"
+    ],
+    "explain_vi": "Cả bốn từ đều diễn đạt ý **tương phản** nhưng dùng khác nhau về ngữ pháp. Trong tiếng Việt chúng đều gần với 'mặc dù', 'tuy nhiên', 'trong khi đó', nên người học hay dùng lẫn.\n\n**1. Although / Though / Even though + mệnh đề (S + V):** Although it was raining, we went for a walk. Even though nhấn mạnh hơn. **Không dùng but** trong cùng câu: sai ở Although it was cold, but we swam.\n\n**2. Despite / In spite of + danh từ hoặc V-ing:** Despite the rain, we went for a walk. In spite of being tired, he kept working. Sau despite KHÔNG có mệnh đề đầy đủ (S + V). Nếu muốn dùng mệnh đề, thêm **the fact that**: Despite the fact that it was raining... Lưu ý: In spite of (có of), còn despite thì không có of.\n\n**3. However:** là trạng từ nối, đứng đầu câu mới hoặc sau dấu chấm phẩy, theo sau là dấu phẩy. The test was hard. However, she passed. Không dùng however để nối hai mệnh đề bằng dấu phẩy.\n\n**4. Whereas / While:** so sánh hai đối tượng hoặc hai sự thật tương phản: My sister loves spicy food, whereas I can't eat it at all. Dùng khi cả hai vế đều đúng, đối chọi nhau.\n\nMẹo: sau although là S + V; sau despite là danh từ/V-ing; however đứng đầu câu mới.",
+    "examples": [
+      {
+        "t": "Although it was raining, we went for a walk.",
+        "vi": "Mặc dù trời mưa, chúng tôi vẫn đi dạo."
+      },
+      {
+        "t": "Despite the heavy traffic, she arrived on time.",
+        "vi": "Bất chấp kẹt xe nặng, cô ấy vẫn đến đúng giờ."
+      },
+      {
+        "t": "In spite of being tired, he kept working.",
+        "vi": "Dù mệt, anh ấy vẫn tiếp tục làm việc."
+      },
+      {
+        "t": "The weather was terrible. However, we enjoyed the trip.",
+        "vi": "Thời tiết rất tệ. Tuy nhiên, chúng tôi vẫn thích chuyến đi."
+      },
+      {
+        "t": "My sister loves spicy food, whereas I can't eat it at all.",
+        "vi": "Chị tôi thích đồ cay, trong khi tôi hoàn toàn không ăn được."
+      },
+      {
+        "t": "Even though he is very rich, he lives in a small flat.",
+        "vi": "Dù rất giàu, anh ấy vẫn sống trong một căn hộ nhỏ."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "Despite it was raining, we went out.",
+        "right": "Despite the rain, we went out. / Although it was raining, we went out.",
+        "note_vi": "Sau despite là danh từ hoặc V-ing, không phải mệnh đề S + V."
+      },
+      {
+        "wrong": "Although it was cold, but we went swimming.",
+        "right": "Although it was cold, we went swimming.",
+        "note_vi": "Không dùng although và but cùng lúc."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "___ the rain, we had a great picnic.",
+        "options": [
+          "Although",
+          "Even though",
+          "Despite",
+          "However"
+        ],
+        "answer": 2,
+        "explain": "Sau the rain (danh từ) dùng despite."
+      },
+      {
+        "type": "mcq",
+        "q": "___ she was ill, she went to work.",
+        "options": [
+          "Although",
+          "Despite",
+          "In spite",
+          "However"
+        ],
+        "answer": 0,
+        "explain": "Sau chỗ trống là một mệnh đề S + V nên dùng although."
+      },
+      {
+        "type": "mcq",
+        "q": "He studied very hard. ___, he failed the exam.",
+        "options": [
+          "Although",
+          "Despite",
+          "Whereas",
+          "However"
+        ],
+        "answer": 3,
+        "explain": "Đầu câu mới, nối hai câu độc lập: However."
+      },
+      {
+        "type": "mcq",
+        "q": "Tom loves football, ___ his brother prefers tennis.",
+        "options": [
+          "despite",
+          "whereas",
+          "however",
+          "in spite"
+        ],
+        "answer": 1,
+        "explain": "Đối lập hai đối tượng: whereas."
+      },
+      {
+        "type": "gap",
+        "q": "___ of the cold weather, they went swimming.",
+        "answer": [
+          "In spite",
+          "in spite"
+        ],
+        "explain": "In spite of + danh từ."
+      },
+      {
+        "type": "gap",
+        "q": "She is very shy. ___, she gave an excellent speech.",
+        "answer": [
+          "However",
+          "however"
+        ],
+        "explain": "However đứng đầu câu mới, theo sau là dấu phẩy."
+      },
+      {
+        "type": "gap",
+        "q": "Despite ___ tired, he finished the race. (feel)",
+        "answer": [
+          "feeling"
+        ],
+        "explain": "Sau despite dùng V-ing."
+      },
+      {
+        "type": "order",
+        "words": [
+          "he",
+          "kept",
+          "tired",
+          "Although",
+          "working",
+          "was",
+          "he"
+        ],
+        "answer": "Although he was tired, he kept working.",
+        "vi": "Mặc dù mệt, anh ấy vẫn tiếp tục làm việc.",
+        "explain": "Although + S + V, S + V."
+      },
+      {
+        "type": "order",
+        "words": [
+          "on",
+          "Despite",
+          "we",
+          "traffic",
+          "arrived",
+          "the",
+          "time"
+        ],
+        "answer": "Despite the traffic, we arrived on time.",
+        "vi": "Bất chấp giao thông, chúng tôi đến đúng giờ.",
+        "explain": "Despite + danh từ."
+      }
+    ]
+  },
+  {
+    "id": "en-b2-each-every-either-neither-both-none",
+    "level": "B2",
+    "title": "Each, every, either, neither, both, none",
+    "title_native": "Each / every / either / neither / both / none",
+    "summary_vi": "Phân biệt các từ chỉ số lượng và cách chia động từ đi với chúng.",
+    "formula": [
+      "each/every + danh từ số ít + động từ số ít",
+      "both (of) + danh từ số nhiều + động từ số nhiều",
+      "either/neither (of) + ...; either ... or ...; neither ... nor ...",
+      "none of + danh từ số nhiều"
+    ],
+    "explain_vi": "Các từ này đều là từ chỉ lượng nhưng khác nhau ở **số lượng đối tượng** và cách chia động từ.\n\n**Each / every:** đều đi với **danh từ số ít** và **động từ số ít**. **Each** nhìn từng cá thể riêng lẻ (thường trong nhóm nhỏ): Each student has a different project. **Every** nhìn cả nhóm như một tổng thể: Every room has a sea view. Each of + danh từ số nhiều cũng chia số ít: Each of the children has a book.\n\n**Both** (cả hai) nói về **hai** đối tượng, đi với động từ **số nhiều**: Both of my parents work. Cấu trúc both ... and ...: both clever and kind.\n\n**Either** (một trong hai, cái nào cũng được) và **neither** (không cái nào trong hai) cũng chỉ **hai** đối tượng. Either of the roads is fine. **Neither of** the answers is correct. Lưu ý: neither đã mang nghĩa phủ định, nên không dùng thêm not hay don't. Cặp **either ... or** (hoặc ... hoặc) và **neither ... nor** (không ... cũng không) nối hai thành phần song song.\n\n**None of** + danh từ số nhiều dùng cho **ba trở lên**: None of the tickets were left. Trong văn trang trọng có thể dùng động từ số ít, văn nói thường dùng số nhiều.\n\nTóm tắt: hai đối tượng dùng both/either/neither; từ ba trở lên dùng all/any/none. Người Việt hay thêm -s cho danh từ sau every (nói every students) vì tiếng Việt không chia số nhiều, đây là lỗi rất phổ biến.",
+    "examples": [
+      {
+        "t": "Each student has a different project.",
+        "vi": "Mỗi học sinh có một dự án khác nhau."
+      },
+      {
+        "t": "Every room in the hotel has a sea view.",
+        "vi": "Mọi phòng trong khách sạn đều có view biển."
+      },
+      {
+        "t": "Both of my parents work at the hospital.",
+        "vi": "Cả bố lẫn mẹ tôi đều làm việc ở bệnh viện."
+      },
+      {
+        "t": "You can take either bus; both go to the airport.",
+        "vi": "Bạn đi xe buýt nào cũng được; cả hai đều tới sân bay."
+      },
+      {
+        "t": "Neither of the answers is correct.",
+        "vi": "Không câu trả lời nào trong hai câu là đúng."
+      },
+      {
+        "t": "None of the tickets were left.",
+        "vi": "Không còn vé nào cả."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "Every students need a ticket.",
+        "right": "Every student needs a ticket.",
+        "note_vi": "Sau every dùng danh từ số ít và động từ số ít."
+      },
+      {
+        "wrong": "Neither of them doesn't like coffee.",
+        "right": "Neither of them likes coffee.",
+        "note_vi": "Neither đã mang nghĩa phủ định, không thêm not/n't."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "Every student ___ a uniform.",
+        "options": [
+          "wear",
+          "wears",
+          "are wearing",
+          "have worn"
+        ],
+        "answer": 1,
+        "explain": "Every + danh từ số ít + động từ số ít."
+      },
+      {
+        "type": "mcq",
+        "q": "I have two sisters. ___ of them live in Hue.",
+        "options": [
+          "Every",
+          "None",
+          "Either",
+          "Both"
+        ],
+        "answer": 3,
+        "explain": "Hai người, cả hai cùng làm: both of them."
+      },
+      {
+        "type": "mcq",
+        "q": "There are two roads. You can take ___ one; they both lead to the village.",
+        "options": [
+          "either",
+          "neither",
+          "every",
+          "none"
+        ],
+        "answer": 0,
+        "explain": "Hai lựa chọn, cái nào cũng được: either."
+      },
+      {
+        "type": "mcq",
+        "q": "I asked three friends, but ___ of them could come.",
+        "options": [
+          "both",
+          "either",
+          "none",
+          "each"
+        ],
+        "answer": 2,
+        "explain": "Ba người trở lên, không ai: none of."
+      },
+      {
+        "type": "gap",
+        "q": "___ of the two films was interesting, so I fell asleep.",
+        "answer": [
+          "Neither",
+          "neither"
+        ],
+        "explain": "Không phim nào trong hai phim: neither."
+      },
+      {
+        "type": "gap",
+        "q": "He is both clever ___ hardworking.",
+        "answer": [
+          "and"
+        ],
+        "explain": "Cặp both ... and ..."
+      },
+      {
+        "type": "gap",
+        "q": "We can travel ___ by train or by bus.",
+        "answer": [
+          "either"
+        ],
+        "explain": "Cặp either ... or ..."
+      },
+      {
+        "type": "order",
+        "words": [
+          "children",
+          "has",
+          "Each",
+          "a",
+          "new",
+          "of",
+          "book",
+          "the"
+        ],
+        "answer": "Each of the children has a new book.",
+        "vi": "Mỗi đứa trẻ đều có một cuốn sách mới.",
+        "explain": "Each of + danh từ số nhiều + động từ số ít."
+      },
+      {
+        "type": "order",
+        "words": [
+          "my",
+          "football",
+          "likes",
+          "Neither",
+          "of",
+          "brothers"
+        ],
+        "answer": "Neither of my brothers likes football.",
+        "vi": "Không anh em nào của tôi thích bóng đá.",
+        "explain": "Neither of + danh từ số nhiều + động từ (thường số ít)."
+      }
+    ]
+  },
+  {
+    "id": "en-b2-articles-advanced",
+    "level": "B2",
+    "title": "Mạo từ nâng cao",
+    "title_native": "Articles: a / an / the / zero article",
+    "summary_vi": "Dùng the và không dùng mạo từ với tên riêng, nhóm người, danh từ chung và các trường hợp đặc biệt.",
+    "formula": [
+      "the + vật duy nhất / đã xác định / so sánh nhất",
+      "the + tính từ (nhóm người); the + quốc tịch, sông, biển, dãy núi",
+      "không mạo từ + danh từ số nhiều/không đếm được nói chung"
+    ],
+    "explain_vi": "Ở B2, bạn cần dùng mạo từ chính xác hơn so với quy tắc cơ bản. Tiếng Việt không có mạo từ nên đây là điểm khó và dễ sai.\n\n**Dùng THE khi:**\n\n- Vật là duy nhất hoặc cả hai bên đã biết: the sun, the Internet, the government.\n- Với so sánh nhất và số thứ tự: the best, the first.\n- Trước **tính từ chỉ nhóm người**: the rich, the elderly, the unemployed.\n- Với quốc tịch dạng nhóm: the French, the Vietnamese.\n- Với **sông, đại dương, dãy núi, nước dạng số nhiều**: the Mekong, the Pacific, the Alps, the USA, the Netherlands.\n- Với **nhạc cụ**: play the piano, the guitar.\n\n**KHÔNG dùng mạo từ (zero article) khi:**\n\n- Nói **chung chung** với danh từ số nhiều hoặc không đếm được: Life is hard. Children need love.\n- Với bữa ăn, môn thể thao, ngôn ngữ: have breakfast, play football, speak English.\n- Với đa số quốc gia, thành phố, núi đơn lẻ: Vietnam, Hanoi, Mount Everest.\n- Với nơi chốn dùng theo mục đích: go to school, in hospital, at work, in bed. So sánh: I met the teacher at the school (nói tới tòa nhà cụ thể).\n\n**A/an:** lần đầu nhắc tới, nghề nghiệp, và nghĩa 'mỗi': twice a week; cấu trúc such a, what a.\n\nHãy hỏi bản thân: người nghe có biết chính xác cái nào không? Nếu có, dùng the.",
+    "examples": [
+      {
+        "t": "The Mekong flows through several countries.",
+        "vi": "Sông Mê Kông chảy qua nhiều quốc gia."
+      },
+      {
+        "t": "The children go to school at seven, and I often meet their teacher at the school gate.",
+        "vi": "Bọn trẻ đến trường lúc bảy giờ, và tôi hay gặp cô giáo ở cổng trường."
+      },
+      {
+        "t": "The elderly need more care than young people.",
+        "vi": "Người cao tuổi cần được chăm sóc nhiều hơn người trẻ."
+      },
+      {
+        "t": "Life is not always easy.",
+        "vi": "Cuộc sống không phải lúc nào cũng dễ dàng."
+      },
+      {
+        "t": "She plays the piano, but he plays football.",
+        "vi": "Cô ấy chơi piano còn anh ấy chơi bóng đá."
+      },
+      {
+        "t": "I go to the gym twice a week.",
+        "vi": "Tôi đi tập gym hai lần một tuần."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "The life is full of surprises.",
+        "right": "Life is full of surprises.",
+        "note_vi": "Nói chung về khái niệm, không dùng the."
+      },
+      {
+        "wrong": "I play the football on Sundays.",
+        "right": "I play football on Sundays.",
+        "note_vi": "Môn thể thao không dùng mạo từ; nhạc cụ thì dùng the."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "___ Alps are popular for skiing.",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "—"
+        ],
+        "answer": 2,
+        "explain": "Dãy núi (số nhiều) dùng the."
+      },
+      {
+        "type": "mcq",
+        "q": "I think ___ honesty is the best policy.",
+        "options": [
+          "—",
+          "the",
+          "a",
+          "an"
+        ],
+        "answer": 0,
+        "explain": "Danh từ trừu tượng nói chung không dùng mạo từ."
+      },
+      {
+        "type": "mcq",
+        "q": "He is ___ best player in the team.",
+        "options": [
+          "a",
+          "an",
+          "—",
+          "the"
+        ],
+        "answer": 3,
+        "explain": "So sánh nhất luôn đi với the."
+      },
+      {
+        "type": "mcq",
+        "q": "My sister works in a school. She teaches at ___ school near the river.",
+        "options": [
+          "—",
+          "the",
+          "an",
+          "some"
+        ],
+        "answer": 1,
+        "explain": "Trường cụ thể, có định ngữ xác định: the school."
+      },
+      {
+        "type": "gap",
+        "q": "___ unemployed need more support from the government.",
+        "answer": [
+          "The",
+          "the"
+        ],
+        "explain": "the + tính từ chỉ nhóm người."
+      },
+      {
+        "type": "gap",
+        "q": "She plays ___ violin in an orchestra.",
+        "answer": [
+          "the"
+        ],
+        "explain": "Nhạc cụ dùng the."
+      },
+      {
+        "type": "gap",
+        "q": "What ___ beautiful view!",
+        "answer": [
+          "a"
+        ],
+        "explain": "What a + tính từ + danh từ đếm được số ít."
+      },
+      {
+        "type": "order",
+        "words": [
+          "often",
+          "The",
+          "care",
+          "elderly",
+          "extra",
+          "need"
+        ],
+        "answer": "The elderly often need extra care.",
+        "vi": "Người cao tuổi thường cần được chăm sóc thêm.",
+        "explain": "the + tính từ chỉ nhóm người (số nhiều)."
+      },
+      {
+        "type": "order",
+        "words": [
+          "in",
+          "Mount",
+          "the",
+          "is",
+          "Himalayas",
+          "Everest"
+        ],
+        "answer": "Mount Everest is in the Himalayas.",
+        "vi": "Đỉnh Everest nằm trong dãy Himalaya.",
+        "explain": "Núi đơn lẻ không mạo từ; dãy núi dùng the."
+      }
+    ]
+  },
+  {
+    "id": "en-b2-emphatic-do",
+    "level": "B2",
+    "title": "Nhấn mạnh với do/does/did",
+    "title_native": "Emphatic do / does / did",
+    "summary_vi": "Thêm do/does/did trước động từ để nhấn mạnh, khẳng định hoặc đính chính.",
+    "formula": [
+      "S + do/does + V (hiện tại)",
+      "S + did + V (quá khứ)",
+      "Do + V! (mệnh lệnh nhấn mạnh, lịch sự)"
+    ],
+    "explain_vi": "Trong câu khẳng định bình thường, ta không cần trợ động từ. Nhưng khi muốn **nhấn mạnh** (thật sự, quả thật là, có... mà), ta thêm **do/does/did** trước động từ nguyên mẫu. Khi nói, ta đọc **nhấn mạnh** vào trợ động từ; khi viết, đôi khi dùng chữ in nghiêng.\n\n**Công thức:**\n\n- Hiện tại: **do** (I, you, we, they), **does** (he, she, it) + V. She **does** work hard.\n- Quá khứ: **did** + V. He **did** say he would call.\n- Sau do/does/did, động từ luôn ở dạng **nguyên mẫu** (không thêm s, không dùng V2). Nói She does work, không nói She does works hay He did said.\n\n**Cách dùng chính:**\n\n1. **Đính chính hoặc phản bác:** A: You didn't tell me. B: I **did** tell you! (Tôi có nói mà!)\n2. **Nhấn mạnh cảm xúc hoặc sự thật:** I **do** like your new haircut! (Tôi thực sự thích...)\n3. **Thể hiện sự tương phản:** He **did** promise to come, but he forgot.\n4. **Mệnh lệnh nhấn mạnh, mời gọi lịch sự:** **Do** come in and sit down! (Mời bạn vào ngồi đi mà!)\n\nTiếng Việt thường thể hiện bằng 'thật sự', 'có... mà', 'đã... mà', 'rất là'. Cấu trúc này khá thông dụng trong văn nói ở trình độ B2, nhưng đừng lạm dụng vì sẽ nghe như đang tranh cãi.",
+    "examples": [
+      {
+        "t": "I do like your new haircut!",
+        "vi": "Tôi thật sự thích kiểu tóc mới của bạn!"
+      },
+      {
+        "t": "She does work hard, but she never gets promoted.",
+        "vi": "Cô ấy làm việc chăm chỉ thật, nhưng chẳng bao giờ được thăng chức."
+      },
+      {
+        "t": "He did say he would call, but he didn't.",
+        "vi": "Anh ấy có nói sẽ gọi mà, nhưng đã không gọi."
+      },
+      {
+        "t": "Do come in and sit down.",
+        "vi": "Mời bạn vào và ngồi xuống đi."
+      },
+      {
+        "t": "We did enjoy the trip, even though it rained.",
+        "vi": "Chúng tôi thực sự rất thích chuyến đi, dù trời mưa."
+      },
+      {
+        "t": "I do understand how you feel.",
+        "vi": "Tôi thực sự hiểu cảm giác của bạn."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "She does works hard.",
+        "right": "She does work hard.",
+        "note_vi": "Sau does dùng động từ nguyên mẫu, không thêm s."
+      },
+      {
+        "wrong": "He did said so.",
+        "right": "He did say so.",
+        "note_vi": "Sau did dùng động từ nguyên mẫu, không dùng V2."
+      }
+    ],
+    "exercises": [
+      {
+        "type": "mcq",
+        "q": "A: You didn't call me. B: I ___ call you, but your phone was off!",
+        "options": [
+          "do",
+          "did",
+          "was",
+          "have"
+        ],
+        "answer": 1,
+        "explain": "Quá khứ, đính chính: did + V."
+      },
+      {
+        "type": "mcq",
+        "q": "She ___ love animals, so she has five cats.",
+        "options": [
+          "do",
+          "did",
+          "is",
+          "does"
+        ],
+        "answer": 3,
+        "explain": "Ngôi thứ ba số ít, hiện tại: does + V."
+      },
+      {
+        "type": "mcq",
+        "q": "I ___ want to help you, but I'm too busy.",
+        "options": [
+          "do",
+          "does",
+          "am",
+          "have"
+        ],
+        "answer": 0,
+        "explain": "Ngôi I, hiện tại: do + V."
+      },
+      {
+        "type": "mcq",
+        "q": "Please ___ sit down and make yourself at home.",
+        "options": [
+          "be",
+          "to",
+          "do",
+          "does"
+        ],
+        "answer": 2,
+        "explain": "Mệnh lệnh nhấn mạnh lịch sự: Do + V."
+      },
+      {
+        "type": "gap",
+        "q": "He ___ to come, but he forgot. (promise)",
+        "answer": [
+          "did promise"
+        ],
+        "explain": "Quá khứ nhấn mạnh: did + V nguyên mẫu."
+      },
+      {
+        "type": "gap",
+        "q": "I ___ the answer! I just can't remember it now. (know)",
+        "answer": [
+          "do know"
+        ],
+        "explain": "Hiện tại nhấn mạnh: do + V."
+      },
+      {
+        "type": "gap",
+        "q": "They ___ me about the problem, but I didn't listen. (warn)",
+        "answer": [
+          "did warn"
+        ],
+        "explain": "Quá khứ nhấn mạnh: did + V."
+      },
+      {
+        "type": "order",
+        "words": [
+          "about",
+          "tell",
+          "I",
+          "the",
+          "you",
+          "did",
+          "meeting"
+        ],
+        "answer": "I did tell you about the meeting.",
+        "vi": "Tôi đã nói với bạn về cuộc họp mà.",
+        "explain": "S + did + V nguyên mẫu."
+      },
+      {
+        "type": "order",
+        "words": [
+          "tired",
+          "does",
+          "look",
+          "She",
+          "today"
+        ],
+        "answer": "She does look tired today.",
+        "vi": "Hôm nay cô ấy trông thật sự mệt mỏi.",
+        "explain": "S + does + V nguyên mẫu."
+      }
+    ]
+  }
+]

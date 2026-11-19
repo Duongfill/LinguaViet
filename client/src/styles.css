@@ -626,3 +626,33 @@ button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation
 /* Nút chọn ngôn ngữ trên điện thoại: 3 ngôn ngữ vẫn nằm một dòng */
 .lang-switch button { white-space: nowrap; }
 @media (max-width: 640px) { .lang-switch button { padding: 6px 8px; font-size: .88rem; } }
+
+/* Ngữ pháp */
+.gr-levels { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 8px; }
+.gr-level { display: flex; flex-direction: column; gap: 4px; align-items: flex-start; border: 1px solid var(--border); background: var(--surface);
+  border-radius: 12px; padding: 10px 12px; cursor: pointer; text-align: left; }
+.gr-level.active { border-color: var(--primary); background: var(--primary-soft); }
+.gr-level .bar { width: 100%; margin-top: 2px; }
+.gr-weak { display: flex; flex-direction: column; gap: 8px; border-color: var(--warn); }
+.gr-weak-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.gr-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+.gr-item { display: flex; gap: 12px; align-items: center; padding: 12px 14px; }
+.gr-item:hover { border-color: var(--primary); }
+.gr-item.done { border-color: var(--ok); }
+.gr-item.weak { border-color: var(--warn); }
+.gr-num { flex: none; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--primary-soft); color: var(--primary); font-weight: 700; font-size: .85rem; }
+.gr-item.done .gr-num { background: var(--ok-soft); color: var(--ok); }
+.gr-text { flex: 1; min-width: 0; }
+.gr-score { color: var(--muted); white-space: nowrap; }
+.gr-item.done .gr-score { color: var(--ok); font-weight: 700; }
+.gr-native { font-size: 1.1rem; color: var(--primary); margin-top: 2px; }
+.gr-formula { border-left: 4px solid var(--primary); background: var(--primary-soft); border-radius: 8px; padding: 10px 14px; font-family: ui-monospace, Consolas, monospace; display: flex; flex-direction: column; gap: 4px; }
+.gr-formula .zh { font-family: var(--zh-font); }
+.gr-formula .ja { font-family: var(--ja-font); }
+.gr-explain p { margin: 0 0 10px; line-height: 1.7; }
+.gr-ex { border-top: 1px solid var(--border); padding-top: 8px; }
+.gr-ex .zh { font-size: 1.15rem; }
+.gr-read { color: var(--primary); }
+.gr-mistake { border-top: 1px solid var(--border); padding-top: 8px; display: flex; flex-direction: column; gap: 2px; }
+.gr-q { font-size: 1.15rem; line-height: 1.8; }
+.gr-q.zh { font-size: 1.35rem; }
