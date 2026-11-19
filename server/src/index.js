@@ -15,6 +15,7 @@ import { visibleDeck, weakCards, wordsRouter } from './words.js';
 import { examsRouter } from './exams.js';
 import { writingRouter } from './writing.js';
 import { grammarRouter } from './grammar.js';
+import { gamesRouter } from './games.js';
 
 seedIfEmpty();
 
@@ -105,6 +106,7 @@ app.use('/api', wordsRouter);
 app.use('/api', examsRouter);
 app.use('/api', writingRouter);
 app.use('/api', grammarRouter);
+app.use('/api', gamesRouter);
 app.use('/api/push', pushRouter);
 
 // ---------- Decks & cards ----------

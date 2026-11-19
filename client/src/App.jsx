@@ -22,6 +22,10 @@ import Exams from './pages/Exams.jsx';
 import ExamRun from './pages/ExamRun.jsx';
 import Writing, { IeltsBankTask } from './pages/Writing.jsx';
 import Grammar from './pages/Grammar.jsx';
+import Games from './pages/Games.jsx';
+import Rain from './pages/games/Rain.jsx';
+import TrueFalse from './pages/games/TrueFalse.jsx';
+import Scramble from './pages/games/Scramble.jsx';
 import GrammarPoint from './pages/GrammarPoint.jsx';
 
 export default function App() {
@@ -48,7 +52,7 @@ function Shell() {
     ['/grammar', 'Ngữ pháp', '📐'],
     ['/weak', 'Từ hay quên', '⚠️'],
     ['/quiz', 'Quiz', '❓'],
-    ['/match', 'Ghép thẻ', '🧩'],
+    ['/games', 'Trò chơi', '🎮'],
     ['/dictation', 'Chính tả', '🎧'],
     ['/translate', 'Dịch câu', '🔁'],
     ['/writing', 'Luyện viết', '🖊️'],
@@ -69,7 +73,7 @@ function Shell() {
   // Máy tính: thanh bên trái chia nhóm
   const NAV_GROUPS = [
     ['Học', ['/', '/journey', '/flashcards', '/grammar', '/weak']],
-    ['Luyện tập', ['/exams', '/quiz', '/match', '/dictation', '/translate', '/writing', '/speak', '/hanzi']],
+    ['Luyện tập', ['/exams', '/games', '/quiz', '/dictation', '/translate', '/writing', '/speak', '/hanzi']],
     ['Từ vựng', ['/decks']],
     ['Khác', ['/rank', '/settings']],
   ];
@@ -156,6 +160,10 @@ function Shell() {
           <Route path="/speak" element={<Speak />} />
           <Route path="/weak" element={<Weak />} />
           <Route path="/match" element={<Match />} />
+          <Route path="/games" element={<Games />} />
+          <Route path="/games/rain" element={<Rain />} />
+          <Route path="/games/truefalse" element={<TrueFalse />} />
+          <Route path="/games/scramble" element={<Scramble />} />
           <Route path="/dictation" element={<Dictation />} />
           <Route path="/translate" element={<Translate />} />
           <Route path="/writing" element={<Writing />} />

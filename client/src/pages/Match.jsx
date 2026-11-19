@@ -66,6 +66,8 @@ export default function Match() {
     const isBest = mistakes === 0 && (!best || ms < best);
     if (isBest) { setBest(ms); try { localStorage.setItem(bestKey(lang), String(ms)); } catch { /* bỏ qua */ } }
     setResult({ ms, isBest });
+    // Bảng xếp hạng: điểm = 1000 − thời gian (0,1 giây) − 50 × số lần sai (kết quả từng từ đã ghi khi ghép)
+    api('/games/match/score', { method: 'POST', body: { lang, score: Math.max(50, Math.round(1000 - ms / 100 - mistakes * 50)), correct: round.left.length - missed.size, total: round.left.length } }).catch(() => {});
   };
 
   const tap = (side, card) => {
