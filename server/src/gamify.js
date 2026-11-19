@@ -47,7 +47,7 @@ export function tierOf(xp) {
 const totalXp = (uid) => db.prepare(`SELECT COALESCE(SUM(${XP_SQL}), 0) AS xp FROM activity a WHERE a.user_id = ?`).get(uid).xp;
 
 // Thời điểm bắt đầu tuần (thứ Hai 00:00 giờ máy chủ) dạng UTC cho SQL
-function weekStartSql() {
+export function weekStartSql() {
   const d = new Date();
   const day = (d.getDay() + 6) % 7;
   d.setHours(0, 0, 0, 0);

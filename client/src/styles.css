@@ -656,3 +656,64 @@ button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation
 .gr-mistake { border-top: 1px solid var(--border); padding-top: 8px; display: flex; flex-direction: column; gap: 2px; }
 .gr-q { font-size: 1.15rem; line-height: 1.8; }
 .gr-q.zh { font-size: 1.35rem; }
+
+/* ================= Trò chơi ================= */
+.game-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.game-card { display: flex; flex-direction: column; gap: 6px; transition: transform .12s, border-color .12s; }
+.game-card:hover { transform: translateY(-2px); border-color: var(--primary); }
+.game-icon { font-size: 2.4rem; }
+.game-start { align-items: stretch; }
+.game-rules { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 4px; }
+.game-missed { border-top: 1px solid var(--border); padding-top: 8px; }
+.me-row td { color: var(--primary); font-weight: 700; }
+
+.rain-hud { display: flex; gap: 14px; align-items: center; font-weight: 600; font-variant-numeric: tabular-nums; }
+.rain-score { margin-left: auto; font-size: 1.4rem; }
+.rain-field { position: relative; height: min(52vh, 460px); border-radius: 14px; overflow: hidden; border: 1px solid var(--border);
+  background: linear-gradient(180deg, var(--primary-soft), var(--surface) 80%); transition: box-shadow .2s; }
+.rain-field.miss { box-shadow: inset 0 0 0 4px var(--danger); }
+.rain-word { position: absolute; transform: translateY(-50%); padding: 6px 12px; border-radius: 10px; background: var(--surface);
+  border: 2px solid var(--primary); font-weight: 700; font-size: 1.1rem; display: flex; flex-direction: column; align-items: center; line-height: 1.2;
+  box-shadow: var(--shadow); white-space: nowrap; }
+.rain-word .zh { font-size: 1.35rem; font-weight: 500; }
+.rain-word.danger { border-color: var(--danger); }
+.rain-read { color: var(--primary); font-weight: 400; }
+.rain-pop { position: absolute; font-size: 2rem; transform: translate(10px, -50%); animation: pop .4s ease-out forwards; pointer-events: none; }
+@keyframes pop { from { opacity: 1; transform: translate(10px, -50%) scale(.6); } to { opacity: 0; transform: translate(10px, -90%) scale(1.6); } }
+.rain-ground { position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: var(--danger); opacity: .6; }
+.rain-slots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.rain-slot { min-height: 56px; padding: 8px; border-radius: 12px; border: 2px solid var(--border); background: var(--surface); cursor: pointer; font-weight: 600; line-height: 1.25; }
+.rain-slot:hover { border-color: var(--primary); }
+.rain-slot:active { transform: scale(.97); }
+.rain-slot.bad { border-color: var(--danger); background: var(--danger-soft); animation: shake .3s; }
+
+.tf-bar { height: 8px; border-radius: 99px; background: var(--border); overflow: hidden; }
+.tf-bar > div { height: 100%; background: var(--primary); transition: width .1s linear; }
+.tf-card { display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; padding: 28px 18px; border-width: 2px; transition: border-color .15s, background .15s; }
+.tf-card.ok { border-color: var(--ok); background: var(--ok-soft); }
+.tf-card.bad { border-color: var(--danger); background: var(--danger-soft); }
+.tf-eq { color: var(--muted); font-size: 1.4rem; }
+.tf-meaning { font-size: 1.35rem; font-weight: 600; }
+.tf-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.tf-buttons .btn { min-height: 64px; font-size: 1.25rem; }
+
+.scr-slots { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 8px 0; }
+.scr-slot { width: 46px; height: 54px; border-radius: 10px; border: 2px dashed var(--border); background: var(--bg); font-size: 1.5rem; font-weight: 700; cursor: pointer; }
+.scr-slot.zh { font-weight: 500; }
+.scr-slot:disabled { cursor: default; }
+.scr-slots.ok .scr-slot { border-style: solid; border-color: var(--ok); background: var(--ok-soft); }
+.scr-slots.bad .scr-slot { border-style: solid; border-color: var(--danger); background: var(--danger-soft); animation: shake .3s; }
+.scr-slots.skip .scr-slot { border-style: solid; border-color: var(--warn); }
+.scr-tiles { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+.scr-tile { min-width: 46px; height: 50px; font-size: 1.35rem; font-weight: 700; }
+@media (max-width: 640px) {
+  .rain-slots { grid-template-columns: repeat(2, 1fr); }
+  .rain-field { height: 44vh; }
+  .scr-slot { width: 40px; height: 48px; font-size: 1.3rem; }
+}
+@media (max-width: 640px) {
+  .game-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .game-card { padding: 12px; gap: 4px; }
+  .game-card .game-icon { font-size: 2rem; }
+  .game-card > .small.muted { display: none; }
+}
