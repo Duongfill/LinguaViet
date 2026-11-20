@@ -2,6 +2,8 @@
 
 // ---------- Tiếng Anh ----------
 // [chữ, tên đọc (gần đúng cho người Việt), IPA tên chữ, từ ví dụ, nghĩa, nguyên âm?]
+// Chữ viết ra để máy đọc đúng TÊN chữ (đọc "A" trơn có máy đọc thành "capital A")
+const SAY = "ay bee see dee ee eff gee aitch eye jay kay el em en oh pee cue are ess tee you vee double-you ex why zee".split(" ");
 export const EN_LETTERS = [
   ['A', 'ây', '/eɪ/', 'apple', 'quả táo', true], ['B', 'bi', '/biː/', 'book', 'quyển sách'],
   ['C', 'xi', '/siː/', 'cat', 'con mèo'], ['D', 'đi', '/diː/', 'dog', 'con chó'],
@@ -16,7 +18,7 @@ export const EN_LETTERS = [
   ['U', 'diu', '/juː/', 'umbrella', 'cái ô', true], ['V', 'vi', '/viː/', 'violin', 'đàn vi-ô-lông'],
   ['W', 'đấp-bồ-liu', '/ˈdʌbəl juː/', 'water', 'nước'], ['X', 'ếch-xì', '/ɛks/', 'box', 'cái hộp'],
   ['Y', 'oai', '/waɪ/', 'yellow', 'màu vàng'], ['Z', 'di (zi)', '/ziː/', 'zebra', 'ngựa vằn'],
-].map(([letter, name, ipa, word, meaning, vowel]) => ({ letter, lower: letter.toLowerCase(), name, ipa, word, meaning, vowel: !!vowel }));
+].map(([letter, name, ipa, word, meaning, vowel], i) => ({ say: SAY[i], letter, lower: letter.toLowerCase(), name, ipa, word, meaning, vowel: !!vowel }));
 
 // ---------- Tiếng Nhật ----------
 const parse = (s) => s.trim().split(/\s+/).map((x) => { const [k, r] = x.split('/'); return { kana: k, romaji: r }; });

@@ -20,7 +20,7 @@ function English() {
     <>
       <div className="alpha-grid">
         {EN_LETTERS.map((l) => (
-          <button key={l.letter} className={`alpha-cell ${l.vowel ? 'vowel' : ''} ${sel.letter === l.letter ? 'sel' : ''}`} onClick={() => { setSel(l); speak(l.letter, 'en', 0.7); }}>
+          <button key={l.letter} className={`alpha-cell ${l.vowel ? 'vowel' : ''} ${sel.letter === l.letter ? 'sel' : ''}`} onClick={() => { setSel(l); speak(l.say, 'en', 0.7); }}>
             <b>{l.letter}{l.lower}</b>
           </button>
         ))}
@@ -31,7 +31,7 @@ function English() {
           <div className="alpha-letters">{sel.letter}<span>{sel.lower}</span></div>
           <div>Đọc là “<b>{sel.name}</b>” <span className="muted">{sel.ipa}</span></div>
           <div className="row center">
-            <SpeakButton text={sel.letter} lang="en" label="Tên chữ" />
+            <SpeakButton text={sel.say} lang="en" label="Tên chữ" />
             <SpeakButton text={sel.word} lang="en" label={sel.word} />
           </div>
           <div className="muted small"><b>{sel.letter}</b> — {sel.word}: {sel.meaning}</div>
