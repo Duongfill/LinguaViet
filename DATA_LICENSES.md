@@ -16,3 +16,7 @@ Do có dữ liệu CC BY-SA 4.0, nếu phân phối lại `generated-en.json` c�
 ## Đề luyện TOEIC / IELTS
 
 Các đề trong `server/src/data/exams/`, `server/src/data/writing-bank/` và bài ngữ pháp trong `server/src/data/grammar/` là **nội dung tự soạn bằng AI theo dạng thức** TOEIC Listening & Reading và IELTS Academic — không sao chép đề thật hay sách luyện thi có bản quyền (ETS, British Council, IDP, Cambridge). Tên người, công ty, số liệu trong đề là hư cấu. Đặc tả: `tools/exams/EXAM-SPEC.md`; kiểm tra: `node tools/exams/check.mjs <thư mục đề>`. Điểm quy đổi TOEIC / band IELTS trong app chỉ là ước lượng.
+
+## Bảng chữ cái & cách viết
+
+Dữ liệu nét hiragana/katakana (`client/src/data/kana-strokes.json`) trích từ [KanjiVG](https://kanjivg.tagaini.net) © Ulrich Apel, giấy phép **CC BY-SA 3.0** — cần giữ ghi công và cùng giấy phép nếu phân phối lại. Chữ Hán dùng thư viện hanzi-writer (dữ liệu Make Me a Hanzi, Arphic/LGPL-like). Bảng pinyin, bảng chữ cái tiếng Anh và ví dụ tự soạn.

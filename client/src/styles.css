@@ -717,3 +717,51 @@ button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation
   .game-card .game-icon { font-size: 2rem; }
   .game-card > .small.muted { display: none; }
 }
+
+/* Bảng chữ cái & cách viết */
+.alpha-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 8px; }
+.alpha-cell { border: 1px solid var(--border); background: var(--surface); border-radius: 10px; padding: 8px 4px; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 2px; color: var(--text); font: inherit; }
+.alpha-cell b { font-size: 1.35rem; }
+.alpha-cell span { font-size: .75rem; color: var(--muted); }
+.alpha-cell.vowel { background: var(--primary-soft, rgba(79,70,229,.1)); border-color: var(--primary); }
+.alpha-cell.sel { outline: 2px solid var(--primary); background: var(--primary-soft, rgba(79,70,229,.12)); }
+.alpha-cell.pin .zh { font-size: 1.1rem; color: var(--text); }
+.alpha-cell.tone { flex: 1; min-width: 80px; }
+.tone-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+.kana-table { display: flex; flex-direction: column; gap: 6px; }
+.kana-row { display: flex; gap: 6px; align-items: stretch; flex-wrap: wrap; }
+.kana-label { width: 92px; display: flex; align-items: center; }
+.alpha-cell.kana { width: 62px; padding: 6px 2px; }
+.alpha-cell.kana b { font-size: 1.5rem; font-weight: 500; }
+.alpha-detail { display: flex; gap: 24px; flex-wrap: wrap; align-items: flex-start; justify-content: center; }
+.alpha-big { display: flex; flex-direction: column; align-items: center; gap: 8px; min-width: 150px; text-align: center; }
+.alpha-letters { font-size: 4.5rem; font-weight: 700; line-height: 1; color: var(--primary); }
+.alpha-letters span { font-size: 3.2rem; margin-left: 12px; color: var(--text); font-weight: 500; }
+.kana-stroke { display: flex; flex-direction: column; align-items: center; }
+.kana-pair { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; justify-content: center; }
+.kana-svg { background:
+  linear-gradient(var(--border), var(--border)) center / 1px 100% no-repeat,
+  linear-gradient(var(--border), var(--border)) center / 100% 1px no-repeat, var(--surface); }
+.ks-ghost path, .ks-live path { fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 4; }
+.ks-ghost path { stroke: var(--border); }
+.ks-ghost.strong path { stroke: rgba(120,120,140,.45); stroke-width: 5; }
+.ks-live path { stroke: var(--text); stroke-dasharray: 1; stroke-dashoffset: 1; animation: ks-draw .7s ease forwards; }
+.ks-live.still path { stroke-dashoffset: 0; animation: none; }
+.ks-num circle { fill: var(--primary); }
+.ks-num text { fill: #fff; font-size: 7px; font-weight: 700; }
+.ks-num { opacity: 0; animation: ks-pop .2s ease forwards; }
+.ks-live.still .ks-num { opacity: 1; animation: none; }
+@keyframes ks-draw { to { stroke-dashoffset: 0; } }
+@keyframes ks-pop { to { opacity: 1; } }
+.trace-box { position: relative; overflow: hidden; }
+.trace-guide { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.trace-text { display: flex; align-items: center; justify-content: center; color: rgba(120,120,140,.35); line-height: 1; font-weight: 500; }
+.trace-canvas { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--primary); touch-action: none; cursor: crosshair; }
+.rule-grid { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+.chip.rule { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+.chip.rule .zh { font-size: 1.1rem; }
+@media (max-width: 640px) {
+  .kana-label { width: 100%; }
+  .alpha-cell.kana { width: calc(20% - 5px); min-width: 54px; }
+  .alpha-letters { font-size: 3.6rem; }
+}
