@@ -23,6 +23,11 @@ import ExamRun from './pages/ExamRun.jsx';
 import Writing, { IeltsBankTask } from './pages/Writing.jsx';
 import Grammar from './pages/Grammar.jsx';
 import Games from './pages/Games.jsx';
+import Alphabet from './pages/Alphabet.jsx';
+import Kids from './pages/Kids.jsx';
+import KidsLearn from './pages/kids/KidsLearn.jsx';
+import KidsPick from './pages/kids/KidsPick.jsx';
+import KidsBalloons from './pages/kids/KidsBalloons.jsx';
 import Rain from './pages/games/Rain.jsx';
 import TrueFalse from './pages/games/TrueFalse.jsx';
 import Scramble from './pages/games/Scramble.jsx';
@@ -49,6 +54,8 @@ function Shell() {
     ['/journey', 'Hành trình', '🗺️'],
     ['/decks', 'Bộ từ', '📚'],
     ['/flashcards', 'Flashcard', '🃏'],
+    ['/kids', 'Bé học', '🧸'],
+    ['/alphabet', 'Bảng chữ cái', '🔠'],
     ['/grammar', 'Ngữ pháp', '📐'],
     ['/weak', 'Từ hay quên', '⚠️'],
     ['/quiz', 'Quiz', '❓'],
@@ -72,7 +79,7 @@ function Shell() {
   const inMore = more.some(([to]) => pathname === to);
   // Máy tính: thanh bên trái chia nhóm
   const NAV_GROUPS = [
-    ['Học', ['/', '/journey', '/flashcards', '/grammar', '/weak']],
+    ['Học', ['/', '/journey', '/kids', '/alphabet', '/flashcards', '/grammar', '/weak']],
     ['Luyện tập', ['/exams', '/games', '/quiz', '/dictation', '/translate', '/writing', '/speak', '/hanzi']],
     ['Từ vựng', ['/decks']],
     ['Khác', ['/rank', '/settings']],
@@ -160,6 +167,11 @@ function Shell() {
           <Route path="/speak" element={<Speak />} />
           <Route path="/weak" element={<Weak />} />
           <Route path="/match" element={<Match />} />
+          <Route path="/alphabet" element={<Alphabet />} />
+          <Route path="/kids" element={<Kids />} />
+          <Route path="/kids/learn" element={<KidsLearn />} />
+          <Route path="/kids/pick" element={<KidsPick />} />
+          <Route path="/kids/balloons" element={<KidsBalloons />} />
           <Route path="/games" element={<Games />} />
           <Route path="/games/rain" element={<Rain />} />
           <Route path="/games/truefalse" element={<TrueFalse />} />

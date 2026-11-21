@@ -52,7 +52,7 @@ export default function Speak() {
     setResult(null);
     setRecording(true);
     try {
-      const r = listen(lang);
+      const r = listen(lang, { manual: true });
       recRef.current = r;
       const { transcripts, aborted } = await r.promise;
       if (session !== sessionRef.current || aborted) return;
@@ -120,7 +120,7 @@ export default function Speak() {
               {recording ? '⏹' : '🎤'}
             </button>
             <button className="btn ghost nav-btn" onClick={() => next(1)} aria-label="Từ sau">Sau ›</button>
-            <div className="muted small mic-hint">{recording ? 'Đang nghe… đọc to và rõ (bấm lại để dừng)' : 'Bấm micro rồi đọc'}</div>
+            <div className="muted small mic-hint">{recording ? 'Đang nghe… đọc xong thì bấm ⏹ để dừng và chấm điểm' : 'Bấm micro để bắt đầu, đọc xong bấm lại để dừng'}</div>
           </div>
           {error && <div className="error">{error}</div>}
           {result && (

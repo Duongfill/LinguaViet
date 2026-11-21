@@ -91,7 +91,11 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 const MAX_LISTEN_MS = 12000;    // tự dừng nếu nghe quá lâu
 const NO_SPEECH_MS = 7000;      // chưa nghe được gì sau chừng này thì dừng
 const SILENCE_AFTER_MS = 1300;  // đã có lời mà im lặng chừng này thì coi như đọc xong
-const FLICKER_MS = 1500;        // phiên kết thúc nhanh hơn mức này mà chưa có gì → mở lại 1 lần
+const FLICKER_MS = 1500;        // phiên kết thúc nhanh hơn mức này mà chưa có gì → mở lại
+const MANUAL_MAX_MS = 90000;    // chế độ tự bấm dừng: tối đa 90 giây
+const WATCHDOG_MS = 2500;       // (WebKit) mở micro mà chừng này vẫn chưa thu âm → coi như kẹt, mở lại
+const WEBKIT_COOLDOWN_MS = 450; // (WebKit) nghỉ giữa giọng mẫu / phiên trước và phiên mới
+let lastEndedAt = 0;
 
 // iPhone/iPad (mọi trình duyệt trên iOS đều là WebKit) và Safari trên Mac:
 // thường không trả kết quả "chốt" khi interimResults=false và tự tắt rất sớm ở chế độ nghe 1 lần,
@@ -115,17 +119,18 @@ export function stopListening() {
 // - abort(): huỷ, promise trả { aborted: true } (không coi là lỗi)
 // - stop(): dừng nghe và chấm phần đã nói
 // Lưu ý: khi không có phiên cũ, rec.start() chạy đồng bộ ngay trong cú bấm (Safari iOS yêu cầu vậy).
-export function listen(lang) {
+export function listen(lang, { manual = false } = {}) {
   let rec = null;
   let cancelled = false;
   let stopRequested = false;
 
-  // Một lần mở micro; trả { transcripts, error, quick } khi phiên kết thúc
-  const once = () => new Promise((resolve) => {
+  // Một lần mở micro; trả { transcripts, error, quick, stuck } khi phiên kết thúc
+  // watch: (WebKit) nếu sau WATCHDOG_MS micro vẫn chưa thu âm (không có audiostart/kết quả) → huỷ để mở lại
+  const once = (watch = false) => new Promise((resolve) => {
     rec = new Recognition();
     rec.lang = LOCALE[lang] || lang;
     rec.interimResults = true;
-    rec.continuous = isWebKit;
+    rec.continuous = isWebKit || manual;
     rec.maxAlternatives = 5;
     let markEnded;
     const me = { rec, ended: new Promise((r) => { markEnded = r; }) };
@@ -136,10 +141,19 @@ export function listen(lang) {
     let error = null;
     let silenceTimer = null;
     const stopNow = () => { try { rec.stop(); } catch { /* bỏ qua */ } };
-    const maxTimer = setTimeout(stopNow, MAX_LISTEN_MS);
-    const noSpeechTimer = setTimeout(() => { if (!latest.length) stopNow(); }, NO_SPEECH_MS);
+    const maxTimer = setTimeout(stopNow, manual ? MANUAL_MAX_MS : MAX_LISTEN_MS);
+    const noSpeechTimer = manual ? null : setTimeout(() => { if (!latest.length) stopNow(); }, NO_SPEECH_MS);
+    let gotAudio = false;
+    let stuck = false;
+    rec.onaudiostart = () => { gotAudio = true; };
+    rec.onsoundstart = () => { gotAudio = true; };
+    rec.onspeechstart = () => { gotAudio = true; };
+    const watchdog = watch ? setTimeout(() => {
+      if (!gotAudio && !latest.length) { stuck = true; try { rec.abort(); } catch { /* bỏ qua */ } }
+    }, WATCHDOG_MS) : null;
 
     rec.onresult = (e) => {
+      gotAudio = true;
       const res = Array.from(e.results);
       const joined = res.map((r) => r[0]?.transcript || '').join(' ').replace(/\s+/g, ' ').trim();
       const alts = res.length === 1 ? Array.from(res[0]).map((a) => a.transcript.trim()) : [joined];
@@ -147,23 +161,24 @@ export function listen(lang) {
       if (found.length) latest = found;
       if (!rec.continuous && res.every((r) => r.isFinal)) { stopNow(); return; }
       // Nghe liên tục: đọc xong (im lặng một lúc) thì tự dừng
-      if (rec.continuous && latest.length) {
+      if (rec.continuous && !manual && latest.length) {
         clearTimeout(silenceTimer);
         silenceTimer = setTimeout(stopNow, SILENCE_AFTER_MS);
       }
     };
     rec.onerror = (e) => { error = e.error; };
     rec.onend = () => {
-      clearTimeout(maxTimer); clearTimeout(noSpeechTimer); clearTimeout(silenceTimer);
+      clearTimeout(maxTimer); clearTimeout(noSpeechTimer); clearTimeout(silenceTimer); clearTimeout(watchdog);
+      lastEndedAt = Date.now();
       markEnded();
       if (active === me) active = null;
-      resolve({ transcripts: latest, error, quick: Date.now() - startedAt < FLICKER_MS });
+      resolve({ transcripts: latest, error, stuck, quick: Date.now() - startedAt < FLICKER_MS });
     };
     try {
       rec.start();
       if (stopRequested) stopNow();
     } catch {
-      clearTimeout(maxTimer); clearTimeout(noSpeechTimer);
+      clearTimeout(maxTimer); clearTimeout(noSpeechTimer); clearTimeout(watchdog);
       markEnded();
       if (active === me) active = null;
       resolve({ transcripts: [], error: 'busy', quick: true });
@@ -173,20 +188,49 @@ export function listen(lang) {
   const promise = (async () => {
     // Chờ phiên cũ nhả micro; dừng giọng đọc mẫu để mic không thu lại tiếng máy
     if (active) { const prev = active; stopListening(); await Promise.race([prev.ended, wait(1000)]); }
-    if (ttsSupported() && (speechSynthesis.speaking || speechSynthesis.pending)) speechSynthesis.cancel();
+    const ttsBusy = ttsSupported() && (speechSynthesis.speaking || speechSynthesis.pending);
+    if (ttsBusy) speechSynthesis.cancel();
+    // iPhone: ngay sau khi phát giọng mẫu hoặc vừa nhả micro, hệ thống âm thanh chưa kịp chuyển sang thu âm
+    // → mở micro lúc này thường "câm" (mở nhưng không nghe gì). Đợi một nhịp ngắn.
+    if (isWebKit) {
+      const gap = Math.max(ttsBusy ? WEBKIT_COOLDOWN_MS : 0, WEBKIT_COOLDOWN_MS - (Date.now() - lastEndedAt));
+      if (gap > 0) await wait(gap);
+    }
     if (cancelled) return { transcripts: [], aborted: true };
 
-    let r = await once();
-    // Safari hay "nháy" (mở rồi tắt ngay, không lỗi, không chữ) — nhất là ngay sau khi phát giọng mẫu: mở lại 1 lần
-    if (!r.transcripts.length && r.quick && !cancelled && !stopRequested
-        && (!r.error || r.error === 'aborted' || r.error === 'busy' || r.error === 'audio-capture')) {
-      await wait(300);
+    let watchUsed = false;
+    let r = await once(isWebKit);
+    if (r.stuck) watchUsed = true;
+    // Safari hay "nháy" (mở rồi tắt ngay, không lỗi, không chữ) hoặc mở mà micro không thu âm
+    // — nhất là khi chuyển sang từ mới / sau giọng mẫu: mở lại (tối đa 3 lần)
+    for (let tries = 1; tries <= 3; tries++) {
+      if (r.transcripts.length || cancelled || stopRequested) break;
+      const flicker = r.quick && (!r.error || r.error === 'aborted' || r.error === 'busy' || r.error === 'audio-capture');
+      if (!r.stuck && !flicker) break;
+      await wait(300 * tries);
       if (cancelled) return { transcripts: [], aborted: true };
-      r = await once();
+      r = await once(isWebKit && !watchUsed);
+      if (r.stuck) watchUsed = true;
+    }
+
+    // Chế độ tự bấm dừng: trình duyệt tự tắt giữa chừng (im lặng, hết giờ hệ thống) thì mở lại và gộp lời đã nghe,
+    // cho tới khi người dùng bấm dừng
+    if (manual) {
+      const join = (a, b) => [a, b].filter(Boolean).join(' ');
+      let carry = '';
+      for (let g = 0; g < 30; g++) {
+        if (cancelled || stopRequested || r.error === 'not-allowed' || r.error === 'service-not-allowed') break;
+        if (r.transcripts.length) carry = join(carry, r.transcripts[0]);
+        r = { transcripts: [], error: null };
+        await wait(200);
+        if (cancelled || stopRequested) break;
+        r = await once(false);
+      }
+      if (carry) r = { ...r, transcripts: [join(carry, r.transcripts[0])] };
     }
 
     if (r.transcripts.length) return { transcripts: r.transcripts }; // có chữ thì chấm, kể cả khi kèm lỗi
-    if (cancelled || r.error === 'aborted') return { transcripts: [], aborted: true };
+    if (cancelled || (r.error === 'aborted' && !r.stuck)) return { transcripts: [], aborted: true };
     if (r.error === 'busy') throw new Error('Micro đang bận, hãy bấm lại sau 1 giây.');
     if (r.error && r.error !== 'no-speech') throw new Error(STT_ERRORS[r.error] || `Lỗi nhận dạng giọng nói (${r.error}), hãy thử lại.`);
     return { transcripts: [] };
