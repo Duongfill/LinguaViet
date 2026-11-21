@@ -24,6 +24,7 @@ import Writing, { IeltsBankTask } from './pages/Writing.jsx';
 import Grammar from './pages/Grammar.jsx';
 import Games from './pages/Games.jsx';
 import Alphabet from './pages/Alphabet.jsx';
+import GrammarReview from './pages/GrammarReview.jsx';
 import Kids from './pages/Kids.jsx';
 import KidsLearn from './pages/kids/KidsLearn.jsx';
 import KidsPick from './pages/kids/KidsPick.jsx';
@@ -180,6 +181,7 @@ function Shell() {
           <Route path="/translate" element={<Translate />} />
           <Route path="/writing" element={<Writing />} />
           <Route path="/grammar" element={<Grammar />} />
+          <Route path="/grammar/review" element={<GrammarReview />} />
           <Route path="/grammar/:id" element={<GrammarPoint />} />
           <Route path="/writing/ielts/:id" element={lang === 'en' ? <IeltsBankTask /> : <Navigate to="/writing" />} />
           <Route path="/exams" element={lang === 'en' ? <Exams /> : <Navigate to="/" />} />

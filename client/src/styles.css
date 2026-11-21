@@ -843,3 +843,55 @@ button, a { -webkit-tap-highlight-color: transparent; touch-action: manipulation
 @keyframes kid-fly { to { transform: rotate(var(--a)) translateX(90px) rotate(calc(var(--a) * -1)) scale(.6); opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .kid-mascots span, .kid-tile-icon, .balloon, .kid-speaker.big { animation: none !important; } }
 @media (max-width: 640px) { .kids-wrap { border-radius: 18px; padding: 12px; } }
+
+/* Ngữ pháp trực quan: công thức tô màu, dòng thời gian, mẹo nhớ, tìm lỗi sai */
+.gk-tip { display: flex; gap: 10px; align-items: flex-start; background: var(--warn-soft); border-radius: 12px; padding: 10px 12px; }
+.gk-tip-ico { font-size: 1.4rem; line-height: 1.2; }
+.gk-tip strong { font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; opacity: .75; }
+.gk-emoji { margin-right: 2px; }
+.gk-formulas { display: flex; flex-direction: column; gap: 10px; }
+.gk-formula { display: flex; flex-wrap: wrap; align-items: stretch; gap: 6px; }
+.gk-formula-plain { background: var(--surface-2, rgba(127,127,127,.1)); border-radius: 10px; padding: 8px 12px; font-weight: 600; }
+.gk-plus { align-self: center; opacity: .5; font-weight: 700; }
+.gk-block { --gk: #6b7280; display: inline-flex; flex-direction: column; align-items: center; justify-content: center; min-width: 54px; padding: 6px 10px 4px; border-radius: 12px; font-weight: 700;
+  color: var(--gk); background: color-mix(in srgb, var(--gk) 13%, transparent); border: 2px solid color-mix(in srgb, var(--gk) 55%, transparent); text-align: center; line-height: 1.25; }
+.gk-block small { font-size: .62rem; font-weight: 600; opacity: .85; margin-top: 2px; }
+.gk-block.opt { border-style: dashed; }
+.gk-block.r-subj, .gk-dot.r-subj { --gk: #2563eb; }
+.gk-block.r-verb, .gk-dot.r-verb { --gk: #dc2626; }
+.gk-block.r-obj, .gk-dot.r-obj { --gk: #ea7a0c; }
+.gk-block.r-adj, .gk-dot.r-adj { --gk: #7c3aed; }
+.gk-block.r-adv, .gk-dot.r-adv { --gk: #0d9488; }
+.gk-block.r-wh, .gk-dot.r-wh { --gk: #db2777; }
+.gk-block.r-fixed, .gk-dot.r-fixed { --gk: #16a34a; }
+.gk-block.r-note { --gk: #6b7280; font-weight: 500; }
+.gk-legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .72rem; opacity: .8; }
+.gk-dot::before { content: ''; display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--gk); margin-right: 5px; }
+.gk-hl { background: color-mix(in srgb, #16a34a 22%, transparent); color: inherit; border-radius: 4px; padding: 0 2px; font-weight: 700; }
+.gk-more summary { cursor: pointer; font-weight: 600; padding: 6px 0; color: var(--primary); }
+.gk-more[open] summary { margin-bottom: 4px; }
+.gk-timeline { background: var(--surface-2, rgba(127,127,127,.08)); border-radius: 12px; padding: 8px 10px 6px; }
+.gk-timeline svg { width: 100%; max-width: 420px; display: block; margin: 0 auto; }
+.gk-timeline-cap { text-align: center; }
+.tl-axis { stroke: currentColor; stroke-width: 2; opacity: .45; }
+.tl-axis-head { fill: currentColor; opacity: .45; }
+.tl-now { stroke: #dc2626; stroke-width: 2; stroke-dasharray: 3 3; }
+.tl-label { font-size: 10px; fill: currentColor; opacity: .7; }
+.tl-label.now { fill: #dc2626; opacity: 1; font-weight: 700; }
+.tl-dot { fill: #2563eb; }
+.tl-num { fill: #fff; font-size: 11px; font-weight: 700; }
+.tl-bar { fill: color-mix(in srgb, #2563eb 70%, transparent); }
+.tl-bar-head { fill: color-mix(in srgb, #2563eb 70%, transparent); }
+.tl-dash { stroke: #16a34a; stroke-width: 3; stroke-dasharray: 5 4; }
+.tl-dash-head { fill: #16a34a; }
+.gk-review-card { display: flex; align-items: center; gap: 12px; padding: 12px 14px; text-decoration: none; color: inherit; border-color: var(--primary); }
+.gk-review-ico { font-size: 1.8rem; }
+.gk-review-text { flex: 1; }
+.gk-q { font-size: 1.05rem; }
+.gk-opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.gk-chip-ok { background: var(--ok-soft); border-color: var(--ok); }
+.gk-spot { display: flex; flex-wrap: wrap; gap: 6px; font-size: 1.25rem; }
+.gk-tok { border: 2px solid var(--border); background: var(--surface); border-radius: 10px; padding: 6px 10px; font: inherit; cursor: pointer; color: inherit; }
+.gk-tok:not(:disabled):hover { border-color: var(--primary); }
+.gk-tok.bad { border-color: var(--danger); background: var(--danger-soft); text-decoration: line-through; }
+.gk-tok.miss { border-color: var(--warn); background: var(--warn-soft); }
