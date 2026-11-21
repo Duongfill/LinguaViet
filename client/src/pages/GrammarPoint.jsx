@@ -5,6 +5,7 @@ import { INPUT_LANG, scriptClass, toHiragana, useLang } from '../lib/lang.jsx';
 import { levelShort } from '../lib/levels.js';
 import { shuffle } from '../lib/compare.jsx';
 import SpeakButton from '../components/SpeakButton.jsx';
+import { FormulaBlocks, Highlight, Timeline, keyWordsOf, tokenize, wrongIndexes } from '../components/GrammarKit.jsx';
 
 const L = 'ABCD';
 // So khớp: bỏ dấu câu, khoảng trắng, hoa thường; tiếng Nhật coi katakana = hiragana
@@ -22,13 +23,16 @@ export default function GrammarPoint() {
   const nav = useNavigate();
   const { lang } = useLang();
   const [d, setD] = useState(null);
-  const [mode, setMode] = useState('learn'); // learn | practice
+  const [mode, setMode] = useState('learn'); // learn | practice | spot
+  const [inSrs, setInSrs] = useState(false);
   useEffect(() => {
     setD(null); setMode('learn'); window.scrollTo(0, 0);
-    api(`/grammar/point/${id}`).then(setD).catch(() => nav('/grammar'));
+    api(`/grammar/point/${id}`).then((x) => { setD(x); setInSrs(!!x.srs); }).catch(() => nav('/grammar'));
   }, [id]); // eslint-disable-line react-hooks/exhaustive-deps
   if (!d) return <div className="muted">Đang tải…</div>;
   const p = d.point;
+  const kw = keyWordsOf(p, lang);
+  const addSrs = () => api('/grammar/review/add', { method: 'POST', body: { point_id: p.id } }).then(() => setInSrs(true)).catch(() => {});
   if (p.lang !== lang) return <div className="card">Bài này thuộc ngôn ngữ khác. <Link to="/grammar">← Danh sách ngữ pháp</Link></div>;
 
   return (
@@ -42,16 +46,18 @@ export default function GrammarPoint() {
       {mode === 'learn' ? (
         <>
           <div className="card stack">
-            <div><h2 style={{ margin: 0 }}>{p.title}</h2><div className={`gr-native ${scriptClass(lang)}`}>{p.title_native}</div></div>
+            <div><h2 style={{ margin: 0 }}>{p.emoji && <span className="gk-emoji">{p.emoji} </span>}{p.title}</h2><div className={`gr-native ${scriptClass(lang)}`}>{p.title_native}</div></div>
             <div className="muted">{p.summary_vi}</div>
-            <div className="gr-formula">{p.formula.map((f) => <div key={f} className={scriptClass(lang)}>{f}</div>)}</div>
-            <div className="gr-explain"><Rich text={p.explain_vi} /></div>
+            {p.tip && <div className="gk-tip"><span className="gk-tip-ico">💡</span><div><strong>Mẹo nhớ</strong><div>{p.tip}</div></div></div>}
+            <FormulaBlocks formulas={p.formula} lang={lang} />
+            {p.timeline && <Timeline kind={p.timeline} />}
+            <details className="gk-more"><summary>📖 Xem giải thích chi tiết</summary><div className="gr-explain"><Rich text={p.explain_vi} /></div></details>
           </div>
           <div className="card stack">
             <h3>📌 Ví dụ</h3>
             {p.examples.map((e, i) => (
               <div key={i} className="gr-ex">
-                <div><span className={scriptClass(lang)}>{e.t}</span> <SpeakButton text={e.t} lang={lang} /></div>
+                <div><span className={scriptClass(lang)}><Highlight text={e.t} words={kw} lang={lang} /></span> <SpeakButton text={e.t} lang={lang} /></div>
                 {(e.py || e.r) && <div className={`small gr-read ${scriptClass(lang)}`}>{e.py || e.r}</div>}
                 <div className="small muted">{e.vi}</div>
               </div>
@@ -68,11 +74,17 @@ export default function GrammarPoint() {
             ))}
           </div>
           <button className="btn primary wide" onClick={() => { setMode('practice'); window.scrollTo(0, 0); }}>✍️ Làm bài tập ({p.exercises.length} câu)</button>
+          <div className="row" style={{ marginTop: 0 }}>
+            {p.mistakes.length > 0 && <button className="btn" onClick={() => { setMode('spot'); window.scrollTo(0, 0); }}>🔎 Tìm lỗi sai ({p.mistakes.length})</button>}
+            <button className="btn" disabled={inSrs} onClick={addSrs}>{inSrs ? '🧠 Đã có trong thẻ ôn' : '🧠 Thêm vào thẻ ôn'}</button>
+          </div>
           <div className="row" style={{ justifyContent: 'space-between' }}>
             {d.prev ? <Link className="btn ghost sm" to={`/grammar/${d.prev.id}`}>‹ {d.prev.title}</Link> : <span />}
             {d.next && <Link className="btn ghost sm" to={`/grammar/${d.next.id}`}>{d.next.title} ›</Link>}
           </div>
         </>
+      ) : mode === 'spot' ? (
+        <SpotError key={p.id} p={p} lang={lang} onBack={() => setMode('learn')} onPractice={() => setMode('practice')} />
       ) : (
         <Practice key={p.id} p={p} lang={lang} next={d.next} onBack={() => setMode('learn')}
           onSaved={(r) => setD((x) => ({ ...x, mine: { ...(x.mine || {}), best: Math.max(x.mine?.best || 0, r.pct), last: r.pct } }))} />
@@ -171,6 +183,68 @@ function Practice({ p, lang, next, onBack, onSaved }) {
           {x.type === 'order' && <SpeakButton text={x.answer} lang={lang} label="Nghe câu đúng" />}
           <div className="small">{x.explain}</div>
           <button className="btn primary" onClick={go} autoFocus>{i + 1 < p.exercises.length ? 'Tiếp ›' : 'Xem kết quả'}</button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// 🔎 Tìm lỗi sai: chạm vào chỗ sai trong câu; câu thiếu từ thì chọn câu đúng
+function SpotError({ p, lang, onBack, onPractice }) {
+  const items = useMemo(() => shuffle(p.mistakes.map((m) => {
+    const toks = tokenize(m.wrong, lang);
+    const bad = wrongIndexes(m.wrong, m.right, lang);
+    const spot = bad.length > 0 && bad.length <= Math.max(2, Math.floor(toks.length / 2));
+    const options = spot ? null : shuffle([m.right, m.wrong, ...p.mistakes.filter((x) => x !== m).map((x) => x.right).slice(0, 1)]);
+    return { m, toks, bad, spot, options };
+  })), [p.id, lang]); // eslint-disable-line react-hooks/exhaustive-deps
+  const [i, setI] = useState(0);
+  const [score, setScore] = useState(0);
+  const [res, setRes] = useState(null); // { ok, tapped }
+  const it = items[i];
+
+  const answer = (ok, tapped) => { if (res) return; setRes({ ok, tapped }); if (ok) setScore((x) => x + 1); };
+  const next = () => { setI(i + 1); setRes(null); };
+
+  if (!it) {
+    return (
+      <div className="card result-card good">
+        <div className="result-main"><div className="score">{score}/{items.length}</div><div>lỗi tìm đúng</div></div>
+        <div className="row" style={{ marginTop: 0 }}>
+          <button className="btn" onClick={onBack}>📖 Xem lại bài</button>
+          <button className="btn" onClick={() => { setI(0); setScore(0); setRes(null); }}>↻ Chơi lại</button>
+          <button className="btn primary" onClick={onPractice}>✍️ Làm bài tập</button>
+        </div>
+      </div>
+    );
+  }
+  return (
+    <div className="card stack">
+      <div className="muted small">Lỗi {i + 1}/{items.length} · Đúng {score} · {it.spot ? 'Chạm vào chỗ SAI trong câu' : 'Chọn câu ĐÚNG'}</div>
+      {it.spot ? (
+        <div className={`gk-spot ${scriptClass(lang)}`}>
+          {it.toks.map((t, k) => {
+            const isBad = it.bad.includes(k);
+            const cls = res ? (isBad ? 'bad' : res.tapped === k ? 'miss' : '') : '';
+            return <button key={k} className={`gk-tok ${cls}`} disabled={!!res} onClick={() => answer(isBad, k)}>{t}</button>;
+          })}
+        </div>
+      ) : (
+        <div className="options">
+          {it.options.map((o, k) => {
+            const right = o === it.m.right;
+            const cls = res ? (right ? 'right' : res.tapped === k ? 'wrong' : 'dim') : '';
+            return <button key={k} className={`option ${cls}`} disabled={!!res} onClick={() => answer(right, k)}><span className={scriptClass(lang)}>{o}</span></button>;
+          })}
+        </div>
+      )}
+      {res && (
+        <div className={`feedback ${res.ok ? 'ok' : 'bad'}`}>
+          <div>{res.ok ? '✅ Đúng rồi!' : '❌ Chưa đúng.'}</div>
+          <div className={scriptClass(lang)}>❌ <s>{it.m.wrong}</s></div>
+          <div className={scriptClass(lang)}>✅ {it.m.right} <SpeakButton text={it.m.right} lang={lang} /></div>
+          <div className="small">{it.m.note_vi}</div>
+          <button className="btn primary" onClick={next} autoFocus>{i + 1 < items.length ? 'Tiếp ›' : 'Xem kết quả'}</button>
         </div>
       )}
     </div>

@@ -43,6 +43,12 @@ export default function Grammar() {
         })}
       </div>
 
+      <Link to="/grammar/review" className="card gk-review-card">
+        <span className="gk-review-ico">🧠</span>
+        <div className="gk-review-text"><strong>Ôn thẻ ngữ pháp</strong><div className="small muted">{data.srsTotal ? `${data.srsTotal} bài trong thẻ ôn · ${data.dueCount} đến hạn` : 'Làm bài tập hoặc bấm "Thêm vào thẻ ôn" để bài vào thẻ'}</div></div>
+        {data.dueCount > 0 && <span className="badge">{data.dueCount}</span>}
+      </Link>
+
       {weak.length > 0 && (
         <div className="card gr-weak">
           <strong>⚠️ Cần ôn lại ({weak.length})</strong>
@@ -63,7 +69,7 @@ export default function Grammar() {
             <Link key={p.id} to={`/grammar/${p.id}`} className={`card gr-item ${status}`}>
               <span className="gr-num">{status === 'done' ? '✓' : i + 1}</span>
               <div className="gr-text">
-                <strong>{p.title}</strong> <span className={`muted small ${scriptClass(lang)}`}>{p.title_native}</span>
+                <strong>{p.emoji && `${p.emoji} `}{p.title}</strong> <span className={`muted small ${scriptClass(lang)}`}>{p.title_native}</span>
                 <div className="small muted">{p.summary_vi}</div>
               </div>
               <span className="small gr-score">{m ? `${m.best}%` : `${p.exercises} câu`}</span>

@@ -34,6 +34,11 @@ App học tiếng Anh / Trung / Nhật cho người Việt. Người dùng nói 
 - **Nét chữ**: kana dùng SVG KanjiVG đóng gói sẵn (`kana-strokes.json`, hoạt ảnh bằng `pathLength` + `stroke-dashoffset`; giấy phép CC BY-SA 3.0 ghi trong `DATA_LICENSES.md`). Hán tự dùng HanziWriter, dữ liệu tải từ CDN → cần mạng.
 - **Khu Bé học** (`/kids`, dưới 5 tuổi): hoàn toàn phía client, không đụng server; sao lưu ở `localStorage` (`langapp.kids.stars.<lang>`); âm thanh tổng hợp bằng WebAudio; từ vựng bằng emoji (`data/kids.js`); sai không bị phạt; giao diện luôn nền sáng bất kể theme.
 
+## Ngữ pháp trực quan
+- Mẹo nhớ + emoji + kiểu dòng thời gian của từng bài nằm ở `server/src/data/grammar/tips-<lang>.json` (khoá = id bài; server gộp vào bài khi nạp → **đổi file này cần restart server**). `timeline` chỉ nhận các giá trị trong `components/GrammarKit.jsx` (habit, past-result, future-near...).
+- `GrammarKit.jsx`: tách công thức thành khối màu theo vai trò (đoán bằng regex từ chuỗi `formula`), tô sáng từ cố định trong ví dụ, vẽ dòng thời gian SVG, tìm lỗi sai bằng LCS.
+- Thẻ ôn SM-2 theo bài: bảng `grammar_srs`, API `/grammar/review` (GET đến hạn, POST chấm, `/add`); bài tự vào thẻ khi làm bài tập; trang `/grammar/review` ghép ngẫu nhiên 3 dạng (công thức / bài nhỏ / sửa câu sai).
+
 ## Tính năng đã có
 Flashcard + SRS (SM-2), Quiz, Luyện phát âm, Luyện chữ Hán, Trò chơi từ vựng (Mưa từ, Đúng/Sai, Xếp chữ, Ghép thẻ), Chính tả, Dịch, Ngữ pháp (200 bài), Luyện viết, Đề TOEIC/IELTS, Lộ trình (Journey), Từ hay quên, Tìm từ, Bảng chữ cái & cách viết (Anh/Nhật/Trung), Bé học (xem hình & nghe, chọn đúng hình, bắn bóng bay), bảng xếp hạng, thông báo đẩy.
 
