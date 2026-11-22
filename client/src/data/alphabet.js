@@ -2,8 +2,11 @@
 
 // ---------- Tiếng Anh ----------
 // [chữ, tên đọc (gần đúng cho người Việt), IPA tên chữ, từ ví dụ, nghĩa, nguyên âm?]
-// Chữ viết ra để máy đọc đúng TÊN chữ (đọc "A" trơn có máy đọc thành "capital A")
-const SAY = "ay bee see dee ee eff gee aitch eye jay kay el em en oh pee cue are ess tee you vee double-you ex why zee".split(" ");
+// Chuỗi gửi cho giọng đọc để đọc đúng TÊN chữ:
+//  - Chữ hoa đứng riêng bị đọc "capital A" → không dùng chữ hoa.
+//  - Chuỗi không phải từ thật (ee, eff, el, em, en, ess) bị giọng đọc đánh vần từng chữ ("ee" → "E E") → dùng chữ thường đứng riêng (e, f, l...).
+//  - Riêng "a" thường bị đọc như mạo từ /ə/ → dùng "ay"; còn lại dùng từ thật đồng âm (bee, sea, eye, why...).
+const SAY = "ay bee see dee e f gee aitch eye jay kay l m n oh pee cue are s tee you vee double-you ex why zee".split(" ");
 export const EN_LETTERS = [
   ['A', 'ây', '/eɪ/', 'apple', 'quả táo', true], ['B', 'bi', '/biː/', 'book', 'quyển sách'],
   ['C', 'xi', '/siː/', 'cat', 'con mèo'], ['D', 'đi', '/diː/', 'dog', 'con chó'],
